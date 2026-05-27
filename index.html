@@ -5,57 +5,160 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bio-Preprint Impact Digest</title>
 <style>
-  body { max-width: 720px; margin: 1.5rem auto; padding: 0 1rem;
-         font-family: Georgia, serif; font-size: 1rem; line-height: 1.65; color: #111; }
-  h1 { font-size: 1.4rem; font-weight: bold; margin: 0 0 .1rem; }
-  h2 { font-size: 1rem; font-weight: normal; color: #555; margin: 0 0 1.2rem; }
-  h3 { font-size: 1rem; font-weight: bold; margin: 0; }
-  h3 a { color: #111; text-decoration: none; }
-  h3 a:hover { text-decoration: underline; }
-  p { margin: .4rem 0; }
-  blockquote { margin: .8rem 0 1rem; color: #444; font-style: italic;
-                border: none; padding: 0; background: none; }
-  code { font-family: monospace; font-size: .9em; color: #333; }
-  hr { border: none; border-top: 1px solid #ccc; margin: 1.2rem 0; }
-  a { color: #00e; }
-  a:visited { color: #551a8b; }
-  #header { border-bottom: 1px solid #000; padding-bottom: .5rem; margin-bottom: 1.2rem; }
-  #header p { margin: 0; font-size: .85rem; color: #555; }
-  footer { margin-top: 2rem; color: #888; font-size: .8rem; border-top: 1px solid #ccc; padding-top: .5rem; }
-  .meta { font-size: .85rem; color: #555; margin: .15rem 0 .5rem; }
+:root {
+  --navy:  #080e1e;
+  --navy2: #0d1627;
+  --navy3: #131f38;
+  --slate: #1e2d4a;
+  --amber: #f59e0b;
+  --amber2:#fbbf24;
+  --teal:  #14b8a6;
+  --smoke: #94a3b8;
+  --fog:   #cbd5e1;
+  --white: #f1f5f9;
+}
+body {
+  background: var(--navy); color: var(--fog);
+  max-width: 760px; margin: 2rem auto; padding: 0 1.5rem;
+  font-family: Georgia, serif; font-size: 1rem; line-height: 1.75;
+}
+h1  { color: var(--amber); font-size: 1.6rem; margin: 0 0 .15rem; }
+h2  { color: var(--smoke); font-size: 1rem; font-weight: normal; margin: 0 0 1rem; }
+a   { color: var(--teal); }
+a:visited { color: #a5b4fc; }
+p   { margin: .4rem 0; }
+code { font-family: monospace; font-size: .85em; color: var(--amber2); }
+hr  { border: none; border-top: 1px solid var(--slate); margin: 1.5rem 0; }
+
+#header { border-bottom: 2px solid var(--amber); padding-bottom: .8rem; margin-bottom: 1.8rem; }
+#header p { color: var(--smoke); font-size: .85rem; font-style: italic; margin: .4rem 0 0; }
+
+.section-title {
+  color: var(--amber); font-size: .9rem; font-weight: bold;
+  text-transform: uppercase; letter-spacing: .1em;
+  border-bottom: 1px solid var(--slate); padding-bottom: .3rem; margin: 2rem 0 .8rem;
+}
+/* Section 1 — TOC */
+.toc-list { list-style: none; padding: 0; counter-reset: toc; }
+.toc-list li {
+  counter-increment: toc; padding: .3rem 0;
+  border-bottom: 1px solid var(--navy3);
+}
+.toc-list li::before { content: counter(toc) ". "; color: var(--smoke); }
+.toc-list a { color: var(--amber2); text-decoration: none; }
+.toc-list a:hover { color: var(--amber); text-decoration: underline; }
+
+/* Section 2 — Summaries */
+.article {
+  background: var(--navy2); border-left: 3px solid var(--amber);
+  padding: 1rem 1.2rem; margin-bottom: 1.5rem; border-radius: 4px;
+}
+.article h3 { color: var(--white); font-size: 1rem; font-weight: bold; margin: 0 0 .3rem; }
+.article h3 a { color: var(--white); text-decoration: none; }
+.article h3 a:hover { color: var(--amber); text-decoration: underline; }
+.meta { font-size: .8rem; color: var(--smoke); margin: 0 0 .6rem; }
+.label { color: var(--amber2); font-weight: bold; }
+
+/* Section 3 — History */
+.history-list { list-style: none; padding: 0; }
+.history-list li {
+  padding: .35rem 0; border-bottom: 1px solid var(--navy3);
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+}
+.history-list a { color: var(--teal); text-decoration: none; }
+.history-list a:hover { color: var(--amber); text-decoration: underline; }
+.history-date { color: var(--smoke); font-size: .8rem; white-space: nowrap; }
+
+footer {
+  margin-top: 3rem; color: var(--smoke); font-size: .75rem;
+  border-top: 1px solid var(--slate); padding-top: .8rem; text-align: center;
+}
+
 </style>
 </head>
 <body>
-<div id="header"><h1>Bio-Preprint Impact Digest</h1>
-<h2>May 27, 2026 — 2 preprints selected</h2>
-<blockquote>
-<p>Daily digest of the highest-impact recent preprints in the biological sciences,
-ranked by semantic relevance, novelty, and methodological sophistication.</p>
-</blockquote></div>
-<h3>Previously Featured (last 5 digests)</h3>
-<ul>
-<li>Spatially resolved, multimodal in vivo Perturb-seq using antibody-based cell hashing</li>
-<li>dbGIST: An LLM-Assisted Multi-Omics Resource for Target Exploration and Cross-Dataset Validation in Gastrointestinal Stromal Tumors</li>
-<li>GenesetDiseaseDrugNetwork (GDDN): a web server for disease enrichment and drug prioritization</li>
-<li>Prioritizing peptides for targeted mass spectrometry experiments using deep learning</li>
-<li>Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</li>
+<div id="header">
+  <h1>Bio-Preprint Impact Digest</h1>
+  <h2>May 27, 2026 — 5 preprints selected</h2>
+  <p>Daily digest of the highest-impact recent preprints in the biological sciences,
+     ranked by semantic relevance, novelty, and methodological sophistication.</p>
+</div>
+
+<p class="section-title">Today's Papers</p>
+<ul class="toc-list">
+  <li><a href="#article-1">CryoARC: Atomic-resolution conformational landscapes of protein assemblies from cryo-EM single particles with evolutionary priors</a></li>
+  <li><a href="#article-2">ARGus: A Co-assembly workflow for MAG generation, ARG detection, and virulence analysis</a></li>
+  <li><a href="#article-3">Systematic prediction and functional analysis of amino acid residues determining product specificity in the plant oxidosqualene cyclase superfamily</a></li>
+  <li><a href="#article-4">Diploidy alters the path of fluconazole adaptation in C. glabrata</a></li>
+  <li><a href="#article-5">Nanostructured Zirconia thin films as neurogliomorphic interface for neural cells of central and peripheral nervous system</a></li>
 </ul>
-<hr />
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.05.24.727550v1">Invasive species undermine the bioark hypothesis in a low-latitude urban biodiversity hotspot</a></h3>
-<p>BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.24.727550">10.64898/2026.05.24.727550</a> · Score: <code>░░░░░░░░░░</code> 0.000</p>
-<p><strong>Core Problem:</strong> Urbanization often reduces local biodiversity, yet cities can maintain surprisingly high total species richness at broader spatial scales</p>
-<p><strong>Proposed Solution:</strong> This paradox has led to the cities-as-bioarks hypothesis, which proposes that protected remnant habitats within cities can function as refuges for native species. However, most evidence supporting this hypothesis comes from higher latitudes, and it remains unclear whether remnant habitats in low-latitude cities can serve the same role</p>
-<p><strong>Key Impact:</strong> These findings refine the bioark hypothesis by demonstrating that habitat protection alone may be insufficient to conserve insect diversity in warmer regions, and instead must be paired with active invasive species management</p>
-<p><strong>Methodology:</strong> Standard experimental and analytical methods techniques were central to the study design.</p>
-<hr />
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.25.727694v1">Population-specific drivers of reproductive phenology in a widespread large carnivore, the gray wolf</a></h3>
-<p>BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.25.727694">10.64898/2026.05.25.727694</a> · Score: <code>░░░░░░░░░░</code> 0.000</p>
-<p><strong>Core Problem:</strong> Animals often rely on cues from the environment to time reproduction with optimal conditions</p>
-<p><strong>Proposed Solution:</strong> However, for most species, which environmental cues are used and how their use varies across a species' distribution remains poorly understood. The gray wolf (Canis lupus) is found across a broad latitudinal range (12N to 83N) and diverse natural habitats, making them an ideal study species to explore these questions</p>
-<p><strong>Key Impact:</strong> Our work reveals populations may use different environmental cues to time reproduction, a characteristic that likely facilitates adaptation to diverse environments</p>
-<p><strong>Methodology:</strong> Standard experimental and analytical methods techniques were central to the study design.</p>
-<hr />
-<p><em>Generated 2026-05-27T06:33:06 UTC · Powered by Bio-Preprint Impact Digest pipeline</em></p>
-<footer>Generated 2026-05-27T06:33:06 UTC</footer>
+
+<hr>
+
+<div class="article" id="article-1">
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.05.25.727696v1">CryoARC: Atomic-resolution conformational landscapes of protein assemblies from cryo-EM single particles with evolutionary priors</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.25.727696">10.64898/2026.05.25.727696</a> · Score: <code>░░░░░░░░░░</code> 0.000</p>
+<p><span class="label">Core Problem:</span> Single-particle cryo-electron microscopy (cryo-EM) reveals structural heterogeneity in macromolecular complexes, but recovering continuous conformational landscapes at high resolution remains challenging</p>
+<p><span class="label">Proposed Solution:</span> Here, we introduce CryoARC, a deep learning framework that integrates evolutionary sequence representations with cryo-EM particle images to reconstruct continuous conformational ensembles at atomic resolution. CryoARC combines a latent representation of particle heterogeneity with a sequence-conditioned structure decoder inspired by protein structure prediction architectures, enabling direct prediction of particle-specific atomic structures</p>
+<p><span class="label">Key Impact:</span> fr/GruLab/CryoARC</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.22.727233v1">ARGus: A Co-assembly workflow for MAG generation, ARG detection, and virulence analysis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.22.727233">10.64898/2026.05.22.727233</a> · Score: <code>░░░░░░░░░░</code> 0.000</p>
+<p><span class="label">Core Problem:</span> The emergence of antibiotic resistance among pathogenic bacteria is a significant global health challenge with multidrug resistance becoming increasingly common</p>
+<p><span class="label">Proposed Solution:</span> Moreover, since antibiotic resistance genes (ARGs) can be transferred horizontally more bacteria are rapidly evolving resistance. In addition, emerging bacterial pathogens continue to arise from a combination of urbanization, animal agriculture, global movements of people, and inadequate sewage infrastructure</p>
+<p><span class="label">Key Impact:</span> This workflow provides a powerful approach for public health metagenomics studies of emerging pathogens and ARGs</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.05.26.727834v1">Systematic prediction and functional analysis of amino acid residues determining product specificity in the plant oxidosqualene cyclase superfamily</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.26.727834">10.64898/2026.05.26.727834</a> · Score: <code>░░░░░░░░░░</code> 0.000</p>
+<p><span class="label">Core Problem:</span> ** Predicting the specific product profile of oxidosqualene cyclases (OSCs) based solely on amino acid sequence remains a significant challenge in biochemistry.
+
+**</p>
+<p><span class="label">Proposed Solution:</span> ** The authors developed a structure-based computational framework that integrates differential conservation, physico-chemical properties, and binding pocket electrostatics to identify amino acid determinants governing OSC product specificity.
+
+**</p>
+<p><span class="label">Key Impact:</span> ** This work provides a detailed blueprint for engineering OSCs, enabling the precise, stepwise reprogramming of natural triterpene scaffolds for potential biotechnological applications.
+
+**</p>
+<p><span class="label">Methodology:</span> ** The study utilized molecular dynamics simulations to mechanistically support how subtle structural changes in the active site, specifically altering volume, water access, and proton-elimination chemistry, dictate product specificity.</p>
+</div>
+
+<div class="article" id="article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.05.22.727327v1">Diploidy alters the path of fluconazole adaptation in C. glabrata</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.22.727327">10.64898/2026.05.22.727327</a> · Score: <code>░░░░░░░░░░</code> 0.000</p>
+<p><span class="label">Core Problem:</span> The evolutionary pathways and genetic mechanisms by which *C. glabrata* adapts to fluconazole differ significantly between haploid and diploid states.</p>
+<p><span class="label">Proposed Solution:</span> The authors performed experimental evolution on both haploid and diploid strains of *C. glabrata* under fluconazole stress, tracking fitness changes and genetic mutations over many generations.</p>
+<p><span class="label">Key Impact:</span> This work reveals that the ploidy state dictates the adaptive strategy, demonstrating that diploids utilize distinct, complex genetic mechanisms (e.g., aneuploidy and specific gene combinations) compared to haploids to achieve high-level drug resistance.</p>
+<p><span class="label">Methodology:</span> The study utilized competitive fitness assays and tracked the emergence of specific aneuploidies (e.g., trisomies of chrF, chrG, chrI, and chrC) in response to escalating fluconazole concentrations.</p>
+</div>
+
+<div class="article" id="article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.05.26.727630v1">Nanostructured Zirconia thin films as neurogliomorphic interface for neural cells of central and peripheral nervous system</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.26.727630">10.64898/2026.05.26.727630</a> · Score: <code>░░░░░░░░░░</code> 0.000</p>
+<p><span class="label">Core Problem:</span> Recent advances in neuroscience have highlighted the central role of glial cells, particularly astrocytes, in regulating neural network activity through calcium-dependent neuron-glia communication</p>
+<p><span class="label">Proposed Solution:</span> In parallel, nanostructured cluster-assembled materials have emerged as promising candidates for developing brain-machine interfaces, because of their biomimetic morphology, mechanotransductive properties and neuromorphic behavior. Among these, nanostructured zirconium oxide (ns-ZrOx) thin films have recently demonstrated memristive and signal-processing capabilities compatible with biohybrid neural systems, yet their interaction with heterogeneous neuroglial networks remains poorly understood</p>
+<p><span class="label">Key Impact:</span> By bridging glial physiology with neuromorphic nanomaterials, this work supports the development of hybrid bioelectronic platforms integrating living neural networks with adaptive functional materials for brain-inspired computing and advanced neural interfaces</p>
+<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+</div>
+
+<hr>
+
+<p class="section-title">All Featured Articles</p>
+<ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.24.727550">Invasive species undermine the bioark hypothesis in a low-latitude urban biodiversity hotspot</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.25.727694">Population-specific drivers of reproductive phenology in a widespread large carnivore, the gray wolf</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.25.727765">Spatially resolved, multimodal in vivo Perturb-seq using antibody-based cell hashing</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.22.727292">dbGIST: An LLM-Assisted Multi-Omics Resource for Target Exploration and Cross-Dataset Validation in Gastrointestinal Stromal Tumors</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.22.727145">GenesetDiseaseDrugNetwork (GDDN): a web server for disease enrichment and drug prioritization</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.21.727053">Prioritizing peptides for targeted mass spectrometry experiments using deep learning</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
+</ul>
+
+<footer>Generated 2026-05-27T16:02:07 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
