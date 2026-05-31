@@ -79,71 +79,92 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>May 30, 2026 — 5 preprints selected</h2>
+  <h2>May 31, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">The Association Between Oral Microbiota and Chronic Obstructive Pulmonary Disease: An Integrated Study of Genetic Causal Inference and Bioinformatics Analysis</a></li>
-  <li><a href="#article-2">High-dimensional Characterization of Genome-Environment Fitness Landscapes in Klebsiella pneumoniae</a></li>
-  <li><a href="#article-3">Transcriptomic, Specific Marker, and Pathway Analysis of Smooth Muscle Cell Foam Cells Compared to Macrophage Foam Cells in Human Atherosclerosis</a></li>
-  <li><a href="#article-4">Local ancestry-aware genome-wide meta-analysis uncovers novel genetic loci for sickle cell disease nephropathy</a></li>
-  <li><a href="#article-5">Amplicon/Protein Bead Display enables quantitative in vitro biochemistry at scale</a></li>
+  <li><a href="#article-1">GPU accelerated population genetics statistics using pg_gpu</a></li>
+  <li><a href="#article-2">DanioDecima: A DNA sequence-to-function model of zebrafish embryogenesis</a></li>
+  <li><a href="#article-3">Epigenome Alterations and 3D Chromatin Architecture Remodeling in Inflammatory Macrophage Activation under Diabetic Conditions</a></li>
+  <li><a href="#article-4">Automated analysis of feeding dynamics from electromyographic recordings in a blood-sucking insect</a></li>
+  <li><a href="#article-5">Optical genome mapping identifies source-associated structural variant differences across early-passage human iPSCs</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2025.12.01.25341371v4">The Association Between Oral Microbiota and Chronic Obstructive Pulmonary Disease: An Integrated Study of Genetic Causal Inference and Bioinformatics Analysis</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2025.12.01.25341371">10.64898/2025.12.01.25341371</a> · Score: <code>████████░░</code> 0.814</p>
-<p><span class="label">Core Problem:</span> BackgroundChronic obstructive pulmonary disease (COPD) is the third leading cause of global mortality</p>
-<p><span class="label">Proposed Solution:</span> Emerging evidence suggests the oral microbiome may contribute to COPD progression, though causal relationships remain elusive. MethodsUsing bidirectional Mendelian randomization (MR) on East Asian genome-wide association study (GWAS) summary data, we assessed causal links between oral microbial taxa and COPD risk</p>
-<p><span class="label">Key Impact:</span> ConclusionOur study provides insights for the development of personalized treatment strategies for COPD and offers preliminary candidate targets and drugs for future drug development</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728868v1">GPU accelerated population genetics statistics using pg_gpu</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728868">10.64898/2026.05.29.728868</a> · Score: <code>██████░░░░</code> 0.672</p>
+<p><span class="label">Core Problem:</span> Population genetics summary statistics-- diversity, divergence, linkage disequilibrium, selection scans, and dimensionality reduction-- are fundamental across human, agricultural, and ecological genomics</p>
+<p><span class="label">Proposed Solution:</span> As whole-genome sequencing datasets have grown to hundreds of thousands of individuals, the cost of computing these statistics on conventional CPU implementations has become a major bottleneck: windowed scans of a single chromosome arm can take hours to days, and computation of pairwise linkage-disequilibrium statistics useful for demographic inference scales as O(n^2) in sample size, often exceeding wall-clock budgets entirely. We present pg_gpu, a Python library implementing a comprehensive catalog of population-genetics summary statistics as fused CUDA kernels on NVIDIA GPUs</p>
+<p><span class="label">Key Impact:</span> Whole chromosome arm scans, lostruct screens, and calculation of LD statistics complete on a single NVIDIA A100 in seconds to a few minutes</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.05.28.26354339v1">High-dimensional Characterization of Genome-Environment Fitness Landscapes in Klebsiella pneumoniae</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.05.28.26354339">10.64898/2026.05.28.26354339</a> · Score: <code>███████░░░</code> 0.710</p>
-<p><span class="label">Core Problem:</span> Background Bacterial fitness is shaped by interactions between genome variation and environmental context, yet how these interactions determine its predictability and heritability remains unclear</p>
-<p><span class="label">Proposed Solution:</span> In the clinically important pathogens of Klebsiella pneumoniae, a leading cause of hospital-acquired infections, this question is particularly pressing. Despite extensive genomic characterization, we still lack a systematic understanding of how genome-wide variation translates into fitness across diverse environments in K</p>
-<p><span class="label">Key Impact:</span> This work establishes a unified high-dimensional genotype-phenotype framework linking genomic variation to fitness across diverse conditions in a major pathogen, with broader implications for other pathogenic bacterial species</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728876v1">DanioDecima: A DNA sequence-to-function model of zebrafish embryogenesis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728876">10.64898/2026.05.29.728876</a> · Score: <code>██████░░░░</code> 0.636</p>
+<p><span class="label">Core Problem:</span> Deep learning DNA sequence-to-function models offer the promise of gaining mechanistic insights into genome regulation, however their performance is often limited by data scarcity in the species of interest</p>
+<p><span class="label">Proposed Solution:</span> We present DanioDecima, a zebrafish-specific model leveraging transfer learning from human and mouse-trained models to predict tissue- and cell-type-specific gene expression during zebrafish embryogenesis. Initializing DanioDecima with pretrained human and mouse Borzoi and Decima weights raises the median pseudobulk Pearson r substantially across cell-types and improves gene-level correlations of test set genes</p>
+<p><span class="label">Key Impact:</span> These findings exemplify a cross-species transfer learning methodology for sequence-to-function models, and position DanioDecima as a practical resource for zebrafish regulatory engineering</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.05.27.728334v1">Transcriptomic, Specific Marker, and Pathway Analysis of Smooth Muscle Cell Foam Cells Compared to Macrophage Foam Cells in Human Atherosclerosis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.27.728334">10.64898/2026.05.27.728334</a> · Score: <code>██████░░░░</code> 0.666</p>
-<p><span class="label">Core Problem:</span> BACKGROUND: Smooth muscle cells (SMCs) comprise the majority of cells in human atherosclerotic lesions and are thought to be a major source of cholesterol-overloaded foam cells in human and mouse atheromas</p>
-<p><span class="label">Proposed Solution:</span> However, the transcriptomic profile, specific markers, and biologic itinerary of SMC foam cells relative to macrophage foam cells remain poorly defined. METHODS: Single-cell RNA sequencing (scRNA-seq) was performed on fresh coronary artery segments from heart transplant recipients with early- to intermediate-stage atherosclerosis</p>
-<p><span class="label">Key Impact:</span> CONCLUSIONS: SMC foam cells, or lipomyocytes, represent a distinct foam cell phenotype with unique markers and biologic programs that differ from macrophage foam cells during atherosclerotic plaque development</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.05.27.727961v1">Epigenome Alterations and 3D Chromatin Architecture Remodeling in Inflammatory Macrophage Activation under Diabetic Conditions</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.27.727961">10.64898/2026.05.27.727961</a> · Score: <code>██████░░░░</code> 0.625</p>
+<p><span class="label">Core Problem:</span> ** The role of dynamic 3D chromatin reorganization in driving aberrant monocyte and macrophage activation during diabetic inflammation remains poorly understood.
+
+**</p>
+<p><span class="label">Proposed Solution:</span> ** The authors profiled gene expression and 3D chromatin architecture in human macrophages exposed to high glucose and TNF-$\alpha$ (HT) to map the epigenetic changes associated with a diabetic inflammatory state.
+
+**</p>
+<p><span class="label">Key Impact:</span> ** These findings reveal a disease-associated rewiring of the 3D epigenome, identifying specific chromatin interactions as potential therapeutic targets for mitigating chronic diabetic inflammation.
+
+**</p>
+<p><span class="label">Methodology:</span> ** The study employed integrated multi-Omics techniques to generate a comprehensive enhancer connectome map, detailing changes in chromatin accessibility, A/B compartments, and enhancer-promoter loops.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.05.27.26354213v1">Local ancestry-aware genome-wide meta-analysis uncovers novel genetic loci for sickle cell disease nephropathy</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.05.27.26354213">10.64898/2026.05.27.26354213</a> · Score: <code>██████░░░░</code> 0.664</p>
-<p><span class="label">Core Problem:</span> In the United States, sickle cell disease (SCD) is a rare inherited hemoglobinopathy affecting about 100,000 individuals, mostly with African ancestry</p>
-<p><span class="label">Proposed Solution:</span> SCD causes damage to multiple organ systems and SCD nephropathy (SCDN) is a common complication associated with early mortality. We previously performed a genome-wide association study (GWAS) for SCDN and identified a modest number of genome-wide significant loci</p>
-<p><span class="label">Key Impact:</span> This study represents the largest local ancestry-aware analysis of SCDN to date, furthers our understanding of the genetic risk factors underlying SCDN, and proposes new targets that could be useful for the early identification and treatment of kidney dysfunction in SCD patients</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728826v1">Automated analysis of feeding dynamics from electromyographic recordings in a blood-sucking insect</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728826">10.64898/2026.05.29.728826</a> · Score: <code>█████░░░░░</code> 0.589</p>
+<p><span class="label">Core Problem:</span> Feeding behavior in blood-sucking insects relies on gustatory evaluation to decide on sustained ingestion, yet quantifying this process from electromyogram (EMG) recordings is labor-intensive</p>
+<p><span class="label">Proposed Solution:</span> Here we developed MyoRec, an automated computational framework employing machine learning to analyse EMG signals from the triatomine bug Rhodnius prolixus. Using recordings under appetitive and aversive conditions, a convolutional neural network detected ingestion events with 97</p>
+<p><span class="label">Key Impact:</span> MyoRec substantially reduces analysis time while maintaining accuracy, providing a scalable tool to investigate how gustatory cues modulate feeding decisions in hematophagous insects</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.05.28.728566v1">Amplicon/Protein Bead Display enables quantitative in vitro biochemistry at scale</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.28.728566">10.64898/2026.05.28.728566</a> · Score: <code>██████░░░░</code> 0.647</p>
-<p><span class="label">Core Problem:</span> Scalable methods for producing and characterizing protein libraries are essential for generating standardized datasets needed to train models linking sequence to function</p>
-<p><span class="label">Proposed Solution:</span> Here, we present Amplicon/Protein Bead Display (APB-Display), which expresses and purifies &gt;100,000 protein variants in vitro in 1 day. APB-Display uses particle-templated emulsification to generate libraries of hydrogel beads that covalently display many copies of a given protein variant and its encoding DNA</p>
-<p><span class="label">Key Impact:</span> APB-Display requires only standard laboratory equipment and access to a FACS sorter, providing an accessible platform for quantitative in vitro biochemistry at scale</p>
-<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728843v1">Optical genome mapping identifies source-associated structural variant differences across early-passage human iPSCs</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728843">10.64898/2026.05.29.728843</a> · Score: <code>█████░░░░░</code> 0.580</p>
+<p><span class="label">Core Problem:</span> **
+The reprogramming of somatic cells into induced pluripotent stem cells (iPSCs) can introduce genomic structural variants (SVs), and current quality control methods lack the necessary resolution or sensitivity to comprehensively detect these complex, low-level changes.
+
+**</p>
+<p><span class="label">Proposed Solution:</span> **
+The authors compared iPSC clones derived from two different somatic sources—peripheral blood mononuclear cells (PBMCs) and fibroblasts (FBCs)—using Optical Genome Mapping (OGM) to determine if the starting cell type influences the structural variant burden and profile post-reprogramming.
+
+**</p>
+<p><span class="label">Key Impact:</span> **
+The differential SV profiles observed between PBMC-iPSCs and FBC-iPSCs underscore the critical need for high-resolution, clone-level genomic assessment using techniques like OGM before using iPSCs for downstream disease modeling or research applications.
+
+**</p>
+<p><span class="label">Methodology:</span> **
+The study utilized OGM, a technique that analyzes fluorescently labeled ultra-high-molecular-weight DNA to detect SVs at a resolution of approximately $\ge 2$ kbp, providing molecule-level evidence of copy-number and balanced rearrangements.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2025.12.01.25341371">The Association Between Oral Microbiota and Chronic Obstructive Pulmonary Disease: An Integrated Study of Genetic Causal Inference and Bioinformatics Analysis</a><span class="history-date">May 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.28.26354339">High-dimensional Characterization of Genome-Environment Fitness Landscapes in Klebsiella pneumoniae</a><span class="history-date">May 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.27.728334">Transcriptomic, Specific Marker, and Pathway Analysis of Smooth Muscle Cell Foam Cells Compared to Macrophage Foam Cells in Human Atherosclerosis</a><span class="history-date">May 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.27.26354213">Local ancestry-aware genome-wide meta-analysis uncovers novel genetic loci for sickle cell disease nephropathy</a><span class="history-date">May 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.28.728566">Amplicon/Protein Bead Display enables quantitative in vitro biochemistry at scale</a><span class="history-date">May 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.26.727810">TopOmics: Topic Modelling for All Omics</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.01.27.577580">nail: software for high-speed sequence annotation with profile hidden Markov models</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.09.07.25335273">Patient Experiences with Diagnostic Revision in Lymphoma: Analysis of Chinese Online Forum Narratives Using Natural Language Processing</a><span class="history-date">May 29, 2026</span></li>
@@ -170,6 +191,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-05-30T21:00:11 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-05-31T16:35:02 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
