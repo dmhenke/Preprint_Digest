@@ -79,87 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>May 31, 2026 — 5 preprints selected</h2>
+  <h2>June 01, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">GPU accelerated population genetics statistics using pg_gpu</a></li>
-  <li><a href="#article-2">DanioDecima: A DNA sequence-to-function model of zebrafish embryogenesis</a></li>
-  <li><a href="#article-3">Epigenome Alterations and 3D Chromatin Architecture Remodeling in Inflammatory Macrophage Activation under Diabetic Conditions</a></li>
-  <li><a href="#article-4">Automated analysis of feeding dynamics from electromyographic recordings in a blood-sucking insect</a></li>
-  <li><a href="#article-5">Optical genome mapping identifies source-associated structural variant differences across early-passage human iPSCs</a></li>
+  <li><a href="#article-1">AI-Guided Structure-Aware Modeling and Thermal Proteomics Reveal Direct Demethylzeylasteral-ACLY Interaction</a></li>
+  <li><a href="#article-2">Tumour architecture shapes polarized epithelial states that predict survival in high-grade serous ovarian cancer</a></li>
+  <li><a href="#article-3">Bridging Acoustic and Semantic Spaces for Interpretable Voice Scoring via Zero-Shot Semantic Expansion</a></li>
+  <li><a href="#article-4">Sensitive Glioma Detection and Recurrence Monitoring Using a Machine Learning Model Based on Circulating Monocytes</a></li>
+  <li><a href="#article-5">Assessing and Optimizing Low-Frequency Somatic Mutation Detection: A Multi-Platform High-Throughput Sequencing Perspective</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728868v1">GPU accelerated population genetics statistics using pg_gpu</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728868">10.64898/2026.05.29.728868</a> · Score: <code>██████░░░░</code> 0.672</p>
-<p><span class="label">Core Problem:</span> Population genetics summary statistics-- diversity, divergence, linkage disequilibrium, selection scans, and dimensionality reduction-- are fundamental across human, agricultural, and ecological genomics</p>
-<p><span class="label">Proposed Solution:</span> As whole-genome sequencing datasets have grown to hundreds of thousands of individuals, the cost of computing these statistics on conventional CPU implementations has become a major bottleneck: windowed scans of a single chromosome arm can take hours to days, and computation of pairwise linkage-disequilibrium statistics useful for demographic inference scales as O(n^2) in sample size, often exceeding wall-clock budgets entirely. We present pg_gpu, a Python library implementing a comprehensive catalog of population-genetics summary statistics as fused CUDA kernels on NVIDIA GPUs</p>
-<p><span class="label">Key Impact:</span> Whole chromosome arm scans, lostruct screens, and calculation of LD statistics complete on a single NVIDIA A100 in seconds to a few minutes</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.04.07.717093v2">AI-Guided Structure-Aware Modeling and Thermal Proteomics Reveal Direct Demethylzeylasteral-ACLY Interaction</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.07.717093">10.64898/2026.04.07.717093</a> · Score: <code>████████░░</code> 0.825</p>
+<p><span class="label">Core Problem:</span> Identifying the direct molecular targets of bioactive natural products remains a central challenge in chemical biology</p>
+<p><span class="label">Proposed Solution:</span> Here we present an integrated experimental-computational framework, that combines matrix-augmented thermal proteomics with HoloGNN, a holistic graph neural network, to systematically prioritize and validate protein-ligand interactions. Benchmarking with PDBbind datasets HoloGNN achieves state-of-the-art performance</p>
+<p><span class="label">Key Impact:</span> Together, this scalable, closed-loop strategy integrates thermal proteomics and machine learning to uncover direct targets of natural products and provides mechanistic evidence linking ACLY inhibition to therapeutic modulation of inflammatory pathology</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728876v1">DanioDecima: A DNA sequence-to-function model of zebrafish embryogenesis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728876">10.64898/2026.05.29.728876</a> · Score: <code>██████░░░░</code> 0.636</p>
-<p><span class="label">Core Problem:</span> Deep learning DNA sequence-to-function models offer the promise of gaining mechanistic insights into genome regulation, however their performance is often limited by data scarcity in the species of interest</p>
-<p><span class="label">Proposed Solution:</span> We present DanioDecima, a zebrafish-specific model leveraging transfer learning from human and mouse-trained models to predict tissue- and cell-type-specific gene expression during zebrafish embryogenesis. Initializing DanioDecima with pretrained human and mouse Borzoi and Decima weights raises the median pseudobulk Pearson r substantially across cell-types and improves gene-level correlations of test set genes</p>
-<p><span class="label">Key Impact:</span> These findings exemplify a cross-species transfer learning methodology for sequence-to-function models, and position DanioDecima as a practical resource for zebrafish regulatory engineering</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.27.727977v1">Tumour architecture shapes polarized epithelial states that predict survival in high-grade serous ovarian cancer</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.27.727977">10.64898/2026.05.27.727977</a> · Score: <code>███████░░░</code> 0.745</p>
+<p><span class="label">Core Problem:</span> Epithelial heterogeneity defines high-grade serous ovarian carcinoma (HGSC), yet principles that generate this diversity within and across tumours remain unclear</p>
+<p><span class="label">Proposed Solution:</span> Integrating single-cell RNA sequencing (scRNA-seq) data from 13 studies (1,980,703 cells, 371 samples), we resolve a dominant axis of secretory cell polarization spanning proliferative, progenitor-like SecA cells and quiescent SecB cells expressing a mucosal injury response program. Targeted spatial transcriptomics across 8 whole HGSC tissues and a 97-patient tissue microarray shows this axis is spatially deterministic: tumour architecture shapes a hypoxic gradient along which SecB cells localize to avascular, luminal regions, where HIF/NF-{kappa}B-driven survival and glycolysis displace the mitogenic signalling of SecA</p>
+<p><span class="label">Key Impact:</span> Tumour architecture is thus a primary axis of malignant identity in HGSC, coupling microenvironment, cell state, and immune niche to clinical outcomes</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.05.27.727961v1">Epigenome Alterations and 3D Chromatin Architecture Remodeling in Inflammatory Macrophage Activation under Diabetic Conditions</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.27.727961">10.64898/2026.05.27.727961</a> · Score: <code>██████░░░░</code> 0.625</p>
-<p><span class="label">Core Problem:</span> ** The role of dynamic 3D chromatin reorganization in driving aberrant monocyte and macrophage activation during diabetic inflammation remains poorly understood.
-
-**</p>
-<p><span class="label">Proposed Solution:</span> ** The authors profiled gene expression and 3D chromatin architecture in human macrophages exposed to high glucose and TNF-$\alpha$ (HT) to map the epigenetic changes associated with a diabetic inflammatory state.
-
-**</p>
-<p><span class="label">Key Impact:</span> ** These findings reveal a disease-associated rewiring of the 3D epigenome, identifying specific chromatin interactions as potential therapeutic targets for mitigating chronic diabetic inflammation.
-
-**</p>
-<p><span class="label">Methodology:</span> ** The study employed integrated multi-Omics techniques to generate a comprehensive enhancer connectome map, detailing changes in chromatin accessibility, A/B compartments, and enhancer-promoter loops.</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.05.29.26354442v1">Bridging Acoustic and Semantic Spaces for Interpretable Voice Scoring via Zero-Shot Semantic Expansion</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.26354442">10.64898/2026.05.29.26354442</a> · Score: <code>██████░░░░</code> 0.693</p>
+<p><span class="label">Core Problem:</span> Subjective auditory-perceptual evaluation and uninterpretable deep learning models limit the clinical assessment of voice disorders</p>
+<p><span class="label">Proposed Solution:</span> This study proposes a two-phase zero-shot framework to evaluate voice pathology. First, an Audio Spectrogram Transformer is fine-tuned on the Perceptual Voice Quality Database to generate an acoustic latent space</p>
+<p><span class="label">Key Impact:</span> By bridging acoustic and semantic latent spaces, this framework offers an objective, continuous, and transparent metric for evaluating voice quality using voice descriptive vocabulary</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728826v1">Automated analysis of feeding dynamics from electromyographic recordings in a blood-sucking insect</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728826">10.64898/2026.05.29.728826</a> · Score: <code>█████░░░░░</code> 0.589</p>
-<p><span class="label">Core Problem:</span> Feeding behavior in blood-sucking insects relies on gustatory evaluation to decide on sustained ingestion, yet quantifying this process from electromyogram (EMG) recordings is labor-intensive</p>
-<p><span class="label">Proposed Solution:</span> Here we developed MyoRec, an automated computational framework employing machine learning to analyse EMG signals from the triatomine bug Rhodnius prolixus. Using recordings under appetitive and aversive conditions, a convolutional neural network detected ingestion events with 97</p>
-<p><span class="label">Key Impact:</span> MyoRec substantially reduces analysis time while maintaining accuracy, providing a scalable tool to investigate how gustatory cues modulate feeding decisions in hematophagous insects</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.05.29.26354409v1">Sensitive Glioma Detection and Recurrence Monitoring Using a Machine Learning Model Based on Circulating Monocytes</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.26354409">10.64898/2026.05.29.26354409</a> · Score: <code>██████░░░░</code> 0.654</p>
+<p><span class="label">Core Problem:</span> Background: Non-invasive diagnosis, reliable recurrence surveillance remain critical unmet needs in gliomas</p>
+<p><span class="label">Proposed Solution:</span> Glioma induces profound systemic immune alterations despite its anatomical confinement to the central nervous system. Circulating immune cells, particularly monocytes, are key mediators of tumor-host crosstalk and may retain tumor-induced transcriptional imprints</p>
+<p><span class="label">Key Impact:</span> This blood-based diagnostic model provides non-invasive, scalable approach for glioma detection, recurrence surveillance, outcome prediction</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728843v1">Optical genome mapping identifies source-associated structural variant differences across early-passage human iPSCs</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.29.728843">10.64898/2026.05.29.728843</a> · Score: <code>█████░░░░░</code> 0.580</p>
-<p><span class="label">Core Problem:</span> **
-The reprogramming of somatic cells into induced pluripotent stem cells (iPSCs) can introduce genomic structural variants (SVs), and current quality control methods lack the necessary resolution or sensitivity to comprehensively detect these complex, low-level changes.
-
-**</p>
-<p><span class="label">Proposed Solution:</span> **
-The authors compared iPSC clones derived from two different somatic sources—peripheral blood mononuclear cells (PBMCs) and fibroblasts (FBCs)—using Optical Genome Mapping (OGM) to determine if the starting cell type influences the structural variant burden and profile post-reprogramming.
-
-**</p>
-<p><span class="label">Key Impact:</span> **
-The differential SV profiles observed between PBMC-iPSCs and FBC-iPSCs underscore the critical need for high-resolution, clone-level genomic assessment using techniques like OGM before using iPSCs for downstream disease modeling or research applications.
-
-**</p>
-<p><span class="label">Methodology:</span> **
-The study utilized OGM, a technique that analyzes fluorescently labeled ultra-high-molecular-weight DNA to detect SVs at a resolution of approximately $\ge 2$ kbp, providing molecule-level evidence of copy-number and balanced rearrangements.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.05.28.728367v1">Assessing and Optimizing Low-Frequency Somatic Mutation Detection: A Multi-Platform High-Throughput Sequencing Perspective</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.28.728367">10.64898/2026.05.28.728367</a> · Score: <code>██████░░░░</code> 0.628</p>
+<p><span class="label">Core Problem:</span> Systematic performance comparison of multiple short-read sequencing platforms is necessary, especially for challenging applications like detecting low-frequency somatic mutations.</p>
+<p><span class="label">Proposed Solution:</span> The authors generated a large-scale, multi-platform dataset using PosMix to simulate position-specific variant allele frequencies, and subsequently developed SomaticXGB, a machine learning caller to improve detection accuracy.</p>
+<p><span class="label">Key Impact:</span> This work provides a standardized, rich multi-platform data resource and a robust machine learning pipeline for optimizing the detection of low-frequency somatic mutations across diverse sequencing technologies.</p>
+<p><span class="label">Methodology:</span> The study employed SomaticXGB, a machine learning-based caller, which achieved high F1 scores (e.g., 0.92) on simulated datasets with VAFs ranging from 0.5% to 1.5%.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.29.728868">GPU accelerated population genetics statistics using pg_gpu</a><span class="history-date">May 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.728876">DanioDecima: A DNA sequence-to-function model of zebrafish embryogenesis</a><span class="history-date">May 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.27.727961">Epigenome Alterations and 3D Chromatin Architecture Remodeling in Inflammatory Macrophage Activation under Diabetic Conditions</a><span class="history-date">May 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.728826">Automated analysis of feeding dynamics from electromyographic recordings in a blood-sucking insect</a><span class="history-date">May 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.728843">Optical genome mapping identifies source-associated structural variant differences across early-passage human iPSCs</a><span class="history-date">May 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.01.25341371">The Association Between Oral Microbiota and Chronic Obstructive Pulmonary Disease: An Integrated Study of Genetic Causal Inference and Bioinformatics Analysis</a><span class="history-date">May 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.28.26354339">High-dimensional Characterization of Genome-Environment Fitness Landscapes in Klebsiella pneumoniae</a><span class="history-date">May 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.27.728334">Transcriptomic, Specific Marker, and Pathway Analysis of Smooth Muscle Cell Foam Cells Compared to Macrophage Foam Cells in Human Atherosclerosis</a><span class="history-date">May 30, 2026</span></li>
@@ -191,6 +180,6 @@ The study utilized OGM, a technique that analyzes fluorescently labeled ultra-hi
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-05-31T16:35:02 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-01T19:22:58 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
