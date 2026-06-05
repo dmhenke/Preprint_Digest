@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 04, 2026 — 5 preprints selected</h2>
+  <h2>June 05, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">ViTAMIn-O: Democratizing computer vision-based machine learning for stem cell research</a></li>
-  <li><a href="#article-2">Cell-specific regulatory circuits connect genetic variation to disease susceptibility</a></li>
-  <li><a href="#article-3">MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models</a></li>
-  <li><a href="#article-4">Data-Efficient Exploration of Enzyme Function Using Family-Specific Machine Learning</a></li>
-  <li><a href="#article-5">ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures</a></li>
+  <li><a href="#article-1">Proteomics-constrained deconvolution reveals spatial cell-type programs in tumours</a></li>
+  <li><a href="#article-2">Vibe Coding Specificity Foundation Models</a></li>
+  <li><a href="#article-3">Direct Detection and Atomic Modeling of Ligands in Cryo-EM Maps Using Deep Learning</a></li>
+  <li><a href="#article-4">Long-read RNA-seq resolves isoform-level and context-specific regulatory architecture of complex traits in cattle</a></li>
+  <li><a href="#article-5">Scalable in vivo cardiac functional genomics with compressed AAV-Perturb-seq reveals a common mitochondrial response to perturbation</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.01.726000v1">ViTAMIn-O: Democratizing computer vision-based machine learning for stem cell research</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.01.726000">10.64898/2026.06.01.726000</a> · Score: <code>███████░░░</code> 0.707</p>
-<p><span class="label">Core Problem:</span> Deep Learning (DL) holds exciting potential in automating the prediction of organoid differentiation results</p>
-<p><span class="label">Proposed Solution:</span> Nevertheless, current models lack adaptability, openness, and robustness in performance. Additionally, broad employments of predictive models in wet-lab settings necessitate machine learning expertise, often not readily available in biologically oriented laboratories</p>
-<p><span class="label">Key Impact:</span> By releasing our platform, centralized model hub, and datasets, we hope to encourage broader deployments of specialized DL models in stem-cell laboratories</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.01.729268v1">Proteomics-constrained deconvolution reveals spatial cell-type programs in tumours</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.01.729268">10.64898/2026.06.01.729268</a> · Score: <code>████████░░</code> 0.806</p>
+<p><span class="label">Core Problem:</span> Accurately resolving cell-type mixtures in spatial transcriptomics remains challenging, particularly in heterogeneous tumours where cell populations are intermixed and matched single-cell references may be unavailable or poorly aligned</p>
+<p><span class="label">Proposed Solution:</span> Current deconvolution approaches either require high-quality scRNA-seq references, suffer from scalability limitations, or lack interpretability. We introduce PISTACHIO, a proteomics-informed spatial transcriptomics deconvolution framework based on constrained non-negative matrix factorization with a negative-binomial likelihood</p>
+<p><span class="label">Key Impact:</span> Our approach remains robust under cell-type assignment errors, maintaining high correlation with ground-truth under moderate noise, and achieves fast runtime on standard hardware, enabling practical large-scale deployment</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.01.729215v1">Cell-specific regulatory circuits connect genetic variation to disease susceptibility</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.01.729215">10.64898/2026.06.01.729215</a> · Score: <code>███████░░░</code> 0.705</p>
-<p><span class="label">Core Problem:</span> Despite identifying thousands of genetic variants associated with immune diseases, most fall in non-coding regions, making the underlying regulatory mechanisms difficult to interpret.</p>
-<p><span class="label">Proposed Solution:</span> The authors generated single-cell multi-omics data integrating transcriptomic and chromatin accessibility information from peripheral blood mononuclear cells stimulated by *C. albicans* to map disease-relevant regulatory elements. They then applied network analysis (SCENIC+) and identified dual-acting QTLs that overlap both eQTLs and caQTLs.</p>
-<p><span class="label">Key Impact:</span> By identifying genetic variants that simultaneously affect chromatin accessibility and gene expression, this approach provides a robust framework for prioritizing causal regulatory targets implicated in immune disease risk.</p>
-<p><span class="label">Methodology:</span> The study leveraged SCENIC+ to identify regulatory triplets—linking transcription factors, their predicted binding sites, and target genes—and assessed which of these were under genetic control.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.04.730134v1">Vibe Coding Specificity Foundation Models</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.04.730134">10.64898/2026.06.04.730134</a> · Score: <code>███████░░░</code> 0.743</p>
+<p><span class="label">Core Problem:</span> Current methods for predicting molecular binding specificity rely on experimental screening or computational tools that lack general applicability across diverse biological recognition modalities.</p>
+<p><span class="label">Proposed Solution:</span> The authors developed a Specificity Foundation Model (SFM), a physics-derived neural network architecture, which uses dual sequence encoders and symmetric contrastive learning to predict binding compatibility scores between any agent and target pair using only their sequences.</p>
+<p><span class="label">Key Impact:</span> SFMs establish a powerful, unified computational framework that significantly augments the predictive power of molecular recognition across diverse fields, including immunology, gene regulation, and drug discovery.</p>
+<p><span class="label">Methodology:</span> The model leverages the mathematical identity between Transformer softmax attention and the Boltzmann distribution governing molecular binding to create a sequence-native architecture applicable without needing structural information.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.05.31.729117v1">MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.31.729117">10.64898/2026.05.31.729117</a> · Score: <code>██████░░░░</code> 0.693</p>
-<p><span class="label">Core Problem:</span> Clinical variant interpretation requires mechanism-aware evidence to guide diagnosis and clarify the biological consequences of mutations</p>
-<p><span class="label">Proposed Solution:</span> However, existing computational predictors and genomic foundation models largely function as black boxes, providing pathogenicity labels with limited mechanistic insight or clinical actionability. Here, we present MAGI (Mechanistic Annotation of Genomic Impacts), a novel method that bridges this interpretability gap by unifying clinically relevant variant interpretation with mechanistic genomic analysis</p>
-<p><span class="label">Key Impact:</span> In several cases, MAGI proposes alternative explanations that challenge existing annotations, providing transparent rationales and experimentally tractable predictions</p>
-<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.01.729423v1">Direct Detection and Atomic Modeling of Ligands in Cryo-EM Maps Using Deep Learning</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.01.729423">10.64898/2026.06.01.729423</a> · Score: <code>███████░░░</code> 0.724</p>
+<p><span class="label">Core Problem:</span> Cryogenic electron microscopy (cryo-EM) has become an increasingly important for structure-based drug discovery by enabling characterization of interactions between macromolecules and small-molecule ligands</p>
+<p><span class="label">Proposed Solution:</span> However, computational interpretation of ligand density remains challenging, particularly when ligand locations are unknown or local map resolution is limited. Existing methods generally require well-resolved macromolecular structures and predefined binding sites, limiting their applicability during early-stage structure determination</p>
+<p><span class="label">Key Impact:</span> Together, Emap2lig provides a unified framework for ligand discovery and modeling across a broad range of resolutions</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.02.729712v1">Data-Efficient Exploration of Enzyme Function Using Family-Specific Machine Learning</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.02.729712">10.64898/2026.06.02.729712</a> · Score: <code>██████░░░░</code> 0.692</p>
-<p><span class="label">Core Problem:</span> Enzymes are essential biocatalysts across diverse industries, driving demand for high-performing variants</p>
-<p><span class="label">Proposed Solution:</span> Foundation models are attractive for guiding enzyme discovery, but often lack the resolution to model subtle variations driving function within homologous families. Navigating these rugged functional landscapes to identify elite variants remains challenging and experimentally costly, even when guided by such models</p>
-<p><span class="label">Key Impact:</span> Together, these results highlight that machine learning can provide mechanistic insight, and that integrating targeted data acquisition with iterative machine learning provides a more data-efficient discovery strategy than relying on generic model scale</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.04.730050v1">Long-read RNA-seq resolves isoform-level and context-specific regulatory architecture of complex traits in cattle</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.04.730050">10.64898/2026.06.04.730050</a> · Score: <code>███████░░░</code> 0.713</p>
+<p><span class="label">Core Problem:</span> Traditional short-read RNA-seq lacks the resolution to fully capture full-length isoforms and complex alternative splicing, leaving a &quot;missing regulation&quot; gap in existing molecular atlases</p>
+<p><span class="label">Proposed Solution:</span> Here, we present a population-scale, multi-omics dissection of bovine complex traits using matched deep whole-genome sequencing (30), long-read (ONT) and short-read RNA-seq, as well as metabolome data from 432 dairy cows across four distinct lactation stages. We expanded the bovine transcript atlas with 13,177 novel isoforms and fine-mapped 1,088,900 regulatory effects across 11 diverse molecular phenotypes</p>
+<p><span class="label">Key Impact:</span> org) demonstrating that long-read transcriptomics is essential for resolving the complexity of regulatory mechanisms underlying mammalian physiology</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.05.31.729128v1">ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.31.729128">10.64898/2026.05.31.729128</a> · Score: <code>██████░░░░</code> 0.676</p>
-<p><span class="label">Core Problem:</span> Deep learning-based protein structure prediction methods have led to a paradigm-shift in computational structural biology, yet reliably assessing the quality of computationally predicted multimeric structures remains challenging</p>
-<p><span class="label">Proposed Solution:</span> Recent methods have demonstrated benefits of employing graph neural networks for assessing multimeric interfaces of protein complexes, but ignore geometric orientational features naturally occurring in 3-dimensional protein conformational space and act only on scalar weights. We present ORIGAMI, an orientation-aware graph neural network for assessing multimeric interfaces of protein complex structures that leverages both scalar and 3D vector node representations to perform symmetry-aware geometric operations while maintaining SO(3)-equivariance by capturing fine-grained orientational relationships between residues across protein-protein interfaces to estimate the interface Local Distance Difference Test (iLDDT) score</p>
-<p><span class="label">Key Impact:</span> com/Bhattacharya-Lab/ORIGAMI</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.01.729445v1">Scalable in vivo cardiac functional genomics with compressed AAV-Perturb-seq reveals a common mitochondrial response to perturbation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.01.729445">10.64898/2026.06.01.729445</a> · Score: <code>███████░░░</code> 0.709</p>
+<p><span class="label">Core Problem:</span> Efficient identification of new targets to treat human disease requires a scalable way to link genotype to phenotype directly in the target organ</p>
+<p><span class="label">Proposed Solution:</span> Pooled CRISPR screening with single-cell RNA sequencing as a readout (Perturb-seq) has emerged as a method for functional genomics but is typically applied in vitro and is limited in scale. Here, we combine in vivo Perturb-seq via adeno-associated virus (AAV)-mediated delivery with a statistical framework allowing for signal deconvolution after multiple random perturbations per cell (compressed Perturb-seq), to develop in vivo compressed AAV-Perturb-seq, a scalable way to perform high-throughput, cell-autonomous functional genomics in a desired target organ</p>
+<p><span class="label">Key Impact:</span> Broadly, our work establishes a platform to facilitate in vivo functional genomics in a target organ with direct applicability to identifying therapeutic targets for the treatment of human disease</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.06.01.726000">ViTAMIn-O: Democratizing computer vision-based machine learning for stem cell research</a><span class="history-date">Jun 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.01.729215">Cell-specific regulatory circuits connect genetic variation to disease susceptibility</a><span class="history-date">Jun 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.31.729117">MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models</a><span class="history-date">Jun 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.02.729712">Data-Efficient Exploration of Enzyme Function Using Family-Specific Machine Learning</a><span class="history-date">Jun 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.31.729128">ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures</a><span class="history-date">Jun 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.728087">A multimodal perturbation atlas defines the phenotypic resolution of cellular morphology.</a><span class="history-date">Jun 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.29.728882">Gigabase-scale deletion scanning of the human genome</a><span class="history-date">Jun 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.17.712366">Deciphering context-dependent epigenetic program by network-based prediction of clustered open regulatory elements from single-cell chromatin accessibility</a><span class="history-date">Jun 03, 2026</span></li>
@@ -195,6 +200,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-04T09:03:16 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-05T09:03:25 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
