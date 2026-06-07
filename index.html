@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 06, 2026 — 5 preprints selected</h2>
+  <h2>June 07, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering</a></li>
-  <li><a href="#article-2">Cellpin enables reference-based imputation and denoising of spatial transcriptomes</a></li>
-  <li><a href="#article-3">Reconstructing clone-resolved transcriptional programs from bulk tumor sequencing</a></li>
-  <li><a href="#article-4">Extrachromosomal DNA as a Causal Instrument for Spatial Multi-Omics</a></li>
-  <li><a href="#article-5">CarotidMamba: Foundation Model-Enabled CTA Phenotyping of Symptomatic Carotid Plaques in a Multi-Center Retrospective Study</a></li>
+  <li><a href="#article-1">Single-Cell Multi-Omics Dissection of Malignant Evolutionary Mechanisms and Construction of a Prognostic Model for Clear Cell Renal Cell Carcinoma</a></li>
+  <li><a href="#article-2">Expert-Guided Supervised Annotation of Erythroid Differentiation in Single-Cell RNA-seq</a></li>
+  <li><a href="#article-3">Cell type-centric interaction networks define spatial architecture of intrahepatic cholangiocarcinoma</a></li>
+  <li><a href="#article-4">VelOT: kinetic-free RNA velocity inference via optimal transport, flow-field smoothing, and VAMP coarse-graining of cellular dynamics</a></li>
+  <li><a href="#article-5">Compositional and interpretable representation of histology using AI foundation models and sparse autoencoders</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.01.06.697994v4">Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.01.06.697994">10.64898/2026.01.06.697994</a> · Score: <code>███████░░░</code> 0.721</p>
-<p><span class="label">Core Problem:</span> Therapeutic peptides occupy a unique middle ground in drug discovery, offering the high specificity of protein interactions with the chemical diversity of small molecules, yet they currently fall in a computational blind spot</p>
-<p><span class="label">Proposed Solution:</span> Existing foundation models cannot handle them effectively: protein models are restricted to natural amino acids, while chemical models struggle to process large, polymer-like sequences. This disconnect has forced the field to rely on static chemical descriptors that fail to capture subtle chemical details or on complex multi-embedding pipelines that are custom tailored to specific datasets</p>
-<p><span class="label">Key Impact:</span> Benchmarking results show strong performance versus prior methods for predicting development endpoints including membrane diffusion, biological function, and half life</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.04.730125v1">Single-Cell Multi-Omics Dissection of Malignant Evolutionary Mechanisms and Construction of a Prognostic Model for Clear Cell Renal Cell Carcinoma</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.04.730125">10.64898/2026.06.04.730125</a> · Score: <code>████████░░</code> 0.809</p>
+<p><span class="label">Core Problem:</span> Clear cell renal cell carcinoma (ccRCC) exhibits pronounced heterogeneity across WHO histological grades, yet systematic single-cell multi-omics studies characterizing these transitions remain limited</p>
+<p><span class="label">Proposed Solution:</span> We integrated scRNA-seq and scATAC-seq data across ccRCC WHO grades to establish a multi-omics framework encompassing tumor cells and immune populations. Using pseudotime trajectory analysis and machine learning ensembles, we developed a prognostic signature (CBG) from core nodes of transcriptional regulatory networks</p>
+<p><span class="label">Key Impact:</span> This study elucidates the dynamic molecular and immunological mechanisms underlying ccRCC grade progression, providing a robust framework for subtype-specific prognostication and precision therapeutic targeting</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.02.729566v1">Cellpin enables reference-based imputation and denoising of spatial transcriptomes</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.02.729566">10.64898/2026.06.02.729566</a> · Score: <code>███████░░░</code> 0.719</p>
-<p><span class="label">Core Problem:</span> Spatially resolved transcriptomics enables gene expression profiling within tissue architecture, but targeted panels leave much of the transcriptome unmeasured and spatial artifacts such as RNA diffusion and segmentation errors introduce technical noise</p>
-<p><span class="label">Proposed Solution:</span> These limitations necessitate computational imputation and denoising, yet existing methods typically incorporate spatial measurements during training, limiting scalability and risking the embedding of technology-specific artifacts into learned representations. To address this, we present cellpin, a variational autoencoder trained exclusively on single-cell RNA sequencing data, using teacher-student latent distillation and noise-simulating augmentations to jointly impute unmeasured genes and denoise spatial profiles without requiring cross-modality alignment</p>
-<p><span class="label">Key Impact:</span> In full-transcriptome Atera data, cellpin reduces residual spatial noise and improves cell-state resolution, providing a scalable and principled foundation for biological discovery from spatial transcriptomics data</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.05.730313v1">Expert-Guided Supervised Annotation of Erythroid Differentiation in Single-Cell RNA-seq</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.05.730313">10.64898/2026.06.05.730313</a> · Score: <code>███████░░░</code> 0.733</p>
+<p><span class="label">Core Problem:</span> Accurate annotation of intermediate cell states remains a major challenge in single-cell RNA sequencing (scRNA-seq), particularly in continuous differentiation systems such as erythropoiesis</p>
+<p><span class="label">Proposed Solution:</span> Existing reference-based methods often lack the resolution required to distinguish early and transitional erythroid progenitors and may generalise poorly across datasets and modalities. Here, we present a supervised framework for erythroid lineage annotation based on expert-curated training data that integrates bulk and single-cell transcriptomic information</p>
+<p><span class="label">Key Impact:</span> Together, these results show that expert-curated supervised learning can improve erythroid cell state annotation in scRNA-seq and provide a practical framework for studying differentiation hierarchies in settings where finely resolved public references are limited</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.01.15.699695v3">Reconstructing clone-resolved transcriptional programs from bulk tumor sequencing</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.01.15.699695">10.64898/2026.01.15.699695</a> · Score: <code>███████░░░</code> 0.701</p>
-<p><span class="label">Core Problem:</span> Tumor clones acquire distinct transcriptional programs as they evolve, but bulk RNA-seq averages over clonal mixtures and obscures the lineage-specific biology that DNA-sequencing reveals</p>
-<p><span class="label">Proposed Solution:</span> We present PICTographPlus, the first method to infer clone-resolved transcriptional programs by integrating bulk DNA-derived clonal phylogenies and proportions with bulk RNA-seq alone, without single-cell data. Benchmarked against experimentally measured ground truth, scDNA/scRNA co-profiled cells from a wellDR-seq cancer dataset, across 320 pseudo-bulk replicates spanning four tumor purities and four sample counts and evaluated under seven regularization models, PICTographPlus recovers clone-level expression at mean Pearson r [&amp;ge;] 0</p>
-<p><span class="label">Key Impact:</span> PICTographPlus turns standard bulk assays into clone-resolved transcriptional maps, enabling retrospective analyses where single-cell profiling is impractical</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.02.729644v1">Cell type-centric interaction networks define spatial architecture of intrahepatic cholangiocarcinoma</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.02.729644">10.64898/2026.06.02.729644</a> · Score: <code>███████░░░</code> 0.710</p>
+<p><span class="label">Core Problem:</span> Tumor spatial organization critically shapes disease progression and therapeutic response, yet remains poorly defined</p>
+<p><span class="label">Proposed Solution:</span> Intrahepatic cholangiocarcinoma (iCCA), a rare and aggressive liver malignancy with extensive stromal and immune remodeling, provides a compelling model to study tumor architecture. We generated a single-cell spatial atlas of 1 million cells from 131 iCCA patients using 53-plex spatial proteomics</p>
+<p><span class="label">Key Impact:</span> Together, this study defines the spatial architecture of iCCA and provides a comprehensive resource for exploring tumor spatial organization</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.02.729483v1">Extrachromosomal DNA as a Causal Instrument for Spatial Multi-Omics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.02.729483">10.64898/2026.06.02.729483</a> · Score: <code>██████░░░░</code> 0.669</p>
-<p><span class="label">Core Problem:</span> Spatial transcriptomics, multiplex imaging, and computational pathology now map tissue organization at cellular resolution, but the analyses applied to these data remain correlational</p>
-<p><span class="label">Proposed Solution:</span> Clustering and co-occurrence statistics describe which features appear together; they cannot say which feature drives the others. We propose a framework for causal inference in spatial multi-omics built on a specific feature of extrachromosomal DNA (ecDNA)</p>
-<p><span class="label">Key Impact:</span> The framework recovers known oncogene-to-phenotype effects from simulated data, and we outline its application to real tumor sections, including multi-instrument settings where independent ecDNA species carrying different oncogenes enable factorial designs within a single tumor</p>
-<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.04.730132v1">VelOT: kinetic-free RNA velocity inference via optimal transport, flow-field smoothing, and VAMP coarse-graining of cellular dynamics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.04.730132">10.64898/2026.06.04.730132</a> · Score: <code>███████░░░</code> 0.704</p>
+<p><span class="label">Core Problem:</span> Inferring cellular dynamics from snapshot single-cell RNA sequencing remains difficult when spliced and unspliced counts are sparse or unreliable</p>
+<p><span class="label">Proposed Solution:</span> We present VelOT, a kinetic-free RNA velocity framework that formulates dynamics as local optimal transport on the gene-expression manifold. VelOT orders cells by diffusion pseudotime, constructs overlapping spatial-temporal windows, estimates displacement vectors with entropy-regularized transport, and smooths them with a lightweight neural flow field</p>
+<p><span class="label">Key Impact:</span> VelOT reframes RNA velocity within scRNA-seq as a geometry and transport problem that does not require kinetic modeling</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.06.02.26354776v1">CarotidMamba: Foundation Model-Enabled CTA Phenotyping of Symptomatic Carotid Plaques in a Multi-Center Retrospective Study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.06.02.26354776">10.64898/2026.06.02.26354776</a> · Score: <code>██████░░░░</code> 0.654</p>
-<p><span class="label">Core Problem:</span> Current clinical decisions regarding carotid atherosclerotic disease rely primarily on measurable luminal stenosis, despite plaque vulnerability and symptomatic status being better predictors of short-term cerebrovascular risk.</p>
-<p><span class="label">Proposed Solution:</span> The authors developed CarotidMamba, a deep learning framework, to automatically phenotype symptomatic carotid plaques using CTA images, thereby moving assessment beyond simple degree of stenosis.</p>
-<p><span class="label">Key Impact:</span> This validated tool provides an interpretable, non-invasive method for assessing plaque vulnerability in symptomatic patients, improving the risk stratification of cerebral vascular disease.</p>
-<p><span class="label">Methodology:</span> The framework utilizes a novel combination of dual foundation-model encoders with Mamba-based sequence modeling to achieve superior performance and calibration compared to standard CNN or transformer architectures.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.03.725182v1">Compositional and interpretable representation of histology using AI foundation models and sparse autoencoders</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.03.725182">10.64898/2026.06.03.725182</a> · Score: <code>██████░░░░</code> 0.696</p>
+<p><span class="label">Core Problem:</span> Light microscopy of tissue sections stained with hematoxylin and eosin (H&amp;E) has been the foundation of histopathology for over 150 years and remains essential for diagnosis and research</p>
+<p><span class="label">Proposed Solution:</span> The development of high-plex spatial profiling approaches able to measure protein and RNA expression at single-cell resolution augments but does not replace H&amp;E imaging, even in research. Computational pathology (CPath) models based on deep learning promise to further increase the value of H&amp;E imaging but interpreting these models in biological terms remains challenging</p>
+<p><span class="label">Key Impact:</span> Moreover, the resulting annotations provide a morphology-aware approach to integrating 2D and 3D mesoscale tissue architectures with molecular spatial profiling</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.01.06.697994">Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering</a><span class="history-date">Jun 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.02.729566">Cellpin enables reference-based imputation and denoising of spatial transcriptomes</a><span class="history-date">Jun 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.01.15.699695">Reconstructing clone-resolved transcriptional programs from bulk tumor sequencing</a><span class="history-date">Jun 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.02.729483">Extrachromosomal DNA as a Causal Instrument for Spatial Multi-Omics</a><span class="history-date">Jun 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.02.26354776">CarotidMamba: Foundation Model-Enabled CTA Phenotyping of Symptomatic Carotid Plaques in a Multi-Center Retrospective Study</a><span class="history-date">Jun 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.729268">Proteomics-constrained deconvolution reveals spatial cell-type programs in tumours</a><span class="history-date">Jun 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.04.730134">Vibe Coding Specificity Foundation Models</a><span class="history-date">Jun 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.729423">Direct Detection and Atomic Modeling of Ligands in Cryo-EM Maps Using Deep Learning</a><span class="history-date">Jun 05, 2026</span></li>
@@ -205,6 +210,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-06T09:03:08 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-07T09:03:10 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
