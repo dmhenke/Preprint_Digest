@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 11, 2026 — 5 preprints selected</h2>
+  <h2>June 13, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">HOMED enables hierarchical and multimodal optimization of DNA methylation deconvolution across tissues</a></li>
-  <li><a href="#article-2">HoloCell: A Generative Foundation Model for Holistic Cellular Modeling</a></li>
-  <li><a href="#article-3">Active Learning-Guided Peptide Design for Modulating Condensate Properties upon Recruitment</a></li>
-  <li><a href="#article-4">Combinatorial docking and molecular generation to navigate over 100-billion molecules for prospective ligand discovery</a></li>
-  <li><a href="#article-5">Single-Cell and Tissue-Specific CRISPR Editing Analyses Unveil New Insights to Off-Targets and Translocations</a></li>
+  <li><a href="#article-1">Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development</a></li>
+  <li><a href="#article-2">Deciphering cross-omics complexity of tissues via diagonal integration of unpaired spatial multi-omics data</a></li>
+  <li><a href="#article-3">MAHLER: Integrating Metadynamics and Inverse Folding to Predict Antibody-Antigen Kinetics</a></li>
+  <li><a href="#article-4">A Graph-based QSAR Modeling Pipeline for Predicting In vitro PubChem Assays and In vivo Human Hepatotoxicity: Mechanistic Analysis of Caspase-3/7 Activation</a></li>
+  <li><a href="#article-5">PeptiDIA: A Machine Learning Framework for Enhanced Peptide Identification in Fast-Gradient Data-Independent Acquisition Proteomics</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.08.730896v1">HOMED enables hierarchical and multimodal optimization of DNA methylation deconvolution across tissues</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.08.730896">10.64898/2026.06.08.730896</a> · Score: <code>███████░░░</code> 0.751</p>
-<p><span class="label">Core Problem:</span> Cellular heterogeneity is a major confounder in bulk DNA methylation data for epigenome-wide association studies</p>
-<p><span class="label">Proposed Solution:</span> Existing reference-based DNAm deconvolution methods often ignore hierarchies among related cell types and may generalize poorly across datasets due to limited variability in reference profiles. We developed HOMED (Hierarchically Optimized Methylation Deconvolution), a framework that integrates cell-lineage hierarchies, single-cell RNA sequencing-guided deconvolution, and paired bulk RNA-seq/DNAm data for CpG signature optimization</p>
-<p><span class="label">Key Impact:</span> Across simulated and real peripheral blood mononuclear cell, lung, and placental datasets, HOMED consistently yielded the highest PCCs and lowest RMSEs, outperforming existing scRNA-seq-guided DNAm deconvolution methods, improving accuracy, resolution, and cross-tissue generalizability</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.06.11.26355452v1">Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.26355452">10.64898/2026.06.11.26355452</a> · Score: <code>███████░░░</code> 0.787</p>
+<p><span class="label">Core Problem:</span> Foveal hypoplasia causes visual impairment across congenital eye disorders, yet the genetic programmes governing foveal development remain poorly characterised and no tractable model exists for foveal disease</p>
+<p><span class="label">Proposed Solution:</span> In the first genome-wide association study of foveal hypoplasia, we identified 42 sentinel variants mapping to 54 effector genes supported by &gt;= 2 criteria from a variant-to-gene framework incorporating developmental multi-omics. Disruption of six effector genes using mutant lines and CRISPR knockouts in the zebrafish high acuity zone recapitulates structural, functional, and ultrastructural hallmarks of foveal hypoplasia, establishing the first vertebrate disease model</p>
+<p><span class="label">Key Impact:</span> These findings should inform mechanistic studies of macular disease</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1">HoloCell: A Generative Foundation Model for Holistic Cellular Modeling</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.07.730684">10.64898/2026.06.07.730684</a> · Score: <code>███████░░░</code> 0.731</p>
-<p><span class="label">Core Problem:</span> Developing a unified computational framework that can seamlessly integrate diverse single-cell omics modalities (epigenomic, transcriptomic, and proteomic) while remaining robust to missing data is highly challenging.</p>
-<p><span class="label">Proposed Solution:</span> The authors introduce HoloCell, the first generative foundation model designed for joint representation learning across all three major single-cell omics layers using a massive pretraining corpus. This model uses a shared framework that treats cis-regulatory elements, genes, and proteins as structured tokens.</p>
-<p><span class="label">Key Impact:</span> HoloCell provides a versatile digital mapping of cellular states, enabling both systematic characterization and generative simulation necessary for building a comprehensive &quot;virtual cell&quot; model.</p>
-<p><span class="label">Methodology:</span> The model employs a biologically grounded hierarchical tokenization strategy combined with an iterative diffusion and remasking framework to account for the inherently unordered nature of biological features during generation.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.09.730286v1">Deciphering cross-omics complexity of tissues via diagonal integration of unpaired spatial multi-omics data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.09.730286">10.64898/2026.06.09.730286</a> · Score: <code>███████░░░</code> 0.719</p>
+<p><span class="label">Core Problem:</span> Recent spatial multi-omics technologies enable the simultaneous in situ profiling of multiple omics modalities on the same tissue section; however, they face challenges in experimental complexity and high costs</p>
+<p><span class="label">Proposed Solution:</span> This technical limitation can be circumvented by diagonal integration methods, which integrate omics data from different modalities. However, existing single-cell diagonal integration approaches overlook spatial information, causing unreliable anchoring across omics layers</p>
+<p><span class="label">Key Impact:</span> In addition, the integration capability of STAMO can be further used to achieve cross-omics generation, offering a solution for exploring spatial region-specific gene regulatory mechanisms</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.06.730477v1">Active Learning-Guided Peptide Design for Modulating Condensate Properties upon Recruitment</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.06.730477">10.64898/2026.06.06.730477</a> · Score: <code>██████░░░░</code> 0.696</p>
-<p><span class="label">Core Problem:</span> The physical properties of biomolecular condensates, which form through phase separation, are central to their organisation and function and are increasingly implicated in disease mechanisms, including neurodegenerative disorders</p>
-<p><span class="label">Proposed Solution:</span> To function correctly, condensates often recruit client biomolecules such as peptides and RNAs. This recruitment is not only essential to condensate biology but also offers an opportunity to engineer clients that tune the material properties of the condensate</p>
-<p><span class="label">Key Impact:</span> Overall, this physics-based, learning-guided framework offered a computational approach to exploring how peptides can be engineered to influence condensate properties, and may inform the rational design of synthetic</p>
-<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731383v1">MAHLER: Integrating Metadynamics and Inverse Folding to Predict Antibody-Antigen Kinetics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.10.731383">10.64898/2026.06.10.731383</a> · Score: <code>███████░░░</code> 0.708</p>
+<p><span class="label">Core Problem:</span> Binding kinetics are crucial for antibody function, shaping pharmacokinetics and in vivo efficacy beyond what equilibrium affinity captures</p>
+<p><span class="label">Proposed Solution:</span> We present &quot;Metadynamics-Anchored Hybrid Learning for Engineering off-Rates (MAHLER)&quot;, a fully open-source machine learning/physics hybrid method that predicts relative antibody-antigen residence times at scale. Incorporating inverse-folding models into molecular dynamics simulations, MAHLER shows first-in-class screening-grade accuracy in calculating relative antibody-antigen dissociation kinetics across a family of point mutants</p>
+<p><span class="label">Key Impact:</span> This provides practical kinetics-aware complement to current computational design approaches that focus primarily on binding affinity for antibody-antigen complexes</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.07.730716v1">Combinatorial docking and molecular generation to navigate over 100-billion molecules for prospective ligand discovery</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.07.730716">10.64898/2026.06.07.730716</a> · Score: <code>██████░░░░</code> 0.692</p>
-<p><span class="label">Core Problem:</span> Commercially available make-on-demand libraries now exceed 100 billion compounds, requiring over 50 years to screen on 2,000 CPU cores using conventional docking</p>
-<p><span class="label">Proposed Solution:</span> We present two complementary approaches to address this challenge. CombiDOCK, a combinatorial docking framework, enables exhaustive screening at the 100-billion scale within 40 days</p>
-<p><span class="label">Key Impact:</span> These methods provide exhaustive and generative paths for navigating the trillion-molecule frontier of drug discovery</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731399v1">A Graph-based QSAR Modeling Pipeline for Predicting In vitro PubChem Assays and In vivo Human Hepatotoxicity: Mechanistic Analysis of Caspase-3/7 Activation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.10.731399">10.64898/2026.06.10.731399</a> · Score: <code>██████░░░░</code> 0.679</p>
+<p><span class="label">Core Problem:</span> Accurately and rapidly predicting the complex mechanisms of chemical toxicity—specifically those involving both mitochondrial membrane potential collapse and Caspase-3/7 activation—remains a significant challenge for environmental risk assessment.</p>
+<p><span class="label">Proposed Solution:</span> The authors developed a comprehensive Quantitative Structure-Activity Relationship (QSAR) pipeline that integrates advanced machine learning models, including Graph Transformers (GTs) and Graph Neural Networks (GNNs), to predict both Caspase activity and mitochondrial membrane potential disruption using molecular graph representations.</p>
+<p><span class="label">Key Impact:</span> This framework significantly advances predictive toxicology by providing a robust tool capable of assessing multiple, interconnected endpoints—from basic cellular assays to complex human liver injury (DILI)—using structural information alone.</p>
+<p><span class="label">Methodology:</span> The pipeline leverages the inherent topological information of molecules via molecular graphs and employs consensus ensembles of advanced graph models (GTs/GNNs) to enhance predictive accuracy across diverse data imbalance scenarios.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.04.13.718115v2">Single-Cell and Tissue-Specific CRISPR Editing Analyses Unveil New Insights to Off-Targets and Translocations</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.13.718115">10.64898/2026.04.13.718115</a> · Score: <code>██████░░░░</code> 0.687</p>
-<p><span class="label">Core Problem:</span> CRISPR-Cas9 holds promise for treating genetic disease, but rare off-target mutations and structural variants remain as key safety concerns, especially at scales relevant to therapy</p>
-<p><span class="label">Proposed Solution:</span> We established workflows to resolve Cas9 off-target activity in vitro at single-cell resolution and in vivo across different tissues. Using clonally expanded electroporated mouse embryos and embryonic stem cells, we reveal that individual cells exhibit unique off-target and translocation profiles, including events missed in bulk analyses</p>
-<p><span class="label">Key Impact:</span> These findings demonstrate that off-target activity is heterogeneous across cells and context-dependent across organs, motivating sensitive single-cell analyses and organ-specific evaluation in preclinical development to more accurately assess risk and improve the safety of CRISPR-based genomic medicines</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731224v1">PeptiDIA: A Machine Learning Framework for Enhanced Peptide Identification in Fast-Gradient Data-Independent Acquisition Proteomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.10.731224">10.64898/2026.06.10.731224</a> · Score: <code>██████░░░░</code> 0.672</p>
+<p><span class="label">Core Problem:</span> Data-independent acquisition (DIA) mass spectrometry has become increasingly prevalent in proteomics as advances in instrumentation, chromatography, and computational analysis have enabled robust proteome identification across complex biological samples</p>
+<p><span class="label">Proposed Solution:</span> However, analytical depth achieved with fast chromatographic gradients remains lower than that obtained using long-gradients, reflecting a throughput-depth trade-off. Here, we present PeptiDIA, a machine learning framework that enhances peptide identification in fast-gradient DIA data by leveraging paired fast and long-gradient acquisitions from identical samples</p>
+<p><span class="label">Key Impact:</span> com/Jordano700/PeptiDIA</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.06.08.730896">HOMED enables hierarchical and multimodal optimization of DNA methylation deconvolution across tissues</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.07.730684">HoloCell: A Generative Foundation Model for Holistic Cellular Modeling</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.06.730477">Active Learning-Guided Peptide Design for Modulating Condensate Properties upon Recruitment</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.07.730716">Combinatorial docking and molecular generation to navigate over 100-billion molecules for prospective ligand discovery</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.13.718115">Single-Cell and Tissue-Specific CRISPR Editing Analyses Unveil New Insights to Off-Targets and Translocations</a><span class="history-date">Jun 11, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.08.29.671515">Microbial Named Entity Recognition and Normalisation for AI-assisted Literature Review and Meta-Analysis</a><span class="history-date">Jun 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.04.730032">Multi-modal comparison of primary and stem cell-derived β-cells nominates targets for maturation</a><span class="history-date">Jun 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.05.730086">Enhancer-gene regulatory interactions in colorectal cancer revealed through genome-wide CRISPRi perturbations</a><span class="history-date">Jun 10, 2026</span></li>
@@ -235,6 +240,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-11T09:03:29 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-13T09:03:18 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
