@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 14, 2026 — 5 preprints selected</h2>
+  <h2>June 15, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">ADMETron: An AI-driven SaaS platform for comprehensive ADMET prediction and compound prioritisation</a></li>
-  <li><a href="#article-2">Integrative metabolome-genome analysis reveals the genetic architecture of metabolic diversity in sorghum grain</a></li>
-  <li><a href="#article-3">Genome-wide association study in Brazil identifies genetic susceptibility to tuberculosis with single-cell gene effects</a></li>
-  <li><a href="#article-4">Dual Developmental Origins and Activity-dependent Specification of Mammalian Subplate Neurons</a></li>
-  <li><a href="#article-5">MoE-Bind: Guiding De Novo Protein Binder Generation with Sparse Experts</a></li>
+  <li><a href="#article-1">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a></li>
+  <li><a href="#article-2">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a></li>
+  <li><a href="#article-3">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a></li>
+  <li><a href="#article-4">Robust integration of weakly anchored spatial multi-omics</a></li>
+  <li><a href="#article-5">TopoMIL: Topology Improves Multiple Instance Learning in Diagnostic Microscopic Images</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.13.732026v1">ADMETron: An AI-driven SaaS platform for comprehensive ADMET prediction and compound prioritisation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.13.732026">10.64898/2026.06.13.732026</a> · Score: <code>██████░░░░</code> 0.676</p>
-<p><span class="label">Core Problem:</span> ONTOSIGHT(R) ADMETron is an AI-driven platform designed for rapid prediction and visualization of Absorption, Distribution, Metabolism, Excretion, and Toxicity (ADMET) properties to support modern drug discovery</p>
-<p><span class="label">Proposed Solution:</span> The platform integrates an interactive web interface with a scalable predictive engine, enabling high-throughput virtual screening and batch analysis of chemical compounds. Its core architecture combines recurrent neural network (RNN)-derived molecular embeddings from SMILES representations with physicochemical descriptors, which are subsequently modeled using gradient boosting machines (GBMs)</p>
-<p><span class="label">Key Impact:</span> ai/)</p>
-<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.13.732049v1">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.13.732049">10.64898/2026.06.13.732049</a> · Score: <code>███████░░░</code> 0.742</p>
+<p><span class="label">Core Problem:</span> Predicting the efficacy of chemically modified small interfering RNAs (siRNAs) is challenging due to limited public data and the inability of current machine learning models to effectively model chemical diversity.</p>
+<p><span class="label">Proposed Solution:</span> The authors developed FENNEC, a novel deep learning framework that combines temporal convolutional networks with thermodynamic descriptors and large-scale embeddings derived from RNA foundation models to predict siRNA activity across diverse chemical modifications.</p>
+<p><span class="label">Key Impact:</span> This tool enables rational, chemically aware design of therapeutic siRNAs, accelerating the preclinical development process by predicting performance for novel molecular structures.</p>
+<p><span class="label">Methodology:</span> FENNEC integrates language-model-derived embeddings alongside classical descriptors to capture both local chemical determinants and broader target-context information in a unified predictive architecture.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2025.10.14.682411v3">Integrative metabolome-genome analysis reveals the genetic architecture of metabolic diversity in sorghum grain</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.10.14.682411">10.1101/2025.10.14.682411</a> · Score: <code>██████░░░░</code> 0.654</p>
-<p><span class="label">Core Problem:</span> Natural variation in the grain metabolome plays a central role in shaping nutritional quality and end-use traits in grass crops</p>
-<p><span class="label">Proposed Solution:</span> Understanding the genetic basis of this metabolic diversity is therefore essential, yet population-scale integration of metabolomics and genomics remains limited in sorghum, a climate-resilient C4 crop renowned for its exceptional heat and drought tolerance. Here, we integrated large-scale untargeted metabolomic profiling, population genomics, and artificial intelligence (AI)-based machine learning to systematically dissect grain metabolic diversity and its genetic architecture in sorghum</p>
-<p><span class="label">Key Impact:</span> This resource enables integrated metabolomics and genomic analyses and supports systems-level breeding strategies for improving grain nutritional quality</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731629v1">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731629">10.64898/2026.06.11.731629</a> · Score: <code>██████░░░░</code> 0.692</p>
+<p><span class="label">Core Problem:</span> Drug repurposing, the application of approved or shelved compounds to new therapeutic indications, offers a cost- and time-efficient alternative to de novo drug discovery</p>
+<p><span class="label">Proposed Solution:</span> However, the systematic identification of repurposing candidates from the rapidly expanding body of clinical trial data remains a significant challenge. Here we present a publicly accessible AI-powered tool that mines the ClinicalTrials</p>
+<p><span class="label">Key Impact:</span> The tool is freely accessible and designed to lower the barrier for academic and industry researchers to systematically pursue repurposing opportunities</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.1101/2025.03.13.25323932v3">Genome-wide association study in Brazil identifies genetic susceptibility to tuberculosis with single-cell gene effects</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.03.13.25323932">10.1101/2025.03.13.25323932</a> · Score: <code>██████░░░░</code> 0.624</p>
-<p><span class="label">Core Problem:</span> Background: Although genetic factors contribute to tuberculosis (TB) risk, no cross-population causal variants have been identified by genome-wide association studies (GWAS)</p>
-<p><span class="label">Proposed Solution:</span> Methods: Here, we utilized low-pass whole genome sequencing (lpWGS) with high-pass WGS verified imputation plus detailed epidemiologic risk factors and single-cell expression quantitative loci (sceQTL) to address prior GWAS limitations. Results: Using 947 pulmonary tuberculosis (PTB) cases and 1807 close contact controls in the Regional Prospective Observational Research in TB (RePORT) study in Brazil, we estimated PTB heritability to be 40 - 68%</p>
-<p><span class="label">Key Impact:</span> Conclusion: Overall, this study utilized lpWGS, in-depth epidemiology, and single-cell analyses to detect population-specific genetic risk factors for PTB in Brazil</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731508v1">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731508">10.64898/2026.06.11.731508</a> · Score: <code>██████░░░░</code> 0.690</p>
+<p><span class="label">Core Problem:</span> Large-scale cell foundation models are increasingly limited not only by model architecture, but also by the data infrastructure required to repeatedly sample sparse transcriptomic profiles from out-of-core cohorts</p>
+<p><span class="label">Proposed Solution:</span> AnnData/H5AD has become a standard exchange format for single-cell and spatial omics analysis, yet its HDF5-backed layout is not designed for high-frequency random mini-batch loading under multi-worker and distributed pretraining. We present Cellfm-datasets, a data infrastructure artifact that converts H5AD cohorts into a self-describing compressed sparse row (CSR) memmap layout and exposes the resulting corpus through Hugging Face Dataset and IterableDataset interfaces</p>
+<p><span class="label">Key Impact:</span> By moving sparse single-cell and spatial corpora from model-specific loader code into reusable, validated, and framework-native dataset artifacts, this design may reduce the engineering burden of reproducible cell foundation model pretraining and make repeated training runs, model comparisons, and mixed-modality data reuse easier to standardize</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.12.731985v1">Dual Developmental Origins and Activity-dependent Specification of Mammalian Subplate Neurons</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.12.731985">10.64898/2026.06.12.731985</a> · Score: <code>██████░░░░</code> 0.620</p>
-<p><span class="label">Core Problem:</span> Subplate neurons (SpNs) are among the earliest-generated cortical neurons and are essential for neocortical circuit assembly</p>
-<p><span class="label">Proposed Solution:</span> Despite this central role, they have long been considered a mammalian innovation, yet their evolutionary origin remains unresolved. Here, using comparative single-cell and spatial transcriptomics across amniotes (mice, chicks, and turtles), we identify two distinct developmental and evolutionary origins of SpNs: atypical SpNs (aSpNs), an Nr4a2-negative population conserved across amniotes and originating from the medial pallium, and mammalian-type SpNs (mSpNs), an Nr4a2-positive population preferentially expanded in mammals and arising from early-born cortical neurons</p>
-<p><span class="label">Key Impact:</span> Collectively, these findings establish a dual-origin model for SpNs and provide a unifying framework for understanding neocortical evolution</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731246v1">Robust integration of weakly anchored spatial multi-omics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.10.731246">10.64898/2026.06.10.731246</a> · Score: <code>██████░░░░</code> 0.668</p>
+<p><span class="label">Core Problem:</span> Spatial multi-omics holds great promise for dissecting complex biological processes, though inherent technical constraints continue to limit its widespread adoption</p>
+<p><span class="label">Proposed Solution:</span> Currently, most studies therefore measure distinct omics features on separate tissue sections, necessitating spatial diagonal integration. An emerging practical solution is to leverage hematoxylin and eosin (H&amp;E) images as an integration anchor, given their ubiquity, low cost, and compatibility across tissue preparations</p>
+<p><span class="label">Key Impact:</span> Overall, our approach bridges readily accessible single-omics measurements across weakly anchored tissue sections, enabling unified spatial multi-omics characterization and system-level tissue analysis</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.13.732043v1">MoE-Bind: Guiding De Novo Protein Binder Generation with Sparse Experts</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.13.732043">10.64898/2026.06.13.732043</a> · Score: <code>██████░░░░</code> 0.611</p>
-<p><span class="label">Core Problem:</span> Structure-based de novo binder design is computationally expensive and slow, limiting its throughput compared to faster sequence-only generative methods.</p>
-<p><span class="label">Proposed Solution:</span> The authors developed MoE-Bind, an autoregressive generator that integrates Multi-head Latent Attention with a sparse Mixture-of-Experts (MoE) feed-forward network for protein binder generation. This architecture allows the model to achieve high performance while activating significantly fewer parameters than dense baselines.</p>
-<p><span class="label">Key Impact:</span> Implementing sparse architectural designs like MoE can enable fast, structure-free, and highly interpretable large-scale exploration of novel protein binders.</p>
-<p><span class="label">Methodology:</span> The system demonstrates structured expert specialization by showing that individual experts within the MoE network align interpretably with specific amino acids or biochemical groups in the generated sequence.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731443v1">TopoMIL: Topology Improves Multiple Instance Learning in Diagnostic Microscopic Images</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.10.731443">10.64898/2026.06.10.731443</a> · Score: <code>██████░░░░</code> 0.628</p>
+<p><span class="label">Core Problem:</span> Microscopic images of cells and tissues are central to disease diagnosis</p>
+<p><span class="label">Proposed Solution:</span> In computational pathology, multiple instance learning (MIL) has emerged as a key paradigm for analyzing numerous images within a single patient sample. While the representative distribution of cells in a sample is important for diagnosis, existing MIL frameworks largely overlook it</p>
+<p><span class="label">Key Impact:</span> Our work underscores the potential of TopoMIL as a scalable extension to existing morphology-based models in computational pathology</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.06.13.732026">ADMETron: An AI-driven SaaS platform for comprehensive ADMET prediction and compound prioritisation</a><span class="history-date">Jun 14, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.14.682411">Integrative metabolome-genome analysis reveals the genetic architecture of metabolic diversity in sorghum grain</a><span class="history-date">Jun 14, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.03.13.25323932">Genome-wide association study in Brazil identifies genetic susceptibility to tuberculosis with single-cell gene effects</a><span class="history-date">Jun 14, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.12.731985">Dual Developmental Origins and Activity-dependent Specification of Mammalian Subplate Neurons</a><span class="history-date">Jun 14, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.13.732043">MoE-Bind: Guiding De Novo Protein Binder Generation with Sparse Experts</a><span class="history-date">Jun 14, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.11.26355452">Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development</a><span class="history-date">Jun 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.09.730286">Deciphering cross-omics complexity of tissues via diagonal integration of unpaired spatial multi-omics data</a><span class="history-date">Jun 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.10.731383">MAHLER: Integrating Metadynamics and Inverse Folding to Predict Antibody-Antigen Kinetics</a><span class="history-date">Jun 13, 2026</span></li>
@@ -245,6 +250,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-14T09:02:49 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-15T09:02:55 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
