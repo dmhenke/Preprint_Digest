@@ -79,71 +79,86 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 15, 2026 — 5 preprints selected</h2>
+  <h2>June 16, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a></li>
-  <li><a href="#article-2">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a></li>
-  <li><a href="#article-3">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a></li>
-  <li><a href="#article-4">Robust integration of weakly anchored spatial multi-omics</a></li>
-  <li><a href="#article-5">TopoMIL: Topology Improves Multiple Instance Learning in Diagnostic Microscopic Images</a></li>
+  <li><a href="#article-1">SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching</a></li>
+  <li><a href="#article-2">Inferring Cell Fate Trajectories in Time-Resolved Metabolic RNA Labeling data</a></li>
+  <li><a href="#article-3">Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders</a></li>
+  <li><a href="#article-4">Regulatory network hubs guide dynamic human lineage specification</a></li>
+  <li><a href="#article-5">Population-scale genomics reveals divergent pathogenicity of variant classes across paralogous collagen IV genes</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.13.732049v1">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.13.732049">10.64898/2026.06.13.732049</a> · Score: <code>███████░░░</code> 0.742</p>
-<p><span class="label">Core Problem:</span> Predicting the efficacy of chemically modified small interfering RNAs (siRNAs) is challenging due to limited public data and the inability of current machine learning models to effectively model chemical diversity.</p>
-<p><span class="label">Proposed Solution:</span> The authors developed FENNEC, a novel deep learning framework that combines temporal convolutional networks with thermodynamic descriptors and large-scale embeddings derived from RNA foundation models to predict siRNA activity across diverse chemical modifications.</p>
-<p><span class="label">Key Impact:</span> This tool enables rational, chemically aware design of therapeutic siRNAs, accelerating the preclinical development process by predicting performance for novel molecular structures.</p>
-<p><span class="label">Methodology:</span> FENNEC integrates language-model-derived embeddings alongside classical descriptors to capture both local chemical determinants and broader target-context information in a unified predictive architecture.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731424v1">SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731424">10.64898/2026.06.11.731424</a> · Score: <code>███████░░░</code> 0.774</p>
+<p><span class="label">Core Problem:</span> While Single Molecule Localization Microscopy (SMLM) aims to generate precise coordinates of molecular targets in cells, the resulting point clouds are inherently blurred by additive noise sources across the experimental, imaging, and processing workflow</p>
+<p><span class="label">Proposed Solution:</span> This blurring often limits SMLM&#x27;s ability to accurately quantify complex assembled structures required to address biological issues, despite reported localization precision down to a couple of nanometers. Here, we present SMLMFlow, a machine learning framework for improving structural resolution in SMLM datasets that combines a graph neural network and a hierarchical transformer with flow matching</p>
+<p><span class="label">Key Impact:</span> We show that SMLMFlow improves structural resolution and downstream quantification across different structures, including filaments and protein nano-clusters, and generalizes to new unseen photophysics models</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731629v1">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731629">10.64898/2026.06.11.731629</a> · Score: <code>██████░░░░</code> 0.692</p>
-<p><span class="label">Core Problem:</span> Drug repurposing, the application of approved or shelved compounds to new therapeutic indications, offers a cost- and time-efficient alternative to de novo drug discovery</p>
-<p><span class="label">Proposed Solution:</span> However, the systematic identification of repurposing candidates from the rapidly expanding body of clinical trial data remains a significant challenge. Here we present a publicly accessible AI-powered tool that mines the ClinicalTrials</p>
-<p><span class="label">Key Impact:</span> The tool is freely accessible and designed to lower the barrier for academic and industry researchers to systematically pursue repurposing opportunities</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731638v1">Inferring Cell Fate Trajectories in Time-Resolved Metabolic RNA Labeling data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731638">10.64898/2026.06.11.731638</a> · Score: <code>███████░░░</code> 0.714</p>
+<p><span class="label">Core Problem:</span> Single-cell RNA sequencing provides high-resolution snapshots of cellular states but lacks direct information about transcriptional dynamics</p>
+<p><span class="label">Proposed Solution:</span> Metabolic RNA labeling addresses this limitation by distinguishing newly synthesized RNA, offering insight into the direction of cell state changes, and providing valuable information when attempting to recover the underlying continuous dynamics from static snapshots of cell distributions. However, existing trajectory inference methods do not fully exploit this additional signal</p>
+<p><span class="label">Key Impact:</span> We also apply it to study colorectal cancer response to demethylation treatment as well as neuronal differentiation of embryonic stem cells</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731508v1">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731508">10.64898/2026.06.11.731508</a> · Score: <code>██████░░░░</code> 0.690</p>
-<p><span class="label">Core Problem:</span> Large-scale cell foundation models are increasingly limited not only by model architecture, but also by the data infrastructure required to repeatedly sample sparse transcriptomic profiles from out-of-core cohorts</p>
-<p><span class="label">Proposed Solution:</span> AnnData/H5AD has become a standard exchange format for single-cell and spatial omics analysis, yet its HDF5-backed layout is not designed for high-frequency random mini-batch loading under multi-worker and distributed pretraining. We present Cellfm-datasets, a data infrastructure artifact that converts H5AD cohorts into a self-describing compressed sparse row (CSR) memmap layout and exposes the resulting corpus through Hugging Face Dataset and IterableDataset interfaces</p>
-<p><span class="label">Key Impact:</span> By moving sparse single-cell and spatial corpora from model-specific loader code into reusable, validated, and framework-native dataset artifacts, this design may reduce the engineering burden of reproducible cell foundation model pretraining and make repeated training runs, model comparisons, and mixed-modality data reuse easier to standardize</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2025.03.03.641186v4">Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.03.03.641186">10.1101/2025.03.03.641186</a> · Score: <code>██████░░░░</code> 0.687</p>
+<p><span class="label">Core Problem:</span> Amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and Alzheimer&#x27;s disease (AD) represent two major categories of neurodegenerative disorders--TDP-43 and tau proteinopathies--for which the mechanisms driving neuronal death remain unclear</p>
+<p><span class="label">Proposed Solution:</span> Single-cell whole-genome sequencing of 469 neurons from C9ORF72 ALS, C9ORF72 FTD, AD, and control brains revealed increased somatic single nucleotide variants (sSNVs) and insertions/deletions (sIndels) in all three diseases. Mutational signature analysis identified a disease-associated sSNV signature consistent with oxidative damage and an sIndel process affecting 22% of ALS, 76% of FTD, and 61% of AD neurons--but only 2% of control neurons--resembling signature ID4, previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis</p>
+<p><span class="label">Key Impact:</span> TOP1-associated sIndel mutagenesis and genome instability thus represents a mechanism shared by both TDP-43 and tau neurodegeneration</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731246v1">Robust integration of weakly anchored spatial multi-omics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.10.731246">10.64898/2026.06.10.731246</a> · Score: <code>██████░░░░</code> 0.668</p>
-<p><span class="label">Core Problem:</span> Spatial multi-omics holds great promise for dissecting complex biological processes, though inherent technical constraints continue to limit its widespread adoption</p>
-<p><span class="label">Proposed Solution:</span> Currently, most studies therefore measure distinct omics features on separate tissue sections, necessitating spatial diagonal integration. An emerging practical solution is to leverage hematoxylin and eosin (H&amp;E) images as an integration anchor, given their ubiquity, low cost, and compatibility across tissue preparations</p>
-<p><span class="label">Key Impact:</span> Overall, our approach bridges readily accessible single-omics measurements across weakly anchored tissue sections, enabling unified spatial multi-omics characterization and system-level tissue analysis</p>
-<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2025.12.15.694070v3">Regulatory network hubs guide dynamic human lineage specification</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.15.694070">10.64898/2025.12.15.694070</a> · Score: <code>██████░░░░</code> 0.683</p>
+<p><span class="label">Core Problem:</span> **
+Systematically mapping the dynamic transcriptional activities of nearly all human transcription factors during complex developmental processes like lineage commitment remains technically challenging.
+
+**</p>
+<p><span class="label">Proposed Solution:</span> **
+The authors employed Perturb-Seq to map the global transcriptional impact of numerous TFs and enhancers during cardiomyocyte differentiation, defining how these factors regulate cell fate decisions.
+
+**</p>
+<p><span class="label">Key Impact:</span> **
+This work fundamentally shifts the understanding of developmental regulation from simple top-down hierarchies to dynamic network architectures governed by highly connected hub TFs and coordinated TF ensembles.
+
+**</p>
+<p><span class="label">Methodology:</span> **
+The study utilized a deep learning transformer model trained on regulatory interactions to predict which perturbed TFs are responsible for altering complex regulatory networks in patient-derived transcriptomes.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731443v1">TopoMIL: Topology Improves Multiple Instance Learning in Diagnostic Microscopic Images</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.10.731443">10.64898/2026.06.10.731443</a> · Score: <code>██████░░░░</code> 0.628</p>
-<p><span class="label">Core Problem:</span> Microscopic images of cells and tissues are central to disease diagnosis</p>
-<p><span class="label">Proposed Solution:</span> In computational pathology, multiple instance learning (MIL) has emerged as a key paradigm for analyzing numerous images within a single patient sample. While the representative distribution of cells in a sample is important for diagnosis, existing MIL frameworks largely overlook it</p>
-<p><span class="label">Key Impact:</span> Our work underscores the potential of TopoMIL as a scalable extension to existing morphology-based models in computational pathology</p>
-<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.06.12.26355529v1">Population-scale genomics reveals divergent pathogenicity of variant classes across paralogous collagen IV genes</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.06.12.26355529">10.64898/2026.06.12.26355529</a> · Score: <code>██████░░░░</code> 0.640</p>
+<p><span class="label">Core Problem:</span> Monoallelic pathogenic or likely pathogenic variants in COL4A3 and COL4A4 occur in approximately 1 in 106 individuals, yet whether these paralogous genes confer equivalent pathogenicity for the same variant classes has not been tested at population scale</p>
+<p><span class="label">Proposed Solution:</span> Using whole-genome sequencing data from the UK Biobank (UKB; n = 500,000), with replication in the All of Us Research Program (n = 414,000), we performed per-variant association testing, gene-based collapsing analyses and phenome-wide association studies (PheWAS) across haematuria, proteinuria and chronic kidney disease. We identified 64 COL4A3 and 92 COL4A4 rare variants significantly associated with haematuria or proteinuria, generating a quantitative allelic series for clinical variant interpretation</p>
+<p><span class="label">Key Impact:</span> Gene identity and not variant class alone, should inform risk stratification, variant interpretation and genetic counselling in individuals carrying collagen IV risk genotypes</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.06.13.732049">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a><span class="history-date">Jun 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731629">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a><span class="history-date">Jun 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731508">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a><span class="history-date">Jun 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.10.731246">Robust integration of weakly anchored spatial multi-omics</a><span class="history-date">Jun 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.10.731443">TopoMIL: Topology Improves Multiple Instance Learning in Diagnostic Microscopic Images</a><span class="history-date">Jun 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.13.732026">ADMETron: An AI-driven SaaS platform for comprehensive ADMET prediction and compound prioritisation</a><span class="history-date">Jun 14, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.10.14.682411">Integrative metabolome-genome analysis reveals the genetic architecture of metabolic diversity in sorghum grain</a><span class="history-date">Jun 14, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.03.13.25323932">Genome-wide association study in Brazil identifies genetic susceptibility to tuberculosis with single-cell gene effects</a><span class="history-date">Jun 14, 2026</span></li>
@@ -250,6 +265,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-15T09:02:55 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-16T09:03:14 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
