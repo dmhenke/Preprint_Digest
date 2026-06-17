@@ -79,81 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 16, 2026 — 5 preprints selected</h2>
+  <h2>June 17, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching</a></li>
-  <li><a href="#article-2">Inferring Cell Fate Trajectories in Time-Resolved Metabolic RNA Labeling data</a></li>
-  <li><a href="#article-3">Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders</a></li>
-  <li><a href="#article-4">Regulatory network hubs guide dynamic human lineage specification</a></li>
-  <li><a href="#article-5">Population-scale genomics reveals divergent pathogenicity of variant classes across paralogous collagen IV genes</a></li>
+  <li><a href="#article-1">A Transformer-derived transcriptomic score associates with ex-vivo drug response in AML</a></li>
+  <li><a href="#article-2">PhenoBIC: operator-free single-cell spatial phenotyping in multiplex imaging data using deep learning of cell staining patterns</a></li>
+  <li><a href="#article-3">Identifying Modulators of Cellular Responses by Heterogeneity-sequencing</a></li>
+  <li><a href="#article-4">Unraveling the Genetic Overlap Between Parkinson&#x27;s Disease and Schizophrenia Through Genome-wide Association and Cell-Type Specific Transcriptomic Analysis</a></li>
+  <li><a href="#article-5">The Single Cell Proteomic blueprint, navigating instrumentation platforms, software tools and high-load libraries in neutrophils, RKO and A549 cells</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731424v1">SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731424">10.64898/2026.06.11.731424</a> · Score: <code>███████░░░</code> 0.774</p>
-<p><span class="label">Core Problem:</span> While Single Molecule Localization Microscopy (SMLM) aims to generate precise coordinates of molecular targets in cells, the resulting point clouds are inherently blurred by additive noise sources across the experimental, imaging, and processing workflow</p>
-<p><span class="label">Proposed Solution:</span> This blurring often limits SMLM&#x27;s ability to accurately quantify complex assembled structures required to address biological issues, despite reported localization precision down to a couple of nanometers. Here, we present SMLMFlow, a machine learning framework for improving structural resolution in SMLM datasets that combines a graph neural network and a hierarchical transformer with flow matching</p>
-<p><span class="label">Key Impact:</span> We show that SMLMFlow improves structural resolution and downstream quantification across different structures, including filaments and protein nano-clusters, and generalizes to new unseen photophysics models</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.12.731810v1">A Transformer-derived transcriptomic score associates with ex-vivo drug response in AML</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.12.731810">10.64898/2026.06.12.731810</a> · Score: <code>███████░░░</code> 0.756</p>
+<p><span class="label">Core Problem:</span> Background Drug-tolerant persister (DTP) cell states have been implicated in relapse across multiple cancers, including acute myeloid leukaemia (AML) [1,2]</p>
+<p><span class="label">Proposed Solution:</span> Methods that score such states from transcriptomic data, generalise to held-out samples, expose calibrated probability outputs, and link predictions to candidate biology are useful for prioritising follow-up experimental work. Existing transcriptomic methods for scoring drug-tolerant or persister-like states largely rely on fixed gene signatures or general-purpose cell-type classifiers adapted post hoc (scPred, scANVI, scClassify); deep-learning approaches developed specifically for AML drug-tolerant persister scoring with calibrated probability outputs, prespecified thresholds, and transparent external validation against ex-vivo drug-response data are, to our knowledge, lacking</p>
+<p><span class="label">Key Impact:</span> AML; ex-vivo drug response; single-cell RNA-seq; Transformer; knowledge distillation; transcriptomic score; BeatAML; surface-protein target prioritisation</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731638v1">Inferring Cell Fate Trajectories in Time-Resolved Metabolic RNA Labeling data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731638">10.64898/2026.06.11.731638</a> · Score: <code>███████░░░</code> 0.714</p>
-<p><span class="label">Core Problem:</span> Single-cell RNA sequencing provides high-resolution snapshots of cellular states but lacks direct information about transcriptional dynamics</p>
-<p><span class="label">Proposed Solution:</span> Metabolic RNA labeling addresses this limitation by distinguishing newly synthesized RNA, offering insight into the direction of cell state changes, and providing valuable information when attempting to recover the underlying continuous dynamics from static snapshots of cell distributions. However, existing trajectory inference methods do not fully exploit this additional signal</p>
-<p><span class="label">Key Impact:</span> We also apply it to study colorectal cancer response to demethylation treatment as well as neuronal differentiation of embryonic stem cells</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.11.731702v1">PhenoBIC: operator-free single-cell spatial phenotyping in multiplex imaging data using deep learning of cell staining patterns</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.11.731702">10.64898/2026.06.11.731702</a> · Score: <code>███████░░░</code> 0.738</p>
+<p><span class="label">Core Problem:</span> Multiplex imaging is a valuable tool for spatially examining tissue microenvironments at the single-cell level to uncover biological and clinical insights</p>
+<p><span class="label">Proposed Solution:</span> However, most multiplex image analysis workflows currently require manual intervention for cell phenotyping, which slows progress, demands human effort, and yields operator-dependent outputs. Here, we developed PhenoBIC, a pre-trained deep learning model for image classification of the multiplexed biomarker signals in a cell (Biomarker Imprint of a Cell) to classify cell phenotypes</p>
+<p><span class="label">Key Impact:</span> We have also open-sourced PhenoBIC and enabled its community-wide deployment via the QuPath interface</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2025.03.03.641186v4">Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.03.03.641186">10.1101/2025.03.03.641186</a> · Score: <code>██████░░░░</code> 0.687</p>
-<p><span class="label">Core Problem:</span> Amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and Alzheimer&#x27;s disease (AD) represent two major categories of neurodegenerative disorders--TDP-43 and tau proteinopathies--for which the mechanisms driving neuronal death remain unclear</p>
-<p><span class="label">Proposed Solution:</span> Single-cell whole-genome sequencing of 469 neurons from C9ORF72 ALS, C9ORF72 FTD, AD, and control brains revealed increased somatic single nucleotide variants (sSNVs) and insertions/deletions (sIndels) in all three diseases. Mutational signature analysis identified a disease-associated sSNV signature consistent with oxidative damage and an sIndel process affecting 22% of ALS, 76% of FTD, and 61% of AD neurons--but only 2% of control neurons--resembling signature ID4, previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis</p>
-<p><span class="label">Key Impact:</span> TOP1-associated sIndel mutagenesis and genome instability thus represents a mechanism shared by both TDP-43 and tau neurodegeneration</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2024.10.28.620481v2">Identifying Modulators of Cellular Responses by Heterogeneity-sequencing</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2024.10.28.620481">10.1101/2024.10.28.620481</a> · Score: <code>███████░░░</code> 0.712</p>
+<p><span class="label">Core Problem:</span> The response of individual cells to drug treatment, virus infections or other molecular stimuli is highly heterogeneous and depends on the cell&#x27;s initial state</p>
+<p><span class="label">Proposed Solution:</span> Library preparation for single-cell transcriptomics is destructive, precluding a direct comparison between the initial state and the stimulus outcome. Consequently, current methods are restricted to identifying correlative associations rather than resolving causal drivers of heterogeneous outcomes</p>
+<p><span class="label">Key Impact:</span> We used Heterogeneity-seq to identify both known and novel genes that drive responses to drug treatment, as well as pro- and antiviral host factors governing cytomegalovirus infection</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2025.12.15.694070v3">Regulatory network hubs guide dynamic human lineage specification</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.15.694070">10.64898/2025.12.15.694070</a> · Score: <code>██████░░░░</code> 0.683</p>
-<p><span class="label">Core Problem:</span> **
-Systematically mapping the dynamic transcriptional activities of nearly all human transcription factors during complex developmental processes like lineage commitment remains technically challenging.
-
-**</p>
-<p><span class="label">Proposed Solution:</span> **
-The authors employed Perturb-Seq to map the global transcriptional impact of numerous TFs and enhancers during cardiomyocyte differentiation, defining how these factors regulate cell fate decisions.
-
-**</p>
-<p><span class="label">Key Impact:</span> **
-This work fundamentally shifts the understanding of developmental regulation from simple top-down hierarchies to dynamic network architectures governed by highly connected hub TFs and coordinated TF ensembles.
-
-**</p>
-<p><span class="label">Methodology:</span> **
-The study utilized a deep learning transformer model trained on regulatory interactions to predict which perturbed TFs are responsible for altering complex regulatory networks in patient-derived transcriptomes.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.01.06.26343442v2">Unraveling the Genetic Overlap Between Parkinson&#x27;s Disease and Schizophrenia Through Genome-wide Association and Cell-Type Specific Transcriptomic Analysis</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.01.06.26343442">10.64898/2026.01.06.26343442</a> · Score: <code>███████░░░</code> 0.701</p>
+<p><span class="label">Core Problem:</span> Background: Parkinson&#x27;s disease (PD) and schizophrenia (SZ), while clinically distinct, exhibit overlapping symptoms and neurobiological features</p>
+<p><span class="label">Proposed Solution:</span> Emerging genetic evidence suggests a shared heritable component between the two disorders. In this study, we aim to identify novel genetic loci common to both PD and SZ and to further investigate the convergent molecular mechanisms that may underlie their shared pathophysiology</p>
+<p><span class="label">Key Impact:</span> These findings advance our understanding of the molecular interplay between PD and SZ and open new avenues for the identification of shared therapeutic targets</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.06.12.26355529v1">Population-scale genomics reveals divergent pathogenicity of variant classes across paralogous collagen IV genes</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.06.12.26355529">10.64898/2026.06.12.26355529</a> · Score: <code>██████░░░░</code> 0.640</p>
-<p><span class="label">Core Problem:</span> Monoallelic pathogenic or likely pathogenic variants in COL4A3 and COL4A4 occur in approximately 1 in 106 individuals, yet whether these paralogous genes confer equivalent pathogenicity for the same variant classes has not been tested at population scale</p>
-<p><span class="label">Proposed Solution:</span> Using whole-genome sequencing data from the UK Biobank (UKB; n = 500,000), with replication in the All of Us Research Program (n = 414,000), we performed per-variant association testing, gene-based collapsing analyses and phenome-wide association studies (PheWAS) across haematuria, proteinuria and chronic kidney disease. We identified 64 COL4A3 and 92 COL4A4 rare variants significantly associated with haematuria or proteinuria, generating a quantitative allelic series for clinical variant interpretation</p>
-<p><span class="label">Key Impact:</span> Gene identity and not variant class alone, should inform risk stratification, variant interpretation and genetic counselling in individuals carrying collagen IV risk genotypes</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.12.731618v1">The Single Cell Proteomic blueprint, navigating instrumentation platforms, software tools and high-load libraries in neutrophils, RKO and A549 cells</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.12.731618">10.64898/2026.06.12.731618</a> · Score: <code>██████░░░░</code> 0.697</p>
+<p><span class="label">Core Problem:</span> Mass spectrometry-based single cell proteomics (SCP) is rapidly emerging as a powerful approach for biological research, with applications extending beyond in-vitro cancer cell lines</p>
+<p><span class="label">Proposed Solution:</span> Recent advances make it possible to apply SCP to ex-vivo human cells from tissues such as the brain and pancreas, as well as to technically challenging immune populations such as neutrophils. However, these analyses remain more challenging and typically result in reduced proteomic coverage</p>
+<p><span class="label">Key Impact:</span> Our work here provides guidelines on the software parameters to use for SCP, instrument specific results and cell dependent optimizations of high-load libraries, as well as novel evaluation of the quantitative properties of proteins for single cell and low input proteomics</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.06.11.731424">SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching</a><span class="history-date">Jun 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731638">Inferring Cell Fate Trajectories in Time-Resolved Metabolic RNA Labeling data</a><span class="history-date">Jun 16, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.03.03.641186">Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders</a><span class="history-date">Jun 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2025.12.15.694070">Regulatory network hubs guide dynamic human lineage specification</a><span class="history-date">Jun 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.12.26355529">Population-scale genomics reveals divergent pathogenicity of variant classes across paralogous collagen IV genes</a><span class="history-date">Jun 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.13.732049">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a><span class="history-date">Jun 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.11.731629">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a><span class="history-date">Jun 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.11.731508">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a><span class="history-date">Jun 15, 2026</span></li>
@@ -265,6 +260,6 @@ The study utilized a deep learning transformer model trained on regulatory inter
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-16T09:03:14 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-17T09:01:45 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
