@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 19, 2026 — 5 preprints selected</h2>
+  <h2>June 20, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">Deep Learning-Based Reconstruction: Model Comparison for Variable-Density GRAPPA 1H MRSI</a></li>
-  <li><a href="#article-2">Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction</a></li>
-  <li><a href="#article-3">Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks</a></li>
-  <li><a href="#article-4">Multidimensional Characterization of Novel Phage UCB24 Targeting Erwinia amylovora</a></li>
-  <li><a href="#article-5">Hi-C data from the filamentous fungus Podospora anserina and associated 3D models to visualize the spatial organization of its chromosomes</a></li>
+  <li><a href="#article-1">Perturbation Curve models continuous transcriptional response trajectories and improves prediction of genetic modulations</a></li>
+  <li><a href="#article-2">Geometric Deep Learning Reveals Ligandable and Cryptic RNA Binding Small Molecule Pockets (SMARTPocket)</a></li>
+  <li><a href="#article-3">Sequential and coordinated control of human plasma cell differentiation by IRF4 and BLIMP1 utilizing a discriminating ISRE/EICE motif lexicon</a></li>
+  <li><a href="#article-4">Morpho-FM: spatial molecular reconstruction from routine H&amp;E histology using transcriptomic foundation-model priors</a></li>
+  <li><a href="#article-5">IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.17.733011v1">Deep Learning-Based Reconstruction: Model Comparison for Variable-Density GRAPPA 1H MRSI</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.17.733011">10.64898/2026.06.17.733011</a> · Score: <code>███████░░░</code> 0.703</p>
-<p><span class="label">Core Problem:</span> Proton magnetic resonance spectroscopic imaging (1H MRSI) enables quantitative mapping of brain metabolites, but its clinical use remains limited by long acquisition time</p>
-<p><span class="label">Proposed Solution:</span> The goal of this work to improve the applicability of high-resolution 1H FID-MRSI at 7T by enhancing GRAPPA-based acceleration through deep learning-driven k-space reconstruction. In particular, compared with conventional GRAPPA, MultiNet PyGRAPPA enables substantially higher in-plane acceleration while suppressing residual lipid aliasing and preserving metabolite map fidelity in non-lipid-suppressed MRSI</p>
-<p><span class="label">Key Impact:</span> When combined with variable-density undersampling, this approach enables faster acquisition of high-resolution 1H MRSI without compromising spectral quality or metabolite quantification</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.15.732063v1">Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.15.732063">10.64898/2026.06.15.732063</a> · Score: <code>██████░░░░</code> 0.682</p>
-<p><span class="label">Core Problem:</span> Next-token prediction has produced predictable scaling in language, but the recipe presumes a sequence of tokens with a meaningful order</p>
-<p><span class="label">Proposed Solution:</span> Single-cell RNA-seq counts have no natural gene ordering, so applying the recipe directly to raw expression fails under an ill-suited left-to-right bias. We instead ask whether a learned latent can supply the structure the recipe needs</p>
-<p><span class="label">Key Impact:</span> Finally, on a held-out CRISPRi reversion benchmark of $1{,}732$ perturbations under inflammatory cytokine stress, the frozen eVAE encoder outperforms UMAP and differential expression and matches scGPT on perturbation ranking at a fraction of the data</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.732192v1">Perturbation Curve models continuous transcriptional response trajectories and improves prediction of genetic modulations</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.732192">10.64898/2026.06.16.732192</a> · Score: <code>███████░░░</code> 0.708</p>
+<p><span class="label">Core Problem:</span> Single-cell CRISPR screens, Perturb-seq, have revolutionized functional genomics by revealing biological causality</p>
+<p><span class="label">Proposed Solution:</span> However, although perturbation assignments are typically represented as discrete labels, the cell-level effective strength of perturbations is often continuous and diverse. Current analytical frameworks struggle to decouple the variability in perturbation strength from the diversity of downstream responses</p>
+<p><span class="label">Key Impact:</span> Finally, incorporating PertCurve into perturbation prediction models and evaluation metrics enhances predictive performance, delivering actionable insights for refining established models</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.18.732920v1">Geometric Deep Learning Reveals Ligandable and Cryptic RNA Binding Small Molecule Pockets (SMARTPocket)</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.18.732920">10.64898/2026.06.18.732920</a> · Score: <code>██████░░░░</code> 0.697</p>
+<p><span class="label">Core Problem:</span> RNAs are important therapeutic targets, however identifying ligandable small-molecule binding pockets remains a major barrier to RNA-targeted drug discovery</p>
+<p><span class="label">Proposed Solution:</span> Here, SMARTPocket, an atomic-level geometric deep learning framework for predicting RNA-small molecule binding pockets directly from three-dimensional structure is introduced. SMARTPocket represents RNA as full-atom point clouds and uses transfer learning from more than 110,000 protein binding interface structures to overcome the limited number of experimentally elucidated RNA-ligand complexes</p>
+<p><span class="label">Key Impact:</span> These results establish SMARTPocket as a generalizable framework for structure-based identification of ligandable RNA pockets and for accelerating discovery of RNA-targeted small molecules</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.03.27.714819v3">Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.27.714819">10.64898/2026.03.27.714819</a> · Score: <code>██████░░░░</code> 0.677</p>
-<p><span class="label">Core Problem:</span> Large-scale proteomics relies heavily on target--decoy competition for false discovery rate estimation in peptide identification, and the performance of this strategy depends strongly on the design of the decoy database</p>
-<p><span class="label">Proposed Solution:</span> Classical generators such as reversal and shuffling remain widely used. Here, we introduce the first protein language model-based (PLM) decoy generation for peptide identification and benchmark it against classical strategies</p>
-<p><span class="label">Key Impact:</span> We therefore view PLM-based decoys not as universal replacements for reverse decoys, but as tunable tools for benchmarking, diagnostics, stress testing, and future adaptive decoy optimization, with increasing value as search models become more expressive</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.15.732353v1">Sequential and coordinated control of human plasma cell differentiation by IRF4 and BLIMP1 utilizing a discriminating ISRE/EICE motif lexicon</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.15.732353">10.64898/2026.06.15.732353</a> · Score: <code>██████░░░░</code> 0.689</p>
+<p><span class="label">Core Problem:</span> The transcription factors IRF4 and BLIMP1 (PRDM1) promote plasma cell (PC) differentiation by repressing B cell identity genes while inducing the unfolded protein response, ER/Golgi biogenesis, and immunoglobulin secretion</p>
+<p><span class="label">Proposed Solution:</span> How IRF4 and BLIMP1 partition and coordinate their genomic activities during plasma cell differentiation remains unresolved. Using naive human B cells and a stepwise in vitro differentiation system, we performed CRISPR/Cas9 perturbations of IRF4 or PRDM1 in plasma cell precursors followed by single-cell RNA sequencing</p>
+<p><span class="label">Key Impact:</span> This regulatory logic may also underlie programming of additional lymphocyte effector states</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.18.733149v1">Multidimensional Characterization of Novel Phage UCB24 Targeting Erwinia amylovora</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.18.733149">10.64898/2026.06.18.733149</a> · Score: <code>██████░░░░</code> 0.641</p>
-<p><span class="label">Core Problem:</span> This study evaluates the novel bacteriophage UCB24 as an eco-friendly biocontrol agent against Erwinia amylovora, the bacterial pathogen responsible for fire blight</p>
-<p><span class="label">Proposed Solution:</span> Following purification, UCB24 was characterized for its optimal multiplicity of infection (MOI), infection kinetics, and environmental stability across diverse pH and temperature ranges. Microtitration assays and scanning electron microscopy (SEM) confirmed distinct morphology of the phage and its potent capacity to disrupt E</p>
-<p><span class="label">Key Impact:</span> Consequently, UCB24 represents a highly effective and sustainable biopesticide for managing fire blight in susceptible orchard ecosystems</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.15.732498v1">Morpho-FM: spatial molecular reconstruction from routine H&amp;E histology using transcriptomic foundation-model priors</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.15.732498">10.64898/2026.06.15.732498</a> · Score: <code>██████░░░░</code> 0.686</p>
+<p><span class="label">Core Problem:</span> Routine haematoxylin and eosin (H&amp;E) histology captures tissue architecture at clinical scale, but lacks a direct molecular readout of the transcriptional programmes that organise tumour epithelium, stroma, vasculature and immune compartments</p>
+<p><span class="label">Proposed Solution:</span> Spatial transcriptomics provides this context, yet cost, workflow complexity and sparse sampling limit routine use. Most existing histology-to-expression models are trained de novo on small paired cohorts and therefore remain weakly constrained when extrapolating from sparse measurements to dense, tissue-wide molecular maps</p>
+<p><span class="label">Key Impact:</span> Together, these results support transcriptomic foundation-model priors as an effective constraint for morphology-conditioned molecular decoding and demonstrate the potential of Morpho-FM to extend spatial transcriptomic insight across routine pathology sections</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.14.732207v1">Hi-C data from the filamentous fungus Podospora anserina and associated 3D models to visualize the spatial organization of its chromosomes</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.14.732207">10.64898/2026.06.14.732207</a> · Score: <code>██████░░░░</code> 0.622</p>
-<p><span class="label">Core Problem:</span> Objectives: Model species are essential for fundamental research in biology</p>
-<p><span class="label">Proposed Solution:</span> While a complete genomic sequence is a prerequisite for genetic studies, it is not enough on its own. Understanding the three-dimensional organization of the genome is also important, allowing researchers to gain a more realistic understanding of the mechanisms governing genome function</p>
-<p><span class="label">Key Impact:</span> ), these 3D models are helpful for complementing the linear representation of the genome, which is traditionally used in bioinformatic analyses</p>
-<p><span class="label">Methodology:</span> Multi-Omics techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.03.25.714313v2">IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.25.714313">10.64898/2026.03.25.714313</a> · Score: <code>██████░░░░</code> 0.682</p>
+<p><span class="label">Core Problem:</span> Although machine learning has transformed protein structure prediction of folded protein ground states with remarkable accuracy, intrinsically disordered proteins and regions (IDPs/IDRs) are defined by diverse and dynamical structural ensembles that are predicted with low confidence by algorithms such as AlphaFold and RoseTTAFold</p>
+<p><span class="label">Proposed Solution:</span> We present a new machine learning method, IDPForge ({I}ntrinsically {D}isordered {P}rotein, {FO}lded and disordered {R}egion {GE}nerator), that exploits a transformer protein language diffusion model to create all-atom IDP ensembles and IDR disordered ensembles that maintains the folded domains. IDPForge does not require sequence-specific training, back transformations from coarse-grained representations, nor ensemble reweighting, as in general the created IDP/IDR conformational ensembles show good agreement with bot NMR and SAXS solution experimental data, and options for biasing with experimental restraints are provided if desired</p>
+<p><span class="label">Key Impact:</span> We envision that IDPForge with these diverse capabilities will facilitate integrative and structural studies for proteins that contain intrinsic disorder, and is available as an open source resource for general use</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.06.17.733011">Deep Learning-Based Reconstruction: Model Comparison for Variable-Density GRAPPA 1H MRSI</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.15.732063">Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.03.27.714819">Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.18.733149">Multidimensional Characterization of Novel Phage UCB24 Targeting Erwinia amylovora</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.14.732207">Hi-C data from the filamentous fungus Podospora anserina and associated 3D models to visualize the spatial organization of its chromosomes</a><span class="history-date">Jun 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.20.700708">Single-cell and spatial transcriptomics unveils key regulators governing cell differentiation for Schistosoma japonicum sexual development</a><span class="history-date">Jun 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.16.26355718">Proteomics Uncovers Cryptic JPH2 Loss in Paediatric Dilated Cardiomyopathy</a><span class="history-date">Jun 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.17.732905">Cross-study metagenomics analysis reveals distinct microbial signatures of urinary tract infections</a><span class="history-date">Jun 18, 2026</span></li>
@@ -270,6 +275,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-19T09:01:43 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-20T09:01:36 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
