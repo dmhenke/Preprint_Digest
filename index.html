@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 20, 2026 — 5 preprints selected</h2>
+  <h2>June 21, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">Perturbation Curve models continuous transcriptional response trajectories and improves prediction of genetic modulations</a></li>
-  <li><a href="#article-2">Geometric Deep Learning Reveals Ligandable and Cryptic RNA Binding Small Molecule Pockets (SMARTPocket)</a></li>
-  <li><a href="#article-3">Sequential and coordinated control of human plasma cell differentiation by IRF4 and BLIMP1 utilizing a discriminating ISRE/EICE motif lexicon</a></li>
-  <li><a href="#article-4">Morpho-FM: spatial molecular reconstruction from routine H&amp;E histology using transcriptomic foundation-model priors</a></li>
-  <li><a href="#article-5">IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder</a></li>
+  <li><a href="#article-1">Generating antimicrobial peptides via genomic transfer learning</a></li>
+  <li><a href="#article-2">SAbDab2: The structural antibody database in the age of machine learning</a></li>
+  <li><a href="#article-3">Systematic Evaluation of Feature Representations for Cancer-Associated sORF Prediction in Non-coding RNA</a></li>
+  <li><a href="#article-4">Seed variation impacts clustering stability in Single-Cell RNA-Seq and can be mitigated by StAbility-BasEd-Reassignment (SABER)</a></li>
+  <li><a href="#article-5">RNAStabFormer: Region-Aware Multi-Task Hybrid Learning for RNA Stability Prediction from Pulse-Chase Transcriptomics</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.732192v1">Perturbation Curve models continuous transcriptional response trajectories and improves prediction of genetic modulations</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.732192">10.64898/2026.06.16.732192</a> · Score: <code>███████░░░</code> 0.708</p>
-<p><span class="label">Core Problem:</span> Single-cell CRISPR screens, Perturb-seq, have revolutionized functional genomics by revealing biological causality</p>
-<p><span class="label">Proposed Solution:</span> However, although perturbation assignments are typically represented as discrete labels, the cell-level effective strength of perturbations is often continuous and diverse. Current analytical frameworks struggle to decouple the variability in perturbation strength from the diversity of downstream responses</p>
-<p><span class="label">Key Impact:</span> Finally, incorporating PertCurve into perturbation prediction models and evaluation metrics enhances predictive performance, delivering actionable insights for refining established models</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.732639v1">Generating antimicrobial peptides via genomic transfer learning</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.732639">10.64898/2026.06.16.732639</a> · Score: <code>███████░░░</code> 0.714</p>
+<p><span class="label">Core Problem:</span> We present a generative machine learning pipeline for the design of linear antimicrobial peptides (AMPs)</p>
+<p><span class="label">Proposed Solution:</span> To extend diversity beyond synthetically validated peptide datasets ($\sim$7,000 entries), we apply transfer learning by training a Generative Pre-trained Transformer (GPT) on the genomically derived AMPSphere dataset ($\sim$863,000 entries), before fine-tuning on the Database of Antimicrobial Activity and Structure of Peptides (DBAASP). We assess the filtered sequences with a committee of Minimum Inhibitory Concentration (MIC) predictive models built with a Bi-LSTM architecture, and ESM-2 and QSAR feature vectors</p>
+<p><span class="label">Key Impact:</span> 20618061}</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.18.732920v1">Geometric Deep Learning Reveals Ligandable and Cryptic RNA Binding Small Molecule Pockets (SMARTPocket)</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.18.732920">10.64898/2026.06.18.732920</a> · Score: <code>██████░░░░</code> 0.697</p>
-<p><span class="label">Core Problem:</span> RNAs are important therapeutic targets, however identifying ligandable small-molecule binding pockets remains a major barrier to RNA-targeted drug discovery</p>
-<p><span class="label">Proposed Solution:</span> Here, SMARTPocket, an atomic-level geometric deep learning framework for predicting RNA-small molecule binding pockets directly from three-dimensional structure is introduced. SMARTPocket represents RNA as full-atom point clouds and uses transfer learning from more than 110,000 protein binding interface structures to overcome the limited number of experimentally elucidated RNA-ligand complexes</p>
-<p><span class="label">Key Impact:</span> These results establish SMARTPocket as a generalizable framework for structure-based identification of ligandable RNA pockets and for accelerating discovery of RNA-targeted small molecules</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.732554v1">SAbDab2: The structural antibody database in the age of machine learning</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.732554">10.64898/2026.06.16.732554</a> · Score: <code>██████░░░░</code> 0.614</p>
+<p><span class="label">Core Problem:</span> The Structural Antibody Database (SAbDab) is a publicly available repository of experimentally determined antibody structures, first released in 2013</p>
+<p><span class="label">Proposed Solution:</span> Explicit support for single-domain antibodies was added in 2021, with SAbDab-nano. Recently, increasing interest in antibodies has led to a proliferation of novel antibody formats, while simultaneous advances in machine learning have increased demand for standardised, high-quality structure data</p>
+<p><span class="label">Key Impact:</span> uk</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.15.732353v1">Sequential and coordinated control of human plasma cell differentiation by IRF4 and BLIMP1 utilizing a discriminating ISRE/EICE motif lexicon</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.15.732353">10.64898/2026.06.15.732353</a> · Score: <code>██████░░░░</code> 0.689</p>
-<p><span class="label">Core Problem:</span> The transcription factors IRF4 and BLIMP1 (PRDM1) promote plasma cell (PC) differentiation by repressing B cell identity genes while inducing the unfolded protein response, ER/Golgi biogenesis, and immunoglobulin secretion</p>
-<p><span class="label">Proposed Solution:</span> How IRF4 and BLIMP1 partition and coordinate their genomic activities during plasma cell differentiation remains unresolved. Using naive human B cells and a stepwise in vitro differentiation system, we performed CRISPR/Cas9 perturbations of IRF4 or PRDM1 in plasma cell precursors followed by single-cell RNA sequencing</p>
-<p><span class="label">Key Impact:</span> This regulatory logic may also underlie programming of additional lymphocyte effector states</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.732659v1">Systematic Evaluation of Feature Representations for Cancer-Associated sORF Prediction in Non-coding RNA</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.732659">10.64898/2026.06.16.732659</a> · Score: <code>██████░░░░</code> 0.607</p>
+<p><span class="label">Core Problem:</span> Short open reading frames (sORFs) within non-coding RNAs (ncRNAs) have arisen as a hidden layer of gene regulation, encoding small peptides that represent a new class of cancer regulators with diagnostic and therapeutic potential</p>
+<p><span class="label">Proposed Solution:</span> However, inferring associations between sORFs to specific cancer types remains challenging and requires computational approaches for accurate prediction. Recently, the CoraL framework introduced the first computational approach for predicting cancer-associated peptides, focusing primarily on model architecture while overlooking how feature extraction strategies influence predictive accuracy</p>
+<p><span class="label">Key Impact:</span> Our findings suggest that appropriate feature engineering can provide greater improvements than increasing model complexity</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.15.732498v1">Morpho-FM: spatial molecular reconstruction from routine H&amp;E histology using transcriptomic foundation-model priors</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.15.732498">10.64898/2026.06.15.732498</a> · Score: <code>██████░░░░</code> 0.686</p>
-<p><span class="label">Core Problem:</span> Routine haematoxylin and eosin (H&amp;E) histology captures tissue architecture at clinical scale, but lacks a direct molecular readout of the transcriptional programmes that organise tumour epithelium, stroma, vasculature and immune compartments</p>
-<p><span class="label">Proposed Solution:</span> Spatial transcriptomics provides this context, yet cost, workflow complexity and sparse sampling limit routine use. Most existing histology-to-expression models are trained de novo on small paired cohorts and therefore remain weakly constrained when extrapolating from sparse measurements to dense, tissue-wide molecular maps</p>
-<p><span class="label">Key Impact:</span> Together, these results support transcriptomic foundation-model priors as an effective constraint for morphology-conditioned molecular decoding and demonstrate the potential of Morpho-FM to extend spatial transcriptomic insight across routine pathology sections</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.732539v1">Seed variation impacts clustering stability in Single-Cell RNA-Seq and can be mitigated by StAbility-BasEd-Reassignment (SABER)</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.732539">10.64898/2026.06.16.732539</a> · Score: <code>█████░░░░░</code> 0.594</p>
+<p><span class="label">Core Problem:</span> Single-cell RNA-seq clustering is commonly treated as reproducible once a random seed is fixed, yet the choice of seed itself may alter cell assignments and downstream interpretation</p>
+<p><span class="label">Proposed Solution:</span> We systematically quantified seed-induced clustering variability by running Louvain and Leiden clustering across 100 seeds in Seurat and Scanpy on 28 single-cell RNA-seq datasets from the Human Cell Atlas and IMMUcan. Using Element-Centric Consistency, we found that seed choice affected a substantial fraction of cells, with Scanpy showing more unstable assignments than Seurat on average, 40</p>
+<p><span class="label">Key Impact:</span> Our results identify seed choice as an underappreciated source of variability in single-cell analysis and provide a scalable strategy to improve clustering robustness</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.03.25.714313v2">IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.25.714313">10.64898/2026.03.25.714313</a> · Score: <code>██████░░░░</code> 0.682</p>
-<p><span class="label">Core Problem:</span> Although machine learning has transformed protein structure prediction of folded protein ground states with remarkable accuracy, intrinsically disordered proteins and regions (IDPs/IDRs) are defined by diverse and dynamical structural ensembles that are predicted with low confidence by algorithms such as AlphaFold and RoseTTAFold</p>
-<p><span class="label">Proposed Solution:</span> We present a new machine learning method, IDPForge ({I}ntrinsically {D}isordered {P}rotein, {FO}lded and disordered {R}egion {GE}nerator), that exploits a transformer protein language diffusion model to create all-atom IDP ensembles and IDR disordered ensembles that maintains the folded domains. IDPForge does not require sequence-specific training, back transformations from coarse-grained representations, nor ensemble reweighting, as in general the created IDP/IDR conformational ensembles show good agreement with bot NMR and SAXS solution experimental data, and options for biasing with experimental restraints are provided if desired</p>
-<p><span class="label">Key Impact:</span> We envision that IDPForge with these diverse capabilities will facilitate integrative and structural studies for proteins that contain intrinsic disorder, and is available as an open source resource for general use</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.19.733389v1">RNAStabFormer: Region-Aware Multi-Task Hybrid Learning for RNA Stability Prediction from Pulse-Chase Transcriptomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.19.733389">10.64898/2026.06.19.733389</a> · Score: <code>█████░░░░░</code> 0.590</p>
+<p><span class="label">Core Problem:</span> RNA stability is a central layer of post-transcriptional gene regulation, yet large-scale stability labels derived from pulse-chase transcriptomics depend strongly on quantification region, time-window definition, and replicate quality control</p>
+<p><span class="label">Proposed Solution:</span> We present RNAStabFormer, a controlled learning framework for predicting human RNA stability proxies from transcript sequence. Its core model, RAMHT, combines region-specific nucleotide Transformer encoders for CDS, and sequence, a CDS codon stream, engineered sequence-grammar features, gated fusion, and four task-specific regression heads</p>
+<p><span class="label">Key Impact:</span> RNAStabFormer therefore provides both a multi-task neural model and a leakage-controlled evaluation protocol for RNA stability prediction from pulse-chase data</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.06.16.732192">Perturbation Curve models continuous transcriptional response trajectories and improves prediction of genetic modulations</a><span class="history-date">Jun 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.18.732920">Geometric Deep Learning Reveals Ligandable and Cryptic RNA Binding Small Molecule Pockets (SMARTPocket)</a><span class="history-date">Jun 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.15.732353">Sequential and coordinated control of human plasma cell differentiation by IRF4 and BLIMP1 utilizing a discriminating ISRE/EICE motif lexicon</a><span class="history-date">Jun 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.15.732498">Morpho-FM: spatial molecular reconstruction from routine H&amp;E histology using transcriptomic foundation-model priors</a><span class="history-date">Jun 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.03.25.714313">IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder</a><span class="history-date">Jun 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.17.733011">Deep Learning-Based Reconstruction: Model Comparison for Variable-Density GRAPPA 1H MRSI</a><span class="history-date">Jun 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.15.732063">Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction</a><span class="history-date">Jun 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.27.714819">Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks</a><span class="history-date">Jun 19, 2026</span></li>
@@ -275,6 +280,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-20T09:01:36 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-21T09:01:17 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
