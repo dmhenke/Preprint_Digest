@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>June 22, 2026 — 5 preprints selected</h2>
+  <h2>June 23, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">πDIA-CLIP: efficient identification of highly heterogeneous proteomics data via a generalized zero-shot framework</a></li>
-  <li><a href="#article-2">OracleScreen-LILRB4: Machine Learning-Guided Discovery of Myeloid Immune Checkpoint Binders Validated in Patient-Derived Cells</a></li>
-  <li><a href="#article-3">Killiverse: an interactive multi-omics web resource for killifish</a></li>
-  <li><a href="#article-4">Integrative Multi-Omics Analysis of Gut Microbiota Dysbiosis and Host-Microbiome Interaction Mechanisms in Hypertension</a></li>
-  <li><a href="#article-5">DeepCDS: Ab initio coding sequence prediction in prokaryotic short reads</a></li>
+  <li><a href="#article-1">An Integrated muti-omics cell atlas of the human trabecular meshwork and ciliary body</a></li>
+  <li><a href="#article-2">DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology</a></li>
+  <li><a href="#article-3">Sequential Deep Learning to Predict Non-Central to Central Geographic Atrophy Progression from OCT Imaging</a></li>
+  <li><a href="#article-4">Decomposing patient heterogeneity of single-cell cancer data by cross-attention neural networks</a></li>
+  <li><a href="#article-5">Multi-omics data fusion reveals divergent molecular signatures of intra-articular micro-fragmented adipose tissue and hyaluronic acid treatment in inflammatory-phenotype knee osteoarthritis</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.02.09.704949v4">πDIA-CLIP: efficient identification of highly heterogeneous proteomics data via a generalized zero-shot framework</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.02.09.704949">10.64898/2026.02.09.704949</a> · Score: <code>███████░░░</code> 0.711</p>
-<p><span class="label">Core Problem:</span> Data-independent acquisition mass spectrometry has increasingly emerged as a cornerstone for characterizing highly heterogeneous biological systems, such as single-cell proteomics, metaproteomics, and spatial proteomics, offering unparalleled identification depth and quantification reproducibility</p>
-<p><span class="label">Proposed Solution:</span> Current DIA analysis frameworks, however, require semi-supervised training within each run for peptide-spectrum match (PSM) re-scoring, which is prone to overfitting and lacks generalizability across diverse species and experimental conditions. Here, we present {pi}DIA-CLIP, a generalized framework shifting the DIA analysis strategy from semi-supervised training to zero-shot cross-modal representation learning through integrating dual-encoder contrastive learning and encoder-decoder architectures to establish a unified, high-precision representation for spectral features and peptides</p>
-<p><span class="label">Key Impact:</span> Furthermore, the enhanced identification depth facilitates the discovery of novel biomarkers and the elucidation of intricate cellular mechanisms</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.17.732980v1">An Integrated muti-omics cell atlas of the human trabecular meshwork and ciliary body</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.17.732980">10.64898/2026.06.17.732980</a> · Score: <code>███████░░░</code> 0.735</p>
+<p><span class="label">Core Problem:</span> The trabecular meshwork (TM) and ciliary body (CB) regulate aqueous humor dynamics and intraocular pressure (IOP), and TM/Schlemm&#x27;s canal (SC) dysfunction underlies glaucoma</p>
+<p><span class="label">Proposed Solution:</span> Here, we present a spatially resolved multi-omics atlas of human TM and CB, integrating snRNA-seq, scRNA-seq, and snATAC-seq from over one million cells and nuclei across 112 donors with Xenium spatial transcriptomics. We identified 9 major cell classes and 21 cell types, revealing heterogeneity, including undercharacterized fibroblast and epithelial subpopulations</p>
+<p><span class="label">Key Impact:</span> Together, this high-resolution atlas links cellular, regulatory, and genetic variation to anterior segment function and glaucoma susceptibility</p>
+<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.17.732859v1">OracleScreen-LILRB4: Machine Learning-Guided Discovery of Myeloid Immune Checkpoint Binders Validated in Patient-Derived Cells</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.17.732859">10.64898/2026.06.17.732859</a> · Score: <code>███████░░░</code> 0.702</p>
-<p><span class="label">Core Problem:</span> The identification of small molecule modulators of immune checkpoint proteins remains a significant challenge in drug discovery due to the flat, featureless nature of protein-protein interaction interfaces and the characteristically low hit rates observed in conventional high-throughput screening campaigns</p>
-<p><span class="label">Proposed Solution:</span> Here we report OracleScreen-LILRB4, an ensemble machine learning framework trained on quantitative biophysical screening data from two structurally diverse compound libraries (19,800 compounds total) screened against the myeloid immune checkpoint leukocyte immunoglobulin-like receptor B4 (LILRB4/ILT3). By formulating binding prediction as a regression task targeting continuous {Delta}Fnorm values rather than binary hit classifications, OracleScreen-LILRB4 achieved a mean Spearman R of 0</p>
-<p><span class="label">Key Impact:</span> These findings establish OracleScreen-LILRB4 as an effective computational framework for accelerating small molecule discovery against non-enzymatic immune checkpoint targets</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.731504v1">Killiverse: an interactive multi-omics web resource for killifish</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.731504">10.64898/2026.06.16.731504</a> · Score: <code>██████░░░░</code> 0.679</p>
-<p><span class="label">Core Problem:</span> Background: Killifish have emerged as valuable vertebrate model systems for investigating several disciplines including aging, regeneration, and developmental biology</p>
-<p><span class="label">Proposed Solution:</span> Multi-omics datasets are increasingly being generated for killifish. However, their reuse remains limited due to computational challenges, largely due to the lack of accessible resources creating a bottleneck in widespread adoption of the killifish model</p>
-<p><span class="label">Key Impact:</span> org/</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1">DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.06.19.26356060">10.64898/2026.06.19.26356060</a> · Score: <code>███████░░░</code> 0.704</p>
+<p><span class="label">Core Problem:</span> Spatial transcriptomics remains costly and low-throughput, limiting it to a small fraction of routine histology and leaving the molecular state of disease unmeasured in most patients</p>
+<p><span class="label">Proposed Solution:</span> Predicting spatial expression from histology could address this gap, but existing methods are restricted to predefined genes and small cohorts. We present DeepSpot-M, a multimodal foundation model that predicts spatial expression by representing genes with embeddings from foundation models spanning DNA, RNA, proteins, single cells and biomedical text</p>
+<p><span class="label">Key Impact:</span> We anticipate DeepSpot-M will provide a scalable foundation for virtual spatial transcriptomics and biomarker discovery</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="article-3">
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.06.17.26355882v1">Sequential Deep Learning to Predict Non-Central to Central Geographic Atrophy Progression from OCT Imaging</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.06.17.26355882">10.64898/2026.06.17.26355882</a> · Score: <code>██████░░░░</code> 0.677</p>
+<p><span class="label">Core Problem:</span> Purpose: To develop and validate a temporal deep learning framework for predicting geographic atrophy (GA) progression across multi-year horizons using longitudinal optical coherence tomography (OCT) sequences</p>
+<p><span class="label">Proposed Solution:</span> Design: Retrospective longitudinal cohort study. Subjects, Participants, and/or Controls: A total of 91 patients with dry age-related macular degeneration (AMD) were identified from Wake Forest University School of Medicine (2013-2023), yielding 455 OCT volumes</p>
+<p><span class="label">Key Impact:</span> Temporal interval encoding improved stability in several LSTM configurations</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.18.733290v1">Integrative Multi-Omics Analysis of Gut Microbiota Dysbiosis and Host-Microbiome Interaction Mechanisms in Hypertension</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.18.733290">10.64898/2026.06.18.733290</a> · Score: <code>██████░░░░</code> 0.645</p>
-<p><span class="label">Core Problem:</span> Objective:To characterize gut microbiota dysbiosis in hypertension and investigate its multilevel interactions with the host immune system</p>
-<p><span class="label">Proposed Solution:</span> Methods: Integrated multi-cohort microbiome data were used to evaluate microbial diversity, differential abundance, and co-occurrence network features between individuals with hypertension and healthy controls. The scBPS framework was applied to analyze microbiome-cell associations, enabling the resolution of relationships between key microbial taxa and functional states of immune cells at single-cell resolution</p>
-<p><span class="label">Key Impact:</span> Conclusions: Integrated multi-omics analyses reveal that hypertension-associated gut microbes may contribute to disease development through immune regulation, providing insights into microbiome-immune interaction mechanisms and potential targets for precision interventions</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.1101/2025.06.04.25328900v2">Decomposing patient heterogeneity of single-cell cancer data by cross-attention neural networks</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.06.04.25328900">10.1101/2025.06.04.25328900</a> · Score: <code>██████░░░░</code> 0.677</p>
+<p><span class="label">Core Problem:</span> Gene expression variation in cancer cells is attributed to many inherited and environmental factors, including genetic variants and cellular landscapes</p>
+<p><span class="label">Proposed Solution:</span> Decomposing different sources of information is intractable with single-cell RNA-seq alone. However, we show that our new approach can split them with the help of multiple patients, assuming that cell types are widely shared and genetic effects are specifically present in a particular patient</p>
+<p><span class="label">Key Impact:</span> Residual expressions, excluding cell types, can implicate patient-specific disease mechanisms</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.06.17.732633v1">DeepCDS: Ab initio coding sequence prediction in prokaryotic short reads</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.17.732633">10.64898/2026.06.17.732633</a> · Score: <code>██████░░░░</code> 0.641</p>
-<p><span class="label">Core Problem:</span> Accurate coding sequence prediction in short prokaryotic metagenomic reads remains challenging due to sequence fragmentation, unknown sequence origins, and sequencing errors</p>
-<p><span class="label">Proposed Solution:</span> Here we introduce DeepCDS, a deep learning-based ab initio coding sequence predictor trained on short prokaryotic sequences with and without simulated Illumina-like sequencing errors. DeepCDS integrates ESM-2 protein language model embeddings with nucleotide-level information to predict complete and fragmented coding sequence regions</p>
-<p><span class="label">Key Impact:</span> Ultimately, DeepCDS may help uncover the functional potential of the vast microbial diversity that remains genomically uncharacterized</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.06.12.26355510v1">Multi-omics data fusion reveals divergent molecular signatures of intra-articular micro-fragmented adipose tissue and hyaluronic acid treatment in inflammatory-phenotype knee osteoarthritis</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.06.12.26355510">10.64898/2026.06.12.26355510</a> · Score: <code>██████░░░░</code> 0.672</p>
+<p><span class="label">Core Problem:</span> Knee osteoarthritis (KOA) affects an estimated 374 million people worldwide and has no approved disease-modifying treatment</p>
+<p><span class="label">Proposed Solution:</span> Intra-articular micro-fragmented adipose tissue (MFAT) outperformed hyaluronic acid (HA) on patient-reported outcomes in our recent double-blind randomized trial (ISRCTN88966184), yet the molecular basis of this differential efficacy is unknown, and the two interventions have not previously been compared at the level of their in vivo molecular response in human KOA. Here we apply an interpretable artificial-intelligence data-fusion framework, based on non-negative matrix tri-factorization, to longitudinally collected plasma from this cohort, integrating proteomics, N-glycomics, miRNA transcriptomics and patient genetics with prior protein-protein and miRNA-gene regulatory networks at baseline, one and six months</p>
+<p><span class="label">Key Impact:</span> To our knowledge, these are the first systems-level molecular data directly comparing the in vivo response to the two treatments in human KOA, providing initial evidence that MFAT acts as a disease-modifying intervention and demonstrating the value of interpretable data fusion for uncovering treatment mechanisms in small translational cohorts</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.02.09.704949">πDIA-CLIP: efficient identification of highly heterogeneous proteomics data via a generalized zero-shot framework</a><span class="history-date">Jun 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.732859">OracleScreen-LILRB4: Machine Learning-Guided Discovery of Myeloid Immune Checkpoint Binders Validated in Patient-Derived Cells</a><span class="history-date">Jun 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.16.731504">Killiverse: an interactive multi-omics web resource for killifish</a><span class="history-date">Jun 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.18.733290">Integrative Multi-Omics Analysis of Gut Microbiota Dysbiosis and Host-Microbiome Interaction Mechanisms in Hypertension</a><span class="history-date">Jun 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.732633">DeepCDS: Ab initio coding sequence prediction in prokaryotic short reads</a><span class="history-date">Jun 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.16.732639">Generating antimicrobial peptides via genomic transfer learning</a><span class="history-date">Jun 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.16.732554">SAbDab2: The structural antibody database in the age of machine learning</a><span class="history-date">Jun 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.16.732659">Systematic Evaluation of Feature Representations for Cancer-Associated sORF Prediction in Non-coding RNA</a><span class="history-date">Jun 21, 2026</span></li>
@@ -285,6 +290,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-06-22T09:01:17 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-06-23T09:01:43 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
