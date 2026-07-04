@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>July 03, 2026 — 5 preprints selected</h2>
+  <h2>July 04, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">SpatialFuser: a unified framework for integrative analysis of unpaired spatial multi-omics data</a></li>
-  <li><a href="#article-2">Multi-modality Graph Representation Learning for Malignant Cell Identification from scRNA-seq using DeepMalignant</a></li>
-  <li><a href="#article-3">Synovitis in systemic sclerosis is an interferon-driven stromal condition distinct from rheumatoid arthritis</a></li>
-  <li><a href="#article-4">Dynamic consensus pocket detection across molecular dynamics ensembles reveals persistent and transient druggable sites</a></li>
-  <li><a href="#article-5">Frequent, context-dependent effects of human genetic variation on Cas9 activity revealed by population-scale GUIDE-seq-2 and deep combinatorial CHANCE-seq profiling</a></li>
+  <li><a href="#article-1">Benchmarking the translational potential of AI-based drug-resistance prediction from Mycobacterium tuberculosis whole-genome sequencing data</a></li>
+  <li><a href="#article-2">Raw-count embeddings improve single-cell foundation models</a></li>
+  <li><a href="#article-3">Drug Functional Site-Unknown Molecular Targets Exemplified by SARS-CoV-2 pseudoknot and ribosomal frameshifting-modulators</a></li>
+  <li><a href="#article-4">Unveiling Cerebrospinal Fluid Protein Biomarkers in Pediatric Acute Lymphoblastic Leukemia Using Proximity Extension Assay</a></li>
+  <li><a href="#article-5">Accessible spatial host-microbe profiling in tumour tissues</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.1101/2025.09.14.676067v3">SpatialFuser: a unified framework for integrative analysis of unpaired spatial multi-omics data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.09.14.676067">10.1101/2025.09.14.676067</a> · Score: <code>███████░░░</code> 0.765</p>
-<p><span class="label">Core Problem:</span> Recent advances in spatial multi-omics technologies provide unprecedented opportunities to interpret molecular features in tissue microenvironments, but integrative analysis across heterogeneous datasets remains challenging</p>
-<p><span class="label">Proposed Solution:</span> Here we present SpatialFuser, a deep learning framework for integrative analysis of unpaired spatial multi-omics data across epigenomics, transcriptomics, proteomics, and metabolomics. SpatialFuser consists of three coordinated modules: MCGATE, a Multi-head Collaborative Graph Attention auToEncoder that learns multi-scale spatial representations to decipher fine-grained spatial heterogeneity beyond predefined spatial neighbourhoods; an optional geometric pre-matching module that provides coarse initialization under tissue geometry mismatch; and an iterative matching-fusion module that couples geometry-constrained optimal transport matching with contrastive-learning-guided modality fusion for cross-slice alignment and integration</p>
-<p><span class="label">Key Impact:</span> The generalizability and versatility of our framework enable customized analytical scenarios and potential extension for emerging omics</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.07.03.736369v1">Benchmarking the translational potential of AI-based drug-resistance prediction from Mycobacterium tuberculosis whole-genome sequencing data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.03.736369">10.64898/2026.07.03.736369</a> · Score: <code>███████░░░</code> 0.733</p>
+<p><span class="label">Core Problem:</span> Background: Tuberculosis, especially drug-resistant tuberculosis (DR-TB) including multidrug-resistant (MDR) and extensively drug-resistant (XDR) strains, remains a leading cause of infectious death worldwide</p>
+<p><span class="label">Proposed Solution:</span> The rapid accumulation of whole-genome sequencing (WGS) data had spurred numerous computational methods for predicting antimicrobial resistance in Mycobacterium tuberculosis. However, heterogeneous datasets, preprocessing pipelines, and evaluation protocols have made fair comparisons impossible and have hindered clinical translation</p>
+<p><span class="label">Key Impact:</span> This benchmark can serve as a community standard for evaluating MTB resistance prediction and the provided evaluation pipeline offers an actionable baseline for regulatory qualification and clinical decision support system validation, accelerating the translation of WGS-based resistance prediction into practice</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.29.734828v1">Multi-modality Graph Representation Learning for Malignant Cell Identification from scRNA-seq using DeepMalignant</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.29.734828">10.64898/2026.06.29.734828</a> · Score: <code>███████░░░</code> 0.727</p>
-<p><span class="label">Core Problem:</span> Distinguishing malignant from normal cells in single-cell RNA sequencing data remains a critical yet challenging task in cancer genomics</p>
-<p><span class="label">Proposed Solution:</span> Existing methods often suffer from poor precision, limited generalizability across cancer types, and reduced robustness across different sequencing platforms. We developed DeepMalignant, an unsupervised multimodal graph attention autoencoder for malignant cell identification that jointly integrates gene expression and copy number alteration (CNA) information</p>
-<p><span class="label">Key Impact:</span> The downstream cell-cell communications analysis revealed that fibroblast-derived C3 and MIF both directed signaling more toward normal epithelial cells than tumor epithelial cells, demonstrating that accurate tumor-normal cell classification by DeepMalignant enables biologically meaningful interrogation of the tumor microenvironment and revealing how stromal cells differentially communicate with malignant versus normal epithelial populations</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.06.29.735389v1">Raw-count embeddings improve single-cell foundation models</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.29.735389">10.64898/2026.06.29.735389</a> · Score: <code>███████░░░</code> 0.707</p>
+<p><span class="label">Core Problem:</span> Single-cell transformer foundation models have grown to hundreds of millions of parameters, yet the preprocessing choices that underlie them, including gene ranking and library-size normalisation, have not been systematically benchmarked</p>
+<p><span class="label">Proposed Solution:</span> Testing seven strategies, we find these elaborations are largely unnecessary: non-normalised, log-transformed counts give the best performance, and gene order barely matters, with even random ordering outperforming sophisticated rank-based schemes. The resulting model, Gene Intelligence, projects log1p-transformed raw counts directly onto each token embedding and jointly predicts masked tokens and counts, using no normalisation, positional encoding, or read-depth tokens</p>
+<p><span class="label">Key Impact:</span> Despite this simplicity, it achieves state-of-the-art performance in the tested gene-level tasks and in doublet detection, and matches large current foundation models on cell-classification tasks while using 10- to 200-fold fewer parameters</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.06.30.733140v1">Synovitis in systemic sclerosis is an interferon-driven stromal condition distinct from rheumatoid arthritis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.30.733140">10.64898/2026.06.30.733140</a> · Score: <code>███████░░░</code> 0.711</p>
-<p><span class="label">Core Problem:</span> Joint involvement is a major driver of disability in systemic sclerosis (SSc), yet its pathophysiology remains poorly understood</p>
-<p><span class="label">Proposed Solution:</span> In the absence of specific evidence, SSc synovitis is treated by analogy with rheumatoid arthritis (RA). Here, we present the first comprehensive molecular characterization of SSc synovitis, integrating histology, single-cell RNA sequencing, and spatial multi-omics of synovial biopsies from SSc patients, RA patients, and non-inflammatory controls with in vitro validation</p>
-<p><span class="label">Key Impact:</span> These findings reframe SSc synovitis as a less destructive, IFN-driven stromal condition distinct from RA and provide a mechanistic basis for dedicated clinical trials for joint inflammation in SSc</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.07.02.735960v1">Drug Functional Site-Unknown Molecular Targets Exemplified by SARS-CoV-2 pseudoknot and ribosomal frameshifting-modulators</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.02.735960">10.64898/2026.07.02.735960</a> · Score: <code>██████░░░░</code> 0.695</p>
+<p><span class="label">Core Problem:</span> The -1 Programmed Ribosomal Frameshifting (-1 PRF) signal of SARS-CoV-2, driven by a conserved three-stemmed RNA pseudoknot (PK), is indispensable for viral replication and represents a structurally stable yet underexplored therapeutic target</p>
+<p><span class="label">Proposed Solution:</span> Unlike rapidly mutating viral proteins, this RNA element offers an opportunity for durable intervention but has historically been considered &#x27;undruggable&#x27;. We developed an integrative drug discovery and characterization pipeline that combines molecular docking, molecular dynamics simulations, and dual-luciferase assays to systematically identify and validate frameshifting-efficiency (Feff) modulators from FDA-approved compounds</p>
+<p><span class="label">Key Impact:</span> More broadly, our framework establishes a generalizable strategy for rationally targeting structured RNAs with repurposed drugs and offers new opportunities to expand the druggable genome to include noncoding RNA elements and other biomolecular targets lacking known functional sites</p>
+<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.27.734992v1">Dynamic consensus pocket detection across molecular dynamics ensembles reveals persistent and transient druggable sites</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.27.734992">10.64898/2026.06.27.734992</a> · Score: <code>██████░░░░</code> 0.690</p>
-<p><span class="label">Core Problem:</span> The traditional &#x27;one drug, one target&#x27; paradigm assumes that drugs interact with a single specific binding site</p>
-<p><span class="label">Proposed Solution:</span> Modern pharmacology has proven this definition overly simplistic and, instead, recognizes that drugs operate within complex biological systems and often interact with multiple targets. In this context, proteins cannot be viewed as possessing a single functional binding site, but rather as dynamic entities capable of accommodating ligands at multiple regions, including transient and cryptic pockets</p>
-<p><span class="label">Key Impact:</span> This work proposes a consensus-oriented framework for identifying conserved and transient druggable pockets in dynamic protein systems</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.07.03.736065v1">Unveiling Cerebrospinal Fluid Protein Biomarkers in Pediatric Acute Lymphoblastic Leukemia Using Proximity Extension Assay</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.03.736065">10.64898/2026.07.03.736065</a> · Score: <code>██████░░░░</code> 0.661</p>
+<p><span class="label">Core Problem:</span> Abstract Background: Acute Lymphoblastic Leukemia (ALL) is a highly heterogeneous pediatric malignancy</p>
+<p><span class="label">Proposed Solution:</span> Despite high survival rates, relapse and the involvement of central nervous system (CNS) remains a significant clinical challenge. Traditional clinical parameters often lack the precision required for early detection and risk stratification</p>
+<p><span class="label">Key Impact:</span> Conclusion: Integrating Olink proteomics with machine learning identified molecular signatures in ALL that have the potential to be further developed to a biomarker panel for monitoring treatment response and guiding personalized therapeutic strategies shifting the focus toward the Precision One Health approaches</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.02.10.637517v2">Frequent, context-dependent effects of human genetic variation on Cas9 activity revealed by population-scale GUIDE-seq-2 and deep combinatorial CHANCE-seq profiling</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.02.10.637517">10.1101/2025.02.10.637517</a> · Score: <code>██████░░░░</code> 0.680</p>
-<p><span class="label">Core Problem:</span> Genome editing enzymes can introduce targeted changes to the DNA in living cells, transforming biological research and enabling the first approved gene editing therapy for sickle cell disease</p>
-<p><span class="label">Proposed Solution:</span> However, their genome-wide activity can be altered by genetic variation at on- or off-target sites, potentially impacting both their precision and therapeutic safety. Due to a lack of scalable methods to measure genome-wide editing activity in cells from large populations and diverse target libraries, the frequency and extent of these variant effects on editing remains unknown</p>
-<p><span class="label">Key Impact:</span> Taken together, our findings illuminate a path to account for genetic variation when designing genome editing strategies for research and therapeutics</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.07.02.735997v1">Accessible spatial host-microbe profiling in tumour tissues</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.02.735997">10.64898/2026.07.02.735997</a> · Score: <code>██████░░░░</code> 0.657</p>
+<p><span class="label">Core Problem:</span> The ability of current spatial transcriptomics platforms to sensitively and specifically detect tissue-resident microbes alongside the whole host transcriptome remains limited</p>
+<p><span class="label">Proposed Solution:</span> Here we present HOst MicrobE Spatial-seq (HOMES-seq), a Visium-based workflow for joint spatial profiling of microbial species and the host transcriptome in formalin-fixed paraffin-embedded (FFPE) colorectal tumours. HOMES-seq incorporates an analytical framework to distinguish contaminant-derived signals from bona fide tissue-resident microbes while improving detection sensitivity and reducing sequencing costs relative to existing approaches</p>
+<p><span class="label">Key Impact:</span> HOMES-seq incorporates an analytical framework to distinguish contaminant-derived signals from bona fide tissue-resident microbes while improving detection sensitivity and reducing sequencing costs relative to existing approaches</p>
+<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.09.14.676067">SpatialFuser: a unified framework for integrative analysis of unpaired spatial multi-omics data</a><span class="history-date">Jul 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.29.734828">Multi-modality Graph Representation Learning for Malignant Cell Identification from scRNA-seq using DeepMalignant</a><span class="history-date">Jul 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.30.733140">Synovitis in systemic sclerosis is an interferon-driven stromal condition distinct from rheumatoid arthritis</a><span class="history-date">Jul 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.27.734992">Dynamic consensus pocket detection across molecular dynamics ensembles reveals persistent and transient druggable sites</a><span class="history-date">Jul 03, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.02.10.637517">Frequent, context-dependent effects of human genetic variation on Cas9 activity revealed by population-scale GUIDE-seq-2 and deep combinatorial CHANCE-seq profiling</a><span class="history-date">Jul 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.26.734559">MintCNA: A Unified Framework for Integrative Copy Number Profiling with Single-Cell Multi-Omics Data</a><span class="history-date">Jul 02, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.10.02.680026">Convergent genomic trajectories shape adaptation to life on land across animal lineages</a><span class="history-date">Jul 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.28.26356795">HGGT：Heterogeneous Gated Graph Transformer for Predicting Clinical Trial Success</a><span class="history-date">Jul 02, 2026</span></li>
@@ -335,6 +340,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-07-03T10:14:59 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-07-04T03:03:46 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
