@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>July 08, 2026 — 5 preprints selected</h2>
+  <h2>July 09, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">Designing Fidelity of CRISPR-Cas Endonucleases by Kinetic Insights</a></li>
-  <li><a href="#article-2">Region-Level Design and Analysis of CRISPR Perturbation Screens with FRACTEL</a></li>
-  <li><a href="#article-3">LINKER-Pred: A Deep Learning Method and Web-Server for the Prediction of Disordered Flexible Linkers in Proteins</a></li>
-  <li><a href="#article-4">AllTheBacteria: a community resource empowers biology and discovers novel peptide antibiotics</a></li>
-  <li><a href="#article-5">PLANET-MD: Ultra-fast Proteome-scale Prediction of Allosteric Networks in Proteins</a></li>
+  <li><a href="#article-1">TMO: ASYMMETRIC CROSS-MODAL ATTENTION FOR LEARNING CELL-STATE-DEPENDENT REGULATORY LAGS FROM SINGLE-CELL MULTIOMIC DATA</a></li>
+  <li><a href="#article-2">Identifying cancer cell-state transitions from multimodal single-cell data</a></li>
+  <li><a href="#article-3">Multimodal Deep Learning Reveals the Modular Genetic Architecture of Cardiovascular Aging</a></li>
+  <li><a href="#article-4">Modeling patient tissues at molecular resolution with Eva</a></li>
+  <li><a href="#article-5">Current challenges in GWAS integration and fine-mapping for variant interpretation</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.07.06.736881v1">Designing Fidelity of CRISPR-Cas Endonucleases by Kinetic Insights</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.06.736881">10.64898/2026.07.06.736881</a> · Score: <code>███████░░░</code> 0.739</p>
-<p><span class="label">Core Problem:</span> Finding high-fidelity CRISPR-Cas variants is critical for both the precision of in vitro DNA detection and the safety of in vivo gene-editing therapeutics</p>
-<p><span class="label">Proposed Solution:</span> However, the large size of the Cas enzyme and the distinct selection criteria between its natural evolution and clinical practice lead to extensive experimental trials and limited success rate for de novo design, directed evolution, protein language model (PLM)-based filtering. Here, we present a PLM-assisted physics-driven approach that utilizes atomistic molecular dynamics simulations and automated path searching to efficiently obtain the complete kinetic insights, including the transition state structures, for the conformational changes of Cas before DNA cleavage</p>
-<p><span class="label">Key Impact:</span> We show that these kinetic insights can pinpoint a few fidelity-diminishing protein residues during the early stage of target recognition, and have led to SpyCas9 and FnCas12a variants with ultra-high fidelity surpassing previously reported counterparts at minimal cost of a few wet-lab trials</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.06.08.730880v2">TMO: ASYMMETRIC CROSS-MODAL ATTENTION FOR LEARNING CELL-STATE-DEPENDENT REGULATORY LAGS FROM SINGLE-CELL MULTIOMIC DATA</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.08.730880">10.64898/2026.06.08.730880</a> · Score: <code>███████░░░</code> 0.766</p>
+<p><span class="label">Core Problem:</span> Abstract Background: Single-cell multi-omics technologies simultaneously measure chromatin accessibility (ATAC) and gene expression (RNA), providing a unique window into the temporal ordering of regulatory events during differentiation</p>
+<p><span class="label">Proposed Solution:</span> However, most computational models treat the two modalities symmetrically, ignoring the directional relationship between chromatin and transcription, and existing lag-aware methods estimate a single global lag per gene, failing to capture cell-state-dependent dynamics. Methods and Results: We introduce Temporal Multi-Omics (TMO), a deep learning framework that learns signed, cell-state-conditional regulatory lags ({Delta}{tau}) using asymmetric cross-modal attention</p>
+<p><span class="label">Key Impact:</span> It is scalable, interpretable, and open-source, providing a powerful tool for studying regulatory timing in development, disease, and perturbation screens</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.07.06.736794v1">Region-Level Design and Analysis of CRISPR Perturbation Screens with FRACTEL</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.06.736794">10.64898/2026.07.06.736794</a> · Score: <code>███████░░░</code> 0.731</p>
-<p><span class="label">Core Problem:</span> We present FRACTEL, a statistical framework for region-level analysis of CRISPR perturbation screens</p>
-<p><span class="label">Proposed Solution:</span> FRACTEL aggregates gRNA p-values using a bounded minimum across order statistics, preserving scale and enabling adaptive sensitivity to sparse or diffuse effects. Region-level null distributions are estimated via simulation, ensuring precise type I error control</p>
-<p><span class="label">Key Impact:</span> The method integrates with existing pipelines and supports diverse CRISPR screening applications</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.03.02.708945v2">Identifying cancer cell-state transitions from multimodal single-cell data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.02.708945">10.64898/2026.03.02.708945</a> · Score: <code>███████░░░</code> 0.738</p>
+<p><span class="label">Core Problem:</span> Phenotypic plasticity allows cancer cells to evade therapy, yet the transient nature of state transitions has made their molecular drivers difficult to define</p>
+<p><span class="label">Proposed Solution:</span> Here, we present a single-cell framework that leverages the temporal delays between mRNA and protein accumulation to directly capture cells undergoing phenotypic switching. We show that differentiation-associated delays between transcript and protein accumulation are detectable in multimodal single-cell data as discordant mRNA and surface-protein levels</p>
+<p><span class="label">Key Impact:</span> Together, this framework exposes the molecular basis of cancer plasticity and enables its quantification across tumors</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2025.10.29.685455v2">LINKER-Pred: A Deep Learning Method and Web-Server for the Prediction of Disordered Flexible Linkers in Proteins</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.10.29.685455">10.1101/2025.10.29.685455</a> · Score: <code>███████░░░</code> 0.724</p>
-<p><span class="label">Core Problem:</span> Disordered Flexible Linkers (DFLs) are unstructured regions that play critical roles in inter-domain communication and multivalent protein interactions</p>
-<p><span class="label">Proposed Solution:</span> Despite their biological significance, the accurate identification of DFLs remains challenging due to limited experimental annotations and sparsity of dedicated prediction tools. Here we introduce LINKER-Pred, a publicly available web server featuring two convolutional neural network-based predictors trained on a novel large-scale dataset of linkers connecting folded domains (DLD dataset) and DisProt linkers</p>
-<p><span class="label">Key Impact:</span> org/, offering the research community an accessible tool for studying protein disorder and modularity</p>
-<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.1101/2024.03.08.584059v8">AllTheBacteria: a community resource empowers biology and discovers novel peptide antibiotics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2024.03.08.584059">10.1101/2024.03.08.584059</a> · Score: <code>███████░░░</code> 0.708</p>
-<p><span class="label">Core Problem:</span> Public microbial genomes encode an immense record of biological diversity, evolution and molecular function, but much of this information remains difficult to reuse because raw sequencing data are not uniformly assembled, quality controlled, annotated or searchable at scale</p>
-<p><span class="label">Proposed Solution:</span> Here we present AllTheBacteria, an open, community-built resource that transforms public bacterial short-read whole-genome sequencing reads into a uniformly processed discovery platform. The current analysed release contains 2,440,377 high-quality bacterial and archaeal genomes from 11,273 species, together with standardized taxonomic assignments, genome annotations, antimicrobial resistance calls, antiphage-defence annotations, protein structure predictions and AI-ready sequence tables</p>
-<p><span class="label">Key Impact:</span> Together, these results establish AllTheBacteria as both a foundational community resource for microbiology and a renewable engine for AI-guided antimicrobial discovery</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.04.22.26351478v2">Multimodal Deep Learning Reveals the Modular Genetic Architecture of Cardiovascular Aging</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.04.22.26351478">10.64898/2026.04.22.26351478</a> · Score: <code>███████░░░</code> 0.717</p>
+<p><span class="label">Core Problem:</span> Age is the dominant risk factor for cardiovascular disease, yet individuals of the same chronological age can differ markedly in the organs and biological pathways through which cardiovascular vulnerability emerges</p>
+<p><span class="label">Proposed Solution:</span> We used deep learning to estimate biological age from four cardiovascular data streams in more than 100,000 UK Biobank participants - 12-lead electrocardiograms, cardiac magnetic resonance imaging, carotid ultrasound, and retinal fundus photographs - representing electrical, structural, macrovascular, and microvascular domains. The resulting biological age gaps showed limited overlap across modalities in participants with complete phenotyping, and phenome-wide analyses linked each axis to distinct disease profiles</p>
+<p><span class="label">Key Impact:</span> These findings suggest that AI-derived cardiovascular age is not a single biomarker of systemic senescence, but a family of related phenotypes that decompose cardiovascular aging into measurable electrical, myocardial, macrovascular, and microvascular modules</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2025.12.10.693553v2">Modeling patient tissues at molecular resolution with Eva</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.10.693553">10.64898/2025.12.10.693553</a> · Score: <code>███████░░░</code> 0.712</p>
+<p><span class="label">Core Problem:</span> Tissue structure is essential to function and homeostasis in all organs, and disruptions to structure usually indicate disease</p>
+<p><span class="label">Proposed Solution:</span> Modeling relationships between structural, molecular, and clinical aspects of tissues could advance new diagnostics and treatment strategies. Although profiling techniques like spatial proteomics can capture these relationships, the data remain challenging to extract insight from</p>
+<p><span class="label">Key Impact:</span> We anticipate that Eva will accelerate translational science by bridging basic research and clinical practice</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.06.12.659353v2">PLANET-MD: Ultra-fast Proteome-scale Prediction of Allosteric Networks in Proteins</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.06.12.659353">10.1101/2025.06.12.659353</a> · Score: <code>███████░░░</code> 0.701</p>
-<p><span class="label">Core Problem:</span> Proteins are dynamic molecules that depend on conformational flexibility to carry out functions in the cell, yet despite significant advances in the modeling of static protein structure, prediction of these dynamics remains challenging</p>
-<p><span class="label">Proposed Solution:</span> We introduce PLANET-MD, a machine learning model that predicts dynamic protein properties from sequence or static structure with unprecedented speed and accuracy. Trained on thousands of molecular dynamics trajectories spanning diverse protein families, PLANET-MD simultaneously models multiple dynamics features: root-mean-square fluctuations (RMSF), generalized correlation coefficients (GCC-LMI), and a novel structural heterogeneity profile (SHP) based on recent structure quantization methods</p>
-<p><span class="label">Key Impact:</span> com/flatironinstitute/PLANET-MD</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.07.04.736511v1">Current challenges in GWAS integration and fine-mapping for variant interpretation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.04.736511">10.64898/2026.07.04.736511</a> · Score: <code>███████░░░</code> 0.710</p>
+<p><span class="label">Core Problem:</span> Over the past two decades, genome-wide association studies (GWAS) have identified thousands of trait- and disease-associated loci</p>
+<p><span class="label">Proposed Solution:</span> However, the mechanistic understanding of these loci remains incomplete, which limits our ability to understand gene regulation and cellular programs underlying complex traits, predict disease risk, and develop therapeutics targeted to root causes. Here, we describe the current challenges for using GWAS to prioritize variants for functional follow-up experiments</p>
+<p><span class="label">Key Impact:</span> Fully realizing the potential of GWAS will require harmonized summary statistics and broader sharing of in-sample linkage disequilibrium (LD) data to enable robust and scalable causal variant prioritization</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.07.06.736881">Designing Fidelity of CRISPR-Cas Endonucleases by Kinetic Insights</a><span class="history-date">Jul 08, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.06.736794">Region-Level Design and Analysis of CRISPR Perturbation Screens with FRACTEL</a><span class="history-date">Jul 08, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.29.685455">LINKER-Pred: A Deep Learning Method and Web-Server for the Prediction of Disordered Flexible Linkers in Proteins</a><span class="history-date">Jul 08, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2024.03.08.584059">AllTheBacteria: a community resource empowers biology and discovers novel peptide antibiotics</a><span class="history-date">Jul 08, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.06.12.659353">PLANET-MD: Ultra-fast Proteome-scale Prediction of Allosteric Networks in Proteins</a><span class="history-date">Jul 08, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.02.06.636961">Cell signaling pathways discovery from multi-modal data</a><span class="history-date">Jul 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.06.26357351">AI-Driven Precision Nutrition for Predicting Iron Deficiency Using Genomics, Polygenic Risk Scores, Dietary Patterns, and Personalized Dietary Recommendations</a><span class="history-date">Jul 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.02.26357177">RenalTransLSTM: Multi-Horizon Prediction of Acute Kidney Injury in ICU Patients using a Hybrid LSTM-Transformer Architecture</a><span class="history-date">Jul 07, 2026</span></li>
@@ -360,6 +365,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-07-08T09:01:42 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-07-09T09:02:13 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
