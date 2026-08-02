@@ -79,71 +79,76 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>August 01, 2026 — 5 preprints selected</h2>
+  <h2>August 02, 2026 — 5 preprints selected</h2>
   <p>Daily digest of the highest-impact recent preprints in the biological sciences,
      ranked by semantic relevance, novelty, and methodological sophistication.</p>
 </div>
 
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">DPCGS: a computational framework for linking GWAS to single-cell transcriptomics in complex traits and diseases</a></li>
-  <li><a href="#article-2">ChemoCalib: multiblock PLS calibration of genome-scale metabolic models improves flux prediction over expression-only integration</a></li>
-  <li><a href="#article-3">A Multicenter Confirmatory Randomized-Controlled Study of rhNRGβ1 Protein Replacement Therapy in a Murine Model of NF2-related Schwannomatosis</a></li>
-  <li><a href="#article-4">Population genomics of four-dimensional cardiac motion reveals non-myocyte regulatory programmes</a></li>
-  <li><a href="#article-5">Microbial colonization establishes stratified radial niches that coordinate host epithelial and immune maturation in the colon</a></li>
+  <li><a href="#article-1">GONNECT: A Critical Evaluation of Biologically-informed Neural Networks</a></li>
+  <li><a href="#article-2">MGMG: Cell Morphology-Guided Molecule Generation for Drug Discovery</a></li>
+  <li><a href="#article-3">Integrative genomics of the siphonophore Physalia utriculus reveals the regulatory logic of colonial division of labour and the molecular basis of venom activity</a></li>
+  <li><a href="#article-4">FITdb, an Integrated Functional Immunogenomics and Transcriptomics Database</a></li>
+  <li><a href="#article-5">Omega-seq: ultra-low-background RNA sequencing with faithful molecular counting and precise transcript-end capture</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.07.14.738331v2">DPCGS: a computational framework for linking GWAS to single-cell transcriptomics in complex traits and diseases</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.14.738331">10.64898/2026.07.14.738331</a> · Score: <code>███████░░░</code> 0.745</p>
-<p><span class="label">Core Problem:</span> Complex traits and diseases arise from the interplay between genetic variation and cellular heterogeneity, making it essential to understand how genetic risk manifests at the cellular level</p>
-<p><span class="label">Proposed Solution:</span> However, connecting genome-wide association studies (GWAS) to specific cell populations remains challenging due to cellular complexity and the prevalence of noncoding variants. Here, we present DPCGS, a computational framework that systematically integrates GWAS summary statistics with single-cell RNA-sequencing (scRNA-seq) data to identify trait-associated cell subpopulations, genes, and regulatory programs</p>
-<p><span class="label">Key Impact:</span> This approach enables systematic discovery of disease-relevant cell subpopulations, regulatory networks, and potential therapeutic targets, offering broad applications in human genetics, single-cell biology, and precision medicine</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.1101/2025.11.06.686983v2">GONNECT: A Critical Evaluation of Biologically-informed Neural Networks</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.11.06.686983">10.1101/2025.11.06.686983</a> · Score: <code>██████░░░░</code> 0.688</p>
+<p><span class="label">Core Problem:</span> Biologically-informed neural networks (BINNs) embed prior knowledge such as the Gene Ontology (GO) into their architecture to produce structurally interpretable representations, yet whether and how this prior improves performance or interpretation remains unclear</p>
+<p><span class="label">Proposed Solution:</span> Here, we introduce GONNECT, a BINN incorporating GO into an autoencoder. We evaluate GO constraints in the encoder, decoder, or both on RNA-seq tumour samples from The Cancer Genome Atlas (TCGA), comparing against published BINNs (OntoVAE and VEGA), randomized-prior controls, and an unconstrained baseline</p>
+<p><span class="label">Key Impact:</span> Our results clarify what biological priors contribute: their value lies not in the identity of the imposed connections or in improved performance, but in organizing activations into biologically meaningful units that can be interrogated directly</p>
+<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.07.28.741216v1">ChemoCalib: multiblock PLS calibration of genome-scale metabolic models improves flux prediction over expression-only integration</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.28.741216">10.64898/2026.07.28.741216</a> · Score: <code>███████░░░</code> 0.702</p>
-<p><span class="label">Core Problem:</span> Constraint-based metabolic modeling (FBA) needs multi-omics integration to narrow flux solution spaces, yet existing expression-only methods (E-Flux, GIMME, iMAT, MOMENT, E-Flux2, SPOT) ignore cross-omics covariance and rely on heuristic thresholds</p>
-<p><span class="label">Proposed Solution:</span> We present ChemoCalib, a chemometrics-calibrated constraint layer that projects shared latent structure from metabolomics, transcriptomics, and proteomics onto genome-scale reaction bounds via multiblock partial least squares (MB-PLS) with GPR-aware VIP aggregation. Unlike linear expression scaling, ChemoCalib derives continuous, interpretable bounds (soft/hard/adaptive modes) and couples them to an in-silico active-learning loop for virtual double-knockout selection</p>
-<p><span class="label">Key Impact:</span> 21645890), needs no wet experiment, and positions chemometrics as a calibration layer for virtual-cell metabolic modules</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2025.07.11.664424v2">MGMG: Cell Morphology-Guided Molecule Generation for Drug Discovery</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.07.11.664424">10.1101/2025.07.11.664424</a> · Score: <code>██████░░░░</code> 0.619</p>
+<p><span class="label">Core Problem:</span> Designing novel molecules with desired bioactivity remains a fundamental challenge in drug discovery</p>
+<p><span class="label">Proposed Solution:</span> Most molecular design methods follow target-based drug discovery paradigms that rely on well-defined drug targets, thereby limiting their applicability to diseases lacking known targets or reference compounds. Here we introduce Morphology-Guided Molecule Generation (MGMG), a phenotypic drug discovery-oriented approach that integrates cellular morphological profiles from compound treatments with molecular textual descriptions without requiring molecular target information</p>
+<p><span class="label">Key Impact:</span> Overall, MGMG jointly utilizes morphological and textual description inputs to guide molecule generation, enabling diverse, bioactivity-aware compound design in a target-agnostic fashion</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.07.31.741963v1">A Multicenter Confirmatory Randomized-Controlled Study of rhNRGβ1 Protein Replacement Therapy in a Murine Model of NF2-related Schwannomatosis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.31.741963">10.64898/2026.07.31.741963</a> · Score: <code>██████░░░░</code> 0.684</p>
-<p><span class="label">Core Problem:</span> Background: Previous exploratory studies identified recombinant human Neuregulin-1 {beta} (rhNRG{beta}1) as a promising therapeutic strategy for inhibiting the growth of Nf2-deficient schwannomas by promoting cellular differentiation</p>
-<p><span class="label">Proposed Solution:</span> Because robust confirmation across independent laboratories is essential for advancing promising preclinical findings toward clinical translation, we conducted a multicenter, randomized, controlled confirmatory study under stringent preclinical standards. Methods: In a pre-registered trial (DOI: 10</p>
-<p><span class="label">Key Impact:</span> From a translational perspective, these findings provide a robust foundation for optimizing future rhNRG{beta}1-based therapeutic approaches through improved dosing, delivery routes, and treatment schedules</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.01.742136v1">Integrative genomics of the siphonophore Physalia utriculus reveals the regulatory logic of colonial division of labour and the molecular basis of venom activity</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.01.742136">10.64898/2026.08.01.742136</a> · Score: <code>██████░░░░</code> 0.607</p>
+<p><span class="label">Core Problem:</span> How a single genome gives rise to specialised multicellular individuals that function as an integrated organism remains a fundamental question in the evolution of complex coloniality</p>
+<p><span class="label">Proposed Solution:</span> Siphonophores represent the most elaborate example of this strategy in animals, yet the molecular basis of zooid specialisation remains poorly understood. Here, we present a multi-omic atlas of the bluebottle Physalia utriculus, including a reference genome together with transcriptomic, chromatin accessibility and DNA methylation profiles of diverse P</p>
+<p><span class="label">Key Impact:</span> Together, our results connect the evolution of colonial division of labour with lineage-specific ecological innovation in one of the ocean&#x27;s most iconic colonial animals</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.1101/2025.11.22.25340784v2">Population genomics of four-dimensional cardiac motion reveals non-myocyte regulatory programmes</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.11.22.25340784">10.1101/2025.11.22.25340784</a> · Score: <code>██████░░░░</code> 0.682</p>
-<p><span class="label">Core Problem:</span> Genome-wide studies of cardiac structure and function have relied on global imaging metrics that fail to capture the full complexity of myocardial behaviour, leaving the genetic and environmental architecture of motion largely unexplored</p>
-<p><span class="label">Proposed Solution:</span> Here we show, using unsupervised deep learning applied to four-dimensional cardiac imaging data in 78,113 adult participants, that latent representations of left-ventricular motion reveal 39 genetic loci, two-thirds undetected by conventional indices, exposing a diversity of cell-type specificity validated across single-cell transcriptional atlases of the human heart. Conventional traits resolve to cardiomyocyte and conduction-system regulatory elements, while motion-specific variants converge on non-myocyte programmes encompassing autonomic neuronal, endocardial, fibroblast, and endothelial compartments</p>
-<p><span class="label">Key Impact:</span> Motion-specific traits further implicate environmental exposures including smoking and air pollution linked to motion profiles, and unsupervised clustering stratifies participants by genetic burden and clinical risk, supporting disease-relevant endophenotypes invisible to standard clinical assessment</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.07.28.741304v1">FITdb, an Integrated Functional Immunogenomics and Transcriptomics Database</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.28.741304">10.64898/2026.07.28.741304</a> · Score: <code>██████░░░░</code> 0.606</p>
+<p><span class="label">Core Problem:</span> Genetic screens in immune cells enable the systematic interrogation of gene function at scale, uncovering key regulators of cell functions such as tumor cell killing and persistence</p>
+<p><span class="label">Proposed Solution:</span> However, existing datasets typically focus on specific biological questions, employ targeted gene panels, are generated under diverse experimental conditions, and are not readily accessible, which together limit their integration and future usability. To address this, we developed the Functional Immunogenomics and Transcriptomics Database (FITdb), a freely accessible resource that harmonizes functional genomics datasets for the study of immune cell biology</p>
+<p><span class="label">Key Impact:</span> org</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.07.31.741947v1">Microbial colonization establishes stratified radial niches that coordinate host epithelial and immune maturation in the colon</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.31.741947">10.64898/2026.07.31.741947</a> · Score: <code>██████░░░░</code> 0.667</p>
-<p><span class="label">Core Problem:</span> Microbial colonization is essential for intestinal maturation, yet how spatial organization of the microbiome shapes host tissue function remains unresolved</p>
-<p><span class="label">Proposed Solution:</span> Here, we applied Stereo-seq V2 spatial platform to simultaneously profile the host transcriptome at single-cell resolution and microbial meta-transcriptome at 5 x 5 m resolution across the proximal, middle, and distal colon of germ-free (GF) mice and mice reconstituted by fecal microbiota transplantation (FMT), integrated with time-course fecal metagenomics. We observed that, four weeks after FMT, microbial colonization established a mature colonic architecture, increased goblet cell number and mucus layer thickness, diversified epithelial lineages, and expanded stem/transit-amplifying, myeloid, and T-cell populations</p>
-<p><span class="label">Key Impact:</span> Colonization therefore establishes a spatially integrated host-microbiome interface with quantifiable, stratified microbial niches in which location, and not composition alone, coordinates epithelial and immune maturation</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.03.12.711386v2">Omega-seq: ultra-low-background RNA sequencing with faithful molecular counting and precise transcript-end capture</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.12.711386">10.64898/2026.03.12.711386</a> · Score: <code>█████░░░░░</code> 0.570</p>
+<p><span class="label">Core Problem:</span> PCR-based RNA sequencing methods generate phantom unique molecular identifiers (UMIs) when residual UMI-bearing oligonucleotides reprime during amplification, inflating molecule counts and cor- rupting relative abundances</p>
+<p><span class="label">Proposed Solution:</span> They also incur non-specific amplification that limits sensitivity, while synthetic poly-T tracts disrupt sequencing and obscure transcript 3&#x27; ends. Here we present Omega-seq, which restricts UMI incorporation to reverse transcription using uracil-containing, USER-excisable template-switching oligonucleotides and a uracil-intolerant polymerase</p>
+<p><span class="label">Key Impact:</span> In individual Drosophila neuroblasts, phantom-UMI inflation remains minimal; pooled neuroblast and neuron cov- erage enables de novo discovery of novel multi-exon genes, 3&#x27; UTR extensions, and candidate enhancer RNAs</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.07.14.738331">DPCGS: a computational framework for linking GWAS to single-cell transcriptomics in complex traits and diseases</a><span class="history-date">Aug 01, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.28.741216">ChemoCalib: multiblock PLS calibration of genome-scale metabolic models improves flux prediction over expression-only integration</a><span class="history-date">Aug 01, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.31.741963">A Multicenter Confirmatory Randomized-Controlled Study of rhNRGβ1 Protein Replacement Therapy in a Murine Model of NF2-related Schwannomatosis</a><span class="history-date">Aug 01, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.11.22.25340784">Population genomics of four-dimensional cardiac motion reveals non-myocyte regulatory programmes</a><span class="history-date">Aug 01, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.31.741947">Microbial colonization establishes stratified radial niches that coordinate host epithelial and immune maturation in the colon</a><span class="history-date">Aug 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.27.740774">How Bias Shapes the Leaderboard: Scoring Function Performance Under Scrutiny</a><span class="history-date">Jul 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.27.740999">RKMR: A Rapid Kernel Machine Regression Framework for Optimal Marker Detection in Spatial Omics Data</a><span class="history-date">Jul 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.29.741448">Single-cell lineage tracing of human neuromesoderm organoids reveals TBX6-mediated posterior mesoderm fate diversification</a><span class="history-date">Jul 31, 2026</span></li>
@@ -480,6 +485,6 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
 </ul>
 
-<footer>Generated 2026-08-01T09:02:46 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-08-02T10:04:29 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 </body>
 </html>
