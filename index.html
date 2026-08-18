@@ -30,8 +30,33 @@ p   { margin: .4rem 0; }
 code { font-family: monospace; font-size: .85em; color: var(--amber2); }
 hr  { border: none; border-top: 1px solid var(--slate); margin: 1.5rem 0; }
 
-#header { border-bottom: 2px solid var(--amber); padding-bottom: .8rem; margin-bottom: 1.8rem; }
+#header { border-bottom: 2px solid var(--amber); padding-bottom: .8rem; margin-bottom: 1.2rem; }
 #header p { color: var(--smoke); font-size: .85rem; font-style: italic; margin: .4rem 0 0; }
+
+/* --- Tabs --- */
+.tabs {
+  display: flex; flex-wrap: wrap; gap: .4rem;
+  border-bottom: 1px solid var(--slate); margin-bottom: 1.4rem;
+}
+.tab {
+  appearance: none; cursor: pointer; font-family: inherit; font-size: .82rem;
+  letter-spacing: .06em; text-transform: uppercase; font-weight: bold;
+  background: transparent; color: var(--smoke);
+  border: 1px solid var(--slate); border-bottom: none;
+  border-radius: 4px 4px 0 0; padding: .5rem .9rem; margin-bottom: -1px;
+  text-decoration: none; display: inline-block;
+}
+.tab:hover { color: var(--amber2); background: var(--navy2); }
+.tab[aria-selected="true"] {
+  color: var(--navy); background: var(--amber); border-color: var(--amber);
+}
+.tab .count { font-weight: normal; opacity: .75; }
+.track-blurb { color: var(--smoke); font-size: .85rem; margin: 0 0 1.4rem; }
+
+/* Panels: visible by default (no-JS friendly), hidden once JS takes over */
+.panel-heading { display: none; }
+body.js-tabs .panel[hidden] { display: none; }
+body.js-tabs .panel { display: block; }
 
 .section-title {
   color: var(--amber); font-size: .9rem; font-weight: bold;
@@ -58,6 +83,7 @@ hr  { border: none; border-top: 1px solid var(--slate); margin: 1.5rem 0; }
 .article h3 a:hover { color: var(--amber); text-decoration: underline; }
 .meta { font-size: .8rem; color: var(--smoke); margin: 0 0 .6rem; }
 .label { color: var(--amber2); font-weight: bold; }
+.empty { color: var(--smoke); font-style: italic; }
 
 /* Section 3 — History */
 .history-list { list-style: none; padding: 0; }
@@ -73,242 +99,259 @@ footer {
   margin-top: 3rem; color: var(--smoke); font-size: .75rem;
   border-top: 1px solid var(--slate); padding-top: .8rem; text-align: center;
 }
+@media (max-width: 520px) {
+  .tab { font-size: .74rem; padding: .45rem .6rem; }
+}
 
 </style>
 </head>
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>August 16, 2026 — 5 preprints selected</h2>
-  <p>Daily digest of the highest-impact recent preprints in the biological sciences,
-     ranked by semantic relevance, novelty, and methodological sophistication.</p>
+  <h2>August 18, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <p>Parallel daily digests of high-impact recent preprints, each ranked by
+     semantic relevance to its topic, novelty against previously featured work,
+     and methodological sophistication.</p>
 </div>
 
+<nav class="tabs" role="tablist">
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
+</nav>
+
+<section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
+<h2 class="panel-heading">Computational &amp; Molecular Biology</h2>
+<p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#article-1">Towards Personalized Edge-AI for Medicine: Efficient Neuromorphic Frameworks for Seizure Detection and Prediction</a></li>
-  <li><a href="#article-2">A Mendelian randomization-based drug repurposing pipeline with integrated AI-facilitated prioritization: application to lipid traits and coronary artery disease</a></li>
-  <li><a href="#article-3">T-Rx: A toolbox for reproducible processing of prescriptions (Rx) stored in electronic health record databases</a></li>
-  <li><a href="#article-4">Prognostic Markers of Frailty and Fall Risks in Older Adults: a Longitudinal Cohort Study using Explainable AI</a></li>
-  <li><a href="#article-5">Transmural side holes in covered metal stents do not reduce bile duct occlusion or cholecystitis: a single center study</a></li>
+  <li><a href="#core-article-1">Phenotype-associated spatial biomarker discovery in spatial transcriptomics with spHOT</a></li>
+  <li><a href="#core-article-2">Discovery of Selective Small-Molecule Ligands of SV2C by AI-Enhanced Virtual Screening and Experimental Validation</a></li>
+  <li><a href="#core-article-3">A contextualised protein language model reveals the functional syntax of bacterial evolution</a></li>
+  <li><a href="#core-article-4">Genome-wide single-cell perturbation screens with VIPerturb-seq</a></li>
+  <li><a href="#core-article-5">Assessing Codon Language Models for Context-Aware Codon Optimization in Nucleic Acid-Based Medicines</a></li>
 </ul>
 
 <hr>
 
-<div class="article" id="article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.1101/2025.09.22.25336341v2">Towards Personalized Edge-AI for Medicine: Efficient Neuromorphic Frameworks for Seizure Detection and Prediction</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.09.22.25336341">10.1101/2025.09.22.25336341</a> · Score: <code>█████░░░░░</code> 0.588</p>
-<p><span class="label">Core Problem:</span> Epilepsy affects approximately 1% of global population, with 30-40% of cases resistant to conventional pharmacological treatments</p>
-<p><span class="label">Proposed Solution:</span> Neurostimulation offers these patients an alternative by delivering targeted electrical stimulation to the brain. However, adaptive AI for these devices relies on external or cloud-based resources for model retraining and updating, which introduces significant challenges, including high false positive rates, latency issues, and privacy concerns</p>
-<p><span class="label">Key Impact:</span> This work establishes a foundation for next-generation personalized Edge-AI systems capable of adapting and learning directly at the edge</p>
-<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+<div class="article" id="core-article-1">
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.11.744312v1">Phenotype-associated spatial biomarker discovery in spatial transcriptomics with spHOT</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.11.744312">10.64898/2026.08.11.744312</a> · Score: <code>█████░░░░░</code> 0.547</p>
+<p><span class="label">Core Problem:</span> Spatial transcriptomics now profiles patient cohorts at single-cell resolution, enabling analysis of disease-associated cell organization in situ</p>
+<p><span class="label">Proposed Solution:</span> However, discovering such spatial biomarkers remains challenging because relevant structures occur at unknown scales and cell- or niche-level annotations are rarely available. We present spHOT, a deep learning framework that localizes phenotype-associated spatial biomarkers from sample-level labels</p>
+<p><span class="label">Key Impact:</span> spHOT enables scalable, annotation-efficient spatial biomarker discovery in cohort-scale spatial transcriptomics</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.02.28.26347341v3">A Mendelian randomization-based drug repurposing pipeline with integrated AI-facilitated prioritization: application to lipid traits and coronary artery disease</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.02.28.26347341">10.64898/2026.02.28.26347341</a> · Score: <code>█████░░░░░</code> 0.544</p>
-<p><span class="label">Core Problem:</span> Drug repurposing can efficiently identify promising therapeutic targets using existing data; however, current approaches have limitations</p>
-<p><span class="label">Proposed Solution:</span> This calls for high-throughput approaches that combine versatility and rigor. We developed a flexible, high-throughput, Mendelian randomization (MR)-based drug repurposing pipeline with three stages: 1) MR-based protein target identification, 2) MR-based validation, and 3) drug target mapping and AI-assisted drug prioritization</p>
-<p><span class="label">Key Impact:</span> To demonstrate the utility of this pipeline, we applied it to atherosclerotic cardiovascular disease</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.11.744237v1">Discovery of Selective Small-Molecule Ligands of SV2C by AI-Enhanced Virtual Screening and Experimental Validation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.11.744237">10.64898/2026.08.11.744237</a> · Score: <code>█████░░░░░</code> 0.535</p>
+<p><span class="label">Core Problem:</span> Synaptic vesicle glycoprotein 2C (SV2C) is a vesicular protein enriched in dopaminergic neurons of the basal ganglia that modulates dopamine storage and release, and its disruption is implicated in Parkinson&#x27;s disease (PD)</p>
+<p><span class="label">Proposed Solution:</span> Despite strong genetic and pathological links to PD, there are no selective small-molecule probes for SV2C. Here, we describe an AI-enhanced virtual screening (VS) and experimental campaign that identified multiple novel chemotypes with low-micromolar affinity and marked selectivity for SV2C over SV2A and SV2B, starting from a large, general-purpose commercial library</p>
+<p><span class="label">Key Impact:</span> The identified hits provide multiple starting points for hit-to-lead optimization and tools for probing SV2C biology and its role in PD</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.1101/2025.10.07.25336002v2">T-Rx: A toolbox for reproducible processing of prescriptions (Rx) stored in electronic health record databases</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.10.07.25336002">10.1101/2025.10.07.25336002</a> · Score: <code>█████░░░░░</code> 0.524</p>
-<p><span class="label">Core Problem:</span> Motivation Linkage between population-wide biobanks and electronic health records (EHRs) opens new opportunities to study the genetic and epidemiological underpinnings of treatment outcomes</p>
-<p><span class="label">Proposed Solution:</span> However, data extraction is often complex, and the lack of open, reproducible phenotyping algorithms makes it difficult to scale analyses and compare findings across studies. Implementation T-Rx is an open-source R package consisting of three modules: (1) Extraction and Imputation Module; (2) Exposure Ascertainment Module; and (3) Phenotyping Module</p>
-<p><span class="label">Key Impact:</span> io/T-Rx/]</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<div class="article" id="core-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2025.07.20.665723v3">A contextualised protein language model reveals the functional syntax of bacterial evolution</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.07.20.665723">10.1101/2025.07.20.665723</a> · Score: <code>█████░░░░░</code> 0.512</p>
+<p><span class="label">Core Problem:</span> Bacteria have evolved a vast diversity of functions and behaviours that are currently incompletely understood and poorly predicted from DNA sequence alone</p>
+<p><span class="label">Proposed Solution:</span> To understand the syntax of bacterial evolution and discover genome-to-phenotype relationships, we curated over 1. 3 million genomes spanning bacterial phylogenetic space, represented each as an ordered sequence of proteins, and used these sequences to train a transformer-based, contextualised protein language model, Bacformer</p>
+<p><span class="label">Key Impact:</span> Thus, Bacformer establishes a genomic foundation model that reveals the evolutionary rules governing bacterial gene organisation, function, and phenotype, opening a route to systematic whole-genome engineering</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.03.13.26347338v2">Prognostic Markers of Frailty and Fall Risks in Older Adults: a Longitudinal Cohort Study using Explainable AI</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.03.13.26347338">10.64898/2026.03.13.26347338</a> · Score: <code>████░░░░░░</code> 0.496</p>
-<p><span class="label">Core Problem:</span> Frailty is a geriatric syndrome that reflects a state of increased vulnerability to endogenous and exogenous stressors, exposing individuals to a higher risk of premature death and adverse health outcomes</p>
-<p><span class="label">Proposed Solution:</span> This work aims at identifying new determinants of frailty and improving screening tools for less studied clinical endpoints. To this end, we analyze a novel cohort pro- vided by the Camara Municipal de Famalicao, comprising 2,862 participants and 6,855 observa- tions across up to four assessment moments, and spanning sociodemographics, anthropometry, functional tests , cognitive assessments, quality of life, and fall history</p>
-<p><span class="label">Key Impact:</span> Overall, the results support the feasibility of explainable AI for actionable risk stratification in community assessments, while highlighting constraints related to missingness, class imbalance, and selection bias toward an active cohort</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<div class="article" id="core-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.02.12.705613v2">Genome-wide single-cell perturbation screens with VIPerturb-seq</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.02.12.705613">10.64898/2026.02.12.705613</a> · Score: <code>█████░░░░░</code> 0.489</p>
+<p><span class="label">Core Problem:</span> CRISPR-based screening combined with single-cell sequencing (i</p>
+<p><span class="label">Proposed Solution:</span> e. , Perturb-seq) enables systematic mapping of genetic perturbations to molecular phenotypes</p>
+<p><span class="label">Key Impact:</span> Our results demonstrate how the sensitivity, scalability, and efficiency of VIPerturb-seq can enable both individual labs with targeted research questions and large data generation platforms aiming to construct virtual cells</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.05.14.26353216v2">Transmural side holes in covered metal stents do not reduce bile duct occlusion or cholecystitis: a single center study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.05.14.26353216">10.64898/2026.05.14.26353216</a> · Score: <code>███░░░░░░░</code> 0.355</p>
-<p><span class="label">Core Problem:</span> Background and Study Aims Fully covered, self-expandable metal stents (FCSEMS) are used to treat biliary strictures</p>
-<p><span class="label">Proposed Solution:</span> FCSEMS with transmural side holes may facilitate cystic duct drainage to mitigate risk of cholecystitis and impact other stent-related adverse events such as migration and occlusion. This study compared rates of premature stent occlusion and acute cholecystitis among patients with biliary strictures who underwent first-time placement of a FCSEMS with or without transmural side holes</p>
-<p><span class="label">Key Impact:</span> Conclusions In this preliminary single center retrospective study, FCSEMS stents with side holes did not reduce rates of premature bile duct stent occlusion or acute cholecystitis compared to FCSEMS without side holes</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<div class="article" id="core-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.11.744178v1">Assessing Codon Language Models for Context-Aware Codon Optimization in Nucleic Acid-Based Medicines</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.11.744178">10.64898/2026.08.11.744178</a> · Score: <code>█████░░░░░</code> 0.463</p>
+<p><span class="label">Core Problem:</span> Codon optimization uses synonymous sequence changes to improve the expression and therapeutic performance of nucleic acid-based medicines</p>
+<p><span class="label">Proposed Solution:</span> Masked language models (MLMs) have recently been proposed as alternatives to traditional, frequency-based codon optimization approaches, yet whether they offer a meaningful advantage over such simpler methods remains unclear. Here we benchmark three prominent MLMs --- CaLM, EnCodon and CodonTransformer --- across backtranslation fidelity, sequence generation and nine molecular phenotype prediction tasks, and experimentally evaluate model-designed sequences using a secreted embryonic alkaline phosphatase (SEAP) reporter</p>
+<p><span class="label">Key Impact:</span> Together, our results establish MLMs as effective and complementary tools for codon optimization and suggest that sampling across multiple models may improve the likelihood of identifying high-performing therapeutic sequences</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
-  <li><a href="https://doi.org/10.64898/2026.08.11.26360196">A Vision-Language Framework for Predicting Brain Tumor Recurrence from Multimodal, Longitudinal Patient Data</a><span class="history-date">Aug 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.10.26360145">A Deep Learning-Derived Insulin Resistance Index for Cardiovascular Risk Prediction: A Prospective Cohort Study with External Validation in Chinese and US Populations</a><span class="history-date">Aug 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.11.26360226">Safety and Exploratory Efficacy of Reduced β-Nicotinamide Mononucleotide Calcium Salt (NMNH-Ca) in Healthy Middle-Aged and Older Adults: A Randomized, Double-Blind, Placebo-Controlled Trial</a><span class="history-date">Aug 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.10.26360107">Longitudinal Clinical Foundation Models Augmented with Genomics for Early Detection and Risk Stratification of Inherited Cardiomyopathy</a><span class="history-date">Aug 13, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.09.22.25336341">Towards Personalized Edge-AI for Medicine: Efficient Neuromorphic Frameworks for Seizure Detection and Prediction</a><span class="history-date">Aug 16, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.07.25336002">T-Rx: A toolbox for reproducible processing of prescriptions (Rx) stored in electronic health record databases</a><span class="history-date">Aug 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.02.28.26347341">A Mendelian randomization-based drug repurposing pipeline with integrated AI-facilitated prioritization: application to lipid traits and coronary artery disease</a><span class="history-date">Aug 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.03.13.26347338">Prognostic Markers of Frailty and Fall Risks in Older Adults: a Longitudinal Cohort Study using Explainable AI</a><span class="history-date">Aug 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.14.26353216">Transmural side holes in covered metal stents do not reduce bile duct occlusion or cholecystitis: a single center study</a><span class="history-date">Aug 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.10.26359948">Deep sequencing reveals subpopulation dynamics associated with treatment failure in a rare non-tuberculous mycobacterial infection</a><span class="history-date">Aug 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.10.26360107">Longitudinal Clinical Foundation Models Augmented with Genomics for Early Detection and Risk Stratification of Inherited Cardiomyopathy</a><span class="history-date">Aug 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.10.26360145">A Deep Learning-Derived Insulin Resistance Index for Cardiovascular Risk Prediction: A Prospective Cohort Study with External Validation in Chinese and US Populations</a><span class="history-date">Aug 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.11.26360196">A Vision-Language Framework for Predicting Brain Tumor Recurrence from Multimodal, Longitudinal Patient Data</a><span class="history-date">Aug 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.11.26360226">Safety and Exploratory Efficacy of Reduced β-Nicotinamide Mononucleotide Calcium Salt (NMNH-Ca) in Healthy Middle-Aged and Older Adults: A Randomized, Double-Blind, Placebo-Controlled Trial</a><span class="history-date">Aug 13, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.09.28.25336821">Effectiveness of Systemic Treatments in Patients with Unresectable, Advanced, or Recurrent Soft Tissue Sarcomas Previously Treated with Anthracycline-Based Therapy: A Systematic Review and Network Meta-Analysis</a><span class="history-date">Aug 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.08.26360002">A Multi-stage Precision Stratification (MPS) Framework for Navigating Adjuvant Immunotherapy in Hepatocellular Carcinoma After Resection</a><span class="history-date">Aug 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.09.26355326">An optimised serological machine learning model enabling targeted test-and-treat for Plasmodium vivax malaria</a><span class="history-date">Aug 12, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.09.26360047">A unified framework for local-ancestry-aware genetic association analysis across biobanks</a><span class="history-date">Aug 12, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.10.26360077">The unexplainable plasma protein measurements from Proximity Extension Assays</a><span class="history-date">Aug 12, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.09.28.25336821">Effectiveness of Systemic Treatments in Patients with Unresectable, Advanced, or Recurrent Soft Tissue Sarcomas Previously Treated with Anthracycline-Based Therapy: A Systematic Review and Network Meta-Analysis</a><span class="history-date">Aug 12, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.09.26355326">An optimised serological machine learning model enabling targeted test-and-treat for Plasmodium vivax malaria</a><span class="history-date">Aug 12, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.08.26360002">A Multi-stage Precision Stratification (MPS) Framework for Navigating Adjuvant Immunotherapy in Hepatocellular Carcinoma After Resection</a><span class="history-date">Aug 12, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.08.743701">Double Machine Learning with Multi-Gene Shared Backgroundfor Causal Inference in Single-Cell Data: Grouping Deviation Follows a Random Walk and the Accuracy-Compute Trade-Off</a><span class="history-date">Aug 11, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.08.26359996">Microbial guild architecture transduces multi-component botanical inputs into multi-receptor-mediated gut motility restoration</a><span class="history-date">Aug 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.15.694341">Mapping disease traits onto spatiotemporal domain landscapes through scalable multi-sample integration of spatial transcriptomics</a><span class="history-date">Aug 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.05.26359034">A software package for simple and rigorous survival machine learning analysis in biomedical research</a><span class="history-date">Aug 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.06.26359422">Immune and stromal features of durable complete response to radiation and dual immune checkpoint blockade in pancreatic cancer</a><span class="history-date">Aug 11, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.03.742582">Explainable machine learning relates histological to genomic pathology</a><span class="history-date">Aug 10, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.10.26352837">Performing specialized biological tests with task-specific machine learning models</a><span class="history-date">Aug 10, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.06.743405">Scalable Extraction of Information on Protein-Protein Interactions using Topological Data Analysis</a><span class="history-date">Aug 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.08.26359996">Microbial guild architecture transduces multi-component botanical inputs into multi-receptor-mediated gut motility restoration</a><span class="history-date">Aug 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.08.743701">Double Machine Learning with Multi-Gene Shared Backgroundfor Causal Inference in Single-Cell Data: Grouping Deviation Follows a Random Walk and the Accuracy-Compute Trade-Off</a><span class="history-date">Aug 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.22.720135">A Systematic Evaluation of Single-Cell Batch Integration Metrics and sBEE, A New Metric</a><span class="history-date">Aug 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.10.26352837">Performing specialized biological tests with task-specific machine learning models</a><span class="history-date">Aug 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.03.742582">Explainable machine learning relates histological to genomic pathology</a><span class="history-date">Aug 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.04.742537">pysigscore: gene signatures scoring across bulk and single-cell transcriptomics</a><span class="history-date">Aug 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.06.743405">Scalable Extraction of Information on Protein-Protein Interactions using Topological Data Analysis</a><span class="history-date">Aug 10, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2023.10.04.556561">ModelSEED v2: High-throughput genome-scale metabolic model reconstruction with enhanced energy biosynthesis pathway prediction</a><span class="history-date">Aug 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.04.28.26351834">Individual-First Brain State Modeling Reconciles Personalized Prediction with Generalizable Mechanistic Interpretation in Precision Psychiatry</a><span class="history-date">Aug 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.17.732930">Targeting NAT10 Activates Tumor-Intrinsic Immunity and Suppresses Tumor Progression in Head and Neck Squamous Cell Carcinoma</a><span class="history-date">Aug 09, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.10.11.617914">DNA methylation either antagonizes or promotes Polycomb recruitment at transposable elements</a><span class="history-date">Aug 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.20.719611">E3 ubiquitin ligase HUWE1 mediates K6-linked polyubiquitylation and stabilization of Nrf2 to restrict hepatitis B virus replication</a><span class="history-date">Aug 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.28.26351834">Individual-First Brain State Modeling Reconciles Personalized Prediction with Generalizable Mechanistic Interpretation in Precision Psychiatry</a><span class="history-date">Aug 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.732930">Targeting NAT10 Activates Tumor-Intrinsic Immunity and Suppresses Tumor Progression in Head and Neck Squamous Cell Carcinoma</a><span class="history-date">Aug 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.03.741871">Resolving the immune response across clonal cancer evolution in situ with whole transcriptome profiling</a><span class="history-date">Aug 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.03.742406">REFCON: Reference-free and robust copy number inference in single-cell tumor transcriptomes</a><span class="history-date">Aug 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.03.742620">De novo transformer modeling improves recovery of genetic cell types from sparse single-cell RNA sequencing</a><span class="history-date">Aug 08, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.03.741871">Resolving the immune response across clonal cancer evolution in situ with whole transcriptome profiling</a><span class="history-date">Aug 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.06.743335">Genomic repeats for single-cell molecular recording</a><span class="history-date">Aug 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.07.743481">SLIM: A small linear model with STRING embeddings for single-cell genetic perturbation prediction</a><span class="history-date">Aug 08, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.04.26359685">A proteome-wide association study of cardiovascular diseases in 640,000 participants of multiple ancestries</a><span class="history-date">Aug 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.04.26359536">Multimodal artificial intelligence using entire electronic health record and complete pathogen genome data for patient outcome prediction from life-threatening infection: the SuperbugAI Platform</a><span class="history-date">Aug 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.04.26359626">TLS-Tractor: A transfer learning framework for incorporating summary-statistics into local ancestry-aware GWAS in admixed populations</a><span class="history-date">Aug 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.04.26359685">A proteome-wide association study of cardiovascular diseases in 640,000 participants of multiple ancestries</a><span class="history-date">Aug 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.04.26359728">Deep Learning of Fluorescence Lifetime Imaging Ophthalmoscopy for Type 2 Diabetes Classification</a><span class="history-date">Aug 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.04.26359730">Predicting Cognitive Function Using Transformer-Derived Speech Representations and Longitudinal Coherence Features</a><span class="history-date">Aug 07, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.04.26359536">Multimodal artificial intelligence using entire electronic health record and complete pathogen genome data for patient outcome prediction from life-threatening infection: the SuperbugAI Platform</a><span class="history-date">Aug 07, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.04.742718">CryoLigATE: enhancing the resolvability of cryo-EM maps in protein-ligand complexes using deep learning</a><span class="history-date">Aug 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.31.741430">FAIRyMAGs - a series of FAIR Galaxy workflows for the generation of metagenome assembled genomes</a><span class="history-date">Aug 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.04.742848">Pharmacological up-regulation of CALM1 restore endothelial cells in intracranial aneurysm pathogenesis</a><span class="history-date">Aug 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.01.742180">scMaize: A Single-Cell Foundation Model and Integrated Atlas for Maize</a><span class="history-date">Aug 06, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.04.25.591187">Computational Discovery of an Allosteric Pocket on APOBEC3B and the Impact of Metal Contamination on Inhibitor Validation</a><span class="history-date">Aug 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.03.742579">Humanized Anti-PD-1 Antibodies Generated Using The Conditional Kernel-Elastic Autoencoder</a><span class="history-date">Aug 05, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.02.742346">A benchmarking framework for single-cell genome-scale metabolic model construction</a><span class="history-date">Aug 05, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.29.741357">Single-cell transcriptomics reveals a multiphasic Wolbachia host infection trajectory</a><span class="history-date">Aug 05, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.04.742507">Epithelial regulatory networks link non-coding genetic variation to clinical heterogeneity in ulcerative colitis</a><span class="history-date">Aug 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.31.741430">FAIRyMAGs - a series of FAIR Galaxy workflows for the generation of metagenome assembled genomes</a><span class="history-date">Aug 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.01.742180">scMaize: A Single-Cell Foundation Model and Integrated Atlas for Maize</a><span class="history-date">Aug 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.04.742718">CryoLigATE: enhancing the resolvability of cryo-EM maps in protein-ligand complexes using deep learning</a><span class="history-date">Aug 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.04.742848">Pharmacological up-regulation of CALM1 restore endothelial cells in intracranial aneurysm pathogenesis</a><span class="history-date">Aug 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.26.734747">Modular split-trigger based cooperative activation platform for Cas13-12 tandem biosensing system</a><span class="history-date">Aug 05, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.31.742106">ACKR1-expressing venous endothelial cells establish a pro-fibrotic niche in pulmonary fibrosis</a><span class="history-date">Aug 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.29.741357">Single-cell transcriptomics reveals a multiphasic Wolbachia host infection trajectory</a><span class="history-date">Aug 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.02.742346">A benchmarking framework for single-cell genome-scale metabolic model construction</a><span class="history-date">Aug 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.03.742579">Humanized Anti-PD-1 Antibodies Generated Using The Conditional Kernel-Elastic Autoencoder</a><span class="history-date">Aug 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.04.742507">Epithelial regulatory networks link non-coding genetic variation to clinical heterogeneity in ulcerative colitis</a><span class="history-date">Aug 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.20.726613">Deletion of the MALAT1 RNA 3&#x27; end Promotes Transcript Decay and Inhibits Proliferation in Gastric and Breast Cancer Cells</a><span class="history-date">Aug 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.31.742101">Genome-scale prediction of context-specific synthetic lethality beyond protein interaction networks</a><span class="history-date">Aug 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.31.742106">ACKR1-expressing venous endothelial cells establish a pro-fibrotic niche in pulmonary fibrosis</a><span class="history-date">Aug 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.01.742107">Interpretable Machine Learning Model of Receptor Dynamics Reveals AT1R Allostery and a Negative Allosteric Modulator</a><span class="history-date">Aug 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.01.742241">Probing Mechanisms of Allosteric Regulation in AAA+ ATPases for Microtubule Severing and Protein Disaggregation</a><span class="history-date">Aug 04, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.31.742101">Genome-scale prediction of context-specific synthetic lethality beyond protein interaction networks</a><span class="history-date">Aug 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.29.740758">The gut microbiome of infants with hypoplastic left heart syndrome is enriched in pathobionts and exhibits altered responses to nutritional intervention</a><span class="history-date">Aug 03, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.30.741695">Building optimized single-cell reference atlases with scAtlasTb</a><span class="history-date">Aug 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.29.741529">Dynamics of the α2-chimaerin-Rac1 interface in Duane retraction syndrome and computational design of candidate probes</a><span class="history-date">Aug 03, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.02.742283">Benchmarking Deep Learning Predictions of Mutation-Induced Fold Switching</a><span class="history-date">Aug 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.30.741695">Building optimized single-cell reference atlases with scAtlasTb</a><span class="history-date">Aug 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.31.741205">Compositional control of FUS condensate ageing through aggregation-prone interaction networks</a><span class="history-date">Aug 03, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.11.06.686983">GONNECT: A Critical Evaluation of Biologically-informed Neural Networks</a><span class="history-date">Aug 02, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.02.742283">Benchmarking Deep Learning Predictions of Mutation-Induced Fold Switching</a><span class="history-date">Aug 03, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.07.11.664424">MGMG: Cell Morphology-Guided Molecule Generation for Drug Discovery</a><span class="history-date">Aug 02, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.08.01.742136">Integrative genomics of the siphonophore Physalia utriculus reveals the regulatory logic of colonial division of labour and the molecular basis of venom activity</a><span class="history-date">Aug 02, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.28.741304">FITdb, an Integrated Functional Immunogenomics and Transcriptomics Database</a><span class="history-date">Aug 02, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.11.06.686983">GONNECT: A Critical Evaluation of Biologically-informed Neural Networks</a><span class="history-date">Aug 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.12.711386">Omega-seq: ultra-low-background RNA sequencing with faithful molecular counting and precise transcript-end capture</a><span class="history-date">Aug 02, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.28.741304">FITdb, an Integrated Functional Immunogenomics and Transcriptomics Database</a><span class="history-date">Aug 02, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.01.742136">Integrative genomics of the siphonophore Physalia utriculus reveals the regulatory logic of colonial division of labour and the molecular basis of venom activity</a><span class="history-date">Aug 02, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.11.22.25340784">Population genomics of four-dimensional cardiac motion reveals non-myocyte regulatory programmes</a><span class="history-date">Aug 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.14.738331">DPCGS: a computational framework for linking GWAS to single-cell transcriptomics in complex traits and diseases</a><span class="history-date">Aug 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.28.741216">ChemoCalib: multiblock PLS calibration of genome-scale metabolic models improves flux prediction over expression-only integration</a><span class="history-date">Aug 01, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.31.741963">A Multicenter Confirmatory Randomized-Controlled Study of rhNRGβ1 Protein Replacement Therapy in a Murine Model of NF2-related Schwannomatosis</a><span class="history-date">Aug 01, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.11.22.25340784">Population genomics of four-dimensional cardiac motion reveals non-myocyte regulatory programmes</a><span class="history-date">Aug 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.31.741947">Microbial colonization establishes stratified radial niches that coordinate host epithelial and immune maturation in the colon</a><span class="history-date">Aug 01, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.31.741963">A Multicenter Confirmatory Randomized-Controlled Study of rhNRGβ1 Protein Replacement Therapy in a Murine Model of NF2-related Schwannomatosis</a><span class="history-date">Aug 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.27.740774">How Bias Shapes the Leaderboard: Scoring Function Performance Under Scrutiny</a><span class="history-date">Jul 31, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.27.740999">RKMR: A Rapid Kernel Machine Regression Framework for Optimal Marker Detection in Spatial Omics Data</a><span class="history-date">Jul 31, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.29.741448">Single-cell lineage tracing of human neuromesoderm organoids reveals TBX6-mediated posterior mesoderm fate diversification</a><span class="history-date">Jul 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.27.740958">Scale-Aware Compositional Inference Improves Reproducibility and Uncovers Convergent Aging Programs in Spatial Transcriptomics</a><span class="history-date">Jul 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.27.740999">RKMR: A Rapid Kernel Machine Regression Framework for Optimal Marker Detection in Spatial Omics Data</a><span class="history-date">Jul 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.29.738916">Proteomic Profiling Identifies CLDN3 as a Tumor-Selective Therapeutic Target in Small Cell Lung Cancer</a><span class="history-date">Jul 31, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.28.26359117">Genetic decoding reveals druggable biology implicitly learned by a medical-history foundation model</a><span class="history-date">Jul 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.29.741448">Single-cell lineage tracing of human neuromesoderm organoids reveals TBX6-mediated posterior mesoderm fate diversification</a><span class="history-date">Jul 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.13.738237">Lineage recording reveals hijacked hepatic progenitor states as a common origin of HCC and ICC</a><span class="history-date">Jul 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.24.740074">LACHESIS: real-time inference of evolutionary trajectories of malignant transformation from whole-genome sequencing data</a><span class="history-date">Jul 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.28.26359117">Genetic decoding reveals druggable biology implicitly learned by a medical-history foundation model</a><span class="history-date">Jul 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.28.741152">Integrative Ensemble Modeling reveals RNA conformations targetable by small molecules</a><span class="history-date">Jul 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.28.741259">Loss of PRDM16 Drives Nasal Septal Deviation through Dysregulated TGFβ2 Signaling</a><span class="history-date">Jul 30, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.13.738237">Lineage recording reveals hijacked hepatic progenitor states as a common origin of HCC and ICC</a><span class="history-date">Jul 30, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.27.741041">Analog intrinsic recoding measures RNA dynamics without chemical conversion</a><span class="history-date">Jul 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.01.715927">PanTEon: a cross-kingdom framework to guide the design of transposable element classifiers</a><span class="history-date">Jul 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.15.725432">TAMIPAMI: Software and methods for PAM/TAM identification in CRISPR and OMEGA gene editing systems</a><span class="history-date">Jul 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.25.740710">Deep nanoparticle protein corona plasma proteomics resolves a stage-specific peripheral signature of Alzheimer&#x27;s disease</a><span class="history-date">Jul 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.27.740477">scINTILLA: Single-Cell Integrated Inference, Labelling, and Landscape Analysis for Cell-Type Annotation Quality Assessment</a><span class="history-date">Jul 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.15.725432">TAMIPAMI: Software and methods for PAM/TAM identification in CRISPR and OMEGA gene editing systems</a><span class="history-date">Jul 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.23.740273">Explainable Artificial Intelligence for Cross-Dataset Generalizable Biomarker Discovery in Cardiovascular diseases (CVDs)</a><span class="history-date">Jul 28, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.26.738612">Computational evolutionary approach to generate antimicrobial peptides</a><span class="history-date">Jul 28, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.24.740459">Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts</a><span class="history-date">Jul 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.27.741041">Analog intrinsic recoding measures RNA dynamics without chemical conversion</a><span class="history-date">Jul 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.16.719043">ProNA3D: Distance-Based Analysis of Nucleic Acid-Containing Interfaces</a><span class="history-date">Jul 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.23.740273">Explainable Artificial Intelligence for Cross-Dataset Generalizable Biomarker Discovery in Cardiovascular diseases (CVDs)</a><span class="history-date">Jul 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.24.740459">Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts</a><span class="history-date">Jul 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.26.738612">Computational evolutionary approach to generate antimicrobial peptides</a><span class="history-date">Jul 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.27.740859">Chromatin state shapes site-specific A-to-I RNA editing</a><span class="history-date">Jul 28, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.24.740573">Rapid motility arrest of the Lyme disease spirochete, Borrelia burgdorferi, by vaccine-induced OspA antibodies</a><span class="history-date">Jul 27, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2023.10.17.562748">Biomolecular Resolution as a Quantification of Structural Information Content</a><span class="history-date">Jul 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.24.740563">Sialyl-Tn-positive tumour-derived extracellular vesicles impair dendritic cell function via horizontal transfer of glycans</a><span class="history-date">Jul 27, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.02.25.639997">deepthought: the microscopy acquisition stack as an object of study</a><span class="history-date">Jul 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.22.739677">H5N1 influenza binding and cell entry via human class II MHC, and blocking by cross-reactive antibodies</a><span class="history-date">Jul 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.21.739902">Intracellular pathogen targeting by IL32 elicits cell-autonomous immunity</a><span class="history-date">Jul 26, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.21.739736">Phenotype-driven de novo molecular design from gene expression signatures</a><span class="history-date">Jul 26, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.04.21.26351428">CT-Based Deep Foundation Model for Predicting Immune Checkpoint Inhibitor-Induced Pneumonitis Risk in Lung Cancer</a><span class="history-date">Jul 26, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.21.739890">Optimized cryo-FIB milling strategy to generate thin, minimally damaged biological lamellae</a><span class="history-date">Jul 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.24.740563">Sialyl-Tn-positive tumour-derived extracellular vesicles impair dendritic cell function via horizontal transfer of glycans</a><span class="history-date">Jul 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.24.740573">Rapid motility arrest of the Lyme disease spirochete, Borrelia burgdorferi, by vaccine-induced OspA antibodies</a><span class="history-date">Jul 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.12.694034">Molecular basis of tRNA substrate recognition and modification by the atypical SPOUT methyltransferase Trm10</a><span class="history-date">Jul 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.21.26351428">CT-Based Deep Foundation Model for Predicting Immune Checkpoint Inhibitor-Induced Pneumonitis Risk in Lung Cancer</a><span class="history-date">Jul 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.21.739736">Phenotype-driven de novo molecular design from gene expression signatures</a><span class="history-date">Jul 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.21.739890">Optimized cryo-FIB milling strategy to generate thin, minimally damaged biological lamellae</a><span class="history-date">Jul 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.21.739902">Intracellular pathogen targeting by IL32 elicits cell-autonomous immunity</a><span class="history-date">Jul 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.01.735949">Unmasking Supervillin: SVIL haploinsufficiency causes hypertrophic cardiomyopathy by impairing mechanotransduction and cellular energetics.</a><span class="history-date">Jul 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.22.26358705">Localizing epileptogenic zones using interictal intracranial electroencephalography and deep learning</a><span class="history-date">Jul 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.23.740330">5&#x27; Complementarity-Mediated End Joining (5&#x27;CMEJ) DNA repair</a><span class="history-date">Jul 25, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.23.740352">An Integrated Multi-omics Single Cell Atlas of the Human RPE and Choroid</a><span class="history-date">Jul 25, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.01.735949">Unmasking Supervillin: SVIL haploinsufficiency causes hypertrophic cardiomyopathy by impairing mechanotransduction and cellular energetics.</a><span class="history-date">Jul 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.23.740334">Chromosome-scale CRISPR screening reveals secretory pathway genes as drivers of aneuploidy-mediated antifungal tolerance</a><span class="history-date">Jul 25, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.23.740258">A fast 2C-induction method reveals a barrier role of SP2 for totipotency</a><span class="history-date">Jul 24, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.23.740352">An Integrated Multi-omics Single Cell Atlas of the Human RPE and Choroid</a><span class="history-date">Jul 25, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.03.04.25323316">Intraplaque haemorrhage quantification and molecular characterisation using attention-based multiple instance learning</a><span class="history-date">Jul 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.20.739474">pHaseMD4AI: Phase-Space Dynamics Dataset with Chemical and pH Perturbations for Physically and Kinetically Consistent Biomolecular AI</a><span class="history-date">Jul 24, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.22.740224">Single-cell foundation models predict durable CAR T response despite imperfect cell annotation</a><span class="history-date">Jul 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.22.740157">Macrophage-instructed GSDME couples glioblastoma cell-state plasticity with inflammatory cell death</a><span class="history-date">Jul 24, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.21.26358463">A Multimodal Multiomics Machine Learning (MMM) approach for biomarker discovery and acceleration of clinical trial readiness for childhood-onset neurological disorders</a><span class="history-date">Jul 23, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.20.739671">Activity and specificity trade-offs in adenine base editors</a><span class="history-date">Jul 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.22.740224">Single-cell foundation models predict durable CAR T response despite imperfect cell annotation</a><span class="history-date">Jul 24, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.23.740258">A fast 2C-induction method reveals a barrier role of SP2 for totipotency</a><span class="history-date">Jul 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.20.26358470">Germline Variants in Centromere Binding Protein 126 Predispose to Glioblastoma</a><span class="history-date">Jul 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.20.26358511">A proteomic signature for prognostic stratification in amyotrophic lateral sclerosis</a><span class="history-date">Jul 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.20.739671">Activity and specificity trade-offs in adenine base editors</a><span class="history-date">Jul 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.21.26358463">A Multimodal Multiomics Machine Learning (MMM) approach for biomarker discovery and acceleration of clinical trial readiness for childhood-onset neurological disorders</a><span class="history-date">Jul 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.21.739812">The carbon-nitrogen metabolism gene E1OGDH1 influences maize root system architecture and nitrogen plasticity</a><span class="history-date">Jul 23, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.21.739717">IL-32 is a stress-responsive node locked in a noncanonical NF-κB inflammatory loop during MASLD to HCC transition</a><span class="history-date">Jul 22, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.20.739489">A hybrid machine learning and enzyme-constrained metabolic model for ab initio prediction of proteome reallocation</a><span class="history-date">Jul 22, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.16.738997">Organism-scale annotation with Pan-human Azimuth</a><span class="history-date">Jul 22, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.20.739610">Epithelial-Mesenchymal Transition Induces FAM134A-mediated ER-phagy to Regulate Procollagen Secretion</a><span class="history-date">Jul 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.15.738785">Deep learning design and in vivo validation of Müller glia-specific cis-regulatory elements</a><span class="history-date">Jul 22, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.18.739127">Functional Mapping of the Trypanosoma cruzi Serinome by Fluorophosphonate Activity-Based Protein Profiling</a><span class="history-date">Jul 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.16.738997">Organism-scale annotation with Pan-human Azimuth</a><span class="history-date">Jul 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.20.739489">A hybrid machine learning and enzyme-constrained metabolic model for ab initio prediction of proteome reallocation</a><span class="history-date">Jul 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.20.739610">Epithelial-Mesenchymal Transition Induces FAM134A-mediated ER-phagy to Regulate Procollagen Secretion</a><span class="history-date">Jul 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.21.739717">IL-32 is a stress-responsive node locked in a noncanonical NF-κB inflammatory loop during MASLD to HCC transition</a><span class="history-date">Jul 22, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2024.07.19.24310695">Exposomics and Cardiovascular Diseases: A Scoping Review of Machine Learning Approaches</a><span class="history-date">Jul 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.17.26358055">Mechanism of response to FHD-286 and decitabine combination in patients with advanced myeloid malignancies</a><span class="history-date">Jul 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.17.739260">A systems-level proteomic analysis identifies kinesin targets of KIFBP during neuronal development</a><span class="history-date">Jul 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.17.739266">UniFlow: Unifying protein conformational ensemble generation and machine-learned force fields with a scalable normalizing Flow</a><span class="history-date">Jul 21, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2024.07.19.24310695">Exposomics and Cardiovascular Diseases: A Scoping Review of Machine Learning Approaches</a><span class="history-date">Jul 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.18.739127">Functional Mapping of the Trypanosoma cruzi Serinome by Fluorophosphonate Activity-Based Protein Profiling</a><span class="history-date">Jul 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.03.03.26347351">A Preoperative Electroencephalography Signature for Predicting Treatment Response to Deep Brain Stimulation in Obsessive-Compulsive Disorder</a><span class="history-date">Jul 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.19.712954">BioReason-Pro: Advancing Protein Function Prediction with Multimodal Biological Reasoning</a><span class="history-date">Jul 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.08.730907">Oxidized protein states define metastatic fitness in lung cancer</a><span class="history-date">Jul 20, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.17.739201">Emergent, cost-free surplus of core biosynthesis governs bacterial fitness</a><span class="history-date">Jul 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.15.738779">Prenatal cannabis exposure affects human fetal neurodevelopment: anintegrated multi-omics study</a><span class="history-date">Jul 20, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.03.03.26347351">A Preoperative Electroencephalography Signature for Predicting Treatment Response to Deep Brain Stimulation in Obsessive-Compulsive Disorder</a><span class="history-date">Jul 20, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.04.736459">Thematic Shifts in Early-High-Impact Cancer Genomics and Diagnostics Research: A Bibliometric and Semantic Analysis</a><span class="history-date">Jul 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.17.739201">Emergent, cost-free surplus of core biosynthesis governs bacterial fitness</a><span class="history-date">Jul 20, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.29.685379">DNA branch migration across intact membranes powers an inside-out GPCR analog for lysis-free detection of intracellular RNA with on-membrane amplification</a><span class="history-date">Jul 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.09.698545">Stepwise DNA unwinding gates TnpB genome-editing activity</a><span class="history-date">Jul 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.02.22.707331">Dynamic, single-cell monitoring of CAR T cell identity and activation with Raman spectroscopy</a><span class="history-date">Jul 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.04.736459">Thematic Shifts in Early-High-Impact Cancer Genomics and Diagnostics Research: A Bibliometric and Semantic Analysis</a><span class="history-date">Jul 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.06.736651">LeafRank: A phylodynamic framework for inferring relative fitness from single-cell phylogenies in chromosomally unstable tumors</a><span class="history-date">Jul 19, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.10.29.685379">DNA branch migration across intact membranes powers an inside-out GPCR analog for lysis-free detection of intracellular RNA with on-membrane amplification</a><span class="history-date">Jul 19, 2026</span></li>
   <li><a href="https://doi.org/10.1101/683359">Genome-wide functional genomics screens identify therapeutic vulnerabilities for lymphangioleiomyomatosis</a><span class="history-date">Jul 18, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.15.738700">Deciphering the Streptococcus mutans essentialome: multi-omic resolution of hypothetical genes and identification of a functional RocS equivalent</a><span class="history-date">Jul 18, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.17.737729">A long-hidden prevalent PCR artifact and its application in DNA library screening</a><span class="history-date">Jul 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.13.699212">SoftHybrid: A Hybrid Imputation Algorithm Optimised for Single-Cell Proteomics Data</a><span class="history-date">Jul 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.17.725770">Mapping Tumor-Microenvironment dependencies with TMEformer: A spatial foundation framework enabling in silico perturbation</a><span class="history-date">Jul 18, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.14.26358058">CRISPR RNA-independent activation of Cas12a</a><span class="history-date">Jul 17, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.14.26357983">Multimodal gene prioritization reveals nonlinear regulatory architecture in childhood-onset asthma</a><span class="history-date">Jul 17, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.15.738700">Deciphering the Streptococcus mutans essentialome: multi-omic resolution of hypothetical genes and identification of a functional RocS equivalent</a><span class="history-date">Jul 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.17.737729">A long-hidden prevalent PCR artifact and its application in DNA library screening</a><span class="history-date">Jul 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.13.26357916">Analytical perturbation reveals hidden instability of biological phenotypes</a><span class="history-date">Jul 17, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.14.26358065">Parameter-efficient deep learning for pneumonia detection on chest X-rays: A comparative evaluation of explainable AI methods</a><span class="history-date">Jul 17, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.14.26357983">Multimodal gene prioritization reveals nonlinear regulatory architecture in childhood-onset asthma</a><span class="history-date">Jul 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.14.26358048">Longitudinal multiomic network rewiring at the complement coagulation interface in post-acute sequelae of COVID 19 (PASC)</a><span class="history-date">Jul 17, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.09.737600">Reproducible-by-design: Romics Processor, a FAIR ecosystem for multi-omics and spatial-omics analysis</a><span class="history-date">Jul 16, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.13.26358006">Characterizing the impact of plasma protein levels on human brain structure and disorders leveraging integrative multi-omics analysis</a><span class="history-date">Jul 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.14.26358058">CRISPR RNA-independent activation of Cas12a</a><span class="history-date">Jul 17, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.14.26358065">Parameter-efficient deep learning for pneumonia detection on chest X-rays: A comparative evaluation of explainable AI methods</a><span class="history-date">Jul 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.27.714373">Lemonite: identification of regulatory metabolites through data-driven, interpretable integration of transcriptomics and metabolomics data</a><span class="history-date">Jul 16, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.12.26357860">PRANA: A Deep Learning Method for Adapting Polygenic Risk Scores to Diverse Ethnic Groups</a><span class="history-date">Jul 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.09.737426">Integrative computational toxicology reveals PFOS and PFHxS associated inflammatory keratinocyte niches in psoriasis through exposure transcriptomics, single-cell spatial mapping and token-aware virtual perturbation</a><span class="history-date">Jul 16, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.12.738108">Long read multi-omics sequencing reveals DNA-to-RNA evolutionary remodeling trajectories of recurrent astrocytoma</a><span class="history-date">Jul 15, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.07.10.664265">Transplant-Agents: A Multi-Agent Artificial Intelligence Framework for Reproducibility Assessment of Post-Transplant Risk Prediction and Rejection Biomarkers</a><span class="history-date">Jul 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.09.737600">Reproducible-by-design: Romics Processor, a FAIR ecosystem for multi-omics and spatial-omics analysis</a><span class="history-date">Jul 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.12.26357860">PRANA: A Deep Learning Method for Adapting Polygenic Risk Scores to Diverse Ethnic Groups</a><span class="history-date">Jul 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.13.26358006">Characterizing the impact of plasma protein levels on human brain structure and disorders leveraging integrative multi-omics analysis</a><span class="history-date">Jul 16, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.05.30.656945">Informed Data-Independent Acquisition Enables Targeted Quantification of Key Regulatory Proteins in Cell Fate Decisions at Single-Cell Resolution</a><span class="history-date">Jul 15, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.07.10.664265">Transplant-Agents: A Multi-Agent Artificial Intelligence Framework for Reproducibility Assessment of Post-Transplant Risk Prediction and Rejection Biomarkers</a><span class="history-date">Jul 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.10.26357754">Genome-wide association study highlights 44 loci for transient ischemic attack and shared genetic architecture with stroke</a><span class="history-date">Jul 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.12.738108">Long read multi-omics sequencing reveals DNA-to-RNA evolutionary remodeling trajectories of recurrent astrocytoma</a><span class="history-date">Jul 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.13.26357866">Study design and rationale of Boxed-Breathing-Heart: a translational ex vivo study evaluating virus-mediated gene delivery for gene therapy in normothermic machine-perfused human hearts</a><span class="history-date">Jul 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.09.26357649">Identifying protein biomarkers and therapeutic targets in psoriasis through integrative genomic, proteomic and transcriptomic analysis</a><span class="history-date">Jul 14, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.10.26357712">Spatial Analysis Uncovers Immune Resistance Mechanisms in Non-Beneficial Hepatocellular Carcinoma Treated with Y90 Radioembolization-Nivolumab</a><span class="history-date">Jul 14, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.10.26357720">Explainable Machine Learning Models for Alzheimer&#x27;s Diagnosis Using Routine and Low-Cost Clinical Data</a><span class="history-date">Jul 14, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.10.737736">Microbial Invasion and Immunosuppression Drives Adenoma Progression in Early Colorectal Cancer Development</a><span class="history-date">Jul 14, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.11.26357847">Genetic Prediction of Parkinson&#x27;s Diagnosis: Firth to Ensemble Learning</a><span class="history-date">Jul 14, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.10.26357720">Explainable Machine Learning Models for Alzheimer&#x27;s Diagnosis Using Routine and Low-Cost Clinical Data</a><span class="history-date">Jul 14, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.10.26357712">Spatial Analysis Uncovers Immune Resistance Mechanisms in Non-Beneficial Hepatocellular Carcinoma Treated with Y90 Radioembolization-Nivolumab</a><span class="history-date">Jul 14, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.08.737248">OCellus: A Language-Model Framework for Single-Cell, Spatial, and Perturbation Biology with Natural-Language Reasoning</a><span class="history-date">Jul 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.09.737520">Synovium-Restricted Armored PD-1-Targeted CAR-T Cells Reprogram Immunity and Resolve Experimental Arthritis</a><span class="history-date">Jul 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.08.737312">The YTHDC1 glutamate-rich domain docks to the ADAR1 Zα Domain, linking the N6-methyladenosine modification of pre-mRNAs to dsRNA editing</a><span class="history-date">Jul 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.09.737562">BioMetAll v2.0: Introducing Scores, Metal Discrimination, and Side-Chain Descriptors for Predicting Metal-Binding Sites in Proteins.</a><span class="history-date">Jul 13, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.06.12.659262">Temperature and pH broadly predict ortholog variant diversity in hydrothermal spring communities, but they do so differently</a><span class="history-date">Jul 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.08.737248">OCellus: A Language-Model Framework for Single-Cell, Spatial, and Perturbation Biology with Natural-Language Reasoning</a><span class="history-date">Jul 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.08.737312">The YTHDC1 glutamate-rich domain docks to the ADAR1 Zα Domain, linking the N6-methyladenosine modification of pre-mRNAs to dsRNA editing</a><span class="history-date">Jul 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.09.737520">Synovium-Restricted Armored PD-1-Targeted CAR-T Cells Reprogram Immunity and Resolve Experimental Arthritis</a><span class="history-date">Jul 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.09.737562">BioMetAll v2.0: Introducing Scores, Metal Discrimination, and Side-Chain Descriptors for Predicting Metal-Binding Sites in Proteins.</a><span class="history-date">Jul 13, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.08.12.25333460">PABformer: Multi-Channel Transformer-Based Physical Activity Representation Learning from Wearable Accelerometry for Prediction of Parkinson Disease</a><span class="history-date">Jul 12, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.07.26357417">Mapping Genetic Susceptibility to Urinary Tract Infection from Kidney Papilla to Bladder</a><span class="history-date">Jul 12, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.10.03.25337171">Transdiagnostic quantitative assessment of dementias using in vivo MRI and data-driven disease progression modelling: a case study in Alzheimer&#x27;s disease and dementia with Lewy bodies</a><span class="history-date">Jul 12, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.09.16.25335684">Knowledge and practice toward pelvic floor health: a cross-sectional study protocol within the medical staff of national Athletics teams</a><span class="history-date">Jul 12, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.03.25337171">Transdiagnostic quantitative assessment of dementias using in vivo MRI and data-driven disease progression modelling: a case study in Alzheimer&#x27;s disease and dementia with Lewy bodies</a><span class="history-date">Jul 12, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.02.25.26347083">Cognitive and Behavioral Functioning in Female Former Soccer Players: Results from the Head Impact and Trauma Surveillance Study (HITSS)</a><span class="history-date">Jul 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.07.26357417">Mapping Genetic Susceptibility to Urinary Tract Infection from Kidney Papilla to Bladder</a><span class="history-date">Jul 12, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.03.27.25324777">Diverticular disease genome-wide association meta-analysis identifies 257 novel loci, implicates structure and motility</a><span class="history-date">Jul 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.03.26357134">Machine Learning Models for Osteoporosis Prediction: A Systematic Review and Meta-Analysis</a><span class="history-date">Jul 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.06.26357359">OmicFormer: a statistical priors-informed transformer for accurate and generalizable omics prediction of diseases and complex traits</a><span class="history-date">Jul 11, 2026</span></li>
@@ -316,235 +359,343 @@ footer {
   <li><a href="https://doi.org/10.64898/2026.07.07.26357001">Low-cost rare variant detection for population scale genetic screening</a><span class="history-date">Jul 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.26.26356680">Multi-omics and network propagation reveal latent innate immune programmes stratifying high-risk thrombotic primary antiphospholipid syndrome</a><span class="history-date">Jul 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.30.26356926">Spatial transcriptomics and machine learning define exhaustion-like bone marrow T-cell islands associated with myeloma progression and clinical risk</a><span class="history-date">Jul 10, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.07.26357510">Cell-type-specific polygenic risk scores reveal adipocyte-related interactions with lipids in coronary artery disease</a><span class="history-date">Jul 10, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.07.26357463">A study of sex-specific genetic effects underlying risk of orofacial clefts also highlights the potential impact of sequencing errors due to short read mis-mapping</a><span class="history-date">Jul 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.07.26357388">An epigenetic speedometer to measure Pace of Aging: FraminghamPACE</a><span class="history-date">Jul 10, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.08.730880">TMO: ASYMMETRIC CROSS-MODAL ATTENTION FOR LEARNING CELL-STATE-DEPENDENT REGULATORY LAGS FROM SINGLE-CELL MULTIOMIC DATA</a><span class="history-date">Jul 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.07.26357463">A study of sex-specific genetic effects underlying risk of orofacial clefts also highlights the potential impact of sequencing errors due to short read mis-mapping</a><span class="history-date">Jul 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.07.26357510">Cell-type-specific polygenic risk scores reveal adipocyte-related interactions with lipids in coronary artery disease</a><span class="history-date">Jul 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2025.12.10.693553">Modeling patient tissues at molecular resolution with Eva</a><span class="history-date">Jul 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.02.708945">Identifying cancer cell-state transitions from multimodal single-cell data</a><span class="history-date">Jul 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.22.26351478">Multimodal Deep Learning Reveals the Modular Genetic Architecture of Cardiovascular Aging</a><span class="history-date">Jul 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2025.12.10.693553">Modeling patient tissues at molecular resolution with Eva</a><span class="history-date">Jul 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.08.730880">TMO: ASYMMETRIC CROSS-MODAL ATTENTION FOR LEARNING CELL-STATE-DEPENDENT REGULATORY LAGS FROM SINGLE-CELL MULTIOMIC DATA</a><span class="history-date">Jul 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.04.736511">Current challenges in GWAS integration and fine-mapping for variant interpretation</a><span class="history-date">Jul 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.06.736881">Designing Fidelity of CRISPR-Cas Endonucleases by Kinetic Insights</a><span class="history-date">Jul 08, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.06.736794">Region-Level Design and Analysis of CRISPR Perturbation Screens with FRACTEL</a><span class="history-date">Jul 08, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.10.29.685455">LINKER-Pred: A Deep Learning Method and Web-Server for the Prediction of Disordered Flexible Linkers in Proteins</a><span class="history-date">Jul 08, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.03.08.584059">AllTheBacteria: a community resource empowers biology and discovers novel peptide antibiotics</a><span class="history-date">Jul 08, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.06.12.659353">PLANET-MD: Ultra-fast Proteome-scale Prediction of Allosteric Networks in Proteins</a><span class="history-date">Jul 08, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.29.685455">LINKER-Pred: A Deep Learning Method and Web-Server for the Prediction of Disordered Flexible Linkers in Proteins</a><span class="history-date">Jul 08, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.06.736794">Region-Level Design and Analysis of CRISPR Perturbation Screens with FRACTEL</a><span class="history-date">Jul 08, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.06.736881">Designing Fidelity of CRISPR-Cas Endonucleases by Kinetic Insights</a><span class="history-date">Jul 08, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.02.06.636961">Cell signaling pathways discovery from multi-modal data</a><span class="history-date">Jul 07, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.06.26357351">AI-Driven Precision Nutrition for Predicting Iron Deficiency Using Genomics, Polygenic Risk Scores, Dietary Patterns, and Personalized Dietary Recommendations</a><span class="history-date">Jul 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.02.26357177">RenalTransLSTM: Multi-Horizon Prediction of Acute Kidney Injury in ICU Patients using a Hybrid LSTM-Transformer Architecture</a><span class="history-date">Jul 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.02.26357180">Hemispheric Asymmetry Features and Interpretable Machine Learning for Focal Cortical Dysplasia Classification in Drug-Resistant Epilepsy</a><span class="history-date">Jul 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.04.736507">Multimodal temporal mapping of macrophage transcriptome remodeling during Salmonella infection</a><span class="history-date">Jul 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.06.26357351">AI-Driven Precision Nutrition for Predicting Iron Deficiency Using Genomics, Polygenic Risk Scores, Dietary Patterns, and Personalized Dietary Recommendations</a><span class="history-date">Jul 07, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.07.27.667007">Can you trust your reconstructed lineage tree? A homoplasy-based approach for irreversible evolution</a><span class="history-date">Jul 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.30.735584">Task-adapted biological foundation models uncover perturbation-centric representations</a><span class="history-date">Jul 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.01.735754">Deciphering the Tumor Microenvironment: An Integrated Single-Cell RNA-Seq and AI Framework for Novel Biomarker and Therapeutic Target Discovery in Melanoma</a><span class="history-date">Jul 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.03.736455">Real-time mass defect-driven prediction of glycopeptide precursors enables enrichment-free serum glycoproteomics</a><span class="history-date">Jul 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.30.735584">Task-adapted biological foundation models uncover perturbation-centric representations</a><span class="history-date">Jul 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.04.736489">Improving Generalizability in Whole-Cell Antibiotic Discovery Through Active Learning</a><span class="history-date">Jul 06, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.07.27.667007">Can you trust your reconstructed lineage tree? A homoplasy-based approach for irreversible evolution</a><span class="history-date">Jul 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.02.26357123">PD-L1-linked spatial decoupling of tumour-immune interactions in EBV-positive DLBCL</a><span class="history-date">Jul 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.30.735631">Saturation-seq integrates single-cell saturation genome editing and RNA-seq to quantify NFE2L2 (NRF2) variant effects</a><span class="history-date">Jul 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.01.26357039">Genetic Determinants of Pulmonary Artery Size in over 50,000 Subjects with and without COPD</a><span class="history-date">Jul 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.01.733993">A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides</a><span class="history-date">Jul 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.02.26357123">PD-L1-linked spatial decoupling of tumour-immune interactions in EBV-positive DLBCL</a><span class="history-date">Jul 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.04.736454">CryoROLE: describing large inter-domain rotation in single particle cryo-EM</a><span class="history-date">Jul 05, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.03.736369">Benchmarking the translational potential of AI-based drug-resistance prediction from Mycobacterium tuberculosis whole-genome sequencing data</a><span class="history-date">Jul 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.29.735389">Raw-count embeddings improve single-cell foundation models</a><span class="history-date">Jul 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.02.735960">Drug Functional Site-Unknown Molecular Targets Exemplified by SARS-CoV-2 pseudoknot and ribosomal frameshifting-modulators</a><span class="history-date">Jul 04, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.07.03.736065">Unveiling Cerebrospinal Fluid Protein Biomarkers in Pediatric Acute Lymphoblastic Leukemia Using Proximity Extension Assay</a><span class="history-date">Jul 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.02.735997">Accessible spatial host-microbe profiling in tumour tissues</a><span class="history-date">Jul 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.03.736065">Unveiling Cerebrospinal Fluid Protein Biomarkers in Pediatric Acute Lymphoblastic Leukemia Using Proximity Extension Assay</a><span class="history-date">Jul 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.07.03.736369">Benchmarking the translational potential of AI-based drug-resistance prediction from Mycobacterium tuberculosis whole-genome sequencing data</a><span class="history-date">Jul 04, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.02.10.637517">Frequent, context-dependent effects of human genetic variation on Cas9 activity revealed by population-scale GUIDE-seq-2 and deep combinatorial CHANCE-seq profiling</a><span class="history-date">Jul 03, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.09.14.676067">SpatialFuser: a unified framework for integrative analysis of unpaired spatial multi-omics data</a><span class="history-date">Jul 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.27.734992">Dynamic consensus pocket detection across molecular dynamics ensembles reveals persistent and transient druggable sites</a><span class="history-date">Jul 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.29.734828">Multi-modality Graph Representation Learning for Malignant Cell Identification from scRNA-seq using DeepMalignant</a><span class="history-date">Jul 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.30.733140">Synovitis in systemic sclerosis is an interferon-driven stromal condition distinct from rheumatoid arthritis</a><span class="history-date">Jul 03, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.27.734992">Dynamic consensus pocket detection across molecular dynamics ensembles reveals persistent and transient druggable sites</a><span class="history-date">Jul 03, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.02.10.637517">Frequent, context-dependent effects of human genetic variation on Cas9 activity revealed by population-scale GUIDE-seq-2 and deep combinatorial CHANCE-seq profiling</a><span class="history-date">Jul 03, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.26.734559">MintCNA: A Unified Framework for Integrative Copy Number Profiling with Single-Cell Multi-Omics Data</a><span class="history-date">Jul 02, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.10.02.680026">Convergent genomic trajectories shape adaptation to life on land across animal lineages</a><span class="history-date">Jul 02, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.26.734559">MintCNA: A Unified Framework for Integrative Copy Number Profiling with Single-Cell Multi-Omics Data</a><span class="history-date">Jul 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.28.26356795">HGGT：Heterogeneous Gated Graph Transformer for Predicting Clinical Trial Success</a><span class="history-date">Jul 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.28.735106">Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales</a><span class="history-date">Jul 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.01.735701">Structure of the Type I-F3 CAST holo integration complex reveals licensing mechanisms during RNA-guided DNA integration</a><span class="history-date">Jul 02, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.25.734636">Cell-type-specific architecture of the hypothalamus in a socially plastic vertebrate</a><span class="history-date">Jul 01, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.25.734477">Who&#x27;s driving? Common evolutionary mechanism of activation of class A GPCRs</a><span class="history-date">Jul 01, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.08.23.609473">Robustness and reliability of single-cell regulatory multi-omics with deep mitochondrial mutation profiling</a><span class="history-date">Jul 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.17.712112">Functional validation of the Plasmodium falciparum K13 C580Y mutation in recently collected Ethiopian isolates</a><span class="history-date">Jul 01, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.25.734477">Who&#x27;s driving? Common evolutionary mechanism of activation of class A GPCRs</a><span class="history-date">Jul 01, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.25.734636">Cell-type-specific architecture of the hypothalamus in a socially plastic vertebrate</a><span class="history-date">Jul 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.26.26356709">Shared trans-ancestry architecture of HLA-mediated disease risk in the All of Us Research Program</a><span class="history-date">Jul 01, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.24.734231">A Robust Machine Learning Framework for Keloid Biomarker Discovery Beyond Differential Expression</a><span class="history-date">Jun 30, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.23.734131">Learning Fragmentation Physics or Exploiting Sequence Priors? Benchmarking Bias in Deep Learning Models for De Novo Peptide Sequencing</a><span class="history-date">Jun 30, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.26.26356708">Revisiting the High-Benefit Patient: Generic Machine Learning Inference for Intensive Blood Pressure Control</a><span class="history-date">Jun 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.23.734054">Droplet single-cell CRISPR screens identify regulators of T cell-mediated target-cell killing</a><span class="history-date">Jun 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.23.734131">Learning Fragmentation Physics or Exploiting Sequence Priors? Benchmarking Bias in Deep Learning Models for De Novo Peptide Sequencing</a><span class="history-date">Jun 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.24.734231">A Robust Machine Learning Framework for Keloid Biomarker Discovery Beyond Differential Expression</a><span class="history-date">Jun 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.26.26356708">Revisiting the High-Benefit Patient: Generic Machine Learning Inference for Intensive Blood Pressure Control</a><span class="history-date">Jun 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.26.734804">RNArefine: AI-guided Atomic-Level Refinement of RNA Structures</a><span class="history-date">Jun 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.22.733860">Spatial co-expression and cell-cell communication inference from spatially resolved transcriptomics with CONCISE</a><span class="history-date">Jun 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.22.733879">Desktop-Scale Hit-Point Discovery for Intrinsically Disordered α-Synuclein Using State-Space Compression and a Discrete Phase-Interference Search Operator</a><span class="history-date">Jun 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.23.733649">Fault-tolerant 3D reconstruction from 2D spatial proteomics sections</a><span class="history-date">Jun 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.25.734628">Lineage-aware stochastic modeling reveals gene-expression dynamics in development and disease</a><span class="history-date">Jun 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.26.734454">CarveMe-GutMicrobes: Automated Metabolic Model Reconstruction for Gut Microbial Species and Communities</a><span class="history-date">Jun 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.22.733879">Desktop-Scale Hit-Point Discovery for Intrinsically Disordered α-Synuclein Using State-Space Compression and a Discrete Phase-Interference Search Operator</a><span class="history-date">Jun 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.22.733860">Spatial co-expression and cell-cell communication inference from spatially resolved transcriptomics with CONCISE</a><span class="history-date">Jun 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.24.734403">eRNAformer enables genome-wide de novo mapping of enhancer-derived RNA loci</a><span class="history-date">Jun 28, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.14.725078">IntegrateRigor: annotation-free integration optimization for cell identity recovery reveals cancer-immune interface niches</a><span class="history-date">Jun 28, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.11.27.625322">Engineered CRISPR-Base Editors as a Permanent Treatment for Familial Dysautonomia</a><span class="history-date">Jun 28, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.26.734721">Quinone-transporting filaments extend the respiratory chain of Gram positive bacteria</a><span class="history-date">Jun 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.14.725078">IntegrateRigor: annotation-free integration optimization for cell identity recovery reveals cancer-immune interface niches</a><span class="history-date">Jun 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.23.734064">Stability-driven multi-omics integration for reproducible latent structure</a><span class="history-date">Jun 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.24.734403">eRNAformer enables genome-wide de novo mapping of enhancer-derived RNA loci</a><span class="history-date">Jun 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.26.734721">Quinone-transporting filaments extend the respiratory chain of Gram positive bacteria</a><span class="history-date">Jun 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.15.26354270">Clinical and Molecular Effects of TYK2/JAK1 Inhibition in Dermatomyositis</a><span class="history-date">Jun 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.16.26354238">Local and circulating cytotoxic CD4+ T cells are early markers of disease activity in pediatric Crohn&#x27;s disease</a><span class="history-date">Jun 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.23.734145">Learning Perturbation Effects Through Contrastive Alignment of Multimodal Biological Embeddings</a><span class="history-date">Jun 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.24.734029">Multi-Omics Clustering Differentiates the Total and Intact HIV Reservoirs and Related Host Immune Mechanisms</a><span class="history-date">Jun 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.24.734159">Computational reconstruction of hierarchical cis-regulatory networks reveals synergistic transcription control and disease-associated rewiring</a><span class="history-date">Jun 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.16.26354238">Local and circulating cytotoxic CD4+ T cells are early markers of disease activity in pediatric Crohn&#x27;s disease</a><span class="history-date">Jun 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.15.26354270">Clinical and Molecular Effects of TYK2/JAK1 Inhibition in Dermatomyositis</a><span class="history-date">Jun 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.23.734145">Learning Perturbation Effects Through Contrastive Alignment of Multimodal Biological Embeddings</a><span class="history-date">Jun 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.01.19.699565">Mapping Parkinson&#x27;s Disease Progression through Deep Plasma Proteomics and Functional Genomics</a><span class="history-date">Jun 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.20.733481">F.A.D.E. (Fully Agentic Drug Engine): A Conversational AI Platform for Drug Discovery</a><span class="history-date">Jun 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.23.26356337">Spatial Transcriptomics Recontextualizes the Cellular Environment of Conjunctival Melanoma</a><span class="history-date">Jun 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.23.26356345">Sex-biased Genetic Risk Loci and Causal Brain Proteins in Parkinson&#x27;s Disease</a><span class="history-date">Jun 26, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.01.19.699565">Mapping Parkinson&#x27;s Disease Progression through Deep Plasma Proteomics and Functional Genomics</a><span class="history-date">Jun 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.23.26356380">A Reproducible Clinical Decision-Support Suite on MIMIC-IV</a><span class="history-date">Jun 26, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.08.12.669903">Systematic evaluation of robustness to cell type mismatch of deconvolution methods for spatial transcriptomics data</a><span class="history-date">Jun 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.25.26349312">Human Genetic Analysis Reveals Circulating Alpha-1 Antitrypsin Level as a Protective Factor in Sepsis</a><span class="history-date">Jun 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.09.730151">Multi-Scale Machine Learning for Antibody-Antigen Binding Affinity Prediction Using Deep Mutational Scanning and Structural Features</a><span class="history-date">Jun 24, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.18.733106">gamdid: generalized additive models for differential distributions in single cell experiments</a><span class="history-date">Jun 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.18.730290">Large-scale meta-analysis of over one million individuals reveals the genetic architecture of 127 complex traits in East Asian populations</a><span class="history-date">Jun 24, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.08.12.669903">Systematic evaluation of robustness to cell type mismatch of deconvolution methods for spatial transcriptomics data</a><span class="history-date">Jun 24, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.17.732980">An Integrated muti-omics cell atlas of the human trabecular meshwork and ciliary body</a><span class="history-date">Jun 23, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.19.26356060">DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology</a><span class="history-date">Jun 23, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.17.26355882">Sequential Deep Learning to Predict Non-Central to Central Geographic Atrophy Progression from OCT Imaging</a><span class="history-date">Jun 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.18.733106">gamdid: generalized additive models for differential distributions in single cell experiments</a><span class="history-date">Jun 24, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.06.04.25328900">Decomposing patient heterogeneity of single-cell cancer data by cross-attention neural networks</a><span class="history-date">Jun 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.12.26355510">Multi-omics data fusion reveals divergent molecular signatures of intra-articular micro-fragmented adipose tissue and hyaluronic acid treatment in inflammatory-phenotype knee osteoarthritis</a><span class="history-date">Jun 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.26355882">Sequential Deep Learning to Predict Non-Central to Central Geographic Atrophy Progression from OCT Imaging</a><span class="history-date">Jun 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.732980">An Integrated muti-omics cell atlas of the human trabecular meshwork and ciliary body</a><span class="history-date">Jun 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.19.26356060">DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology</a><span class="history-date">Jun 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.02.09.704949">πDIA-CLIP: efficient identification of highly heterogeneous proteomics data via a generalized zero-shot framework</a><span class="history-date">Jun 22, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.17.732859">OracleScreen-LILRB4: Machine Learning-Guided Discovery of Myeloid Immune Checkpoint Binders Validated in Patient-Derived Cells</a><span class="history-date">Jun 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.16.731504">Killiverse: an interactive multi-omics web resource for killifish</a><span class="history-date">Jun 22, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.18.733290">Integrative Multi-Omics Analysis of Gut Microbiota Dysbiosis and Host-Microbiome Interaction Mechanisms in Hypertension</a><span class="history-date">Jun 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.17.732633">DeepCDS: Ab initio coding sequence prediction in prokaryotic short reads</a><span class="history-date">Jun 22, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.16.732639">Generating antimicrobial peptides via genomic transfer learning</a><span class="history-date">Jun 21, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.16.732554">SAbDab2: The structural antibody database in the age of machine learning</a><span class="history-date">Jun 21, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.16.732659">Systematic Evaluation of Feature Representations for Cancer-Associated sORF Prediction in Non-coding RNA</a><span class="history-date">Jun 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.732859">OracleScreen-LILRB4: Machine Learning-Guided Discovery of Myeloid Immune Checkpoint Binders Validated in Patient-Derived Cells</a><span class="history-date">Jun 22, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.18.733290">Integrative Multi-Omics Analysis of Gut Microbiota Dysbiosis and Host-Microbiome Interaction Mechanisms in Hypertension</a><span class="history-date">Jun 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.16.732539">Seed variation impacts clustering stability in Single-Cell RNA-Seq and can be mitigated by StAbility-BasEd-Reassignment (SABER)</a><span class="history-date">Jun 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.16.732554">SAbDab2: The structural antibody database in the age of machine learning</a><span class="history-date">Jun 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.16.732639">Generating antimicrobial peptides via genomic transfer learning</a><span class="history-date">Jun 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.16.732659">Systematic Evaluation of Feature Representations for Cancer-Associated sORF Prediction in Non-coding RNA</a><span class="history-date">Jun 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.19.733389">RNAStabFormer: Region-Aware Multi-Task Hybrid Learning for RNA Stability Prediction from Pulse-Chase Transcriptomics</a><span class="history-date">Jun 21, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.16.732192">Perturbation Curve models continuous transcriptional response trajectories and improves prediction of genetic modulations</a><span class="history-date">Jun 20, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.18.732920">Geometric Deep Learning Reveals Ligandable and Cryptic RNA Binding Small Molecule Pockets (SMARTPocket)</a><span class="history-date">Jun 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.03.25.714313">IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder</a><span class="history-date">Jun 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.15.732353">Sequential and coordinated control of human plasma cell differentiation by IRF4 and BLIMP1 utilizing a discriminating ISRE/EICE motif lexicon</a><span class="history-date">Jun 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.15.732498">Morpho-FM: spatial molecular reconstruction from routine H&amp;E histology using transcriptomic foundation-model priors</a><span class="history-date">Jun 20, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.03.25.714313">IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder</a><span class="history-date">Jun 20, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.17.733011">Deep Learning-Based Reconstruction: Model Comparison for Variable-Density GRAPPA 1H MRSI</a><span class="history-date">Jun 19, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.15.732063">Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.16.732192">Perturbation Curve models continuous transcriptional response trajectories and improves prediction of genetic modulations</a><span class="history-date">Jun 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.18.732920">Geometric Deep Learning Reveals Ligandable and Cryptic RNA Binding Small Molecule Pockets (SMARTPocket)</a><span class="history-date">Jun 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.27.714819">Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks</a><span class="history-date">Jun 19, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.18.733149">Multidimensional Characterization of Novel Phage UCB24 Targeting Erwinia amylovora</a><span class="history-date">Jun 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.14.732207">Hi-C data from the filamentous fungus Podospora anserina and associated 3D models to visualize the spatial organization of its chromosomes</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.15.732063">Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.733011">Deep Learning-Based Reconstruction: Model Comparison for Variable-Density GRAPPA 1H MRSI</a><span class="history-date">Jun 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.18.733149">Multidimensional Characterization of Novel Phage UCB24 Targeting Erwinia amylovora</a><span class="history-date">Jun 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.20.700708">Single-cell and spatial transcriptomics unveils key regulators governing cell differentiation for Schistosoma japonicum sexual development</a><span class="history-date">Jun 18, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.16.26355718">Proteomics Uncovers Cryptic JPH2 Loss in Paediatric Dilated Cardiomyopathy</a><span class="history-date">Jun 18, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.17.732905">Cross-study metagenomics analysis reveals distinct microbial signatures of urinary tract infections</a><span class="history-date">Jun 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.12.732007">Incorporation of single-neuron projectome-based connectivity motifs enhances the cortex-specific performance of artificial neural networks</a><span class="history-date">Jun 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.16.26355718">Proteomics Uncovers Cryptic JPH2 Loss in Paediatric Dilated Cardiomyopathy</a><span class="history-date">Jun 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.16.732781">DNA-binding specificity recognition from predicted homologous protein-DNA structures</a><span class="history-date">Jun 18, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.12.731810">A Transformer-derived transcriptomic score associates with ex-vivo drug response in AML</a><span class="history-date">Jun 17, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.11.731702">PhenoBIC: operator-free single-cell spatial phenotyping in multiplex imaging data using deep learning of cell staining patterns</a><span class="history-date">Jun 17, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.17.732905">Cross-study metagenomics analysis reveals distinct microbial signatures of urinary tract infections</a><span class="history-date">Jun 18, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.10.28.620481">Identifying Modulators of Cellular Responses by Heterogeneity-sequencing</a><span class="history-date">Jun 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.06.26343442">Unraveling the Genetic Overlap Between Parkinson&#x27;s Disease and Schizophrenia Through Genome-wide Association and Cell-Type Specific Transcriptomic Analysis</a><span class="history-date">Jun 17, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731702">PhenoBIC: operator-free single-cell spatial phenotyping in multiplex imaging data using deep learning of cell staining patterns</a><span class="history-date">Jun 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.12.731618">The Single Cell Proteomic blueprint, navigating instrumentation platforms, software tools and high-load libraries in neutrophils, RKO and A549 cells</a><span class="history-date">Jun 17, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.11.731424">SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching</a><span class="history-date">Jun 16, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.11.731638">Inferring Cell Fate Trajectories in Time-Resolved Metabolic RNA Labeling data</a><span class="history-date">Jun 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.12.731810">A Transformer-derived transcriptomic score associates with ex-vivo drug response in AML</a><span class="history-date">Jun 17, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.03.03.641186">Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders</a><span class="history-date">Jun 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.15.694070">Regulatory network hubs guide dynamic human lineage specification</a><span class="history-date">Jun 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731424">SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching</a><span class="history-date">Jun 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731638">Inferring Cell Fate Trajectories in Time-Resolved Metabolic RNA Labeling data</a><span class="history-date">Jun 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.12.26355529">Population-scale genomics reveals divergent pathogenicity of variant classes across paralogous collagen IV genes</a><span class="history-date">Jun 16, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.13.732049">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a><span class="history-date">Jun 15, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.11.731629">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a><span class="history-date">Jun 15, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.11.731508">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a><span class="history-date">Jun 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.10.731246">Robust integration of weakly anchored spatial multi-omics</a><span class="history-date">Jun 15, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.10.731443">TopoMIL: Topology Improves Multiple Instance Learning in Diagnostic Microscopic Images</a><span class="history-date">Jun 15, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.13.732026">ADMETron: An AI-driven SaaS platform for comprehensive ADMET prediction and compound prioritisation</a><span class="history-date">Jun 14, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.10.14.682411">Integrative metabolome-genome analysis reveals the genetic architecture of metabolic diversity in sorghum grain</a><span class="history-date">Jun 14, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731508">Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining</a><span class="history-date">Jun 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.731629">Systematic AI-Driven Drug Repurposing via Clinical Trial Data Mining: A Framework and Six Cross-Therapeutic Case Studies.</a><span class="history-date">Jun 15, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.13.732049">FENNEC: Fine-Tuned Ensemble Neural Networks Accelerate Chemically Modified siRNA Design and Screening</a><span class="history-date">Jun 15, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.03.13.25323932">Genome-wide association study in Brazil identifies genetic susceptibility to tuberculosis with single-cell gene effects</a><span class="history-date">Jun 14, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.14.682411">Integrative metabolome-genome analysis reveals the genetic architecture of metabolic diversity in sorghum grain</a><span class="history-date">Jun 14, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.12.731985">Dual Developmental Origins and Activity-dependent Specification of Mammalian Subplate Neurons</a><span class="history-date">Jun 14, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.13.732026">ADMETron: An AI-driven SaaS platform for comprehensive ADMET prediction and compound prioritisation</a><span class="history-date">Jun 14, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.13.732043">MoE-Bind: Guiding De Novo Protein Binder Generation with Sparse Experts</a><span class="history-date">Jun 14, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.11.26355452">Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development</a><span class="history-date">Jun 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.09.730286">Deciphering cross-omics complexity of tissues via diagonal integration of unpaired spatial multi-omics data</a><span class="history-date">Jun 13, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.10.731224">PeptiDIA: A Machine Learning Framework for Enhanced Peptide Identification in Fast-Gradient Data-Independent Acquisition Proteomics</a><span class="history-date">Jun 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.10.731383">MAHLER: Integrating Metadynamics and Inverse Folding to Predict Antibody-Antigen Kinetics</a><span class="history-date">Jun 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.10.731399">A Graph-based QSAR Modeling Pipeline for Predicting In vitro PubChem Assays and In vivo Human Hepatotoxicity: Mechanistic Analysis of Caspase-3/7 Activation</a><span class="history-date">Jun 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.10.731224">PeptiDIA: A Machine Learning Framework for Enhanced Peptide Identification in Fast-Gradient Data-Independent Acquisition Proteomics</a><span class="history-date">Jun 13, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.08.730896">HOMED enables hierarchical and multimodal optimization of DNA methylation deconvolution across tissues</a><span class="history-date">Jun 11, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.07.730684">HoloCell: A Generative Foundation Model for Holistic Cellular Modeling</a><span class="history-date">Jun 11, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.06.730477">Active Learning-Guided Peptide Design for Modulating Condensate Properties upon Recruitment</a><span class="history-date">Jun 11, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.07.730716">Combinatorial docking and molecular generation to navigate over 100-billion molecules for prospective ligand discovery</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.11.26355452">Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development</a><span class="history-date">Jun 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.13.718115">Single-Cell and Tissue-Specific CRISPR Editing Analyses Unveil New Insights to Off-Targets and Translocations</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.06.730477">Active Learning-Guided Peptide Design for Modulating Condensate Properties upon Recruitment</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.07.730684">HoloCell: A Generative Foundation Model for Holistic Cellular Modeling</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.07.730716">Combinatorial docking and molecular generation to navigate over 100-billion molecules for prospective ligand discovery</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.08.730896">HOMED enables hierarchical and multimodal optimization of DNA methylation deconvolution across tissues</a><span class="history-date">Jun 11, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2024.11.15.623687">Unbiased profiling of multipotency landscapes reveals spatial modulators of clonal fate biases</a><span class="history-date">Jun 10, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.08.29.671515">Microbial Named Entity Recognition and Normalisation for AI-assisted Literature Review and Meta-Analysis</a><span class="history-date">Jun 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.14.725200">Stereochemistry-Aware Drug-Target Affinity Prediction</a><span class="history-date">Jun 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.04.730032">Multi-modal comparison of primary and stem cell-derived β-cells nominates targets for maturation</a><span class="history-date">Jun 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.05.730086">Enhancer-gene regulatory interactions in colorectal cancer revealed through genome-wide CRISPRi perturbations</a><span class="history-date">Jun 10, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2024.11.15.623687">Unbiased profiling of multipotency landscapes reveals spatial modulators of clonal fate biases</a><span class="history-date">Jun 10, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.14.725200">Stereochemistry-Aware Drug-Target Affinity Prediction</a><span class="history-date">Jun 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.02.18.706509">NaVis: a virtual microscopy framework for interactive histological interrogation of spatial transcriptomics data</a><span class="history-date">Jun 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.03.26.713594">Cirrhosis-associated immune dysfunction reflects impaired intestinal CD8ab⁺ intraepithelial lymphocyte compartmentalization</a><span class="history-date">Jun 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.02.729719">PanKbase Integrated Single-Cell Map: A Comprehensive Atlas of Human Pancreatic Islets</a><span class="history-date">Jun 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.04.730097">SHERLOC: An interpretable deep learning model for longitudinal circulating tumor DNA data in survival analysis</a><span class="history-date">Jun 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.08.730984">What can a neuron compute</a><span class="history-date">Jun 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.03.26.713594">Cirrhosis-associated immune dysfunction reflects impaired intestinal CD8ab⁺ intraepithelial lymphocyte compartmentalization</a><span class="history-date">Jun 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.02.18.706509">NaVis: a virtual microscopy framework for interactive histological interrogation of spatial transcriptomics data</a><span class="history-date">Jun 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.02.729719">PanKbase Integrated Single-Cell Map: A Comprehensive Atlas of Human Pancreatic Islets</a><span class="history-date">Jun 09, 2026</span></li>
-  <li><a href="https://doi.org/10.1101/2025.03.04.641536">Supervised Deep Learning for Efficient Cryo-EM Image Alignment in Drug Discovery with cryoPARES</a><span class="history-date">Jun 09, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.12.06.627299">SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology</a><span class="history-date">Jun 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.04.29.721568">Do Larger Models Really Win in Drug Discovery?A Benchmark Assessment of Model Scaling in AI-Driven Molecular Property and Activity Prediction</a><span class="history-date">Jun 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.01.22.701179">Fishash: A contingency table approach to Perturb-seq guide assignment</a><span class="history-date">Jun 09, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.03.04.641536">Supervised Deep Learning for Efficient Cryo-EM Image Alignment in Drug Discovery with cryoPARES</a><span class="history-date">Jun 09, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.11.23.689975">Melody: Decoding the Sequence Determinants of Locus-Specific DNA Methylation Across Human Tissues</a><span class="history-date">Jun 09, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.05.730334">CytoGem-XAI:A Hypergraph Neural Network Framework for Genome-Scale Metabolic Modeling and Interpretable Analysis</a><span class="history-date">Jun 08, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.05.730314">Metadata Collector: An Open-Source Platform for Standardized Metadata Management in Multi Centre Sequencing Projects</a><span class="history-date">Jun 08, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.01.22.701179">Fishash: A contingency table approach to Perturb-seq guide assignment</a><span class="history-date">Jun 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.29.721568">Do Larger Models Really Win in Drug Discovery?A Benchmark Assessment of Model Scaling in AI-Driven Molecular Property and Activity Prediction</a><span class="history-date">Jun 09, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2022.08.18.504436">A Web-based Software Resource for Interactive Analysis of Multiplex Tissue Imaging Datasets</a><span class="history-date">Jun 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.19.719462">An Agentic Platform for Drug Repurposing Unified across Molecular, Phenotypic, and Clinical Scales</a><span class="history-date">Jun 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.03.729952">Chaperonin recognition of protein dynamics drives drug resistance</a><span class="history-date">Jun 08, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.04.730125">Single-Cell Multi-Omics Dissection of Malignant Evolutionary Mechanisms and Construction of a Prognostic Model for Clear Cell Renal Cell Carcinoma</a><span class="history-date">Jun 07, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.05.730313">Expert-Guided Supervised Annotation of Erythroid Differentiation in Single-Cell RNA-seq</a><span class="history-date">Jun 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.05.730314">Metadata Collector: An Open-Source Platform for Standardized Metadata Management in Multi Centre Sequencing Projects</a><span class="history-date">Jun 08, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.05.730334">CytoGem-XAI:A Hypergraph Neural Network Framework for Genome-Scale Metabolic Modeling and Interpretable Analysis</a><span class="history-date">Jun 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.02.729644">Cell type-centric interaction networks define spatial architecture of intrahepatic cholangiocarcinoma</a><span class="history-date">Jun 07, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.04.730132">VelOT: kinetic-free RNA velocity inference via optimal transport, flow-field smoothing, and VAMP coarse-graining of cellular dynamics</a><span class="history-date">Jun 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.03.725182">Compositional and interpretable representation of histology using AI foundation models and sparse autoencoders</a><span class="history-date">Jun 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.04.730125">Single-Cell Multi-Omics Dissection of Malignant Evolutionary Mechanisms and Construction of a Prognostic Model for Clear Cell Renal Cell Carcinoma</a><span class="history-date">Jun 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.04.730132">VelOT: kinetic-free RNA velocity inference via optimal transport, flow-field smoothing, and VAMP coarse-graining of cellular dynamics</a><span class="history-date">Jun 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.05.730313">Expert-Guided Supervised Annotation of Erythroid Differentiation in Single-Cell RNA-seq</a><span class="history-date">Jun 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.06.697994">Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering</a><span class="history-date">Jun 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.02.729566">Cellpin enables reference-based imputation and denoising of spatial transcriptomes</a><span class="history-date">Jun 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.15.699695">Reconstructing clone-resolved transcriptional programs from bulk tumor sequencing</a><span class="history-date">Jun 06, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.02.729483">Extrachromosomal DNA as a Causal Instrument for Spatial Multi-Omics</a><span class="history-date">Jun 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.02.26354776">CarotidMamba: Foundation Model-Enabled CTA Phenotyping of Symptomatic Carotid Plaques in a Multi-Center Retrospective Study</a><span class="history-date">Jun 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.02.729483">Extrachromosomal DNA as a Causal Instrument for Spatial Multi-Omics</a><span class="history-date">Jun 06, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.02.729566">Cellpin enables reference-based imputation and denoising of spatial transcriptomes</a><span class="history-date">Jun 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.729268">Proteomics-constrained deconvolution reveals spatial cell-type programs in tumours</a><span class="history-date">Jun 05, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.04.730134">Vibe Coding Specificity Foundation Models</a><span class="history-date">Jun 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.729423">Direct Detection and Atomic Modeling of Ligands in Cryo-EM Maps Using Deep Learning</a><span class="history-date">Jun 05, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.04.730050">Long-read RNA-seq resolves isoform-level and context-specific regulatory architecture of complex traits in cattle</a><span class="history-date">Jun 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.729445">Scalable in vivo cardiac functional genomics with compressed AAV-Perturb-seq reveals a common mitochondrial response to perturbation</a><span class="history-date">Jun 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.04.730050">Long-read RNA-seq resolves isoform-level and context-specific regulatory architecture of complex traits in cattle</a><span class="history-date">Jun 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.04.730134">Vibe Coding Specificity Foundation Models</a><span class="history-date">Jun 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.31.729117">MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models</a><span class="history-date">Jun 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.31.729128">ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures</a><span class="history-date">Jun 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.726000">ViTAMIn-O: Democratizing computer vision-based machine learning for stem cell research</a><span class="history-date">Jun 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.01.729215">Cell-specific regulatory circuits connect genetic variation to disease susceptibility</a><span class="history-date">Jun 04, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.31.729117">MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models</a><span class="history-date">Jun 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.06.02.729712">Data-Efficient Exploration of Enzyme Function Using Family-Specific Machine Learning</a><span class="history-date">Jun 04, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.31.729128">ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures</a><span class="history-date">Jun 04, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.01.728087">A multimodal perturbation atlas defines the phenotypic resolution of cellular morphology.</a><span class="history-date">Jun 03, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.29.728882">Gigabase-scale deletion scanning of the human genome</a><span class="history-date">Jun 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.17.712366">Deciphering context-dependent epigenetic program by network-based prediction of clustered open regulatory elements from single-cell chromatin accessibility</a><span class="history-date">Jun 03, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.06.01.727775">CellClick: an interactive platform for adjustable and accurate cell type annotation in single-cell and spatial omics data</a><span class="history-date">Jun 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.29.728242">Combining transcriptomic resolutions and machine learning strategies uncovers new OXPHOS genes in Caenorhabditis elegans</a><span class="history-date">Jun 03, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.31.729073">Combinatorial and Inducible CRISPRa/i Enables Canalized hiPSC Forward Programming and Iterative Refinement via Single-Cell Genomics</a><span class="history-date">Jun 02, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.728882">Gigabase-scale deletion scanning of the human genome</a><span class="history-date">Jun 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.01.727775">CellClick: an interactive platform for adjustable and accurate cell type annotation in single-cell and spatial omics data</a><span class="history-date">Jun 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.06.01.728087">A multimodal perturbation atlas defines the phenotypic resolution of cellular morphology.</a><span class="history-date">Jun 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.13.724699">The phenotypic landscape of the model firmicute Bacillus subtilis</a><span class="history-date">Jun 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.28.726140">Ultra-efficient High Resolution 3D Reconstruction of Spatial Omics Data with Neural Transcriptomic Field</a><span class="history-date">Jun 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.29.728633">UMITIC: An unsupervised framework for the joint characterization of cellular phenotypes and spatial neighborhoods in multiplex and hyperplex immunofluorescence imaging data</a><span class="history-date">Jun 02, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.13.724699">The phenotypic landscape of the model firmicute Bacillus subtilis</a><span class="history-date">Jun 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.29.728791">Towards understanding of NK cell antigenic specificity</a><span class="history-date">Jun 02, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.31.729073">Combinatorial and Inducible CRISPRa/i Enables Canalized hiPSC Forward Programming and Iterative Refinement via Single-Cell Genomics</a><span class="history-date">Jun 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.07.717093">AI-Guided Structure-Aware Modeling and Thermal Proteomics Reveal Direct Demethylzeylasteral-ACLY Interaction</a><span class="history-date">Jun 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.27.727977">Tumour architecture shapes polarized epithelial states that predict survival in high-grade serous ovarian cancer</a><span class="history-date">Jun 01, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.29.26354442">Bridging Acoustic and Semantic Spaces for Interpretable Voice Scoring via Zero-Shot Semantic Expansion</a><span class="history-date">Jun 01, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.29.26354409">Sensitive Glioma Detection and Recurrence Monitoring Using a Machine Learning Model Based on Circulating Monocytes</a><span class="history-date">Jun 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.28.728367">Assessing and Optimizing Low-Frequency Somatic Mutation Detection: A Multi-Platform High-Throughput Sequencing Perspective</a><span class="history-date">Jun 01, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.29.728868">GPU accelerated population genetics statistics using pg_gpu</a><span class="history-date">May 31, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.29.728876">DanioDecima: A DNA sequence-to-function model of zebrafish embryogenesis</a><span class="history-date">May 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.26354409">Sensitive Glioma Detection and Recurrence Monitoring Using a Machine Learning Model Based on Circulating Monocytes</a><span class="history-date">Jun 01, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.26354442">Bridging Acoustic and Semantic Spaces for Interpretable Voice Scoring via Zero-Shot Semantic Expansion</a><span class="history-date">Jun 01, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.27.727961">Epigenome Alterations and 3D Chromatin Architecture Remodeling in Inflammatory Macrophage Activation under Diabetic Conditions</a><span class="history-date">May 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.29.728826">Automated analysis of feeding dynamics from electromyographic recordings in a blood-sucking insect</a><span class="history-date">May 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.29.728843">Optical genome mapping identifies source-associated structural variant differences across early-passage human iPSCs</a><span class="history-date">May 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.728868">GPU accelerated population genetics statistics using pg_gpu</a><span class="history-date">May 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.29.728876">DanioDecima: A DNA sequence-to-function model of zebrafish embryogenesis</a><span class="history-date">May 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.01.25341371">The Association Between Oral Microbiota and Chronic Obstructive Pulmonary Disease: An Integrated Study of Genetic Causal Inference and Bioinformatics Analysis</a><span class="history-date">May 30, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.28.26354339">High-dimensional Characterization of Genome-Environment Fitness Landscapes in Klebsiella pneumoniae</a><span class="history-date">May 30, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.27.728334">Transcriptomic, Specific Marker, and Pathway Analysis of Smooth Muscle Cell Foam Cells Compared to Macrophage Foam Cells in Human Atherosclerosis</a><span class="history-date">May 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.27.26354213">Local ancestry-aware genome-wide meta-analysis uncovers novel genetic loci for sickle cell disease nephropathy</a><span class="history-date">May 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.27.728334">Transcriptomic, Specific Marker, and Pathway Analysis of Smooth Muscle Cell Foam Cells Compared to Macrophage Foam Cells in Human Atherosclerosis</a><span class="history-date">May 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.28.26354339">High-dimensional Characterization of Genome-Environment Fitness Landscapes in Klebsiella pneumoniae</a><span class="history-date">May 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.28.728566">Amplicon/Protein Bead Display enables quantitative in vitro biochemistry at scale</a><span class="history-date">May 30, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.26.727810">TopOmics: Topic Modelling for All Omics</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.01.27.577580">nail: software for high-speed sequence annotation with profile hidden Markov models</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.09.07.25335273">Patient Experiences with Diagnostic Revision in Lymphoma: Analysis of Chinese Online Forum Narratives Using Natural Language Processing</a><span class="history-date">May 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.03.26352241">Multilingual Evaluation of a Large Language Model-Based Primary Care Chatbot</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.02.27.26347264">Untargeted metabolomics reveals a reproducible signature of fatal insulin intoxication</a><span class="history-date">May 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.03.26352241">Multilingual Evaluation of a Large Language Model-Based Primary Care Chatbot</a><span class="history-date">May 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.26.727810">TopOmics: Topic Modelling for All Omics</a><span class="history-date">May 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.15.718744">GROQ-seq Datasets Across Transcription Factors (LacI, RamR, VanR), T7 RNA Polymerase and TEV Protease</a><span class="history-date">May 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.28.721185">A Conditional Variational Autoencoder with QSAR-Guided Surrogate-Weighted Fine-Tuning and Cross-Entropy Optimization for Targeted Antimicrobial Peptide Generation</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.26.727866">ProtXAI: Explainable AI Reveals Structural Determinants of Protein Dynamics</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.27.728222">Revisiting CPUs for Protein Folding: Xeon-Based Acceleration of AlphaFold2</a><span class="history-date">May 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.04.28.721185">A Conditional Variational Autoencoder with QSAR-Guided Surrogate-Weighted Fine-Tuning and Cross-Entropy Optimization for Targeted Antimicrobial Peptide Generation</a><span class="history-date">May 29, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.04.15.718744">GROQ-seq Datasets Across Transcription Factors (LacI, RamR, VanR), T7 RNA Polymerase and TEV Protease</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.27.728291">Single-cell analysis of Plasmodium falciparum transcripts after drug perturbation identifies feedback regulation as well as increased transmission potential</a><span class="history-date">May 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.26.26354167">Thalamic sonication in chronic disorders of consciousness: a mechanistic single-arm clinical trial</a><span class="history-date">May 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.28.728382">Piezo1 links cytoskeletal remodeling to differential YAP and β-catenin signaling in response to mechanical cues</a><span class="history-date">May 28, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.25.727696">CryoARC: Atomic-resolution conformational landscapes of protein assemblies from cryo-EM single particles with evolutionary priors</a><span class="history-date">May 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.22.727233">ARGus: A Co-assembly workflow for MAG generation, ARG detection, and virulence analysis</a><span class="history-date">May 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.26.727834">Systematic prediction and functional analysis of amino acid residues determining product specificity in the plant oxidosqualene cyclase superfamily</a><span class="history-date">May 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.22.727327">Diploidy alters the path of fluconazole adaptation in C. glabrata</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.25.727696">CryoARC: Atomic-resolution conformational landscapes of protein assemblies from cryo-EM single particles with evolutionary priors</a><span class="history-date">May 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.26.727630">Nanostructured Zirconia thin films as neurogliomorphic interface for neural cells of central and peripheral nervous system</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.26.727834">Systematic prediction and functional analysis of amino acid residues determining product specificity in the plant oxidosqualene cyclase superfamily</a><span class="history-date">May 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.24.727550">Invasive species undermine the bioark hypothesis in a low-latitude urban biodiversity hotspot</a><span class="history-date">May 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.25.727694">Population-specific drivers of reproductive phenology in a widespread large carnivore, the gray wolf</a><span class="history-date">May 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.25.727765">Spatially resolved, multimodal in vivo Perturb-seq using antibody-based cell hashing</a><span class="history-date">May 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.22.727292">dbGIST: An LLM-Assisted Multi-Omics Resource for Target Exploration and Cross-Dataset Validation in Gastrointestinal Stromal Tumors</a><span class="history-date">May 27, 2026</span></li>
-  <li><a href="https://doi.org/10.64898/2026.05.22.727145">GenesetDiseaseDrugNetwork (GDDN): a web server for disease enrichment and drug prioritization</a><span class="history-date">May 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.21.727053">Prioritizing peptides for targeted mass spectrometry experiments using deep learning</a><span class="history-date">May 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.22.727138">Beyond natural amino acids: Extending immunogenicity risk assessment to non-canonical peptide drugs through chemical feature encoding</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.22.727145">GenesetDiseaseDrugNetwork (GDDN): a web server for disease enrichment and drug prioritization</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.22.727292">dbGIST: An LLM-Assisted Multi-Omics Resource for Target Exploration and Cross-Dataset Validation in Gastrointestinal Stromal Tumors</a><span class="history-date">May 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.25.727765">Spatially resolved, multimodal in vivo Perturb-seq using antibody-based cell hashing</a><span class="history-date">May 27, 2026</span></li>
+</ul>
+</section>
+
+<section class="panel" id="panel-virology" role="tabpanel" aria-labelledby="tab-virology">
+<h2 class="panel-heading">Virology, Pandemic Preparedness &amp; Metagenomics</h2>
+<p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
+<p class="section-title">Today's Papers</p>
+<ul class="toc-list">
+  <li><a href="#virology-article-1">Convergent IGHV3-53/3-66 antibodies elicited by Omicron BA.1 infection broadly neutralize emerging SARS-CoV-2 variants</a></li>
+  <li><a href="#virology-article-2">Long-read metagenomics reveals a high burden of antimicrobial resistance, mobile genetic elements, and bacterial diversity in hospital and community wastewater from Conakry, Guinea</a></li>
+  <li><a href="#virology-article-3">Quantifying superspreading in bacterial STI outbreaks using phylodynamics</a></li>
+  <li><a href="#virology-article-4">Functional profiling of ESKAPE viromes uncovers resistance-limiting phage-host dynamics</a></li>
+  <li><a href="#virology-article-5">Large increase in mortality and hospital admissions among young children and the aged due to Influenza and Respiratory Syncytial Virus in Brazil in 2025</a></li>
 </ul>
 
-<footer>Generated 2026-08-16T09:01:29 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<hr>
+
+<div class="article" id="virology-article-1">
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.15.745004v1">Convergent IGHV3-53/3-66 antibodies elicited by Omicron BA.1 infection broadly neutralize emerging SARS-CoV-2 variants</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.15.745004">10.64898/2026.08.15.745004</a> · Score: <code>█████░░░░░</code> 0.486</p>
+<p><span class="label">Core Problem:</span> Natural SARS-CoV-2 infections or vaccinations induce neutralizing antibodies (nAbs) offer protection from severe disease</p>
+<p><span class="label">Proposed Solution:</span> The shared use of IGHV3-53/3-66 genes makes this class of monoclonal antibodies (mAbs) a public clonotype and is well established, but the evolution and structural basis of how these public antibodies maintain broad binding and acquire potent neutralizing activity is not completely understood. To understand how these features are facilitated by the IGHV3-53/3-66 germline segments and enhanced by somatic mutations, we investigated the biology of a panel of 242 human mAbs isolated from an individual infected with SARS-CoV-2 BA</p>
+<p><span class="label">Key Impact:</span> 2</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-2">
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.08.14.26360450v1">Long-read metagenomics reveals a high burden of antimicrobial resistance, mobile genetic elements, and bacterial diversity in hospital and community wastewater from Conakry, Guinea</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.26360450">10.64898/2026.08.14.26360450</a> · Score: <code>█████░░░░░</code> 0.482</p>
+<p><span class="label">Core Problem:</span> Wastewater systems are increasingly recognized as important environmental reservoirs of antimicrobial resistance (AMR), acting as interfaces where resistant bacteria, antimicrobial resistance genes (ARGs), and mobile genetic elements (MGEs) converge and potentially disseminate</p>
+<p><span class="label">Proposed Solution:</span> Wastewater samples were collected from hospital and community sites, including municipal medical centers, household wastewater outlets, and open drainage systems. Genomic DNA was extracted using the ZymoBIOMICS DNA/RNA Miniprep Kit and sequenced on the Oxford Nanopore Technologies MinION MK1D platform using the Native Barcoding Kit (SQK-NBD114</p>
+<p><span class="label">Key Impact:</span> This study provides the first metagenomic baseline for environmental AMR surveillance in Guinea and highlights the urgent need for integrated One Health strategies to mitigate the environmental dissemination of antimicrobial resistance</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-3">
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.08.14.26360404v1">Quantifying superspreading in bacterial STI outbreaks using phylodynamics</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.26360404">10.64898/2026.08.14.26360404</a> · Score: <code>█████░░░░░</code> 0.470</p>
+<p><span class="label">Core Problem:</span> Bacterial sexually transmitted infections (STIs) pose a major global public health challenge, with Neisseria gonorrhoeae being of particular concern due to its persistently high prevalence and increasing antimicrobial resistance</p>
+<p><span class="label">Proposed Solution:</span> The emergence of multidrug-resistant strains has narrowed treatment options, highlighting the importance of prevention. In this context, knowing whether there is superspreading (transmission heterogeneity) within a population becomes crucial for accurate public health measures</p>
+<p><span class="label">Key Impact:</span> gonorrhoeae transmission and the importance of detecting it to efficiently stop the dissemination of the disease</p>
+<p><span class="label">Methodology:</span> Phylodynamic techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.16.745060v1">Functional profiling of ESKAPE viromes uncovers resistance-limiting phage-host dynamics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.16.745060">10.64898/2026.08.16.745060</a> · Score: <code>████░░░░░░</code> 0.434</p>
+<p><span class="label">Core Problem:</span> ESKAPE pathogens drive clinical antibiotic resistance and intractable infections, severely compromising antimicrobial therapies</p>
+<p><span class="label">Proposed Solution:</span> Bacteriophages are promising alternatives to antibiotics, yet their diversity, function and ecological impacts in ESKAPE pathogens remain poorly defined, hindering phage therapy translation. Here, we integrated 11,947 high-quality ESKAPE genomes with global metagenomic viral data to construct a comprehensive non-redundant virome of 14,496 ESKAPE-associated viruses, including four unreported viral clades</p>
+<p><span class="label">Key Impact:</span> This study establishes a systematic ESKAPE virome resource, demonstrates phages&#x27; dual roles in targeting resistant pathogens and curbing resistance spread, and provides mechanistic support for phage therapy clinical application</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-5">
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.08.15.26360470v1">Large increase in mortality and hospital admissions among young children and the aged due to Influenza and Respiratory Syncytial Virus in Brazil in 2025</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.15.26360470">10.64898/2026.08.15.26360470</a> · Score: <code>████░░░░░░</code> 0.403</p>
+<p><span class="label">Core Problem:</span> Background: Mortality and hospital admissions due to Severe Acute Respiratory Infection (SARI) peaked between January and August 2025 in Brazil</p>
+<p><span class="label">Proposed Solution:</span> Methods: The Brazilian Ministry of Health data on hospital admissions and deaths caused by SARI were compiled by age group (&lt;5, 5-14, 15-49, 50-64, 65+ years) and quarter between January 2023 and June 2025. SARI causes were aggregated into SARS-Cov-2, Influenza, Respiratory Syncytial Virus (RSV), and other viruses (parainfluenza, adenovirus, rhinovirus, bocavirus, metapneumovirus)</p>
+<p><span class="label">Key Impact:</span> Public health policies that facilitate vaccine uptake against these infections should be given high priority</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
+<hr>
+
+<p class="section-title">All Featured Articles</p>
+<p class="empty">No historical data yet for this track.</p>
+</section>
+
+<footer>Generated 2026-08-18T09:03:40 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<script>
+(function () {
+  var body = document.body;
+  body.classList.add('js-tabs');
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  var panels = Array.prototype.slice.call(document.querySelectorAll('.panel'));
+  if (!tabs.length) return;
+
+  function activate(id, updateHash) {
+    var match = false;
+    panels.forEach(function (p) {
+      var on = p.id === 'panel-' + id;
+      p.hidden = !on;
+      if (on) match = true;
+    });
+    tabs.forEach(function (t) {
+      t.setAttribute('aria-selected', String(t.dataset.track === id));
+    });
+    if (match && updateHash && history.replaceState) {
+      history.replaceState(null, '', '#' + id);
+    }
+    return match;
+  }
+
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function (e) {
+      e.preventDefault();
+      activate(t.dataset.track, true);
+    });
+  });
+
+  window.addEventListener('hashchange', function () {
+    activate(location.hash.replace('#', ''), false);
+  });
+
+  var initial = location.hash.replace('#', '');
+  if (!initial || !activate(initial, false)) {
+    activate(tabs[0].dataset.track, false);
+  }
+})();
+
+</script>
 </body>
 </html>
