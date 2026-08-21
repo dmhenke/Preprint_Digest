@@ -1,40 +1,48 @@
 {
-  "generated_utc": "2026-08-20T09:04:42.836584+00:00",
+  "generated_utc": "2026-08-21T09:03:46.143679+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Comparative evaluation of genotyping and low-pass sequencing for pharmacogenetic variant and phenotype inference",
-          "doi": "10.64898/2026.08.18.26360694",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.18.26360694v1",
-          "source": "medrxiv",
-          "score": 0.3802
+          "title": "Signature Recontextualization: Mapping perturbational signatures across biological contexts",
+          "doi": "10.64898/2026.08.14.744937",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744937v1",
+          "source": "biorxiv",
+          "score": 0.5208
         },
         {
           "rank": 2,
-          "title": "Genome-wide analyses reveal shared and distinct genetic architecture linking amyotrophic lateral sclerosis, sporadic frontotemporal dementia and cognitive traits",
-          "doi": "10.64898/2026.08.17.26360494",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360494v1",
-          "source": "medrxiv",
-          "score": 0.371
+          "title": "Single-cell foundation models benefit from cross-modal training: adding proteomics data beats parameter scaling",
+          "doi": "10.64898/2026.08.14.744845",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744845v1",
+          "source": "biorxiv",
+          "score": 0.5135
         },
         {
           "rank": 3,
-          "title": "In-silico functional prediction of novel tuberculosis pharmacogenetic variants and NAT2 phenotype prediction in African populations",
-          "doi": "10.64898/2026.08.17.26360486",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360486v1",
-          "source": "medrxiv",
-          "score": 0.2996
+          "title": "Single-Molecule Proteomics via a Dynamic Translocase and Physics-Informed Machine Learning",
+          "doi": "10.64898/2026.08.17.745284",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745284v1",
+          "source": "biorxiv",
+          "score": 0.4894
         },
         {
           "rank": 4,
-          "title": "Explainable Clinician-Supervised Artificial Intelligence as an Implementation Framework for Cardiovascular-Kidney-Metabolic Population Health: Synthetic Data Validation of the CHAPERONE-CKM Framework",
-          "doi": "10.64898/2026.08.17.26360643",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360643v1",
-          "source": "medrxiv",
-          "score": 0.2829
+          "title": "BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models",
+          "doi": "10.64898/2026.08.15.745056",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.745056v1",
+          "source": "biorxiv",
+          "score": 0.484
+        },
+        {
+          "rank": 5,
+          "title": "Divergent malignant evolution converges on shared immunosuppressive ecosystems through tumor-intrinsic TMED2-ADAR1-dependent complement signalling in multifocal hepatocellular carcinoma",
+          "doi": "10.64898/2026.04.21.719788",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.04.21.719788v2",
+          "source": "biorxiv",
+          "score": 0.4696
         }
       ]
     },
@@ -43,27 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Suppression, delayed containment, or no intervention: optimal strategies for pandemic control",
-          "doi": "10.1101/2024.12.04.24318460",
-          "url": "https://www.medrxiv.org/content/10.1101/2024.12.04.24318460v2",
-          "source": "medrxiv",
-          "score": 0.3724
+          "title": "The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle",
+          "doi": "10.64898/2026.08.18.745536",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745536v1",
+          "source": "biorxiv",
+          "score": 0.5282
         },
         {
           "rank": 2,
-          "title": "Using LIBRA-seq to map the BK-polyomavirus specific B-cell response in kidney transplant recipients",
-          "doi": "10.64898/2026.02.03.26345220",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.02.03.26345220v2",
-          "source": "medrxiv",
-          "score": 0.3168
+          "title": "Feline calicivirus encoding NanoLuc luciferase as a tool for assessing antibody neutralisation and antivirals",
+          "doi": "10.64898/2026.08.20.745972",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.745972v1",
+          "source": "biorxiv",
+          "score": 0.4589
         },
         {
           "rank": 3,
-          "title": "Bacterial co-infection and antimicrobial use in hospital-attended patients with laboratory-confirmed influenza infection: a systematic review and meta-analysis.",
-          "doi": "10.64898/2026.04.29.26352034",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.04.29.26352034v2",
-          "source": "medrxiv",
-          "score": 0.3065
+          "title": "Amplified transmission in host communities following disease-induced declines",
+          "doi": "10.64898/2026.08.18.744677",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.744677v1",
+          "source": "biorxiv",
+          "score": 0.4233
+        },
+        {
+          "rank": 4,
+          "title": "Influenza A virus initiates genome selection through promoter-dependent nuclear export",
+          "doi": "10.64898/2026.08.14.744863",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744863v1",
+          "source": "biorxiv",
+          "score": 0.4055
+        },
+        {
+          "rank": 5,
+          "title": "Inference of nodavirus zoonotic transmission networks from publicly available sequencing data",
+          "doi": "10.64898/2026.08.09.743288",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.09.743288v2",
+          "source": "biorxiv",
+          "score": 0.3984
         }
       ]
     }

@@ -108,15 +108,15 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>August 20, 2026 — 7 preprints selected (Comp Bio: 4 · Virology: 3)</h2>
+  <h2>August 21, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
 </div>
 
 <nav class="tabs" role="tablist">
-  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(4)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(3)</span></a>
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,54 +124,68 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Comparative evaluation of genotyping and low-pass sequencing for pharmacogenetic variant and phenotype inference</a></li>
-  <li><a href="#core-article-2">Genome-wide analyses reveal shared and distinct genetic architecture linking amyotrophic lateral sclerosis, sporadic frontotemporal dementia and cognitive traits</a></li>
-  <li><a href="#core-article-3">In-silico functional prediction of novel tuberculosis pharmacogenetic variants and NAT2 phenotype prediction in African populations</a></li>
-  <li><a href="#core-article-4">Explainable Clinician-Supervised Artificial Intelligence as an Implementation Framework for Cardiovascular-Kidney-Metabolic Population Health: Synthetic Data Validation of the CHAPERONE-CKM Framework</a></li>
+  <li><a href="#core-article-1">Signature Recontextualization: Mapping perturbational signatures across biological contexts</a></li>
+  <li><a href="#core-article-2">Single-cell foundation models benefit from cross-modal training: adding proteomics data beats parameter scaling</a></li>
+  <li><a href="#core-article-3">Single-Molecule Proteomics via a Dynamic Translocase and Physics-Informed Machine Learning</a></li>
+  <li><a href="#core-article-4">BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models</a></li>
+  <li><a href="#core-article-5">Divergent malignant evolution converges on shared immunosuppressive ecosystems through tumor-intrinsic TMED2-ADAR1-dependent complement signalling in multifocal hepatocellular carcinoma</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.08.18.26360694v1">Comparative evaluation of genotyping and low-pass sequencing for pharmacogenetic variant and phenotype inference</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.26360694">10.64898/2026.08.18.26360694</a> · Score: <code>████░░░░░░</code> 0.380</p>
-<p><span class="label">Core Problem:</span> Background</p>
-<p><span class="label">Proposed Solution:</span> Pharmacogenetic (PGx) testing can guide drug prescribing but remains limited by the genomic assay used. Genotyping arrays are widely implemented yet limited to predefined variants, whereas low-pass whole-genome sequencing (LP-WGS) is not constrained by fixed probe design and may provide broader PGx variant availability after imputation</p>
-<p><span class="label">Key Impact:</span> These findings support further evaluation of LP-WGS as a scalable PGx screening approach, especially where long-term genomic data reuse is a priority</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.14.744937v1">Signature Recontextualization: Mapping perturbational signatures across biological contexts</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.744937">10.64898/2026.08.14.744937</a> · Score: <code>█████░░░░░</code> 0.521</p>
+<p><span class="label">Core Problem:</span> Perturbational transcriptomics is a powerful tool for understanding gene function and drug effects, yet predicting how perturbations manifest across different biological contexts remains a central challenge, limiting translation from model systems to clinically relevant tissues</p>
+<p><span class="label">Proposed Solution:</span> Despite growing interest in this problem, benchmarking efforts have been hindered by inconsistent evaluation tasks, heterogeneous metrics, and limited assessment across perturbation types and biological systems. Here, we introduce a benchmarking framework for cross-context perturbation-signature prediction (a task we define as signature recontextualization), grounded in explicit definitions of the prediction task, target-data availability, and evaluation metrics centered on signature recovery</p>
+<p><span class="label">Key Impact:</span> All datasets, methods, and evaluation utilities are released as an open-source R package (sigRecon), providing a foundation for reproducible benchmarking and future method development</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.08.17.26360494v1">Genome-wide analyses reveal shared and distinct genetic architecture linking amyotrophic lateral sclerosis, sporadic frontotemporal dementia and cognitive traits</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.17.26360494">10.64898/2026.08.17.26360494</a> · Score: <code>████░░░░░░</code> 0.371</p>
-<p><span class="label">Core Problem:</span> Cognitive and behavioural impairment frequently accompanies motor decline in amyotrophic lateral sclerosis (ALS), with 15% of cases meeting the diagnostic criteria for frontotemporal dementia (FTD)</p>
-<p><span class="label">Proposed Solution:</span> We mapped the shared genetic architecture of ALS, sporadic FTD (sFTD) and cognitive traits using genome-wide association data. Pleiotropy mapping and colocalisation highlighted 26 loci shared between ALS and cognitive traits (ALS-COG), alongside 5 for ALS and sFTD (ALS-sFTD) and 7 for sFTD-cognition (sFTD-COG)</p>
-<p><span class="label">Key Impact:</span> 31 locus as top-ranked pleiotropic candidates for ALS-COG, ALS-sFTD and sFTD-COG respectively</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.14.744845v1">Single-cell foundation models benefit from cross-modal training: adding proteomics data beats parameter scaling</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.744845">10.64898/2026.08.14.744845</a> · Score: <code>█████░░░░░</code> 0.513</p>
+<p><span class="label">Core Problem:</span> Leading cellular foundation models have been trained on hundreds of millions of single-cell transcriptomes, with progress increasingly driven by larger datasets and model scaling</p>
+<p><span class="label">Proposed Solution:</span> Here, we asked whether adding a proteomics modality can improve gene-level and cell-level representations beyond scaling RNA-only models. We introduce cross-modal continued pretraining, fine-tuning a published single-cell model (Tahoe-x1) on a large corpus of proteomic profiles</p>
+<p><span class="label">Key Impact:</span> These results demonstrate that careful targeted curation of proteomics data can provide larger benefits than increasing the model size alone and suggest that multimodal pretraining is a promising path toward more informative biological foundation models</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.08.17.26360486v1">In-silico functional prediction of novel tuberculosis pharmacogenetic variants and NAT2 phenotype prediction in African populations</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.17.26360486">10.64898/2026.08.17.26360486</a> · Score: <code>███░░░░░░░</code> 0.300</p>
-<p><span class="label">Core Problem:</span> Tuberculosis (TB) remains a major public health challenge, exerting profound socio-economic burdens and causing debilitating illness in approximately 2</p>
-<p><span class="label">Proposed Solution:</span> 5 million individuals across Africa annually. Optimized large-scale treatment regimens, such as NAT2-genotype adjusted dosing, could improve patient outcomes and strengthen healthcare systems</p>
-<p><span class="label">Key Impact:</span> With the increasing accessibility of next-generation sequencing, alongside the development of comprehensive databases capturing African variation and advances in computational algorithms, the cumulative impact of genetic variation on TB drug response can be more accurately captured, thereby informing precision treatment strategies</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.17.745284v1">Single-Molecule Proteomics via a Dynamic Translocase and Physics-Informed Machine Learning</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.17.745284">10.64898/2026.08.17.745284</a> · Score: <code>█████░░░░░</code> 0.489</p>
+<p><span class="label">Core Problem:</span> Single-molecule protein sequencing promises to democratize clinical proteomics, but platforms retrofitting static DNA-sequencing nanopores face a fundamental biophysical bottleneck: they only measure one-dimensional excluded volume</p>
+<p><span class="label">Proposed Solution:</span> Consequently, these static calipers struggle to resolve isobaric residues, requiring complex DNA-handle chemistries and target concentrations that exceed clinically relevant abundance ranges. Here, we introduce a dynamical, target-docking translocase engine--the anthrax toxin protective antigen (PA)--as a label-free single-molecule peptide sensor</p>
+<p><span class="label">Key Impact:</span> Transitioning from static volumetric measurement to time-domain thermodynamic fingerprinting establishes the requisite protein nanopore hardware for de novo proteomics</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.08.17.26360643v1">Explainable Clinician-Supervised Artificial Intelligence as an Implementation Framework for Cardiovascular-Kidney-Metabolic Population Health: Synthetic Data Validation of the CHAPERONE-CKM Framework</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.17.26360643">10.64898/2026.08.17.26360643</a> · Score: <code>███░░░░░░░</code> 0.283</p>
-<p><span class="label">Core Problem:</span> Abstract Background: Cardiovascular-kidney-metabolic (CKM) syndrome is an increasingly prevalent multisystem condition associated with morbidity, fragmented care, recurrent hospitalization, and rising healthcare costs</p>
-<p><span class="label">Proposed Solution:</span> While cardiovascular risk models estimate future disease risk, fewer frameworks support multidisciplinary CKM care, clinician decision-making, and population health management. Synthetic data environments can assess implementation readiness while preserving privacy</p>
-<p><span class="label">Key Impact:</span> These findings are an early translational milestone, not clinical validation, and support external validation, prospective implementation studies, and Learning Health System integration to assess effects on care delivery, equity, and value-based outcomes</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.15.745056v1">BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.15.745056">10.64898/2026.08.15.745056</a> · Score: <code>█████░░░░░</code> 0.484</p>
+<p><span class="label">Core Problem:</span> Gene regulatory network (GRN) inference from single-cell RNA-seq conventionally relies on per-dataset optimization</p>
+<p><span class="label">Proposed Solution:</span> Existing tools must be refit for every new dataset, and the majority fail to infer causal regulatory directions. Here we present BoYueGRN, an amortized causal discovery framework trained exclusively on 10,000 synthetic structural causal models</p>
+<p><span class="label">Key Impact:</span> By decoupling network reconstruction from per-dataset optimization, this paradigm opens the door to systematic, atlas-scale mapping of regulatory dynamics across human diseases</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719788v2">Divergent malignant evolution converges on shared immunosuppressive ecosystems through tumor-intrinsic TMED2-ADAR1-dependent complement signalling in multifocal hepatocellular carcinoma</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.21.719788">10.64898/2026.04.21.719788</a> · Score: <code>█████░░░░░</code> 0.470</p>
+<p><span class="label">Core Problem:</span> Background Multifocal hepatocellular carcinoma (HCC) comprises spatially separated tumor foci with distinct evolutionary trajectories, posing a major therapeutic challenge</p>
+<p><span class="label">Proposed Solution:</span> Whether divergent lesions retain shared immune-evasion mechanisms beyond lesion-specific heterogeneity and offer cross-focal therapeutic opportunities remains unknown. Objective To resolve malignant and microenvironmental heterogeneity across tumor foci and identify conserved immunosuppressive programs underlying multifocal HCC progression</p>
+<p><span class="label">Key Impact:</span> The TMED2-ADAR1-C3/C5 complement axis represents a conserved tumor-immune vulnerability that may enable therapeutic strategies targeting common immune-evasion mechanisms across heterogeneous tumor foci</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.17.26360486">In-silico functional prediction of novel tuberculosis pharmacogenetic variants and NAT2 phenotype prediction in African populations</a><span class="history-date">Aug 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.17.26360494">Genome-wide analyses reveal shared and distinct genetic architecture linking amyotrophic lateral sclerosis, sporadic frontotemporal dementia and cognitive traits</a><span class="history-date">Aug 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.17.26360643">Explainable Clinician-Supervised Artificial Intelligence as an Implementation Framework for Cardiovascular-Kidney-Metabolic Population Health: Synthetic Data Validation of the CHAPERONE-CKM Framework</a><span class="history-date">Aug 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.18.26360694">Comparative evaluation of genotyping and low-pass sequencing for pharmacogenetic variant and phenotype inference</a><span class="history-date">Aug 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.01.714123">Task-dependent Performance of Single-cell Foundation Models under Low Supervision</a><span class="history-date">Aug 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.12.743536">A Generative Virtual Tissue Model Enables Computational Design of Therapeutic Perturbation Strategies</a><span class="history-date">Aug 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.13.744699">Chromosomal instability shapes spatial and temporal phenotypic diversity in a malignant peripheral nerve sheath tumour</a><span class="history-date">Aug 19, 2026</span></li>
@@ -594,37 +608,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Suppression, delayed containment, or no intervention: optimal strategies for pandemic control</a></li>
-  <li><a href="#virology-article-2">Using LIBRA-seq to map the BK-polyomavirus specific B-cell response in kidney transplant recipients</a></li>
-  <li><a href="#virology-article-3">Bacterial co-infection and antimicrobial use in hospital-attended patients with laboratory-confirmed influenza infection: a systematic review and meta-analysis.</a></li>
+  <li><a href="#virology-article-1">The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle</a></li>
+  <li><a href="#virology-article-2">Feline calicivirus encoding NanoLuc luciferase as a tool for assessing antibody neutralisation and antivirals</a></li>
+  <li><a href="#virology-article-3">Amplified transmission in host communities following disease-induced declines</a></li>
+  <li><a href="#virology-article-4">Influenza A virus initiates genome selection through promoter-dependent nuclear export</a></li>
+  <li><a href="#virology-article-5">Inference of nodavirus zoonotic transmission networks from publicly available sequencing data</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.1101/2024.12.04.24318460v2">Suppression, delayed containment, or no intervention: optimal strategies for pandemic control</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2024.12.04.24318460">10.1101/2024.12.04.24318460</a> · Score: <code>████░░░░░░</code> 0.372</p>
-<p><span class="label">Core Problem:</span> Future pandemics will require policymakers to balance reductions in infections and mortality against the societal costs of interventions</p>
-<p><span class="label">Proposed Solution:</span> Using an integrated epidemiological-economic framework combining an age-structured SEIR model with endogenous behavioral responses, healthcare capacity constraints, Test-Trace-Isolate-Quarantine (TTIQ), and a unified measure of societal costs, we find that optimal intervention strategies cluster into three distinct regimes: Suppression, No/negligible intervention, or Delayed containment, where initial spread is followed by a short period of stringent interventions and subsequent control through TTIQ. By contrast, prolonged mitigation (Flatten-the-curve) strategies are optimal only in a narrow set of scenarios</p>
-<p><span class="label">Key Impact:</span> The framework provides a general approach for evaluating pandemic preparedness and intervention strategies</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.18.745536v1">The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.745536">10.64898/2026.08.18.745536</a> · Score: <code>█████░░░░░</code> 0.528</p>
+<p><span class="label">Core Problem:</span> The human papillomavirus (HPV) capsid contains 360 molecules of the L1 protein, which assembles into pentamers that form the capsid shell, and up to 72 molecules of the L2 protein</p>
+<p><span class="label">Proposed Solution:</span> The C-terminus of the L2 protein must emerge from the capsid, insert into the endosome membrane, and protrude into the cytoplasm to bind to cellular proteins that mediate trafficking of the virus to the nucleus during virus entry. Computational analysis predicts that much of L2 is disordered, but the stoichiometry, structure and location of L2 in the capsid remain elusive</p>
+<p><span class="label">Key Impact:</span> These findings provide a structural basis for understanding how L2 is organized in the capsid poised to initiate its action during virus entry</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.02.03.26345220v2">Using LIBRA-seq to map the BK-polyomavirus specific B-cell response in kidney transplant recipients</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.02.03.26345220">10.64898/2026.02.03.26345220</a> · Score: <code>███░░░░░░░</code> 0.317</p>
-<p><span class="label">Core Problem:</span> BK polyomavirus (BKPyV) is a major complication in kidney transplant recipients (KTR), for whom no specific antiviral therapy is available</p>
-<p><span class="label">Proposed Solution:</span> Modulation of immunosuppressive therapy results in virus clearance in most KTR with BKPyV DNAemia (controllers), but a significant minority fail to clear the virus (non-controllers). Here, we adapt LIBRA-seq, which links antibody sequence data to antigen specificity, to intact viral capsids of the four BKPyV genotypes to study and compare BKPyV-specific B-cell repertoires in controllers (n=8) versus non-controllers (n=3)</p>
-<p><span class="label">Key Impact:</span> This work shows that LIBRA-seq can be successfully applied to intact virus capsids and provides a framework for analyzing antiviral B-cell repertoires and antibody specificity in clinically relevant settings</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.20.745972v1">Feline calicivirus encoding NanoLuc luciferase as a tool for assessing antibody neutralisation and antivirals</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.745972">10.64898/2026.08.20.745972</a> · Score: <code>█████░░░░░</code> 0.459</p>
+<p><span class="label">Core Problem:</span> Feline calicivirus (FCV) is among the most common viruses to infect cats worldwide, with prevalence estimated to range from 10-90% depending on the population sampled</p>
+<p><span class="label">Proposed Solution:</span> Typical FCV infection presents with oral ulcerations, fever and in some cases can also lead to clinical signs such as pneumonia or &quot;limping syndrome&quot;. However, some FCV strains have been isolated from cats exhibiting virulent systemic (VS) disease, which is associated with high morbidity and mortality</p>
+<p><span class="label">Key Impact:</span> These findings highlight the potential of this reporter virus as a powerful molecular tool to accelerate the discovery and development of novel therapeutics</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.04.29.26352034v2">Bacterial co-infection and antimicrobial use in hospital-attended patients with laboratory-confirmed influenza infection: a systematic review and meta-analysis.</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.04.29.26352034">10.64898/2026.04.29.26352034</a> · Score: <code>███░░░░░░░</code> 0.307</p>
-<p><span class="label">Core Problem:</span> Background Bacterial co-infection contributes substantially to influenza-associated morbidity and mortality</p>
-<p><span class="label">Proposed Solution:</span> Patterns of viral circulation, diagnostic testing and antimicrobial use changed markedly during the COVID-19 pandemic, yet contemporary estimates of bacterial co-infection and antimicrobial use in influenza have not been synthesised. Objectives To estimate the pooled prevalence of microbiologically confirmed bacterial co-infection among hospital-attended patients with laboratory-confirmed influenza</p>
-<p><span class="label">Key Impact:</span> These findings support strengthened diagnostic capacity and antimicrobial stewardship to optimise management of suspected influenza-associated bacterial co-infection</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.18.744677v1">Amplified transmission in host communities following disease-induced declines</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.744677">10.64898/2026.08.18.744677</a> · Score: <code>████░░░░░░</code> 0.423</p>
+<p><span class="label">Core Problem:</span> Pathogen transmission is a fundamental component of infectious disease systems, governing the speed and extent of pathogen outbreaks</p>
+<p><span class="label">Proposed Solution:</span> Predicting transmission within and among species is therefore critical for outbreak preparedness and the effective implementation of control strategies. Epidemics themselves can alter host populations in ways that fundamentally reshape transmission, but the long-term consequences remain poorly understood</p>
+<p><span class="label">Key Impact:</span> Together, these findings demonstrate that pathogen emergence can fundamentally alter host contact patterns and transmission dynamics, emphasizing the importance of considering behavioral and ecological changes imposed by epidemics when predicting pathogen spread in naive host populations</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.14.744863v1">Influenza A virus initiates genome selection through promoter-dependent nuclear export</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.744863">10.64898/2026.08.14.744863</a> · Score: <code>████░░░░░░</code> 0.405</p>
+<p><span class="label">Core Problem:</span> Influenza A virus replicates its segmented RNA genome in the nucleus in the context of viral ribonucleoprotein (vRNP) complexes</p>
+<p><span class="label">Proposed Solution:</span> Newly synthesised vRNPs are exported to the cytoplasm for virion assembly, whereas structurally similar complementary RNPs (cRNPs), which function as replication intermediates, are not incorporated into virions. The molecular basis for this selectivity remains unclear</p>
+<p><span class="label">Key Impact:</span> These results demonstrate that influenza virus initiates genome selection in the nucleus and reveal nuclear export as an early step in genome selection</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.09.743288v2">Inference of nodavirus zoonotic transmission networks from publicly available sequencing data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.09.743288">10.64898/2026.08.09.743288</a> · Score: <code>████░░░░░░</code> 0.398</p>
+<p><span class="label">Core Problem:</span> The potential for nodavirus zoonosis has been known for many decades</p>
+<p><span class="label">Proposed Solution:</span> However, diseases associated with nodavirus infection in mammals has only been documented recently. Natural infection with nodaviruses have been observed in human handlers of aquatic animal tissues (covert mortality nodavirus), and in pigs (porcine nodavirus)</p>
+<p><span class="label">Key Impact:</span> Here, we infer the potential networks of transmission of these nodaviruses and explore their genetic diversity by mining publicly available datasets</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -632,6 +666,9 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2024.12.04.24318460">Suppression, delayed containment, or no intervention: optimal strategies for pandemic control</a><span class="history-date">Aug 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.02.03.26345220">Using LIBRA-seq to map the BK-polyomavirus specific B-cell response in kidney transplant recipients</a><span class="history-date">Aug 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.29.26352034">Bacterial co-infection and antimicrobial use in hospital-attended patients with laboratory-confirmed influenza infection: a systematic review and meta-analysis.</a><span class="history-date">Aug 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.14.744792">Cross-Kingdom Multi-Omics Harmonization Uncovers Coordinated Host Defense and Vector Small RNA Regulatory Networks in Begomovirus Transmission</a><span class="history-date">Aug 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.14.744795">Complete mitochondrial genomes of Arizona West Nile virus vectors, Culex quinquefasciatus and Culex tarsalis</a><span class="history-date">Aug 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.15.26360502">Distinct bacterial hosts, shared blaOXA-48 plasmid backbones: longitudinal comparative genomics of carbapenemase-producing Enterobacterales from hospital wastewater, biofilms and patients</a><span class="history-date">Aug 19, 2026</span></li>
@@ -645,7 +682,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-08-20T09:04:42 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-08-21T09:03:46 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
