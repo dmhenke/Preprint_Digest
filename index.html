@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>August 21, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>August 22, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,57 +124,57 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Signature Recontextualization: Mapping perturbational signatures across biological contexts</a></li>
-  <li><a href="#core-article-2">Single-cell foundation models benefit from cross-modal training: adding proteomics data beats parameter scaling</a></li>
-  <li><a href="#core-article-3">Single-Molecule Proteomics via a Dynamic Translocase and Physics-Informed Machine Learning</a></li>
-  <li><a href="#core-article-4">BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models</a></li>
-  <li><a href="#core-article-5">Divergent malignant evolution converges on shared immunosuppressive ecosystems through tumor-intrinsic TMED2-ADAR1-dependent complement signalling in multifocal hepatocellular carcinoma</a></li>
+  <li><a href="#core-article-1">Scarless conditional sgRNAs via endogenous mascRNA processing enable rapid and temporally controlled genome editing</a></li>
+  <li><a href="#core-article-2">FlashBind: Towards Accurate and Efficient Structure-based Virtual Screening</a></li>
+  <li><a href="#core-article-3">Makeshift: a lightweight software for accessing and analyzing NMR data and protein dynamics</a></li>
+  <li><a href="#core-article-4">A Semantic + Neuronal Approach to Predict Pathogenic Variants in DNA Sequences</a></li>
+  <li><a href="#core-article-5">FusedFCR: A Fused Forward Continuation-Ratio model for marker selection along cell-fate trajectories</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.14.744937v1">Signature Recontextualization: Mapping perturbational signatures across biological contexts</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.744937">10.64898/2026.08.14.744937</a> · Score: <code>█████░░░░░</code> 0.521</p>
-<p><span class="label">Core Problem:</span> Perturbational transcriptomics is a powerful tool for understanding gene function and drug effects, yet predicting how perturbations manifest across different biological contexts remains a central challenge, limiting translation from model systems to clinically relevant tissues</p>
-<p><span class="label">Proposed Solution:</span> Despite growing interest in this problem, benchmarking efforts have been hindered by inconsistent evaluation tasks, heterogeneous metrics, and limited assessment across perturbation types and biological systems. Here, we introduce a benchmarking framework for cross-context perturbation-signature prediction (a task we define as signature recontextualization), grounded in explicit definitions of the prediction task, target-data availability, and evaluation metrics centered on signature recovery</p>
-<p><span class="label">Key Impact:</span> All datasets, methods, and evaluation utilities are released as an open-source R package (sigRecon), providing a foundation for reproducible benchmarking and future method development</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.20.745814v1">Scarless conditional sgRNAs via endogenous mascRNA processing enable rapid and temporally controlled genome editing</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.745814">10.64898/2026.08.20.745814</a> · Score: <code>█████░░░░░</code> 0.490</p>
+<p><span class="label">Core Problem:</span> Precise temporal control of gene editing is essential for studying dynamic biological processes, interrogating essential gene function, and improving the interpretability of pooled perturbation screens</p>
+<p><span class="label">Proposed Solution:</span> Cre-dependent single guide RNA (sgRNA) switches provide temporal regulation by coupling guide activation to site-specific recombination, but existing designs retain a loxP-derived 5&#x27; sequence (scar) on the mature sgRNA that can impair guide function. We developed a scarless conditional sgRNA platform that combines Cre-loxP recombination with endogenous RNA processing to restore the native sgRNA architecture following induction</p>
+<p><span class="label">Key Impact:</span> This modular strategy provides a simple approach for conditional CRISPR genome editing that preserves guide integrity and should be readily adaptable to time-resolved functional genomics and pooled screening applications</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.14.744845v1">Single-cell foundation models benefit from cross-modal training: adding proteomics data beats parameter scaling</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.744845">10.64898/2026.08.14.744845</a> · Score: <code>█████░░░░░</code> 0.513</p>
-<p><span class="label">Core Problem:</span> Leading cellular foundation models have been trained on hundreds of millions of single-cell transcriptomes, with progress increasingly driven by larger datasets and model scaling</p>
-<p><span class="label">Proposed Solution:</span> Here, we asked whether adding a proteomics modality can improve gene-level and cell-level representations beyond scaling RNA-only models. We introduce cross-modal continued pretraining, fine-tuning a published single-cell model (Tahoe-x1) on a large corpus of proteomic profiles</p>
-<p><span class="label">Key Impact:</span> These results demonstrate that careful targeted curation of proteomics data can provide larger benefits than increasing the model size alone and suggest that multimodal pretraining is a promising path toward more informative biological foundation models</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2025.12.22.695983v3">FlashBind: Towards Accurate and Efficient Structure-based Virtual Screening</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.22.695983">10.64898/2025.12.22.695983</a> · Score: <code>█████░░░░░</code> 0.475</p>
+<p><span class="label">Core Problem:</span> Accurate prediction of protein-ligand interactions is central to computational drug discovery</p>
+<p><span class="label">Proposed Solution:</span> Recent foundation models such as Boltz-2 have achieved remarkable accuracy in binding affinity prediction, yet their prohibitive computational cost remains a major barrier to large-scale virtual screening. Here we introduce FlashBind, a lightweight structure-based model that achieves a 50x speedup over Boltz-2 at inference time by replacing expensive structure prediction with a fast docking model and substituting costly PairFormer modules with a streamlined EGNN architecture</p>
+<p><span class="label">Key Impact:</span> Together, these results demonstrate that FlashBind bridges the gap between accuracy and efficiency, enabling ultra-fast and accurate screening of massive chemical libraries for drug discovery</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.17.745284v1">Single-Molecule Proteomics via a Dynamic Translocase and Physics-Informed Machine Learning</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.17.745284">10.64898/2026.08.17.745284</a> · Score: <code>█████░░░░░</code> 0.489</p>
-<p><span class="label">Core Problem:</span> Single-molecule protein sequencing promises to democratize clinical proteomics, but platforms retrofitting static DNA-sequencing nanopores face a fundamental biophysical bottleneck: they only measure one-dimensional excluded volume</p>
-<p><span class="label">Proposed Solution:</span> Consequently, these static calipers struggle to resolve isobaric residues, requiring complex DNA-handle chemistries and target concentrations that exceed clinically relevant abundance ranges. Here, we introduce a dynamical, target-docking translocase engine--the anthrax toxin protective antigen (PA)--as a label-free single-molecule peptide sensor</p>
-<p><span class="label">Key Impact:</span> Transitioning from static volumetric measurement to time-domain thermodynamic fingerprinting establishes the requisite protein nanopore hardware for de novo proteomics</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.17.745346v1">Makeshift: a lightweight software for accessing and analyzing NMR data and protein dynamics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.17.745346">10.64898/2026.08.17.745346</a> · Score: <code>█████░░░░░</code> 0.469</p>
+<p><span class="label">Core Problem:</span> Nuclear magnetic resonance (NMR) spectroscopy yields rich residue-level information on biomolecular dynamics and chemical environments, two frontiers for quantitative predictive methods in biochemistry</p>
+<p><span class="label">Proposed Solution:</span> Decades of data are publicly archived in the Biological Magnetic Resonance Data Bank (BMRB)1, yet in practice, this information remains difficult to access and interpret at scale and within computational workflows. Here we present makeshift, an open-source Python package for accessing, curating, and analyzing NMR datasets</p>
+<p><span class="label">Key Impact:</span> By integrating data access, processing, and analysis into a single Python interface, makeshift lowers the barrier for reproducible, scalable analysis and machine learning applications using biomolecular NMR data</p>
 <p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.15.745056v1">BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.15.745056">10.64898/2026.08.15.745056</a> · Score: <code>█████░░░░░</code> 0.484</p>
-<p><span class="label">Core Problem:</span> Gene regulatory network (GRN) inference from single-cell RNA-seq conventionally relies on per-dataset optimization</p>
-<p><span class="label">Proposed Solution:</span> Existing tools must be refit for every new dataset, and the majority fail to infer causal regulatory directions. Here we present BoYueGRN, an amortized causal discovery framework trained exclusively on 10,000 synthetic structural causal models</p>
-<p><span class="label">Key Impact:</span> By decoupling network reconstruction from per-dataset optimization, this paradigm opens the door to systematic, atlas-scale mapping of regulatory dynamics across human diseases</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.16.745093v1">A Semantic + Neuronal Approach to Predict Pathogenic Variants in DNA Sequences</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.16.745093">10.64898/2026.08.16.745093</a> · Score: <code>█████░░░░░</code> 0.463</p>
+<p><span class="label">Core Problem:</span> In this work, we present a machine learning model for identifying pathogenic DNA variants</p>
+<p><span class="label">Proposed Solution:</span> The model was learned from the analysis of normal and pathogenic sequences extracted from the ClinVar database (supported by NCBI). This analysis was based on a conceptual semantic model of DNA sequences converted to peptide sequences (amino acid sequences) governed by a well-defined grammar, which allowed us to apply NLP techniques, specifically Part of Speech tagging (POS tagging)</p>
+<p><span class="label">Key Impact:</span> The results show exceptional performance that exceeds expectations and places this new method at the state of the art for predicting pathogenic DNA sequences</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719788v2">Divergent malignant evolution converges on shared immunosuppressive ecosystems through tumor-intrinsic TMED2-ADAR1-dependent complement signalling in multifocal hepatocellular carcinoma</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.21.719788">10.64898/2026.04.21.719788</a> · Score: <code>█████░░░░░</code> 0.470</p>
-<p><span class="label">Core Problem:</span> Background Multifocal hepatocellular carcinoma (HCC) comprises spatially separated tumor foci with distinct evolutionary trajectories, posing a major therapeutic challenge</p>
-<p><span class="label">Proposed Solution:</span> Whether divergent lesions retain shared immune-evasion mechanisms beyond lesion-specific heterogeneity and offer cross-focal therapeutic opportunities remains unknown. Objective To resolve malignant and microenvironmental heterogeneity across tumor foci and identify conserved immunosuppressive programs underlying multifocal HCC progression</p>
-<p><span class="label">Key Impact:</span> The TMED2-ADAR1-C3/C5 complement axis represents a conserved tumor-immune vulnerability that may enable therapeutic strategies targeting common immune-evasion mechanisms across heterogeneous tumor foci</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.07.20.739649v2">FusedFCR: A Fused Forward Continuation-Ratio model for marker selection along cell-fate trajectories</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.20.739649">10.64898/2026.07.20.739649</a> · Score: <code>█████░░░░░</code> 0.459</p>
+<p><span class="label">Core Problem:</span> Time-course single-cell RNA sequencing (scRNA-seq) data collected across ordered stages provide population-level snapshots of differentiation, disease progression, and aging</p>
+<p><span class="label">Proposed Solution:</span> Supervised pseudotime methods use observed stage labels to reconstruct continuous progression but generally do not identify marker genes associated with changes from one stage to the next. Unsupervised pseudotime-based marker selection methods infer latent trajectories directly from expression data and identify trajectory-associated genes, but do not explicitly link these associations to the observed stages</p>
+<p><span class="label">Key Impact:</span> An accompanying R package is available on GitHub</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
@@ -182,6 +182,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.04.21.719788">Divergent malignant evolution converges on shared immunosuppressive ecosystems through tumor-intrinsic TMED2-ADAR1-dependent complement signalling in multifocal hepatocellular carcinoma</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.14.744845">Single-cell foundation models benefit from cross-modal training: adding proteomics data beats parameter scaling</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.14.744937">Signature Recontextualization: Mapping perturbational signatures across biological contexts</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.15.745056">BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.17.745284">Single-Molecule Proteomics via a Dynamic Translocase and Physics-Informed Machine Learning</a><span class="history-date">Aug 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.17.26360486">In-silico functional prediction of novel tuberculosis pharmacogenetic variants and NAT2 phenotype prediction in African populations</a><span class="history-date">Aug 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.17.26360494">Genome-wide analyses reveal shared and distinct genetic architecture linking amyotrophic lateral sclerosis, sporadic frontotemporal dementia and cognitive traits</a><span class="history-date">Aug 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.17.26360643">Explainable Clinician-Supervised Artificial Intelligence as an Implementation Framework for Cardiovascular-Kidney-Metabolic Population Health: Synthetic Data Validation of the CHAPERONE-CKM Framework</a><span class="history-date">Aug 20, 2026</span></li>
@@ -608,57 +613,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle</a></li>
-  <li><a href="#virology-article-2">Feline calicivirus encoding NanoLuc luciferase as a tool for assessing antibody neutralisation and antivirals</a></li>
-  <li><a href="#virology-article-3">Amplified transmission in host communities following disease-induced declines</a></li>
-  <li><a href="#virology-article-4">Influenza A virus initiates genome selection through promoter-dependent nuclear export</a></li>
-  <li><a href="#virology-article-5">Inference of nodavirus zoonotic transmission networks from publicly available sequencing data</a></li>
+  <li><a href="#virology-article-1">Metagenomic Sequencing for Wastewater-Based Surveillance: Modeling and Experimental Approaches for Determining Limit of Detection</a></li>
+  <li><a href="#virology-article-2">Evaluating non-invasive respiratory samples for bacterial and viral pathogen detection by Nanopore metagenomics in community-acquired pneumonia</a></li>
+  <li><a href="#virology-article-3">Field-isolate recombinant tick-borne encephalitis viruses define reporter-stability guidelines for antiviral testing in flaviviruses</a></li>
+  <li><a href="#virology-article-4">Genome-Scale Codon Deoptimization Enables Attenuation of Rift Valley Fever Virus</a></li>
+  <li><a href="#virology-article-5">Extensive global HIV-1 sequence diversity perturbs conserved features of the envelope glycan shield</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.18.745536v1">The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.745536">10.64898/2026.08.18.745536</a> · Score: <code>█████░░░░░</code> 0.528</p>
-<p><span class="label">Core Problem:</span> The human papillomavirus (HPV) capsid contains 360 molecules of the L1 protein, which assembles into pentamers that form the capsid shell, and up to 72 molecules of the L2 protein</p>
-<p><span class="label">Proposed Solution:</span> The C-terminus of the L2 protein must emerge from the capsid, insert into the endosome membrane, and protrude into the cytoplasm to bind to cellular proteins that mediate trafficking of the virus to the nucleus during virus entry. Computational analysis predicts that much of L2 is disordered, but the stoichiometry, structure and location of L2 in the capsid remain elusive</p>
-<p><span class="label">Key Impact:</span> These findings provide a structural basis for understanding how L2 is organized in the capsid poised to initiate its action during virus entry</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.08.18.26360688v1">Metagenomic Sequencing for Wastewater-Based Surveillance: Modeling and Experimental Approaches for Determining Limit of Detection</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.26360688">10.64898/2026.08.18.26360688</a> · Score: <code>████░░░░░░</code> 0.442</p>
+<p><span class="label">Core Problem:</span> Since the COVID-19 pandemic, wastewater-based surveillance (WBS) has emerged as a key approach to assess community-level health and the evolution of pathogens</p>
+<p><span class="label">Proposed Solution:</span> To date, most established WBS systems focus on polymerase chain reaction (PCR) based detection and targeted sequencing of known pathogens because these approaches are well-accepted and include amplification of pathogen target sequences of interest thereby enabling lower limits of detection. Metagenomic next-generation sequencing (mNGS) is a promising approach to enable pathogen detection and surveillance beyond predefined pathogen lists, but its regular application to WBS has not been yet widely adopted because many key performance characteristics are not well-understood, including limit of detection (LOD) and false positive/negative rates</p>
+<p><span class="label">Key Impact:</span> In addition, findings indicate that site-specific method characterization should be used when implementing mNGS for WBS because sites can have different WW system configurations, background organisms and sequencing inhibitors</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.20.745972v1">Feline calicivirus encoding NanoLuc luciferase as a tool for assessing antibody neutralisation and antivirals</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.745972">10.64898/2026.08.20.745972</a> · Score: <code>█████░░░░░</code> 0.459</p>
-<p><span class="label">Core Problem:</span> Feline calicivirus (FCV) is among the most common viruses to infect cats worldwide, with prevalence estimated to range from 10-90% depending on the population sampled</p>
-<p><span class="label">Proposed Solution:</span> Typical FCV infection presents with oral ulcerations, fever and in some cases can also lead to clinical signs such as pneumonia or &quot;limping syndrome&quot;. However, some FCV strains have been isolated from cats exhibiting virulent systemic (VS) disease, which is associated with high morbidity and mortality</p>
-<p><span class="label">Key Impact:</span> These findings highlight the potential of this reporter virus as a powerful molecular tool to accelerate the discovery and development of novel therapeutics</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.08.18.26360573v1">Evaluating non-invasive respiratory samples for bacterial and viral pathogen detection by Nanopore metagenomics in community-acquired pneumonia</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.26360573">10.64898/2026.08.18.26360573</a> · Score: <code>████░░░░░░</code> 0.441</p>
+<p><span class="label">Core Problem:</span> Objectives: Metagenomic sequencing offers an unbiased alternative to classical microbiological diagnostic techniques, and recent advances in Nanopore sequencing technology have made real-time pathogen detection feasible</p>
+<p><span class="label">Proposed Solution:</span> We evaluated Nanopore metagenomic sequencing in community-acquired pneumonia (CAP) patients for the detection of viral and bacterial pathogens from non-invasive respiratory samples. Methods: We analysed 37 hospitalised CAP patients and 9 controls, collecting 60 samples (46 swabs, 12 sputa, 2 pleural fluids)</p>
+<p><span class="label">Key Impact:</span> Applied particularly to sputum, this approach offers a promising non-invasive option for pathogen detection and characterisation in CAP when invasive sampling is not feasible</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.18.744677v1">Amplified transmission in host communities following disease-induced declines</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.744677">10.64898/2026.08.18.744677</a> · Score: <code>████░░░░░░</code> 0.423</p>
-<p><span class="label">Core Problem:</span> Pathogen transmission is a fundamental component of infectious disease systems, governing the speed and extent of pathogen outbreaks</p>
-<p><span class="label">Proposed Solution:</span> Predicting transmission within and among species is therefore critical for outbreak preparedness and the effective implementation of control strategies. Epidemics themselves can alter host populations in ways that fundamentally reshape transmission, but the long-term consequences remain poorly understood</p>
-<p><span class="label">Key Impact:</span> Together, these findings demonstrate that pathogen emergence can fundamentally alter host contact patterns and transmission dynamics, emphasizing the importance of considering behavioral and ecological changes imposed by epidemics when predicting pathogen spread in naive host populations</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.02.23.707037v2">Field-isolate recombinant tick-borne encephalitis viruses define reporter-stability guidelines for antiviral testing in flaviviruses</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.02.23.707037">10.64898/2026.02.23.707037</a> · Score: <code>████░░░░░░</code> 0.436</p>
+<p><span class="label">Core Problem:</span> As arthropod-borne viruses continue to threaten populations globally, there is a pressing need for experimental systems that enable rapid antiviral discovery</p>
+<p><span class="label">Proposed Solution:</span> Reverse-genetics platforms producing recombinant reporter orthoflaviviruses have been developed to address this gap. Here, we present two new recombinant tick-borne encephalitis viruses (TBEVrec) generated on a European-subtype Haselmuehl Tiho1 isolate backbone</p>
+<p><span class="label">Key Impact:</span> From these observations, we outline safeguards and design principles that are broadly applicable both to the rescue of existing constructs and to the design of future recombinant reporter virus platforms</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.14.744863v1">Influenza A virus initiates genome selection through promoter-dependent nuclear export</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.14.744863">10.64898/2026.08.14.744863</a> · Score: <code>████░░░░░░</code> 0.405</p>
-<p><span class="label">Core Problem:</span> Influenza A virus replicates its segmented RNA genome in the nucleus in the context of viral ribonucleoprotein (vRNP) complexes</p>
-<p><span class="label">Proposed Solution:</span> Newly synthesised vRNPs are exported to the cytoplasm for virion assembly, whereas structurally similar complementary RNPs (cRNPs), which function as replication intermediates, are not incorporated into virions. The molecular basis for this selectivity remains unclear</p>
-<p><span class="label">Key Impact:</span> These results demonstrate that influenza virus initiates genome selection in the nucleus and reveal nuclear export as an early step in genome selection</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.13.744589v1">Genome-Scale Codon Deoptimization Enables Attenuation of Rift Valley Fever Virus</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.13.744589">10.64898/2026.08.13.744589</a> · Score: <code>████░░░░░░</code> 0.426</p>
+<p><span class="label">Core Problem:</span> Rift Valley Fever Virus (RVFV) is a mosquito-borne zoonotic pathogen responsible for severe disease in domestic and wild ungulates as well as humans, representing a major threat to livestock production and human public health</p>
+<p><span class="label">Proposed Solution:</span> RVFV is endemic in many African countries and has the potential to spread to new geographical regions. Current vaccines have limitations in safety and efficacy, highlighting the need for strategies to develop new vaccines candidates</p>
+<p><span class="label">Key Impact:</span> This study provides proof of concept for the use of CD as a rational strategy to generate attenuated RVFV, for the development of next-generation vaccines against this zoonotic threat</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.09.743288v2">Inference of nodavirus zoonotic transmission networks from publicly available sequencing data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.09.743288">10.64898/2026.08.09.743288</a> · Score: <code>████░░░░░░</code> 0.398</p>
-<p><span class="label">Core Problem:</span> The potential for nodavirus zoonosis has been known for many decades</p>
-<p><span class="label">Proposed Solution:</span> However, diseases associated with nodavirus infection in mammals has only been documented recently. Natural infection with nodaviruses have been observed in human handlers of aquatic animal tissues (covert mortality nodavirus), and in pigs (porcine nodavirus)</p>
-<p><span class="label">Key Impact:</span> Here, we infer the potential networks of transmission of these nodaviruses and explore their genetic diversity by mining publicly available datasets</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.20.745985v1">Extensive global HIV-1 sequence diversity perturbs conserved features of the envelope glycan shield</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.745985">10.64898/2026.08.20.745985</a> · Score: <code>████░░░░░░</code> 0.411</p>
+<p><span class="label">Core Problem:</span> The extensive sequence diversity and glycosylation of the HIV-1 envelope glycoprotein pose a challenge for vaccine design efforts aimed at eliciting glycan-binding broadly neutralizing antibodies (bnAbs)</p>
+<p><span class="label">Proposed Solution:</span> Understanding how HIV-1 glycosylation varies across diverse strains is therefore of considerable interest. Here, we employed mass spectrometry to map the site-specific glycan composition of pseudoviruses from an established 12-virus panel representing global sequence diversity</p>
+<p><span class="label">Key Impact:</span> These findings demonstrate that the 12-virus panel reveals both conserved glycan-dependent epitopes and strains with exceptional glycosylation features that may impact the generality of vaccine design efforts targeting particular epitopes</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -666,6 +671,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.09.743288">Inference of nodavirus zoonotic transmission networks from publicly available sequencing data</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.14.744863">Influenza A virus initiates genome selection through promoter-dependent nuclear export</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.18.744677">Amplified transmission in host communities following disease-induced declines</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.18.745536">The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle</a><span class="history-date">Aug 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.20.745972">Feline calicivirus encoding NanoLuc luciferase as a tool for assessing antibody neutralisation and antivirals</a><span class="history-date">Aug 21, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.12.04.24318460">Suppression, delayed containment, or no intervention: optimal strategies for pandemic control</a><span class="history-date">Aug 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.02.03.26345220">Using LIBRA-seq to map the BK-polyomavirus specific B-cell response in kidney transplant recipients</a><span class="history-date">Aug 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.29.26352034">Bacterial co-infection and antimicrobial use in hospital-attended patients with laboratory-confirmed influenza infection: a systematic review and meta-analysis.</a><span class="history-date">Aug 20, 2026</span></li>
@@ -682,7 +692,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-08-21T09:03:46 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-08-22T09:04:58 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
