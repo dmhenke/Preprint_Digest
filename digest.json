@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-22T09:04:58.817123+00:00",
+  "generated_utc": "2026-08-23T09:02:24.275814+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Scarless conditional sgRNAs via endogenous mascRNA processing enable rapid and temporally controlled genome editing",
-          "doi": "10.64898/2026.08.20.745814",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.745814v1",
+          "title": "On the robustness of scRNA-seq foundation models for plant perturbation response prediction under cross-experiment shift",
+          "doi": "10.64898/2026.08.21.746324",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746324v1",
           "source": "biorxiv",
-          "score": 0.4901
+          "score": 0.5057
         },
         {
           "rank": 2,
-          "title": "FlashBind: Towards Accurate and Efficient Structure-based Virtual Screening",
-          "doi": "10.64898/2025.12.22.695983",
-          "url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695983v3",
+          "title": "De novo Design of Macrocyclic Molecular Glues",
+          "doi": "10.64898/2026.08.21.746227",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746227v1",
           "source": "biorxiv",
-          "score": 0.4755
+          "score": 0.479
         },
         {
           "rank": 3,
-          "title": "Makeshift: a lightweight software for accessing and analyzing NMR data and protein dynamics",
-          "doi": "10.64898/2026.08.17.745346",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745346v1",
+          "title": "A novel benchmark dataset for enzyme function prediction reveals the limitations of state-of-the-art models",
+          "doi": "10.64898/2026.08.21.746242",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746242v1",
           "source": "biorxiv",
-          "score": 0.4689
+          "score": 0.4653
         },
         {
           "rank": 4,
-          "title": "A Semantic + Neuronal Approach to Predict Pathogenic Variants in DNA Sequences",
-          "doi": "10.64898/2026.08.16.745093",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.16.745093v1",
+          "title": "Transferable Collective Variable to accelerate Protein-Ligand (Un)Binding Transitions via Explainable Machine Learning and Intriguing Role of Ligand Solvation",
+          "doi": "10.64898/2026.08.21.746233",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746233v1",
           "source": "biorxiv",
-          "score": 0.4626
+          "score": 0.4557
         },
         {
           "rank": 5,
-          "title": "FusedFCR: A Fused Forward Continuation-Ratio model for marker selection along cell-fate trajectories",
-          "doi": "10.64898/2026.07.20.739649",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739649v2",
+          "title": "Tunneling nanotubes propagate preneoplastic cues in a BMP-dependent manner.",
+          "doi": "10.1101/2025.11.11.687852",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687852v7",
           "source": "biorxiv",
-          "score": 0.4589
+          "score": 0.439
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Metagenomic Sequencing for Wastewater-Based Surveillance: Modeling and Experimental Approaches for Determining Limit of Detection",
-          "doi": "10.64898/2026.08.18.26360688",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.18.26360688v1",
+          "title": "Capsule-independent bacteriophages reveal unexpected diversity of Salmonella Typhi phage ecology",
+          "doi": "10.64898/2026.08.19.26360815",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360815v1",
           "source": "medrxiv",
-          "score": 0.4422
+          "score": 0.5077
         },
         {
           "rank": 2,
-          "title": "Evaluating non-invasive respiratory samples for bacterial and viral pathogen detection by Nanopore metagenomics in community-acquired pneumonia",
-          "doi": "10.64898/2026.08.18.26360573",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.18.26360573v1",
+          "title": "Rethinking respiratory disease forecasting: temporal heterogeneity between surveillance predictors and outcomes drives forecast instability",
+          "doi": "10.64898/2026.08.19.26360833",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360833v1",
           "source": "medrxiv",
-          "score": 0.4415
+          "score": 0.395
         },
         {
           "rank": 3,
-          "title": "Field-isolate recombinant tick-borne encephalitis viruses define reporter-stability guidelines for antiviral testing in flaviviruses",
-          "doi": "10.64898/2026.02.23.707037",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707037v2",
+          "title": "Autotransporter folding avoids a kinetic trap during vectorial translocation across the bacterial outer membrane",
+          "doi": "10.64898/2026.08.22.746429",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746429v1",
           "source": "biorxiv",
-          "score": 0.4355
+          "score": 0.3779
         },
         {
           "rank": 4,
-          "title": "Genome-Scale Codon Deoptimization Enables Attenuation of Rift Valley Fever Virus",
-          "doi": "10.64898/2026.08.13.744589",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744589v1",
+          "title": "Evolution of pathogen dormancy in fluctuating environments",
+          "doi": "10.64898/2026.08.22.746398",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746398v1",
           "source": "biorxiv",
-          "score": 0.4258
+          "score": 0.3609
         },
         {
           "rank": 5,
-          "title": "Extensive global HIV-1 sequence diversity perturbs conserved features of the envelope glycan shield",
-          "doi": "10.64898/2026.08.20.745985",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.745985v1",
-          "source": "biorxiv",
-          "score": 0.4107
+          "title": "Sub-national heterogeneity in the time-varying reproduction number during the 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo: a hierarchical Bayesian analysis",
+          "doi": "10.64898/2026.08.19.26360792",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360792v1",
+          "source": "medrxiv",
+          "score": 0.3534
         }
       ]
     }
