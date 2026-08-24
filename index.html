@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>August 23, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>August 24, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,57 +124,57 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">On the robustness of scRNA-seq foundation models for plant perturbation response prediction under cross-experiment shift</a></li>
-  <li><a href="#core-article-2">De novo Design of Macrocyclic Molecular Glues</a></li>
-  <li><a href="#core-article-3">A novel benchmark dataset for enzyme function prediction reveals the limitations of state-of-the-art models</a></li>
-  <li><a href="#core-article-4">Transferable Collective Variable to accelerate Protein-Ligand (Un)Binding Transitions via Explainable Machine Learning and Intriguing Role of Ligand Solvation</a></li>
-  <li><a href="#core-article-5">Tunneling nanotubes propagate preneoplastic cues in a BMP-dependent manner.</a></li>
+  <li><a href="#core-article-1">Classifying CRISPR-Cas9 Off-Target Cleavage Sites from GUIDE-seq Data: A Class-Imbalanced Machine Learning Benchmark</a></li>
+  <li><a href="#core-article-2">Progressive Loosening of a Dual Autoinhibitory Interface Activates PP2A-B56δ</a></li>
+  <li><a href="#core-article-3">Time-resolved operator archetypes characterize dynamical sensitivity during cell-state transitions</a></li>
+  <li><a href="#core-article-4">Conditional polygenic enrichment distinguishes causal from tagging disease-critical cell populations in single-cell RNA-seq</a></li>
+  <li><a href="#core-article-5">Implicit Hierarchical Tensor Decomposition of Single-Cell Four-Omics Data Reveals Cell-Type-Associated Enhancer--Promoter Regulatory Programs</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.21.746324v1">On the robustness of scRNA-seq foundation models for plant perturbation response prediction under cross-experiment shift</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.21.746324">10.64898/2026.08.21.746324</a> · Score: <code>█████░░░░░</code> 0.506</p>
-<p><span class="label">Core Problem:</span> Foundation models for single-cell transcriptomics promise to learn generalizable representations of cellular states</p>
-<p><span class="label">Proposed Solution:</span> However, recent evidence suggests they often fail to outperform simple machine learning baselines. Furthermore, their ability to generalize across unseen experimental conditions remains poorly understood, particularly in plants, where rigorous evaluation beyond cell type annotation and batch integration is lacking</p>
-<p><span class="label">Key Impact:</span> Overall, our results demonstrate that conclusions about foundation models depend critically on the evaluation design, and that preserving per-gene structure aids generalization in downstream tasks, supporting robust predictions across unseen experimental contexts</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.19.745843v1">Classifying CRISPR-Cas9 Off-Target Cleavage Sites from GUIDE-seq Data: A Class-Imbalanced Machine Learning Benchmark</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.19.745843">10.64898/2026.08.19.745843</a> · Score: <code>█████░░░░░</code> 0.543</p>
+<p><span class="label">Core Problem:</span> Off-target cleavage is a central safety concern for CRISPR-Cas9 genome editing, particularly in therapeutic applications where unintended double-strand breaks carry clinical risk</p>
+<p><span class="label">Proposed Solution:</span> We benchmarked five machine learning classifiers: logistic regression on mismatch-count summary features, a random forest and a gradient boosting model on one-hot-encoded sgRNA/candidate-site sequence pairs, a one-dimensional convolutional neural network (CNN) over the positional mismatch map, and a gradient-boosting/CNN ensemble: on a real, published GUIDE-seq off-target dataset (Kleinstiver et al. , 2016, Nature) comprising 95,829 candidate off-target sites for five sgRNAs, of which only 54 (0</p>
+<p><span class="label">Key Impact:</span> We report these findings, including the low absolute precision achievable in this severely imbalanced, small-positive-class setting, as a realistic picture of what off-target classifiers can and cannot yet deliver from sequence alone</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.21.746227v1">De novo Design of Macrocyclic Molecular Glues</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.21.746227">10.64898/2026.08.21.746227</a> · Score: <code>█████░░░░░</code> 0.479</p>
-<p><span class="label">Core Problem:</span> The engineering of induced proximity has transformed drug discovery, yet the development of molecular glues remains largely serendipitous and restricted to the retrospective optimisation of accidental discoveries</p>
-<p><span class="label">Proposed Solution:</span> Here, we present EvoBind-multimer, a deep learning framework for the de novo design of molecular glues directly from protein sequences. Unlike structure-based docking, our method generates small macrocyclic peptides that bridge user-defined protein pairs without requiring prior interface knowledge or existing ligands</p>
-<p><span class="label">Key Impact:</span> By enabling the de novo design of induced proximity from sequence alone, EvoBind-multimer provides a route towards designing new protein functions</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.19.745767v1">Progressive Loosening of a Dual Autoinhibitory Interface Activates PP2A-B56δ</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.19.745767">10.64898/2026.08.19.745767</a> · Score: <code>█████░░░░░</code> 0.517</p>
+<p><span class="label">Core Problem:</span> Protein phosphatase 2A containing the B56{delta} regulatory subunit (PP2A-B56{delta}) is a critical signaling enzyme whose dysregulation is associated with cancer, neurodegenerative disorders, and Jordan&#x27;s syndrome, a severe intellectual disability disorder caused by mutations in B56{delta}</p>
+<p><span class="label">Proposed Solution:</span> Unlike other PP2A holoenzymes, PP2A-B56{delta} is regulated through a unique dual autoinhibition mechanism in which the N- and C-arms occlude the catalytic site while a substrate-mimicking short linear motif (SLiM) blocks the substrate-binding pocket. Although disease-associated mutations have been shown to alter enzyme activity, the molecular mechanism underlying activation of PP2A-B56{delta} and the effects of pathogenic mutations remain poorly understood</p>
+<p><span class="label">Key Impact:</span> Together, these findings establish a previously uncharacterized activation mechanism for PP2A-B56{delta} and provide an atomic-level explanation for how the pathogenic E198K mutation allosterically promotes holoenzyme activation</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.21.746242v1">A novel benchmark dataset for enzyme function prediction reveals the limitations of state-of-the-art models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.21.746242">10.64898/2026.08.21.746242</a> · Score: <code>█████░░░░░</code> 0.465</p>
-<p><span class="label">Core Problem:</span> Accurate computational prediction of enzyme function, standardized by Enzyme Commission (EC) numbers, is essential for large-scale genome annotation and generative enzyme design</p>
-<p><span class="label">Proposed Solution:</span> However, it remains unclear whether state-of-the-art predictors learn the intrinsic structural determinants of catalytic activity or merely rely on global sequence similarity to annotated homologues. To address this gap, we introduce EnzymARC, a novel benchmark dataset of putative non-functional decoy sequences generated via structure-guided, systematic disruption of active sites (targeting catalytic residues and surrounding 5 A, 10 A, and 15 A radii) from experimentally annotated enzymes</p>
-<p><span class="label">Key Impact:</span> We demonstrate that modern EC predictors largely fail to distinguish catalytically incompetent variants from functional enzymes, and we propose that integrating structure-aware negative examples into both training and benchmarking is critical for developing functionally robust models in computational enzymology</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.21.745996v1">Time-resolved operator archetypes characterize dynamical sensitivity during cell-state transitions</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.21.745996">10.64898/2026.08.21.745996</a> · Score: <code>█████░░░░░</code> 0.507</p>
+<p><span class="label">Core Problem:</span> During development, cells traverse gene expression states where their local dynamical sensitivity changes sharply, yet existing computational methods provide limited access to when and where this sensitivity peaks along a trajectory</p>
+<p><span class="label">Proposed Solution:</span> Here we introduce scJDO (single-cell Jacobian Differential Operators), a framework that characterizes how local dynamical sensitivity evolves during cell fate transitions, together with an explicit account of what that representation can and cannot recover from snapshot data. scJDO treats time-indexed Jacobians as explicit analytical objects, projecting the temporal sequence of operators into a shared subspace and decomposing it into recurrent operator archetypes with interpretable temporal activation profiles</p>
+<p><span class="label">Key Impact:</span> Together, scJDO provides an operator-level view of single-cell dynamics and an explicit characterization of its own identifiability boundary</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.21.746233v1">Transferable Collective Variable to accelerate Protein-Ligand (Un)Binding Transitions via Explainable Machine Learning and Intriguing Role of Ligand Solvation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.21.746233">10.64898/2026.08.21.746233</a> · Score: <code>█████░░░░░</code> 0.456</p>
-<p><span class="label">Core Problem:</span> The process of drug unbinding is of immense importance in the field of biophysics and therapeutics</p>
-<p><span class="label">Proposed Solution:</span> The behavior of these systems is greatly influenced by their thermodynamic and kinetic properties. Therefore, it is crucial to accurately estimate the ligand binding free energies and rate of ligand dissociation, yet these processes are often governed by rare event transitions that lie beyond the reach of standard brute-force molecular dynamics simulations</p>
-<p><span class="label">Key Impact:</span> Moreover, we show that the optimized CV constructed from TS region via an interpretable ML model is transferable across diverse systems, offering a robust and scalable framework for drug discovery and investigation of complex biomolecular recognition</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.08.20.26360914v1">Conditional polygenic enrichment distinguishes causal from tagging disease-critical cell populations in single-cell RNA-seq</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.26360914">10.64898/2026.08.20.26360914</a> · Score: <code>█████░░░░░</code> 0.481</p>
+<p><span class="label">Core Problem:</span> Integrating single-cell RNA-sequencing (scRNA-seq) with genome-wide association studies (GWAS) has shown promise in identifying critical cell types, states, and individual cells underlying heritable diseases</p>
+<p><span class="label">Proposed Solution:</span> However, existing methods struggle to distinguish cell populations with correlated expression profiles but distinct functions, such as different T cell states or neuronal populations across brain regions, leading to disease associations in non-causal tagging cells (analogous to tagging associations in GWAS); indeed, we show that tagging effects induced by gene expression correlations are pervasive in cell-disease association analyses. Here, we introduce scDRS-FM, a method that disentangles causal from tagging disease associations at single-cell resolution by jointly modeling correlated cell populations to assess conditional polygenic enrichment relative to other cell populations in the dataset; scDRS-FM further leverages single-cell denoising to improve statistical power</p>
+<p><span class="label">Key Impact:</span> Overall, scDRS-FM provides a principled and powerful framework for fine-mapping disease-relevant cellular contexts from GWAS and scRNA-seq data</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.11.11.687852v7">Tunneling nanotubes propagate preneoplastic cues in a BMP-dependent manner.</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.11.11.687852">10.1101/2025.11.11.687852</a> · Score: <code>████░░░░░░</code> 0.439</p>
-<p><span class="label">Core Problem:</span> Tunneling nanotubes (TNTs) are thin, actin-rich structures that facilitate long-distance intercellular communication through the transfer of molecules and organelles</p>
-<p><span class="label">Proposed Solution:</span> While their role in cancer progression is well-established, their involvement in the earliest stages of tumor initiation remains unexplored. Using normal human mammary primary cells, a model of early luminal breast transformation, and mammary organoids, we demonstrate that TNTs become increasingly abundant and elongated during the initial phases of luminal breast cell transformation</p>
-<p><span class="label">Key Impact:</span> By elucidating these early events, our findings provide new mechanistic insights into the onset of epithelial transformation in luminal breast cancer, identify the BMP pathway as a key mediator of this process, and advance our understanding of how preneoplastic states emerge and disseminate</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.18.745447v1">Implicit Hierarchical Tensor Decomposition of Single-Cell Four-Omics Data Reveals Cell-Type-Associated Enhancer--Promoter Regulatory Programs</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.18.745447">10.64898/2026.08.18.745447</a> · Score: <code>█████░░░░░</code> 0.459</p>
+<p><span class="label">Core Problem:</span> Single-cell multi-omics provides complementary views of gene regulation, but integrating modalities with natural features comprising enhancers, genes, and three-dimensional (3D) genomic loci remains challenging</p>
+<p><span class="label">Proposed Solution:</span> This study developed an implicit hierarchical tensor decomposition framework and applied it to the CHARM single-cell four-omics mouse brain data (GSE303006) by jointly analyzing ATAC, H3K27ac, RNA, and reconstructed 3D enhancer--promoter (E--P) distances. After quality control, 730,969 E--P pairs, 42,669 enhancers, 16,239 genes, 391,435 20-kb bin pairs, and 4,258 cells were retained</p>
+<p><span class="label">Key Impact:</span> The framework reveals the regulatory structure that is shared across molecular modalities while remaining distinct from any single molecular modality</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
@@ -182,6 +182,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.11.11.687852">Tunneling nanotubes propagate preneoplastic cues in a BMP-dependent manner.</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.21.746227">De novo Design of Macrocyclic Molecular Glues</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.21.746233">Transferable Collective Variable to accelerate Protein-Ligand (Un)Binding Transitions via Explainable Machine Learning and Intriguing Role of Ligand Solvation</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.21.746242">A novel benchmark dataset for enzyme function prediction reveals the limitations of state-of-the-art models</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.21.746324">On the robustness of scRNA-seq foundation models for plant perturbation response prediction under cross-experiment shift</a><span class="history-date">Aug 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.22.695983">FlashBind: Towards Accurate and Efficient Structure-based Virtual Screening</a><span class="history-date">Aug 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.20.739649">FusedFCR: A Fused Forward Continuation-Ratio model for marker selection along cell-fate trajectories</a><span class="history-date">Aug 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.16.745093">A Semantic + Neuronal Approach to Predict Pathogenic Variants in DNA Sequences</a><span class="history-date">Aug 22, 2026</span></li>
@@ -618,57 +623,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Capsule-independent bacteriophages reveal unexpected diversity of Salmonella Typhi phage ecology</a></li>
-  <li><a href="#virology-article-2">Rethinking respiratory disease forecasting: temporal heterogeneity between surveillance predictors and outcomes drives forecast instability</a></li>
-  <li><a href="#virology-article-3">Autotransporter folding avoids a kinetic trap during vectorial translocation across the bacterial outer membrane</a></li>
-  <li><a href="#virology-article-4">Evolution of pathogen dormancy in fluctuating environments</a></li>
-  <li><a href="#virology-article-5">Sub-national heterogeneity in the time-varying reproduction number during the 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo: a hierarchical Bayesian analysis</a></li>
+  <li><a href="#virology-article-1">Density dependence affects population recovery following an epidemic</a></li>
+  <li><a href="#virology-article-2">Short- and long-term causes of West Nile virus risk in Europe: a spatiotemporal model accounting for under-reporting</a></li>
+  <li><a href="#virology-article-3">Returning to school during Ebola: an exploratory health-zone framework for scenario-based school-system introduction pressure during the September 2026 rentree in eastern Democratic Republic of the Congo</a></li>
+  <li><a href="#virology-article-4">Comparative immunogenicity of several inactivated influenza vaccines among healthcare workers in Hong Kong</a></li>
+  <li><a href="#virology-article-5">Sample sizes to achieve multiple surveillance objectives in primary care sentinel systems monitoring respiratory pathogens: a simulation approach</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.08.19.26360815v1">Capsule-independent bacteriophages reveal unexpected diversity of Salmonella Typhi phage ecology</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.19.26360815">10.64898/2026.08.19.26360815</a> · Score: <code>█████░░░░░</code> 0.508</p>
-<p><span class="label">Core Problem:</span> Bacteriophages that infect Salmonella enterica serovar Typhi (S</p>
-<p><span class="label">Proposed Solution:</span> Typhi), the cause of typhoid fever, are regarded as specialized, because all previously characterized phages depend on the Vi capsular polysaccharide for infection. Whether capsule-independent infection strategies exist has remained unclear</p>
-<p><span class="label">Key Impact:</span> Typhi</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2025.12.12.693954v2">Density dependence affects population recovery following an epidemic</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.12.693954">10.64898/2025.12.12.693954</a> · Score: <code>████░░░░░░</code> 0.356</p>
+<p><span class="label">Core Problem:</span> Current epidemiological models for the regulation of host populations by pathogens suggest that the reduction in the host population is largest shortly after the epidemic phase and that the host population partly recovers in the subsequent approach to endemicity</p>
+<p><span class="label">Proposed Solution:</span> We find that this conventional view is not robust to a simple, biologically motivated addition: density-dependent population regulation (homeostasis). While rapid homeostasis typically enables a population rebound after the initial population suppression (the conventional view), we show that weak homeostasis can result in the opposite --- greater population suppression during the endemic phase compared to the initial epidemic</p>
+<p><span class="label">Key Impact:</span> This finding complicates the prediction of long term outcomes of population suppression by pathogens but not of short term outcomes</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.08.19.26360833v1">Rethinking respiratory disease forecasting: temporal heterogeneity between surveillance predictors and outcomes drives forecast instability</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.19.26360833">10.64898/2026.08.19.26360833</a> · Score: <code>████░░░░░░</code> 0.395</p>
-<p><span class="label">Core Problem:</span> Since the COVID-19 pandemic, forecasting hubs and non-traditional respiratory disease surveillance streams have become increasingly common</p>
-<p><span class="label">Proposed Solution:</span> However, many forecasting approaches assume that relationships between surveillance predictors and disease outcomes remain stable over time and that incorporating additional historical data will improve forecast performance. To evaluate these assumptions in a real-world setting, we developed and evaluated forecasts of SARS-CoV-2 and influenza hospitalizations in Utah using syndromic surveillance, test positivity, and wastewater data</p>
-<p><span class="label">Key Impact:</span> Forecasting groups should prioritize continual evaluation of surveillance predictors, adaptive strategies, and diverse ensembles, rather than relying on a single model, data stream, or historical training framework each year</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.08.20.26360902v1">Short- and long-term causes of West Nile virus risk in Europe: a spatiotemporal model accounting for under-reporting</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.26360902">10.64898/2026.08.20.26360902</a> · Score: <code>███░░░░░░░</code> 0.343</p>
+<p><span class="label">Core Problem:</span> Models that provide risk maps for zoonoses often lack (i) a spatiotemporal autocorrelation component, yet crucial in understanding the spread of infectious diseases, (ii) accounting for heterogeneity in case reporting, and (iii) a causal framework for explanatory variables</p>
+<p><span class="label">Proposed Solution:</span> Here, we addressed these limitations with a model system, West Nile virus, a vector-borne pathogen transmitted in a bird reservoir, and affecting humans and horses. We built a spatiotemporal occupancy model and fitted it to notified (human and horse) case data</p>
+<p><span class="label">Key Impact:</span> By computing population attributable fractions, we found the contribution of conjectural weather variables to WNV outbreaks in Europe to be globally higher than the structure of the bird community</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.22.746429v1">Autotransporter folding avoids a kinetic trap during vectorial translocation across the bacterial outer membrane</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.22.746429">10.64898/2026.08.22.746429</a> · Score: <code>████░░░░░░</code> 0.378</p>
-<p><span class="label">Core Problem:</span> Autotransporter proteins are major virulence factors in Gram-negative pathogens, yet how they fold during secretion remains incompletely understood</p>
-<p><span class="label">Proposed Solution:</span> A longstanding puzzle is why pertactin folds and is secreted in vivo within minutes but refolds in vitro over hours to days. We introduce BEAM, a multiscale framework that learns slow collective variables from coarse-grained simulations to guide all-atom enhanced sampling</p>
-<p><span class="label">Key Impact:</span> More broadly, BEAM provides a multiscale strategy for revealing hidden conformational states at atomic resolution</p>
-<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.08.20.26360976v1">Returning to school during Ebola: an exploratory health-zone framework for scenario-based school-system introduction pressure during the September 2026 rentree in eastern Democratic Republic of the Congo</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.26360976">10.64898/2026.08.20.26360976</a> · Score: <code>███░░░░░░░</code> 0.331</p>
+<p><span class="label">Core Problem:</span> School reopening during an Ebola outbreak is often framed as a binary question of whether schools are safe</p>
+<p><span class="label">Proposed Solution:</span> For Ebola, however, the immediate operational question is where an infected school-age child may reach the school system before recognition and isolation, and whether local systems can detect and respond rapidly. We developed an exploratory, scenario-based health-zone framework for the September 2026 rentree during the ongoing Bundibugyo virus disease outbreak in eastern Democratic Republic of the Congo</p>
+<p><span class="label">Key Impact:</span> The framework supports targeted geographic prioritisation and minimum school-health readiness, but its probabilities are model-implied scenario probabilities rather than calibrated forecasts or evidence for a single national open/close decision</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.22.746398v1">Evolution of pathogen dormancy in fluctuating environments</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.22.746398">10.64898/2026.08.22.746398</a> · Score: <code>████░░░░░░</code> 0.361</p>
-<p><span class="label">Core Problem:</span> Dormancy is a widespread life-history strategy that enables organisms to persist through periods of adverse environmental conditions</p>
-<p><span class="label">Proposed Solution:</span> Despite its prevalence, the evolutionary forces shaping dormancy and the timing of reactivation remain poorly understood, particularly in pathogens facing predictable environmental fluctuations. Here, we investigate how seasonal variation can drive the joint evolution of pathogen dormancy and reactivation, and whether these traits are favoured to evolve as fixed or plastic strategies</p>
-<p><span class="label">Key Impact:</span> Although motivated by the biology of relapsing malaria parasites, our results provide a general framework for understanding the evolution of dormancy as an adaptive response to periodic environmental fluctuations across diverse pathogen systems</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.08.19.26360857v1">Comparative immunogenicity of several inactivated influenza vaccines among healthcare workers in Hong Kong</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.19.26360857">10.64898/2026.08.19.26360857</a> · Score: <code>███░░░░░░░</code> 0.314</p>
+<p><span class="label">Core Problem:</span> We compared the immunogenicity of three licensed egg-based inactivated influenza vaccines, including TetrAnflu (Sinovac quadrivalent), Fluarix Tetra (GSK quadrivalent), and Vaxigrip (Sanofi trivalent), in adult healthcare workers in Hong Kong during the 2025/26 season</p>
+<p><span class="label">Proposed Solution:</span> Paired pre- and post-vaccination sera from age- and sex-matched recipients (n=30 to 40 per group) were tested by hemagglutination-inhibition assays against vaccine strains. After adjustment for age, sex, and sampling interval, the vaccines induced broadly comparable rises in antibody titers, proportions achieving titers &gt;=40, and seroconversion rates, with a superior response to A(H1N1) after TetrAnflu</p>
+<p><span class="label">Key Impact:</span> These real-world findings support the interchangeability of these vaccines for influenza vaccination programs</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.08.19.26360792v1">Sub-national heterogeneity in the time-varying reproduction number during the 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo: a hierarchical Bayesian analysis</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.19.26360792">10.64898/2026.08.19.26360792</a> · Score: <code>████░░░░░░</code> 0.353</p>
-<p><span class="label">Core Problem:</span> National-level estimates of the time-varying reproduction number (Rt) for the 2026 Bundibugyo virus disease (BDBV) outbreak in the Democratic Republic of the Congo (DRC) have converged on a value close to the epidemic threshold since early August 2026, consistent with independent joint Bayesian renewal-model estimates</p>
-<p><span class="label">Proposed Solution:</span> A single national Rt, however, can obscure divergent sub-national epidemic trajectories, particularly across a five-province outbreak in which provinces range from a declining original epicentre to recently-seeded fronts. We estimated Rt at national, provincial, and, where case volume allowed, health-zone level, using both a standard sliding-window (Cori) estimator and a hierarchical Bayesian renewal model with partial pooling across spatial units, fitted by Hamiltonian Monte Carlo (No-U-Turn Sampler)</p>
-<p><span class="label">Key Impact:</span> Aggregation masks meaningful heterogeneity in transmission intensity at every spatial resolution examined; response prioritisation based on a single national or even provincial Rt risks directing attention away from the specific zones where transmission remains supercritical</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.08.20.26360887v1">Sample sizes to achieve multiple surveillance objectives in primary care sentinel systems monitoring respiratory pathogens: a simulation approach</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.20.26360887">10.64898/2026.08.20.26360887</a> · Score: <code>███░░░░░░░</code> 0.306</p>
+<p><span class="label">Core Problem:</span> Influenza surveillance has typically been carried out using influenza-like illness (ILI) rates and proportions of laboratory tests positive for influenza as metrics to monitor, with sample sizes for the number of tests to carry out based on the precision of the resulting estimate of proportions positive</p>
+<p><span class="label">Proposed Solution:</span> The transition out of the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) pandemic period has encouraged the establishment of integrated surveillance of respiratory pathogens, in the context of multiple surveillance objectives, as set out by WHO in its revised integrated surveillance guidance and Mosaic Respiratory Surveillance Framework. These objectives include outbreak detection, situational awareness and intensity evaluation, among others</p>
+<p><span class="label">Key Impact:</span> However, broadening the criteria for swabbing to acute respiratory symptoms does allow for sufficient sample sizes</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -676,6 +681,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.19.26360792">Sub-national heterogeneity in the time-varying reproduction number during the 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo: a hierarchical Bayesian analysis</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.19.26360815">Capsule-independent bacteriophages reveal unexpected diversity of Salmonella Typhi phage ecology</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.19.26360833">Rethinking respiratory disease forecasting: temporal heterogeneity between surveillance predictors and outcomes drives forecast instability</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.22.746398">Evolution of pathogen dormancy in fluctuating environments</a><span class="history-date">Aug 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.22.746429">Autotransporter folding avoids a kinetic trap during vectorial translocation across the bacterial outer membrane</a><span class="history-date">Aug 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.02.23.707037">Field-isolate recombinant tick-borne encephalitis viruses define reporter-stability guidelines for antiviral testing in flaviviruses</a><span class="history-date">Aug 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.13.744589">Genome-Scale Codon Deoptimization Enables Attenuation of Rift Valley Fever Virus</a><span class="history-date">Aug 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.18.26360573">Evaluating non-invasive respiratory samples for bacterial and viral pathogen detection by Nanopore metagenomics in community-acquired pneumonia</a><span class="history-date">Aug 22, 2026</span></li>
@@ -702,7 +712,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-08-23T09:02:24 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-08-24T09:01:38 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-23T09:02:24.275814+00:00",
+  "generated_utc": "2026-08-24T09:01:38.703322+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "On the robustness of scRNA-seq foundation models for plant perturbation response prediction under cross-experiment shift",
-          "doi": "10.64898/2026.08.21.746324",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746324v1",
+          "title": "Classifying CRISPR-Cas9 Off-Target Cleavage Sites from GUIDE-seq Data: A Class-Imbalanced Machine Learning Benchmark",
+          "doi": "10.64898/2026.08.19.745843",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745843v1",
           "source": "biorxiv",
-          "score": 0.5057
+          "score": 0.5435
         },
         {
           "rank": 2,
-          "title": "De novo Design of Macrocyclic Molecular Glues",
-          "doi": "10.64898/2026.08.21.746227",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746227v1",
+          "title": "Progressive Loosening of a Dual Autoinhibitory Interface Activates PP2A-B56\u03b4",
+          "doi": "10.64898/2026.08.19.745767",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745767v1",
           "source": "biorxiv",
-          "score": 0.479
+          "score": 0.5169
         },
         {
           "rank": 3,
-          "title": "A novel benchmark dataset for enzyme function prediction reveals the limitations of state-of-the-art models",
-          "doi": "10.64898/2026.08.21.746242",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746242v1",
+          "title": "Time-resolved operator archetypes characterize dynamical sensitivity during cell-state transitions",
+          "doi": "10.64898/2026.08.21.745996",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.745996v1",
           "source": "biorxiv",
-          "score": 0.4653
+          "score": 0.5065
         },
         {
           "rank": 4,
-          "title": "Transferable Collective Variable to accelerate Protein-Ligand (Un)Binding Transitions via Explainable Machine Learning and Intriguing Role of Ligand Solvation",
-          "doi": "10.64898/2026.08.21.746233",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746233v1",
-          "source": "biorxiv",
-          "score": 0.4557
+          "title": "Conditional polygenic enrichment distinguishes causal from tagging disease-critical cell populations in single-cell RNA-seq",
+          "doi": "10.64898/2026.08.20.26360914",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360914v1",
+          "source": "medrxiv",
+          "score": 0.481
         },
         {
           "rank": 5,
-          "title": "Tunneling nanotubes propagate preneoplastic cues in a BMP-dependent manner.",
-          "doi": "10.1101/2025.11.11.687852",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687852v7",
+          "title": "Implicit Hierarchical Tensor Decomposition of Single-Cell Four-Omics Data Reveals Cell-Type-Associated Enhancer--Promoter Regulatory Programs",
+          "doi": "10.64898/2026.08.18.745447",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745447v1",
           "source": "biorxiv",
-          "score": 0.439
+          "score": 0.4595
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Capsule-independent bacteriophages reveal unexpected diversity of Salmonella Typhi phage ecology",
-          "doi": "10.64898/2026.08.19.26360815",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360815v1",
-          "source": "medrxiv",
-          "score": 0.5077
+          "title": "Density dependence affects population recovery following an epidemic",
+          "doi": "10.64898/2025.12.12.693954",
+          "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693954v2",
+          "source": "biorxiv",
+          "score": 0.3558
         },
         {
           "rank": 2,
-          "title": "Rethinking respiratory disease forecasting: temporal heterogeneity between surveillance predictors and outcomes drives forecast instability",
-          "doi": "10.64898/2026.08.19.26360833",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360833v1",
+          "title": "Short- and long-term causes of West Nile virus risk in Europe: a spatiotemporal model accounting for under-reporting",
+          "doi": "10.64898/2026.08.20.26360902",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360902v1",
           "source": "medrxiv",
-          "score": 0.395
+          "score": 0.3426
         },
         {
           "rank": 3,
-          "title": "Autotransporter folding avoids a kinetic trap during vectorial translocation across the bacterial outer membrane",
-          "doi": "10.64898/2026.08.22.746429",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746429v1",
-          "source": "biorxiv",
-          "score": 0.3779
+          "title": "Returning to school during Ebola: an exploratory health-zone framework for scenario-based school-system introduction pressure during the September 2026 rentree in eastern Democratic Republic of the Congo",
+          "doi": "10.64898/2026.08.20.26360976",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360976v1",
+          "source": "medrxiv",
+          "score": 0.3309
         },
         {
           "rank": 4,
-          "title": "Evolution of pathogen dormancy in fluctuating environments",
-          "doi": "10.64898/2026.08.22.746398",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746398v1",
-          "source": "biorxiv",
-          "score": 0.3609
+          "title": "Comparative immunogenicity of several inactivated influenza vaccines among healthcare workers in Hong Kong",
+          "doi": "10.64898/2026.08.19.26360857",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360857v1",
+          "source": "medrxiv",
+          "score": 0.314
         },
         {
           "rank": 5,
-          "title": "Sub-national heterogeneity in the time-varying reproduction number during the 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo: a hierarchical Bayesian analysis",
-          "doi": "10.64898/2026.08.19.26360792",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360792v1",
+          "title": "Sample sizes to achieve multiple surveillance objectives in primary care sentinel systems monitoring respiratory pathogens: a simulation approach",
+          "doi": "10.64898/2026.08.20.26360887",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360887v1",
           "source": "medrxiv",
-          "score": 0.3534
+          "score": 0.3064
         }
       ]
     }
