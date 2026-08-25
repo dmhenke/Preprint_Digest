@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-24T09:01:38.703322+00:00",
+  "generated_utc": "2026-08-25T09:02:08.349879+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Classifying CRISPR-Cas9 Off-Target Cleavage Sites from GUIDE-seq Data: A Class-Imbalanced Machine Learning Benchmark",
-          "doi": "10.64898/2026.08.19.745843",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745843v1",
+          "title": "Unbiased and Epicardial-Specific Lineage Tracing Reveal Epicardial Contribution to Vascular Endothelial Cells in Heart Development",
+          "doi": "10.64898/2026.08.23.742225",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.742225v1",
           "source": "biorxiv",
-          "score": 0.5435
+          "score": 0.4927
         },
         {
           "rank": 2,
-          "title": "Progressive Loosening of a Dual Autoinhibitory Interface Activates PP2A-B56\u03b4",
-          "doi": "10.64898/2026.08.19.745767",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745767v1",
+          "title": "A mechanism-annotated benchmark reveals limited fidelity to drug-response signatures in single-cell perturbation models",
+          "doi": "10.64898/2026.08.19.745729",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745729v1",
           "source": "biorxiv",
-          "score": 0.5169
+          "score": 0.4872
         },
         {
           "rank": 3,
-          "title": "Time-resolved operator archetypes characterize dynamical sensitivity during cell-state transitions",
-          "doi": "10.64898/2026.08.21.745996",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.745996v1",
+          "title": "Mapping Alzheimer's neuropathology signatures to the whole brain transcriptome using machine learning data fusion",
+          "doi": "10.64898/2026.08.19.745861",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745861v1",
           "source": "biorxiv",
-          "score": 0.5065
+          "score": 0.4676
         },
         {
           "rank": 4,
-          "title": "Conditional polygenic enrichment distinguishes causal from tagging disease-critical cell populations in single-cell RNA-seq",
-          "doi": "10.64898/2026.08.20.26360914",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360914v1",
-          "source": "medrxiv",
-          "score": 0.481
+          "title": "Computer-aided drug screening of anti-Neobenedenia melleni drugs based on annexin B1 in farmed pearl grouper",
+          "doi": "10.64898/2026.08.23.746516",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.746516v1",
+          "source": "biorxiv",
+          "score": 0.4372
         },
         {
           "rank": 5,
-          "title": "Implicit Hierarchical Tensor Decomposition of Single-Cell Four-Omics Data Reveals Cell-Type-Associated Enhancer--Promoter Regulatory Programs",
-          "doi": "10.64898/2026.08.18.745447",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745447v1",
+          "title": "A tissue-resolved endothelial surface proteome atlas informs organ-selective vascular targeting",
+          "doi": "10.64898/2026.08.21.746320",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746320v1",
           "source": "biorxiv",
-          "score": 0.4595
+          "score": 0.4291
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Density dependence affects population recovery following an epidemic",
-          "doi": "10.64898/2025.12.12.693954",
-          "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693954v2",
-          "source": "biorxiv",
-          "score": 0.3558
+          "title": "Outbreak and Postnatal Antibiotic Exposures Drive the Development Trajectory of the Nasopharyngeal Microbiota in the First Year of Life",
+          "doi": "10.1101/2023.09.14.23295567",
+          "url": "https://www.medrxiv.org/content/10.1101/2023.09.14.23295567v3",
+          "source": "medrxiv",
+          "score": 0.4155
         },
         {
           "rank": 2,
-          "title": "Short- and long-term causes of West Nile virus risk in Europe: a spatiotemporal model accounting for under-reporting",
-          "doi": "10.64898/2026.08.20.26360902",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360902v1",
-          "source": "medrxiv",
-          "score": 0.3426
+          "title": "Orthoflaviviruses use diverse binding modes to engage LDLR family receptors",
+          "doi": "10.64898/2026.08.22.744730",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.744730v1",
+          "source": "biorxiv",
+          "score": 0.412
         },
         {
           "rank": 3,
-          "title": "Returning to school during Ebola: an exploratory health-zone framework for scenario-based school-system introduction pressure during the September 2026 rentree in eastern Democratic Republic of the Congo",
-          "doi": "10.64898/2026.08.20.26360976",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360976v1",
-          "source": "medrxiv",
-          "score": 0.3309
+          "title": "Gene identity, not variant effect, dominates ClinVar benchmarks of missense pathogenicity predictors",
+          "doi": "10.64898/2026.08.21.746180",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746180v1",
+          "source": "biorxiv",
+          "score": 0.3921
         },
         {
           "rank": 4,
-          "title": "Comparative immunogenicity of several inactivated influenza vaccines among healthcare workers in Hong Kong",
-          "doi": "10.64898/2026.08.19.26360857",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360857v1",
-          "source": "medrxiv",
-          "score": 0.314
+          "title": "WITHDRAWN: A Comprehensive Hybrid Capture Sequencing Platform for Tick-borne Disease Detection Reveals Zoonotic Emerging Pathogens in a Weather and Vector Transition Zone",
+          "doi": "10.1101/2025.06.08.658352",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.06.08.658352v2",
+          "source": "biorxiv",
+          "score": 0.3901
         },
         {
           "rank": 5,
-          "title": "Sample sizes to achieve multiple surveillance objectives in primary care sentinel systems monitoring respiratory pathogens: a simulation approach",
-          "doi": "10.64898/2026.08.20.26360887",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360887v1",
-          "source": "medrxiv",
-          "score": 0.3064
+          "title": "Scarless SARS-CoV-2 Genome Engineering and Variant Analysis",
+          "doi": "10.64898/2026.08.21.746147",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746147v1",
+          "source": "biorxiv",
+          "score": 0.3901
         }
       ]
     }
