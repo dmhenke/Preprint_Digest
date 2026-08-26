@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-25T09:02:08.349879+00:00",
+  "generated_utc": "2026-08-26T09:04:00.228714+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Unbiased and Epicardial-Specific Lineage Tracing Reveal Epicardial Contribution to Vascular Endothelial Cells in Heart Development",
-          "doi": "10.64898/2026.08.23.742225",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.742225v1",
-          "source": "biorxiv",
-          "score": 0.4927
+          "title": "Paired plaque and plasma proteomics reveal molecular signatures of symptomatic atherosclerosis",
+          "doi": "10.64898/2026.08.23.26361143",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.23.26361143v1",
+          "source": "medrxiv",
+          "score": 0.4751
         },
         {
           "rank": 2,
-          "title": "A mechanism-annotated benchmark reveals limited fidelity to drug-response signatures in single-cell perturbation models",
-          "doi": "10.64898/2026.08.19.745729",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745729v1",
-          "source": "biorxiv",
-          "score": 0.4872
+          "title": "Multi-ancestry analysis of 791K whole genomes reveals the genetic, geographic, and phenotypic correlates of somatic passenger mutations in blood",
+          "doi": "10.64898/2026.08.21.26361040",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361040v1",
+          "source": "medrxiv",
+          "score": 0.409
         },
         {
           "rank": 3,
-          "title": "Mapping Alzheimer's neuropathology signatures to the whole brain transcriptome using machine learning data fusion",
-          "doi": "10.64898/2026.08.19.745861",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745861v1",
-          "source": "biorxiv",
-          "score": 0.4676
+          "title": "Human and Viral Whole-Genome Sequencing Reveals HPV-Driven Carcinogenesis and Mutational Signatures in Sinonasal Squamous Cell Carcinoma",
+          "doi": "10.64898/2026.02.04.26345593",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.02.04.26345593v3",
+          "source": "medrxiv",
+          "score": 0.3882
         },
         {
           "rank": 4,
-          "title": "Computer-aided drug screening of anti-Neobenedenia melleni drugs based on annexin B1 in farmed pearl grouper",
-          "doi": "10.64898/2026.08.23.746516",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.746516v1",
-          "source": "biorxiv",
-          "score": 0.4372
+          "title": "A Scalable Framework for Harmonized mtDNA Analysis Across Diverse Biobanks",
+          "doi": "10.64898/2026.08.21.26361041",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361041v1",
+          "source": "medrxiv",
+          "score": 0.3728
         },
         {
           "rank": 5,
-          "title": "A tissue-resolved endothelial surface proteome atlas informs organ-selective vascular targeting",
-          "doi": "10.64898/2026.08.21.746320",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746320v1",
-          "source": "biorxiv",
-          "score": 0.4291
+          "title": "A high-resolution human pangenome structural variant resource for improved disease association",
+          "doi": "10.64898/2026.08.21.26361050",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361050v1",
+          "source": "medrxiv",
+          "score": 0.3604
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Outbreak and Postnatal Antibiotic Exposures Drive the Development Trajectory of the Nasopharyngeal Microbiota in the First Year of Life",
-          "doi": "10.1101/2023.09.14.23295567",
-          "url": "https://www.medrxiv.org/content/10.1101/2023.09.14.23295567v3",
+          "title": "MASCOT-DS improves transmission dynamics inference by integrating multiple epidemiological data streams with phylodynamic inference",
+          "doi": "10.64898/2026.08.21.26361056",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361056v1",
           "source": "medrxiv",
-          "score": 0.4155
+          "score": 0.4514
         },
         {
           "rank": 2,
-          "title": "Orthoflaviviruses use diverse binding modes to engage LDLR family receptors",
-          "doi": "10.64898/2026.08.22.744730",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.744730v1",
-          "source": "biorxiv",
-          "score": 0.412
+          "title": "Bridging microbiology and public health through simulation-based learning",
+          "doi": "10.64898/2026.08.21.26361043",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361043v1",
+          "source": "medrxiv",
+          "score": 0.3553
         },
         {
           "rank": 3,
-          "title": "Gene identity, not variant effect, dominates ClinVar benchmarks of missense pathogenicity predictors",
-          "doi": "10.64898/2026.08.21.746180",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746180v1",
-          "source": "biorxiv",
-          "score": 0.3921
+          "title": "Human Behavior and Built Environments Shape Influenza Seasonality in the US",
+          "doi": "10.64898/2026.08.21.26360922",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26360922v1",
+          "source": "medrxiv",
+          "score": 0.35
         },
         {
           "rank": 4,
-          "title": "WITHDRAWN: A Comprehensive Hybrid Capture Sequencing Platform for Tick-borne Disease Detection Reveals Zoonotic Emerging Pathogens in a Weather and Vector Transition Zone",
-          "doi": "10.1101/2025.06.08.658352",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.06.08.658352v2",
-          "source": "biorxiv",
-          "score": 0.3901
+          "title": "Genomic epidemiology and emerging antimicrobial resistance profiles of Salmonella Paratyphi A in returning travellers to Australia",
+          "doi": "10.64898/2026.08.20.26360952",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360952v1",
+          "source": "medrxiv",
+          "score": 0.3477
         },
         {
           "rank": 5,
-          "title": "Scarless SARS-CoV-2 Genome Engineering and Variant Analysis",
-          "doi": "10.64898/2026.08.21.746147",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746147v1",
-          "source": "biorxiv",
-          "score": 0.3901
+          "title": "Sampling of the Lung Microbiome in Patients Undergoing Lung Resection",
+          "doi": "10.64898/2026.08.22.26360295",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.22.26360295v1",
+          "source": "medrxiv",
+          "score": 0.2864
         }
       ]
     }
