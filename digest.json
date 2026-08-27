@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-26T09:04:00.228714+00:00",
+  "generated_utc": "2026-08-27T09:03:09.617411+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Paired plaque and plasma proteomics reveal molecular signatures of symptomatic atherosclerosis",
-          "doi": "10.64898/2026.08.23.26361143",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.23.26361143v1",
-          "source": "medrxiv",
-          "score": 0.4751
+          "title": "CCIDeconv: Hierarchical model for deconvolution of subcellular cell-cell interactions in single-cell data",
+          "doi": "10.64898/2026.03.26.714643",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714643v3",
+          "source": "biorxiv",
+          "score": 0.5618
         },
         {
           "rank": 2,
-          "title": "Multi-ancestry analysis of 791K whole genomes reveals the genetic, geographic, and phenotypic correlates of somatic passenger mutations in blood",
-          "doi": "10.64898/2026.08.21.26361040",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361040v1",
-          "source": "medrxiv",
-          "score": 0.409
+          "title": "A Mammalian High-Throughput Screen for AI-Designed Peptide-Guided Protein Degraders",
+          "doi": "10.64898/2026.08.24.746873",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746873v1",
+          "source": "biorxiv",
+          "score": 0.5355
         },
         {
           "rank": 3,
-          "title": "Human and Viral Whole-Genome Sequencing Reveals HPV-Driven Carcinogenesis and Mutational Signatures in Sinonasal Squamous Cell Carcinoma",
-          "doi": "10.64898/2026.02.04.26345593",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.02.04.26345593v3",
-          "source": "medrxiv",
-          "score": 0.3882
+          "title": "Synthetic Control Enables Reliable Cluster Validation and Marker Discovery in Omics Data: From Single-Cell and Spatial to Population-Scale",
+          "doi": "10.1101/2023.07.21.550107",
+          "url": "https://www.biorxiv.org/content/10.1101/2023.07.21.550107v3",
+          "source": "biorxiv",
+          "score": 0.5136
         },
         {
           "rank": 4,
-          "title": "A Scalable Framework for Harmonized mtDNA Analysis Across Diverse Biobanks",
-          "doi": "10.64898/2026.08.21.26361041",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361041v1",
-          "source": "medrxiv",
-          "score": 0.3728
+          "title": "BatchRefiner: fast, significant improvement in batch integration of single-cell embeddings with ensemble refinement",
+          "doi": "10.64898/2026.08.21.746347",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746347v1",
+          "source": "biorxiv",
+          "score": 0.4973
         },
         {
           "rank": 5,
-          "title": "A high-resolution human pangenome structural variant resource for improved disease association",
-          "doi": "10.64898/2026.08.21.26361050",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361050v1",
-          "source": "medrxiv",
-          "score": 0.3604
+          "title": "AI-driven framework modeling perturbation in brain organoids reveals candidate genes for autism",
+          "doi": "10.64898/2026.08.22.746387",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746387v1",
+          "source": "biorxiv",
+          "score": 0.481
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "MASCOT-DS improves transmission dynamics inference by integrating multiple epidemiological data streams with phylodynamic inference",
-          "doi": "10.64898/2026.08.21.26361056",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361056v1",
-          "source": "medrxiv",
-          "score": 0.4514
+          "title": "Tree-aware conditional language modeling recovers mutational patterns of viral evolution",
+          "doi": "10.64898/2026.08.25.746971",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746971v1",
+          "source": "biorxiv",
+          "score": 0.4805
         },
         {
           "rank": 2,
-          "title": "Bridging microbiology and public health through simulation-based learning",
-          "doi": "10.64898/2026.08.21.26361043",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361043v1",
-          "source": "medrxiv",
-          "score": 0.3553
+          "title": "A rapidly deployable CRISPR-Cas3 diagnostic platform for emerging RNA viruses",
+          "doi": "10.64898/2026.08.25.746999",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746999v1",
+          "source": "biorxiv",
+          "score": 0.4705
         },
         {
           "rank": 3,
-          "title": "Human Behavior and Built Environments Shape Influenza Seasonality in the US",
-          "doi": "10.64898/2026.08.21.26360922",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26360922v1",
+          "title": "OXA-181 transmission confounded by a stable IncX3 plasmid",
+          "doi": "10.64898/2026.08.20.26360670",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360670v1",
           "source": "medrxiv",
-          "score": 0.35
+          "score": 0.4623
         },
         {
           "rank": 4,
-          "title": "Genomic epidemiology and emerging antimicrobial resistance profiles of Salmonella Paratyphi A in returning travellers to Australia",
-          "doi": "10.64898/2026.08.20.26360952",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360952v1",
-          "source": "medrxiv",
-          "score": 0.3477
+          "title": "Characterization of a novel amber-reassigned Crassvirales genus infecting Segatella copri from Egypt",
+          "doi": "10.64898/2026.08.21.746148",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746148v1",
+          "source": "biorxiv",
+          "score": 0.4488
         },
         {
           "rank": 5,
-          "title": "Sampling of the Lung Microbiome in Patients Undergoing Lung Resection",
-          "doi": "10.64898/2026.08.22.26360295",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.22.26360295v1",
-          "source": "medrxiv",
-          "score": 0.2864
+          "title": "The Updateable Human Virome Database and toolkit: A novel framework for human virome analysis",
+          "doi": "10.64898/2026.05.01.722327",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.01.722327v3",
+          "source": "biorxiv",
+          "score": 0.4013
         }
       ]
     }
