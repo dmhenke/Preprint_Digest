@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-27T09:03:09.617411+00:00",
+  "generated_utc": "2026-08-28T09:03:45.036394+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "CCIDeconv: Hierarchical model for deconvolution of subcellular cell-cell interactions in single-cell data",
-          "doi": "10.64898/2026.03.26.714643",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714643v3",
+          "title": "The Drosophila Secretome",
+          "doi": "10.64898/2026.08.24.746765",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746765v1",
           "source": "biorxiv",
-          "score": 0.5618
+          "score": 0.4926
         },
         {
           "rank": 2,
-          "title": "A Mammalian High-Throughput Screen for AI-Designed Peptide-Guided Protein Degraders",
-          "doi": "10.64898/2026.08.24.746873",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746873v1",
+          "title": "Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics",
+          "doi": "10.64898/2026.08.26.747303",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747303v1",
           "source": "biorxiv",
-          "score": 0.5355
+          "score": 0.4669
         },
         {
           "rank": 3,
-          "title": "Synthetic Control Enables Reliable Cluster Validation and Marker Discovery in Omics Data: From Single-Cell and Spatial to Population-Scale",
-          "doi": "10.1101/2023.07.21.550107",
-          "url": "https://www.biorxiv.org/content/10.1101/2023.07.21.550107v3",
+          "title": "Prognostic stratification by LGR5 expression identifies surface-accessible, structurally ligandable and condensate-forming targets in colorectal cancer",
+          "doi": "10.64898/2026.08.26.747295",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747295v1",
           "source": "biorxiv",
-          "score": 0.5136
+          "score": 0.4613
         },
         {
           "rank": 4,
-          "title": "BatchRefiner: fast, significant improvement in batch integration of single-cell embeddings with ensemble refinement",
-          "doi": "10.64898/2026.08.21.746347",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746347v1",
+          "title": "A Scalable Cross-Modal Workflow for Linking In Vivo Neural Activity to Neuronal Cell Types via Spatial Gene Profiling",
+          "doi": "10.64898/2026.08.26.747400",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747400v1",
           "source": "biorxiv",
-          "score": 0.4973
+          "score": 0.4579
         },
         {
           "rank": 5,
-          "title": "AI-driven framework modeling perturbation in brain organoids reveals candidate genes for autism",
-          "doi": "10.64898/2026.08.22.746387",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746387v1",
+          "title": "Proteome modulation by opposite inotropic drugs in human engineered cardiac tissue revealed by topology-driven cross-modal integration",
+          "doi": "10.64898/2026.08.25.746955",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746955v1",
           "source": "biorxiv",
-          "score": 0.481
+          "score": 0.4435
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Tree-aware conditional language modeling recovers mutational patterns of viral evolution",
-          "doi": "10.64898/2026.08.25.746971",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746971v1",
-          "source": "biorxiv",
-          "score": 0.4805
+          "title": "HLA-Resolve: Four-field HLA typing and MHC variant detection from long-read hybrid capture",
+          "doi": "10.64898/2026.03.27.26349549",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.03.27.26349549v4",
+          "source": "medrxiv",
+          "score": 0.5769
         },
         {
           "rank": 2,
-          "title": "A rapidly deployable CRISPR-Cas3 diagnostic platform for emerging RNA viruses",
-          "doi": "10.64898/2026.08.25.746999",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746999v1",
-          "source": "biorxiv",
-          "score": 0.4705
+          "title": "Wastewater and Environmental Surveillance in Cities with Sewered and Non-sewered Sanitation: Evidence from Kampala, Uganda",
+          "doi": "10.64898/2026.08.27.26360080",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.27.26360080v1",
+          "source": "medrxiv",
+          "score": 0.4156
         },
         {
           "rank": 3,
-          "title": "OXA-181 transmission confounded by a stable IncX3 plasmid",
-          "doi": "10.64898/2026.08.20.26360670",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360670v1",
+          "title": "Modeling The Role of Variant Evolution and Population Immunity in Epidemiological Patterns of Pandemic Respiratory Viruses",
+          "doi": "10.64898/2026.08.24.26360928",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.24.26360928v1",
           "source": "medrxiv",
-          "score": 0.4623
+          "score": 0.4111
         },
         {
           "rank": 4,
-          "title": "Characterization of a novel amber-reassigned Crassvirales genus infecting Segatella copri from Egypt",
-          "doi": "10.64898/2026.08.21.746148",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746148v1",
-          "source": "biorxiv",
-          "score": 0.4488
+          "title": "Proteome-Wide Antigen Discovery Reveals Compartment-Specific Humoral Responses in Coccidioidomycosis",
+          "doi": "10.64898/2026.08.24.26361245",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.24.26361245v1",
+          "source": "medrxiv",
+          "score": 0.4098
         },
         {
           "rank": 5,
-          "title": "The Updateable Human Virome Database and toolkit: A novel framework for human virome analysis",
-          "doi": "10.64898/2026.05.01.722327",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.05.01.722327v3",
+          "title": "Core genome MLST reveals genetic and BafA-associated phenotypic diversities in Bartonella henselae strains",
+          "doi": "10.64898/2026.08.27.747447",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747447v1",
           "source": "biorxiv",
-          "score": 0.4013
+          "score": 0.38
         }
       ]
     }
