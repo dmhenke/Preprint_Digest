@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>August 28, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>August 30, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">The Drosophila Secretome</a></li>
-  <li><a href="#core-article-2">Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics</a></li>
-  <li><a href="#core-article-3">Prognostic stratification by LGR5 expression identifies surface-accessible, structurally ligandable and condensate-forming targets in colorectal cancer</a></li>
-  <li><a href="#core-article-4">A Scalable Cross-Modal Workflow for Linking In Vivo Neural Activity to Neuronal Cell Types via Spatial Gene Profiling</a></li>
-  <li><a href="#core-article-5">Proteome modulation by opposite inotropic drugs in human engineered cardiac tissue revealed by topology-driven cross-modal integration</a></li>
+  <li><a href="#core-article-1">G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching</a></li>
+  <li><a href="#core-article-2">OmicsFM brings proteomics into the foundation model era</a></li>
+  <li><a href="#core-article-3">Gene expression inference from cell-free DNA using uncertainty-aware deep learning</a></li>
+  <li><a href="#core-article-4">A pretrained unified model enables cellular functional profile prediction and multi-objective virtual drug screening</a></li>
+  <li><a href="#core-article-5">Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.24.746765v1">The Drosophila Secretome</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.24.746765">10.64898/2026.08.24.746765</a> · Score: <code>█████░░░░░</code> 0.493</p>
-<p><span class="label">Core Problem:</span> Secreted proteins are synthesized within the cell and actively transported outside, where they contribute to development, physiology, immunity, and cellcell communication</p>
-<p><span class="label">Proposed Solution:</span> In Drosophila melanogaster, many secreted signaling pathways are evolutionarily conserved, making this species a powerful model for studying human development, cancer, neurobiology, and immune regulation. To assemble the Drosophila secretome, we systematically analyzed all fly protein sequences with computational tools, integrating FlyBase, UniProt and Gene Ontology annotations, and incorporating large-scale proteomics datasets</p>
-<p><span class="label">Key Impact:</span> Finally, we demonstrate the utility of this resource by analyzing changes in expression of genes encoding putative secreted proteins during aging based on snRNA-seq datasets from the Aging Fly Cell Atlas</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746917v1">G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.746917">10.64898/2026.08.25.746917</a> · Score: <code>██████░░░░</code> 0.554</p>
+<p><span class="label">Core Problem:</span> Single-cell RNA sequencing (scRNA-seq) profiles transcriptomes at high resolution but discards the spatial context of cells within a tissue -- information that is essential for studying intercellular mechanisms and tissue architecture</p>
+<p><span class="label">Proposed Solution:</span> Spatial transcriptomics (ST) retains coordinates but, depending on the assay, trades this off against gene-panel breadth, spatial resolution, or cost. We present G2T (Gene-to-Tissue), a generative deep learning model that reassembles a tissue from gene expression -- its only observed input -- by predicting the matrix of pairwise distances between cells in a learned embedding space</p>
+<p><span class="label">Key Impact:</span> By predicting this geometry in a higher-dimensional embedding space rather than regressing 2-D coordinates, G2T relaxes the 2-D output parameterisation of prior diffusion-based methods and yields a compact, scalable building block for reconstructing tissue from dissociated cells, enabling downstream spatial niche and cell-cell communication analysis</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.26.747303v1">Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.26.747303">10.64898/2026.08.26.747303</a> · Score: <code>█████░░░░░</code> 0.467</p>
-<p><span class="label">Core Problem:</span> Pooled CRISPR screens coupled with single-cell RNA sequencing enable high-throughput functional interrogation of gene regulatory networks, yet systematic comparisons of CRISPR knockout (CRISPRko) and CRISPR interference (CRISPRi) remain limited</p>
-<p><span class="label">Proposed Solution:</span> We established a single-cell CRISPRko workflow and benchmarked it against CRISPRi using 87 sgRNAs targeting 29 unfolded protein response genes. CRISPRko generated transcriptional phenotypes are highly concordant with CRISPRi, and induced comparable pathway-level responses</p>
-<p><span class="label">Key Impact:</span> While CRISPRi allows direct assessment of target gene repression, CRISPRko provides an effective complementary approach for complete loss-of-function studies, expanding the toolkit for single-cell functional genomics</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.747021v1">OmicsFM brings proteomics into the foundation model era</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.747021">10.64898/2026.08.25.747021</a> · Score: <code>██████░░░░</code> 0.551</p>
+<p><span class="label">Core Problem:</span> While foundation models have been shown to learn biological representations from large transcriptomic atlases, it remained unknown whether proteomics data allow the same</p>
+<p><span class="label">Proposed Solution:</span> We here therefore introduce OmicsFM, a modality-agnostic transformer pretrained through masked abundance reconstruction on an unprecedented proteomics data corpus of 48,837 quality-filtered proteomics profiles from 1,397 reprocessed PRIDE projects. Interestingly, despite training on 14- to 93-fold fewer profiles than matched bulk- and single-cell transcriptomic models, respectively, our proteomics model rivals both</p>
+<p><span class="label">Key Impact:</span> OmicsFM thus firmly establishes the possibility of training highly performant proteomics-based foundation models, and their importance in modelling and uncovering fundamental biology</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.26.747295v1">Prognostic stratification by LGR5 expression identifies surface-accessible, structurally ligandable and condensate-forming targets in colorectal cancer</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.26.747295">10.64898/2026.08.26.747295</a> · Score: <code>█████░░░░░</code> 0.461</p>
-<p><span class="label">Core Problem:</span> Background: LGR5 marks colorectal cancer stem cells and is associated with poor outcome, but its expression on normal intestinal stem cells has constrained direct therapeutic targeting, and the molecular landscape of LGR5-high tumors remains incompletely defined</p>
-<p><span class="label">Proposed Solution:</span> A transcriptional signature is not itself a set of drug targets: its constituent genes differ in whether and how they can be engaged pharmacologically, a distinction rarely applied systematically to a tumor-defined gene set. Methods: We stratified 396 colorectal tumors from The Cancer Genome Atlas by LGR5 expression and compared transcriptional, somatic mutation, and copy number profiles between LGR5-high and LGR5-low groups using non-parametric testing with combined significance and effect-size thresholds</p>
-<p><span class="label">Key Impact:</span> Triaging by modality rather than essentiality converts descriptive tumor signatures into stratified, experimentally testable therapeutic hypotheses, including condensate-directed modulation of NKD1 as a route to targets inaccessible by antibody- or pocket-based approaches</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.02.10.705188v2">Gene expression inference from cell-free DNA using uncertainty-aware deep learning</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.02.10.705188">10.64898/2026.02.10.705188</a> · Score: <code>█████░░░░░</code> 0.487</p>
+<p><span class="label">Core Problem:</span> Tumor gene expression profiling provides crucial diagnostic information for guiding therapy, but standard tissue biopsies are invasive, spatially biased, and may inadequately sample metastatic disease</p>
+<p><span class="label">Proposed Solution:</span> Cell-free DNA (cfDNA) provides a minimally invasive alternative for tumor genotyping, yet reconstructing robust, transcriptome-wide expression from standard-depth cfDNA whole-genome sequencing (WGS) remains a major challenge. We developed a deep learning framework comprising Triton, for comprehensive cfDNA feature extraction, and Proteus, a probabilistic model that infers single-gene expression from standard-depth cfDNA WGS</p>
+<p><span class="label">Key Impact:</span> Proteus further enabled assessment of therapeutic target activity, prognostic transcriptional programs, and candidate treatment-emergent resistance states, establishing a generalizable framework for minimally invasive functional genomics in precision oncology</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.26.747400v1">A Scalable Cross-Modal Workflow for Linking In Vivo Neural Activity to Neuronal Cell Types via Spatial Gene Profiling</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.26.747400">10.64898/2026.08.26.747400</a> · Score: <code>█████░░░░░</code> 0.458</p>
-<p><span class="label">Core Problem:</span> A central challenge in systems neuroscience research is to elucidate how distinct neuronal cell types coordinate to produce complex behaviors: an endeavor that requires linking their molecular identity, connectivity and activity patterns in behaving animals</p>
-<p><span class="label">Proposed Solution:</span> Recent advances in single-cell RNA sequencing and spatial transcriptomics have revealed remarkable molecular diversity among neurons. However, most functional recording techniques, including in vivo two-photon calcium imaging, do not reveal the molecular cell identities of recorded cells</p>
-<p><span class="label">Key Impact:</span> By linking activity patterns to molecularly defined cell types, this method provides a framework for testing whether neural representations are organized through cell-type-specific coding or distributed population activity, offering insight into the computational logic by which neural circuits generate complex behaviors</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746866v1">A pretrained unified model enables cellular functional profile prediction and multi-objective virtual drug screening</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.746866">10.64898/2026.08.25.746866</a> · Score: <code>█████░░░░░</code> 0.482</p>
+<p><span class="label">Core Problem:</span> Cells are characterized by molecular states, coordinated molecular interactions, regulatory programs, and responses to perturbations</p>
+<p><span class="label">Proposed Solution:</span> Systematic mapping of these cellular functional profiles across biological contexts remains experimentally costly and fragmented. Here we present InsilicoCell, a pretrained multi-modal, multi-task model that unifies prediction of cellular functional profiles spanning molecular states, molecular interactions, and perturbation-induced responses</p>
+<p><span class="label">Key Impact:</span> Together, InsilicoCell provides a scalable framework for predictive cellular biology and therapeutic discovery</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746955v1">Proteome modulation by opposite inotropic drugs in human engineered cardiac tissue revealed by topology-driven cross-modal integration</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.746955">10.64898/2026.08.25.746955</a> · Score: <code>████░░░░░░</code> 0.443</p>
-<p><span class="label">Core Problem:</span> Engineered heart tissues (EHTs) represent an innovative platform enabling physiologically relevant in vitro evaluation of drug-induced cardiac responses</p>
-<p><span class="label">Proposed Solution:</span> While functional characterization remains central to EHTs, molecular profiling is increasingly used to elucidate mechanisms underlying drug-induced phenotypes. Proteomics provides broad molecular characterization of drug responses at the protein level, yet the complexity, heterogeneity, and high dimensionality of proteomics datasets challenge conventional statistical approaches, which are not designed for cross-modal integration and streamlined multi-omics analysis</p>
-<p><span class="label">Key Impact:</span> In conclusion, our TDA-based framework successfully integrated functional and proteomic data to uncover treatment-specific remodeling in EHTs, offering a modular and scalable approach that could be adapted to other in vitro organ models for systems-level mechanistic studies and next-generation drug development</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.747056v1">Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.747056">10.64898/2026.08.25.747056</a> · Score: <code>█████░░░░░</code> 0.476</p>
+<p><span class="label">Core Problem:</span> Cell-to-cell transcriptional heterogeneity, or noise, is an intrinsic property of the transcriptome with implications for development, disease progression, and aging</p>
+<p><span class="label">Proposed Solution:</span> Bulk RNA-seq masks this variability by averaging gene expression across cells, whereas single-cell RNA sequencing (scRNA-seq) resolves it. Nevertheless, separating biological noise from technical variance remains challenging, particularly across platforms with different chemistries</p>
+<p><span class="label">Key Impact:</span> This study establishes a platform-independent basis for quantifying transcriptional noise and a framework for selecting an appropriate scRNA-seq platform</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.24.746765">The Drosophila Secretome</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.25.746955">Proteome modulation by opposite inotropic drugs in human engineered cardiac tissue revealed by topology-driven cross-modal integration</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.26.747295">Prognostic stratification by LGR5 expression identifies surface-accessible, structurally ligandable and condensate-forming targets in colorectal cancer</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.26.747303">Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.26.747400">A Scalable Cross-Modal Workflow for Linking In Vivo Neural Activity to Neuronal Cell Types via Spatial Gene Profiling</a><span class="history-date">Aug 28, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2023.07.21.550107">Synthetic Control Enables Reliable Cluster Validation and Marker Discovery in Omics Data: From Single-Cell and Spatial to Population-Scale</a><span class="history-date">Aug 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.26.714643">CCIDeconv: Hierarchical model for deconvolution of subcellular cell-cell interactions in single-cell data</a><span class="history-date">Aug 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.21.746347">BatchRefiner: fast, significant improvement in batch integration of single-cell embeddings with ensemble refinement</a><span class="history-date">Aug 27, 2026</span></li>
@@ -643,57 +648,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">HLA-Resolve: Four-field HLA typing and MHC variant detection from long-read hybrid capture</a></li>
-  <li><a href="#virology-article-2">Wastewater and Environmental Surveillance in Cities with Sewered and Non-sewered Sanitation: Evidence from Kampala, Uganda</a></li>
-  <li><a href="#virology-article-3">Modeling The Role of Variant Evolution and Population Immunity in Epidemiological Patterns of Pandemic Respiratory Viruses</a></li>
-  <li><a href="#virology-article-4">Proteome-Wide Antigen Discovery Reveals Compartment-Specific Humoral Responses in Coccidioidomycosis</a></li>
-  <li><a href="#virology-article-5">Core genome MLST reveals genetic and BafA-associated phenotypic diversities in Bartonella henselae strains</a></li>
+  <li><a href="#virology-article-1">Functional profiling of spacecraft cleanroom microbiomes through genome-wide phenotype predictions</a></li>
+  <li><a href="#virology-article-2">An Open Benchmark for Systems Vaccinology: Insights from the CMI-PB Challenges</a></li>
+  <li><a href="#virology-article-3">Precision-cut liver slices as a model for evaluating therapeutic agents against hepatitis B and delta viruses</a></li>
+  <li><a href="#virology-article-4">Quantifying the impact of bacterial vaccines against antibiotic resistance: accounting for transmission and selection dynamics</a></li>
+  <li><a href="#virology-article-5">Slower-than-exponential viral decay is prevalent and can reshape virus-microbe dynamics</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.03.27.26349549v4">HLA-Resolve: Four-field HLA typing and MHC variant detection from long-read hybrid capture</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.03.27.26349549">10.64898/2026.03.27.26349549</a> · Score: <code>██████░░░░</code> 0.577</p>
-<p><span class="label">Core Problem:</span> The major histocompatibility complex (MHC) is among the most polymorphic and difficult-togenotype regions of the human genome</p>
-<p><span class="label">Proposed Solution:</span> Accurate typing of its HLA genes, which encode antigen-presenting molecules, is critical for transplantation, pharmacogenomics, and disease-risk prediction. Long-read sequencing is increasingly used in HLA typing because of its ability to phase variants across long distances, but many long-read HLA typing workflows still rely on long-range PCR</p>
-<p><span class="label">Key Impact:</span> Although developed for the MHC, the workflow is customizable to any gene set, providing a general framework for high-resolution genotyping</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747777v1">Functional profiling of spacecraft cleanroom microbiomes through genome-wide phenotype predictions</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747777">10.64898/2026.08.28.747777</a> · Score: <code>█████░░░░░</code> 0.514</p>
+<p><span class="label">Core Problem:</span> Current planetary protection approaches rely heavily on spore-based tests developed for Mars missions and may not adequately assess contamination risks for icy ocean worlds such as Europa</p>
+<p><span class="label">Proposed Solution:</span> We developed a genome-based framework combining deep shotgun metagenomics and supervised machine learning to predict survival-relevant microbial traits in ESA JUICE launch-site cleanrooms. From 183 genome bins, 25 representative genomes were analyzed for traits including cryotolerance, desiccation tolerance, salt resilience, anaerobic metabolism, autotrophy, and sporulation</p>
+<p><span class="label">Key Impact:</span> This framework complements current planetary protection assays, helps to predict how microbes would survive in a new biotope, and supports functional, risk-informed contamination monitoring for future space missions</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.08.27.26360080v1">Wastewater and Environmental Surveillance in Cities with Sewered and Non-sewered Sanitation: Evidence from Kampala, Uganda</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.27.26360080">10.64898/2026.08.27.26360080</a> · Score: <code>████░░░░░░</code> 0.416</p>
-<p><span class="label">Core Problem:</span> Summary Background: Wastewater and environmental surveillance (WES) enables community-level monitoring of infectious diseases</p>
-<p><span class="label">Proposed Solution:</span> Most progress has focused on sewer-based surveillance, yet nearly half of the global population relies on non-sewered sanitation. In non-sewered settings, urban drainage channels have been used for poliovirus environmental surveillance, but their potential for a multi-pathogen WES with spatially defined catchments, and comparability to sewer-based surveillance, remains under-explored</p>
-<p><span class="label">Key Impact:</span> Funding: Eawag Discretionary Funding</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746820v1">An Open Benchmark for Systems Vaccinology: Insights from the CMI-PB Challenges</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.746820">10.64898/2026.08.25.746820</a> · Score: <code>████░░░░░░</code> 0.422</p>
+<p><span class="label">Core Problem:</span> Systems vaccinology approaches have identified factors affecting vaccine responses in multiple studies, but the ability of computational models to generalize these findings to unseen data remains unclear</p>
+<p><span class="label">Proposed Solution:</span> We established a community resource to create and compare models predicting B. pertussis booster vaccination responses and put such modeling approaches to the test</p>
+<p><span class="label">Key Impact:</span> We established the resulting datasets and evaluation framework as a community resource to advance predictive immunology and facilitate personalized vaccination strategies</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.08.24.26360928v1">Modeling The Role of Variant Evolution and Population Immunity in Epidemiological Patterns of Pandemic Respiratory Viruses</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.24.26360928">10.64898/2026.08.24.26360928</a> · Score: <code>████░░░░░░</code> 0.411</p>
-<p><span class="label">Core Problem:</span> Many respiratory viruses regularly follow a seasonal cycle with a single annual infection wave, however, pandemic viruses often break this pattern and cause multiple waves within a short timeframe</p>
-<p><span class="label">Proposed Solution:</span> Biological and epidemiological evidence suggests multiple hypothesized underlying drivers, among which is the emergence of new variants with immune-escape mutations that allow them to infect previously immune sub-populations. Yet, existing epidemiological models, such as the Susceptible-Infectious-Recovered (SIR) model and its extensions, do not account for these factors and often rely on ad hoc parameter adjustments during outbreaks to be able to capture multi-wave patterns</p>
-<p><span class="label">Key Impact:</span> The newly proposed model can be leveraged to enhance the predictive and explanatory power of epidemiological surveillance systems</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2025.12.06.692712v2">Precision-cut liver slices as a model for evaluating therapeutic agents against hepatitis B and delta viruses</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.06.692712">10.64898/2025.12.06.692712</a> · Score: <code>████░░░░░░</code> 0.411</p>
+<p><span class="label">Core Problem:</span> Background: Developing new therapeutic strategies against hepatitis B virus (HBV) and hepatitis delta virus (HDV) is essential to cure these infections</p>
+<p><span class="label">Proposed Solution:</span> Yet evaluation of host-targeting agents (HTAs) with in vitro/in vivo models remains challenging. Therefore, we assessed precision-cut liver slices (PCLS) as an HBV/HDV co-infection model to study virus-host interactions and HTAs</p>
+<p><span class="label">Key Impact:</span> In the future, PCLS could contribute to expediting pre-clinical characterization of HTAs and to exploring alternatives to animal experimentation</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.08.24.26361245v1">Proteome-Wide Antigen Discovery Reveals Compartment-Specific Humoral Responses in Coccidioidomycosis</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.24.26361245">10.64898/2026.08.24.26361245</a> · Score: <code>████░░░░░░</code> 0.410</p>
-<p><span class="label">Core Problem:</span> Coccidioidomycosis is a fungal infection of rising public health concern, with coccidioidal meningitis (CM) representing its most devastating manifestation</p>
-<p><span class="label">Proposed Solution:</span> Diagnosis of CM remains challenging due to the limited sensitivity and technical demands of conventional cerebrospinal fluid (CSF) serology testing. To comprehensively characterize the humoral immune response across the full spectrum of coccidioidal disease, we designed and deployed a proteome-wide Coccidioides phage immunoprecipitation sequencing (PhIP-Seq) library tiling both C</p>
-<p><span class="label">Key Impact:</span> These findings expand the repertoire of Coccidioides serological responses associated with disease severity and demonstrate that proteome-wide antibody discovery can be translated into a targeted, high-performance diagnostic platform</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.08.25.26361172v1">Quantifying the impact of bacterial vaccines against antibiotic resistance: accounting for transmission and selection dynamics</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.26361172">10.64898/2026.08.25.26361172</a> · Score: <code>████░░░░░░</code> 0.409</p>
+<p><span class="label">Core Problem:</span> Vaccines, by reducing bacterial infection, transmission and/or colonisation, are promising investments against the global rise of antibiotic resistance (ABR)</p>
+<p><span class="label">Proposed Solution:</span> From a public health perspective, while efforts are put in developing bacterial vaccines, anticipating their potential impact on ABR is essential. We developed a compartmental model formalising inter-individual transmission and selection pressure through both bystander and targeted antibiotic exposure</p>
+<p><span class="label">Key Impact:</span> The proposed model, which gathers the main drivers involved, provides a general framework that can be adapted to a wide range of bacterial pathogens and vaccines</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.27.747447v1">Core genome MLST reveals genetic and BafA-associated phenotypic diversities in Bartonella henselae strains</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.27.747447">10.64898/2026.08.27.747447</a> · Score: <code>████░░░░░░</code> 0.380</p>
-<p><span class="label">Core Problem:</span> Bartonella henselae is a zoonotic pathogen associated with cat-scratch disease</p>
-<p><span class="label">Proposed Solution:</span> Although multilocus sequence typing (MLST) has been used for strain classification, its resolution for distinguishing between B. henselae isolates remains limited</p>
-<p><span class="label">Key Impact:</span> henselae and demonstrate that genetically distinct strains have diverse endothelial cell phenotypes</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.27.747580v1">Slower-than-exponential viral decay is prevalent and can reshape virus-microbe dynamics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.27.747580">10.64898/2026.08.27.747580</a> · Score: <code>████░░░░░░</code> 0.389</p>
+<p><span class="label">Core Problem:</span> Viral population dynamics are shaped by production and loss</p>
+<p><span class="label">Proposed Solution:</span> For viruses of microbes, high standing levels of viral abundances are interpreted as evidence of high rates of viral-induced cellular loss and viral production, followed by rapid extracellular viral decay. Here we reassess assumptions of rapid extracellular decay in 17 curated datasets, finding that biphasic decay either fits better or is statistically indistinguishable from exponential decay in approximately half the datasets</p>
+<p><span class="label">Key Impact:</span> Together, our results suggest that durable extracellular virion persistence is environmentally relevant in shaping virus-microbe population dynamics</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -701,6 +706,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.03.27.26349549">HLA-Resolve: Four-field HLA typing and MHC variant detection from long-read hybrid capture</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.24.26360928">Modeling The Role of Variant Evolution and Population Immunity in Epidemiological Patterns of Pandemic Respiratory Viruses</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.24.26361245">Proteome-Wide Antigen Discovery Reveals Compartment-Specific Humoral Responses in Coccidioidomycosis</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.27.26360080">Wastewater and Environmental Surveillance in Cities with Sewered and Non-sewered Sanitation: Evidence from Kampala, Uganda</a><span class="history-date">Aug 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.27.747447">Core genome MLST reveals genetic and BafA-associated phenotypic diversities in Bartonella henselae strains</a><span class="history-date">Aug 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.01.722327">The Updateable Human Virome Database and toolkit: A novel framework for human virome analysis</a><span class="history-date">Aug 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.20.26360670">OXA-181 transmission confounded by a stable IncX3 plasmid</a><span class="history-date">Aug 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.21.746148">Characterization of a novel amber-reassigned Crassvirales genus infecting Segatella copri from Egypt</a><span class="history-date">Aug 27, 2026</span></li>
@@ -752,7 +762,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-08-28T09:03:44 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-08-30T10:19:40 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

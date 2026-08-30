@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-28T09:03:45.036394+00:00",
+  "generated_utc": "2026-08-30T10:19:40.569480+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "The Drosophila Secretome",
-          "doi": "10.64898/2026.08.24.746765",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746765v1",
+          "title": "G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching",
+          "doi": "10.64898/2026.08.25.746917",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746917v1",
           "source": "biorxiv",
-          "score": 0.4926
+          "score": 0.5537
         },
         {
           "rank": 2,
-          "title": "Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics",
-          "doi": "10.64898/2026.08.26.747303",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747303v1",
+          "title": "OmicsFM brings proteomics into the foundation model era",
+          "doi": "10.64898/2026.08.25.747021",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747021v1",
           "source": "biorxiv",
-          "score": 0.4669
+          "score": 0.5507
         },
         {
           "rank": 3,
-          "title": "Prognostic stratification by LGR5 expression identifies surface-accessible, structurally ligandable and condensate-forming targets in colorectal cancer",
-          "doi": "10.64898/2026.08.26.747295",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747295v1",
+          "title": "Gene expression inference from cell-free DNA using uncertainty-aware deep learning",
+          "doi": "10.64898/2026.02.10.705188",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.10.705188v2",
           "source": "biorxiv",
-          "score": 0.4613
+          "score": 0.4871
         },
         {
           "rank": 4,
-          "title": "A Scalable Cross-Modal Workflow for Linking In Vivo Neural Activity to Neuronal Cell Types via Spatial Gene Profiling",
-          "doi": "10.64898/2026.08.26.747400",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747400v1",
+          "title": "A pretrained unified model enables cellular functional profile prediction and multi-objective virtual drug screening",
+          "doi": "10.64898/2026.08.25.746866",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746866v1",
           "source": "biorxiv",
-          "score": 0.4579
+          "score": 0.4823
         },
         {
           "rank": 5,
-          "title": "Proteome modulation by opposite inotropic drugs in human engineered cardiac tissue revealed by topology-driven cross-modal integration",
-          "doi": "10.64898/2026.08.25.746955",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746955v1",
+          "title": "Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.",
+          "doi": "10.64898/2026.08.25.747056",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747056v1",
           "source": "biorxiv",
-          "score": 0.4435
+          "score": 0.476
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "HLA-Resolve: Four-field HLA typing and MHC variant detection from long-read hybrid capture",
-          "doi": "10.64898/2026.03.27.26349549",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.03.27.26349549v4",
-          "source": "medrxiv",
-          "score": 0.5769
+          "title": "Functional profiling of spacecraft cleanroom microbiomes through genome-wide phenotype predictions",
+          "doi": "10.64898/2026.08.28.747777",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747777v1",
+          "source": "biorxiv",
+          "score": 0.5135
         },
         {
           "rank": 2,
-          "title": "Wastewater and Environmental Surveillance in Cities with Sewered and Non-sewered Sanitation: Evidence from Kampala, Uganda",
-          "doi": "10.64898/2026.08.27.26360080",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.27.26360080v1",
-          "source": "medrxiv",
-          "score": 0.4156
+          "title": "An Open Benchmark for Systems Vaccinology: Insights from the CMI-PB Challenges",
+          "doi": "10.64898/2026.08.25.746820",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746820v1",
+          "source": "biorxiv",
+          "score": 0.4218
         },
         {
           "rank": 3,
-          "title": "Modeling The Role of Variant Evolution and Population Immunity in Epidemiological Patterns of Pandemic Respiratory Viruses",
-          "doi": "10.64898/2026.08.24.26360928",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.24.26360928v1",
-          "source": "medrxiv",
-          "score": 0.4111
+          "title": "Precision-cut liver slices as a model for evaluating therapeutic agents against hepatitis B and delta viruses",
+          "doi": "10.64898/2025.12.06.692712",
+          "url": "https://www.biorxiv.org/content/10.64898/2025.12.06.692712v2",
+          "source": "biorxiv",
+          "score": 0.4109
         },
         {
           "rank": 4,
-          "title": "Proteome-Wide Antigen Discovery Reveals Compartment-Specific Humoral Responses in Coccidioidomycosis",
-          "doi": "10.64898/2026.08.24.26361245",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.24.26361245v1",
+          "title": "Quantifying the impact of bacterial vaccines against antibiotic resistance: accounting for transmission and selection dynamics",
+          "doi": "10.64898/2026.08.25.26361172",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.25.26361172v1",
           "source": "medrxiv",
-          "score": 0.4098
+          "score": 0.4094
         },
         {
           "rank": 5,
-          "title": "Core genome MLST reveals genetic and BafA-associated phenotypic diversities in Bartonella henselae strains",
-          "doi": "10.64898/2026.08.27.747447",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747447v1",
+          "title": "Slower-than-exponential viral decay is prevalent and can reshape virus-microbe dynamics",
+          "doi": "10.64898/2026.08.27.747580",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747580v1",
           "source": "biorxiv",
-          "score": 0.38
+          "score": 0.3886
         }
       ]
     }
