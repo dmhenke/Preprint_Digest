@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>August 30, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>August 31, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching</a></li>
-  <li><a href="#core-article-2">OmicsFM brings proteomics into the foundation model era</a></li>
-  <li><a href="#core-article-3">Gene expression inference from cell-free DNA using uncertainty-aware deep learning</a></li>
-  <li><a href="#core-article-4">A pretrained unified model enables cellular functional profile prediction and multi-objective virtual drug screening</a></li>
-  <li><a href="#core-article-5">Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.</a></li>
+  <li><a href="#core-article-1">Chemi-Proteome Language Attention Network Empowers Fragment-Based Ligand Interactome and Binding Sites Discovery with Evidence</a></li>
+  <li><a href="#core-article-2">RegimeFormer: A Large Protein Model of Global Perturbation Regimes</a></li>
+  <li><a href="#core-article-3">Extracellular matrix composition is associated with tissue-specific decellularization susceptibility and mechanical remodeling across human urogenital tissues</a></li>
+  <li><a href="#core-article-4">Vipsania: Unsupervised Deep Gene Finding</a></li>
+  <li><a href="#core-article-5">A thermodynamic framework for mapping elastic recoil mechanism across the human proteome</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746917v1">G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.746917">10.64898/2026.08.25.746917</a> · Score: <code>██████░░░░</code> 0.554</p>
-<p><span class="label">Core Problem:</span> Single-cell RNA sequencing (scRNA-seq) profiles transcriptomes at high resolution but discards the spatial context of cells within a tissue -- information that is essential for studying intercellular mechanisms and tissue architecture</p>
-<p><span class="label">Proposed Solution:</span> Spatial transcriptomics (ST) retains coordinates but, depending on the assay, trades this off against gene-panel breadth, spatial resolution, or cost. We present G2T (Gene-to-Tissue), a generative deep learning model that reassembles a tissue from gene expression -- its only observed input -- by predicting the matrix of pairwise distances between cells in a learned embedding space</p>
-<p><span class="label">Key Impact:</span> By predicting this geometry in a higher-dimensional embedding space rather than regressing 2-D coordinates, G2T relaxes the 2-D output parameterisation of prior diffusion-based methods and yields a compact, scalable building block for reconstructing tissue from dissociated cells, enabling downstream spatial niche and cell-cell communication analysis</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.26.747036v1">Chemi-Proteome Language Attention Network Empowers Fragment-Based Ligand Interactome and Binding Sites Discovery with Evidence</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.26.747036">10.64898/2026.08.26.747036</a> · Score: <code>█████░░░░░</code> 0.532</p>
+<p><span class="label">Core Problem:</span> Deep learning has accelerated drug discovery, yet most existing models are trained using in vitro affinity datasets and consequently remain disconnected from the cellular context in which functional ligand-protein interactions occur</p>
+<p><span class="label">Proposed Solution:</span> This limitation hinders the ability to reflect the complexity of native interactomes and characterize biological responses to molecular perturbation. Here we introduce C-PLANK (Chemi-Proteome Language Attention NetworK), a deep learning framework trained on fragment-protein interactions profiled directly in living cells using fully functionalized fragment (FFF) chemoproteomics</p>
+<p><span class="label">Key Impact:</span> By learning directly from cellular chemoproteomics, C-PLANK moves beyond isolated interaction prediction toward cellular interaction-state modelling, establishing a computational foundation for future digital-twin frameworks in drug discovery</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.747021v1">OmicsFM brings proteomics into the foundation model era</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.747021">10.64898/2026.08.25.747021</a> · Score: <code>██████░░░░</code> 0.551</p>
-<p><span class="label">Core Problem:</span> While foundation models have been shown to learn biological representations from large transcriptomic atlases, it remained unknown whether proteomics data allow the same</p>
-<p><span class="label">Proposed Solution:</span> We here therefore introduce OmicsFM, a modality-agnostic transformer pretrained through masked abundance reconstruction on an unprecedented proteomics data corpus of 48,837 quality-filtered proteomics profiles from 1,397 reprocessed PRIDE projects. Interestingly, despite training on 14- to 93-fold fewer profiles than matched bulk- and single-cell transcriptomic models, respectively, our proteomics model rivals both</p>
-<p><span class="label">Key Impact:</span> OmicsFM thus firmly establishes the possibility of training highly performant proteomics-based foundation models, and their importance in modelling and uncovering fundamental biology</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.26.747182v1">RegimeFormer: A Large Protein Model of Global Perturbation Regimes</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.26.747182">10.64898/2026.08.26.747182</a> · Score: <code>████░░░░░░</code> 0.404</p>
+<p><span class="label">Core Problem:</span> Protein language models organize sequence and structure at scale, but a global representation of how proteins respond to mutation remains lacking</p>
+<p><span class="label">Proposed Solution:</span> We present RegimeFormer, a large protein perturbation model coupled to RegimeAtlas, constructed by harmonizing and indexing 202,556,313 non-redundant protein sequences across the tree of life. A diversity-preserving one-million-protein subset provides the high-resolution training and inference layer, with 995,995 proteins yielding residue-level summaries across 407,048,356 residues and substitution-specific predictions available on demand</p>
+<p><span class="label">Key Impact:</span> Together, RegimeFormer and RegimeAtlas provide a scalable framework for mapping, predicting and querying protein perturbation landscapes across global sequence space</p>
+<p><span class="label">Methodology:</span> Deep Mutational Scanning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.02.10.705188v2">Gene expression inference from cell-free DNA using uncertainty-aware deep learning</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.02.10.705188">10.64898/2026.02.10.705188</a> · Score: <code>█████░░░░░</code> 0.487</p>
-<p><span class="label">Core Problem:</span> Tumor gene expression profiling provides crucial diagnostic information for guiding therapy, but standard tissue biopsies are invasive, spatially biased, and may inadequately sample metastatic disease</p>
-<p><span class="label">Proposed Solution:</span> Cell-free DNA (cfDNA) provides a minimally invasive alternative for tumor genotyping, yet reconstructing robust, transcriptome-wide expression from standard-depth cfDNA whole-genome sequencing (WGS) remains a major challenge. We developed a deep learning framework comprising Triton, for comprehensive cfDNA feature extraction, and Proteus, a probabilistic model that infers single-gene expression from standard-depth cfDNA WGS</p>
-<p><span class="label">Key Impact:</span> Proteus further enabled assessment of therapeutic target activity, prognostic transcriptional programs, and candidate treatment-emergent resistance states, establishing a generalizable framework for minimally invasive functional genomics in precision oncology</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747607v1">Extracellular matrix composition is associated with tissue-specific decellularization susceptibility and mechanical remodeling across human urogenital tissues</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747607">10.64898/2026.08.28.747607</a> · Score: <code>████░░░░░░</code> 0.384</p>
+<p><span class="label">Core Problem:</span> Decellularized extracellular matrices (ECMs) are widely used in regenerative medicine, yet current evaluation criteria prioritize cellular removal rather than preservation of the ECM characteristics that govern tissue behavior</p>
+<p><span class="label">Proposed Solution:</span> Here, we demonstrate that efficient decellularization is achieved across a broad range of chemical conditions, whereas preservation of structurally and biologically relevant ECM components is confined to narrow, tissue-specific windows defined by coupled detergent interactions. Quantitative proteomics revealed that intrinsic ECM composition is strongly associated with tissue-specific susceptibility to decellularization-induced damage and provided molecular context for the distinct preservation responses between tissues</p>
+<p><span class="label">Key Impact:</span> Together, these findings support a shift in decellularization quality assessment from DNA-based evaluation toward preservation of biologically relevant ECM and establish a composition-driven strategy for the rational design of regenerative biomaterials with tissue-relevant biological and mechanical properties</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746866v1">A pretrained unified model enables cellular functional profile prediction and multi-objective virtual drug screening</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.746866">10.64898/2026.08.25.746866</a> · Score: <code>█████░░░░░</code> 0.482</p>
-<p><span class="label">Core Problem:</span> Cells are characterized by molecular states, coordinated molecular interactions, regulatory programs, and responses to perturbations</p>
-<p><span class="label">Proposed Solution:</span> Systematic mapping of these cellular functional profiles across biological contexts remains experimentally costly and fragmented. Here we present InsilicoCell, a pretrained multi-modal, multi-task model that unifies prediction of cellular functional profiles spanning molecular states, molecular interactions, and perturbation-induced responses</p>
-<p><span class="label">Key Impact:</span> Together, InsilicoCell provides a scalable framework for predictive cellular biology and therapeutic discovery</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.26.747235v1">Vipsania: Unsupervised Deep Gene Finding</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.26.747235">10.64898/2026.08.26.747235</a> · Score: <code>████░░░░░░</code> 0.369</p>
+<p><span class="label">Core Problem:</span> Scaling the structural annotation of protein-coding genes to all eukaryotic genomes remains a major challenge</p>
+<p><span class="label">Proposed Solution:</span> While recent deep learning methods rival evidence-based pipelines without requiring RNA-seq or alignments, they are entirely supervised. They depend on large, high-quality training sets from diverse genomes, leaving many basal eukaryotic clades without an accurate ab initio gene finder</p>
+<p><span class="label">Key Impact:</span> com/gaius-augustus/vipsania</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.747056v1">Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.747056">10.64898/2026.08.25.747056</a> · Score: <code>█████░░░░░</code> 0.476</p>
-<p><span class="label">Core Problem:</span> Cell-to-cell transcriptional heterogeneity, or noise, is an intrinsic property of the transcriptome with implications for development, disease progression, and aging</p>
-<p><span class="label">Proposed Solution:</span> Bulk RNA-seq masks this variability by averaging gene expression across cells, whereas single-cell RNA sequencing (scRNA-seq) resolves it. Nevertheless, separating biological noise from technical variance remains challenging, particularly across platforms with different chemistries</p>
-<p><span class="label">Key Impact:</span> This study establishes a platform-independent basis for quantifying transcriptional noise and a framework for selecting an appropriate scRNA-seq platform</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747957v1">A thermodynamic framework for mapping elastic recoil mechanism across the human proteome</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747957">10.64898/2026.08.28.747957</a> · Score: <code>████░░░░░░</code> 0.354</p>
+<p><span class="label">Core Problem:</span> The folding thermodynamics of proteins are dominated by two opposing forces, the loss in backbone entropy and the packing of hydrophobic groups</p>
+<p><span class="label">Proposed Solution:</span> The same forces are major contributors to the extension thermodynamics of elastic proteins with the distinction that both processes act in concert, favoring the higher chain and solvent entropy of a relaxed conformation. The relative entropic contributions specify the recoil mechanism; human elastin recoil is primarily driven by hydrophobic forces, whereas fly resilin has a rubber-like mechanism driven by backbone entropy</p>
+<p><span class="label">Key Impact:</span> Some of these domains are anticipated to have roles within molecular machines, expanding the scope of elastic protein function beyond mechanical materials like elastin and resilin</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.02.10.705188">Gene expression inference from cell-free DNA using uncertainty-aware deep learning</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.25.746866">A pretrained unified model enables cellular functional profile prediction and multi-objective virtual drug screening</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.25.746917">G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.25.747021">OmicsFM brings proteomics into the foundation model era</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.25.747056">Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.</a><span class="history-date">Aug 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.24.746765">The Drosophila Secretome</a><span class="history-date">Aug 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.25.746955">Proteome modulation by opposite inotropic drugs in human engineered cardiac tissue revealed by topology-driven cross-modal integration</a><span class="history-date">Aug 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.26.747295">Prognostic stratification by LGR5 expression identifies surface-accessible, structurally ligandable and condensate-forming targets in colorectal cancer</a><span class="history-date">Aug 28, 2026</span></li>
@@ -648,57 +653,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Functional profiling of spacecraft cleanroom microbiomes through genome-wide phenotype predictions</a></li>
-  <li><a href="#virology-article-2">An Open Benchmark for Systems Vaccinology: Insights from the CMI-PB Challenges</a></li>
-  <li><a href="#virology-article-3">Precision-cut liver slices as a model for evaluating therapeutic agents against hepatitis B and delta viruses</a></li>
-  <li><a href="#virology-article-4">Quantifying the impact of bacterial vaccines against antibiotic resistance: accounting for transmission and selection dynamics</a></li>
-  <li><a href="#virology-article-5">Slower-than-exponential viral decay is prevalent and can reshape virus-microbe dynamics</a></li>
+  <li><a href="#virology-article-1">PhageTransformer - scalable and accurate host assignments for bacteriophages</a></li>
+  <li><a href="#virology-article-2">Isolation and characterisation of Nipah virus neutralising candidate therapeutic monoclonal antibodies from an mRNA-immunised pig</a></li>
+  <li><a href="#virology-article-3">PfAMA1-expressing chimeric rodent malaria parasites provide an in vivo platform for evaluating multistage interventions against malaria</a></li>
+  <li><a href="#virology-article-4">A Low Containment CCHFV Entry Screening Platform Identifies Compounds with Antiviral Activity against Authentic CCHFV</a></li>
+  <li><a href="#virology-article-5">Metabolite co-variation networks reveal keystone functions and an emergent pathogen state in the human urobiome.</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747777v1">Functional profiling of spacecraft cleanroom microbiomes through genome-wide phenotype predictions</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747777">10.64898/2026.08.28.747777</a> · Score: <code>█████░░░░░</code> 0.514</p>
-<p><span class="label">Core Problem:</span> Current planetary protection approaches rely heavily on spore-based tests developed for Mars missions and may not adequately assess contamination risks for icy ocean worlds such as Europa</p>
-<p><span class="label">Proposed Solution:</span> We developed a genome-based framework combining deep shotgun metagenomics and supervised machine learning to predict survival-relevant microbial traits in ESA JUICE launch-site cleanrooms. From 183 genome bins, 25 representative genomes were analyzed for traits including cryotolerance, desiccation tolerance, salt resilience, anaerobic metabolism, autotrophy, and sporulation</p>
-<p><span class="label">Key Impact:</span> This framework complements current planetary protection assays, helps to predict how microbes would survive in a new biotope, and supports functional, risk-informed contamination monitoring for future space missions</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.29.748026v1">PhageTransformer - scalable and accurate host assignments for bacteriophages</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.29.748026">10.64898/2026.08.29.748026</a> · Score: <code>█████░░░░░</code> 0.494</p>
+<p><span class="label">Core Problem:</span> Bacteriophages can only be understood through their interactions with bacterial hosts</p>
+<p><span class="label">Proposed Solution:</span> As environmental sequencing efforts expanded, the number of available phage genome sequences has exploded, yet the vast majority of these sequences lack host information. Predicting the host of a newly observed phage is therefore a key challenge in virology</p>
+<p><span class="label">Key Impact:</span> We benchmark PT against existing tools on 3,881 independent phage-host pairs from GenBank and public HiC data, and demonstrate that it achieves competitive or superior prediction accuracy at greatly reduced runtime</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746820v1">An Open Benchmark for Systems Vaccinology: Insights from the CMI-PB Challenges</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.746820">10.64898/2026.08.25.746820</a> · Score: <code>████░░░░░░</code> 0.422</p>
-<p><span class="label">Core Problem:</span> Systems vaccinology approaches have identified factors affecting vaccine responses in multiple studies, but the ability of computational models to generalize these findings to unseen data remains unclear</p>
-<p><span class="label">Proposed Solution:</span> We established a community resource to create and compare models predicting B. pertussis booster vaccination responses and put such modeling approaches to the test</p>
-<p><span class="label">Key Impact:</span> We established the resulting datasets and evaluation framework as a community resource to advance predictive immunology and facilitate personalized vaccination strategies</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.745669v1">Isolation and characterisation of Nipah virus neutralising candidate therapeutic monoclonal antibodies from an mRNA-immunised pig</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.745669">10.64898/2026.08.28.745669</a> · Score: <code>████░░░░░░</code> 0.389</p>
+<p><span class="label">Core Problem:</span> Nipah virus (NiV) is a highly pathogenic zoonotic paramyxovirus with epidemic potential</p>
+<p><span class="label">Proposed Solution:</span> Despite the threat NiV poses, no therapeutics are licensed to treat infection. Studies have shown that monoclonal antibodies (mAb) can protect animals against NiV and the related Hendra virus (HeV)</p>
+<p><span class="label">Key Impact:</span> Collectively, these data demonstrate the potential of the porcine model for isolation of therapeutic candidate mAbs, which contribute both to our understanding of the NiV G antigenic landscape, and the development of mAb combinations, that exert complementary mechanisms of neutralisation, for therapeutic intervention</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2025.12.06.692712v2">Precision-cut liver slices as a model for evaluating therapeutic agents against hepatitis B and delta viruses</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.06.692712">10.64898/2025.12.06.692712</a> · Score: <code>████░░░░░░</code> 0.411</p>
-<p><span class="label">Core Problem:</span> Background: Developing new therapeutic strategies against hepatitis B virus (HBV) and hepatitis delta virus (HDV) is essential to cure these infections</p>
-<p><span class="label">Proposed Solution:</span> Yet evaluation of host-targeting agents (HTAs) with in vitro/in vivo models remains challenging. Therefore, we assessed precision-cut liver slices (PCLS) as an HBV/HDV co-infection model to study virus-host interactions and HTAs</p>
-<p><span class="label">Key Impact:</span> In the future, PCLS could contribute to expediting pre-clinical characterization of HTAs and to exploring alternatives to animal experimentation</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747760v1">PfAMA1-expressing chimeric rodent malaria parasites provide an in vivo platform for evaluating multistage interventions against malaria</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747760">10.64898/2026.08.28.747760</a> · Score: <code>████░░░░░░</code> 0.385</p>
+<p><span class="label">Core Problem:</span> Apical membrane antigen 1 (AMA1) is expressed in the merozoite and sporozoite infectious stages of the malaria parasite, and upon secretion plays essential roles during host cell invasion</p>
+<p><span class="label">Proposed Solution:</span> AMA1 is a leading candidate for vaccine development, although specific antibodies frequently fail to inhibit the growth of field-isolated Plasmodium falciparum malaria parasites, likely due to the high diversity of polymorphisms in AMA1 surface antigens. A key step for efficient invasion of target cells is tight junction formation through interaction of merozoite-surface AMA1 and rhoptry neck protein 2 (RON2), which is secreted and embedded within the erythrocyte membrane</p>
+<p><span class="label">Key Impact:</span> Together, these chimeric parasites establish an in vivo platform for evaluating multistage and multi-antigen interventions against malaria</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.08.25.26361172v1">Quantifying the impact of bacterial vaccines against antibiotic resistance: accounting for transmission and selection dynamics</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.25.26361172">10.64898/2026.08.25.26361172</a> · Score: <code>████░░░░░░</code> 0.409</p>
-<p><span class="label">Core Problem:</span> Vaccines, by reducing bacterial infection, transmission and/or colonisation, are promising investments against the global rise of antibiotic resistance (ABR)</p>
-<p><span class="label">Proposed Solution:</span> From a public health perspective, while efforts are put in developing bacterial vaccines, anticipating their potential impact on ABR is essential. We developed a compartmental model formalising inter-individual transmission and selection pressure through both bystander and targeted antibiotic exposure</p>
-<p><span class="label">Key Impact:</span> The proposed model, which gathers the main drivers involved, provides a general framework that can be adapted to a wide range of bacterial pathogens and vaccines</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747751v1">A Low Containment CCHFV Entry Screening Platform Identifies Compounds with Antiviral Activity against Authentic CCHFV</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747751">10.64898/2026.08.28.747751</a> · Score: <code>████░░░░░░</code> 0.354</p>
+<p><span class="label">Core Problem:</span> Backgrounds Crimean-Congo hemorrhagic fever virus (CCHFV) is a tick-borne nairovirus that can cause severe human disease in the endemic areas, and no licensed antiviral is broadly available</p>
+<p><span class="label">Proposed Solution:</span> Antiviral discovery is constrained by the requirement to study authentic CCHFV under biosafety level 4 (BSL-4) containment, creating a need for lower-containment platforms. Here, we evaluated whether a CCHFV glycoprotein-based BSL-2 pseudotyped vesicular stomatitis virus (VSV) screening workflow could identify small-molecule entry inhibitors with antiviral activity against authentic CCHFV</p>
+<p><span class="label">Key Impact:</span> The identification of eltrombopag olamine and quercetin provides small-molecule candidates for further investigation of CCHFV entry inhibition and demonstrates the utility of this workflow for CCHFV antiviral discovery</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.27.747580v1">Slower-than-exponential viral decay is prevalent and can reshape virus-microbe dynamics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.27.747580">10.64898/2026.08.27.747580</a> · Score: <code>████░░░░░░</code> 0.389</p>
-<p><span class="label">Core Problem:</span> Viral population dynamics are shaped by production and loss</p>
-<p><span class="label">Proposed Solution:</span> For viruses of microbes, high standing levels of viral abundances are interpreted as evidence of high rates of viral-induced cellular loss and viral production, followed by rapid extracellular viral decay. Here we reassess assumptions of rapid extracellular decay in 17 curated datasets, finding that biphasic decay either fits better or is statistically indistinguishable from exponential decay in approximately half the datasets</p>
-<p><span class="label">Key Impact:</span> Together, our results suggest that durable extracellular virion persistence is environmentally relevant in shaping virus-microbe population dynamics</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.08.29.748013v1">Metabolite co-variation networks reveal keystone functions and an emergent pathogen state in the human urobiome.</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.29.748013">10.64898/2026.08.29.748013</a> · Score: <code>███░░░░░░░</code> 0.334</p>
+<p><span class="label">Core Problem:</span> Microbial communities are dynamic, adaptive ecosystems whose collective behavior emerges from metabolic interactions such as cross-feeding, competition, and cooperation, rather than taxonomic diversity or individual metabolic potential alone</p>
+<p><span class="label">Proposed Solution:</span> This distinction is clinically significant in the postmenopausal urinary tract, where recurrent urinary tract infections (rUTIs) are associated with complex, persistent infection dynamics including multiple contributing bacterial species. The ability of resident microbial communities to prevent pathogen establishment, known as colonization resistance, is increasingly attributed to the metabolic interactions within the urobiome itself rather than any single resident species</p>
+<p><span class="label">Key Impact:</span> This framework provides a template that can be extended beyond the urobiome to investigate any complex microbial community where ecological behavior remains an open question</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -706,6 +711,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2025.12.06.692712">Precision-cut liver slices as a model for evaluating therapeutic agents against hepatitis B and delta viruses</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.25.26361172">Quantifying the impact of bacterial vaccines against antibiotic resistance: accounting for transmission and selection dynamics</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.25.746820">An Open Benchmark for Systems Vaccinology: Insights from the CMI-PB Challenges</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.27.747580">Slower-than-exponential viral decay is prevalent and can reshape virus-microbe dynamics</a><span class="history-date">Aug 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.28.747777">Functional profiling of spacecraft cleanroom microbiomes through genome-wide phenotype predictions</a><span class="history-date">Aug 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.27.26349549">HLA-Resolve: Four-field HLA typing and MHC variant detection from long-read hybrid capture</a><span class="history-date">Aug 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.24.26360928">Modeling The Role of Variant Evolution and Population Immunity in Epidemiological Patterns of Pandemic Respiratory Viruses</a><span class="history-date">Aug 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.24.26361245">Proteome-Wide Antigen Discovery Reveals Compartment-Specific Humoral Responses in Coccidioidomycosis</a><span class="history-date">Aug 28, 2026</span></li>
@@ -762,7 +772,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-08-30T10:19:40 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-08-31T09:01:31 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

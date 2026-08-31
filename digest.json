@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-08-30T10:19:40.569480+00:00",
+  "generated_utc": "2026-08-31T09:01:31.656052+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching",
-          "doi": "10.64898/2026.08.25.746917",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746917v1",
+          "title": "Chemi-Proteome Language Attention Network Empowers Fragment-Based Ligand Interactome and Binding Sites Discovery with Evidence",
+          "doi": "10.64898/2026.08.26.747036",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747036v1",
           "source": "biorxiv",
-          "score": 0.5537
+          "score": 0.5317
         },
         {
           "rank": 2,
-          "title": "OmicsFM brings proteomics into the foundation model era",
-          "doi": "10.64898/2026.08.25.747021",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747021v1",
+          "title": "RegimeFormer: A Large Protein Model of Global Perturbation Regimes",
+          "doi": "10.64898/2026.08.26.747182",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747182v1",
           "source": "biorxiv",
-          "score": 0.5507
+          "score": 0.4042
         },
         {
           "rank": 3,
-          "title": "Gene expression inference from cell-free DNA using uncertainty-aware deep learning",
-          "doi": "10.64898/2026.02.10.705188",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.02.10.705188v2",
+          "title": "Extracellular matrix composition is associated with tissue-specific decellularization susceptibility and mechanical remodeling across human urogenital tissues",
+          "doi": "10.64898/2026.08.28.747607",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747607v1",
           "source": "biorxiv",
-          "score": 0.4871
+          "score": 0.3844
         },
         {
           "rank": 4,
-          "title": "A pretrained unified model enables cellular functional profile prediction and multi-objective virtual drug screening",
-          "doi": "10.64898/2026.08.25.746866",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746866v1",
+          "title": "Vipsania: Unsupervised Deep Gene Finding",
+          "doi": "10.64898/2026.08.26.747235",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747235v1",
           "source": "biorxiv",
-          "score": 0.4823
+          "score": 0.3694
         },
         {
           "rank": 5,
-          "title": "Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.",
-          "doi": "10.64898/2026.08.25.747056",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747056v1",
+          "title": "A thermodynamic framework for mapping elastic recoil mechanism across the human proteome",
+          "doi": "10.64898/2026.08.28.747957",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747957v1",
           "source": "biorxiv",
-          "score": 0.476
+          "score": 0.3535
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Functional profiling of spacecraft cleanroom microbiomes through genome-wide phenotype predictions",
-          "doi": "10.64898/2026.08.28.747777",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747777v1",
+          "title": "PhageTransformer - scalable and accurate host assignments for bacteriophages",
+          "doi": "10.64898/2026.08.29.748026",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.29.748026v1",
           "source": "biorxiv",
-          "score": 0.5135
+          "score": 0.4941
         },
         {
           "rank": 2,
-          "title": "An Open Benchmark for Systems Vaccinology: Insights from the CMI-PB Challenges",
-          "doi": "10.64898/2026.08.25.746820",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746820v1",
+          "title": "Isolation and characterisation of Nipah virus neutralising candidate therapeutic monoclonal antibodies from an mRNA-immunised pig",
+          "doi": "10.64898/2026.08.28.745669",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.745669v1",
           "source": "biorxiv",
-          "score": 0.4218
+          "score": 0.389
         },
         {
           "rank": 3,
-          "title": "Precision-cut liver slices as a model for evaluating therapeutic agents against hepatitis B and delta viruses",
-          "doi": "10.64898/2025.12.06.692712",
-          "url": "https://www.biorxiv.org/content/10.64898/2025.12.06.692712v2",
+          "title": "PfAMA1-expressing chimeric rodent malaria parasites provide an in vivo platform for evaluating multistage interventions against malaria",
+          "doi": "10.64898/2026.08.28.747760",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747760v1",
           "source": "biorxiv",
-          "score": 0.4109
+          "score": 0.3848
         },
         {
           "rank": 4,
-          "title": "Quantifying the impact of bacterial vaccines against antibiotic resistance: accounting for transmission and selection dynamics",
-          "doi": "10.64898/2026.08.25.26361172",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.25.26361172v1",
-          "source": "medrxiv",
-          "score": 0.4094
+          "title": "A Low Containment CCHFV Entry Screening Platform Identifies Compounds with Antiviral Activity against Authentic CCHFV",
+          "doi": "10.64898/2026.08.28.747751",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747751v1",
+          "source": "biorxiv",
+          "score": 0.3542
         },
         {
           "rank": 5,
-          "title": "Slower-than-exponential viral decay is prevalent and can reshape virus-microbe dynamics",
-          "doi": "10.64898/2026.08.27.747580",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747580v1",
+          "title": "Metabolite co-variation networks reveal keystone functions and an emergent pathogen state in the human urobiome.",
+          "doi": "10.64898/2026.08.29.748013",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.29.748013v1",
           "source": "biorxiv",
-          "score": 0.3886
+          "score": 0.334
         }
       ]
     }
