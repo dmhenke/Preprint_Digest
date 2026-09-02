@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-01T09:04:04.501531+00:00",
+  "generated_utc": "2026-09-02T09:04:25.618525+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Pathway Modeling of Genomic and Tissue-Specific Transcriptomic Architecture Identifies Personalized Mechanisms of Atrial Fibrillation Risk",
-          "doi": "10.64898/2026.08.25.26361369",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.25.26361369v1",
-          "source": "medrxiv",
-          "score": 0.5391
+          "title": "RECON infers regions of interest from H&E images and reconstructs whole-slide molecular profiles at single-cell resolution",
+          "doi": "10.64898/2026.08.25.747122",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747122v1",
+          "source": "biorxiv",
+          "score": 0.5776
         },
         {
           "rank": 2,
-          "title": "Distal-less homeobox 5 gives rise to myofibroblastic carcinoma-associated fibroblasts to promote collective breast cancer invasion",
-          "doi": "10.64898/2026.08.30.745418",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.30.745418v1",
+          "title": "Function-driven geometry directs human pilosebaceous unit development",
+          "doi": "10.64898/2026.08.31.745265",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.745265v1",
           "source": "biorxiv",
-          "score": 0.4472
+          "score": 0.5141
         },
         {
           "rank": 3,
-          "title": "Metastatic founder cell candidates resemble preimplantation embryonic blastomeres",
-          "doi": "10.64898/2026.08.28.747818",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747818v1",
+          "title": "Sphingolipid metabolism-related genes as key regulatory hubs in white smoke inhalation induced lung injury",
+          "doi": "10.64898/2026.08.26.747407",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747407v1",
           "source": "biorxiv",
-          "score": 0.4279
+          "score": 0.4585
         },
         {
           "rank": 4,
-          "title": "BTRR complex deficiency is a driver for genomic instability in Bloom syndrome",
-          "doi": "10.1101/2025.04.17.649287",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.04.17.649287v2",
+          "title": "Spatial Transcriptomics As Rasterized Image Tensors (STARIT) characterizes cell states with subcellular molecular heterogeneity",
+          "doi": "10.64898/2025.12.18.695193",
+          "url": "https://www.biorxiv.org/content/10.64898/2025.12.18.695193v2",
           "source": "biorxiv",
-          "score": 0.4259
+          "score": 0.4328
         },
         {
           "rank": 5,
-          "title": "Single-Cell Inference of Structural States Of Ribosomes",
-          "doi": "10.64898/2026.08.29.747780",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.29.747780v1",
+          "title": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone",
+          "doi": "10.64898/2026.08.26.747321",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747321v1",
           "source": "biorxiv",
-          "score": 0.4152
+          "score": 0.432
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "INTerrupting prolifERation of Carbapenem resistance in Indonesia: clinical and genomic Evaluation of Pathways of Transmission (INTERCEPT) : a Study Protocol",
-          "doi": "10.64898/2026.08.28.26361608",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361608v1",
-          "source": "medrxiv",
-          "score": 0.4406
+          "title": "AmPair: automating housekeeping-gene primer design for species-level metataxonomics",
+          "doi": "10.64898/2026.08.25.746527",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746527v1",
+          "source": "biorxiv",
+          "score": 0.5326
         },
         {
           "rank": 2,
-          "title": "Understanding RSV Resurgence Following COVID-19 in Ontario, Canada: Evaluating the Roles of Contact Patterns and Maternal Immunity",
-          "doi": "10.64898/2026.08.28.26361657",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361657v1",
-          "source": "medrxiv",
-          "score": 0.4012
+          "title": "Mutational constraints on RSV F and its neutralization by antibodies",
+          "doi": "10.64898/2026.02.12.705519",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.12.705519v3",
+          "source": "biorxiv",
+          "score": 0.4758
         },
         {
           "rank": 3,
-          "title": "Trends in incidence and antimicrobial resistance for five major causes of bacteraemia in a Canadian metropolitan area, 2006-22: a genomic and antimicrobial use cohort study",
-          "doi": "10.64898/2026.08.27.26361471",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.27.26361471v1",
-          "source": "medrxiv",
-          "score": 0.3954
+          "title": "Comparative genomics of clinical isolates of Pseudomonas aeruginosa from cystic fibrosis patients in Mexico",
+          "doi": "10.64898/2026.08.28.747926",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747926v1",
+          "source": "biorxiv",
+          "score": 0.441
         },
         {
           "rank": 4,
-          "title": "Tc17-driven antibody-independent mucosal immunity is critical for protection against extracellular bacterial pneumonia",
-          "doi": "10.64898/2026.08.26.747429",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747429v1",
+          "title": "Exploratory multi-omics analysis reveals sex-specific differences in microbial response to antibiotic exposure",
+          "doi": "10.64898/2026.09.01.748584",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748584v1",
           "source": "biorxiv",
-          "score": 0.3859
+          "score": 0.433
         },
         {
           "rank": 5,
-          "title": "Decoding Humoral Immunity During Acute MPXV Infection via Comprehensive Serological Analysis and Antigen-agnostic Monoclonal Antibody Profiling",
-          "doi": "10.64898/2026.08.21.26360138",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26360138v1",
-          "source": "medrxiv",
-          "score": 0.3805
+          "title": "Inheritance of a Single Edited CD46 Allele Is Associated with Reduced Ex Vivo Susceptibility to Bovine Viral Diarrhea Virus",
+          "doi": "10.64898/2026.08.31.748238",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748238v1",
+          "source": "biorxiv",
+          "score": 0.3919
         }
       ]
     }
