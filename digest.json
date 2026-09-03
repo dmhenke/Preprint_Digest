@@ -1,48 +1,16 @@
 {
-  "generated_utc": "2026-09-02T09:04:25.618525+00:00",
+  "generated_utc": "2026-09-03T09:03:17.868516+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "RECON infers regions of interest from H&E images and reconstructs whole-slide molecular profiles at single-cell resolution",
-          "doi": "10.64898/2026.08.25.747122",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747122v1",
-          "source": "biorxiv",
-          "score": 0.5776
-        },
-        {
-          "rank": 2,
-          "title": "Function-driven geometry directs human pilosebaceous unit development",
-          "doi": "10.64898/2026.08.31.745265",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.745265v1",
-          "source": "biorxiv",
-          "score": 0.5141
-        },
-        {
-          "rank": 3,
-          "title": "Sphingolipid metabolism-related genes as key regulatory hubs in white smoke inhalation induced lung injury",
-          "doi": "10.64898/2026.08.26.747407",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747407v1",
-          "source": "biorxiv",
-          "score": 0.4585
-        },
-        {
-          "rank": 4,
-          "title": "Spatial Transcriptomics As Rasterized Image Tensors (STARIT) characterizes cell states with subcellular molecular heterogeneity",
-          "doi": "10.64898/2025.12.18.695193",
-          "url": "https://www.biorxiv.org/content/10.64898/2025.12.18.695193v2",
-          "source": "biorxiv",
-          "score": 0.4328
-        },
-        {
-          "rank": 5,
-          "title": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone",
-          "doi": "10.64898/2026.08.26.747321",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747321v1",
-          "source": "biorxiv",
-          "score": 0.432
+          "title": "Making Accelerating Medicines Partnership Data Findable and Interoperable through a Common Data Model: Extending OMOP for Multi-Source Multimodal Data",
+          "doi": "10.64898/2026.08.31.26361831",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361831v1",
+          "source": "medrxiv",
+          "score": 0.2991
         }
       ]
     },
@@ -51,43 +19,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "AmPair: automating housekeeping-gene primer design for species-level metataxonomics",
-          "doi": "10.64898/2026.08.25.746527",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746527v1",
-          "source": "biorxiv",
-          "score": 0.5326
+          "title": "Post-pandemic ecological reshaping of respiratory pathogen circulation: A six-year FilmArray(R)-based surveillance study in Tokyo, Japan (2020-2026)",
+          "doi": "10.64898/2026.08.28.26360747",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26360747v1",
+          "source": "medrxiv",
+          "score": 0.3613
         },
         {
           "rank": 2,
-          "title": "Mutational constraints on RSV F and its neutralization by antibodies",
-          "doi": "10.64898/2026.02.12.705519",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.02.12.705519v3",
-          "source": "biorxiv",
-          "score": 0.4758
+          "title": "BCG vaccination recalibrates innate immunity in ART-treated people with HIV",
+          "doi": "10.64898/2026.08.28.26361620",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361620v1",
+          "source": "medrxiv",
+          "score": 0.3137
         },
         {
           "rank": 3,
-          "title": "Comparative genomics of clinical isolates of Pseudomonas aeruginosa from cystic fibrosis patients in Mexico",
-          "doi": "10.64898/2026.08.28.747926",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747926v1",
-          "source": "biorxiv",
-          "score": 0.441
+          "title": "Impaired memory B-cell formation after mRNA-based COVID-19 booster vaccination in patients with inflammatory bowel disease receiving anti-TNF treatment",
+          "doi": "10.64898/2026.08.28.26359302",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26359302v1",
+          "source": "medrxiv",
+          "score": 0.2888
         },
         {
           "rank": 4,
-          "title": "Exploratory multi-omics analysis reveals sex-specific differences in microbial response to antibiotic exposure",
-          "doi": "10.64898/2026.09.01.748584",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748584v1",
-          "source": "biorxiv",
-          "score": 0.433
+          "title": "Antimicrobial resistance genomics across Africa: critical determinants, repository bias and regional coordination",
+          "doi": "10.64898/2026.08.31.26361859",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361859v1",
+          "source": "medrxiv",
+          "score": 0.2768
         },
         {
           "rank": 5,
-          "title": "Inheritance of a Single Edited CD46 Allele Is Associated with Reduced Ex Vivo Susceptibility to Bovine Viral Diarrhea Virus",
-          "doi": "10.64898/2026.08.31.748238",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748238v1",
-          "source": "biorxiv",
-          "score": 0.3919
+          "title": "Defining severe acute respiratory infection hospitalisations for national register-based surveillance in Finland, 2022-2025",
+          "doi": "10.64898/2026.08.30.26361776",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.30.26361776v1",
+          "source": "medrxiv",
+          "score": 0.2689
         }
       ]
     }
