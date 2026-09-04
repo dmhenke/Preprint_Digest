@@ -108,14 +108,14 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>September 03, 2026 — 6 preprints selected (Comp Bio: 1 · Virology: 5)</h2>
+  <h2>September 04, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
 </div>
 
 <nav class="tabs" role="tablist">
-  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(1)</span></a>
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
   <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
 </nav>
 
@@ -124,24 +124,65 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Making Accelerating Medicines Partnership Data Findable and Interoperable through a Common Data Model: Extending OMOP for Multi-Source Multimodal Data</a></li>
+  <li><a href="#core-article-1">Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms</a></li>
+  <li><a href="#core-article-2">Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction</a></li>
+  <li><a href="#core-article-3">Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data</a></li>
+  <li><a href="#core-article-4">Compression Sequencing enables ultra-sensitive and scalable scRNA-seq</a></li>
+  <li><a href="#core-article-5">Integrative single cell analysis of CD8+ T-cells across early and advanced oral cancers reveals signatures of anti-tumour activity</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.08.31.26361831v1">Making Accelerating Medicines Partnership Data Findable and Interoperable through a Common Data Model: Extending OMOP for Multi-Source Multimodal Data</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.26361831">10.64898/2026.08.31.26361831</a> · Score: <code>███░░░░░░░</code> 0.299</p>
-<p><span class="label">Core Problem:</span> SysBio FAIRplex is a Common Fund Venture Program that catalogs and indexes data from the Accelerating Medicines Partnership(R) (AMP(R)) Program through a federated model in which data hosts retain custody of their datasets</p>
-<p><span class="label">Proposed Solution:</span> The central piece of this work is the SysBio Common Data Model (SysBio CDM). AMP is a precompetitive public-private partnership started in 2014 that unites the resources of NIH and private partners to improve our understanding of disease pathways and transform current models for developing new treatments by: - identifying new targets, biomarkers, and development paradigms; - developing leading-edge tools and technologies; - collecting large-scale datasets and supporting analytics for open analysis by the public; and - generating consensus platforms and procedures</p>
-<p><span class="label">Key Impact:</span> As an auxiliary methodology, the paper also describes the AI-assisted CDE harmonization workflow used to populate the model</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747622v1">Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747622">10.64898/2026.08.28.747622</a> · Score: <code>██████░░░░</code> 0.581</p>
+<p><span class="label">Core Problem:</span> Automated cell-type annotation is a prerequisite for most single-cell RNA-sequencing (scRNA-seq) analyses, but the rapid proliferation of methods spanning marker-based, correlation-based, classical machine-learning, deep-learning, semi-supervised, large-language-model (LLM), and transformer foundation-model paradigms has outpaced head-to-head evaluation</p>
+<p><span class="label">Proposed Solution:</span> Existing benchmarks rely on convenience samples of real datasets in which cell count, class imbalance, cell-type number, and differential-expression strength co-vary uncontrollably, precluding causal attribution of performance to any dataset property. To resolve this, we benchmarked 63 tools across seven paradigms using a Taguchi L9(34) orthogonal array that varies four dataset properties independently, progressively reconfiguring experimental control across five phases: fully controlled simulation, within-platform and cross-platform real-data validation, database-connected and LLM-based annotation under ontology-aware scoring, and fine-tuned foundation models</p>
+<p><span class="label">Key Impact:</span> Because our oracle design isolates algorithmic capability from upstream noise, these results reframe how methods should be selected: the field&#x27;s near-term gains lie in strengthening infrastructure--prioritizing tool accessibility, standardized evaluation, and robustness to pipeline variation</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.31.748056v1">Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.748056">10.64898/2026.08.31.748056</a> · Score: <code>██████░░░░</code> 0.553</p>
+<p><span class="label">Core Problem:</span> Accurate identification of drug-target interactions is consequential for novel drug discovery and development</p>
+<p><span class="label">Proposed Solution:</span> Deep learning methods for drug-target affinity (DTA) prediction have shown great promise in accelerating drug discovery and reducing development costs. Although graph neural networks have improved drug representation learning for DTA prediction tasks, many models still struggle to effectively and efficiently capture protein information, limiting overall prediction accuracy</p>
+<p><span class="label">Key Impact:</span> The results indicate simple architectural modifications to traditional convolution methods may be sufficient to bridge the gap to large pre-trained PLMs</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.30.748098v1">Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.30.748098">10.64898/2026.08.30.748098</a> · Score: <code>█████░░░░░</code> 0.528</p>
+<p><span class="label">Core Problem:</span> Understanding cell fate decisions is fundamental to developmental biology and disease research</p>
+<p><span class="label">Proposed Solution:</span> However, experimental lineage tracing requires genetic manipulation, which is impractical in many systems, particularly in humans. Computational approaches often rely on time-resolved measurements, which single-cell and spatial omics studies rarely provide</p>
+<p><span class="label">Key Impact:</span> Together, these results establish Ageas as a general framework for decoding cell fate decisions from static molecular snapshots</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.01.748706v1">Compression Sequencing enables ultra-sensitive and scalable scRNA-seq</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.01.748706">10.64898/2026.09.01.748706</a> · Score: <code>█████░░░░░</code> 0.513</p>
+<p><span class="label">Core Problem:</span> Current sequencing methods are inefficient and bottlenecked by repeated sampling of highly abundant molecules, which dominate sequencing reads, limit assay throughput and sensitivity for rare targets</p>
+<p><span class="label">Proposed Solution:</span> For example, single-cell RNA sequencing (scRNA-seq) can profile up to millions of cells, but remains severely constrained by sequencing cost, resulting in shallow gene coverage and high dropout rate. Here we report an information science-inspired method, Compression Sequencing, that tackles this fundamental inefficiency and enables highly improved (&gt;100x) sequencing power</p>
+<p><span class="label">Key Impact:</span> Our approach thus enables ultra-sensitive and scalable single-cell analysis for large-scale functional genomics studies, drug discovery screens, AI cell model training, as well as affordable single-cell disease diagnostics</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.02.748952v1">Integrative single cell analysis of CD8+ T-cells across early and advanced oral cancers reveals signatures of anti-tumour activity</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.02.748952">10.64898/2026.09.02.748952</a> · Score: <code>█████░░░░░</code> 0.510</p>
+<p><span class="label">Core Problem:</span> Tumour-targeting CD8 T cells drive responses to every major form of cancer immunotherapy</p>
+<p><span class="label">Proposed Solution:</span> Identifying them, however, remains an unsolved problem in solid tumours. The antigens they recognize are rarely defined and almost never shared between patients</p>
+<p><span class="label">Key Impact:</span> By demonstrating that clonal behaviour across space and time encodes tumour reactivity in the transcriptome, this work establishes a generalizable framework for mapping tumour-engaged immunity without knowledge of the underlying antigen</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.31.26361831">Making Accelerating Medicines Partnership Data Findable and Interoperable through a Common Data Model: Extending OMOP for Multi-Source Multimodal Data</a><span class="history-date">Sep 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.18.695193">Spatial Transcriptomics As Rasterized Image Tensors (STARIT) characterizes cell states with subcellular molecular heterogeneity</a><span class="history-date">Sep 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.25.747122">RECON infers regions of interest from H&amp;E images and reconstructs whole-slide molecular profiles at single-cell resolution</a><span class="history-date">Sep 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.26.747321">PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone</a><span class="history-date">Sep 02, 2026</span></li>
@@ -628,64 +669,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Post-pandemic ecological reshaping of respiratory pathogen circulation: A six-year FilmArray(R)-based surveillance study in Tokyo, Japan (2020-2026)</a></li>
-  <li><a href="#virology-article-2">BCG vaccination recalibrates innate immunity in ART-treated people with HIV</a></li>
-  <li><a href="#virology-article-3">Impaired memory B-cell formation after mRNA-based COVID-19 booster vaccination in patients with inflammatory bowel disease receiving anti-TNF treatment</a></li>
-  <li><a href="#virology-article-4">Antimicrobial resistance genomics across Africa: critical determinants, repository bias and regional coordination</a></li>
-  <li><a href="#virology-article-5">Defining severe acute respiratory infection hospitalisations for national register-based surveillance in Finland, 2022-2025</a></li>
+  <li><a href="#virology-article-1">City life: airborne DNA metagenomic biodiversity monitoring reveals dynamic changes across time and space</a></li>
+  <li><a href="#virology-article-2">Antiviral activity versus host response: contrasting transcriptomic footprints of four antivirals in human cytomegalovirus-infected brain organoids</a></li>
+  <li><a href="#virology-article-3">Pathogen Host Shifts from a Niche Evolution Perspective</a></li>
+  <li><a href="#virology-article-4">N6-methyladenosine regulates Influenza A virus mRNA stability yet is rarely found on genomic RNA</a></li>
+  <li><a href="#virology-article-5">Single-cell metabolomics reveals infection-specific metabolic reprogramming of human macrophages</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.08.28.26360747v1">Post-pandemic ecological reshaping of respiratory pathogen circulation: A six-year FilmArray(R)-based surveillance study in Tokyo, Japan (2020-2026)</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.26360747">10.64898/2026.08.28.26360747</a> · Score: <code>████░░░░░░</code> 0.361</p>
-<p><span class="label">Core Problem:</span> Background The COVID-19 pandemic substantially altered respiratory pathogen circulation worldwide</p>
-<p><span class="label">Proposed Solution:</span> However, longitudinal analyses of changes in respiratory pathogen ecology across the pandemic and post-pandemic periods remain limited. Methods We analyzed 19,968 respiratory samples tested with the BioFire(R) FilmArray(R) Respiratory Panel at a hospital in Tokyo, Japan, between January 2020 and March 2026</p>
-<p><span class="label">Key Impact:</span> Continued surveillance is warranted to determine how respiratory pathogen circulation will evolve and to inform infection control strategies in the post-pandemic era</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.31.747859v1">City life: airborne DNA metagenomic biodiversity monitoring reveals dynamic changes across time and space</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.747859">10.64898/2026.08.31.747859</a> · Score: <code>████░░░░░░</code> 0.435</p>
+<p><span class="label">Core Problem:</span> Airborne environmental DNA can capture biodiversity across the tree of life, but low sample biomass makes rapid, untargeted detection technically challenging</p>
+<p><span class="label">Proposed Solution:</span> We combined 45-min air collection, nanopore sequencing and real-time taxonomic analysis in a shotgun metagenomic workflow capable of producing results within 3 hours. Across 77 samples from 13 London sites, including a year of weekly sampling at the Natural History Museum Wildlife Garden, we detected 1,916 species spanning bacteria, fungi, plants and animals</p>
+<p><span class="label">Key Impact:</span> Together, these findings establish airborne shotgun metagenomics as a platform for rapid, repeated and scalable biodiversity assessment across space and time</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.08.28.26361620v1">BCG vaccination recalibrates innate immunity in ART-treated people with HIV</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.26361620">10.64898/2026.08.28.26361620</a> · Score: <code>███░░░░░░░</code> 0.314</p>
-<p><span class="label">Core Problem:</span> Despite suppressive antiretroviral therapy, many people with HIV (PWH) retain chronic interferon-associated immune dysregulation</p>
-<p><span class="label">Proposed Solution:</span> Observational data from the Swiss HIV Cohort Study linked asymptomatic mycobacterial exposure to lower viral set points, reduced interferon-associated activity, and attenuated HIV-specific antibody responses, a pattern sharing features with HIV elite controllers and natural hosts of primate lentiviruses. We therefore examined whether Bacillus Calmette-Guerin (BCG) vaccination could induce a related immune configuration in ART-treated PWH</p>
-<p><span class="label">Key Impact:</span> This configuration, reduced baseline interferon activity coexisting with preserved Fc-dependent effector function, shares selected features with immune states described in natural lentiviral control and provides a rationale for testing BCG in combination with antibody-based HIV interventions</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.01.722178v2">Antiviral activity versus host response: contrasting transcriptomic footprints of four antivirals in human cytomegalovirus-infected brain organoids</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.01.722178">10.64898/2026.05.01.722178</a> · Score: <code>████░░░░░░</code> 0.400</p>
+<p><span class="label">Core Problem:</span> Infection with human cytomegalovirus (HCMV) is common and usually asymptomatic in healthy individuals, but can cause severe neurological injury, particularly following congenital transmission</p>
+<p><span class="label">Proposed Solution:</span> For symptomatic congenital infection, standard antiviral treatment is ganciclovir, with maribavir and letermovir as alternative direct-acting agents. However, their relative antiviral activity in reducing HCMV RNA abundance and restoring the host transcriptome towards an uninfected state has not been directly assessed in a neural model</p>
+<p><span class="label">Key Impact:</span> The results support further evaluation of ganciclovir and letermovir in therapy of neural damage resulting from HCMV infection</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.08.28.26359302v1">Impaired memory B-cell formation after mRNA-based COVID-19 booster vaccination in patients with inflammatory bowel disease receiving anti-TNF treatment</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.26359302">10.64898/2026.08.28.26359302</a> · Score: <code>███░░░░░░░</code> 0.289</p>
-<p><span class="label">Core Problem:</span> Background: Patients receiving anti-TNF treatment for chronic inflammatory disease display impaired antibody responses, but it remains unclear how immune memory formation is affected</p>
-<p><span class="label">Proposed Solution:</span> We evaluated antibody responses and memory B cells (Bmem) after COVID-19 booster vaccination in inflammatory bowel disease (IBD) patients receiving anti-TNF treatment. Methodology: Blood was sampled at baseline, 1, and 6 months after WH1/BA</p>
-<p><span class="label">Key Impact:</span> This supports the recommendation for annual booster vaccination to prevent severe disease and viral spread</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.31.748187v1">Pathogen Host Shifts from a Niche Evolution Perspective</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.748187">10.64898/2026.08.31.748187</a> · Score: <code>████░░░░░░</code> 0.391</p>
+<p><span class="label">Core Problem:</span> Emerging infectious diseases constitute a major health threat and are often associated with zoonotic spillover processes</p>
+<p><span class="label">Proposed Solution:</span> Pathogen host shifts may involve evolutionary adaptation to new host species, which is of central concern in relation to future pandemics. Evolutionary host shifts require certain conditions to be met, including physiological and ecological factors</p>
+<p><span class="label">Key Impact:</span> We identify the conditions under which evolutionary host shifts occur and show, for a two-host-species system, that evolutionary outcomes fall into four distinct categories</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.08.31.26361859v1">Antimicrobial resistance genomics across Africa: critical determinants, repository bias and regional coordination</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.26361859">10.64898/2026.08.31.26361859</a> · Score: <code>███░░░░░░░</code> 0.277</p>
-<p><span class="label">Core Problem:</span> Public genomic repositories can support antimicrobial resistance (AMR) surveillance, but unequal sampling can bias interpretation</p>
-<p><span class="label">Proposed Solution:</span> We characterised AMR determinants, multicountry genomic cluster overlap and surveillance gaps across Africa using an NCBI Pathogen Detection snapshot retrieved on 24 August 2026 for 55 African Union member states. Records were validated and deduplicated by BioSample, and complete AMRFinderPlus calls were summarised across five United Nations M49 subregions and eight overlapping regional economic communities (RECs)</p>
-<p><span class="label">Key Impact:</span> AMR surveillance should combine national confirmation, regional institution-led investigation where countries share an REC, and continent-wide coordination through Africa CDC for cross-REC signals, supported by representative One Health sampling, standardised metadata and sustained African sequencing capacity</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.01.748482v1">N6-methyladenosine regulates Influenza A virus mRNA stability yet is rarely found on genomic RNA</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.01.748482">10.64898/2026.09.01.748482</a> · Score: <code>████░░░░░░</code> 0.385</p>
+<p><span class="label">Core Problem:</span> Previous studies have found widespread N6-methyladenosine (m6A methylation) on all forms of Influenza A virus (IAV) RNA, with m6A found critical for viral replication, pathogenicity as well as viral RNA packaging</p>
+<p><span class="label">Proposed Solution:</span> Here we applied the latest quantitative technologies to revisit the methylation landscape on the anti-sense genomic RNA of IAV. Unexpectedly, upon Ultra-Performance Liquid Chromatography-Tandem Mass Spectrometry (UPLC-MS/MS) analysis of IAV virion -extracted genomic RNA, we detected very little m6A regardless of production from human cells or chicken eggs</p>
+<p><span class="label">Key Impact:</span> Lastly, we provide proof of concept that a METTL3 small molecule inhibitor can be antiviral, and propose that m6A-targeted antivirals would mainly impact the intracellular gene expression phase of IAV replication</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.08.30.26361776v1">Defining severe acute respiratory infection hospitalisations for national register-based surveillance in Finland, 2022-2025</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.30.26361776">10.64898/2026.08.30.26361776</a> · Score: <code>███░░░░░░░</code> 0.269</p>
-<p><span class="label">Core Problem:</span> Background Severe acute respiratory infections (SARI) strain healthcare systems</p>
-<p><span class="label">Proposed Solution:</span> Sentinel surveillance remains central to SARI monitoring, but routinely collected hospital discharge data offer a scalable, population-wide complement. In Finland, national registers now enable register-based surveillance, yet SARI case definitions remain unevaluated</p>
-<p><span class="label">Key Impact:</span> Keywords Severe acute respiratory infection (SARI); surveillance; electronic health records; ICD-10; case definition; Finland</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.03.749052v1">Single-cell metabolomics reveals infection-specific metabolic reprogramming of human macrophages</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.03.749052">10.64898/2026.09.03.749052</a> · Score: <code>████░░░░░░</code> 0.384</p>
+<p><span class="label">Core Problem:</span> During intracellular infection, host cells adopt different metabolic states that traditional bulk analyses cannot distinguish</p>
+<p><span class="label">Proposed Solution:</span> Using single-cell spatial metabolomics of human macrophages infected with Legionella pneumophila, we show that bacterial uptake activates host metabolism, whereas the bacterial effectors secreted through the type IV secretion system counteract this response and promote a glycolytic shift. The activity of effectors also generates distinct metabolic states within the infected macrophage population</p>
+<p><span class="label">Key Impact:</span> The activity of effectors also generates distinct metabolic states within the infected macrophage population</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.28.26359302">Impaired memory B-cell formation after mRNA-based COVID-19 booster vaccination in patients with inflammatory bowel disease receiving anti-TNF treatment</a><span class="history-date">Sep 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.28.26360747">Post-pandemic ecological reshaping of respiratory pathogen circulation: A six-year FilmArray(R)-based surveillance study in Tokyo, Japan (2020-2026)</a><span class="history-date">Sep 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.28.26361620">BCG vaccination recalibrates innate immunity in ART-treated people with HIV</a><span class="history-date">Sep 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.30.26361776">Defining severe acute respiratory infection hospitalisations for national register-based surveillance in Finland, 2022-2025</a><span class="history-date">Sep 03, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.31.26361859">Antimicrobial resistance genomics across Africa: critical determinants, repository bias and regional coordination</a><span class="history-date">Sep 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.02.12.705519">Mutational constraints on RSV F and its neutralization by antibodies</a><span class="history-date">Sep 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.25.746527">AmPair: automating housekeeping-gene primer design for species-level metataxonomics</a><span class="history-date">Sep 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.28.747926">Comparative genomics of clinical isolates of Pseudomonas aeruginosa from cystic fibrosis patients in Mexico</a><span class="history-date">Sep 02, 2026</span></li>
@@ -762,7 +808,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-09-03T09:03:17 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-09-04T09:50:03 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

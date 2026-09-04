@@ -1,16 +1,48 @@
 {
-  "generated_utc": "2026-09-03T09:03:17.868516+00:00",
+  "generated_utc": "2026-09-04T09:50:03.906512+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Making Accelerating Medicines Partnership Data Findable and Interoperable through a Common Data Model: Extending OMOP for Multi-Source Multimodal Data",
-          "doi": "10.64898/2026.08.31.26361831",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361831v1",
-          "source": "medrxiv",
-          "score": 0.2991
+          "title": "Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms",
+          "doi": "10.64898/2026.08.28.747622",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747622v1",
+          "source": "biorxiv",
+          "score": 0.581
+        },
+        {
+          "rank": 2,
+          "title": "Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction",
+          "doi": "10.64898/2026.08.31.748056",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748056v1",
+          "source": "biorxiv",
+          "score": 0.5534
+        },
+        {
+          "rank": 3,
+          "title": "Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data",
+          "doi": "10.64898/2026.08.30.748098",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.30.748098v1",
+          "source": "biorxiv",
+          "score": 0.5283
+        },
+        {
+          "rank": 4,
+          "title": "Compression Sequencing enables ultra-sensitive and scalable scRNA-seq",
+          "doi": "10.64898/2026.09.01.748706",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748706v1",
+          "source": "biorxiv",
+          "score": 0.5126
+        },
+        {
+          "rank": 5,
+          "title": "Integrative single cell analysis of CD8+ T-cells across early and advanced oral cancers reveals signatures of anti-tumour activity",
+          "doi": "10.64898/2026.09.02.748952",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748952v1",
+          "source": "biorxiv",
+          "score": 0.5105
         }
       ]
     },
@@ -19,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Post-pandemic ecological reshaping of respiratory pathogen circulation: A six-year FilmArray(R)-based surveillance study in Tokyo, Japan (2020-2026)",
-          "doi": "10.64898/2026.08.28.26360747",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26360747v1",
-          "source": "medrxiv",
-          "score": 0.3613
+          "title": "City life: airborne DNA metagenomic biodiversity monitoring reveals dynamic changes across time and space",
+          "doi": "10.64898/2026.08.31.747859",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.747859v1",
+          "source": "biorxiv",
+          "score": 0.4351
         },
         {
           "rank": 2,
-          "title": "BCG vaccination recalibrates innate immunity in ART-treated people with HIV",
-          "doi": "10.64898/2026.08.28.26361620",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361620v1",
-          "source": "medrxiv",
-          "score": 0.3137
+          "title": "Antiviral activity versus host response: contrasting transcriptomic footprints of four antivirals in human cytomegalovirus-infected brain organoids",
+          "doi": "10.64898/2026.05.01.722178",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.01.722178v2",
+          "source": "biorxiv",
+          "score": 0.4002
         },
         {
           "rank": 3,
-          "title": "Impaired memory B-cell formation after mRNA-based COVID-19 booster vaccination in patients with inflammatory bowel disease receiving anti-TNF treatment",
-          "doi": "10.64898/2026.08.28.26359302",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26359302v1",
-          "source": "medrxiv",
-          "score": 0.2888
+          "title": "Pathogen Host Shifts from a Niche Evolution Perspective",
+          "doi": "10.64898/2026.08.31.748187",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748187v1",
+          "source": "biorxiv",
+          "score": 0.3912
         },
         {
           "rank": 4,
-          "title": "Antimicrobial resistance genomics across Africa: critical determinants, repository bias and regional coordination",
-          "doi": "10.64898/2026.08.31.26361859",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361859v1",
-          "source": "medrxiv",
-          "score": 0.2768
+          "title": "N6-methyladenosine regulates Influenza A virus mRNA stability yet is rarely found on genomic RNA",
+          "doi": "10.64898/2026.09.01.748482",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748482v1",
+          "source": "biorxiv",
+          "score": 0.3854
         },
         {
           "rank": 5,
-          "title": "Defining severe acute respiratory infection hospitalisations for national register-based surveillance in Finland, 2022-2025",
-          "doi": "10.64898/2026.08.30.26361776",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.30.26361776v1",
-          "source": "medrxiv",
-          "score": 0.2689
+          "title": "Single-cell metabolomics reveals infection-specific metabolic reprogramming of human macrophages",
+          "doi": "10.64898/2026.09.03.749052",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749052v1",
+          "source": "biorxiv",
+          "score": 0.3841
         }
       ]
     }
