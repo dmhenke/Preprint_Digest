@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>September 04, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>September 05, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms</a></li>
-  <li><a href="#core-article-2">Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction</a></li>
-  <li><a href="#core-article-3">Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data</a></li>
-  <li><a href="#core-article-4">Compression Sequencing enables ultra-sensitive and scalable scRNA-seq</a></li>
-  <li><a href="#core-article-5">Integrative single cell analysis of CD8+ T-cells across early and advanced oral cancers reveals signatures of anti-tumour activity</a></li>
+  <li><a href="#core-article-1">Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain</a></li>
+  <li><a href="#core-article-2">Cell-type-resolved somatic variant discovery from bulk long-read sequencing</a></li>
+  <li><a href="#core-article-3">Clonal Evolution of Pediatric Acute Myeloid Leukemia and Its Contribution to Disease Relapse</a></li>
+  <li><a href="#core-article-4">Modeling Joint Reference Regions for Omics Biomarkers in UK Biobank Proteomics</a></li>
+  <li><a href="#core-article-5">Pleiotropic genetic architecture linking schizophrenia and substance use disorders</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.28.747622v1">Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.28.747622">10.64898/2026.08.28.747622</a> · Score: <code>██████░░░░</code> 0.581</p>
-<p><span class="label">Core Problem:</span> Automated cell-type annotation is a prerequisite for most single-cell RNA-sequencing (scRNA-seq) analyses, but the rapid proliferation of methods spanning marker-based, correlation-based, classical machine-learning, deep-learning, semi-supervised, large-language-model (LLM), and transformer foundation-model paradigms has outpaced head-to-head evaluation</p>
-<p><span class="label">Proposed Solution:</span> Existing benchmarks rely on convenience samples of real datasets in which cell count, class imbalance, cell-type number, and differential-expression strength co-vary uncontrollably, precluding causal attribution of performance to any dataset property. To resolve this, we benchmarked 63 tools across seven paradigms using a Taguchi L9(34) orthogonal array that varies four dataset properties independently, progressively reconfiguring experimental control across five phases: fully controlled simulation, within-platform and cross-platform real-data validation, database-connected and LLM-based annotation under ontology-aware scoring, and fine-tuned foundation models</p>
-<p><span class="label">Key Impact:</span> Because our oracle design isolates algorithmic capability from upstream noise, these results reframe how methods should be selected: the field&#x27;s near-term gains lie in strengthening infrastructure--prioritizing tool accessibility, standardized evaluation, and robustness to pipeline variation</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.1101/2025.04.17.25326042v3">Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.04.17.25326042">10.1101/2025.04.17.25326042</a> · Score: <code>█████░░░░░</code> 0.469</p>
+<p><span class="label">Core Problem:</span> Multi-trait QTL (xQTL) colocalization has shown great promises in identifying causal variants with shared genetic etiology across multiple molecular modalities, contexts, and complex diseases</p>
+<p><span class="label">Proposed Solution:</span> However, the lack of scalable and efficient methods to integrate large-scale multi-omics data limits deeper insights into xQTL regulation. Here, we propose ColocBoost, a multi-task learning colocalization method that can scale to hundreds of traits, while accounting for multiple causal variants within a genomic region of interest</p>
+<p><span class="label">Key Impact:</span> Notably, several genes including BLNK and CTSH showed sub-threshold associations in GWAS, but were identified through multi-omics colocalizations which provide new functional support for their involvement in AD pathogenesis</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.08.31.748056v1">Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.748056">10.64898/2026.08.31.748056</a> · Score: <code>██████░░░░</code> 0.553</p>
-<p><span class="label">Core Problem:</span> Accurate identification of drug-target interactions is consequential for novel drug discovery and development</p>
-<p><span class="label">Proposed Solution:</span> Deep learning methods for drug-target affinity (DTA) prediction have shown great promise in accelerating drug discovery and reducing development costs. Although graph neural networks have improved drug representation learning for DTA prediction tasks, many models still struggle to effectively and efficiently capture protein information, limiting overall prediction accuracy</p>
-<p><span class="label">Key Impact:</span> The results indicate simple architectural modifications to traditional convolution methods may be sufficient to bridge the gap to large pre-trained PLMs</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.09.01.26361966v1">Cell-type-resolved somatic variant discovery from bulk long-read sequencing</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.01.26361966">10.64898/2026.09.01.26361966</a> · Score: <code>████░░░░░░</code> 0.389</p>
+<p><span class="label">Core Problem:</span> Somatic mutations arise throughout life, with functional consequences tied to the cell populations in which they occur</p>
+<p><span class="label">Proposed Solution:</span> Genome-wide studies measure somatic variations in bulk tissue, whereas single-cell approaches resolve cell identity but provide limited sensitivity for complex alleles. Here we developed SniffCell, which uses DNA methylation carried on native long reads to assign somatic variant-supporting molecules to methylation-resolvable cell types</p>
+<p><span class="label">Key Impact:</span> SniffCell transforms native bulk long-read genomes into a cell-type-aware resource for somatic variant discovery and reveals recurrent somatic instability in human tissues at cell-type resolution</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.30.748098v1">Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.30.748098">10.64898/2026.08.30.748098</a> · Score: <code>█████░░░░░</code> 0.528</p>
-<p><span class="label">Core Problem:</span> Understanding cell fate decisions is fundamental to developmental biology and disease research</p>
-<p><span class="label">Proposed Solution:</span> However, experimental lineage tracing requires genetic manipulation, which is impractical in many systems, particularly in humans. Computational approaches often rely on time-resolved measurements, which single-cell and spatial omics studies rarely provide</p>
-<p><span class="label">Key Impact:</span> Together, these results establish Ageas as a general framework for decoding cell fate decisions from static molecular snapshots</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.1101/2025.11.04.25339472v2">Clonal Evolution of Pediatric Acute Myeloid Leukemia and Its Contribution to Disease Relapse</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.11.04.25339472">10.1101/2025.11.04.25339472</a> · Score: <code>████░░░░░░</code> 0.380</p>
+<p><span class="label">Core Problem:</span> Relapse remains the leading cause of mortality in pediatric acute myeloid leukemia (AML), yet the genetic changes contributing to relapse remain incompletely defined</p>
+<p><span class="label">Proposed Solution:</span> To address this gap, we performed whole-genome sequencing and targeted-capture sequencing on 39 diagnosis-relapse and 2 relapse-relapse pairs of pediatric AML. Mutational burden increased at relapse, largely reflecting spontaneous mutagenesis, whereas therapy-related signatures were rarely observed and only occasionally associated with pathogenic mutations</p>
+<p><span class="label">Key Impact:</span> Together, our data indicate that pediatric AML relapse arises through selection of pre-existing clones with diverse trajectories, underscoring the need to target both stem-like and differentiated populations to achieve durable cures</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.01.748706v1">Compression Sequencing enables ultra-sensitive and scalable scRNA-seq</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.01.748706">10.64898/2026.09.01.748706</a> · Score: <code>█████░░░░░</code> 0.513</p>
-<p><span class="label">Core Problem:</span> Current sequencing methods are inefficient and bottlenecked by repeated sampling of highly abundant molecules, which dominate sequencing reads, limit assay throughput and sensitivity for rare targets</p>
-<p><span class="label">Proposed Solution:</span> For example, single-cell RNA sequencing (scRNA-seq) can profile up to millions of cells, but remains severely constrained by sequencing cost, resulting in shallow gene coverage and high dropout rate. Here we report an information science-inspired method, Compression Sequencing, that tackles this fundamental inefficiency and enables highly improved (&gt;100x) sequencing power</p>
-<p><span class="label">Key Impact:</span> Our approach thus enables ultra-sensitive and scalable single-cell analysis for large-scale functional genomics studies, drug discovery screens, AI cell model training, as well as affordable single-cell disease diagnostics</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.09.01.26361504v1">Modeling Joint Reference Regions for Omics Biomarkers in UK Biobank Proteomics</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.01.26361504">10.64898/2026.09.01.26361504</a> · Score: <code>████░░░░░░</code> 0.352</p>
+<p><span class="label">Core Problem:</span> Conventional univariate reference intervals (UniRIs) are widely used to identify abnormal biomarker values, but they evaluate each biomarker independently and do not account for coordinated deviations between biomarkers</p>
+<p><span class="label">Proposed Solution:</span> We developed and evaluated a joint reference region (JRR) framework for plasma proteomics data using the Olink proteomics dataset generated by the UK Biobank Pharma Proteomics Project, covering approximately 3,000 plasma proteins. JRRs were estimated for selected protein pairs in a healthy reference subset, while UniRIs were estimated separately for individual proteins using the nonparametric method</p>
+<p><span class="label">Key Impact:</span> These findings suggest that JRRs provide a complementary approach to UniRIs by capturing abnormal joint biomarker configurations in high-dimensional proteomics data</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.02.748952v1">Integrative single cell analysis of CD8+ T-cells across early and advanced oral cancers reveals signatures of anti-tumour activity</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.02.748952">10.64898/2026.09.02.748952</a> · Score: <code>█████░░░░░</code> 0.510</p>
-<p><span class="label">Core Problem:</span> Tumour-targeting CD8 T cells drive responses to every major form of cancer immunotherapy</p>
-<p><span class="label">Proposed Solution:</span> Identifying them, however, remains an unsolved problem in solid tumours. The antigens they recognize are rarely defined and almost never shared between patients</p>
-<p><span class="label">Key Impact:</span> By demonstrating that clonal behaviour across space and time encodes tumour reactivity in the transcriptome, this work establishes a generalizable framework for mapping tumour-engaged immunity without knowledge of the underlying antigen</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.08.31.26361799v1">Pleiotropic genetic architecture linking schizophrenia and substance use disorders</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.26361799">10.64898/2026.08.31.26361799</a> · Score: <code>███░░░░░░░</code> 0.318</p>
+<p><span class="label">Core Problem:</span> Schizophrenia (SCZ) frequently co-occurs with substance use disorders (SUDs), yet the genetic basis of this comorbidity remains unclear</p>
+<p><span class="label">Proposed Solution:</span> Using the latest European-ancestry genome-wide association studies (GWAS) for SCZ, cannabis use disorder (CanUD), opioid use disorder (OUD), problematic alcohol use (PAU), tobacco use disorder (TUD), and a general addiction factor (AF), together with two SCZ and one SUD case-control samples with individual-level genotype data, we applied multiple complementary genomic approaches to characterize their shared genetic architecture. Significant positive genome-wide genetic correlations were observed across all SCZ-SUD pairs</p>
+<p><span class="label">Key Impact:</span> Overall, these findings suggest that part of SCZ liability reflects genetic susceptibility to SUDs with potential implications for patient stratification and clinical management</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.28.747622">Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.30.748098">Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.31.748056">Comprehensive Evaluation of Protein Language Model Embeddings for Drug-Target Affinity Prediction</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.01.748706">Compression Sequencing enables ultra-sensitive and scalable scRNA-seq</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.02.748952">Integrative single cell analysis of CD8+ T-cells across early and advanced oral cancers reveals signatures of anti-tumour activity</a><span class="history-date">Sep 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.31.26361831">Making Accelerating Medicines Partnership Data Findable and Interoperable through a Common Data Model: Extending OMOP for Multi-Source Multimodal Data</a><span class="history-date">Sep 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2025.12.18.695193">Spatial Transcriptomics As Rasterized Image Tensors (STARIT) characterizes cell states with subcellular molecular heterogeneity</a><span class="history-date">Sep 02, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.25.747122">RECON infers regions of interest from H&amp;E images and reconstructs whole-slide molecular profiles at single-cell resolution</a><span class="history-date">Sep 02, 2026</span></li>
@@ -669,64 +674,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">City life: airborne DNA metagenomic biodiversity monitoring reveals dynamic changes across time and space</a></li>
-  <li><a href="#virology-article-2">Antiviral activity versus host response: contrasting transcriptomic footprints of four antivirals in human cytomegalovirus-infected brain organoids</a></li>
-  <li><a href="#virology-article-3">Pathogen Host Shifts from a Niche Evolution Perspective</a></li>
-  <li><a href="#virology-article-4">N6-methyladenosine regulates Influenza A virus mRNA stability yet is rarely found on genomic RNA</a></li>
-  <li><a href="#virology-article-5">Single-cell metabolomics reveals infection-specific metabolic reprogramming of human macrophages</a></li>
+  <li><a href="#virology-article-1">Wastewater Surveillance of Oncogenic Viruses: A Baseline Assessment in Southeast Queensland, Australia</a></li>
+  <li><a href="#virology-article-2">Seroprevalence of viral hemorrhagic fevers and arboviral infections among febrile patients in Forest Guinea</a></li>
+  <li><a href="#virology-article-3">Nanopore sequencing panel for saliva-based host pharmacogenomic screening in anti-tubercular therapy</a></li>
+  <li><a href="#virology-article-4">Comparative analysis of Shigella and Campylobacter transmission in paired longitudinal household cohort studies in urban Bangladesh and rural Tanzania</a></li>
+  <li><a href="#virology-article-5">A Multidimensional Immune Signature Predicts Susceptibility to Omicron Infection in Vaccinated Individuals</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.08.31.747859v1">City life: airborne DNA metagenomic biodiversity monitoring reveals dynamic changes across time and space</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.747859">10.64898/2026.08.31.747859</a> · Score: <code>████░░░░░░</code> 0.435</p>
-<p><span class="label">Core Problem:</span> Airborne environmental DNA can capture biodiversity across the tree of life, but low sample biomass makes rapid, untargeted detection technically challenging</p>
-<p><span class="label">Proposed Solution:</span> We combined 45-min air collection, nanopore sequencing and real-time taxonomic analysis in a shotgun metagenomic workflow capable of producing results within 3 hours. Across 77 samples from 13 London sites, including a year of weekly sampling at the Natural History Museum Wildlife Garden, we detected 1,916 species spanning bacteria, fungi, plants and animals</p>
-<p><span class="label">Key Impact:</span> Together, these findings establish airborne shotgun metagenomics as a platform for rapid, repeated and scalable biodiversity assessment across space and time</p>
-<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.09.02.26362014v1">Wastewater Surveillance of Oncogenic Viruses: A Baseline Assessment in Southeast Queensland, Australia</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.02.26362014">10.64898/2026.09.02.26362014</a> · Score: <code>████░░░░░░</code> 0.417</p>
+<p><span class="label">Core Problem:</span> Wastewater surveillance (WS) offers a non-invasive means of tracking population-level circulation of infectious agents, including viruses linked to cancer</p>
+<p><span class="label">Proposed Solution:</span> This study provides the first Australian assessment of oncogenic viruses in municipal wastewater by screening 76 influent samples collected over four months from six wastewater treatment plants in Southeast Queensland, Australia. Ten gene targets representing seven oncogenic viruses including Epstein-Barr virus (EBV), hepatitis B virus (HBV), hepatitis C virus (HCV), human herpesvirus 8 (HHV-8), human papillomavirus 16 and 18 (HPV-16 and -18), human T-lymphotropic virus type 1 (HTLV-1), and Merkel cell polyomavirus (MCPyV) were analysed using PCR-based methods</p>
+<p><span class="label">Key Impact:</span> More broadly, positive detection of all targeted oncogenic viruses including those associated with low prevalence infections in wastewater demonstrates the potential of WS to complement existing cancer surveillance systems in tracking community-level circulation of these infectious agents</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.01.722178v2">Antiviral activity versus host response: contrasting transcriptomic footprints of four antivirals in human cytomegalovirus-infected brain organoids</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.01.722178">10.64898/2026.05.01.722178</a> · Score: <code>████░░░░░░</code> 0.400</p>
-<p><span class="label">Core Problem:</span> Infection with human cytomegalovirus (HCMV) is common and usually asymptomatic in healthy individuals, but can cause severe neurological injury, particularly following congenital transmission</p>
-<p><span class="label">Proposed Solution:</span> For symptomatic congenital infection, standard antiviral treatment is ganciclovir, with maribavir and letermovir as alternative direct-acting agents. However, their relative antiviral activity in reducing HCMV RNA abundance and restoring the host transcriptome towards an uninfected state has not been directly assessed in a neural model</p>
-<p><span class="label">Key Impact:</span> The results support further evaluation of ganciclovir and letermovir in therapy of neural damage resulting from HCMV infection</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.09.02.26362016v1">Seroprevalence of viral hemorrhagic fevers and arboviral infections among febrile patients in Forest Guinea</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.02.26362016">10.64898/2026.09.02.26362016</a> · Score: <code>████░░░░░░</code> 0.367</p>
+<p><span class="label">Core Problem:</span> Between 2017 and 2024, routine diagnostics surveillance in Guinea detected several confirmed viral hemorrhagic fever (VHF) cases among febrile patients</p>
+<p><span class="label">Proposed Solution:</span> To assess exposure to Lassa virus and other viral pathogens, we conducted a retrospective cross-sectional seroprevalence study in Forest Guinea (Gueckedou and N&#x27;Zerekore). Lassa virus seroprevalence was 56</p>
+<p><span class="label">Key Impact:</span> 2%) were detected</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.31.748187v1">Pathogen Host Shifts from a Niche Evolution Perspective</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.748187">10.64898/2026.08.31.748187</a> · Score: <code>████░░░░░░</code> 0.391</p>
-<p><span class="label">Core Problem:</span> Emerging infectious diseases constitute a major health threat and are often associated with zoonotic spillover processes</p>
-<p><span class="label">Proposed Solution:</span> Pathogen host shifts may involve evolutionary adaptation to new host species, which is of central concern in relation to future pandemics. Evolutionary host shifts require certain conditions to be met, including physiological and ecological factors</p>
-<p><span class="label">Key Impact:</span> We identify the conditions under which evolutionary host shifts occur and show, for a two-host-species system, that evolutionary outcomes fall into four distinct categories</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.01.748482v1">N6-methyladenosine regulates Influenza A virus mRNA stability yet is rarely found on genomic RNA</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.01.748482">10.64898/2026.09.01.748482</a> · Score: <code>████░░░░░░</code> 0.385</p>
-<p><span class="label">Core Problem:</span> Previous studies have found widespread N6-methyladenosine (m6A methylation) on all forms of Influenza A virus (IAV) RNA, with m6A found critical for viral replication, pathogenicity as well as viral RNA packaging</p>
-<p><span class="label">Proposed Solution:</span> Here we applied the latest quantitative technologies to revisit the methylation landscape on the anti-sense genomic RNA of IAV. Unexpectedly, upon Ultra-Performance Liquid Chromatography-Tandem Mass Spectrometry (UPLC-MS/MS) analysis of IAV virion -extracted genomic RNA, we detected very little m6A regardless of production from human cells or chicken eggs</p>
-<p><span class="label">Key Impact:</span> Lastly, we provide proof of concept that a METTL3 small molecule inhibitor can be antiviral, and propose that m6A-targeted antivirals would mainly impact the intracellular gene expression phase of IAV replication</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.09.02.26362034v1">Nanopore sequencing panel for saliva-based host pharmacogenomic screening in anti-tubercular therapy</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.02.26362034">10.64898/2026.09.02.26362034</a> · Score: <code>████░░░░░░</code> 0.356</p>
+<p><span class="label">Core Problem:</span> Abstract Rationale: Host genotypes can predict subtherapeutic anti-tubercular drug exposures and treatment-associated toxicities</p>
+<p><span class="label">Proposed Solution:</span> Screening for these variants could enable personalized dosing, but scalable assays for second-line drugs are lacking. Objectives: We developed a nanopore sequencing panel to detect host variants affecting anti-tuberculosis drug troughs and toxicities, and evaluated its performance as a saliva-based screening tool</p>
+<p><span class="label">Key Impact:</span> Conclusions: Portable, saliva-based sequencing reliably detects pharmacogenetic variants and could inform pre-treatment screening for drug exposure or toxicity</p>
 <p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.09.01.26361896v1">Comparative analysis of Shigella and Campylobacter transmission in paired longitudinal household cohort studies in urban Bangladesh and rural Tanzania</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.01.26361896">10.64898/2026.09.01.26361896</a> · Score: <code>███░░░░░░░</code> 0.326</p>
+<p><span class="label">Core Problem:</span> Background: Transmission pathways of enteric pathogens have been broadly characterized; however, the degree to which different pathogens exploit different transmission routes and how these patterns vary across age remain poorly understood</p>
+<p><span class="label">Proposed Solution:</span> We quantified the relative contribution of within-household (infection sources internal to the household) and community-to-household (infection sources external to the household) transmission for Shigella and Campylobacter. Methods: We conducted paired longitudinal cohort studies in urban Bangladesh and rural Tanzania, each enrolling 100 households with a child under the age of one year</p>
+<p><span class="label">Key Impact:</span> Intervention design should consider age-specific transmission patterns along with pathogen biology</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.03.749052v1">Single-cell metabolomics reveals infection-specific metabolic reprogramming of human macrophages</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.03.749052">10.64898/2026.09.03.749052</a> · Score: <code>████░░░░░░</code> 0.384</p>
-<p><span class="label">Core Problem:</span> During intracellular infection, host cells adopt different metabolic states that traditional bulk analyses cannot distinguish</p>
-<p><span class="label">Proposed Solution:</span> Using single-cell spatial metabolomics of human macrophages infected with Legionella pneumophila, we show that bacterial uptake activates host metabolism, whereas the bacterial effectors secreted through the type IV secretion system counteract this response and promote a glycolytic shift. The activity of effectors also generates distinct metabolic states within the infected macrophage population</p>
-<p><span class="label">Key Impact:</span> The activity of effectors also generates distinct metabolic states within the infected macrophage population</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.08.31.26361844v1">A Multidimensional Immune Signature Predicts Susceptibility to Omicron Infection in Vaccinated Individuals</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.08.31.26361844">10.64898/2026.08.31.26361844</a> · Score: <code>███░░░░░░░</code> 0.308</p>
+<p><span class="label">Core Problem:</span> Substantial inter-individual variation in susceptibility to viral infection persists despite widespread vaccination, and its immunological basis remains poorly understood</p>
+<p><span class="label">Proposed Solution:</span> We investigated how innate and adaptive immune responses contribute to susceptibility to SARS-CoV-2 infection during the early COVID-19 pandemic. We compared two groups of vaccinated individuals who either remained uninfected or became infected during the first Omicron wave</p>
+<p><span class="label">Key Impact:</span> Together, these results demonstrate that susceptibility to Omicron infection is linked to a pre-existing and persistent functional immune imbalance affecting both innate and adaptive arms of immunity</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.01.722178">Antiviral activity versus host response: contrasting transcriptomic footprints of four antivirals in human cytomegalovirus-infected brain organoids</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.31.747859">City life: airborne DNA metagenomic biodiversity monitoring reveals dynamic changes across time and space</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.08.31.748187">Pathogen Host Shifts from a Niche Evolution Perspective</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.01.748482">N6-methyladenosine regulates Influenza A virus mRNA stability yet is rarely found on genomic RNA</a><span class="history-date">Sep 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.03.749052">Single-cell metabolomics reveals infection-specific metabolic reprogramming of human macrophages</a><span class="history-date">Sep 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.28.26359302">Impaired memory B-cell formation after mRNA-based COVID-19 booster vaccination in patients with inflammatory bowel disease receiving anti-TNF treatment</a><span class="history-date">Sep 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.28.26360747">Post-pandemic ecological reshaping of respiratory pathogen circulation: A six-year FilmArray(R)-based surveillance study in Tokyo, Japan (2020-2026)</a><span class="history-date">Sep 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.28.26361620">BCG vaccination recalibrates innate immunity in ART-treated people with HIV</a><span class="history-date">Sep 03, 2026</span></li>
@@ -808,7 +818,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-09-04T09:50:03 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-09-05T09:05:53 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
