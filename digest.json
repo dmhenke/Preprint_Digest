@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-06T09:02:42.588066+00:00",
+  "generated_utc": "2026-09-07T09:02:21.899853+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "FADVI: disentangled representation learning for robust integration of single-cell and spatial omics data",
-          "doi": "10.1101/2025.11.03.683998",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.11.03.683998v2",
+          "title": "MorphoNavigator-3D: Generalizable single-cell phenotyping of cancer spheroids using Bayesian-optimized deep-learning workflows",
+          "doi": "10.1101/2024.09.08.611898",
+          "url": "https://www.biorxiv.org/content/10.1101/2024.09.08.611898v2",
           "source": "biorxiv",
-          "score": 0.4886
+          "score": 0.538
         },
         {
           "rank": 2,
-          "title": "Modelling interpretable patient-level representationsfrom structured and simple multimodal data",
-          "doi": "10.64898/2026.08.31.748244",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748244v1",
+          "title": "DeepPROTECTNeo: A Context-aware Personalized and Reverse Vaccinology-guided Deep Learning Framework for Immunogenicity Prediction",
+          "doi": "10.1101/2025.01.04.631301",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.01.04.631301v3",
           "source": "biorxiv",
-          "score": 0.4754
+          "score": 0.5175
         },
         {
           "rank": 3,
-          "title": "Global tree encoding of atlas-scale single-cell genomics",
-          "doi": "10.64898/2026.08.31.747971",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.747971v1",
+          "title": "Systematic Comparison of 10X Genomics and Parse Single Cell RNA Technologies across PBMC and CD8+ TEMRA Cells",
+          "doi": "10.64898/2026.09.02.748788",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748788v1",
           "source": "biorxiv",
-          "score": 0.4696
+          "score": 0.4322
         },
         {
           "rank": 4,
-          "title": "Systematic CRISPRi perturbation of 1,408 autism risk genes maps multilevel transcriptional convergence in human cortical neurons",
-          "doi": "10.64898/2026.09.02.748925",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748925v1",
+          "title": "A High-Throughput Assay to Identify Specific Nascent Chain Inhibitors",
+          "doi": "10.64898/2026.09.03.749102",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749102v1",
           "source": "biorxiv",
-          "score": 0.4383
+          "score": 0.4221
         },
         {
           "rank": 5,
-          "title": "Deep visual proteomics reveals distinct proximal tubular and glomerular injury programs in experimental diabetic kidney disease",
-          "doi": "10.64898/2026.09.01.748754",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748754v1",
+          "title": "PanScreen: A Comprehensive Approach to Off-Target Liability Assessment",
+          "doi": "10.1101/2023.11.16.567496",
+          "url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567496v2",
           "source": "biorxiv",
-          "score": 0.4232
+          "score": 0.403
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Genomic Epidemiology of Canine Distemper Virus (CDV) in Neotropical Primates in Brazil Reveals Multiple Spillover Events and Convergent Evolution at Hemagglutinin Residue 519",
-          "doi": "10.64898/2026.09.01.748675",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748675v1",
+          "title": "PIGSTI: a modular, reproducible pipeline for detecting species identity, pathogens, and microbes from animal palaeogenomic data",
+          "doi": "10.64898/2026.09.01.748539",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748539v1",
           "source": "biorxiv",
-          "score": 0.4974
+          "score": 0.3858
         },
         {
           "rank": 2,
-          "title": "Forecasting viral evolution from phylogenetic trees",
-          "doi": "10.64898/2026.08.27.741102",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.741102v1",
+          "title": "Metagenomic and metabolomic analysis of a bryozoan-associated microbial complex from the Hanjiang River, China",
+          "doi": "10.64898/2026.09.01.748657",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748657v1",
           "source": "biorxiv",
-          "score": 0.427
+          "score": 0.3733
         },
         {
           "rank": 3,
-          "title": "Discovery of novel enzybiotic candidates targeting human bacterial pathogens through large-scale viral-host profiling",
-          "doi": "10.64898/2026.09.01.748673",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748673v1",
+          "title": "Activated macrophages restrict invasive bacterial infection in a human intestinal organoid co-culture model",
+          "doi": "10.64898/2026.09.02.748782",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748782v1",
           "source": "biorxiv",
-          "score": 0.422
+          "score": 0.3455
         },
         {
           "rank": 4,
-          "title": "Uncharted Waters: Projecting the European Emergence of Naegleria fowleri, Colloquially Known as the 'Brain-Eating Amoeba', Under Climate Warming",
-          "doi": "10.64898/2026.09.02.748909",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748909v1",
+          "title": "Quantitative and amino acid sequence analysis of soluble HIV-1 Vpu and calmodulin interactions",
+          "doi": "10.64898/2026.04.15.718738",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718738v2",
           "source": "biorxiv",
-          "score": 0.4061
+          "score": 0.3368
         },
         {
           "rank": 5,
-          "title": "Structural Aspects of Nipah Virus Glycoproteins using Predictive Protein Modeling",
-          "doi": "10.64898/2026.09.02.748953",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748953v1",
+          "title": "Matrilysin (MMP-7) Restricts RSV Infection and Airway Inflammation through Proteolysis of CCR3 and RSV-G",
+          "doi": "10.64898/2026.09.02.748627",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748627v1",
           "source": "biorxiv",
-          "score": 0.3949
+          "score": 0.3182
         }
       ]
     }
