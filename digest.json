@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-07T09:02:21.899853+00:00",
+  "generated_utc": "2026-09-08T09:03:01.541002+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "MorphoNavigator-3D: Generalizable single-cell phenotyping of cancer spheroids using Bayesian-optimized deep-learning workflows",
-          "doi": "10.1101/2024.09.08.611898",
-          "url": "https://www.biorxiv.org/content/10.1101/2024.09.08.611898v2",
-          "source": "biorxiv",
-          "score": 0.538
+          "title": "Modeling pathway overlap increases accuracy of GWAS gene set enrichment",
+          "doi": "10.64898/2026.09.03.26362206",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362206v1",
+          "source": "medrxiv",
+          "score": 0.3738
         },
         {
           "rank": 2,
-          "title": "DeepPROTECTNeo: A Context-aware Personalized and Reverse Vaccinology-guided Deep Learning Framework for Immunogenicity Prediction",
-          "doi": "10.1101/2025.01.04.631301",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.01.04.631301v3",
-          "source": "biorxiv",
-          "score": 0.5175
+          "title": "Sex differences in the genetic architecture of clinical quantitative traits in the electronic health record",
+          "doi": "10.64898/2026.09.02.26362069",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26362069v1",
+          "source": "medrxiv",
+          "score": 0.3479
         },
         {
           "rank": 3,
-          "title": "Systematic Comparison of 10X Genomics and Parse Single Cell RNA Technologies across PBMC and CD8+ TEMRA Cells",
-          "doi": "10.64898/2026.09.02.748788",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748788v1",
-          "source": "biorxiv",
-          "score": 0.4322
+          "title": "Machine learning-derived Alzheimer's disease dimensions: neuroanatomical, cognitive, clinical, functional, and genetic risk heterogeneity signatures",
+          "doi": "10.64898/2026.09.02.26361668",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26361668v1",
+          "source": "medrxiv",
+          "score": 0.3297
         },
         {
           "rank": 4,
-          "title": "A High-Throughput Assay to Identify Specific Nascent Chain Inhibitors",
-          "doi": "10.64898/2026.09.03.749102",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749102v1",
-          "source": "biorxiv",
-          "score": 0.4221
+          "title": "BioBERT-Derived Clinical TextRepresentations and Sparse PrincipalComponents of Multi-Omics Data for BreastCancer Survival Prediction: ALeakage-Controlled Cross-ValidatedBenchmark",
+          "doi": "10.64898/2026.08.31.26361875",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361875v1",
+          "source": "medrxiv",
+          "score": 0.3282
         },
         {
           "rank": 5,
-          "title": "PanScreen: A Comprehensive Approach to Off-Target Liability Assessment",
-          "doi": "10.1101/2023.11.16.567496",
-          "url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567496v2",
-          "source": "biorxiv",
-          "score": 0.403
+          "title": "Targeted Analysis of Whole Exome Sequencing Data Identifies Biologically Plausible Causal Variants in Genetically Unresolved Oculocutaneous Albinism Patients From India",
+          "doi": "10.64898/2026.09.03.26362137",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362137v1",
+          "source": "medrxiv",
+          "score": 0.3235
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "PIGSTI: a modular, reproducible pipeline for detecting species identity, pathogens, and microbes from animal palaeogenomic data",
-          "doi": "10.64898/2026.09.01.748539",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748539v1",
-          "source": "biorxiv",
-          "score": 0.3858
+          "title": "Population Genomics of Salmonella Enteritidis in Saudi Arabia Reveals Globally Circulating Food- and Human-Associated Lineages and Plasmid-Mediated Antimicrobial Resistance",
+          "doi": "10.64898/2026.09.03.26362153",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362153v1",
+          "source": "medrxiv",
+          "score": 0.5038
         },
         {
           "rank": 2,
-          "title": "Metagenomic and metabolomic analysis of a bryozoan-associated microbial complex from the Hanjiang River, China",
-          "doi": "10.64898/2026.09.01.748657",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748657v1",
-          "source": "biorxiv",
-          "score": 0.3733
+          "title": "Interactions between influenza and respiratory syncytial viruses: two-pathogen modelling to analyse multiplex data",
+          "doi": "10.64898/2026.09.03.26362151",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362151v1",
+          "source": "medrxiv",
+          "score": 0.4028
         },
         {
           "rank": 3,
-          "title": "Activated macrophages restrict invasive bacterial infection in a human intestinal organoid co-culture model",
-          "doi": "10.64898/2026.09.02.748782",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748782v1",
-          "source": "biorxiv",
-          "score": 0.3455
+          "title": "Laemple: A Benchmarking Framework for Virus Lineage Deconvolution Tools for SARS-CoV-2 from Wastewater",
+          "doi": "10.64898/2026.09.02.26362081",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26362081v1",
+          "source": "medrxiv",
+          "score": 0.3978
         },
         {
           "rank": 4,
-          "title": "Quantitative and amino acid sequence analysis of soluble HIV-1 Vpu and calmodulin interactions",
-          "doi": "10.64898/2026.04.15.718738",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718738v2",
-          "source": "biorxiv",
-          "score": 0.3368
+          "title": "Andes Hantavirus human-to-human transmission dynamics and1 preparedness scenarios",
+          "doi": "10.64898/2026.08.31.26361797",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361797v1",
+          "source": "medrxiv",
+          "score": 0.3938
         },
         {
           "rank": 5,
-          "title": "Matrilysin (MMP-7) Restricts RSV Infection and Airway Inflammation through Proteolysis of CCR3 and RSV-G",
-          "doi": "10.64898/2026.09.02.748627",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748627v1",
-          "source": "biorxiv",
-          "score": 0.3182
+          "title": "Avidity as a marker of protection against hepatitis E during a genotype 1 outbreak in South Sudan",
+          "doi": "10.64898/2026.09.03.26362164",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362164v1",
+          "source": "medrxiv",
+          "score": 0.3628
         }
       ]
     }
