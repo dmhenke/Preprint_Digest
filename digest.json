@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-08T09:03:01.541002+00:00",
+  "generated_utc": "2026-09-09T09:03:44.305246+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Modeling pathway overlap increases accuracy of GWAS gene set enrichment",
-          "doi": "10.64898/2026.09.03.26362206",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362206v1",
-          "source": "medrxiv",
-          "score": 0.3738
+          "title": "Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics",
+          "doi": "10.64898/2026.09.03.747733",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1",
+          "source": "biorxiv",
+          "score": 0.5279
         },
         {
           "rank": 2,
-          "title": "Sex differences in the genetic architecture of clinical quantitative traits in the electronic health record",
-          "doi": "10.64898/2026.09.02.26362069",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26362069v1",
-          "source": "medrxiv",
-          "score": 0.3479
+          "title": "EISCA and EISTA: Full-Spectrum Pipelines for Single-Cell and Spatial Transcriptomics Analysis",
+          "doi": "10.64898/2026.09.02.748851",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748851v1",
+          "source": "biorxiv",
+          "score": 0.4979
         },
         {
           "rank": 3,
-          "title": "Machine learning-derived Alzheimer's disease dimensions: neuroanatomical, cognitive, clinical, functional, and genetic risk heterogeneity signatures",
-          "doi": "10.64898/2026.09.02.26361668",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26361668v1",
-          "source": "medrxiv",
-          "score": 0.3297
+          "title": "BCOR mutations establish a persistent culture-adaptive state in human induced pluripotent stem cells",
+          "doi": "10.64898/2026.09.04.739550",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.739550v1",
+          "source": "biorxiv",
+          "score": 0.4564
         },
         {
           "rank": 4,
-          "title": "BioBERT-Derived Clinical TextRepresentations and Sparse PrincipalComponents of Multi-Omics Data for BreastCancer Survival Prediction: ALeakage-Controlled Cross-ValidatedBenchmark",
-          "doi": "10.64898/2026.08.31.26361875",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361875v1",
-          "source": "medrxiv",
-          "score": 0.3282
+          "title": "Single-Cell Indel Detection Enhances Genetic Ancestry and Cellular Lineage Analysis",
+          "doi": "10.64898/2026.09.02.748725",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748725v1",
+          "source": "biorxiv",
+          "score": 0.4544
         },
         {
           "rank": 5,
-          "title": "Targeted Analysis of Whole Exome Sequencing Data Identifies Biologically Plausible Causal Variants in Genetically Unresolved Oculocutaneous Albinism Patients From India",
-          "doi": "10.64898/2026.09.03.26362137",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362137v1",
-          "source": "medrxiv",
-          "score": 0.3235
+          "title": "WGCNA+: AI-powered WGCNA for Integration of Multi-Omics Data",
+          "doi": "10.64898/2026.09.02.748772",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748772v1",
+          "source": "biorxiv",
+          "score": 0.4476
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Population Genomics of Salmonella Enteritidis in Saudi Arabia Reveals Globally Circulating Food- and Human-Associated Lineages and Plasmid-Mediated Antimicrobial Resistance",
-          "doi": "10.64898/2026.09.03.26362153",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362153v1",
+          "title": "Rapid turnaround multiplex sequencing of SARS-CoV-2: comparing tiling amplicon protocol performance",
+          "doi": "10.1101/2021.12.28.21268461",
+          "url": "https://www.medrxiv.org/content/10.1101/2021.12.28.21268461v2",
           "source": "medrxiv",
-          "score": 0.5038
+          "score": 0.4785
         },
         {
           "rank": 2,
-          "title": "Interactions between influenza and respiratory syncytial viruses: two-pathogen modelling to analyse multiplex data",
-          "doi": "10.64898/2026.09.03.26362151",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362151v1",
-          "source": "medrxiv",
-          "score": 0.4028
+          "title": "Genomic Insights into Multi-Drug-Resistant, Klebsiella pneumoniae Isolated from an Infertile Woman: A Comprehensive Analysis of Antibiotic Resistance and Virulence Factors",
+          "doi": "10.64898/2026.09.03.749063",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749063v1",
+          "source": "biorxiv",
+          "score": 0.4277
         },
         {
           "rank": 3,
-          "title": "Laemple: A Benchmarking Framework for Virus Lineage Deconvolution Tools for SARS-CoV-2 from Wastewater",
-          "doi": "10.64898/2026.09.02.26362081",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26362081v1",
+          "title": "Applying a multiplex electrochemiluminescence NS1 assay to detect and differentiate Zika and dengue virus exposures in long-term community cohorts in Brazil and Thailand",
+          "doi": "10.64898/2026.09.04.26362297",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.04.26362297v1",
           "source": "medrxiv",
-          "score": 0.3978
+          "score": 0.3665
         },
         {
           "rank": 4,
-          "title": "Andes Hantavirus human-to-human transmission dynamics and1 preparedness scenarios",
-          "doi": "10.64898/2026.08.31.26361797",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361797v1",
-          "source": "medrxiv",
-          "score": 0.3938
+          "title": "MxB N-Terminus Adopts a Stable \u03b1-Helix to Engage the HIV-1 Capsid Trimer Interface",
+          "doi": "10.64898/2026.09.03.749210",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749210v1",
+          "source": "biorxiv",
+          "score": 0.3638
         },
         {
           "rank": 5,
-          "title": "Avidity as a marker of protection against hepatitis E during a genotype 1 outbreak in South Sudan",
-          "doi": "10.64898/2026.09.03.26362164",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362164v1",
-          "source": "medrxiv",
-          "score": 0.3628
+          "title": "Two incursions, two viruses: Emergence of a second novel Shamonda virus clade in Central Europe, 2026",
+          "doi": "10.64898/2026.09.05.749452",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749452v1",
+          "source": "biorxiv",
+          "score": 0.3603
         }
       ]
     }
