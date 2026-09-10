@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-09T09:03:44.305246+00:00",
+  "generated_utc": "2026-09-10T10:33:13.058260+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics",
-          "doi": "10.64898/2026.09.03.747733",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1",
+          "title": "PrEditR: A protein-centric platform for CRISPR-mediated base editor sgRNA design",
+          "doi": "10.64898/2026.05.15.725600",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725600v3",
           "source": "biorxiv",
-          "score": 0.5279
+          "score": 0.5329
         },
         {
           "rank": 2,
-          "title": "EISCA and EISTA: Full-Spectrum Pipelines for Single-Cell and Spatial Transcriptomics Analysis",
-          "doi": "10.64898/2026.09.02.748851",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748851v1",
+          "title": "CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics",
+          "doi": "10.64898/2026.09.03.749294",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749294v1",
           "source": "biorxiv",
-          "score": 0.4979
+          "score": 0.5064
         },
         {
           "rank": 3,
-          "title": "BCOR mutations establish a persistent culture-adaptive state in human induced pluripotent stem cells",
-          "doi": "10.64898/2026.09.04.739550",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.739550v1",
+          "title": "Independent benchmark of H&E-based gene expression prediction in skin",
+          "doi": "10.64898/2026.09.07.749926",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749926v1",
           "source": "biorxiv",
-          "score": 0.4564
+          "score": 0.499
         },
         {
           "rank": 4,
-          "title": "Single-Cell Indel Detection Enhances Genetic Ancestry and Cellular Lineage Analysis",
-          "doi": "10.64898/2026.09.02.748725",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748725v1",
+          "title": "Integrated morphological, multi-omics, and functional profiling reveals microglial plasticity driven by AD risk genes",
+          "doi": "10.64898/2026.09.07.749934",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749934v1",
           "source": "biorxiv",
-          "score": 0.4544
+          "score": 0.4963
         },
         {
           "rank": 5,
-          "title": "WGCNA+: AI-powered WGCNA for Integration of Multi-Omics Data",
-          "doi": "10.64898/2026.09.02.748772",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748772v1",
+          "title": "PhenoMapR: scalable mapping of sample phenotypes to single-cell, spatial, and bulk transcriptomics data",
+          "doi": "10.64898/2026.09.08.749933",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.749933v1",
           "source": "biorxiv",
-          "score": 0.4476
+          "score": 0.4635
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Rapid turnaround multiplex sequencing of SARS-CoV-2: comparing tiling amplicon protocol performance",
-          "doi": "10.1101/2021.12.28.21268461",
-          "url": "https://www.medrxiv.org/content/10.1101/2021.12.28.21268461v2",
-          "source": "medrxiv",
-          "score": 0.4785
+          "title": "Development of fluorescent and affinity tagged variants of rotavirus nonstructural protein 4 using the reverse genetics system",
+          "doi": "10.64898/2026.09.04.749488",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749488v1",
+          "source": "biorxiv",
+          "score": 0.4136
         },
         {
           "rank": 2,
-          "title": "Genomic Insights into Multi-Drug-Resistant, Klebsiella pneumoniae Isolated from an Infertile Woman: A Comprehensive Analysis of Antibiotic Resistance and Virulence Factors",
-          "doi": "10.64898/2026.09.03.749063",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749063v1",
+          "title": "Rapid Antimicrobial Resistance Decline Coupled with Microbial Community Shifts in Sewage Polluted River Mesocosms",
+          "doi": "10.64898/2026.09.08.750159",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750159v1",
           "source": "biorxiv",
-          "score": 0.4277
+          "score": 0.4013
         },
         {
           "rank": 3,
-          "title": "Applying a multiplex electrochemiluminescence NS1 assay to detect and differentiate Zika and dengue virus exposures in long-term community cohorts in Brazil and Thailand",
-          "doi": "10.64898/2026.09.04.26362297",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.04.26362297v1",
-          "source": "medrxiv",
-          "score": 0.3665
+          "title": "Variant-specific nucleocapsid mutations shape host innate immune trajectories during SARS-CoV-2 infection",
+          "doi": "10.64898/2026.09.03.749134",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749134v1",
+          "source": "biorxiv",
+          "score": 0.3985
         },
         {
           "rank": 4,
-          "title": "MxB N-Terminus Adopts a Stable \u03b1-Helix to Engage the HIV-1 Capsid Trimer Interface",
-          "doi": "10.64898/2026.09.03.749210",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749210v1",
+          "title": "CypA is a molecular barrier to HIV emergence from Eastern chimpanzees",
+          "doi": "10.64898/2026.09.08.747897",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.747897v1",
           "source": "biorxiv",
-          "score": 0.3638
+          "score": 0.3861
         },
         {
           "rank": 5,
-          "title": "Two incursions, two viruses: Emergence of a second novel Shamonda virus clade in Central Europe, 2026",
-          "doi": "10.64898/2026.09.05.749452",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749452v1",
+          "title": "A tomato fruit blotch viral replicon defines minimal requirements for cell autonomous replication and identifies functional RNA4-encoded movement and silencing suppression activities",
+          "doi": "10.64898/2026.05.21.726790",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726790v2",
           "source": "biorxiv",
-          "score": 0.3603
+          "score": 0.3815
         }
       ]
     }
