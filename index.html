@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>September 10, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>September 12, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">PrEditR: A protein-centric platform for CRISPR-mediated base editor sgRNA design</a></li>
-  <li><a href="#core-article-2">CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics</a></li>
-  <li><a href="#core-article-3">Independent benchmark of H&amp;E-based gene expression prediction in skin</a></li>
-  <li><a href="#core-article-4">Integrated morphological, multi-omics, and functional profiling reveals microglial plasticity driven by AD risk genes</a></li>
-  <li><a href="#core-article-5">PhenoMapR: scalable mapping of sample phenotypes to single-cell, spatial, and bulk transcriptomics data</a></li>
+  <li><a href="#core-article-1">AutoScreen: AI Co-Scientist System for Target Discovery in Functional Genomics</a></li>
+  <li><a href="#core-article-2">Learning the Language of the Microbiome with Transformers</a></li>
+  <li><a href="#core-article-3">Reframing enzyme function prediction as conditional generation</a></li>
+  <li><a href="#core-article-4">An in vitro System for Studying Osteochondrogenic Differentiation of Smooth Muscle Cells and Modeling Intimal Vascular Calcification</a></li>
+  <li><a href="#core-article-5">Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.05.15.725600v3">PrEditR: A protein-centric platform for CRISPR-mediated base editor sgRNA design</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.15.725600">10.64898/2026.05.15.725600</a> · Score: <code>█████░░░░░</code> 0.533</p>
-<p><span class="label">Core Problem:</span> Motivation: Post-translational modifications (PTMs) are critical to protein activity, yet the biological role of most known modification sites remains uncharacterized</p>
-<p><span class="label">Proposed Solution:</span> CRISPR-mediated phenotypic screens using base editors offer a powerful approach to dissecting PTM function at scale. However, existing sgRNA design tools for base editing applications are DNA-centric and lack the throughput required to integrate seamlessly with mass-spectrometry-based proteomics experimental outputs</p>
-<p><span class="label">Key Impact:</span> Availability and Implementation: PrEditR is available on GitHub and Docker Hub</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.06.749678v1">AutoScreen: AI Co-Scientist System for Target Discovery in Functional Genomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.06.749678">10.64898/2026.09.06.749678</a> · Score: <code>█████░░░░░</code> 0.508</p>
+<p><span class="label">Core Problem:</span> Target discovery in functional genomics remains largely manual and time-consuming, lacking systematic tools for efficient and reproducible gene-level hypothesis generation</p>
+<p><span class="label">Proposed Solution:</span> We introduce AutoScreen, an AI co-scientist system supporting target discovery through both Pre-screen Design, which constructs perturbation libraries de novo from free-text research descriptions, and Post-screen Analysis, which re-ranks experimental screen hits by integrating statistical scores with biological context. AutoScreen leverages the complementary strengths of multiple specialist agents that perform deep research into multi-modal evidence, information restructuring, parallel searches across &gt;26 biomedical databases, evidence synthesis, and target review to provide transparent, explainable gene prioritization with pipeline provenance</p>
+<p><span class="label">Key Impact:</span> Overall, AutoScreen enables AI-powered target discovery to be more auditable, scalable, extensible, and reproducible</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.03.749294v1">CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.03.749294">10.64898/2026.09.03.749294</a> · Score: <code>█████░░░░░</code> 0.506</p>
-<p><span class="label">Core Problem:</span> Understanding how different cell types assemble into tissues and organs, as well as how they interact to transmit and receive biological signals, is essential for advancing biomedical and biological research</p>
-<p><span class="label">Proposed Solution:</span> Recent advancements in spatial transcriptomics (ST) technologies have opened new avenues for investigating biological systems by achieving subcellular spatial resolution. Since cells are the fundamental units of life, extracting single-cell information from high-resolution ST data is crucial</p>
-<p><span class="label">Key Impact:</span> The outputs of CellART are compatible with widely used community tools, facilitating a variety of downstream analyses</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.05.02.722381v4">Learning the Language of the Microbiome with Transformers</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.02.722381">10.64898/2026.05.02.722381</a> · Score: <code>█████░░░░░</code> 0.487</p>
+<p><span class="label">Core Problem:</span> Self-supervised pretraining has become central to biological machine learning, yet microbiome data remains comparatively underexplored in terms of both modeling approaches and evaluation frameworks</p>
+<p><span class="label">Proposed Solution:</span> To address this gap, we present Atlas, a pretraining dataset of 539,308 microbiome datapoints from the MGnify database. Using Atlas, we train the Waypoint family of microbiome foundation models: a series of GPT-2 style causal language models ranging from 6M to 170M parameters</p>
+<p><span class="label">Key Impact:</span> Overall, our work highlights the importance of large-scale self-supervised pretraining in this domain and establishes Atlas, Compass, and the Waypoint models as valuable resources for the research community in this emerging field</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.07.749926v1">Independent benchmark of H&amp;E-based gene expression prediction in skin</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.07.749926">10.64898/2026.09.07.749926</a> · Score: <code>█████░░░░░</code> 0.499</p>
-<p><span class="label">Core Problem:</span> Given the widespread availability of H&amp;E slides, there is considerable interest in determining whether molecular information can be inferred directly from tissue morphology, potentially reducing the need for costly spatial transcriptomic profiling</p>
-<p><span class="label">Proposed Solution:</span> We assessed three state-of-the-art methods for predicting single-cell gene expression from H&amp;E images across three skin disease contexts and two Xenium panels. As controls, we included simple linear regression models trained on embeddings from multiple foundation models, totalling 16 models evaluated in this study</p>
-<p><span class="label">Key Impact:</span> Our results demonstrate that current H&amp;E-based gene expression prediction methods are not yet suitable for single-cell-level interpretation of spatial transcriptomics in skin tissue</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.09.750355v1">Reframing enzyme function prediction as conditional generation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.09.750355">10.64898/2026.09.09.750355</a> · Score: <code>█████░░░░░</code> 0.482</p>
+<p><span class="label">Core Problem:</span> Enzymes frequently exhibit promiscuous activity beyond their native roles, providing starting-points for new functions</p>
+<p><span class="label">Proposed Solution:</span> Finding these promiscuous enzymes, especially for non-native chemical transformations, is challenging but highly valuable, as they promise novel, sustainable solutions for chemistry and biotechnology. However, current machine learning methods are poorly suited to discovering unseen chemistry as they often frame function prediction as closed set classification or a retrieval task</p>
+<p><span class="label">Key Impact:</span> This conceptual framework provides a stepping stone towards an in silico generative method to discover non-native biocatalysts</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.07.749934v1">Integrated morphological, multi-omics, and functional profiling reveals microglial plasticity driven by AD risk genes</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.07.749934">10.64898/2026.09.07.749934</a> · Score: <code>█████░░░░░</code> 0.496</p>
-<p><span class="label">Core Problem:</span> Microglia, the resident macrophages of the central nervous system, are highly dynamic cells essential for brain homeostasis</p>
-<p><span class="label">Proposed Solution:</span> While genome-wide association studies (GWAS) strongly implicate microglial dysfunction in Alzheimer&#x27;s disease (AD), the mechanistic links coordinating their diverse transcriptional, morphological, and functional states remain poorly understood. Using human induced pluripotent stem cell-derived microglia (iMicroglia) and single-cell RNA sequencing, we identified six distinct transcriptional profiles and mapped them to specific morphological phenotypes via targeted immunofluorescence, establishing a link between microglial morphology and molecular identity</p>
-<p><span class="label">Key Impact:</span> Together, this study reveals how AD GWAS genes may drive microglia into dysfunctional states characterized by altered morphology, distinct multi-omic signatures, and impaired functions</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.05.749615v1">An in vitro System for Studying Osteochondrogenic Differentiation of Smooth Muscle Cells and Modeling Intimal Vascular Calcification</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.05.749615">10.64898/2026.09.05.749615</a> · Score: <code>█████░░░░░</code> 0.458</p>
+<p><span class="label">Core Problem:</span> Objective: Smooth muscle cells (SMCs) undergo phenotypic transitions during atherosclerosis, including towards a chondromyocyte (CMC) state associated with intimal calcification</p>
+<p><span class="label">Proposed Solution:</span> Although standard in vitro calcification assays robustly reproduce mineral deposition, it remains unclear how well they recapitulate these disease-associated SMC states. We sought to define the CMC transcriptional phenotype in atherosclerosis and develop an in vitro system that faithfully reproduces it</p>
+<p><span class="label">Key Impact:</span> Conclusions: The OCD assay results in a strong calcification phenotype together with a disease-associated CMC-like transcriptional state, providing a reliable in vitro model for mechanistic investigation of SMC phenotypic transition and prioritization of candidate regulators</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.08.749933v1">PhenoMapR: scalable mapping of sample phenotypes to single-cell, spatial, and bulk transcriptomics data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.08.749933">10.64898/2026.09.08.749933</a> · Score: <code>█████░░░░░</code> 0.463</p>
-<p><span class="label">Core Problem:</span> Single-cell and spatial transcriptomic studies often lack sufficient sample size to compute robust statistical associations between a sample-level phenotype and cell types or spatial locations</p>
-<p><span class="label">Proposed Solution:</span> In contrast, lower resolution methods such as bulk gene expression profiling have been applied at scale in large, annotated datasets, providing reliable signatures for phenotype associations. We introduce PhenoMapR, a semi-supervised method designed to integrate the phenotypic rigor of large-scale bulk expression studies with the cellular and spatial granularity of single-cell and spatial transcriptomics</p>
-<p><span class="label">Key Impact:</span> This enables the identification of biologically-relevant cellular populations and spatial niches for experimental validation and therapeutic intervention</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.10.750674v1">Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.10.750674">10.64898/2026.09.10.750674</a> · Score: <code>█████░░░░░</code> 0.458</p>
+<p><span class="label">Core Problem:</span> Selective recognition of viral RNA by capsid proteins is essential for genome packaging during the assembly of single-stranded RNA (ssRNA) viruses</p>
+<p><span class="label">Proposed Solution:</span> However, identification of capsid protein binding sites in the RNA genome remains challenging because current experimental techniques are labor-intensive and low-throughput, motivating the development of computational approaches. Here, we present a sequence-based framework that integrates RNA tertiary structural modeling, local geometric feature extraction, and machine learning to predict capsid protein binding sites</p>
+<p><span class="label">Key Impact:</span> In summary, our findings provide new mechanistic insights into RNA-capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.15.725600">PrEditR: A protein-centric platform for CRISPR-mediated base editor sgRNA design</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.03.749294">CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.07.749926">Independent benchmark of H&amp;E-based gene expression prediction in skin</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.07.749934">Integrated morphological, multi-omics, and functional profiling reveals microglial plasticity driven by AD risk genes</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.08.749933">PhenoMapR: scalable mapping of sample phenotypes to single-cell, spatial, and bulk transcriptomics data</a><span class="history-date">Sep 10, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.02.748725">Single-Cell Indel Detection Enhances Genetic Ancestry and Cellular Lineage Analysis</a><span class="history-date">Sep 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.02.748772">WGCNA+: AI-powered WGCNA for Integration of Multi-Omics Data</a><span class="history-date">Sep 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.02.748851">EISCA and EISTA: Full-Spectrum Pipelines for Single-Cell and Spatial Transcriptomics Analysis</a><span class="history-date">Sep 09, 2026</span></li>
@@ -699,57 +704,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Development of fluorescent and affinity tagged variants of rotavirus nonstructural protein 4 using the reverse genetics system</a></li>
-  <li><a href="#virology-article-2">Rapid Antimicrobial Resistance Decline Coupled with Microbial Community Shifts in Sewage Polluted River Mesocosms</a></li>
-  <li><a href="#virology-article-3">Variant-specific nucleocapsid mutations shape host innate immune trajectories during SARS-CoV-2 infection</a></li>
-  <li><a href="#virology-article-4">CypA is a molecular barrier to HIV emergence from Eastern chimpanzees</a></li>
-  <li><a href="#virology-article-5">A tomato fruit blotch viral replicon defines minimal requirements for cell autonomous replication and identifies functional RNA4-encoded movement and silencing suppression activities</a></li>
+  <li><a href="#virology-article-1">Wastewater Metagenomic Virome Analysis of the 2026 World Cup in Texas</a></li>
+  <li><a href="#virology-article-2">Cyanophage CP12 Rewires Host Carbon Regulation through Interface Remodeling and Redox Buffering</a></li>
+  <li><a href="#virology-article-3">Two IncHI1 megaplasmids in Klebsiella species reveal transposable-element-mediated blaIMP-1 mobilisation</a></li>
+  <li><a href="#virology-article-4">Microbial succession in casing layer shapes bacterial blotch disease associated communities in cultivated white button mushroom: From casing layer to disease</a></li>
+  <li><a href="#virology-article-5">Molecular epidemiology of respiratory syncytial virus infections in Arizona, USA during the 2023-24 and 2024-25 seasons.</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.04.749488v1">Development of fluorescent and affinity tagged variants of rotavirus nonstructural protein 4 using the reverse genetics system</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.04.749488">10.64898/2026.09.04.749488</a> · Score: <code>████░░░░░░</code> 0.414</p>
-<p><span class="label">Core Problem:</span> Rotavirus (RV) nonstructural protein 4 (NSP4) is a multifunctional viroporin and enterotoxin that also serves an essential structural role in virion assembly, making it both a central virulence factor and a potential therapeutic target</p>
-<p><span class="label">Proposed Solution:</span> However, studying NSP4 within infectious virus has been hindered by essential RNA packaging signals at the 5&#x27; end of gene segment 10 (gs10) and an DLP-binding domain at its C-terminus, both of which constrain conventional mutagenesis. Using a plasmid-based reverse genetics system, we generated six recombinant rotaviruses (rRVs) encoding tagged or reporter-fused NSP4 via three strategies: expression from an alternative segment (gs7) in a bicistronic arrangement, N-terminal tagging of gs10 with translation shifted downstream of the native packaging sequence, and retention of the gs10 5&#x27; UTR and fusion of the first 20 amino acids fused to a reporter followed by bicistronic full-length NSP4 expression</p>
-<p><span class="label">Key Impact:</span> These rRVs constitute a validated toolkit for dissecting NSP4 function during bona fide infection and establish a generalizable strategy for engineering constrained rotavirus gene segments</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.08.750159v1">Rapid Antimicrobial Resistance Decline Coupled with Microbial Community Shifts in Sewage Polluted River Mesocosms</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.08.750159">10.64898/2026.09.08.750159</a> · Score: <code>████░░░░░░</code> 0.401</p>
-<p><span class="label">Core Problem:</span> Antimicrobial resistance poses a global health threat, yet the fate of antimicrobial resistance genes (ARGs) and microbial communities from wastewaters in receiving rivers is rarely quantified</p>
-<p><span class="label">Proposed Solution:</span> This study investigated the degradation kinetics of ARGs in sewage-polluted river water mesocosms and under sulfamethoxazole and copper stress, separately and in combination. Seven clinically relevant ARGs (blaCTX-M, blaNDM, qnrS, sul2, tetW, ermF, and aph(3&#x27;&#x27;)-Ib), a mobile genetic element marker (intI1) and bacterial marker genes (uidA, 16S rDNA) were quantified by qPCR</p>
-<p><span class="label">Key Impact:</span> This study provides approximate kinetic parameters for mathematical models to predict the fate of ARGs in rivers</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.09.04.26362178v1">Wastewater Metagenomic Virome Analysis of the 2026 World Cup in Texas</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.04.26362178">10.64898/2026.09.04.26362178</a> · Score: <code>█████░░░░░</code> 0.454</p>
+<p><span class="label">Core Problem:</span> Mass gatherings are thought to create conditions for pathogen introduction and spread, yet whether such events measurably alter the viral community of a city has rarely been tested against an extensive historical baseline</p>
+<p><span class="label">Proposed Solution:</span> We analyzed 5,137 hybrid-capture metagenomic wastewater samples collected from 55 sites across 17 Texas cities between June 2022 and July 2026, spanning the 2026 FIFA World Cup. We asked (1) whether host-city viral community composition during the tournament departed from its established summer-to-summer range, (2) whether targeted respiratory viruses rose above their characteristic summer trend, and (3) whether the load of rare and novel taxa was elevated in host cities relative to non-host cities</p>
+<p><span class="label">Key Impact:</span> Although based on a single event, these findings favor continuous wastewater surveillance over event-triggered deployment, both for detecting introductions that arrive unpredictably and for supplying the baseline against which any event should be judged</p>
 <p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="virology-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.10.750766v1">Cyanophage CP12 Rewires Host Carbon Regulation through Interface Remodeling and Redox Buffering</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.10.750766">10.64898/2026.09.10.750766</a> · Score: <code>████░░░░░░</code> 0.442</p>
+<p><span class="label">Core Problem:</span> Picocyanobacteria drive ocean carbon fixation, and cyanophages reshape host metabolism during infection</p>
+<p><span class="label">Proposed Solution:</span> In cyanobacteria, the intrinsically disorder Calvin cycle protein 12 (CP12) assembles glyceraldehyde-3-phosphate dehydrogenase (GAP2) and phosphoribulokinase (PRK) into the inhibitory dark complex, yet how phage CP12 homologs modulate redox-sensitive partners remains unclear. Here, we examined viral CP12 across sequence, structure, and post-translational modification (PTM) complexities to resolve the mechanistic remodeling of dark-complex assembly and regulation</p>
+<p><span class="label">Key Impact:</span> These findings link sequence-driven chemistry to interface dynamics and redox PTM responsiveness to light, defining phage CP12 as a regulatory mimetic that may retune host carbon regulation during infection</p>
+<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.03.749134v1">Variant-specific nucleocapsid mutations shape host innate immune trajectories during SARS-CoV-2 infection</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.03.749134">10.64898/2026.09.03.749134</a> · Score: <code>████░░░░░░</code> 0.399</p>
-<p><span class="label">Core Problem:</span> The SARS-CoV-2 nucleocapsid (N) protein is one of the most highly expressed proteins during infection and plays crucial roles in the protection and packaging of viral RNA, replication, suppression of the immune response and virus assembly</p>
-<p><span class="label">Proposed Solution:</span> The N gene and the overlapping accessory open reading frame ORF9b have continually evolved throughout the circulation of the virus, likely due to ongoing adaptation to the human host. This genetic variability influences the interplay of the N protein and its interactors</p>
-<p><span class="label">Key Impact:</span> Because these viruses differ only within the N/ORF9b locus, N sequence variation emerges as a determinant of infection outcome in its own right, warranting increased surveillance attention</p>
-<p><span class="label">Methodology:</span> Multi-Omics techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.09.750360v1">Two IncHI1 megaplasmids in Klebsiella species reveal transposable-element-mediated blaIMP-1 mobilisation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.09.750360">10.64898/2026.09.09.750360</a> · Score: <code>████░░░░░░</code> 0.426</p>
+<p><span class="label">Core Problem:</span> Introduction</p>
+<p><span class="label">Proposed Solution:</span> Carbapenemase-producing Enterobacterales (CPE) represent a major threat to hospitalised patients worldwide. The dissemination of carbapenemase genes, such as blaIMP, is frequently mediated by mobile genetic elements including plasmids</p>
+<p><span class="label">Key Impact:</span> Our findings underscore the importance of longitudinal genomic surveillance of carbapenemase-encoding megaplasmids in healthcare settings</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.08.747897v1">CypA is a molecular barrier to HIV emergence from Eastern chimpanzees</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.08.747897">10.64898/2026.09.08.747897</a> · Score: <code>████░░░░░░</code> 0.386</p>
-<p><span class="label">Core Problem:</span> Of the two lineages of lentivirus that endemically infect chimpanzees, only one has served as a source of infections in hu-mans</p>
-<p><span class="label">Proposed Solution:</span> Using HIV-CRISPR screening, we identify factors that limit the replication of lentivirus from Eastern chimpanzees. We find that CypA restricts nonzoonotic Eastern chimpanzee lentivirus due to a unique feature encoded in capsid</p>
-<p><span class="label">Key Impact:</span> Our work has important implications for understanding the origins of HIV-1 and the potential for novel zoonosis of primate lentiviruses</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.10.750680v1">Microbial succession in casing layer shapes bacterial blotch disease associated communities in cultivated white button mushroom: From casing layer to disease</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.10.750680">10.64898/2026.09.10.750680</a> · Score: <code>████░░░░░░</code> 0.411</p>
+<p><span class="label">Core Problem:</span> Background: Bacterial blotch is a major disease of cultivated white button mushroom (Agaricus bisporus) traditionally attributed to individual Pseudomonas pathogens</p>
+<p><span class="label">Proposed Solution:</span> However, the recurrent detection of diverse bacterial taxa in blotch-affected mushrooms suggests that disease may involve broader changes in microbial community organization. We characterized bacterial communities associated with symptomatic and asymptomatic mushrooms and examined bacterial succession in the casing layer across early, pinning, and harvest stages at two commercial mushroom farms in the United States using complementary 16S rRNA gene amplicon sequencing and shotgun metagenomics</p>
+<p><span class="label">Key Impact:</span> This framework extends beyond the single-pathogen paradigm and highlights bacterial blotch as a community-level disease process shaped by dynamic interactions between the mushroom host and its surrounding microbiome</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.05.21.726790v2">A tomato fruit blotch viral replicon defines minimal requirements for cell autonomous replication and identifies functional RNA4-encoded movement and silencing suppression activities</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.21.726790">10.64898/2026.05.21.726790</a> · Score: <code>████░░░░░░</code> 0.381</p>
-<p><span class="label">Core Problem:</span> Tomato fruit blotch virus (ToFBV) is an emerging multipartite positive-sense RNA virus associated with blotchy symptoms on tomato fruits and classified within the genus Blunervirus (family Kitaviridae)</p>
-<p><span class="label">Proposed Solution:</span> Despite its increasing agricultural relevance, the study of ToFBV has been hindered by the lack of mechanical transmissibility and the difficulty in reproducing infections under controlled conditions. In this work, we report a preliminary step toward the development of the first infectious agroclone system for ToFBV, based on full-length cDNA copies of its four genomic RNAs</p>
-<p><span class="label">Key Impact:</span> Together, these results establish a versatile reverse genetics platform for ToFBV, providing new insights into the replication and functional organization of blunerviruses and enabling future studies on virus-host interactions, pathogenicity, and control strategies</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.09.09.26362646v1">Molecular epidemiology of respiratory syncytial virus infections in Arizona, USA during the 2023-24 and 2024-25 seasons.</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.09.26362646">10.64898/2026.09.09.26362646</a> · Score: <code>████░░░░░░</code> 0.389</p>
+<p><span class="label">Core Problem:</span> Respiratory syncytial virus infection is a common cause of hospitalizations in infants and elderly patients</p>
+<p><span class="label">Proposed Solution:</span> With the increased availability of vaccines and therapeutic antibodies, surveilling the sequence landscape of viral genomes is important to increase awareness of potentially neutralizing mutations. During the 2023-24 and 2024-25 RSV seasons, we collected unpaired nasopharyngeal swab specimens from patients presenting to Arizona healthcare systems with symptoms of influenza-like illness</p>
+<p><span class="label">Key Impact:</span> Continued monitoring of circulating variants is an important component of public health</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -757,6 +762,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.21.726790">A tomato fruit blotch viral replicon defines minimal requirements for cell autonomous replication and identifies functional RNA4-encoded movement and silencing suppression activities</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.03.749134">Variant-specific nucleocapsid mutations shape host innate immune trajectories during SARS-CoV-2 infection</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.04.749488">Development of fluorescent and affinity tagged variants of rotavirus nonstructural protein 4 using the reverse genetics system</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.08.747897">CypA is a molecular barrier to HIV emergence from Eastern chimpanzees</a><span class="history-date">Sep 10, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.08.750159">Rapid Antimicrobial Resistance Decline Coupled with Microbial Community Shifts in Sewage Polluted River Mesocosms</a><span class="history-date">Sep 10, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2021.12.28.21268461">Rapid turnaround multiplex sequencing of SARS-CoV-2: comparing tiling amplicon protocol performance</a><span class="history-date">Sep 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.03.749063">Genomic Insights into Multi-Drug-Resistant, Klebsiella pneumoniae Isolated from an Infertile Woman: A Comprehensive Analysis of Antibiotic Resistance and Virulence Factors</a><span class="history-date">Sep 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.03.749210">MxB N-Terminus Adopts a Stable α-Helix to Engage the HIV-1 Capsid Trimer Interface</a><span class="history-date">Sep 09, 2026</span></li>
@@ -868,7 +878,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-09-10T10:33:13 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-09-12T09:04:23 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

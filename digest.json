@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-10T10:33:13.058260+00:00",
+  "generated_utc": "2026-09-12T09:04:23.404060+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "PrEditR: A protein-centric platform for CRISPR-mediated base editor sgRNA design",
-          "doi": "10.64898/2026.05.15.725600",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725600v3",
+          "title": "AutoScreen: AI Co-Scientist System for Target Discovery in Functional Genomics",
+          "doi": "10.64898/2026.09.06.749678",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.06.749678v1",
           "source": "biorxiv",
-          "score": 0.5329
+          "score": 0.5078
         },
         {
           "rank": 2,
-          "title": "CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics",
-          "doi": "10.64898/2026.09.03.749294",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749294v1",
+          "title": "Learning the Language of the Microbiome with Transformers",
+          "doi": "10.64898/2026.05.02.722381",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.02.722381v4",
           "source": "biorxiv",
-          "score": 0.5064
+          "score": 0.4872
         },
         {
           "rank": 3,
-          "title": "Independent benchmark of H&E-based gene expression prediction in skin",
-          "doi": "10.64898/2026.09.07.749926",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749926v1",
+          "title": "Reframing enzyme function prediction as conditional generation",
+          "doi": "10.64898/2026.09.09.750355",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750355v1",
           "source": "biorxiv",
-          "score": 0.499
+          "score": 0.4819
         },
         {
           "rank": 4,
-          "title": "Integrated morphological, multi-omics, and functional profiling reveals microglial plasticity driven by AD risk genes",
-          "doi": "10.64898/2026.09.07.749934",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749934v1",
+          "title": "An in vitro System for Studying Osteochondrogenic Differentiation of Smooth Muscle Cells and Modeling Intimal Vascular Calcification",
+          "doi": "10.64898/2026.09.05.749615",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749615v1",
           "source": "biorxiv",
-          "score": 0.4963
+          "score": 0.4579
         },
         {
           "rank": 5,
-          "title": "PhenoMapR: scalable mapping of sample phenotypes to single-cell, spatial, and bulk transcriptomics data",
-          "doi": "10.64898/2026.09.08.749933",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.749933v1",
+          "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
+          "doi": "10.64898/2026.09.10.750674",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750674v1",
           "source": "biorxiv",
-          "score": 0.4635
+          "score": 0.4576
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Development of fluorescent and affinity tagged variants of rotavirus nonstructural protein 4 using the reverse genetics system",
-          "doi": "10.64898/2026.09.04.749488",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749488v1",
-          "source": "biorxiv",
-          "score": 0.4136
+          "title": "Wastewater Metagenomic Virome Analysis of the 2026 World Cup in Texas",
+          "doi": "10.64898/2026.09.04.26362178",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.04.26362178v1",
+          "source": "medrxiv",
+          "score": 0.4543
         },
         {
           "rank": 2,
-          "title": "Rapid Antimicrobial Resistance Decline Coupled with Microbial Community Shifts in Sewage Polluted River Mesocosms",
-          "doi": "10.64898/2026.09.08.750159",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750159v1",
+          "title": "Cyanophage CP12 Rewires Host Carbon Regulation through Interface Remodeling and Redox Buffering",
+          "doi": "10.64898/2026.09.10.750766",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750766v1",
           "source": "biorxiv",
-          "score": 0.4013
+          "score": 0.4422
         },
         {
           "rank": 3,
-          "title": "Variant-specific nucleocapsid mutations shape host innate immune trajectories during SARS-CoV-2 infection",
-          "doi": "10.64898/2026.09.03.749134",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749134v1",
+          "title": "Two IncHI1 megaplasmids in Klebsiella species reveal transposable-element-mediated blaIMP-1 mobilisation",
+          "doi": "10.64898/2026.09.09.750360",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750360v1",
           "source": "biorxiv",
-          "score": 0.3985
+          "score": 0.4263
         },
         {
           "rank": 4,
-          "title": "CypA is a molecular barrier to HIV emergence from Eastern chimpanzees",
-          "doi": "10.64898/2026.09.08.747897",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.747897v1",
+          "title": "Microbial succession in casing layer shapes bacterial blotch disease associated communities in cultivated white button mushroom: From casing layer to disease",
+          "doi": "10.64898/2026.09.10.750680",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750680v1",
           "source": "biorxiv",
-          "score": 0.3861
+          "score": 0.411
         },
         {
           "rank": 5,
-          "title": "A tomato fruit blotch viral replicon defines minimal requirements for cell autonomous replication and identifies functional RNA4-encoded movement and silencing suppression activities",
-          "doi": "10.64898/2026.05.21.726790",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726790v2",
-          "source": "biorxiv",
-          "score": 0.3815
+          "title": "Molecular epidemiology of respiratory syncytial virus infections in Arizona, USA during the 2023-24 and 2024-25 seasons.",
+          "doi": "10.64898/2026.09.09.26362646",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362646v1",
+          "source": "medrxiv",
+          "score": 0.389
         }
       ]
     }
