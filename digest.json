@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-12T09:04:23.404060+00:00",
+  "generated_utc": "2026-09-16T09:16:25.782852+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "AutoScreen: AI Co-Scientist System for Target Discovery in Functional Genomics",
-          "doi": "10.64898/2026.09.06.749678",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.06.749678v1",
-          "source": "biorxiv",
-          "score": 0.5078
+          "title": "Interpretable biomarker programs predict treatment response in lupus nephritis: patient-level validation across four regimens",
+          "doi": "10.64898/2026.09.13.26362948",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.13.26362948v1",
+          "source": "medrxiv",
+          "score": 0.3776
         },
         {
           "rank": 2,
-          "title": "Learning the Language of the Microbiome with Transformers",
-          "doi": "10.64898/2026.05.02.722381",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.05.02.722381v4",
-          "source": "biorxiv",
-          "score": 0.4872
+          "title": "Seven replicated genomic associations of myalgic encephalomyelitis/chronic fatigue syndrome: a biobank study",
+          "doi": "10.64898/2026.09.09.26362115",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362115v1",
+          "source": "medrxiv",
+          "score": 0.3635
         },
         {
           "rank": 3,
-          "title": "Reframing enzyme function prediction as conditional generation",
-          "doi": "10.64898/2026.09.09.750355",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750355v1",
-          "source": "biorxiv",
-          "score": 0.4819
+          "title": "Mapping intronic mutational hotspots by in silico mutagenesis enables single antisense oligonucleotide correction of multiple variants",
+          "doi": "10.64898/2026.09.10.26362533",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26362533v1",
+          "source": "medrxiv",
+          "score": 0.3511
         },
         {
           "rank": 4,
-          "title": "An in vitro System for Studying Osteochondrogenic Differentiation of Smooth Muscle Cells and Modeling Intimal Vascular Calcification",
-          "doi": "10.64898/2026.09.05.749615",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749615v1",
-          "source": "biorxiv",
-          "score": 0.4579
+          "title": "Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models",
+          "doi": "10.64898/2026.08.13.26360300",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.08.13.26360300v2",
+          "source": "medrxiv",
+          "score": 0.3503
         },
         {
           "rank": 5,
-          "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
-          "doi": "10.64898/2026.09.10.750674",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750674v1",
-          "source": "biorxiv",
-          "score": 0.4576
+          "title": "Pleiotropic and Distributed Neuropsychiatric Effects of Neurodevelopmental Copy Number Variants in the All of Us Biobank",
+          "doi": "10.64898/2026.09.13.26362959",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.13.26362959v1",
+          "source": "medrxiv",
+          "score": 0.3458
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Wastewater Metagenomic Virome Analysis of the 2026 World Cup in Texas",
-          "doi": "10.64898/2026.09.04.26362178",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.04.26362178v1",
+          "title": "Estimating emergence rates of epidemiologically relevant traits in bacteria with EMERGENe",
+          "doi": "10.64898/2026.09.10.26362639",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26362639v1",
           "source": "medrxiv",
-          "score": 0.4543
+          "score": 0.4138
         },
         {
           "rank": 2,
-          "title": "Cyanophage CP12 Rewires Host Carbon Regulation through Interface Remodeling and Redox Buffering",
-          "doi": "10.64898/2026.09.10.750766",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750766v1",
-          "source": "biorxiv",
-          "score": 0.4422
+          "title": "Evidence for cross-reactivity and protection against Bundibugyo virus disease after heterologous vaccination: a systematic review and meta-analysis",
+          "doi": "10.64898/2026.09.14.26362805",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26362805v1",
+          "source": "medrxiv",
+          "score": 0.3952
         },
         {
           "rank": 3,
-          "title": "Two IncHI1 megaplasmids in Klebsiella species reveal transposable-element-mediated blaIMP-1 mobilisation",
-          "doi": "10.64898/2026.09.09.750360",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750360v1",
-          "source": "biorxiv",
-          "score": 0.4263
+          "title": "Effects and predictive performance of multilayer environmental exposures on coccidioidomycosis: a longitudinal surveillance study",
+          "doi": "10.64898/2026.09.12.26362891",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.12.26362891v1",
+          "source": "medrxiv",
+          "score": 0.3901
         },
         {
           "rank": 4,
-          "title": "Microbial succession in casing layer shapes bacterial blotch disease associated communities in cultivated white button mushroom: From casing layer to disease",
-          "doi": "10.64898/2026.09.10.750680",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750680v1",
-          "source": "biorxiv",
-          "score": 0.411
+          "title": "Separating the effects of immune waning and viral evolution on COVID-19 vaccine effectiveness reveals improved effectiveness of updated vaccines",
+          "doi": "10.64898/2026.09.14.26363077",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26363077v1",
+          "source": "medrxiv",
+          "score": 0.3578
         },
         {
           "rank": 5,
-          "title": "Molecular epidemiology of respiratory syncytial virus infections in Arizona, USA during the 2023-24 and 2024-25 seasons.",
-          "doi": "10.64898/2026.09.09.26362646",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362646v1",
+          "title": "Wastewater treatment attenuates ecological and human health resistome risk",
+          "doi": "10.64898/2026.09.12.26362900",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.12.26362900v1",
           "source": "medrxiv",
-          "score": 0.389
+          "score": 0.3457
         }
       ]
     }
