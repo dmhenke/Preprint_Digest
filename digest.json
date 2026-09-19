@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-16T09:16:25.782852+00:00",
+  "generated_utc": "2026-09-19T13:06:13.950391+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Interpretable biomarker programs predict treatment response in lupus nephritis: patient-level validation across four regimens",
-          "doi": "10.64898/2026.09.13.26362948",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.13.26362948v1",
-          "source": "medrxiv",
-          "score": 0.3776
+          "title": "Spatially resolved multimodal hallmarks of response to neoadjuvant immunotherapies in the melanoma ecosystem in 2D and 3D",
+          "doi": "10.64898/2026.09.12.751186",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.12.751186v1",
+          "source": "biorxiv",
+          "score": 0.5477
         },
         {
           "rank": 2,
-          "title": "Seven replicated genomic associations of myalgic encephalomyelitis/chronic fatigue syndrome: a biobank study",
-          "doi": "10.64898/2026.09.09.26362115",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362115v1",
-          "source": "medrxiv",
-          "score": 0.3635
+          "title": "Physical priors improve performance of structure-based binding affinity models",
+          "doi": "10.64898/2026.09.11.750982",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.11.750982v1",
+          "source": "biorxiv",
+          "score": 0.5073
         },
         {
           "rank": 3,
-          "title": "Mapping intronic mutational hotspots by in silico mutagenesis enables single antisense oligonucleotide correction of multiple variants",
-          "doi": "10.64898/2026.09.10.26362533",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26362533v1",
-          "source": "medrxiv",
-          "score": 0.3511
+          "title": "Genome-wide mapping of Cas9-induced sister chromatid exchange across single and over 200 genomic targets",
+          "doi": "10.64898/2026.05.13.724813",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.13.724813v2",
+          "source": "biorxiv",
+          "score": 0.4995
         },
         {
           "rank": 4,
-          "title": "Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models",
-          "doi": "10.64898/2026.08.13.26360300",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.08.13.26360300v2",
-          "source": "medrxiv",
-          "score": 0.3503
+          "title": "Constructing Gene Regulatory Network using Chatterjee's Rank Correlation with Single-cell Transcriptomic Data",
+          "doi": "10.1101/2025.09.17.676530",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.17.676530v3",
+          "source": "biorxiv",
+          "score": 0.4982
         },
         {
           "rank": 5,
-          "title": "Pleiotropic and Distributed Neuropsychiatric Effects of Neurodevelopmental Copy Number Variants in the All of Us Biobank",
-          "doi": "10.64898/2026.09.13.26362959",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.13.26362959v1",
-          "source": "medrxiv",
-          "score": 0.3458
+          "title": "3D Spatial Interactomics Maps the Dynamics of NF-\u03baB Multiprotein Signalosomes in Single Cells",
+          "doi": "10.64898/2026.09.14.751198",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751198v1",
+          "source": "biorxiv",
+          "score": 0.4828
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Estimating emergence rates of epidemiologically relevant traits in bacteria with EMERGENe",
-          "doi": "10.64898/2026.09.10.26362639",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26362639v1",
-          "source": "medrxiv",
-          "score": 0.4138
+          "title": "An Integrated Cell Culture - Nanopore Sequencing (ICC-NanoporeSeq) method for the simultaneous detection of multiple enterovirus types and quantification of infectious Enterovirus B",
+          "doi": "10.64898/2026.05.15.725335",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725335v2",
+          "source": "biorxiv",
+          "score": 0.5101
         },
         {
           "rank": 2,
-          "title": "Evidence for cross-reactivity and protection against Bundibugyo virus disease after heterologous vaccination: a systematic review and meta-analysis",
-          "doi": "10.64898/2026.09.14.26362805",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26362805v1",
-          "source": "medrxiv",
-          "score": 0.3952
+          "title": "Comparative genomics and microbiome profiling reveal a conserved Vibrio rich mucus microbiota of the Florida false coral (Ricordea florida)",
+          "doi": "10.64898/2026.09.17.752451",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752451v1",
+          "source": "biorxiv",
+          "score": 0.4652
         },
         {
           "rank": 3,
-          "title": "Effects and predictive performance of multilayer environmental exposures on coccidioidomycosis: a longitudinal surveillance study",
-          "doi": "10.64898/2026.09.12.26362891",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.12.26362891v1",
+          "title": "The public health value of wastewater surveillance for viruses with pandemic potential: a modelling study",
+          "doi": "10.64898/2026.09.16.26363050",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363050v1",
           "source": "medrxiv",
-          "score": 0.3901
+          "score": 0.4593
         },
         {
           "rank": 4,
-          "title": "Separating the effects of immune waning and viral evolution on COVID-19 vaccine effectiveness reveals improved effectiveness of updated vaccines",
-          "doi": "10.64898/2026.09.14.26363077",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26363077v1",
-          "source": "medrxiv",
-          "score": 0.3578
+          "title": "Infectious transgenesis in arthropods",
+          "doi": "10.64898/2026.09.14.751565",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751565v1",
+          "source": "biorxiv",
+          "score": 0.4244
         },
         {
           "rank": 5,
-          "title": "Wastewater treatment attenuates ecological and human health resistome risk",
-          "doi": "10.64898/2026.09.12.26362900",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.12.26362900v1",
-          "source": "medrxiv",
-          "score": 0.3457
+          "title": "Transmission of mutated SARS-CoV-2 variants is favored by relatively prolonged infections due to delayed immunity",
+          "doi": "10.64898/2026.09.15.751875",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751875v1",
+          "source": "biorxiv",
+          "score": 0.4189
         }
       ]
     }
