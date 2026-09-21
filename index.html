@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>September 19, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>September 21, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Spatially resolved multimodal hallmarks of response to neoadjuvant immunotherapies in the melanoma ecosystem in 2D and 3D</a></li>
-  <li><a href="#core-article-2">Physical priors improve performance of structure-based binding affinity models</a></li>
-  <li><a href="#core-article-3">Genome-wide mapping of Cas9-induced sister chromatid exchange across single and over 200 genomic targets</a></li>
-  <li><a href="#core-article-4">Constructing Gene Regulatory Network using Chatterjee&#x27;s Rank Correlation with Single-cell Transcriptomic Data</a></li>
-  <li><a href="#core-article-5">3D Spatial Interactomics Maps the Dynamics of NF-κB Multiprotein Signalosomes in Single Cells</a></li>
+  <li><a href="#core-article-1">CAST as a Tumor-Specific Suppressor in Colorectal Cancer: Discovery Through Integrative Analysis of Unannotated Isoforms, Proteomics, and Epigenetic Regulation</a></li>
+  <li><a href="#core-article-2">Transcriptomic and Machine-Learning Prioritization of OCEL1 in Low Bone Mineral Density With Multivariable cis-MR</a></li>
+  <li><a href="#core-article-3">Machine Learning Approach to Identify Gut Microbiota Biomarkers in Patients with ST-Elevation Myocardial Infarction Presenting Primary Ventricular Tachyarrhythmias</a></li>
+  <li><a href="#core-article-4">AlphaGenome Atlas: in silico mutagenesis of the entire human genome improves prioritization and interpretation of non-coding variants</a></li>
+  <li><a href="#core-article-5">Genetically Predicted Blood DNA Methylation Reveals Putative Regulatory Signals Associated with ALS Risk</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.12.751186v1">Spatially resolved multimodal hallmarks of response to neoadjuvant immunotherapies in the melanoma ecosystem in 2D and 3D</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.12.751186">10.64898/2026.09.12.751186</a> · Score: <code>█████░░░░░</code> 0.548</p>
-<p><span class="label">Core Problem:</span> Neoadjuvant immunotherapy has transformed cancer treatment, yet the spatial molecular architecture governing response and resistance across distinct immune checkpoint blockade (ICB) regimens remains poorly defined</p>
-<p><span class="label">Proposed Solution:</span> We assembled the largest neoadjuvant ICB (NICB) spatial multi-omics cohort to date, profiling over 112 million cells at single-cell resolution across three melanoma ICB regimens using MERFISH spatial transcriptomics, multiplexed immunofluorescence, and scRNA-sequencing. These analyses revealed the full multicellular spatial architecture of the NICB tumor microenvironment, including mature TLS with germinal centers, TCF7+ stem-like T cells, myeloid cells organized into spatially distinct cellular neighborhoods with unique intercellular signaling circuits, and CCL19/CCL21-expressing fibroblasts as a previously unrecognized stromal scaffold sustaining these immune hubs</p>
-<p><span class="label">Key Impact:</span> These findings establish a discovery-to-tool paradigm linking single-cell tumor microenvironment interrogation to clinically deployable computational pathology for biomarker-driven NICB assessment across cancer types</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.09.17.26363321v1">CAST as a Tumor-Specific Suppressor in Colorectal Cancer: Discovery Through Integrative Analysis of Unannotated Isoforms, Proteomics, and Epigenetic Regulation</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.26363321">10.64898/2026.09.17.26363321</a> · Score: <code>████░░░░░░</code> 0.437</p>
+<p><span class="label">Core Problem:</span> Colorectal cancer (CRC) remains a leading cause of cancer-related mortality worldwide, yet the molecular mechanisms driving tumor initiation and progression are incompletely understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we integrate single-cell long-read sequencing, proteomics, and DNA methylation data to identify tumor-specific targets from unannotated isoforms in CRC. Analysis of 29,429 isoforms across 3,262 single cells revealed 3,338 novel isoforms, comprising 2,779 Novel In Catalog (NIC) and 559 Novel Not in Catalog (NNC)</p>
+<p><span class="label">Key Impact:</span> Our findings establish CAST as a tumor-specific suppressor in CRC and provide a generalizable framework for discovering therapeutic targets from unannotated isoforms</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.11.750982v1">Physical priors improve performance of structure-based binding affinity models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.11.750982">10.64898/2026.09.11.750982</a> · Score: <code>█████░░░░░</code> 0.507</p>
-<p><span class="label">Core Problem:</span> Structure-based drug discovery is a widely used paradigm for the rational design of novel small molecule therapeutics</p>
-<p><span class="label">Proposed Solution:</span> However, the benefits conferred by the use of structural information has seen limited adoption in machine learning, where ligand-only (&quot;2D&quot;) models are still the industry standard for molecular property or binding affinity prediction. Structure-based (&quot;3D&quot;) ML models for binding-affinity prediction promise to present a clear advantage, but have not yet overtaken existing 2D models</p>
-<p><span class="label">Key Impact:</span> These results also suggest that the strength of these models may be in tasks specifically aimed at generalizability, providing guidelines for their use in early-stage drug discovery campaigns</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.09.16.26363200v1">Transcriptomic and Machine-Learning Prioritization of OCEL1 in Low Bone Mineral Density With Multivariable cis-MR</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.16.26363200">10.64898/2026.09.16.26363200</a> · Score: <code>████░░░░░░</code> 0.388</p>
+<p><span class="label">Core Problem:</span> Introduction Low bone mineral density (BMD) is associated with altered bone remodeling and osteoimmune regulation</p>
+<p><span class="label">Proposed Solution:</span> We aimed to prioritize transcript-level signals supported across human expression cohorts and evaluate their attribution within local cis-regulatory architecture. Materials and Methods Nominal differential-expression signals from GSE56815 were restricted with a predefined 25-term MSigDB thematic library</p>
+<p><span class="label">Key Impact:</span> Keywords: low bone mineral density; OCEL1; transcriptomics; machine learning; cis-Mendelian randomization</p>
 <p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.05.13.724813v2">Genome-wide mapping of Cas9-induced sister chromatid exchange across single and over 200 genomic targets</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.13.724813">10.64898/2026.05.13.724813</a> · Score: <code>█████░░░░░</code> 0.500</p>
-<p><span class="label">Core Problem:</span> CRISPR/Cas9-induced DNA double-strand breaks (DSBs) are widely used for genome engineering, yet their capacity to provoke sister chromatid exchange (SCE) and associated genome instability remains incompletely understood, in part because exchanges between identical sister chromatids leave no sequence change and are invisible to conventional whole-genome sequencing</p>
-<p><span class="label">Proposed Solution:</span> Using sci-L3-Strand-seq, a scalable single-cell template-strand sequencing platform for genome-wide SCE mapping, we quantified strand-switch events following targeted Cas9 cleavage. Cas9 targeting of a unique genomic locus led to strong local enrichment of SCE at the break site, reaching up to 41% in the same cell cycle and 17% in the subsequent division, indicating that DSB repair frequently engages non-local inter-sister repair</p>
-<p><span class="label">Key Impact:</span> Together, these findings demonstrate that Cas9-induced DSBs are potent local triggers of SCE at unique loci, while at repetitive regions SCE is more context-dependent and can be associated with structural alterations, highlighting the influence of lesion type and genomic context on recombination outcomes during genome editing</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.09.16.26363271v1">Machine Learning Approach to Identify Gut Microbiota Biomarkers in Patients with ST-Elevation Myocardial Infarction Presenting Primary Ventricular Tachyarrhythmias</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.16.26363271">10.64898/2026.09.16.26363271</a> · Score: <code>████░░░░░░</code> 0.352</p>
+<p><span class="label">Core Problem:</span> Background Risk stratification for primary ventricular tachycardia/ventricular fibrillation (VT/VF) in patients with ST-elevation myocardial infarction (STEMI) remains limited</p>
+<p><span class="label">Proposed Solution:</span> We aimed to identify gut microbiome biomarkers and microbial metabolic pathways associated with primary VT/VF in STEMI using machine learning (ML). Methods Stool samples from 33 STEMI patients (7 with primary VT/VF and 26 without VT/VF) underwent full-length 16S rRNA sequencing during the acute ([&amp;le;]7 days) and recovery (30?60 days) phases</p>
+<p><span class="label">Key Impact:</span> These exploratory findings warrant validation in larger independent cohorts and mechanistic studies</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.1101/2025.09.17.676530v3">Constructing Gene Regulatory Network using Chatterjee&#x27;s Rank Correlation with Single-cell Transcriptomic Data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.09.17.676530">10.1101/2025.09.17.676530</a> · Score: <code>█████░░░░░</code> 0.498</p>
-<p><span class="label">Core Problem:</span> Discovering gene regulatory networks (GRNs) from single-cell RNA sequencing (scRNA-seq) data is critical for understanding cellular function</p>
-<p><span class="label">Proposed Solution:</span> Still, existing methods are limited by strong theoretical assumptions or high computational complexity. We introduce a multiple testing framework for GRN construction using Chatterjee&#x27;s rank correlation coefficient, a nonparametric measure of dependence</p>
-<p><span class="label">Key Impact:</span> We demonstrate that our method matches or outperforms state-of-the-art approaches in recovering true gene-gene dependencies and directed regulatory interactions from both simulated and real datasets, particularly for complex, non-linear dependencies, providing a powerful tool for dissecting complex GRNs</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.09.16.26363192v1">AlphaGenome Atlas: in silico mutagenesis of the entire human genome improves prioritization and interpretation of non-coding variants</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.16.26363192">10.64898/2026.09.16.26363192</a> · Score: <code>███░░░░░░░</code> 0.334</p>
+<p><span class="label">Core Problem:</span> A major challenge in genomics is deciphering the functional consequences of non-coding genetic variation</p>
+<p><span class="label">Proposed Solution:</span> Here we present AlphaGenome Atlas, a comprehensive resource that enables the joint interpretation and prioritization of variant effects across the entire human genome. Using AlphaGenome, we predicted the regulatory effects across thousands of molecular phenotypes for every possible human single nucleotide variant and many observed indels</p>
+<p><span class="label">Key Impact:</span> Thus, AlphaGenome Atlas improves the prioritization and molecular interpretation of non-coding variants with genetic and clinical significance</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.14.751198v1">3D Spatial Interactomics Maps the Dynamics of NF-κB Multiprotein Signalosomes in Single Cells</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.14.751198">10.64898/2026.09.14.751198</a> · Score: <code>█████░░░░░</code> 0.483</p>
-<p><span class="label">Core Problem:</span> NF{kappa}B signaling drives inflammatory responses by rapidly assembling membrane-proximal multiprotein supercomplexes, yet how these assemblies are organized in space and time within the 3D interior of a single cell has remained uncharacterized</p>
-<p><span class="label">Proposed Solution:</span> We addressed this by profiling endogenous NF{kappa}B protein-protein interactions with an intelligent sequential proximity ligation assay (iseqPLA), read out by spinning disk confocal microscopy and 3D reconstruction. Each detected protein-protein proximity event is represented by a rolling-circle amplification product, and we treat clusters of co-localized puncta as a measure of supercomplex spatial organization</p>
-<p><span class="label">Key Impact:</span> Together, these results establish a 3D spatial interactomics workflow for dissecting supercomplex dynamics in health and disease</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.09.17.26363319v1">Genetically Predicted Blood DNA Methylation Reveals Putative Regulatory Signals Associated with ALS Risk</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.26363319">10.64898/2026.09.17.26363319</a> · Score: <code>███░░░░░░░</code> 0.315</p>
+<p><span class="label">Core Problem:</span> Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disorder whose genetic architecture and underlying molecular mechanisms remain incompletely understood, particularly in sporadic disease</p>
+<p><span class="label">Proposed Solution:</span> To investigate whether genetically regulated DNA methylation may help interpret ALS susceptibility, we conducted a methylome-wide association study (MWAS) of genetically predicted blood DNA methylation using the PrediXcan framework. CpG-specific prediction models developed in the ARIES and Understanding Society cohorts were applied to ALS genome-wide association study (GWAS) summary statistics from 27,205 cases and 110,881 controls of European ancestry</p>
+<p><span class="label">Key Impact:</span> PrediXcan-based MWAS therefore provides a complementary strategy for refining genetic association signals into biologically testable candidates and identifying regulatory mechanisms for further functional investigation</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.09.17.676530">Constructing Gene Regulatory Network using Chatterjee&#x27;s Rank Correlation with Single-cell Transcriptomic Data</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.05.13.724813">Genome-wide mapping of Cas9-induced sister chromatid exchange across single and over 200 genomic targets</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.11.750982">Physical priors improve performance of structure-based binding affinity models</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.12.751186">Spatially resolved multimodal hallmarks of response to neoadjuvant immunotherapies in the melanoma ecosystem in 2D and 3D</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.14.751198">3D Spatial Interactomics Maps the Dynamics of NF-κB Multiprotein Signalosomes in Single Cells</a><span class="history-date">Sep 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.13.26360300">Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models</a><span class="history-date">Sep 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.09.26362115">Seven replicated genomic associations of myalgic encephalomyelitis/chronic fatigue syndrome: a biobank study</a><span class="history-date">Sep 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.10.26362533">Mapping intronic mutational hotspots by in silico mutagenesis enables single antisense oligonucleotide correction of multiple variants</a><span class="history-date">Sep 16, 2026</span></li>
@@ -714,64 +719,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">An Integrated Cell Culture - Nanopore Sequencing (ICC-NanoporeSeq) method for the simultaneous detection of multiple enterovirus types and quantification of infectious Enterovirus B</a></li>
-  <li><a href="#virology-article-2">Comparative genomics and microbiome profiling reveal a conserved Vibrio rich mucus microbiota of the Florida false coral (Ricordea florida)</a></li>
-  <li><a href="#virology-article-3">The public health value of wastewater surveillance for viruses with pandemic potential: a modelling study</a></li>
-  <li><a href="#virology-article-4">Infectious transgenesis in arthropods</a></li>
-  <li><a href="#virology-article-5">Transmission of mutated SARS-CoV-2 variants is favored by relatively prolonged infections due to delayed immunity</a></li>
+  <li><a href="#virology-article-1">Bronchoalveolar Lavage Metagenomic Sequencing in the Early Post-Lung Transplantation Period: A Pilot Comparison with Microbiologic Culture</a></li>
+  <li><a href="#virology-article-2">Microbiome Profiling Reveals Prognostic Heterogeneity in Staphylococcus aureus Pneumonia</a></li>
+  <li><a href="#virology-article-3">Plscr1 inhibits murine norovirus entry</a></li>
+  <li><a href="#virology-article-4">Microbiome signature in wastewater is predictive of COVID-19 case rates</a></li>
+  <li><a href="#virology-article-5">Impact of mass oral cholera vaccination in an endemic area of the Democratic Republic of the Congo: a surveillance-based counterfactual modeling analysis</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.05.15.725335v2">An Integrated Cell Culture - Nanopore Sequencing (ICC-NanoporeSeq) method for the simultaneous detection of multiple enterovirus types and quantification of infectious Enterovirus B</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.15.725335">10.64898/2026.05.15.725335</a> · Score: <code>█████░░░░░</code> 0.510</p>
-<p><span class="label">Core Problem:</span> Enteroviruses (EVs) are ubiquitous contaminants of surface waters, where they can remain infectious for long periods of time</p>
-<p><span class="label">Proposed Solution:</span> Most methods used for EV monitoring are unable to distinguish between infectious and non-infectious particles or between EV types. Because different types exhibit both distinct environmental persistence and health implications, there is a need for type-resolved infectivity measurements</p>
-<p><span class="label">Key Impact:</span> Compared with the predecessor ICC-RTqPCR method, it eliminates the need for multiple type-specific PCR primers and can therefore be readily expanded to include additional EV types</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.09.17.26363318v1">Bronchoalveolar Lavage Metagenomic Sequencing in the Early Post-Lung Transplantation Period: A Pilot Comparison with Microbiologic Culture</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.26363318">10.64898/2026.09.17.26363318</a> · Score: <code>█████░░░░░</code> 0.485</p>
+<p><span class="label">Core Problem:</span> BACKGROUND: Conventional bronchoalveolar lavage (BAL) culture has limited sensitivity in lung transplant recipients due to universal antimicrobial prophylaxis and inability to detect non-culturable organisms</p>
+<p><span class="label">Proposed Solution:</span> Metagenomic sequencing of BAL offers culture-independent pathogen identification, but concordance with conventional culture and clinical utility in the immediate post-transplant period have not been evaluated. METHODS: We prospectively enrolled 19 adult lung transplant recipients undergoing serial bronchoscopies during the immediate post-transplant period</p>
+<p><span class="label">Key Impact:</span> Quantitative mcfDNA signal correlated with alveolar inflammatory mediators, supporting the biological relevance of mcfDNA detection beyond conventional diagnostic classification and a role for metagenomic surveillance in the early post-transplant period</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.17.752451v1">Comparative genomics and microbiome profiling reveal a conserved Vibrio rich mucus microbiota of the Florida false coral (Ricordea florida)</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.752451">10.64898/2026.09.17.752451</a> · Score: <code>█████░░░░░</code> 0.465</p>
-<p><span class="label">Core Problem:</span> Mucus is a critical interface between marine invertebrates and their environment and plays key roles in host defense</p>
-<p><span class="label">Proposed Solution:</span> Despite its ecological importance, little is known about the microbial communities associated with mucus-producing corallimorpharians. Here, we used a multi-omics approach to characterize the mucus microbiome and immune repertoire of the Florida false coral, Ricordea florida</p>
-<p><span class="label">Key Impact:</span> This study provides a foundation for understanding microbial colonization, immune defense, and holobiont function in an understudied cnidarian lineage</p>
-<p><span class="label">Methodology:</span> Multi-Omics techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.09.17.26363347v1">Microbiome Profiling Reveals Prognostic Heterogeneity in Staphylococcus aureus Pneumonia</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.26363347">10.64898/2026.09.17.26363347</a> · Score: <code>████░░░░░░</code> 0.418</p>
+<p><span class="label">Core Problem:</span> Background: Staphylococcus aureus is a leading cause of severe pneumonia in mechanically ventilated patients</p>
+<p><span class="label">Proposed Solution:</span> Clinical cultures identify pathogen presence but may not reflect lower respiratory tract microbial ecology. Whether culture-confirmed S</p>
+<p><span class="label">Key Impact:</span> Staphylococcus dominance identifies a high-risk phenotype with elevated bacterial burden, dysregulated host responses, and increased mortality, challenging the assumption that culture positivity represents a uniform clinical entity</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.09.16.26363050v1">The public health value of wastewater surveillance for viruses with pandemic potential: a modelling study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.16.26363050">10.64898/2026.09.16.26363050</a> · Score: <code>█████░░░░░</code> 0.459</p>
-<p><span class="label">Core Problem:</span> Zoonotic spillover and early human-to-human transmission of emerging viruses are often missed by clinical surveillance</p>
-<p><span class="label">Proposed Solution:</span> Wastewater surveillance (WS) offers low-cost complementary pathogen detection, but its value for emerging viruses remains uncertain. We reviewed evidence of viral shedding in human waste and combined shedding data, detection models and simulated transmission dynamics into a quantitative framework to identify for which types of emerging viruses WS could add most value</p>
-<p><span class="label">Key Impact:</span> We anticipate this framework can support more targeted, evidence-based application of WS to emerging threats</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.14.751565v1">Infectious transgenesis in arthropods</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.14.751565">10.64898/2026.09.14.751565</a> · Score: <code>████░░░░░░</code> 0.424</p>
-<p><span class="label">Core Problem:</span> In the last decade, there has been an explosion in the development of in vivo germline genetic editing technologies in arthropods, first pioneered by the Receptor-Mediated Ovary Transduction of Cargo (ReMOT Control) method</p>
-<p><span class="label">Proposed Solution:</span> While ReMOT Control and related technologies (DIPA-CRISPR and SYNCAS) have shown great utility for gene knock-out in many different species, consistent gene insertion has been elusive, limiting widespread adoption. We developed a novel system based on the baculovirus Autographa californica multiple nucleopolyhedrovirus (AcMNPV) to deliver heritable CRISPR knock-out and knock-in constructs to the arthropod germline by oral feeding</p>
-<p><span class="label">Key Impact:</span> GeValT is easy to use and has the potential to revolutionize gene editing methodology for researchers working across diverse arthropod species</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.17.752154v1">Plscr1 inhibits murine norovirus entry</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.752154">10.64898/2026.09.17.752154</a> · Score: <code>████░░░░░░</code> 0.405</p>
+<p><span class="label">Core Problem:</span> Noroviruses are a leading cause of gastroenteritis worldwide, yet host factors that restrict norovirus replication are not well understood</p>
+<p><span class="label">Proposed Solution:</span> By mining both CRISPR activation and CRISPR knockout genome-wide screens, we identified the interferon-stimulated gene Plscr1 as a restriction factor for murine norovirus (MNV). Plscr1 inhibits the fusion of enveloped viruses with endocytic membranes, making its antiviral activity against the nonenveloped MNV surprising</p>
+<p><span class="label">Key Impact:</span> Our results expand the antiviral activity of PLSCR1 to a nonenveloped virus and identify an unexpected point of convergence between enveloped- and non-enveloped-virus entry pathways</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.09.16.26363250v1">Microbiome signature in wastewater is predictive of COVID-19 case rates</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.16.26363250">10.64898/2026.09.16.26363250</a> · Score: <code>████░░░░░░</code> 0.401</p>
+<p><span class="label">Core Problem:</span> Surveillance of SARS-CoV-2 through wastewater proved crucial during the height of the pandemic for estimating community COVID-19 cases and continues to be useful for monitoring this and other pathogens that are a public health burden</p>
+<p><span class="label">Proposed Solution:</span> Gastrointestinal symptoms of acute COVID-19 have been well characterized, with demonstrated significant effects on the respiratory, oral, and gut microbiomes. With this understanding, we sought to characterize the wastewater microbiome in the context of COVID-19 rates, identify associations with the wastewater SARS-CoV-2 viral loads, and apply modeling to assess the ability of the wastewater microbiome to predict COVID-19 case rate</p>
+<p><span class="label">Key Impact:</span> Our predictive models underscore the utility of the wastewater microbiome in understanding public health burden of COVID-19 and possibly other infectious diseases</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.15.751875v1">Transmission of mutated SARS-CoV-2 variants is favored by relatively prolonged infections due to delayed immunity</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.15.751875">10.64898/2026.09.15.751875</a> · Score: <code>████░░░░░░</code> 0.419</p>
-<p><span class="label">Core Problem:</span> SARS-CoV-2 evolution enhanced viral fitness and immune evasion, extending the COVID-19 pandemic and resulting in millions of excess deaths</p>
-<p><span class="label">Proposed Solution:</span> Viral diversity is generated within infected individuals, yet the timing and interplay of viral and immunological forces that drive transmissible evolution are incompletely understood. We developed a multi-scale within host phylodynamic (WiPhy) model of SARS-CoV-2 infection which couples viral replication, innate and acquired immune responses, and viral mutation</p>
-<p><span class="label">Key Impact:</span> Our results highlight how the timing and interplay of viral and immunological forces within a host create bottlenecks that severely limit between host evolution</p>
-<p><span class="label">Methodology:</span> Phylodynamic techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.09.17.26363298v1">Impact of mass oral cholera vaccination in an endemic area of the Democratic Republic of the Congo: a surveillance-based counterfactual modeling analysis</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.26363298">10.64898/2026.09.17.26363298</a> · Score: <code>███░░░░░░░</code> 0.317</p>
+<p><span class="label">Core Problem:</span> Abstract Background Oral cholera vaccines (OCVs) are a key component of cholera control recommended in cholera-endemic areas</p>
+<p><span class="label">Proposed Solution:</span> Yet evidence of their population-level impact is limited, especially in Africa where most cholera deaths occur. Here, we estimate the impact of mass administration of OCVs in the cholera-endemic city of Uvira, Democratic Republic of the Congo</p>
+<p><span class="label">Key Impact:</span> Funding Gavi (M&amp;E 9166 09 20 A16) and the Wellcome Trust (221688/Z/20/Z)</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.15.725335">An Integrated Cell Culture - Nanopore Sequencing (ICC-NanoporeSeq) method for the simultaneous detection of multiple enterovirus types and quantification of infectious Enterovirus B</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.14.751565">Infectious transgenesis in arthropods</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.15.751875">Transmission of mutated SARS-CoV-2 variants is favored by relatively prolonged infections due to delayed immunity</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.16.26363050">The public health value of wastewater surveillance for viruses with pandemic potential: a modelling study</a><span class="history-date">Sep 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.17.752451">Comparative genomics and microbiome profiling reveal a conserved Vibrio rich mucus microbiota of the Florida false coral (Ricordea florida)</a><span class="history-date">Sep 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.10.26362639">Estimating emergence rates of epidemiologically relevant traits in bacteria with EMERGENe</a><span class="history-date">Sep 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.12.26362891">Effects and predictive performance of multilayer environmental exposures on coccidioidomycosis: a longitudinal surveillance study</a><span class="history-date">Sep 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.12.26362900">Wastewater treatment attenuates ecological and human health resistome risk</a><span class="history-date">Sep 16, 2026</span></li>
@@ -898,7 +908,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-09-19T13:06:13 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-09-21T13:02:42 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
