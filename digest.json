@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-21T13:02:42.988430+00:00",
+  "generated_utc": "2026-09-22T09:03:06.909029+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "CAST as a Tumor-Specific Suppressor in Colorectal Cancer: Discovery Through Integrative Analysis of Unannotated Isoforms, Proteomics, and Epigenetic Regulation",
-          "doi": "10.64898/2026.09.17.26363321",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363321v1",
-          "source": "medrxiv",
-          "score": 0.4366
+          "title": "A single-cell RNA-seq catalog of ground truth gene coregulation",
+          "doi": "10.64898/2026.09.18.752692",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752692v1",
+          "source": "biorxiv",
+          "score": 0.447
         },
         {
           "rank": 2,
-          "title": "Transcriptomic and Machine-Learning Prioritization of OCEL1 in Low Bone Mineral Density With Multivariable cis-MR",
-          "doi": "10.64898/2026.09.16.26363200",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363200v1",
-          "source": "medrxiv",
-          "score": 0.3877
+          "title": "A bipolar disorder-associated ultra-rare AKAP11 protein-truncating variant attenuates stimulus-dependent PKA activation and induces anxiety- and depression-related behaviors in mice",
+          "doi": "10.64898/2026.09.19.752887",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.19.752887v1",
+          "source": "biorxiv",
+          "score": 0.4457
         },
         {
           "rank": 3,
-          "title": "Machine Learning Approach to Identify Gut Microbiota Biomarkers in Patients with ST-Elevation Myocardial Infarction Presenting Primary Ventricular Tachyarrhythmias",
-          "doi": "10.64898/2026.09.16.26363271",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363271v1",
-          "source": "medrxiv",
-          "score": 0.3524
+          "title": "Large scale prospective evaluation of co-folding across hundreds of Mac1-ligand complexes and three virtual screens",
+          "doi": "10.64898/2025.12.25.696505",
+          "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696505v4",
+          "source": "biorxiv",
+          "score": 0.4415
         },
         {
           "rank": 4,
-          "title": "AlphaGenome Atlas: in silico mutagenesis of the entire human genome improves prioritization and interpretation of non-coding variants",
-          "doi": "10.64898/2026.09.16.26363192",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363192v1",
-          "source": "medrxiv",
-          "score": 0.3342
+          "title": "Gravlax: an annotation-independent molecular evidence archive for single-cell RNA-seq",
+          "doi": "10.64898/2026.09.18.752708",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752708v1",
+          "source": "biorxiv",
+          "score": 0.4252
         },
         {
           "rank": 5,
-          "title": "Genetically Predicted Blood DNA Methylation Reveals Putative Regulatory Signals Associated with ALS Risk",
-          "doi": "10.64898/2026.09.17.26363319",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363319v1",
-          "source": "medrxiv",
-          "score": 0.315
+          "title": "Detecting cell segmentation errors using doublet methods",
+          "doi": "10.64898/2026.09.15.751798",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751798v1",
+          "source": "biorxiv",
+          "score": 0.4244
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Bronchoalveolar Lavage Metagenomic Sequencing in the Early Post-Lung Transplantation Period: A Pilot Comparison with Microbiologic Culture",
-          "doi": "10.64898/2026.09.17.26363318",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363318v1",
-          "source": "medrxiv",
-          "score": 0.4845
+          "title": "Phylogenies as graphs: structured neural networks improve host origin predictions from paramyxovirus sequences",
+          "doi": "10.64898/2026.09.18.752634",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752634v1",
+          "source": "biorxiv",
+          "score": 0.4561
         },
         {
           "rank": 2,
-          "title": "Microbiome Profiling Reveals Prognostic Heterogeneity in Staphylococcus aureus Pneumonia",
-          "doi": "10.64898/2026.09.17.26363347",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363347v1",
-          "source": "medrxiv",
-          "score": 0.4178
+          "title": "Municipal Wastewater in Ottawa, Canada contains a reservoir of bacteriophages with clinically relevant Escherichia coli and Klebsiella pneumoniae Hosts",
+          "doi": "10.64898/2026.09.20.752992",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752992v1",
+          "source": "biorxiv",
+          "score": 0.4553
         },
         {
           "rank": 3,
-          "title": "Plscr1 inhibits murine norovirus entry",
-          "doi": "10.64898/2026.09.17.752154",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752154v1",
+          "title": "Single-cell transcriptomics of Encephalitozoon intestinalis infection in Caco-2 and Vero cells",
+          "doi": "10.64898/2026.09.18.752679",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752679v1",
           "source": "biorxiv",
-          "score": 0.4051
+          "score": 0.4426
         },
         {
           "rank": 4,
-          "title": "Microbiome signature in wastewater is predictive of COVID-19 case rates",
-          "doi": "10.64898/2026.09.16.26363250",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363250v1",
+          "title": "Boosting vaccination uptake using wastewater surveillance: a county-randomized controlled trial",
+          "doi": "10.64898/2026.09.14.26362268",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26362268v1",
           "source": "medrxiv",
-          "score": 0.4013
+          "score": 0.4242
         },
         {
           "rank": 5,
-          "title": "Impact of mass oral cholera vaccination in an endemic area of the Democratic Republic of the Congo: a surveillance-based counterfactual modeling analysis",
-          "doi": "10.64898/2026.09.17.26363298",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363298v1",
-          "source": "medrxiv",
-          "score": 0.3169
+          "title": "Near real-time data on the human neutralizing antibody landscape to influenza virus in summer of 2026 shows antigenic advance of H3N2 subclade K region D mutants and H1N1 D.3.1.1 Sa mutants",
+          "doi": "10.64898/2026.09.15.751855",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751855v2",
+          "source": "biorxiv",
+          "score": 0.4158
         }
       ]
     }
