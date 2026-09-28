@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-22T09:03:06.909029+00:00",
+  "generated_utc": "2026-09-28T10:04:27.865006+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "A single-cell RNA-seq catalog of ground truth gene coregulation",
-          "doi": "10.64898/2026.09.18.752692",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752692v1",
+          "title": "FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking",
+          "doi": "10.1101/2024.10.23.619960",
+          "url": "https://www.biorxiv.org/content/10.1101/2024.10.23.619960v8",
           "source": "biorxiv",
-          "score": 0.447
+          "score": 0.5135
         },
         {
           "rank": 2,
-          "title": "A bipolar disorder-associated ultra-rare AKAP11 protein-truncating variant attenuates stimulus-dependent PKA activation and induces anxiety- and depression-related behaviors in mice",
-          "doi": "10.64898/2026.09.19.752887",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.19.752887v1",
+          "title": "SHERLOCK: Structured representation learning and causal inference of downstream perturbation effects",
+          "doi": "10.64898/2026.09.25.754573",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754573v1",
           "source": "biorxiv",
-          "score": 0.4457
+          "score": 0.4602
         },
         {
           "rank": 3,
-          "title": "Large scale prospective evaluation of co-folding across hundreds of Mac1-ligand complexes and three virtual screens",
-          "doi": "10.64898/2025.12.25.696505",
-          "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696505v4",
+          "title": "PTMExplorer: A Multi-Dimensional Integrative Visualization Platform for Protein Post-Translational Modification Function and Structure",
+          "doi": "10.64898/2026.09.21.753344",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753344v1",
           "source": "biorxiv",
-          "score": 0.4415
+          "score": 0.4498
         },
         {
           "rank": 4,
-          "title": "Gravlax: an annotation-independent molecular evidence archive for single-cell RNA-seq",
-          "doi": "10.64898/2026.09.18.752708",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752708v1",
+          "title": "Targeted finetuning enables co-folding models to learn ligand-induced protein conformational states",
+          "doi": "10.64898/2026.09.21.752570",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.752570v1",
           "source": "biorxiv",
-          "score": 0.4252
+          "score": 0.4454
         },
         {
           "rank": 5,
-          "title": "Detecting cell segmentation errors using doublet methods",
-          "doi": "10.64898/2026.09.15.751798",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751798v1",
-          "source": "biorxiv",
-          "score": 0.4244
+          "title": "FRANK: a pan-cancer RNA-seq classifier for childhood tumors with data-efficient learning",
+          "doi": "10.64898/2026.09.23.26355605",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.23.26355605v0",
+          "source": "medrxiv",
+          "score": 0.4327
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Phylogenies as graphs: structured neural networks improve host origin predictions from paramyxovirus sequences",
-          "doi": "10.64898/2026.09.18.752634",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752634v1",
+          "title": "Taxonomic and functional concordance between full-length ONT 16S and ONT shotgun metagenomics in the canine gut microbiome",
+          "doi": "10.64898/2026.09.26.754683",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754683v1",
           "source": "biorxiv",
-          "score": 0.4561
+          "score": 0.4279
         },
         {
           "rank": 2,
-          "title": "Municipal Wastewater in Ottawa, Canada contains a reservoir of bacteriophages with clinically relevant Escherichia coli and Klebsiella pneumoniae Hosts",
-          "doi": "10.64898/2026.09.20.752992",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752992v1",
+          "title": "Common viral infections seed regionally distinct resident memory T cells in the human CNS",
+          "doi": "10.64898/2026.09.21.753190",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753190v1",
           "source": "biorxiv",
-          "score": 0.4553
+          "score": 0.3857
         },
         {
           "rank": 3,
-          "title": "Single-cell transcriptomics of Encephalitozoon intestinalis infection in Caco-2 and Vero cells",
-          "doi": "10.64898/2026.09.18.752679",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752679v1",
+          "title": "Freshwater Microbiomes Shape Viral Inactivation in Continuous Cultures",
+          "doi": "10.64898/2026.09.26.754611",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754611v1",
           "source": "biorxiv",
-          "score": 0.4426
+          "score": 0.3782
         },
         {
           "rank": 4,
-          "title": "Boosting vaccination uptake using wastewater surveillance: a county-randomized controlled trial",
-          "doi": "10.64898/2026.09.14.26362268",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26362268v1",
-          "source": "medrxiv",
-          "score": 0.4242
+          "title": "Phase diagrams for biophysical fitness landscape design",
+          "doi": "10.1101/2025.09.10.675274",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.10.675274v3",
+          "source": "biorxiv",
+          "score": 0.3582
         },
         {
           "rank": 5,
-          "title": "Near real-time data on the human neutralizing antibody landscape to influenza virus in summer of 2026 shows antigenic advance of H3N2 subclade K region D mutants and H1N1 D.3.1.1 Sa mutants",
-          "doi": "10.64898/2026.09.15.751855",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751855v2",
-          "source": "biorxiv",
-          "score": 0.4158
+          "title": "A within-host-informed event-time framework linking epidemiological delay distributions",
+          "doi": "10.64898/2026.09.21.26363521",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.21.26363521v0",
+          "source": "medrxiv",
+          "score": 0.3565
         }
       ]
     }
