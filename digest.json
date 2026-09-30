@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-29T09:16:15.038223+00:00",
+  "generated_utc": "2026-09-30T09:13:38.090617+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Pathway-wide base editing charts chemical-genetic interactions in MAPK signaling",
-          "doi": "10.64898/2026.09.25.753639",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.753639v1",
+          "title": "Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification",
+          "doi": "10.64898/2026.09.26.754690",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1",
           "source": "biorxiv",
-          "score": 0.4957
+          "score": 0.5744
         },
         {
           "rank": 2,
-          "title": "AtlasOT - The Fused Unbalanced Gromov-Wasserstein for Multimodal Integration of Disease Atlases",
-          "doi": "10.64898/2026.09.22.753496",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753496v1",
+          "title": "ELITE: E3 Ligase Inference for Tissue specific Elimination: A LLM Based E3 Ligase Prediction System for Precise Targeted Protein Degradation",
+          "doi": "10.1101/2025.11.05.686884",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.11.05.686884v10",
           "source": "biorxiv",
-          "score": 0.4923
+          "score": 0.5221
         },
         {
           "rank": 3,
-          "title": "Analyzing Genomic Foundation Models for Viral Sequence Identification",
-          "doi": "10.64898/2026.09.25.754388",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754388v1",
+          "title": "EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics",
+          "doi": "10.64898/2026.09.24.754017",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754017v1",
           "source": "biorxiv",
-          "score": 0.4612
+          "score": 0.5038
         },
         {
           "rank": 4,
-          "title": "Quantitative machine learning of protein interactions reveals the multiscale organization and molecular syntax of signaling networks",
-          "doi": "10.64898/2026.09.25.754499",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754499v1",
+          "title": "Generative modeling reveals the connection between nuclear morphology and gene expression",
+          "doi": "10.64898/2026.01.22.700673",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.01.22.700673v2",
           "source": "biorxiv",
-          "score": 0.445
+          "score": 0.4937
         },
         {
           "rank": 5,
-          "title": "Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics",
-          "doi": "10.64898/2026.09.25.754509",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754509v1",
+          "title": "A biological-response compound representation allows chemical perturbation prediction across cell lines",
+          "doi": "10.64898/2026.09.28.755146",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755146v1",
           "source": "biorxiv",
-          "score": 0.4358
+          "score": 0.4826
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Plasmid architecture determines the stability of inverted terminal repeats in adeno-associated virus vectors",
-          "doi": "10.64898/2026.09.24.753884",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.753884v1",
+          "title": "Genome-resolved ecology and evolution of the microbiome enabled by quantitative long-read metagenomics",
+          "doi": "10.64898/2026.09.28.754546",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754546v1",
           "source": "biorxiv",
-          "score": 0.4641
+          "score": 0.4413
         },
         {
           "rank": 2,
-          "title": "Novel approaches to quantify defective interfering particle activity reveal a surrogate marker of interference in mammarenaviruses",
-          "doi": "10.64898/2026.09.26.754696",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754696v1",
+          "title": "Proteomic comparison of Marburg and Kasokero virus infection in natural host Egyptian rousette bat reveals distinct antiviral pathways",
+          "doi": "10.64898/2026.09.28.755161",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755161v1",
           "source": "biorxiv",
-          "score": 0.4268
+          "score": 0.4387
         },
         {
           "rank": 3,
-          "title": "Scalable single-cell metagenomic analysis with Bascet and Zorn",
-          "doi": "10.1101/2025.06.20.660799",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.06.20.660799v2",
+          "title": "HIV-1 prime-boost vaccination shapes distinct clonal trajectories and memory precursor states of Env- and Gag-specific T cells",
+          "doi": "10.64898/2026.09.23.752815",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.752815v1",
           "source": "biorxiv",
-          "score": 0.395
+          "score": 0.4298
         },
         {
           "rank": 4,
-          "title": "Identification of Novel Inhibitors of JEV RdRp as Potent Antiviral Drugs: Targeting NS5-NS3 Protein Interaction",
-          "doi": "10.64898/2026.09.23.753689",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753689v1",
+          "title": "Integrated analysis of COVID-19 multi-omics data for eQTLs reveals genetic mechanisms underlying disease severity",
+          "doi": "10.1101/2024.12.18.629144",
+          "url": "https://www.biorxiv.org/content/10.1101/2024.12.18.629144v3",
           "source": "biorxiv",
-          "score": 0.3902
+          "score": 0.4198
         },
         {
           "rank": 5,
-          "title": "Structural polymorphism and population-variable coding capacity of HERV-K(HML-2) in human pangenomes",
-          "doi": "10.64898/2026.09.22.753638",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753638v1",
+          "title": "Cytokine-induced nuclear translocation of STAT1 via a non-transferable NLS",
+          "doi": "10.64898/2026.09.28.754937",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754937v1",
           "source": "biorxiv",
-          "score": 0.3744
+          "score": 0.3958
         }
       ]
     }

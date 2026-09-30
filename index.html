@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>September 29, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>September 30, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Pathway-wide base editing charts chemical-genetic interactions in MAPK signaling</a></li>
-  <li><a href="#core-article-2">AtlasOT - The Fused Unbalanced Gromov-Wasserstein for Multimodal Integration of Disease Atlases</a></li>
-  <li><a href="#core-article-3">Analyzing Genomic Foundation Models for Viral Sequence Identification</a></li>
-  <li><a href="#core-article-4">Quantitative machine learning of protein interactions reveals the multiscale organization and molecular syntax of signaling networks</a></li>
-  <li><a href="#core-article-5">Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics</a></li>
+  <li><a href="#core-article-1">Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification</a></li>
+  <li><a href="#core-article-2">ELITE: E3 Ligase Inference for Tissue specific Elimination: A LLM Based E3 Ligase Prediction System for Precise Targeted Protein Degradation</a></li>
+  <li><a href="#core-article-3">EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics</a></li>
+  <li><a href="#core-article-4">Generative modeling reveals the connection between nuclear morphology and gene expression</a></li>
+  <li><a href="#core-article-5">A biological-response compound representation allows chemical perturbation prediction across cell lines</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.25.753639v1">Pathway-wide base editing charts chemical-genetic interactions in MAPK signaling</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.25.753639">10.64898/2026.09.25.753639</a> · Score: <code>█████░░░░░</code> 0.496</p>
-<p><span class="label">Core Problem:</span> CRISPR base editor (BE) scanning enables sequence-level interrogation of proteins at scale in their native cellular and genomic contexts</p>
-<p><span class="label">Proposed Solution:</span> This approach opens new opportunities to dissect cellular pathways, where signaling depends on coordinated interactions among multiple pathway proteins. We apply BE scanning to the RAS-RAF-MEK-ERK (MAPK) cascade, a central oncogenic pathway and major therapeutic target</p>
-<p><span class="label">Key Impact:</span> These findings establish BE scanning as a scalable approach for network-level chemical-genetic interaction mapping, revealing new mechanistic insights into one of the most studied oncogenic pathways</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.22.753496v1">AtlasOT - The Fused Unbalanced Gromov-Wasserstein for Multimodal Integration of Disease Atlases</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.22.753496">10.64898/2026.09.22.753496</a> · Score: <code>█████░░░░░</code> 0.492</p>
-<p><span class="label">Core Problem:</span> Single-cell and spatial multiomics technologies are transforming disease atlas construction, but computational integration of unpaired modalities remains challenging, as existing methods overlook two biological constraints of data with matching samples</p>
-<p><span class="label">Proposed Solution:</span> First, cells should only be mapped across modalities within the same donor or biospecimen, and second, cell recovery frequently differs substantially between modalities. To address these gaps, we present AtlasOT, an optimal-transport framework based on the fused unbalanced Gromov-Wasserstein (FUGW) formulation for multi-modal integration</p>
-<p><span class="label">Key Impact:</span> These results establish AtlasOT as a unified, biologically constrained framework for multimodal integration in disease atlas studies, with broad applicability to label transfer, imputation, and regulatory network analysis</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1">Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.26.754690">10.64898/2026.09.26.754690</a> · Score: <code>██████░░░░</code> 0.574</p>
+<p><span class="label">Core Problem:</span> Multiplexed assays of variant effect (MAVEs) and computational methods have advanced variant classification but have struggled to distinguish the molecular mechanism of variants with sufficient accuracy, limiting utility for multi-mechanism genes</p>
+<p><span class="label">Proposed Solution:</span> Here, we coupled single-cell RNA-seq profiling with supervised machine learning to predict the mechanism of variants in CASR, a gene in which gain of function (GOF) variants cause hypocalcemia and loss of function (LOF) variants cause hypercalcemia. We engineered endogenous CASR-depleted HEK293 cells to express a single exogenous variant copy, measured their transcriptional profiles at single-cell resolution, trained a multi-class machine learning model on 96 expert-annotated variants (25 benign, 35 LOF, 36 GOF), and predicted mechanism for 157 variants of uncertain significance, of which 16 were predicted GOF and 54 LOF</p>
+<p><span class="label">Key Impact:</span> The approach has immediate relevance for clinical variant classification and establishes a foundation for mechanism-guided clinical management in disorders with mechanism-dependent interventions, with potential application to other multi-mechanism genes</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2025.11.05.686884v10">ELITE: E3 Ligase Inference for Tissue specific Elimination: A LLM Based E3 Ligase Prediction System for Precise Targeted Protein Degradation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.11.05.686884">10.1101/2025.11.05.686884</a> · Score: <code>█████░░░░░</code> 0.522</p>
+<p><span class="label">Core Problem:</span> Targeted protein degradation (TPD) has transformed modern drug discovery by harnessing the ubiquitin-proteasome system to eliminate disease-driving proteins previously deemed undruggable</p>
+<p><span class="label">Proposed Solution:</span> However, current approaches predominantly rely on a narrow set of ubiquitously expressed E3 ligases, such as Cereblon (CRBN) and Von Hippel-Lindau (VHL), which limits tissue specificity, increases systemic toxicity, and fosters resistance. Here, we present an AI-driven framework for the rational identification of tissue-specific E3 ligases suitable for precision-targeted degradation</p>
+<p><span class="label">Key Impact:</span> This data-centric advance underpins the framework&#x27;s ability to generate biologically meaningful, context-aware predictions and represents a central contribution of the present work</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.25.754388v1">Analyzing Genomic Foundation Models for Viral Sequence Identification</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.25.754388">10.64898/2026.09.25.754388</a> · Score: <code>█████░░░░░</code> 0.461</p>
-<p><span class="label">Core Problem:</span> Rapid and accurate identification of viral sequences underpins clinical diagnostics, epidemiological surveillance, and the safety testing of biological products, yet the established alignment-based methods such as BLAST are inherently closed-set, with accuracy tied to how well a query is already represented in the reference database</p>
-<p><span class="label">Proposed Solution:</span> Recent advances in genomic foundation models (GFMs) have enabled alignment-free approaches to sequence classification. However, their performance relative to traditional methods remains incompletely characterised</p>
-<p><span class="label">Key Impact:</span> NTv3-650M emerged as the most promising candidate for further optimisation and deployment in bioinformatics applications</p>
-<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.24.754017v1">EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.24.754017">10.64898/2026.09.24.754017</a> · Score: <code>█████░░░░░</code> 0.504</p>
+<p><span class="label">Core Problem:</span> Large-scale single-cell epigenomic atlases characterize chromatin regulatory landscapes across diverse biological contexts, spanning cell types, tissues, individuals and species</p>
+<p><span class="label">Proposed Solution:</span> Foundation models provide an opportunity to capture the full spectrum of cellular diversity in these atlases, yet current models remain largely confined to individual species by genomic coordinate dependence and overlook regulatory information encoded in DNA sequences. Here we introduce EpiZoo, a DNA sequence-aware foundation model for cross-species single-cell epigenomics</p>
+<p><span class="label">Key Impact:</span> Benefiting from this modeling design, EpiZoo enables context-aware prioritization of somatic mutations in cancer and prediction of cell-type-specific chromatin accessibility from DNA sequences across genomic regions and species</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.25.754499v1">Quantitative machine learning of protein interactions reveals the multiscale organization and molecular syntax of signaling networks</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.25.754499">10.64898/2026.09.25.754499</a> · Score: <code>████░░░░░░</code> 0.445</p>
-<p><span class="label">Core Problem:</span> Cells employ dense networks of transient protein-protein interactions mediated by modular peptide-binding domains and unstructured peptidic motifs for high-fidelity information processing</p>
-<p><span class="label">Proposed Solution:</span> How these networks physically execute computations through protein interactions governed by complex intra- and intermolecular mechanisms remains indiscernible from current, sparse and non-quantitative, maps of the human interactome. Here, we introduce a quantitative statistical mechanical modeling (QSM) approach for machine learning domain-peptide affinities with experimental-level accuracy</p>
-<p><span class="label">Key Impact:</span> In aggregate, these analyses instantiate a tractable roadmap towards a comprehensive, mechanistic, and simulatable articulation of the systems biology of signaling</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.01.22.700673v2">Generative modeling reveals the connection between nuclear morphology and gene expression</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.01.22.700673">10.64898/2026.01.22.700673</a> · Score: <code>█████░░░░░</code> 0.494</p>
+<p><span class="label">Core Problem:</span> How transcriptional programs shape nuclear morphology, and how morphological features in turn reflect and influence cell identity and function, remains poorly understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we introduce COSMIC, a bidirectional generative framework that enables quantitative decomposition of transcriptional variance reflected in nuclear morphology and morphological variance explained by gene expression. Pretrained on over 21 million segmented nuclei, COSMIC models cross-modal relationships by using a multimodal dataset acquired with IRIS, a technology that captures high-resolution images and transcriptomes from the same single cells</p>
+<p><span class="label">Key Impact:</span> These results demonstrate that generative modeling powered by paired single-cell measurements can quantify the information shared between nuclear morphology and gene expression, opening new avenues for mechanistic discovery in both basic and translational cell biology</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.25.754509v1">Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.25.754509">10.64898/2026.09.25.754509</a> · Score: <code>████░░░░░░</code> 0.436</p>
-<p><span class="label">Core Problem:</span> A critical step in the emergence of a virus is the ability of the viral protein to bind a host receptor and mediate cell entry</p>
-<p><span class="label">Proposed Solution:</span> For many coronaviruses, this interaction occurs between the Spike S1 subunit and the human ACE2 receptor. Whether this binding interface can be computationally distinguished across unstudied viruses without experimentally resolved protein structures remains an open question</p>
-<p><span class="label">Key Impact:</span> Given that two ACE2-binding coronaviruses have caused global pandemics within the past two decades, identifying potential ACE2 binders is critical for early warning and pandemic preparedness</p>
-<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.755146v1">A biological-response compound representation allows chemical perturbation prediction across cell lines</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.755146">10.64898/2026.09.28.755146</a> · Score: <code>█████░░░░░</code> 0.483</p>
+<p><span class="label">Core Problem:</span> Accurately predicting cellular responses to drugs remains a challenge with the potential to reduce experimental screening costs and accelerate drug discovery</p>
+<p><span class="label">Proposed Solution:</span> Current computational approaches represent compounds through chemical structures, which carry little information regarding their activity within biological systems. We show that gene expression responses, measured in a reference cell line, can instead serve as transferable representations of chemical perturbations</p>
+<p><span class="label">Key Impact:</span> These results open a new path for chemical perturbation prediction and could ultimately reduce the burden of phenotypic screening</p>
+<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.09.22.753496">AtlasOT - The Fused Unbalanced Gromov-Wasserstein for Multimodal Integration of Disease Atlases</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.25.753639">Pathway-wide base editing charts chemical-genetic interactions in MAPK signaling</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.25.754388">Analyzing Genomic Foundation Models for Viral Sequence Identification</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.25.754499">Quantitative machine learning of protein interactions reveals the multiscale organization and molecular syntax of signaling networks</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.25.754509">Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics</a><span class="history-date">Sep 29, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2024.10.23.619960">FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking</a><span class="history-date">Sep 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.21.752570">Targeted finetuning enables co-folding models to learn ligand-induced protein conformational states</a><span class="history-date">Sep 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.21.753344">PTMExplorer: A Multi-Dimensional Integrative Visualization Platform for Protein Post-Translational Modification Function and Structure</a><span class="history-date">Sep 28, 2026</span></li>
@@ -734,64 +739,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Plasmid architecture determines the stability of inverted terminal repeats in adeno-associated virus vectors</a></li>
-  <li><a href="#virology-article-2">Novel approaches to quantify defective interfering particle activity reveal a surrogate marker of interference in mammarenaviruses</a></li>
-  <li><a href="#virology-article-3">Scalable single-cell metagenomic analysis with Bascet and Zorn</a></li>
-  <li><a href="#virology-article-4">Identification of Novel Inhibitors of JEV RdRp as Potent Antiviral Drugs: Targeting NS5-NS3 Protein Interaction</a></li>
-  <li><a href="#virology-article-5">Structural polymorphism and population-variable coding capacity of HERV-K(HML-2) in human pangenomes</a></li>
+  <li><a href="#virology-article-1">Genome-resolved ecology and evolution of the microbiome enabled by quantitative long-read metagenomics</a></li>
+  <li><a href="#virology-article-2">Proteomic comparison of Marburg and Kasokero virus infection in natural host Egyptian rousette bat reveals distinct antiviral pathways</a></li>
+  <li><a href="#virology-article-3">HIV-1 prime-boost vaccination shapes distinct clonal trajectories and memory precursor states of Env- and Gag-specific T cells</a></li>
+  <li><a href="#virology-article-4">Integrated analysis of COVID-19 multi-omics data for eQTLs reveals genetic mechanisms underlying disease severity</a></li>
+  <li><a href="#virology-article-5">Cytokine-induced nuclear translocation of STAT1 via a non-transferable NLS</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.24.753884v1">Plasmid architecture determines the stability of inverted terminal repeats in adeno-associated virus vectors</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.24.753884">10.64898/2026.09.24.753884</a> · Score: <code>█████░░░░░</code> 0.464</p>
-<p><span class="label">Core Problem:</span> Recombinant vectors derived from adeno-associated viruses (rAAVs) are a mainstay of human gene therapy</p>
-<p><span class="label">Proposed Solution:</span> rAAVs are produced from plasmids containing transgene cassettes flanked by inverted terminal repeats (ITRs), which form structured DNA elements that stabilize the ends of the single-stranded viral genome and are the only viral sequences required in cis for genome packaging. For decades, it has been recognized that propagation of ITR-containing plasmids can result in deletions and other mutations, prompting the use of specialized bacterial strains, modified growth conditions, and truncated or altered ITRs</p>
-<p><span class="label">Key Impact:</span> Together, these findings show that ITR instability is a preventable, position-dependent property of plasmid architecture and identify ITR integrity as an important variable in rAAV vector design and quality control</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.754546v1">Genome-resolved ecology and evolution of the microbiome enabled by quantitative long-read metagenomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.754546">10.64898/2026.09.28.754546</a> · Score: <code>████░░░░░░</code> 0.441</p>
+<p><span class="label">Core Problem:</span> Standard metagenomics resolves microbial communities only in relative terms and at coarse taxonomic resolution, obscuring how individual strains change in absolute abundance and evolve within a host</p>
+<p><span class="label">Proposed Solution:</span> We present long-read quantiomics (LRQ), a quantitative metagenomics platform coupling long-read sequencing with plasmid-based internal standards to recover high-quality genomes, including from degraded or low-input stool, and measure absolute, genome-resolved strain abundances. We validate LRQ using large plasmid standards and bacterial spike-ins, then apply it to eight years of dense sampling from an individual with colonic Crohn&#x27;s disease</p>
+<p><span class="label">Key Impact:</span> LRQ therefore converts long-read metagenomics from a genome-recovery tool into a quantitative framework providing absolute, strain-level measurement of microbial ecology and evolution</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.26.754696v1">Novel approaches to quantify defective interfering particle activity reveal a surrogate marker of interference in mammarenaviruses</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.26.754696">10.64898/2026.09.26.754696</a> · Score: <code>████░░░░░░</code> 0.427</p>
-<p><span class="label">Core Problem:</span> Defective interfering particles (DIPs) profoundly influence viral replication and host responses yet it remains difficult to quantify their activity routinely in the laboratory</p>
-<p><span class="label">Proposed Solution:</span> Here, using lymphocytic choriomeningitis virus (LCMV) as a model mammarenavirus, we establish complementary approaches for measuring interfering activity of DIPs across a range of experimental scales. First, we optimized plaque- and focus-based interference assays that directly quantify DIP-mediated suppression of standard infectious virus replication through a modified neutralization assay</p>
-<p><span class="label">Key Impact:</span> This study also provides mechanistic details on how mammarenavirus DIPs interfere with infectious virus propagation</p>
-<p><span class="label">Methodology:</span> Neutralization Assay techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.755161v1">Proteomic comparison of Marburg and Kasokero virus infection in natural host Egyptian rousette bat reveals distinct antiviral pathways</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.755161">10.64898/2026.09.28.755161</a> · Score: <code>████░░░░░░</code> 0.439</p>
+<p><span class="label">Core Problem:</span> Bats are natural reservoir hosts for numerous zoonotic viruses, yet the molecular mechanisms enabling viral persistence without overt disease remain incompletely understood</p>
+<p><span class="label">Proposed Solution:</span> The Egyptian rousette bat (Rousettus aegyptiacus, ERB) is the sole known natural reservoir of Marburg virus (MARV) and a key host in the enzootic cycle of the tick-borne Kasokero virus (KASV), providing a unique system to compare host responses to different RNA viruses within the same species. Here, we applied serial cross-sectional serum proteomics integrated with tissue-specific viral kinetics to characterize systemic host responses to experimental MARV and KASV infection in captive-reared bats</p>
+<p><span class="label">Key Impact:</span> Together, these findings reveal how ERBs mount structured, virus-dependent systemic responses, offering new insight into mechanisms underlying viral infection in natural reservoir hosts</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2025.06.20.660799v2">Scalable single-cell metagenomic analysis with Bascet and Zorn</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.06.20.660799">10.1101/2025.06.20.660799</a> · Score: <code>████░░░░░░</code> 0.395</p>
-<p><span class="label">Core Problem:</span> Single-cell metagenomic sequencing (scMetaG) can provide maximum-resolution insights into complex microbial communities</p>
-<p><span class="label">Proposed Solution:</span> However, existing bioinformatic tools are not equipped to handle the massive amounts of data generated by high-throughput scMetaG methods. Here, we present a bioinformatic toolkit for end-to-end scMetaG analysis: Bascet, a command-line suite designed to scale to massive scMetaG datasets ([&amp;ge;]1 million cells); and Zorn, an R package/workflow manager that enables reproducible scMetaG data analysis, exploration, and visualization (http://zorn</p>
-<p><span class="label">Key Impact:</span> Overall, Bascet and Zorn enable reproducible scMetaG analysis, allowing users to query microbiomes at unprecedented resolution and scale</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.23.752815v1">HIV-1 prime-boost vaccination shapes distinct clonal trajectories and memory precursor states of Env- and Gag-specific T cells</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.23.752815">10.64898/2026.09.23.752815</a> · Score: <code>████░░░░░░</code> 0.430</p>
+<p><span class="label">Core Problem:</span> Despite decades of HIV-1 vaccine development, the clonal and cellular determinants of durable vaccine-induced T cell memory remain incompletely understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we combined antigen-specific T cell receptor (TCR) identification, longitudinal TCR sequencing, and single-cell multi-omics to characterize Env- and Gag-specific memory precursor T cells elicited by the HIV Vaccine Trials Network (HVTN) 505 DNA prime-recombinant adenovirus serotype 5 (rAd5) boost (DNA/rAd5) vaccine regimen. We developed a generalizable high-throughput approach to identify HIV-1 Env- and Gag-specific TCRs and found distinct patterns of clonal expansion, persistence, and contribution to memory between Env- and Gag-specific CD8 T cell responses</p>
+<p><span class="label">Key Impact:</span> Together, these findings demonstrate that heterologous DNA/rAd5 vaccination generates antigen-specific CD8 T cell memory with distinct clonal trajectories and cellular programs, providing new insights into how vaccine platform and antigen-specificity shape the durability and functional properties of HIV-1 specific cellular immunity</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.23.753689v1">Identification of Novel Inhibitors of JEV RdRp as Potent Antiviral Drugs: Targeting NS5-NS3 Protein Interaction</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.23.753689">10.64898/2026.09.23.753689</a> · Score: <code>████░░░░░░</code> 0.390</p>
-<p><span class="label">Core Problem:</span> Japanese Encephalitis Virus (JEV) belongs to the Flavivirus family, and the RNA dependent RNA polymerase (RdRp) domain located at the C terminus of non structural protein 5 (NS5) regulates de novo viral genome synthesis</p>
-<p><span class="label">Proposed Solution:</span> The conserved priming loop inserted in the thumb domain of RDRP initiates de novo genome synthesis. Interestingly, the reported replication process initiates with an interaction between NS5 (methyltransferase/RDRP) and NS3 (protease/helicase), and inhibiting this interaction directly correlates with the inhibition of viral replication</p>
-<p><span class="label">Key Impact:</span> Overall, our study validated the function of the NS5 priming loop as an allosteric site, and compounds binding to this allosteric site belong to the Non Nucleoside Reverse Transcriptase Inhibitors (NNRTI) class of inhibitors, which disrupt the NS5 and NS3 interaction and could be developed as novel anti JEV therapeutics</p>
-<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.1101/2024.12.18.629144v3">Integrated analysis of COVID-19 multi-omics data for eQTLs reveals genetic mechanisms underlying disease severity</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2024.12.18.629144">10.1101/2024.12.18.629144</a> · Score: <code>████░░░░░░</code> 0.420</p>
+<p><span class="label">Core Problem:</span> The global pandemic caused by the SARS-CoV-2 virus provided an unprecedented opportunity to investigate genetic factors influencing the disease severity of the viral infection</p>
+<p><span class="label">Proposed Solution:</span> Despite a plethora of recent research on both SARS-CoV-2 and COVID-19, few have taken a systems biology approach to address individual-level variation, especially based on non-European populations. We analyzed multi-omics data generated at three timepoints from 184 Korean COVID-19 patients with mild or severe symptoms, composed of whole genome sequencing, blood-based single-cell RNA-sequencing (2</p>
+<p><span class="label">Key Impact:</span> This study illuminates an efficient molecular interrogation framework that can be applied toward understanding infectious disease progression in individuals of different genotypes</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.22.753638v1">Structural polymorphism and population-variable coding capacity of HERV-K(HML-2) in human pangenomes</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.22.753638">10.64898/2026.09.22.753638</a> · Score: <code>████░░░░░░</code> 0.374</p>
-<p><span class="label">Core Problem:</span> Approximately 8% of the human genome is derived from ancient retroviral infections</p>
-<p><span class="label">Proposed Solution:</span> The most recently integrated of these endogenous retroviruses is the HERV-K(HML-2) clade, whose expression has been associated with cancer, amyotrophic lateral sclerosis, and embryogenesis. Studies of HERV expression, particularly HML-2, have relied predominantly on short-read sequencing</p>
-<p><span class="label">Key Impact:</span> These findings show why HML-2 expression must be interpreted in the context of the structural and coding alleles each individual carries</p>
-<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.754937v1">Cytokine-induced nuclear translocation of STAT1 via a non-transferable NLS</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.754937">10.64898/2026.09.28.754937</a> · Score: <code>████░░░░░░</code> 0.396</p>
+<p><span class="label">Core Problem:</span> The targeting function of nuclear localization signals (NLSs) is generally considered independent of a protein&#x27;s native sequence or fold and is readily transferable to heterologous cargos</p>
+<p><span class="label">Proposed Solution:</span> Contrary to this paradigm, rapid nuclear translocation of phosphorylated STAT1 (pSTAT1) following cytokine stimulation requires importin {beta}, Ran-GTP, and the importin 5 isoform, which recognizes a non-transferable NLS. Here, we present cryo-EM structures of pSTAT1 bound to importin 5, revealing an asymmetric 2:1 complex that diverges from canonical NLS-mediated cargo recognition</p>
+<p><span class="label">Key Impact:</span> Together, these findings define the molecular choreography of cytokine-induced STAT1 nuclear translocation and release, establishing a general paradigm for STAT family signaling</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.06.20.660799">Scalable single-cell metagenomic analysis with Bascet and Zorn</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.22.753638">Structural polymorphism and population-variable coding capacity of HERV-K(HML-2) in human pangenomes</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.23.753689">Identification of Novel Inhibitors of JEV RdRp as Potent Antiviral Drugs: Targeting NS5-NS3 Protein Interaction</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.24.753884">Plasmid architecture determines the stability of inverted terminal repeats in adeno-associated virus vectors</a><span class="history-date">Sep 29, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.26.754696">Novel approaches to quantify defective interfering particle activity reveal a surrogate marker of interference in mammarenaviruses</a><span class="history-date">Sep 29, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.09.10.675274">Phase diagrams for biophysical fitness landscape design</a><span class="history-date">Sep 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.21.26363521">A within-host-informed event-time framework linking epidemiological delay distributions</a><span class="history-date">Sep 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.21.753190">Common viral infections seed regionally distinct resident memory T cells in the human CNS</a><span class="history-date">Sep 28, 2026</span></li>
@@ -938,7 +948,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-09-29T09:16:14 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-09-30T09:13:38 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
