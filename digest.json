@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-09-30T09:13:38.090617+00:00",
+  "generated_utc": "2026-10-01T09:02:59.593668+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification",
-          "doi": "10.64898/2026.09.26.754690",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1",
+          "title": "Multi-Model Machine Learning Consensus Identifies a Dual-Interferon Gene Signature in Ischemic Stroke: An Integrative Single-Cell Transcriptomic Analysis",
+          "doi": "10.64898/2026.09.25.754010",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754010v1",
           "source": "biorxiv",
-          "score": 0.5744
+          "score": 0.578
         },
         {
           "rank": 2,
-          "title": "ELITE: E3 Ligase Inference for Tissue specific Elimination: A LLM Based E3 Ligase Prediction System for Precise Targeted Protein Degradation",
-          "doi": "10.1101/2025.11.05.686884",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.11.05.686884v10",
+          "title": "CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis",
+          "doi": "10.64898/2026.09.24.754260",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754260v1",
           "source": "biorxiv",
-          "score": 0.5221
+          "score": 0.5262
         },
         {
           "rank": 3,
-          "title": "EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics",
-          "doi": "10.64898/2026.09.24.754017",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754017v1",
+          "title": "ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes",
+          "doi": "10.64898/2026.09.25.754372",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754372v1",
           "source": "biorxiv",
-          "score": 0.5038
+          "score": 0.5111
         },
         {
           "rank": 4,
-          "title": "Generative modeling reveals the connection between nuclear morphology and gene expression",
-          "doi": "10.64898/2026.01.22.700673",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.01.22.700673v2",
+          "title": "Mendel, a foundation model of human genetic variation, prioritizes regulatory variants and improves gene expression prediction",
+          "doi": "10.64898/2026.09.28.755183",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1",
           "source": "biorxiv",
-          "score": 0.4937
+          "score": 0.4766
         },
         {
           "rank": 5,
-          "title": "A biological-response compound representation allows chemical perturbation prediction across cell lines",
-          "doi": "10.64898/2026.09.28.755146",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755146v1",
+          "title": "Reconstructing tumor evolution without chromosomal instability reveals in vivo determinants of therapeutic response",
+          "doi": "10.1101/2025.03.17.643814",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643814v2",
           "source": "biorxiv",
-          "score": 0.4826
+          "score": 0.4751
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Genome-resolved ecology and evolution of the microbiome enabled by quantitative long-read metagenomics",
-          "doi": "10.64898/2026.09.28.754546",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754546v1",
+          "title": "A moving target: non-stationary selection governs unsupervised prediction of viral fitness",
+          "doi": "10.64898/2026.09.17.752359",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752359v1",
           "source": "biorxiv",
-          "score": 0.4413
+          "score": 0.4504
         },
         {
           "rank": 2,
-          "title": "Proteomic comparison of Marburg and Kasokero virus infection in natural host Egyptian rousette bat reveals distinct antiviral pathways",
-          "doi": "10.64898/2026.09.28.755161",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755161v1",
+          "title": "Phylodynamic analysis reveals asymmetric and accelerating global spread of dengue virus",
+          "doi": "10.64898/2026.09.28.754967",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754967v1",
           "source": "biorxiv",
-          "score": 0.4387
+          "score": 0.4414
         },
         {
           "rank": 3,
-          "title": "HIV-1 prime-boost vaccination shapes distinct clonal trajectories and memory precursor states of Env- and Gag-specific T cells",
-          "doi": "10.64898/2026.09.23.752815",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.752815v1",
+          "title": "Thirty years of Achromobacter ruhlandii evolution reveal pathways to epidemic lineages",
+          "doi": "10.64898/2026.03.25.714254",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.25.714254v2",
           "source": "biorxiv",
-          "score": 0.4298
+          "score": 0.423
         },
         {
           "rank": 4,
-          "title": "Integrated analysis of COVID-19 multi-omics data for eQTLs reveals genetic mechanisms underlying disease severity",
-          "doi": "10.1101/2024.12.18.629144",
-          "url": "https://www.biorxiv.org/content/10.1101/2024.12.18.629144v3",
+          "title": "Chikungunya Virus Infection of Monocytes Generates a Persistent Macrophage Reservoir That Promotes IFN-\u03c0/IL-27-STAT1- and NF-\u03baB-Driven Chronic Arthritis",
+          "doi": "10.64898/2026.09.24.754283",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754283v1",
           "source": "biorxiv",
-          "score": 0.4198
+          "score": 0.3996
         },
         {
           "rank": 5,
-          "title": "Cytokine-induced nuclear translocation of STAT1 via a non-transferable NLS",
-          "doi": "10.64898/2026.09.28.754937",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754937v1",
-          "source": "biorxiv",
-          "score": 0.3958
+          "title": "Genomic epidemiology reveals post-vaccine re-emergence of vaccine-associated G1P rotavirus lineages with variable disease severity",
+          "doi": "10.64898/2026.09.24.26362359",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.24.26362359v1",
+          "source": "medrxiv",
+          "score": 0.3956
         }
       ]
     }

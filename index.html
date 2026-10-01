@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>September 30, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 01, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification</a></li>
-  <li><a href="#core-article-2">ELITE: E3 Ligase Inference for Tissue specific Elimination: A LLM Based E3 Ligase Prediction System for Precise Targeted Protein Degradation</a></li>
-  <li><a href="#core-article-3">EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics</a></li>
-  <li><a href="#core-article-4">Generative modeling reveals the connection between nuclear morphology and gene expression</a></li>
-  <li><a href="#core-article-5">A biological-response compound representation allows chemical perturbation prediction across cell lines</a></li>
+  <li><a href="#core-article-1">Multi-Model Machine Learning Consensus Identifies a Dual-Interferon Gene Signature in Ischemic Stroke: An Integrative Single-Cell Transcriptomic Analysis</a></li>
+  <li><a href="#core-article-2">CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis</a></li>
+  <li><a href="#core-article-3">ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes</a></li>
+  <li><a href="#core-article-4">Mendel, a foundation model of human genetic variation, prioritizes regulatory variants and improves gene expression prediction</a></li>
+  <li><a href="#core-article-5">Reconstructing tumor evolution without chromosomal instability reveals in vivo determinants of therapeutic response</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1">Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.26.754690">10.64898/2026.09.26.754690</a> · Score: <code>██████░░░░</code> 0.574</p>
-<p><span class="label">Core Problem:</span> Multiplexed assays of variant effect (MAVEs) and computational methods have advanced variant classification but have struggled to distinguish the molecular mechanism of variants with sufficient accuracy, limiting utility for multi-mechanism genes</p>
-<p><span class="label">Proposed Solution:</span> Here, we coupled single-cell RNA-seq profiling with supervised machine learning to predict the mechanism of variants in CASR, a gene in which gain of function (GOF) variants cause hypocalcemia and loss of function (LOF) variants cause hypercalcemia. We engineered endogenous CASR-depleted HEK293 cells to express a single exogenous variant copy, measured their transcriptional profiles at single-cell resolution, trained a multi-class machine learning model on 96 expert-annotated variants (25 benign, 35 LOF, 36 GOF), and predicted mechanism for 157 variants of uncertain significance, of which 16 were predicted GOF and 54 LOF</p>
-<p><span class="label">Key Impact:</span> The approach has immediate relevance for clinical variant classification and establishes a foundation for mechanism-guided clinical management in disorders with mechanism-dependent interventions, with potential application to other multi-mechanism genes</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.25.754010v1">Multi-Model Machine Learning Consensus Identifies a Dual-Interferon Gene Signature in Ischemic Stroke: An Integrative Single-Cell Transcriptomic Analysis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.25.754010">10.64898/2026.09.25.754010</a> · Score: <code>██████░░░░</code> 0.578</p>
+<p><span class="label">Core Problem:</span> An Ischemic stroke is one of the main causes of death and long-term disability around the world</p>
+<p><span class="label">Proposed Solution:</span> There are very few treatment options available, especially for the cases where the short time period to give clot dissolving medicine has passed (Powers et al. , 2019)</p>
+<p><span class="label">Key Impact:</span> Keywords: ischemic stroke; machine learning; single-cell RNA sequencing; biomarker discovery; consensus analysis; interferon signaling; neuroinflammation</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2025.11.05.686884v10">ELITE: E3 Ligase Inference for Tissue specific Elimination: A LLM Based E3 Ligase Prediction System for Precise Targeted Protein Degradation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.11.05.686884">10.1101/2025.11.05.686884</a> · Score: <code>█████░░░░░</code> 0.522</p>
-<p><span class="label">Core Problem:</span> Targeted protein degradation (TPD) has transformed modern drug discovery by harnessing the ubiquitin-proteasome system to eliminate disease-driving proteins previously deemed undruggable</p>
-<p><span class="label">Proposed Solution:</span> However, current approaches predominantly rely on a narrow set of ubiquitously expressed E3 ligases, such as Cereblon (CRBN) and Von Hippel-Lindau (VHL), which limits tissue specificity, increases systemic toxicity, and fosters resistance. Here, we present an AI-driven framework for the rational identification of tissue-specific E3 ligases suitable for precision-targeted degradation</p>
-<p><span class="label">Key Impact:</span> This data-centric advance underpins the framework&#x27;s ability to generate biologically meaningful, context-aware predictions and represents a central contribution of the present work</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.24.754260v1">CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.24.754260">10.64898/2026.09.24.754260</a> · Score: <code>█████░░░░░</code> 0.526</p>
+<p><span class="label">Core Problem:</span> Accurate cell identity annotation is essential for reconstructing cell lineages and gene-regulatory networks in embryogenesis</p>
+<p><span class="label">Proposed Solution:</span> However, in Caenorhabditis elegans (C. elegans) single-cell RNA-sequencing (scRNA-seq) atlases, closely related sub-lineage cells often have near-identical transcriptomes, leading to merged labels and limiting downstream analyses</p>
+<p><span class="label">Key Impact:</span> The model also identifies new discriminative marker genes and provides mechanistic hypotheses linking contact-specific signaling to fate specification</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.24.754017v1">EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.24.754017">10.64898/2026.09.24.754017</a> · Score: <code>█████░░░░░</code> 0.504</p>
-<p><span class="label">Core Problem:</span> Large-scale single-cell epigenomic atlases characterize chromatin regulatory landscapes across diverse biological contexts, spanning cell types, tissues, individuals and species</p>
-<p><span class="label">Proposed Solution:</span> Foundation models provide an opportunity to capture the full spectrum of cellular diversity in these atlases, yet current models remain largely confined to individual species by genomic coordinate dependence and overlook regulatory information encoded in DNA sequences. Here we introduce EpiZoo, a DNA sequence-aware foundation model for cross-species single-cell epigenomics</p>
-<p><span class="label">Key Impact:</span> Benefiting from this modeling design, EpiZoo enables context-aware prioritization of somatic mutations in cancer and prediction of cell-type-specific chromatin accessibility from DNA sequences across genomic regions and species</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.25.754372v1">ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.25.754372">10.64898/2026.09.25.754372</a> · Score: <code>█████░░░░░</code> 0.511</p>
+<p><span class="label">Core Problem:</span> Spatial transcriptomics reveals cellular organization within intact tissues, whereas dissociated single-cell RNA sequencing provides broad transcriptomic coverage but loses information about cellular proximity and neighborhood structure</p>
+<p><span class="label">Proposed Solution:</span> Here, we developed ProxiNet, a spatially supervised framework that learns transcriptomic signatures of pairwise cellular proximity from spatial reference datasets and transfers these relationships to dissociated single-cell transcriptomes. ProxiNet predicted cellular proximity across brain regions and spatial technologies, including zero-shot cross-technology transfer, and gradient-based attribution identified genes and broader transcriptional programs associated with proximity predictions</p>
+<p><span class="label">Key Impact:</span> Together, these results establish pairwise cellular proximity as an interpretable and transferable representation for extending spatially learned tissue organization to dissociated single-cell transcriptomes</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.01.22.700673v2">Generative modeling reveals the connection between nuclear morphology and gene expression</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.01.22.700673">10.64898/2026.01.22.700673</a> · Score: <code>█████░░░░░</code> 0.494</p>
-<p><span class="label">Core Problem:</span> How transcriptional programs shape nuclear morphology, and how morphological features in turn reflect and influence cell identity and function, remains poorly understood</p>
-<p><span class="label">Proposed Solution:</span> Here, we introduce COSMIC, a bidirectional generative framework that enables quantitative decomposition of transcriptional variance reflected in nuclear morphology and morphological variance explained by gene expression. Pretrained on over 21 million segmented nuclei, COSMIC models cross-modal relationships by using a multimodal dataset acquired with IRIS, a technology that captures high-resolution images and transcriptomes from the same single cells</p>
-<p><span class="label">Key Impact:</span> These results demonstrate that generative modeling powered by paired single-cell measurements can quantify the information shared between nuclear morphology and gene expression, opening new avenues for mechanistic discovery in both basic and translational cell biology</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1">Mendel, a foundation model of human genetic variation, prioritizes regulatory variants and improves gene expression prediction</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.755183">10.64898/2026.09.28.755183</a> · Score: <code>█████░░░░░</code> 0.477</p>
+<p><span class="label">Core Problem:</span> Human genome-wide association studies have identified hundreds of thousands of variant trait associations, but interpreting their mechanistic consequences at allele resolution remains a central bottleneck</p>
+<p><span class="label">Proposed Solution:</span> DNA foundation models pretrained on genomic sequence corpora learn features predictive of regulatory activity, yet their training objectives are dominated by the conserved background common to all individuals, rather than the sparse variant sites at which human genetic variation is concentrated. Here we introduce Mendel, a DNA foundation model trained from scratch on human whole genome sequences using a variant-centric objective that concentrates supervision on allelic events within reference aligned sequence context</p>
+<p><span class="label">Key Impact:</span> 731), where Evo 2 residuals performed near chance, and when converted into a cis-expression prior for modelling, improves prediction relative to an unweighted baseline in all 50 GTEx tissues</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.755146v1">A biological-response compound representation allows chemical perturbation prediction across cell lines</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.755146">10.64898/2026.09.28.755146</a> · Score: <code>█████░░░░░</code> 0.483</p>
-<p><span class="label">Core Problem:</span> Accurately predicting cellular responses to drugs remains a challenge with the potential to reduce experimental screening costs and accelerate drug discovery</p>
-<p><span class="label">Proposed Solution:</span> Current computational approaches represent compounds through chemical structures, which carry little information regarding their activity within biological systems. We show that gene expression responses, measured in a reference cell line, can instead serve as transferable representations of chemical perturbations</p>
-<p><span class="label">Key Impact:</span> These results open a new path for chemical perturbation prediction and could ultimately reduce the burden of phenotypic screening</p>
-<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.03.17.643814v2">Reconstructing tumor evolution without chromosomal instability reveals in vivo determinants of therapeutic response</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.03.17.643814">10.1101/2025.03.17.643814</a> · Score: <code>█████░░░░░</code> 0.475</p>
+<p><span class="label">Core Problem:</span> Tumor responses to therapy are profoundly shaped by selective pressures operating in vivo, including tumor-host interactions, tissue architecture, and endocrine signaling, yet most genome-scale approaches are conducted in vitro</p>
+<p><span class="label">Proposed Solution:</span> We developed Stochastically Emergent Tumors (SETs), an in vivo platform that distills tumor evolution into sparse genetic variation amenable to computational inference and deep learning while uniquely avoiding chromosomal instability. Unlike single-perturbation screens, SETs evolve through combinatorial alterations, including neomorphic variants, across the entire genome</p>
+<p><span class="label">Key Impact:</span> By decoupling tumor evolution from chromosomal instability, SETs harness in vivo therapeutic selection as a genome-scale discovery engine for determinants of both sensitivity and resistance</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.11.05.686884">ELITE: E3 Ligase Inference for Tissue specific Elimination: A LLM Based E3 Ligase Prediction System for Precise Targeted Protein Degradation</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.01.22.700673">Generative modeling reveals the connection between nuclear morphology and gene expression</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.24.754017">EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.26.754690">Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.28.755146">A biological-response compound representation allows chemical perturbation prediction across cell lines</a><span class="history-date">Sep 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.22.753496">AtlasOT - The Fused Unbalanced Gromov-Wasserstein for Multimodal Integration of Disease Atlases</a><span class="history-date">Sep 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.25.753639">Pathway-wide base editing charts chemical-genetic interactions in MAPK signaling</a><span class="history-date">Sep 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.25.754388">Analyzing Genomic Foundation Models for Viral Sequence Identification</a><span class="history-date">Sep 29, 2026</span></li>
@@ -739,64 +744,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Genome-resolved ecology and evolution of the microbiome enabled by quantitative long-read metagenomics</a></li>
-  <li><a href="#virology-article-2">Proteomic comparison of Marburg and Kasokero virus infection in natural host Egyptian rousette bat reveals distinct antiviral pathways</a></li>
-  <li><a href="#virology-article-3">HIV-1 prime-boost vaccination shapes distinct clonal trajectories and memory precursor states of Env- and Gag-specific T cells</a></li>
-  <li><a href="#virology-article-4">Integrated analysis of COVID-19 multi-omics data for eQTLs reveals genetic mechanisms underlying disease severity</a></li>
-  <li><a href="#virology-article-5">Cytokine-induced nuclear translocation of STAT1 via a non-transferable NLS</a></li>
+  <li><a href="#virology-article-1">A moving target: non-stationary selection governs unsupervised prediction of viral fitness</a></li>
+  <li><a href="#virology-article-2">Phylodynamic analysis reveals asymmetric and accelerating global spread of dengue virus</a></li>
+  <li><a href="#virology-article-3">Thirty years of Achromobacter ruhlandii evolution reveal pathways to epidemic lineages</a></li>
+  <li><a href="#virology-article-4">Chikungunya Virus Infection of Monocytes Generates a Persistent Macrophage Reservoir That Promotes IFN-π/IL-27-STAT1- and NF-κB-Driven Chronic Arthritis</a></li>
+  <li><a href="#virology-article-5">Genomic epidemiology reveals post-vaccine re-emergence of vaccine-associated G1P rotavirus lineages with variable disease severity</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.754546v1">Genome-resolved ecology and evolution of the microbiome enabled by quantitative long-read metagenomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.754546">10.64898/2026.09.28.754546</a> · Score: <code>████░░░░░░</code> 0.441</p>
-<p><span class="label">Core Problem:</span> Standard metagenomics resolves microbial communities only in relative terms and at coarse taxonomic resolution, obscuring how individual strains change in absolute abundance and evolve within a host</p>
-<p><span class="label">Proposed Solution:</span> We present long-read quantiomics (LRQ), a quantitative metagenomics platform coupling long-read sequencing with plasmid-based internal standards to recover high-quality genomes, including from degraded or low-input stool, and measure absolute, genome-resolved strain abundances. We validate LRQ using large plasmid standards and bacterial spike-ins, then apply it to eight years of dense sampling from an individual with colonic Crohn&#x27;s disease</p>
-<p><span class="label">Key Impact:</span> LRQ therefore converts long-read metagenomics from a genome-recovery tool into a quantitative framework providing absolute, strain-level measurement of microbial ecology and evolution</p>
-<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.09.17.752359v1">A moving target: non-stationary selection governs unsupervised prediction of viral fitness</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.17.752359">10.64898/2026.09.17.752359</a> · Score: <code>█████░░░░░</code> 0.450</p>
+<p><span class="label">Core Problem:</span> Anticipating how mutations change viral fitness is central to genomic surveillance and vaccine design, yet the supervised phenotype data behind the most accurate variant-effect predictors are unavailable for most emerging pathogens</p>
+<p><span class="label">Proposed Solution:</span> We ask how far label-free scoring can go using only sequences, their evolutionary history, and structure. We assemble a modular, fully unsupervised pipeline that estimates a few interpretable terms (intrinsic replicative fitness, antigenic escape, and realized growth), and that lets each term be produced by more than one estimator, so the estimator itself becomes a testable modeling choice</p>
+<p><span class="label">Key Impact:</span> Unsupervised viral fitness prediction is, then, as much an evolutionary problem as a modeling one</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.755161v1">Proteomic comparison of Marburg and Kasokero virus infection in natural host Egyptian rousette bat reveals distinct antiviral pathways</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.755161">10.64898/2026.09.28.755161</a> · Score: <code>████░░░░░░</code> 0.439</p>
-<p><span class="label">Core Problem:</span> Bats are natural reservoir hosts for numerous zoonotic viruses, yet the molecular mechanisms enabling viral persistence without overt disease remain incompletely understood</p>
-<p><span class="label">Proposed Solution:</span> The Egyptian rousette bat (Rousettus aegyptiacus, ERB) is the sole known natural reservoir of Marburg virus (MARV) and a key host in the enzootic cycle of the tick-borne Kasokero virus (KASV), providing a unique system to compare host responses to different RNA viruses within the same species. Here, we applied serial cross-sectional serum proteomics integrated with tissue-specific viral kinetics to characterize systemic host responses to experimental MARV and KASV infection in captive-reared bats</p>
-<p><span class="label">Key Impact:</span> Together, these findings reveal how ERBs mount structured, virus-dependent systemic responses, offering new insight into mechanisms underlying viral infection in natural reservoir hosts</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.754967v1">Phylodynamic analysis reveals asymmetric and accelerating global spread of dengue virus</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.754967">10.64898/2026.09.28.754967</a> · Score: <code>████░░░░░░</code> 0.441</p>
+<p><span class="label">Core Problem:</span> Dengue virus (DENV) continues to expand globally, with increasing incidence in both endemic and non-endemic countries</p>
+<p><span class="label">Proposed Solution:</span> Leveraging a large global dataset of DENV genomes starting from the 1940s, we reconstructed global and regional patterns of DENV spread using phylogeographic and phylodynamic methods. Our analyses reveal that the current global diversity of urban DENV originated in Asia in the first half of the 20th century</p>
+<p><span class="label">Key Impact:</span> Our results highlight key nodes in the global dynamics of DENV lineages, and suggest spread will continue to accelerate in a more connected world</p>
+<p><span class="label">Methodology:</span> Phylodynamic techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.23.752815v1">HIV-1 prime-boost vaccination shapes distinct clonal trajectories and memory precursor states of Env- and Gag-specific T cells</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.23.752815">10.64898/2026.09.23.752815</a> · Score: <code>████░░░░░░</code> 0.430</p>
-<p><span class="label">Core Problem:</span> Despite decades of HIV-1 vaccine development, the clonal and cellular determinants of durable vaccine-induced T cell memory remain incompletely understood</p>
-<p><span class="label">Proposed Solution:</span> Here, we combined antigen-specific T cell receptor (TCR) identification, longitudinal TCR sequencing, and single-cell multi-omics to characterize Env- and Gag-specific memory precursor T cells elicited by the HIV Vaccine Trials Network (HVTN) 505 DNA prime-recombinant adenovirus serotype 5 (rAd5) boost (DNA/rAd5) vaccine regimen. We developed a generalizable high-throughput approach to identify HIV-1 Env- and Gag-specific TCRs and found distinct patterns of clonal expansion, persistence, and contribution to memory between Env- and Gag-specific CD8 T cell responses</p>
-<p><span class="label">Key Impact:</span> Together, these findings demonstrate that heterologous DNA/rAd5 vaccination generates antigen-specific CD8 T cell memory with distinct clonal trajectories and cellular programs, providing new insights into how vaccine platform and antigen-specificity shape the durability and functional properties of HIV-1 specific cellular immunity</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.03.25.714254v2">Thirty years of Achromobacter ruhlandii evolution reveal pathways to epidemic lineages</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.25.714254">10.64898/2026.03.25.714254</a> · Score: <code>████░░░░░░</code> 0.423</p>
+<p><span class="label">Core Problem:</span> Background: Achromobacter spp</p>
+<p><span class="label">Proposed Solution:</span> are emerging opportunistic pathogens, associated with chronic infections, antimicrobial resistance, and poor clinical outcomes. The Danish epidemic strain (DES) of A</p>
+<p><span class="label">Key Impact:</span> ruhlandii and underscore the need for continued genomic surveillance to detect and monitor emerging high-risk lineages in chronic infections</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.1101/2024.12.18.629144v3">Integrated analysis of COVID-19 multi-omics data for eQTLs reveals genetic mechanisms underlying disease severity</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2024.12.18.629144">10.1101/2024.12.18.629144</a> · Score: <code>████░░░░░░</code> 0.420</p>
-<p><span class="label">Core Problem:</span> The global pandemic caused by the SARS-CoV-2 virus provided an unprecedented opportunity to investigate genetic factors influencing the disease severity of the viral infection</p>
-<p><span class="label">Proposed Solution:</span> Despite a plethora of recent research on both SARS-CoV-2 and COVID-19, few have taken a systems biology approach to address individual-level variation, especially based on non-European populations. We analyzed multi-omics data generated at three timepoints from 184 Korean COVID-19 patients with mild or severe symptoms, composed of whole genome sequencing, blood-based single-cell RNA-sequencing (2</p>
-<p><span class="label">Key Impact:</span> This study illuminates an efficient molecular interrogation framework that can be applied toward understanding infectious disease progression in individuals of different genotypes</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.24.754283v1">Chikungunya Virus Infection of Monocytes Generates a Persistent Macrophage Reservoir That Promotes IFN-π/IL-27-STAT1- and NF-κB-Driven Chronic Arthritis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.24.754283">10.64898/2026.09.24.754283</a> · Score: <code>████░░░░░░</code> 0.400</p>
+<p><span class="label">Core Problem:</span> Chikungunya virus (CHIKV) infection causes acute febrile illness that frequently progresses to chronic arthralgia</p>
+<p><span class="label">Proposed Solution:</span> Although monocytes are CHIKV targets, whether viral exposure drives their differentiation into macrophages to sustain persistent inflammation remains incompletely understood. To address this, we integrated transcriptomic profiling of pediatric CHIKV patients during acute and convalescent phases, in vitro differentiation of primary human monocytes into macrophages under CHIKV infection, and single-cell RNA-sequencing (scRNA-seq) of joint-associated macrophages from an immunocompetent mouse model of chronic CHIKV arthritis at 28 days post-infection</p>
+<p><span class="label">Key Impact:</span> Consequently, macrophage reprogramming, the non-canonical IFN-{pi}/IL-27-STAT1 axis, Fc{gamma}R-mediated phagocytosis, and complement activation emerge as central pathogenic nodes and promising therapeutic targets for mitigating chronic post-CHIKV arthropathy</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.754937v1">Cytokine-induced nuclear translocation of STAT1 via a non-transferable NLS</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.754937">10.64898/2026.09.28.754937</a> · Score: <code>████░░░░░░</code> 0.396</p>
-<p><span class="label">Core Problem:</span> The targeting function of nuclear localization signals (NLSs) is generally considered independent of a protein&#x27;s native sequence or fold and is readily transferable to heterologous cargos</p>
-<p><span class="label">Proposed Solution:</span> Contrary to this paradigm, rapid nuclear translocation of phosphorylated STAT1 (pSTAT1) following cytokine stimulation requires importin {beta}, Ran-GTP, and the importin 5 isoform, which recognizes a non-transferable NLS. Here, we present cryo-EM structures of pSTAT1 bound to importin 5, revealing an asymmetric 2:1 complex that diverges from canonical NLS-mediated cargo recognition</p>
-<p><span class="label">Key Impact:</span> Together, these findings define the molecular choreography of cytokine-induced STAT1 nuclear translocation and release, establishing a general paradigm for STAT family signaling</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.09.24.26362359v1">Genomic epidemiology reveals post-vaccine re-emergence of vaccine-associated G1P rotavirus lineages with variable disease severity</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.24.26362359">10.64898/2026.09.24.26362359</a> · Score: <code>████░░░░░░</code> 0.396</p>
+<p><span class="label">Core Problem:</span> Group A rotavirus G1P[8] strains, which are targeted by the Rotarix vaccine, have persisted in several countries following the introduction of the Rotarix vaccine</p>
+<p><span class="label">Proposed Solution:</span> However, the evolutionary origins of the persisting strains remain unclear. Here, we leveraged over two decades of rotavirus surveillance data from Malawi to understand the genomic epidemiology of G1P[8] strains in a high-disease-burden sub-Saharan African setting</p>
+<p><span class="label">Key Impact:</span> These findings highlight the importance of long-term genomic surveillance to understand rotavirus transmission, evolution, and disease severity, and to guide public health interventions</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2024.12.18.629144">Integrated analysis of COVID-19 multi-omics data for eQTLs reveals genetic mechanisms underlying disease severity</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.23.752815">HIV-1 prime-boost vaccination shapes distinct clonal trajectories and memory precursor states of Env- and Gag-specific T cells</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.28.754546">Genome-resolved ecology and evolution of the microbiome enabled by quantitative long-read metagenomics</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.28.754937">Cytokine-induced nuclear translocation of STAT1 via a non-transferable NLS</a><span class="history-date">Sep 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.09.28.755161">Proteomic comparison of Marburg and Kasokero virus infection in natural host Egyptian rousette bat reveals distinct antiviral pathways</a><span class="history-date">Sep 30, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.06.20.660799">Scalable single-cell metagenomic analysis with Bascet and Zorn</a><span class="history-date">Sep 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.22.753638">Structural polymorphism and population-variable coding capacity of HERV-K(HML-2) in human pangenomes</a><span class="history-date">Sep 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.23.753689">Identification of Novel Inhibitors of JEV RdRp as Potent Antiviral Drugs: Targeting NS5-NS3 Protein Interaction</a><span class="history-date">Sep 29, 2026</span></li>
@@ -948,7 +958,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-09-30T09:13:38 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-01T09:02:59 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
