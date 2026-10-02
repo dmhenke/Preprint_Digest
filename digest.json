@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-01T09:02:59.593668+00:00",
+  "generated_utc": "2026-10-02T09:03:03.228498+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Multi-Model Machine Learning Consensus Identifies a Dual-Interferon Gene Signature in Ischemic Stroke: An Integrative Single-Cell Transcriptomic Analysis",
-          "doi": "10.64898/2026.09.25.754010",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754010v1",
+          "title": "Rank-Preserving Alignment Enables Cross-platform Learning and Phenotyping for Single-Cell and Spatial Proteomics",
+          "doi": "10.64898/2026.09.25.754510",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754510v1",
           "source": "biorxiv",
-          "score": 0.578
+          "score": 0.522
         },
         {
           "rank": 2,
-          "title": "CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis",
-          "doi": "10.64898/2026.09.24.754260",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754260v1",
+          "title": "Base-mismatched crRNA in CRISPR Enabled Universal One-pot Rapid Nucleic Acid Detection",
+          "doi": "10.64898/2026.09.30.755528",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755528v1",
           "source": "biorxiv",
-          "score": 0.5262
+          "score": 0.4417
         },
         {
           "rank": 3,
-          "title": "ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes",
-          "doi": "10.64898/2026.09.25.754372",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754372v1",
+          "title": "Limitations of differential expression for cell-type marker discovery in single-cell RNA sequencing atlases",
+          "doi": "10.64898/2026.09.25.754486",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754486v1",
           "source": "biorxiv",
-          "score": 0.5111
+          "score": 0.4254
         },
         {
           "rank": 4,
-          "title": "Mendel, a foundation model of human genetic variation, prioritizes regulatory variants and improves gene expression prediction",
-          "doi": "10.64898/2026.09.28.755183",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1",
+          "title": "HMVA-DDI: A Hierarchical Multi-View Attention Network for Drug-Drug Interaction and Severity Prediction",
+          "doi": "10.64898/2026.09.25.754374",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754374v1",
           "source": "biorxiv",
-          "score": 0.4766
+          "score": 0.4101
         },
         {
           "rank": 5,
-          "title": "Reconstructing tumor evolution without chromosomal instability reveals in vivo determinants of therapeutic response",
-          "doi": "10.1101/2025.03.17.643814",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643814v2",
+          "title": "A Dynamics-Informed Machine Learning Framework for Inhibitor Optimization Against Quickly Evolving Targets to Avoid Resistance",
+          "doi": "10.64898/2026.09.25.754496",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754496v1",
           "source": "biorxiv",
-          "score": 0.4751
+          "score": 0.4056
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "A moving target: non-stationary selection governs unsupervised prediction of viral fitness",
-          "doi": "10.64898/2026.09.17.752359",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752359v1",
+          "title": "Predicting viral host range for reverse zoonosis surveillance",
+          "doi": "10.64898/2026.09.30.755793",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755793v1",
           "source": "biorxiv",
-          "score": 0.4504
+          "score": 0.4696
         },
         {
           "rank": 2,
-          "title": "Phylodynamic analysis reveals asymmetric and accelerating global spread of dengue virus",
-          "doi": "10.64898/2026.09.28.754967",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754967v1",
-          "source": "biorxiv",
-          "score": 0.4414
+          "title": "Modelling the influence of the duration of effectiveness and time taken to implement vector control interventions for vector-borne diseases.",
+          "doi": "10.64898/2026.09.30.26364329",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364329v1",
+          "source": "medrxiv",
+          "score": 0.3991
         },
         {
           "rank": 3,
-          "title": "Thirty years of Achromobacter ruhlandii evolution reveal pathways to epidemic lineages",
-          "doi": "10.64898/2026.03.25.714254",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.25.714254v2",
+          "title": "Network analysis of correlated conformational dynamics across the evolution of influenza A virus NS1",
+          "doi": "10.64898/2026.09.29.755463",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755463v1",
           "source": "biorxiv",
-          "score": 0.423
+          "score": 0.3735
         },
         {
           "rank": 4,
-          "title": "Chikungunya Virus Infection of Monocytes Generates a Persistent Macrophage Reservoir That Promotes IFN-\u03c0/IL-27-STAT1- and NF-\u03baB-Driven Chronic Arthritis",
-          "doi": "10.64898/2026.09.24.754283",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754283v1",
+          "title": "Consolidating species boundaries in the Fusarium oxysporum species complex based on genomic evidence",
+          "doi": "10.64898/2026.09.25.754427",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754427v1",
           "source": "biorxiv",
-          "score": 0.3996
+          "score": 0.3704
         },
         {
           "rank": 5,
-          "title": "Genomic epidemiology reveals post-vaccine re-emergence of vaccine-associated G1P rotavirus lineages with variable disease severity",
-          "doi": "10.64898/2026.09.24.26362359",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.24.26362359v1",
-          "source": "medrxiv",
-          "score": 0.3956
+          "title": "Environmental and genetic drivers differentially shaped resident and transient gut microbiota during the Macaronesian chaffinch radiation",
+          "doi": "10.1101/2025.08.20.671302",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.08.20.671302v2",
+          "source": "biorxiv",
+          "score": 0.3671
         }
       ]
     }
