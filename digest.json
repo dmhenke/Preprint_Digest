@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-02T09:03:03.228498+00:00",
+  "generated_utc": "2026-10-03T09:02:34.728778+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Rank-Preserving Alignment Enables Cross-platform Learning and Phenotyping for Single-Cell and Spatial Proteomics",
-          "doi": "10.64898/2026.09.25.754510",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754510v1",
+          "title": "A kinetic-aware approach to infer metabolic variations and flux using transcriptomics and metabolomics data",
+          "doi": "10.64898/2026.09.27.754711",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754711v1",
           "source": "biorxiv",
-          "score": 0.522
+          "score": 0.5189
         },
         {
           "rank": 2,
-          "title": "Base-mismatched crRNA in CRISPR Enabled Universal One-pot Rapid Nucleic Acid Detection",
-          "doi": "10.64898/2026.09.30.755528",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755528v1",
-          "source": "biorxiv",
-          "score": 0.4417
+          "title": "Generalizability of proteomic risk prediction across biobanks reveals dependence on phenotype definitions",
+          "doi": "10.64898/2026.10.01.26364038",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364038v1",
+          "source": "medrxiv",
+          "score": 0.4171
         },
         {
           "rank": 3,
-          "title": "Limitations of differential expression for cell-type marker discovery in single-cell RNA sequencing atlases",
-          "doi": "10.64898/2026.09.25.754486",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754486v1",
+          "title": "Auditing Protein-Protein Interaction Signals with Sparse Autoencoder Fingerprints",
+          "doi": "10.64898/2026.09.27.754758",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754758v1",
           "source": "biorxiv",
-          "score": 0.4254
+          "score": 0.3818
         },
         {
           "rank": 4,
-          "title": "HMVA-DDI: A Hierarchical Multi-View Attention Network for Drug-Drug Interaction and Severity Prediction",
-          "doi": "10.64898/2026.09.25.754374",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754374v1",
+          "title": "AbRefine: Framework-Conditioned Refinement for Structure-Guided Antibody CDR Design",
+          "doi": "10.64898/2026.09.27.754743",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754743v1",
           "source": "biorxiv",
-          "score": 0.4101
+          "score": 0.373
         },
         {
           "rank": 5,
-          "title": "A Dynamics-Informed Machine Learning Framework for Inhibitor Optimization Against Quickly Evolving Targets to Avoid Resistance",
-          "doi": "10.64898/2026.09.25.754496",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754496v1",
+          "title": "Inference on paths of yeast transcription pre-initiation complex assembly by model-based analysis of altered occupancy profiles",
+          "doi": "10.64898/2026.09.30.755594",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755594v1",
           "source": "biorxiv",
-          "score": 0.4056
+          "score": 0.373
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Predicting viral host range for reverse zoonosis surveillance",
-          "doi": "10.64898/2026.09.30.755793",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755793v1",
-          "source": "biorxiv",
-          "score": 0.4696
+          "title": "Increased burden of endogenous viral elements in Alzheimer's Disease compared to cognitively healthy centenarians",
+          "doi": "10.64898/2026.10.01.26364419",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364419v1",
+          "source": "medrxiv",
+          "score": 0.4309
         },
         {
           "rank": 2,
-          "title": "Modelling the influence of the duration of effectiveness and time taken to implement vector control interventions for vector-borne diseases.",
-          "doi": "10.64898/2026.09.30.26364329",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364329v1",
-          "source": "medrxiv",
-          "score": 0.3991
+          "title": "A global signature of microbiome resilience to climate stress",
+          "doi": "10.64898/2026.09.30.755659",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755659v1",
+          "source": "biorxiv",
+          "score": 0.3529
         },
         {
           "rank": 3,
-          "title": "Network analysis of correlated conformational dynamics across the evolution of influenza A virus NS1",
-          "doi": "10.64898/2026.09.29.755463",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755463v1",
-          "source": "biorxiv",
-          "score": 0.3735
+          "title": "Real-time situational assessment of respiratory virus epidemics in Australia over winter 2025 and an out-of-season influenza A H3N2 epidemic",
+          "doi": "10.64898/2026.09.30.26364449",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364449v1",
+          "source": "medrxiv",
+          "score": 0.3127
         },
         {
           "rank": 4,
-          "title": "Consolidating species boundaries in the Fusarium oxysporum species complex based on genomic evidence",
-          "doi": "10.64898/2026.09.25.754427",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754427v1",
-          "source": "biorxiv",
-          "score": 0.3704
+          "title": "Comparative immunogenicity and relative vaccine efficacy of recombinant and cell culture-based influenza vaccines: Results from a randomized trial of adults in the United States, 2024-2025",
+          "doi": "10.64898/2026.10.01.26364413",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364413v1",
+          "source": "medrxiv",
+          "score": 0.3073
         },
         {
           "rank": 5,
-          "title": "Environmental and genetic drivers differentially shaped resident and transient gut microbiota during the Macaronesian chaffinch radiation",
-          "doi": "10.1101/2025.08.20.671302",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.08.20.671302v2",
-          "source": "biorxiv",
-          "score": 0.3671
+          "title": "Global dynamics of antibiotic resistance: a modeling study of the spread of endemic and emerging resistance in E. coli",
+          "doi": "10.1101/2025.09.25.25335519",
+          "url": "https://www.medrxiv.org/content/10.1101/2025.09.25.25335519v2",
+          "source": "medrxiv",
+          "score": 0.307
         }
       ]
     }
