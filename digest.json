@@ -1,95 +1,22 @@
 {
-  "generated_utc": "2026-10-03T09:02:34.728778+00:00",
+  "generated_utc": "2026-10-04T09:12:14.423899+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "A kinetic-aware approach to infer metabolic variations and flux using transcriptomics and metabolomics data",
-          "doi": "10.64898/2026.09.27.754711",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754711v1",
-          "source": "biorxiv",
-          "score": 0.5189
-        },
-        {
-          "rank": 2,
-          "title": "Generalizability of proteomic risk prediction across biobanks reveals dependence on phenotype definitions",
-          "doi": "10.64898/2026.10.01.26364038",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364038v1",
+          "title": "Sequencing for a Lifetime: Professional Perspectives on the Value and Feasibility of Lifelong Genomic Medicine",
+          "doi": "10.64898/2026.04.29.26352046",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.04.29.26352046v2",
           "source": "medrxiv",
-          "score": 0.4171
-        },
-        {
-          "rank": 3,
-          "title": "Auditing Protein-Protein Interaction Signals with Sparse Autoencoder Fingerprints",
-          "doi": "10.64898/2026.09.27.754758",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754758v1",
-          "source": "biorxiv",
-          "score": 0.3818
-        },
-        {
-          "rank": 4,
-          "title": "AbRefine: Framework-Conditioned Refinement for Structure-Guided Antibody CDR Design",
-          "doi": "10.64898/2026.09.27.754743",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754743v1",
-          "source": "biorxiv",
-          "score": 0.373
-        },
-        {
-          "rank": 5,
-          "title": "Inference on paths of yeast transcription pre-initiation complex assembly by model-based analysis of altered occupancy profiles",
-          "doi": "10.64898/2026.09.30.755594",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755594v1",
-          "source": "biorxiv",
-          "score": 0.373
+          "score": 0.3147
         }
       ]
     },
     "virology": {
       "name": "Virology, Pandemic Preparedness & Metagenomics",
-      "articles": [
-        {
-          "rank": 1,
-          "title": "Increased burden of endogenous viral elements in Alzheimer's Disease compared to cognitively healthy centenarians",
-          "doi": "10.64898/2026.10.01.26364419",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364419v1",
-          "source": "medrxiv",
-          "score": 0.4309
-        },
-        {
-          "rank": 2,
-          "title": "A global signature of microbiome resilience to climate stress",
-          "doi": "10.64898/2026.09.30.755659",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755659v1",
-          "source": "biorxiv",
-          "score": 0.3529
-        },
-        {
-          "rank": 3,
-          "title": "Real-time situational assessment of respiratory virus epidemics in Australia over winter 2025 and an out-of-season influenza A H3N2 epidemic",
-          "doi": "10.64898/2026.09.30.26364449",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364449v1",
-          "source": "medrxiv",
-          "score": 0.3127
-        },
-        {
-          "rank": 4,
-          "title": "Comparative immunogenicity and relative vaccine efficacy of recombinant and cell culture-based influenza vaccines: Results from a randomized trial of adults in the United States, 2024-2025",
-          "doi": "10.64898/2026.10.01.26364413",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364413v1",
-          "source": "medrxiv",
-          "score": 0.3073
-        },
-        {
-          "rank": 5,
-          "title": "Global dynamics of antibiotic resistance: a modeling study of the spread of endemic and emerging resistance in E. coli",
-          "doi": "10.1101/2025.09.25.25335519",
-          "url": "https://www.medrxiv.org/content/10.1101/2025.09.25.25335519v2",
-          "source": "medrxiv",
-          "score": 0.307
-        }
-      ]
+      "articles": []
     }
   }
 }
