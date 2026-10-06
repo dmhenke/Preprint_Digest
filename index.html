@@ -108,15 +108,15 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 04, 2026 — 1 preprints selected (Comp Bio: 1 · Virology: 0)</h2>
+  <h2>October 06, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
 </div>
 
 <nav class="tabs" role="tablist">
-  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(1)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(0)</span></a>
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,24 +124,65 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Sequencing for a Lifetime: Professional Perspectives on the Value and Feasibility of Lifelong Genomic Medicine</a></li>
+  <li><a href="#core-article-1">Cohort-scale Spatial Host-Microbiome Predicts Post-Resection Recurrence in Colorectal Cancer</a></li>
+  <li><a href="#core-article-2">How many cells resolve a perturbation direction? A closed-form, control-aware cell quota for single-cell perturbation screens</a></li>
+  <li><a href="#core-article-3">Mechanistic Decoding of Pharmacodynamic Intratumoral Heterogeneity: A Pan-Cancer Regulatory Framework</a></li>
+  <li><a href="#core-article-4">Verification Debt in Automated Biological Research Workflows: A Proof-of-Concept</a></li>
+  <li><a href="#core-article-5">Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.04.29.26352046v2">Sequencing for a Lifetime: Professional Perspectives on the Value and Feasibility of Lifelong Genomic Medicine</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.04.29.26352046">10.64898/2026.04.29.26352046</a> · Score: <code>███░░░░░░░</code> 0.315</p>
-<p><span class="label">Core Problem:</span> Introduction</p>
-<p><span class="label">Proposed Solution:</span> Lifelong genomic medicine, in which stored genomic data informs a lifetime of care, is moving from vision toward reality, with dozens of newborn sequencing projects underway worldwide and reanalysis of data already in clinical practice. Professional perspectives on its value and feasibility have not been examined</p>
-<p><span class="label">Key Impact:</span> Coordinated investment in governance is needed, alongside evidence on which forms of lifelong genomic medicine offer enough clinical value to justify their costs</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.09.29.26363734v1">Cohort-scale Spatial Host-Microbiome Predicts Post-Resection Recurrence in Colorectal Cancer</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.09.29.26363734">10.64898/2026.09.29.26363734</a> · Score: <code>██████░░░░</code> 0.570</p>
+<p><span class="label">Core Problem:</span> The tumor microenvironment in colorectal cancer (CRC) is a heterogeneous ecosystem in which host cells and microbial communities interact dynamically, influencing disease progression</p>
+<p><span class="label">Proposed Solution:</span> However, the clinical utility is limited by the lack of a scalable spatial host-microbiome technique and by insufficient integration of artificial intelligence for the interpretation of high-dimensional multi-omics data. To overcome the barriers, we present AlphaFISH, a platform technology integrating both technical and computational innovations for multi-omics spatial analysis of clinical biopsies at subcellular resolution</p>
+<p><span class="label">Key Impact:</span> AlphaFISH reveals that spatial interactions between Fusobacterium and cellular niche consisting of tumor and T cells serve as key markers of CRC malignancy, progression, and recurrence, indicating the critical role of spatial bacterial-immune crosstalks</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.02.754788v1">How many cells resolve a perturbation direction? A closed-form, control-aware cell quota for single-cell perturbation screens</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.02.754788">10.64898/2026.10.02.754788</a> · Score: <code>█████░░░░░</code> 0.523</p>
+<p><span class="label">Core Problem:</span> Single-cell perturbation screens increasingly infer mechanism from the direction of a treatment&#x27;s displacement in a shared transcriptomic embedding, yet no sample-size rule states how many cells that direction needs</p>
+<p><span class="label">Proposed Solution:</span> We derive a closed-form, anisotropic cell quota for the treated cells required to hold the angular error of an estimated perturbation direction at a chosen tolerance. Because noise aligned with the effect changes only its length, the quota depends on the noise perpendicular to the effect, on the effect magnitude and on the control-pool size, and it diverges below a magnitude floor set by the control alone</p>
+<p><span class="label">Key Impact:</span> The calculator turns a pilot covariance, an effect magnitude and a control design into a per-condition cell budget and flags conditions that no treated depth can resolve</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.01.756124v1">Mechanistic Decoding of Pharmacodynamic Intratumoral Heterogeneity: A Pan-Cancer Regulatory Framework</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.01.756124">10.64898/2026.10.01.756124</a> · Score: <code>█████░░░░░</code> 0.459</p>
+<p><span class="label">Core Problem:</span> Intratumoral heterogeneity (ITH) drives therapy failure through divergent drug response propensities among coexisting subclones - a phenomenon we term pharmacodynamic intratumoral heterogeneity (PharmITH)</p>
+<p><span class="label">Proposed Solution:</span> While single-cell technologies have catalogued transcriptional heterogeneity, which molecular programs shape differential drug responses remains unresolved. Here we decode PharmITH by linking single-cell transcriptomes from 1,279 samples across 24 cancer types with drug-response profiles for 1,218 compounds</p>
+<p><span class="label">Key Impact:</span> This approach transforms ITH from descriptive phenotyping to mechanistic dissection, providing actionable targets to overcome therapy resistance</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.09.29.755250v1">Verification Debt in Automated Biological Research Workflows: A Proof-of-Concept</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.29.755250">10.64898/2026.09.29.755250</a> · Score: <code>████░░░░░░</code> 0.427</p>
+<p><span class="label">Core Problem:</span> Recent biological research has shown significant interest and progress towards adoption of agentic AI systems</p>
+<p><span class="label">Proposed Solution:</span> Domain specific agentic platforms with access to large collections of biological tools with code generation and/or querying capabilities, such as Biomni (illustrative case in point), are representative of the capability to orchestrate automated research workflows. Such platforms enable collaborative AI workspace for drug discovery, genomics, bioinformatics, literature research, and experimental planning for biologists and researchers</p>
+<p><span class="label">Key Impact:</span> Verification debt is represented through 9 decision-step metrics and 13 research-process metrics, and also propose the VERIFY framework for evaluating scientific verifiability and validity in agentic workflows</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.30.755585v1">Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.30.755585">10.64898/2026.09.30.755585</a> · Score: <code>████░░░░░░</code> 0.420</p>
+<p><span class="label">Core Problem:</span> Spatial transcriptomics pairs spatially resolved gene expression with tissue morphology in the same tissue section</p>
+<p><span class="label">Proposed Solution:</span> Transcriptomic foundation models encode such expression profiles into general-purpose representations, but these representations can retain slide- and cohort-specific variation that obscures biological signal. Here, we test whether matched H\&amp;E histology can improve these representations as a training-time supervisory signal that is discarded at inference</p>
+<p><span class="label">Key Impact:</span> com/ratschlab/vision-guided-transcriptomics-fm-2026</p>
+<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.04.29.26352046">Sequencing for a Lifetime: Professional Perspectives on the Value and Feasibility of Lifelong Genomic Medicine</a><span class="history-date">Oct 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.27.754711">A kinetic-aware approach to infer metabolic variations and flux using transcriptomics and metabolomics data</a><span class="history-date">Oct 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.27.754743">AbRefine: Framework-Conditioned Refinement for Structure-Guided Antibody CDR Design</a><span class="history-date">Oct 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.27.754758">Auditing Protein-Protein Interaction Signals with Sparse Autoencoder Fingerprints</a><span class="history-date">Oct 03, 2026</span></li>
@@ -718,7 +759,60 @@ footer {
 <h2 class="panel-heading">Virology, Pandemic Preparedness &amp; Metagenomics</h2>
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
-<p class="empty">No preprints cleared the relevance threshold for this track in the current window.</p>
+<ul class="toc-list">
+  <li><a href="#virology-article-1">Conserved mycobacteriophage protein uses structural mimicry to displace host initiation factors</a></li>
+  <li><a href="#virology-article-2">RSV &amp; rhinovirus coinfection order dictates outcome via type III interferon-mediated interference in infant respiratory epithelium</a></li>
+  <li><a href="#virology-article-3">Urban waterfowl harbour geographically connected viral communities across Aotearoa New Zealand</a></li>
+  <li><a href="#virology-article-4">Statistical inference of virus evolution using ancestral recombination graphs</a></li>
+  <li><a href="#virology-article-5">Host Cellular Remodeling, Not Viral Transcriptional Inhibition, Drives Quorum Sensing Signal-Mediated Evasion of Viral Lysis in Gephyrocapsa huxleyi</a></li>
+</ul>
+
+<hr>
+
+<div class="article" id="virology-article-1">
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.05.756390v1">Conserved mycobacteriophage protein uses structural mimicry to displace host initiation factors</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.05.756390">10.64898/2026.10.05.756390</a> · Score: <code>████░░░░░░</code> 0.421</p>
+<p><span class="label">Core Problem:</span> Compact viral genomes encode sophisticated strategies to reprogram host gene expression, often by co-opting rather than replacing the host RNA polymerase</p>
+<p><span class="label">Proposed Solution:</span> How bacteriophages achieve such control in Mycobacteria remains largely unknown. Here, time-resolved interaction proteomics of mycobacteriophage D29 infection identifies a conserved two-protein module, gp53-gp52, that binds the host RNA polymerase</p>
+<p><span class="label">Key Impact:</span> These findings suggest sigma-factor displacement as a mechanism of transcriptional takeover in viruses of mycobacteria and show how a compact viral module can repurpose an essential host molecular machine</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.01.756024v1">RSV &amp; rhinovirus coinfection order dictates outcome via type III interferon-mediated interference in infant respiratory epithelium</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.01.756024">10.64898/2026.10.01.756024</a> · Score: <code>████░░░░░░</code> 0.410</p>
+<p><span class="label">Core Problem:</span> Coinfection with respiratory syncytial virus (RSV) and rhinovirus (RV) is the most frequently detected coinfection in infants, yet mechanisms governing viral interference and disease outcome remain poorly understood</p>
+<p><span class="label">Proposed Solution:</span> Although infection order is a key determinant of coinfection outcome involving RSV, influenza, rhinovirus, and SARS-CoV-2, its role in RSV/RV coinfections has not been defined. Using infant-derived human nasal organoids at air-liquid interface, we demonstrate that coinfection order fundamentally determines the outcome of RSV/RV interactions</p>
+<p><span class="label">Key Impact:</span> Collectively, our data establishes coinfection order as a critical determinant of RSV/RV outcome and reveals novel and mechanistic insight into critical viral-host interactions in the infant nasal epithelium</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.04.756485v1">Urban waterfowl harbour geographically connected viral communities across Aotearoa New Zealand</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.04.756485">10.64898/2026.10.04.756485</a> · Score: <code>████░░░░░░</code> 0.410</p>
+<p><span class="label">Core Problem:</span> Urban waterfowl are important natural reservoirs of viruses that can affect wildlife, livestock and human health, yet the diversity and spatial distribution of these viral communities remain poorly understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we characterised the faecal viromes of urban waterfowl sampled from 13 locations across the length of Aotearoa (New Zealand). We identified 96 avian viruses (50 species) spanning nine viral families, including 33 previously undescribed viruses</p>
+<p><span class="label">Key Impact:</span> These findings reveal extensive viral diversity and widespread connectivity among urban waterfowl, providing new insights into viral ecology and the potential for widespread virus distribution across Aotearoa</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.02.756209v1">Statistical inference of virus evolution using ancestral recombination graphs</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.02.756209">10.64898/2026.10.02.756209</a> · Score: <code>████░░░░░░</code> 0.404</p>
+<p><span class="label">Core Problem:</span> Ancestral recombination graphs (ARGs) represent the coalescent history at every locus in the genome, subject to mutation and recombination</p>
+<p><span class="label">Proposed Solution:</span> Modelling viruses using the coalescent with recombination remains less explored, due to the potential for complex, multi-scale dynamics. Using perturbative methods, we establish mathematical bounds that describe the balance between inter-host and within-host coalescence, and demonstrate that the highly-recombinant Epstein-Barr Virus (EBV) coalesces predominantly at the inter-host level</p>
+<p><span class="label">Key Impact:</span> Our findings demonstrate that ARG-based methods recover gene-level selective structure, and provide a general method for analysing virus phylodynamics in the limit of small quantities</p>
+<p><span class="label">Methodology:</span> Phylodynamic techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.30.755861v1">Host Cellular Remodeling, Not Viral Transcriptional Inhibition, Drives Quorum Sensing Signal-Mediated Evasion of Viral Lysis in Gephyrocapsa huxleyi</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.30.755861">10.64898/2026.09.30.755861</a> · Score: <code>████░░░░░░</code> 0.382</p>
+<p><span class="label">Core Problem:</span> Bacterial infochemicals can profoundly alter phytoplankton physiology, yet how these compounds influence viral infection outcomes remains poorly understood</p>
+<p><span class="label">Proposed Solution:</span> The bacterial quorum sensing molecule 2-heptyl-4-quinolone (HHQ) enables the globally abundant coccolithophore, Gephyrocapsa huxleyi, to evade virus-induced mortality following infection by Emiliania huxleyi virus (EhV). HHQ reduced infectious virus production at 24 hours despite largely intact viral gene transcription, as revealed by RNA sequencing of host and viral responses during EhV-201 infection</p>
+<p><span class="label">Key Impact:</span> These findings indicate that HHQ-mediated evasion of virus-induced mortality occurs downstream of viral entry and transcription, through remodeling of host processes required for virion assembly, maturation, trafficking, and release</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
 
 <hr>
 
@@ -895,7 +989,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-04T09:12:14 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-06T09:02:15 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

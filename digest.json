@@ -1,22 +1,95 @@
 {
-  "generated_utc": "2026-10-04T09:12:14.423899+00:00",
+  "generated_utc": "2026-10-06T09:02:15.151625+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Sequencing for a Lifetime: Professional Perspectives on the Value and Feasibility of Lifelong Genomic Medicine",
-          "doi": "10.64898/2026.04.29.26352046",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.04.29.26352046v2",
+          "title": "Cohort-scale Spatial Host-Microbiome Predicts Post-Resection Recurrence in Colorectal Cancer",
+          "doi": "10.64898/2026.09.29.26363734",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.29.26363734v1",
           "source": "medrxiv",
-          "score": 0.3147
+          "score": 0.5698
+        },
+        {
+          "rank": 2,
+          "title": "How many cells resolve a perturbation direction? A closed-form, control-aware cell quota for single-cell perturbation screens",
+          "doi": "10.64898/2026.10.02.754788",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754788v1",
+          "source": "biorxiv",
+          "score": 0.5227
+        },
+        {
+          "rank": 3,
+          "title": "Mechanistic Decoding of Pharmacodynamic Intratumoral Heterogeneity: A Pan-Cancer Regulatory Framework",
+          "doi": "10.64898/2026.10.01.756124",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756124v1",
+          "source": "biorxiv",
+          "score": 0.459
+        },
+        {
+          "rank": 4,
+          "title": "Verification Debt in Automated Biological Research Workflows: A Proof-of-Concept",
+          "doi": "10.64898/2026.09.29.755250",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755250v1",
+          "source": "biorxiv",
+          "score": 0.4274
+        },
+        {
+          "rank": 5,
+          "title": "Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models",
+          "doi": "10.64898/2026.09.30.755585",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755585v1",
+          "source": "biorxiv",
+          "score": 0.4196
         }
       ]
     },
     "virology": {
       "name": "Virology, Pandemic Preparedness & Metagenomics",
-      "articles": []
+      "articles": [
+        {
+          "rank": 1,
+          "title": "Conserved mycobacteriophage protein uses structural mimicry to displace host initiation factors",
+          "doi": "10.64898/2026.10.05.756390",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756390v1",
+          "source": "biorxiv",
+          "score": 0.421
+        },
+        {
+          "rank": 2,
+          "title": "RSV & rhinovirus coinfection order dictates outcome via type III interferon-mediated interference in infant respiratory epithelium",
+          "doi": "10.64898/2026.10.01.756024",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756024v1",
+          "source": "biorxiv",
+          "score": 0.4102
+        },
+        {
+          "rank": 3,
+          "title": "Urban waterfowl harbour geographically connected viral communities across Aotearoa New Zealand",
+          "doi": "10.64898/2026.10.04.756485",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756485v1",
+          "source": "biorxiv",
+          "score": 0.4097
+        },
+        {
+          "rank": 4,
+          "title": "Statistical inference of virus evolution using ancestral recombination graphs",
+          "doi": "10.64898/2026.10.02.756209",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756209v1",
+          "source": "biorxiv",
+          "score": 0.4044
+        },
+        {
+          "rank": 5,
+          "title": "Host Cellular Remodeling, Not Viral Transcriptional Inhibition, Drives Quorum Sensing Signal-Mediated Evasion of Viral Lysis in Gephyrocapsa huxleyi",
+          "doi": "10.64898/2026.09.30.755861",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755861v1",
+          "source": "biorxiv",
+          "score": 0.3823
+        }
+      ]
     }
   }
 }
