@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-06T09:02:15.151625+00:00",
+  "generated_utc": "2026-10-07T10:04:35.932704+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Cohort-scale Spatial Host-Microbiome Predicts Post-Resection Recurrence in Colorectal Cancer",
-          "doi": "10.64898/2026.09.29.26363734",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.29.26363734v1",
-          "source": "medrxiv",
-          "score": 0.5698
+          "title": "Mechanistic classification of the AAA superfamily with protein language models",
+          "doi": "10.64898/2026.10.05.756829",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756829v1",
+          "source": "biorxiv",
+          "score": 0.4718
         },
         {
           "rank": 2,
-          "title": "How many cells resolve a perturbation direction? A closed-form, control-aware cell quota for single-cell perturbation screens",
-          "doi": "10.64898/2026.10.02.754788",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754788v1",
+          "title": "sORF-Trans2MS: a two-module deep learning framework for sORF translation and MS-supported microprotein prediction",
+          "doi": "10.64898/2026.09.29.755517",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755517v1",
           "source": "biorxiv",
-          "score": 0.5227
+          "score": 0.4609
         },
         {
           "rank": 3,
-          "title": "Mechanistic Decoding of Pharmacodynamic Intratumoral Heterogeneity: A Pan-Cancer Regulatory Framework",
-          "doi": "10.64898/2026.10.01.756124",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756124v1",
+          "title": "Loss of the Y chromosome drives basal identity and metastatic potential via epigenetic reprogramming in pancreatic cancer",
+          "doi": "10.64898/2026.10.06.756936",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756936v1",
           "source": "biorxiv",
-          "score": 0.459
+          "score": 0.4606
         },
         {
           "rank": 4,
-          "title": "Verification Debt in Automated Biological Research Workflows: A Proof-of-Concept",
-          "doi": "10.64898/2026.09.29.755250",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755250v1",
+          "title": "Predicted structure of the complete CPLANE complex reveals novel interactors and mechanisms of Jbts17 during ciliogenesis",
+          "doi": "10.64898/2026.10.05.756796",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756796v1",
           "source": "biorxiv",
-          "score": 0.4274
+          "score": 0.447
         },
         {
           "rank": 5,
-          "title": "Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models",
-          "doi": "10.64898/2026.09.30.755585",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755585v1",
+          "title": "Evolution of compound eye cell types shapes visual behaviors across Heliconius butterflies",
+          "doi": "10.64898/2026.07.22.740151",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740151v2",
           "source": "biorxiv",
-          "score": 0.4196
+          "score": 0.4445
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Conserved mycobacteriophage protein uses structural mimicry to displace host initiation factors",
-          "doi": "10.64898/2026.10.05.756390",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756390v1",
+          "title": "Metatranscriptomics reveals diverse microbial communities in PCR-negative severe acute respiratory infections",
+          "doi": "10.64898/2026.03.19.712874",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712874v2",
           "source": "biorxiv",
-          "score": 0.421
+          "score": 0.4268
         },
         {
           "rank": 2,
-          "title": "RSV & rhinovirus coinfection order dictates outcome via type III interferon-mediated interference in infant respiratory epithelium",
-          "doi": "10.64898/2026.10.01.756024",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756024v1",
+          "title": "Myristoylation licenses disordered viral VP4 protein to anchor to and perforate the membrane through phase separation",
+          "doi": "10.64898/2026.03.02.708992",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.708992v2",
           "source": "biorxiv",
-          "score": 0.4102
+          "score": 0.399
         },
         {
           "rank": 3,
-          "title": "Urban waterfowl harbour geographically connected viral communities across Aotearoa New Zealand",
-          "doi": "10.64898/2026.10.04.756485",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756485v1",
+          "title": "A near-ubiquitous plasmid characterises Second Pandemic Yersinia pestis",
+          "doi": "10.64898/2026.10.03.756212",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756212v1",
           "source": "biorxiv",
-          "score": 0.4097
+          "score": 0.3766
         },
         {
           "rank": 4,
-          "title": "Statistical inference of virus evolution using ancestral recombination graphs",
-          "doi": "10.64898/2026.10.02.756209",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756209v1",
+          "title": "Within- and between-host dynamics of highly pathogenic avian influenza in domestic birds from Pennsylvania farms and live bird markets",
+          "doi": "10.64898/2026.07.17.739193",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.739193v2",
           "source": "biorxiv",
-          "score": 0.4044
+          "score": 0.365
         },
         {
           "rank": 5,
-          "title": "Host Cellular Remodeling, Not Viral Transcriptional Inhibition, Drives Quorum Sensing Signal-Mediated Evasion of Viral Lysis in Gephyrocapsa huxleyi",
-          "doi": "10.64898/2026.09.30.755861",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755861v1",
+          "title": "MetagenomicsBench: A Verifiable Benchmark for Agentic Metagenomics Analysis",
+          "doi": "10.64898/2026.10.05.756819",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756819v1",
           "source": "biorxiv",
-          "score": 0.3823
+          "score": 0.3566
         }
       ]
     }
