@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-07T10:04:35.932704+00:00",
+  "generated_utc": "2026-10-08T09:21:59.695630+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Mechanistic classification of the AAA superfamily with protein language models",
-          "doi": "10.64898/2026.10.05.756829",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756829v1",
-          "source": "biorxiv",
-          "score": 0.4718
+          "title": "Machine learning predicts relapse after anti-TNF withdrawal in ulcerative colitis using rectal biopsy transcriptomics",
+          "doi": "10.64898/2026.10.05.26364793",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364793v1",
+          "source": "medrxiv",
+          "score": 0.4157
         },
         {
           "rank": 2,
-          "title": "sORF-Trans2MS: a two-module deep learning framework for sORF translation and MS-supported microprotein prediction",
-          "doi": "10.64898/2026.09.29.755517",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755517v1",
-          "source": "biorxiv",
-          "score": 0.4609
+          "title": "FORGE: Functionally guided OCT Representation for Glaucoma Endophenotyping",
+          "doi": "10.64898/2026.05.08.26352729",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.05.08.26352729v3",
+          "source": "medrxiv",
+          "score": 0.3634
         },
         {
           "rank": 3,
-          "title": "Loss of the Y chromosome drives basal identity and metastatic potential via epigenetic reprogramming in pancreatic cancer",
-          "doi": "10.64898/2026.10.06.756936",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756936v1",
-          "source": "biorxiv",
-          "score": 0.4606
+          "title": "Generalizing Amyloid \u03b2 Pathology from Postmortem Human Brains with Vision Foundation Models for Lesion Quantification",
+          "doi": "10.64898/2026.10.05.26364184",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364184v1",
+          "source": "medrxiv",
+          "score": 0.3536
         },
         {
           "rank": 4,
-          "title": "Predicted structure of the complete CPLANE complex reveals novel interactors and mechanisms of Jbts17 during ciliogenesis",
-          "doi": "10.64898/2026.10.05.756796",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756796v1",
-          "source": "biorxiv",
-          "score": 0.447
+          "title": "Systematic evaluation of incomplete penetrance in 4,325 rare disease families reveals divergent transcriptional networks in CHD8 pathology",
+          "doi": "10.64898/2026.10.05.26364218",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364218v1",
+          "source": "medrxiv",
+          "score": 0.3055
         },
         {
           "rank": 5,
-          "title": "Evolution of compound eye cell types shapes visual behaviors across Heliconius butterflies",
-          "doi": "10.64898/2026.07.22.740151",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740151v2",
-          "source": "biorxiv",
-          "score": 0.4445
+          "title": "Integrated single-cell and proteomic profiling of pancreatic neoplasia identifies tissue markers that outperform established diagnostic markers in distinguishing cancer from precursor lesions.",
+          "doi": "10.64898/2026.10.02.26364030",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.02.26364030v1",
+          "source": "medrxiv",
+          "score": 0.2808
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Metatranscriptomics reveals diverse microbial communities in PCR-negative severe acute respiratory infections",
-          "doi": "10.64898/2026.03.19.712874",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712874v2",
-          "source": "biorxiv",
-          "score": 0.4268
+          "title": "Data Reduction in SARS-CoV-2 Amplicon Sequencing: Effects of Read Subsampling and Normalization on Consensus Quality, Lineage Assignment, and Computational Burden",
+          "doi": "10.64898/2026.10.05.26363801",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26363801v1",
+          "source": "medrxiv",
+          "score": 0.4016
         },
         {
           "rank": 2,
-          "title": "Myristoylation licenses disordered viral VP4 protein to anchor to and perforate the membrane through phase separation",
-          "doi": "10.64898/2026.03.02.708992",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.708992v2",
-          "source": "biorxiv",
-          "score": 0.399
+          "title": "Privacy-Preserving, Decentralised Inference of Epidemic Transmission Dynamics from Digital Exposure Histories",
+          "doi": "10.64898/2026.10.05.26364757",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364757v1",
+          "source": "medrxiv",
+          "score": 0.3101
         },
         {
           "rank": 3,
-          "title": "A near-ubiquitous plasmid characterises Second Pandemic Yersinia pestis",
-          "doi": "10.64898/2026.10.03.756212",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756212v1",
-          "source": "biorxiv",
-          "score": 0.3766
+          "title": "Does gut microbial richness lost with industrialisation matter for infection? A two-direction test in Gambian toddlers",
+          "doi": "10.64898/2026.10.06.26364910",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.06.26364910v1",
+          "source": "medrxiv",
+          "score": 0.305
         },
         {
           "rank": 4,
-          "title": "Within- and between-host dynamics of highly pathogenic avian influenza in domestic birds from Pennsylvania farms and live bird markets",
-          "doi": "10.64898/2026.07.17.739193",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.739193v2",
-          "source": "biorxiv",
-          "score": 0.365
+          "title": "The spatiotemporal distribution of substandard and falsified antimalarial medicines in Africa, 1996-2019",
+          "doi": "10.64898/2025.12.22.25342680",
+          "url": "https://www.medrxiv.org/content/10.64898/2025.12.22.25342680v2",
+          "source": "medrxiv",
+          "score": 0.2754
         },
         {
           "rank": 5,
-          "title": "MetagenomicsBench: A Verifiable Benchmark for Agentic Metagenomics Analysis",
-          "doi": "10.64898/2026.10.05.756819",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756819v1",
-          "source": "biorxiv",
-          "score": 0.3566
+          "title": "The Potential Public Health Benefit of mRNA-1010 for Influenza Among Older Adults >=65 Years in the United States",
+          "doi": "10.64898/2026.09.20.26363308",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.09.20.26363308v2",
+          "source": "medrxiv",
+          "score": 0.2617
         }
       ]
     }
