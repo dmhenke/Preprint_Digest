@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-08T09:21:59.695630+00:00",
+  "generated_utc": "2026-10-10T10:38:41.864829+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Machine learning predicts relapse after anti-TNF withdrawal in ulcerative colitis using rectal biopsy transcriptomics",
-          "doi": "10.64898/2026.10.05.26364793",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364793v1",
-          "source": "medrxiv",
-          "score": 0.4157
+          "title": "DECONVersation: Single Cell Foundation Model-Derived Embeddings for Robust Cell Type Deconvolution of Bulk RNA-seq",
+          "doi": "10.64898/2026.10.02.756356",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756356v1",
+          "source": "biorxiv",
+          "score": 0.5236
         },
         {
           "rank": 2,
-          "title": "FORGE: Functionally guided OCT Representation for Glaucoma Endophenotyping",
-          "doi": "10.64898/2026.05.08.26352729",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.05.08.26352729v3",
-          "source": "medrxiv",
-          "score": 0.3634
+          "title": "VINTER: a generative vision-language model for annotating and interrogating spatial tissues",
+          "doi": "10.64898/2026.10.01.752251",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.752251v1",
+          "source": "biorxiv",
+          "score": 0.4894
         },
         {
           "rank": 3,
-          "title": "Generalizing Amyloid \u03b2 Pathology from Postmortem Human Brains with Vision Foundation Models for Lesion Quantification",
-          "doi": "10.64898/2026.10.05.26364184",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364184v1",
-          "source": "medrxiv",
-          "score": 0.3536
+          "title": "Hybrid Mechanistic-Neural Modeling of Concentration-Time Dynamics Generalizes Human Pharmacokinetics Prediction Across Unseen Chemical Space",
+          "doi": "10.64898/2026.10.01.756018",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756018v1",
+          "source": "biorxiv",
+          "score": 0.4829
         },
         {
           "rank": 4,
-          "title": "Systematic evaluation of incomplete penetrance in 4,325 rare disease families reveals divergent transcriptional networks in CHD8 pathology",
-          "doi": "10.64898/2026.10.05.26364218",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364218v1",
-          "source": "medrxiv",
-          "score": 0.3055
+          "title": "A transient third metal ion shapes the catalytic cycle of a group I intron ribozyme",
+          "doi": "10.64898/2026.10.07.757386",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757386v1",
+          "source": "biorxiv",
+          "score": 0.4818
         },
         {
           "rank": 5,
-          "title": "Integrated single-cell and proteomic profiling of pancreatic neoplasia identifies tissue markers that outperform established diagnostic markers in distinguishing cancer from precursor lesions.",
-          "doi": "10.64898/2026.10.02.26364030",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.02.26364030v1",
-          "source": "medrxiv",
-          "score": 0.2808
+          "title": "An AI-Enabled Translational Drug Discovery Framework for NALCN Channelopathy: From High-Throughput Screening to Therapeutic Candidate",
+          "doi": "10.64898/2026.10.08.757476",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757476v1",
+          "source": "biorxiv",
+          "score": 0.4804
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Data Reduction in SARS-CoV-2 Amplicon Sequencing: Effects of Read Subsampling and Normalization on Consensus Quality, Lineage Assignment, and Computational Burden",
-          "doi": "10.64898/2026.10.05.26363801",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26363801v1",
-          "source": "medrxiv",
-          "score": 0.4016
+          "title": "Characterization of artificial riboswitches for Coxsackievirus B3 detection using machine learning",
+          "doi": "10.64898/2026.10.04.756577",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756577v1",
+          "source": "biorxiv",
+          "score": 0.4936
         },
         {
           "rank": 2,
-          "title": "Privacy-Preserving, Decentralised Inference of Epidemic Transmission Dynamics from Digital Exposure Histories",
-          "doi": "10.64898/2026.10.05.26364757",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364757v1",
-          "source": "medrxiv",
-          "score": 0.3101
+          "title": "Determinants of human versus mosquito cell entry by the Chikungunya virus envelope proteins",
+          "doi": "10.1101/2025.08.25.672233",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.08.25.672233v2",
+          "source": "biorxiv",
+          "score": 0.4729
         },
         {
           "rank": 3,
-          "title": "Does gut microbial richness lost with industrialisation matter for infection? A two-direction test in Gambian toddlers",
-          "doi": "10.64898/2026.10.06.26364910",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.06.26364910v1",
-          "source": "medrxiv",
-          "score": 0.305
+          "title": "Porcine epidemic diarrhea virus Whole-Genome Diversity Reveals Divergence of Contemporary Populations in the United States",
+          "doi": "10.64898/2026.10.08.757685",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757685v1",
+          "source": "biorxiv",
+          "score": 0.4354
         },
         {
           "rank": 4,
-          "title": "The spatiotemporal distribution of substandard and falsified antimalarial medicines in Africa, 1996-2019",
-          "doi": "10.64898/2025.12.22.25342680",
-          "url": "https://www.medrxiv.org/content/10.64898/2025.12.22.25342680v2",
-          "source": "medrxiv",
-          "score": 0.2754
+          "title": "Performance comparison of probe-capture enrichment sequencing of viruses in wastewater influent and settled solids from the California Central Valley",
+          "doi": "10.64898/2026.10.02.756336",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756336v1",
+          "source": "biorxiv",
+          "score": 0.4323
         },
         {
           "rank": 5,
-          "title": "The Potential Public Health Benefit of mRNA-1010 for Influenza Among Older Adults >=65 Years in the United States",
-          "doi": "10.64898/2026.09.20.26363308",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.09.20.26363308v2",
-          "source": "medrxiv",
-          "score": 0.2617
+          "title": "Targeted Depletion of rRNAs and Tobamoviruses Enhances Viral Discovery in Wastewater Metatranscriptomes",
+          "doi": "10.64898/2026.10.08.757481",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757481v1",
+          "source": "biorxiv",
+          "score": 0.4307
         }
       ]
     }
