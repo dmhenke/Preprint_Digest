@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-10T10:38:41.864829+00:00",
+  "generated_utc": "2026-10-11T09:12:30.860650+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "DECONVersation: Single Cell Foundation Model-Derived Embeddings for Robust Cell Type Deconvolution of Bulk RNA-seq",
-          "doi": "10.64898/2026.10.02.756356",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756356v1",
+          "title": "AI-Driven Design of Next-Generation Immunoinformatics Multi-Epitope Subunit Vaccine Targeting the Most Virulent Mpox Proteome: A Structural and Kinetic Validation Framework",
+          "doi": "10.64898/2026.10.04.756542",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756542v1",
           "source": "biorxiv",
-          "score": 0.5236
+          "score": 0.5056
         },
         {
           "rank": 2,
-          "title": "VINTER: a generative vision-language model for annotating and interrogating spatial tissues",
-          "doi": "10.64898/2026.10.01.752251",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.752251v1",
+          "title": "Cytos MPS: an automated multimodal pooled screening platform for protein, morphology and transcriptomics",
+          "doi": "10.64898/2026.09.20.752925",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752925v2",
           "source": "biorxiv",
-          "score": 0.4894
+          "score": 0.4813
         },
         {
           "rank": 3,
-          "title": "Hybrid Mechanistic-Neural Modeling of Concentration-Time Dynamics Generalizes Human Pharmacokinetics Prediction Across Unseen Chemical Space",
-          "doi": "10.64898/2026.10.01.756018",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756018v1",
+          "title": "Single-cell exploration of ovarian aging across mammalian models",
+          "doi": "10.1101/2025.10.15.682639",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.10.15.682639v2",
           "source": "biorxiv",
-          "score": 0.4829
+          "score": 0.4443
         },
         {
           "rank": 4,
-          "title": "A transient third metal ion shapes the catalytic cycle of a group I intron ribozyme",
-          "doi": "10.64898/2026.10.07.757386",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757386v1",
+          "title": "Expanding the DNA Motif Lexicon of the Transcriptional Regulatory Code",
+          "doi": "10.1101/2025.07.09.662874",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.07.09.662874v2",
           "source": "biorxiv",
-          "score": 0.4818
+          "score": 0.4212
         },
         {
           "rank": 5,
-          "title": "An AI-Enabled Translational Drug Discovery Framework for NALCN Channelopathy: From High-Throughput Screening to Therapeutic Candidate",
-          "doi": "10.64898/2026.10.08.757476",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757476v1",
+          "title": "GenDiMug: a generic inclusive multigraph framework to analyze genomic organizations and -omics data at multiple scales",
+          "doi": "10.64898/2026.10.06.756533",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756533v1",
           "source": "biorxiv",
-          "score": 0.4804
+          "score": 0.4019
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Characterization of artificial riboswitches for Coxsackievirus B3 detection using machine learning",
-          "doi": "10.64898/2026.10.04.756577",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756577v1",
+          "title": "A chimeric infection program and epigenetic conflict underpin endogenous giant virus latency",
+          "doi": "10.64898/2026.10.09.758095",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758095v1",
           "source": "biorxiv",
-          "score": 0.4936
+          "score": 0.4338
         },
         {
           "rank": 2,
-          "title": "Determinants of human versus mosquito cell entry by the Chikungunya virus envelope proteins",
-          "doi": "10.1101/2025.08.25.672233",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.08.25.672233v2",
+          "title": "Multilayer analysis reveals extensive hidden population complexity in a dairy starter microbiome comprising few species",
+          "doi": "10.64898/2026.10.09.757929",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757929v1",
           "source": "biorxiv",
-          "score": 0.4729
+          "score": 0.421
         },
         {
           "rank": 3,
-          "title": "Porcine epidemic diarrhea virus Whole-Genome Diversity Reveals Divergence of Contemporary Populations in the United States",
-          "doi": "10.64898/2026.10.08.757685",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757685v1",
+          "title": "Spatiotemporal Heterogeneity of HPV Integration Architectures Drive Oncogenic Features of Oropharyngeal Cancer",
+          "doi": "10.64898/2026.10.03.756294",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756294v1",
           "source": "biorxiv",
-          "score": 0.4354
+          "score": 0.4078
         },
         {
           "rank": 4,
-          "title": "Performance comparison of probe-capture enrichment sequencing of viruses in wastewater influent and settled solids from the California Central Valley",
-          "doi": "10.64898/2026.10.02.756336",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756336v1",
+          "title": "Predicted structure of the 89-kDa invasion-tip protein of Holospora obtusa, an endonuclear symbiont of Paramecium caudatum, suggests a pH-dependent conformational change",
+          "doi": "10.64898/2026.10.08.757700",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757700v1",
           "source": "biorxiv",
-          "score": 0.4323
+          "score": 0.3694
         },
         {
           "rank": 5,
-          "title": "Targeted Depletion of rRNAs and Tobamoviruses Enhances Viral Discovery in Wastewater Metatranscriptomes",
-          "doi": "10.64898/2026.10.08.757481",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757481v1",
+          "title": "The porin MspA is a phage-specific determinant of mycobacteriophage infection",
+          "doi": "10.64898/2026.10.08.757660",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757660v1",
           "source": "biorxiv",
-          "score": 0.4307
+          "score": 0.3687
         }
       ]
     }
