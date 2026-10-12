@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-11T09:12:30.860650+00:00",
+  "generated_utc": "2026-10-12T09:02:11.696555+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "AI-Driven Design of Next-Generation Immunoinformatics Multi-Epitope Subunit Vaccine Targeting the Most Virulent Mpox Proteome: A Structural and Kinetic Validation Framework",
-          "doi": "10.64898/2026.10.04.756542",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756542v1",
+          "title": "CRISCross: Integration of Epigenetic Information for Deep-Learning-Based Prediction of CRISPR-Cas9 Off-Targets Across Cell Types",
+          "doi": "10.64898/2026.10.09.757843",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757843v1",
           "source": "biorxiv",
-          "score": 0.5056
+          "score": 0.5346
         },
         {
           "rank": 2,
-          "title": "Cytos MPS: an automated multimodal pooled screening platform for protein, morphology and transcriptomics",
-          "doi": "10.64898/2026.09.20.752925",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752925v2",
+          "title": "Perturb-Seqr: Signature Search Engine Integrating Connectivity Mapping Resources",
+          "doi": "10.64898/2026.10.06.757137",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757137v1",
           "source": "biorxiv",
-          "score": 0.4813
+          "score": 0.4958
         },
         {
           "rank": 3,
-          "title": "Single-cell exploration of ovarian aging across mammalian models",
-          "doi": "10.1101/2025.10.15.682639",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.10.15.682639v2",
+          "title": "Concurrent de novo inference of cell types and gene regulatory networks with NetMap",
+          "doi": "10.64898/2026.10.04.756614",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756614v1",
           "source": "biorxiv",
-          "score": 0.4443
+          "score": 0.4649
         },
         {
           "rank": 4,
-          "title": "Expanding the DNA Motif Lexicon of the Transcriptional Regulatory Code",
-          "doi": "10.1101/2025.07.09.662874",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.07.09.662874v2",
+          "title": "Cause-excluded Effect Evaluation: a framework for the faithful assessment of genetic perturbation target identification",
+          "doi": "10.64898/2026.10.03.752923",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.752923v1",
           "source": "biorxiv",
-          "score": 0.4212
+          "score": 0.4554
         },
         {
           "rank": 5,
-          "title": "GenDiMug: a generic inclusive multigraph framework to analyze genomic organizations and -omics data at multiple scales",
-          "doi": "10.64898/2026.10.06.756533",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756533v1",
+          "title": "Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner",
+          "doi": "10.64898/2026.10.08.757715",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757715v1",
           "source": "biorxiv",
-          "score": 0.4019
+          "score": 0.4368
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "A chimeric infection program and epigenetic conflict underpin endogenous giant virus latency",
-          "doi": "10.64898/2026.10.09.758095",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758095v1",
+          "title": "Forecasting next-year change in antimicrobial resistance genes in Klebsiella pneumoniae and Acinetobacter baumannii from genomic surveillance data",
+          "doi": "10.64898/2026.10.10.758085",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758085v1",
           "source": "biorxiv",
-          "score": 0.4338
+          "score": 0.424
         },
         {
           "rank": 2,
-          "title": "Multilayer analysis reveals extensive hidden population complexity in a dairy starter microbiome comprising few species",
-          "doi": "10.64898/2026.10.09.757929",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757929v1",
-          "source": "biorxiv",
-          "score": 0.421
+          "title": "THRESHER: A tool for evidence-based, phylogeny-corrected SNP thresholds for whole genome molecular epidemiology",
+          "doi": "10.64898/2026.10.07.26364951",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.07.26364951v1",
+          "source": "medrxiv",
+          "score": 0.4077
         },
         {
           "rank": 3,
-          "title": "Spatiotemporal Heterogeneity of HPV Integration Architectures Drive Oncogenic Features of Oropharyngeal Cancer",
-          "doi": "10.64898/2026.10.03.756294",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756294v1",
+          "title": "From APTs to advanced persistent biological threats (APBTs): a taxonomy and large-scale metadata audit of genomic surveillance infrastructure",
+          "doi": "10.64898/2026.10.09.757979",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757979v1",
           "source": "biorxiv",
-          "score": 0.4078
+          "score": 0.407
         },
         {
           "rank": 4,
-          "title": "Predicted structure of the 89-kDa invasion-tip protein of Holospora obtusa, an endonuclear symbiont of Paramecium caudatum, suggests a pH-dependent conformational change",
-          "doi": "10.64898/2026.10.08.757700",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757700v1",
-          "source": "biorxiv",
-          "score": 0.3694
+          "title": "Laboratory Evaluation of Cyclospora cayetanensis in Wastewater: Expanding Pathogen Targets for Regulatory Public Health Surveillance",
+          "doi": "10.64898/2026.10.08.26364996",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.08.26364996v1",
+          "source": "medrxiv",
+          "score": 0.3938
         },
         {
           "rank": 5,
-          "title": "The porin MspA is a phage-specific determinant of mycobacteriophage infection",
-          "doi": "10.64898/2026.10.08.757660",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757660v1",
+          "title": "Proteomics reveal temperature-coupled cobalamin homeostasis and pathogenicity in Pseudomonas aeruginosa",
+          "doi": "10.64898/2026.01.27.701802",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.01.27.701802v2",
           "source": "biorxiv",
-          "score": 0.3687
+          "score": 0.3877
         }
       ]
     }
