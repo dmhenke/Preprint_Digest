@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 12, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 13, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">CRISCross: Integration of Epigenetic Information for Deep-Learning-Based Prediction of CRISPR-Cas9 Off-Targets Across Cell Types</a></li>
-  <li><a href="#core-article-2">Perturb-Seqr: Signature Search Engine Integrating Connectivity Mapping Resources</a></li>
-  <li><a href="#core-article-3">Concurrent de novo inference of cell types and gene regulatory networks with NetMap</a></li>
-  <li><a href="#core-article-4">Cause-excluded Effect Evaluation: a framework for the faithful assessment of genetic perturbation target identification</a></li>
-  <li><a href="#core-article-5">Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner</a></li>
+  <li><a href="#core-article-1">Coordinated Enhancement of Molecular and Spatial Fidelity for Biological Inference in Spatial Transcriptomics</a></li>
+  <li><a href="#core-article-2">BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling</a></li>
+  <li><a href="#core-article-3">Beyond the Final Layer: Evaluating Single-Cell Foundation Model Representations for Molecular Prediction</a></li>
+  <li><a href="#core-article-4">Representing biological concepts as directions in foundation model embeddings</a></li>
+  <li><a href="#core-article-5">Benchmarking single-cell foundation models reveals an advantage in the low-data regime for cell-type and disease-state prediction</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.09.757843v1">CRISCross: Integration of Epigenetic Information for Deep-Learning-Based Prediction of CRISPR-Cas9 Off-Targets Across Cell Types</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.09.757843">10.64898/2026.10.09.757843</a> · Score: <code>█████░░░░░</code> 0.535</p>
-<p><span class="label">Core Problem:</span> CRISPR-Cas9 enables precise genome editing but remains limited by off-target effects, raising safety concerns and necessitating accurate prediction</p>
-<p><span class="label">Proposed Solution:</span> Although epigenetic features influence Cas9 binding and cleavage, their predictive signals are often weak, highlyvariable, and context-dependent, limiting the effectiveness of existing machine learning approaches. Cross-cell-type settings are especially challenging: epigenetic landscapes differ substantially, and models trained on one cell type frequently fail to generalize</p>
-<p><span class="label">Key Impact:</span> Together, these results show that accurate CRISPR off-target prediction benefits from interaction-aware integration of epigenetic context alongside generalizable pretraining strategies</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2025.12.23.696267v3">Coordinated Enhancement of Molecular and Spatial Fidelity for Biological Inference in Spatial Transcriptomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2025.12.23.696267">10.64898/2025.12.23.696267</a> · Score: <code>█████░░░░░</code> 0.482</p>
+<p><span class="label">Core Problem:</span> Understanding tissue organization requires accurate molecular quantification and faithful spatial localization</p>
+<p><span class="label">Proposed Solution:</span> Spatial omics, particularly spatial transcriptomics (ST), face measurement trade-offs that limit simultaneous achievement of molecular and spatial fidelity across spatial resolution, detection sensitivity, molecular-tissue alignment and cell-level fidelity. Existing computational methods typically target individual aspects and optimize them in isolation, despite their interdependence</p>
+<p><span class="label">Key Impact:</span> Together, FOCUS establishes coordinated enhancement of molecular and spatial fidelity as a strategy for downstream biological inference from ST</p>
+<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.06.757137v1">Perturb-Seqr: Signature Search Engine Integrating Connectivity Mapping Resources</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.06.757137">10.64898/2026.10.06.757137</a> · Score: <code>█████░░░░░</code> 0.496</p>
-<p><span class="label">Core Problem:</span> High-throughput transcriptomics can be used to develop Connectivity Mapping resources for identifying potential reversers and mimickers of disease signatures for drug and target discovery</p>
-<p><span class="label">Proposed Solution:</span> Recently, several new Connectivity Mapping datasets have emerged, but no efforts were made so far to evaluate and integrate them. Motivated by this opportunity, we have developed Perturb-Seqr, a comprehensive Connectivity Mapping search engine that integrates nine small molecule transcriptomics Connectivity Maps and seven single gene perturbation followed by expression Connectivity Maps</p>
-<p><span class="label">Key Impact:</span> cloud/</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758490v1">BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.12.758490">10.64898/2026.10.12.758490</a> · Score: <code>█████░░░░░</code> 0.476</p>
+<p><span class="label">Core Problem:</span> Single-cell foundation models typically represent cells as flat sequences of individual genes, requiring higher-order biological organization to be inferred implicitly from sparse expression profiles</p>
+<p><span class="label">Proposed Solution:</span> Similar to the evolution from character-level to semantic tokenization in natural language processing,we hypothesize that cellular states can be more efficiently represented using biologically meaningful intermediate units. Here we present BioMod, a 50-million-parameter single-cell foundation model that introduces biological modules as representation units between genes and cells</p>
+<p><span class="label">Key Impact:</span> Module-level analyses further demonstrate that BioMod captures biologically meaningful cellular programs and preserves pathway-level organization</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.04.756614v1">Concurrent de novo inference of cell types and gene regulatory networks with NetMap</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.04.756614">10.64898/2026.10.04.756614</a> · Score: <code>█████░░░░░</code> 0.465</p>
-<p><span class="label">Core Problem:</span> Existing methods for GRN inference based on single-cell RNA-sequencing (scRNA-seq) data typically require prior cell type calling and then infer GRNs at cell type resolution</p>
-<p><span class="label">Proposed Solution:</span> This risks propagation of errors from cell annotation to GRN inference. Moreover, it makes existing methods blind to regulatory programs that are shared between different cell types, as well as to subtle differences in regulatory activity between cells of the same type</p>
-<p><span class="label">Key Impact:</span> com/bionetslab/netmap-evaluation</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.05.756880v1">Beyond the Final Layer: Evaluating Single-Cell Foundation Model Representations for Molecular Prediction</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.05.756880">10.64898/2026.10.05.756880</a> · Score: <code>█████░░░░░</code> 0.472</p>
+<p><span class="label">Core Problem:</span> Single-cell foundation models (scFMs) are commonly benchmarked using final-layer embeddings, although useful depth may depend on the task</p>
+<p><span class="label">Proposed Solution:</span> We evaluate Geneformer, scBERT, scGPT, and scFoundation as frozen feature extractors for cell-type and perturbation-response prediction using layer-wise probes, leave-one-dataset-out (LODO) selection, readout controls, representation diagnostics, centered kernel alignment (CKA), and retrieval/collapse analyses. Intermediate layers significantly improve cell-type accuracy for scGPT and scBERT in several settings, while Geneformer and scFoundation generally show performance comparable to their final layers</p>
+<p><span class="label">Key Impact:</span> A validated non-final layer may also reduce computation, although efficiency was not directly benchmarked</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.03.752923v1">Cause-excluded Effect Evaluation: a framework for the faithful assessment of genetic perturbation target identification</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.03.752923">10.64898/2026.10.03.752923</a> · Score: <code>█████░░░░░</code> 0.455</p>
-<p><span class="label">Core Problem:</span> Identifying which gene drives a desired cell-state transition is a foundational inverse problem in target discovery and cell-state engineering, yet far less developed than forward prediction</p>
-<p><span class="label">Proposed Solution:</span> We show that prevailing benchmarks inflate performance through two artefacts: training leakage, where test-perturbation cells are seen during fitting, and evaluation leakage, where the perturbed gene&#x27;s own expression change exposes the answer. Here, we introduce Cause-excluded Effect Evaluation (CEE), a framework that separates train and test perturbation targets, removes target-gene self-effects from expression profiles and scores candidates in downstream response space</p>
-<p><span class="label">Key Impact:</span> Our work disentangles evaluation artefacts from genuine predictive capacity and offers a design principle for developing perturbation target identification methods</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.10.758204v1">Representing biological concepts as directions in foundation model embeddings</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.10.758204">10.64898/2026.10.10.758204</a> · Score: <code>█████░░░░░</code> 0.472</p>
+<p><span class="label">Core Problem:</span> Biological foundation models encode rich information about protein structure, function, and cellular state in high-dimensional embeddings, but accessing specific biological properties typically relies on additional, task-specific prediction models</p>
+<p><span class="label">Proposed Solution:</span> Here, we show that diverse biological properties can be mapped to interpretable, reusable directions in embedding space. In the Concept Activation Vector (CAV) approach, examples representing a concept are distinguished from a background set using a linear model, and the resulting weight vector defines the CAV for that concept</p>
+<p><span class="label">Key Impact:</span> Together, these results establish concept directions as a common representation, enabling diverse biological features to be compared, localized, and manipulated</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.08.757715v1">Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.08.757715">10.64898/2026.10.08.757715</a> · Score: <code>████░░░░░░</code> 0.437</p>
-<p><span class="label">Core Problem:</span> Research shows that genetic variation directly influences DNA methylation, and this association has generally been explored on germline SNPs and at a population level</p>
-<p><span class="label">Proposed Solution:</span> The presence of genomic variation and base modification on sequence reads generated from a technology like nanopore sequencing offers an opportunity to link disease-specific variants to methylation changes in individual genomes. Here, we present unduliner, a framework with an embedded pretrained convolutional neural network model, that predicts somatic variants, single-nucleotide (SNVs) and structural (SVs), associated with methylation pattern changes in cancer genomes</p>
-<p><span class="label">Key Impact:</span> com/Chisomgold/unduliner</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758421v1">Benchmarking single-cell foundation models reveals an advantage in the low-data regime for cell-type and disease-state prediction</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.12.758421">10.64898/2026.10.12.758421</a> · Score: <code>█████░░░░░</code> 0.451</p>
+<p><span class="label">Core Problem:</span> Single-cell foundation models perform well on cell-type classification, but their value for disease-state prediction and their advantage over classical representations remains unclear</p>
+<p><span class="label">Proposed Solution:</span> We benchmarked cell-representations from four foundation models using logistic regression, on 868 disease-prediction tasks (82 datasets) and 65 cell-type datasets from CELLxGENE. With full data, the baseline (log-normalized counts) outperformed the best model (TranscriptFormer-Sapiens) for cell type and matched it for disease</p>
+<p><span class="label">Key Impact:</span> Our comprehensive zero-shot benchmark identifies the data-scarce regime as a domain where Single-cell foundation models truly show advantage</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.03.752923">Cause-excluded Effect Evaluation: a framework for the faithful assessment of genetic perturbation target identification</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.04.756614">Concurrent de novo inference of cell types and gene regulatory networks with NetMap</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.06.757137">Perturb-Seqr: Signature Search Engine Integrating Connectivity Mapping Resources</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.08.757715">Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.09.757843">CRISCross: Integration of Epigenetic Information for Deep-Learning-Based Prediction of CRISPR-Cas9 Off-Targets Across Cell Types</a><span class="history-date">Oct 12, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.07.09.662874">Expanding the DNA Motif Lexicon of the Transcriptional Regulatory Code</a><span class="history-date">Oct 11, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.10.15.682639">Single-cell exploration of ovarian aging across mammalian models</a><span class="history-date">Oct 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.20.752925">Cytos MPS: an automated multimodal pooled screening platform for protein, morphology and transcriptomics</a><span class="history-date">Oct 11, 2026</span></li>
@@ -785,64 +790,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Forecasting next-year change in antimicrobial resistance genes in Klebsiella pneumoniae and Acinetobacter baumannii from genomic surveillance data</a></li>
-  <li><a href="#virology-article-2">THRESHER: A tool for evidence-based, phylogeny-corrected SNP thresholds for whole genome molecular epidemiology</a></li>
-  <li><a href="#virology-article-3">From APTs to advanced persistent biological threats (APBTs): a taxonomy and large-scale metadata audit of genomic surveillance infrastructure</a></li>
-  <li><a href="#virology-article-4">Laboratory Evaluation of Cyclospora cayetanensis in Wastewater: Expanding Pathogen Targets for Regulatory Public Health Surveillance</a></li>
-  <li><a href="#virology-article-5">Proteomics reveal temperature-coupled cobalamin homeostasis and pathogenicity in Pseudomonas aeruginosa</a></li>
+  <li><a href="#virology-article-1">Single-cell-resolved natural giant virus infections reveal conserved protist immunity</a></li>
+  <li><a href="#virology-article-2">Distribution and dynamics of Vibrio spp. and pathogen sequences among microhabitats and monsoon seasons in Singapore&#x27;s coastal waters</a></li>
+  <li><a href="#virology-article-3">Novel conserved RNA structural motifs regulate genome cyclization of yellow fever virus</a></li>
+  <li><a href="#virology-article-4">Viral dispersal drives changes in population composition</a></li>
+  <li><a href="#virology-article-5">Multi-strain SIS dynamics with coinfection across heterogeneous patches</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.10.758085v1">Forecasting next-year change in antimicrobial resistance genes in Klebsiella pneumoniae and Acinetobacter baumannii from genomic surveillance data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.10.758085">10.64898/2026.10.10.758085</a> · Score: <code>████░░░░░░</code> 0.424</p>
-<p><span class="label">Core Problem:</span> Background: Surveillance tells laboratories which antimicrobial resistance genes are circulating now, but not which will change next</p>
-<p><span class="label">Proposed Solution:</span> We built a model that forecasts, for each resistance gene and year, whether the following year brings a previously unseen allele (sequence variant), called emergence, or a change in the most common allele, called turnover. We tested it separately in Klebsiella pneumoniae and Acinetobacter baumannii</p>
-<p><span class="label">Key Impact:</span> Keywords: antimicrobial resistance; genomic surveillance; forecasting; machine learning; allele dynamics; Klebsiella pneumoniae; Acinetobacter baumannii</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.11.758280v1">Single-cell-resolved natural giant virus infections reveal conserved protist immunity</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.11.758280">10.64898/2026.10.11.758280</a> · Score: <code>█████░░░░░</code> 0.483</p>
+<p><span class="label">Core Problem:</span> Single-cell eukaryotes (protists) are key players in microbial ecosystems</p>
+<p><span class="label">Proposed Solution:</span> Yet, our understanding of how they interact with viruses in nature and how antiviral defenses shape these relationships remains limited. Using a single-cell multi-omics approach, we mapped associations between giant viruses and their hosts and identified active giant-virus infections in an alpine lake protist community</p>
+<p><span class="label">Key Impact:</span> These findings reveal an ecological dimension of protist immunity and provide a framework for tracing the host-virus arms race across divergent cellular lineages</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.07.26364951v1">THRESHER: A tool for evidence-based, phylogeny-corrected SNP thresholds for whole genome molecular epidemiology</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.07.26364951">10.64898/2026.10.07.26364951</a> · Score: <code>████░░░░░░</code> 0.408</p>
-<p><span class="label">Core Problem:</span> Whole-genome sequencing (WGS) is the gold standard for bacterial pathogen surveillance, where transmission is commonly inferred by calculating pairwise single nucleotide polymorphisms (SNPs) and applying a fixed threshold below which two genomes are considered the &#x27;&#x27;same&#x27;&#x27; strain</p>
-<p><span class="label">Proposed Solution:</span> Such cutoffs are largely arbitrary. The relationship between genetic distance and epidemiological linkage varies with sample size, sampling duration, setting, and patterns of infection and carriage</p>
-<p><span class="label">Key Impact:</span> In simulated populations with known strain structure, THRESHER recovered transmission clusters with substantially higher sensitivity than fixed cutoffs while retaining high specificity</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.09.757811v1">Distribution and dynamics of Vibrio spp. and pathogen sequences among microhabitats and monsoon seasons in Singapore&#x27;s coastal waters</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.09.757811">10.64898/2026.10.09.757811</a> · Score: <code>████░░░░░░</code> 0.425</p>
+<p><span class="label">Core Problem:</span> Marine infections are rising in temperate regions due in part to a warming climate</p>
+<p><span class="label">Proposed Solution:</span> However, comparatively little is known about drivers of marine pathogen dynamics in the tropics where temperatures are high year-round. Vibrio bacteria are ubiquitous in both temperate and tropical marine environments, and many are important pathogens of marine organisms and humans</p>
+<p><span class="label">Key Impact:</span> Furthermore, free-living and particle-associated Vibrios responded differently to environmental changes, suggesting that partitioning into microspatial habitats may lead to differences in their environmental sensitivity</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.09.757979v1">From APTs to advanced persistent biological threats (APBTs): a taxonomy and large-scale metadata audit of genomic surveillance infrastructure</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.09.757979">10.64898/2026.10.09.757979</a> · Score: <code>████░░░░░░</code> 0.407</p>
-<p><span class="label">Core Problem:</span> Open genomic repositories have become critical infrastructure for pathogen surveillance, variant tracking, outbreak reconstruction, and public health decision making</p>
-<p><span class="label">Proposed Solution:</span> However, many of these repositories were designed to support rapid scientific data sharing rather than adversarial verification, creating potential security gaps. This paper introduces Advanced Persistent Biological Threats (APBTs), as a framework for understanding how malicious cyber biological actors can gradually disrupt genomic surveillance without entering a laboratory or releasing a biological agent</p>
-<p><span class="label">Key Impact:</span> The findings therefore show that widely used pathogen genomic repositories already contain structural weaknesses that can support metadata poisoning as part of an APBT operation</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.09.23.753880v2">Novel conserved RNA structural motifs regulate genome cyclization of yellow fever virus</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.23.753880">10.64898/2026.09.23.753880</a> · Score: <code>████░░░░░░</code> 0.407</p>
+<p><span class="label">Core Problem:</span> The long-range RNA-RNA interaction between the termini of a flavivirus genome is controlled by multiple local RNA secondary and tertiary structures</p>
+<p><span class="label">Proposed Solution:</span> However, a complete picture of this essential genome cyclization process is still elusive. Herein, by using selective 2&#x27;-hydroxyl acylation analyzed by primer extension (SHAPE), SHAPE and mutational profiling, in vitro RNA binding assays, and reverse genetics approaches, we demonstrated that the hairpin 2 in the capsid-coding region (cHP2) is required for efficient replication of yellow fever virus and functionally interacts with the 3&#x27;-small hairpin (sHP) during genome cyclization</p>
+<p><span class="label">Key Impact:</span> Our study highlights the intricacy of RNA-based regulation in flaviviruses</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.10.08.26364996v1">Laboratory Evaluation of Cyclospora cayetanensis in Wastewater: Expanding Pathogen Targets for Regulatory Public Health Surveillance</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.08.26364996">10.64898/2026.10.08.26364996</a> · Score: <code>████░░░░░░</code> 0.394</p>
-<p><span class="label">Core Problem:</span> Wastewater-based epidemiology (WBE) has become a cornerstone of public health surveillance, yet routine regulatory monitoring remains largely focused on respiratory viruses and selecting antimicrobial resistant bacteria</p>
-<p><span class="label">Proposed Solution:</span> Emerging foodborne parasites, such as Cyclospora cayetanensis, remain excluded from standard environmental surveillance panels despite increasing domestic outbreaks. This study presents a laboratory-based pilot protocol evaluating the feasibility of extracting and quantifying C</p>
-<p><span class="label">Key Impact:</span> These findings establish a proof-of-concept laboratory methodology to support the expansion of regulatory public health surveillance frameworks to include non-routine protozoan pathogens</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758528v1">Viral dispersal drives changes in population composition</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.12.758528">10.64898/2026.10.12.758528</a> · Score: <code>████░░░░░░</code> 0.382</p>
+<p><span class="label">Core Problem:</span> In an acute viral infection, a small seeding population expands rapidly over several orders of magnitude, then declines</p>
+<p><span class="label">Proposed Solution:</span> This vast population growth is accompanied by spatial expansion as infection spreads to new anatomical sites within the host. Evolutionary theory predicts that spatially expanding populations experience more extreme stochastic losses of genetic diversity than spatially unstructured populations</p>
+<p><span class="label">Key Impact:</span> Both physical constraint and viral phenotype altered the extent of genetic bottlenecking and spatial heterogeneity that developed during expansion, indicating that environmental features and viral traits that modulate dispersal also modulate viral population composition, diversity and evolution</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.01.27.701802v2">Proteomics reveal temperature-coupled cobalamin homeostasis and pathogenicity in Pseudomonas aeruginosa</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.01.27.701802">10.64898/2026.01.27.701802</a> · Score: <code>████░░░░░░</code> 0.388</p>
-<p><span class="label">Core Problem:</span> The opportunistic pathogen Pseudomonas aeruginosa is highly adaptable to different environmental conditions due to its versatile sensing and metabolic capabilities</p>
-<p><span class="label">Proposed Solution:</span> Both external temperature and metal availability have a strong influence on the virulence and pathogenicity of P. aeruginosa, but the coupling between these two factors is not well understood</p>
-<p><span class="label">Key Impact:</span> aeruginosa proteome in response to environmental cues, and highlights proteomics as a comprehensive tool to investigate system level mechanisms of challenging pathogens</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.10.26.684704v2">Multi-strain SIS dynamics with coinfection across heterogeneous patches</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.10.26.684704">10.1101/2025.10.26.684704</a> · Score: <code>████░░░░░░</code> 0.356</p>
+<p><span class="label">Core Problem:</span> We investigate a spatially structured Susceptible-Infected-Susceptible (SIS) model with coinfection, multiple interacting strains, and host movement across a network of heterogeneous patches</p>
+<p><span class="label">Proposed Solution:</span> Motivated by the need to capture how local epidemiological processes and spatial connectivity jointly shape multi-strain pathogen dynamics, we consider a metacommunity framework in which hosts migrate between interconnected habitats. Under assumptions of strain similarity and slow migration, and following the continuous-space formulation of Le et al</p>
+<p><span class="label">Key Impact:</span> More broadly, this framework provides a tractable and mechanistically grounded approach for studying multi-strain pathogen dynamics in heterogeneous environments, contributing to ongoing efforts to bridge ecological realism, computational feasibility, and analytical insight in spatial ecology and infectious diseases</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.01.27.701802">Proteomics reveal temperature-coupled cobalamin homeostasis and pathogenicity in Pseudomonas aeruginosa</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.07.26364951">THRESHER: A tool for evidence-based, phylogeny-corrected SNP thresholds for whole genome molecular epidemiology</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.08.26364996">Laboratory Evaluation of Cyclospora cayetanensis in Wastewater: Expanding Pathogen Targets for Regulatory Public Health Surveillance</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.09.757979">From APTs to advanced persistent biological threats (APBTs): a taxonomy and large-scale metadata audit of genomic surveillance infrastructure</a><span class="history-date">Oct 12, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.10.758085">Forecasting next-year change in antimicrobial resistance genes in Klebsiella pneumoniae and Acinetobacter baumannii from genomic surveillance data</a><span class="history-date">Oct 12, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.03.756294">Spatiotemporal Heterogeneity of HPV Integration Architectures Drive Oncogenic Features of Oropharyngeal Cancer</a><span class="history-date">Oct 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.08.757660">The porin MspA is a phage-specific determinant of mycobacteriophage infection</a><span class="history-date">Oct 11, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.08.757700">Predicted structure of the 89-kDa invasion-tip protein of Holospora obtusa, an endonuclear symbiont of Paramecium caudatum, suggests a pH-dependent conformational change</a><span class="history-date">Oct 11, 2026</span></li>
@@ -1039,7 +1049,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-12T09:02:11 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-13T09:02:41 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-12T09:02:11.696555+00:00",
+  "generated_utc": "2026-10-13T09:02:41.068235+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "CRISCross: Integration of Epigenetic Information for Deep-Learning-Based Prediction of CRISPR-Cas9 Off-Targets Across Cell Types",
-          "doi": "10.64898/2026.10.09.757843",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757843v1",
+          "title": "Coordinated Enhancement of Molecular and Spatial Fidelity for Biological Inference in Spatial Transcriptomics",
+          "doi": "10.64898/2025.12.23.696267",
+          "url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696267v3",
           "source": "biorxiv",
-          "score": 0.5346
+          "score": 0.4817
         },
         {
           "rank": 2,
-          "title": "Perturb-Seqr: Signature Search Engine Integrating Connectivity Mapping Resources",
-          "doi": "10.64898/2026.10.06.757137",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757137v1",
+          "title": "BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling",
+          "doi": "10.64898/2026.10.12.758490",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758490v1",
           "source": "biorxiv",
-          "score": 0.4958
+          "score": 0.4761
         },
         {
           "rank": 3,
-          "title": "Concurrent de novo inference of cell types and gene regulatory networks with NetMap",
-          "doi": "10.64898/2026.10.04.756614",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756614v1",
+          "title": "Beyond the Final Layer: Evaluating Single-Cell Foundation Model Representations for Molecular Prediction",
+          "doi": "10.64898/2026.10.05.756880",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756880v1",
           "source": "biorxiv",
-          "score": 0.4649
+          "score": 0.4721
         },
         {
           "rank": 4,
-          "title": "Cause-excluded Effect Evaluation: a framework for the faithful assessment of genetic perturbation target identification",
-          "doi": "10.64898/2026.10.03.752923",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.752923v1",
+          "title": "Representing biological concepts as directions in foundation model embeddings",
+          "doi": "10.64898/2026.10.10.758204",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758204v1",
           "source": "biorxiv",
-          "score": 0.4554
+          "score": 0.4718
         },
         {
           "rank": 5,
-          "title": "Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner",
-          "doi": "10.64898/2026.10.08.757715",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757715v1",
+          "title": "Benchmarking single-cell foundation models reveals an advantage in the low-data regime for cell-type and disease-state prediction",
+          "doi": "10.64898/2026.10.12.758421",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758421v1",
           "source": "biorxiv",
-          "score": 0.4368
+          "score": 0.4512
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Forecasting next-year change in antimicrobial resistance genes in Klebsiella pneumoniae and Acinetobacter baumannii from genomic surveillance data",
-          "doi": "10.64898/2026.10.10.758085",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758085v1",
+          "title": "Single-cell-resolved natural giant virus infections reveal conserved protist immunity",
+          "doi": "10.64898/2026.10.11.758280",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758280v1",
           "source": "biorxiv",
-          "score": 0.424
+          "score": 0.4828
         },
         {
           "rank": 2,
-          "title": "THRESHER: A tool for evidence-based, phylogeny-corrected SNP thresholds for whole genome molecular epidemiology",
-          "doi": "10.64898/2026.10.07.26364951",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.07.26364951v1",
-          "source": "medrxiv",
-          "score": 0.4077
+          "title": "Distribution and dynamics of Vibrio spp. and pathogen sequences among microhabitats and monsoon seasons in Singapore's coastal waters",
+          "doi": "10.64898/2026.10.09.757811",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757811v1",
+          "source": "biorxiv",
+          "score": 0.4254
         },
         {
           "rank": 3,
-          "title": "From APTs to advanced persistent biological threats (APBTs): a taxonomy and large-scale metadata audit of genomic surveillance infrastructure",
-          "doi": "10.64898/2026.10.09.757979",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757979v1",
+          "title": "Novel conserved RNA structural motifs regulate genome cyclization of yellow fever virus",
+          "doi": "10.64898/2026.09.23.753880",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753880v2",
           "source": "biorxiv",
-          "score": 0.407
+          "score": 0.4068
         },
         {
           "rank": 4,
-          "title": "Laboratory Evaluation of Cyclospora cayetanensis in Wastewater: Expanding Pathogen Targets for Regulatory Public Health Surveillance",
-          "doi": "10.64898/2026.10.08.26364996",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.08.26364996v1",
-          "source": "medrxiv",
-          "score": 0.3938
+          "title": "Viral dispersal drives changes in population composition",
+          "doi": "10.64898/2026.10.12.758528",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758528v1",
+          "source": "biorxiv",
+          "score": 0.382
         },
         {
           "rank": 5,
-          "title": "Proteomics reveal temperature-coupled cobalamin homeostasis and pathogenicity in Pseudomonas aeruginosa",
-          "doi": "10.64898/2026.01.27.701802",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.01.27.701802v2",
+          "title": "Multi-strain SIS dynamics with coinfection across heterogeneous patches",
+          "doi": "10.1101/2025.10.26.684704",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.10.26.684704v2",
           "source": "biorxiv",
-          "score": 0.3877
+          "score": 0.3558
         }
       ]
     }
