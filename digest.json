@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-14T09:03:07.035574+00:00",
+  "generated_utc": "2026-10-15T09:03:11.126978+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Decoding super-enhancer regulatory grammar and pathogenic gain-of-function variants directly from DNA sequence",
-          "doi": "10.64898/2026.10.11.756618",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.756618v1",
+          "title": "A multimodal precision oncology platform integrating genomics,single-cell transcriptomics, and functional drug screening expandstherapeutic options in pediatric brain tumors",
+          "doi": "10.64898/2026.10.12.758619",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758619v1",
           "source": "biorxiv",
-          "score": 0.5978
+          "score": 0.4704
         },
         {
           "rank": 2,
-          "title": "Deep-learning-driven tumor microenvironment profiling improves immunotherapy response prediction",
-          "doi": "10.64898/2026.10.06.757143",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757143v1",
+          "title": "Bayesian phylogenetics with incomplete lineage tracing data",
+          "doi": "10.64898/2026.10.07.757283",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757283v1",
           "source": "biorxiv",
-          "score": 0.4747
+          "score": 0.4647
         },
         {
           "rank": 3,
-          "title": "Lack of adoption of computational gene-panel-selection tools in targeted spatial transcriptomics",
-          "doi": "10.64898/2026.10.06.757034",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757034v1",
+          "title": "Single-cell RNA-seq using UltraMarathonRT expands the known transcriptome",
+          "doi": "10.1101/2025.10.06.680646",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.10.06.680646v2",
           "source": "biorxiv",
-          "score": 0.4671
+          "score": 0.457
         },
         {
           "rank": 4,
-          "title": "A versatile set of computational tools for inference of genetic ancestry from human molecular data",
-          "doi": "10.64898/2026.10.09.758080",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758080v1",
+          "title": "Dysregulation of epithelial differentiation architecture underlies field cancerization in head and neck cancer",
+          "doi": "10.64898/2026.10.12.757511",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.757511v1",
           "source": "biorxiv",
-          "score": 0.455
+          "score": 0.4515
         },
         {
           "rank": 5,
-          "title": "RNA evidence supports clinical stage antibody drug targets in oncology",
-          "doi": "10.64898/2026.10.06.757024",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757024v1",
+          "title": "scIRES-seq reveals multimodal molecular heterogeneity in CTCs from small cell cervical cancer",
+          "doi": "10.64898/2026.10.07.757279",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757279v1",
           "source": "biorxiv",
-          "score": 0.4466
+          "score": 0.44
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Enhancing molecular and genomic approaches for Bordetella pertussis investigation and public health surveillance in Victoria, Australia",
-          "doi": "10.64898/2026.10.11.26364704",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.11.26364704v1",
-          "source": "medrxiv",
-          "score": 0.4681
+          "title": "A Tissue Virus Microenvironment with Activated Stress Responses Underlies Durable SIV Persistence",
+          "doi": "10.64898/2026.04.02.716177",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.04.02.716177v2",
+          "source": "biorxiv",
+          "score": 0.4598
         },
         {
           "rank": 2,
-          "title": "Same-day hybrid capture workflow for diagnosis and surveillance of respiratory pathogens",
-          "doi": "10.64898/2026.10.09.26365131",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365131v1",
-          "source": "medrxiv",
-          "score": 0.4143
+          "title": "Resolution of chromosomal structural variation and vanA plasmid dynamics by nanopore-only sequencing across successive waves of a hospital outbreak of vancomycin-resistant Enterococcus faecium",
+          "doi": "10.64898/2026.10.13.758403",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758403v1",
+          "source": "biorxiv",
+          "score": 0.4125
         },
         {
           "rank": 3,
-          "title": "Quantitative host-response mapping enables phenotypic profiling of viruses detected by virome sequencing",
-          "doi": "10.64898/2026.10.13.758418",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758418v1",
+          "title": "Microbial persistence beneath temporal restructuring in university wastewater metagenomes",
+          "doi": "10.64898/2026.10.13.758942",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758942v1",
           "source": "biorxiv",
-          "score": 0.3922
+          "score": 0.4101
         },
         {
           "rank": 4,
-          "title": "Long terminal repeats influence deletion propensity and genome instability in proviruses across major retroviruses",
-          "doi": "10.64898/2026.10.12.758617",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758617v1",
-          "source": "biorxiv",
-          "score": 0.3808
+          "title": "Genome-wide association and Mendelian randomization analyses of host response to Helicobacter pylori infection implicate HLA polymorphisms and immune-mediated diseases.",
+          "doi": "10.64898/2026.03.27.26349357",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.03.27.26349357v2",
+          "source": "medrxiv",
+          "score": 0.4073
         },
         {
           "rank": 5,
-          "title": "Bacteriophage susceptibility in clinical Enterococcus faecalis reflects host genomic background and Epa-associated phage adsorption",
-          "doi": "10.64898/2026.10.12.758625",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758625v1",
+          "title": "Maftivimab monotherapy is effective in a non-human primate model of Bundibugyo virus disease",
+          "doi": "10.64898/2026.10.13.758840",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758840v1",
           "source": "biorxiv",
-          "score": 0.3785
+          "score": 0.4053
         }
       ]
     }
