@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-15T09:03:11.126978+00:00",
+  "generated_utc": "2026-10-16T09:02:43.073517+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "A multimodal precision oncology platform integrating genomics,single-cell transcriptomics, and functional drug screening expandstherapeutic options in pediatric brain tumors",
-          "doi": "10.64898/2026.10.12.758619",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758619v1",
+          "title": "NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets",
+          "doi": "10.64898/2026.10.08.757741",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757741v1",
           "source": "biorxiv",
-          "score": 0.4704
+          "score": 0.5764
         },
         {
           "rank": 2,
-          "title": "Bayesian phylogenetics with incomplete lineage tracing data",
-          "doi": "10.64898/2026.10.07.757283",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757283v1",
+          "title": "Allosteric covalent inhibition of cereblon through cryptic cysteine targeting",
+          "doi": "10.64898/2026.10.10.758245",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758245v1",
           "source": "biorxiv",
-          "score": 0.4647
+          "score": 0.4452
         },
         {
           "rank": 3,
-          "title": "Single-cell RNA-seq using UltraMarathonRT expands the known transcriptome",
-          "doi": "10.1101/2025.10.06.680646",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.10.06.680646v2",
+          "title": "Beyond the gene: contextualizing novel isoforms through pathway analysis in long-read single-cell RNA sequencing",
+          "doi": "10.64898/2026.10.14.758627",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758627v1",
           "source": "biorxiv",
-          "score": 0.457
+          "score": 0.4379
         },
         {
           "rank": 4,
-          "title": "Dysregulation of epithelial differentiation architecture underlies field cancerization in head and neck cancer",
-          "doi": "10.64898/2026.10.12.757511",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.757511v1",
+          "title": "Rational Design of a Photoactivated Fluorescent Probe for Thiol-ene Mediated Protein Labelling",
+          "doi": "10.64898/2026.10.13.758905",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758905v1",
           "source": "biorxiv",
-          "score": 0.4515
+          "score": 0.4346
         },
         {
           "rank": 5,
-          "title": "scIRES-seq reveals multimodal molecular heterogeneity in CTCs from small cell cervical cancer",
-          "doi": "10.64898/2026.10.07.757279",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757279v1",
+          "title": "High-throughput genetic interaction analysis in Mycobacterium tuberculosis identifies highly synergistic drug targets",
+          "doi": "10.64898/2026.10.14.759252",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759252v1",
           "source": "biorxiv",
-          "score": 0.44
+          "score": 0.4195
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "A Tissue Virus Microenvironment with Activated Stress Responses Underlies Durable SIV Persistence",
-          "doi": "10.64898/2026.04.02.716177",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.04.02.716177v2",
-          "source": "biorxiv",
-          "score": 0.4598
+          "title": "Four Years of Continuous Weekly Wastewater Analysis Reveals Sequencing as a Robust Alternative to PCR for Respiratory Virome Surveillance.",
+          "doi": "10.64898/2026.10.13.26364774",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.13.26364774v1",
+          "source": "medrxiv",
+          "score": 0.395
         },
         {
           "rank": 2,
-          "title": "Resolution of chromosomal structural variation and vanA plasmid dynamics by nanopore-only sequencing across successive waves of a hospital outbreak of vancomycin-resistant Enterococcus faecium",
-          "doi": "10.64898/2026.10.13.758403",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758403v1",
+          "title": "Subcellular spatial proteomics of the heterotrophic nanoflagellate, Cafeteria roenbergensis",
+          "doi": "10.64898/2026.10.13.758971",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758971v1",
           "source": "biorxiv",
-          "score": 0.4125
+          "score": 0.3677
         },
         {
           "rank": 3,
-          "title": "Microbial persistence beneath temporal restructuring in university wastewater metagenomes",
-          "doi": "10.64898/2026.10.13.758942",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758942v1",
+          "title": "Population structure of human-infecting and environmental isolates of Coccidioides immitis, the fungus causing Valley fever",
+          "doi": "10.64898/2026.10.13.758980",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758980v1",
           "source": "biorxiv",
-          "score": 0.4101
+          "score": 0.3454
         },
         {
           "rank": 4,
-          "title": "Genome-wide association and Mendelian randomization analyses of host response to Helicobacter pylori infection implicate HLA polymorphisms and immune-mediated diseases.",
-          "doi": "10.64898/2026.03.27.26349357",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.03.27.26349357v2",
-          "source": "medrxiv",
-          "score": 0.4073
+          "title": "Time-resolved proteomic analysis of hepatitis B virus infection",
+          "doi": "10.64898/2026.02.24.707876",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707876v2",
+          "source": "biorxiv",
+          "score": 0.3382
         },
         {
           "rank": 5,
-          "title": "Maftivimab monotherapy is effective in a non-human primate model of Bundibugyo virus disease",
-          "doi": "10.64898/2026.10.13.758840",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758840v1",
+          "title": "Xenoglycosylation of the HIV-1 Glycan Shield Promotes Cross-Clade Neutralization and Diverse Human Antibody Lineages",
+          "doi": "10.64898/2026.10.08.757767",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757767v1",
           "source": "biorxiv",
-          "score": 0.4053
+          "score": 0.3331
         }
       ]
     }
