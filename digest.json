@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-16T09:02:43.073517+00:00",
+  "generated_utc": "2026-10-17T09:02:50.506063+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets",
-          "doi": "10.64898/2026.10.08.757741",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757741v1",
+          "title": "What comes after de novo? Automated lead optimization of proteins with CRADLE-1",
+          "doi": "10.64898/2026.03.06.710001",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710001v3",
           "source": "biorxiv",
-          "score": 0.5764
+          "score": 0.5688
         },
         {
           "rank": 2,
-          "title": "Allosteric covalent inhibition of cereblon through cryptic cysteine targeting",
-          "doi": "10.64898/2026.10.10.758245",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758245v1",
+          "title": "Self-extending DNA recording with stochastic and programmed writing",
+          "doi": "10.64898/2026.10.14.759016",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759016v1",
           "source": "biorxiv",
-          "score": 0.4452
+          "score": 0.4992
         },
         {
           "rank": 3,
-          "title": "Beyond the gene: contextualizing novel isoforms through pathway analysis in long-read single-cell RNA sequencing",
-          "doi": "10.64898/2026.10.14.758627",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758627v1",
+          "title": "Benchmarking large-scale single-cell RNA-seq analysis",
+          "doi": "10.1101/2025.10.28.681564",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.10.28.681564v2",
           "source": "biorxiv",
-          "score": 0.4379
+          "score": 0.4927
         },
         {
           "rank": 4,
-          "title": "Rational Design of a Photoactivated Fluorescent Probe for Thiol-ene Mediated Protein Labelling",
-          "doi": "10.64898/2026.10.13.758905",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758905v1",
+          "title": "scRIPT: a rapid, high-coverage single-cell lineage-tracing method applied to the hematoendothelial differentiation of embryonic stem cells",
+          "doi": "10.64898/2026.10.14.759042",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759042v1",
           "source": "biorxiv",
-          "score": 0.4346
+          "score": 0.4685
         },
         {
           "rank": 5,
-          "title": "High-throughput genetic interaction analysis in Mycobacterium tuberculosis identifies highly synergistic drug targets",
-          "doi": "10.64898/2026.10.14.759252",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759252v1",
+          "title": "CucurbitAgent: An AI agent for exploring cucurbit multi-omics resources",
+          "doi": "10.64898/2026.10.09.758138",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758138v1",
           "source": "biorxiv",
-          "score": 0.4195
+          "score": 0.4622
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Four Years of Continuous Weekly Wastewater Analysis Reveals Sequencing as a Robust Alternative to PCR for Respiratory Virome Surveillance.",
-          "doi": "10.64898/2026.10.13.26364774",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.13.26364774v1",
-          "source": "medrxiv",
-          "score": 0.395
+          "title": "A host enzyme pseudouridylates an RNA bacteriophage genome and accelerates virus production",
+          "doi": "10.64898/2026.10.15.759028",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759028v1",
+          "source": "biorxiv",
+          "score": 0.4137
         },
         {
           "rank": 2,
-          "title": "Subcellular spatial proteomics of the heterotrophic nanoflagellate, Cafeteria roenbergensis",
-          "doi": "10.64898/2026.10.13.758971",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758971v1",
-          "source": "biorxiv",
-          "score": 0.3677
+          "title": "DAMPA: compositionally optimised probe panel design for targeted metagenomics",
+          "doi": "10.64898/2026.05.15.26352859",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.05.15.26352859v2",
+          "source": "medrxiv",
+          "score": 0.407
         },
         {
           "rank": 3,
-          "title": "Population structure of human-infecting and environmental isolates of Coccidioides immitis, the fungus causing Valley fever",
-          "doi": "10.64898/2026.10.13.758980",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758980v1",
+          "title": "The Phage Time Continuum: Genome Organization Constrains Anti-CRISPR Success",
+          "doi": "10.64898/2026.10.15.759504",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759504v1",
           "source": "biorxiv",
-          "score": 0.3454
+          "score": 0.3891
         },
         {
           "rank": 4,
-          "title": "Time-resolved proteomic analysis of hepatitis B virus infection",
-          "doi": "10.64898/2026.02.24.707876",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707876v2",
+          "title": "Evolution of SARS-CoV-2 reshapes upper airway immunity in children",
+          "doi": "10.64898/2026.10.15.759133",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759133v1",
           "source": "biorxiv",
-          "score": 0.3382
+          "score": 0.3786
         },
         {
           "rank": 5,
-          "title": "Xenoglycosylation of the HIV-1 Glycan Shield Promotes Cross-Clade Neutralization and Diverse Human Antibody Lineages",
-          "doi": "10.64898/2026.10.08.757767",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757767v1",
-          "source": "biorxiv",
-          "score": 0.3331
+          "title": "Municipality-level ecological analysis of COVID-19 mortality and infections in Austria, 2020 to 2023",
+          "doi": "10.64898/2026.10.15.26365614",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365614v1",
+          "source": "medrxiv",
+          "score": 0.3701
         }
       ]
     }
