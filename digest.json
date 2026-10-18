@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-17T09:02:50.506063+00:00",
+  "generated_utc": "2026-10-18T09:02:31.439365+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "What comes after de novo? Automated lead optimization of proteins with CRADLE-1",
-          "doi": "10.64898/2026.03.06.710001",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710001v3",
+          "title": "Multiplex programming of mappable, molecularly tagged genomic deletions",
+          "doi": "10.64898/2026.10.13.758960",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758960v1",
           "source": "biorxiv",
-          "score": 0.5688
+          "score": 0.5227
         },
         {
           "rank": 2,
-          "title": "Self-extending DNA recording with stochastic and programmed writing",
-          "doi": "10.64898/2026.10.14.759016",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759016v1",
+          "title": "Exploring the Upper Boundaries of Distance-Based Protein-Ligand Binding Affinity Prediction: Accuracy Improvements via Linear Regression and Artificial Neural Networks",
+          "doi": "10.1101/2025.10.07.680851",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680851v2",
           "source": "biorxiv",
-          "score": 0.4992
+          "score": 0.482
         },
         {
           "rank": 3,
-          "title": "Benchmarking large-scale single-cell RNA-seq analysis",
-          "doi": "10.1101/2025.10.28.681564",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.10.28.681564v2",
+          "title": "Glycomics Profiling Reveals a Stromal Chondroitin-4-sulfate State that Shapes Platinum Response in Ovarian Cancer",
+          "doi": "10.1101/2025.10.06.675352",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.10.06.675352v2",
           "source": "biorxiv",
-          "score": 0.4927
+          "score": 0.4272
         },
         {
           "rank": 4,
-          "title": "scRIPT: a rapid, high-coverage single-cell lineage-tracing method applied to the hematoendothelial differentiation of embryonic stem cells",
-          "doi": "10.64898/2026.10.14.759042",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759042v1",
+          "title": "Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing",
+          "doi": "10.64898/2026.10.13.758369",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758369v1",
           "source": "biorxiv",
-          "score": 0.4685
+          "score": 0.4238
         },
         {
           "rank": 5,
-          "title": "CucurbitAgent: An AI agent for exploring cucurbit multi-omics resources",
-          "doi": "10.64898/2026.10.09.758138",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758138v1",
+          "title": "Determining cellular phylogeny and migration at high resolution in spatial genomics",
+          "doi": "10.64898/2026.10.16.759405",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759405v1",
           "source": "biorxiv",
-          "score": 0.4622
+          "score": 0.3824
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "A host enzyme pseudouridylates an RNA bacteriophage genome and accelerates virus production",
-          "doi": "10.64898/2026.10.15.759028",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759028v1",
+          "title": "Genetically modified primary airway-epithelial cell culture models to study virus-host interactions of emerging respiratory viruses",
+          "doi": "10.64898/2026.10.16.758770",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758770v1",
           "source": "biorxiv",
-          "score": 0.4137
+          "score": 0.4151
         },
         {
           "rank": 2,
-          "title": "DAMPA: compositionally optimised probe panel design for targeted metagenomics",
-          "doi": "10.64898/2026.05.15.26352859",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.05.15.26352859v2",
-          "source": "medrxiv",
-          "score": 0.407
+          "title": "Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds",
+          "doi": "10.64898/2026.10.14.759234",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759234v1",
+          "source": "biorxiv",
+          "score": 0.4002
         },
         {
           "rank": 3,
-          "title": "The Phage Time Continuum: Genome Organization Constrains Anti-CRISPR Success",
-          "doi": "10.64898/2026.10.15.759504",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759504v1",
+          "title": "Cryo-EM Reveals VP1/VP2 N-Terminal Conformations in Adeno-Associated Virus 2 Capsids.",
+          "doi": "10.64898/2026.10.16.759763",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759763v1",
           "source": "biorxiv",
-          "score": 0.3891
+          "score": 0.3631
         },
         {
           "rank": 4,
-          "title": "Evolution of SARS-CoV-2 reshapes upper airway immunity in children",
-          "doi": "10.64898/2026.10.15.759133",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759133v1",
+          "title": "Gut and nasal microbiome trajectories shape respiratory disease severity in calves exposed to antibiotic and pathogen challenge",
+          "doi": "10.64898/2026.10.16.759607",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759607v1",
           "source": "biorxiv",
-          "score": 0.3786
+          "score": 0.3429
         },
         {
           "rank": 5,
-          "title": "Municipality-level ecological analysis of COVID-19 mortality and infections in Austria, 2020 to 2023",
-          "doi": "10.64898/2026.10.15.26365614",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365614v1",
+          "title": "A prospective, comparative cohort analysis of influenza antibody waning in Michigan and Hong Kong during periods of low influenza circulation",
+          "doi": "10.1101/2025.05.26.25328346",
+          "url": "https://www.medrxiv.org/content/10.1101/2025.05.26.25328346v2",
           "source": "medrxiv",
-          "score": 0.3701
+          "score": 0.3298
         }
       ]
     }
