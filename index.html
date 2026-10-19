@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 18, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 19, 2026 — 7 preprints selected (Comp Bio: 5 · Virology: 2)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -116,7 +116,7 @@ footer {
 
 <nav class="tabs" role="tablist">
   <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(2)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Multiplex programming of mappable, molecularly tagged genomic deletions</a></li>
-  <li><a href="#core-article-2">Exploring the Upper Boundaries of Distance-Based Protein-Ligand Binding Affinity Prediction: Accuracy Improvements via Linear Regression and Artificial Neural Networks</a></li>
-  <li><a href="#core-article-3">Glycomics Profiling Reveals a Stromal Chondroitin-4-sulfate State that Shapes Platinum Response in Ovarian Cancer</a></li>
-  <li><a href="#core-article-4">Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing</a></li>
-  <li><a href="#core-article-5">Determining cellular phylogeny and migration at high resolution in spatial genomics</a></li>
+  <li><a href="#core-article-1">Determinants of cysteine coverage by chemoproteomics</a></li>
+  <li><a href="#core-article-2">DeepD enables efficient genome modeling and controllable long-context sequence generation across domains of life</a></li>
+  <li><a href="#core-article-3">Sustained antigenic engagement programs multidimensional CTL states with distinct cytotoxic capacities</a></li>
+  <li><a href="#core-article-4">Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction</a></li>
+  <li><a href="#core-article-5">Scalable Enzyme Reaction Retrieval Enables Metagenomic Biocatalyst Discovery</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.13.758960v1">Multiplex programming of mappable, molecularly tagged genomic deletions</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.13.758960">10.64898/2026.10.13.758960</a> · Score: <code>█████░░░░░</code> 0.523</p>
-<p><span class="label">Core Problem:</span> Conventional CRISPR knockout screens target genes via focal indels that readily disrupt open reading frames (ORFs)</p>
-<p><span class="label">Proposed Solution:</span> However, their utility for targeting candidate cis-regulatory elements remains limited, as focal indels cannot abrogate enhancer activity with high confidence. Compounding this limitation, conventional CRISPR screens cannot directly verify successful editing in individual cells, instead inferring perturbations from sgRNA detection--an imperfect proxy prone to both false positives (i</p>
-<p><span class="label">Key Impact:</span> Collectively, these results establish OPTIMuS PRIME-Del as a multiplex platform for the precise programming, molecular tagging, and functional characterization of noncoding deletions</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2025.10.07.680851v2">Exploring the Upper Boundaries of Distance-Based Protein-Ligand Binding Affinity Prediction: Accuracy Improvements via Linear Regression and Artificial Neural Networks</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.10.07.680851">10.1101/2025.10.07.680851</a> · Score: <code>█████░░░░░</code> 0.482</p>
-<p><span class="label">Core Problem:</span> The traditional scoring functions for protein-ligand binding affinity prediction usually adopt fixed mathematical formulas to characterize atomic interaction energies, where electrostatic interactions are described by the a/r function and van der Waals interactions by the b/r^6 -c/r^12 function</p>
-<p><span class="label">Proposed Solution:</span> These fixed power exponents of distance-based variables severely limit the predictive flexibility and generalization of conventional scoring models. To address this limitation, this study proposes an improved prediction strategy with unrestricted power exponents for distance-dependent atomic interaction variables</p>
-<p><span class="label">Key Impact:</span> The overall results indicate that rationally-optimized power exponents for distance-based variables can effectively enhance the predictive accuracy of protein-ligand binding affinity prediction, providing a reliable and efficient tool for computational drug discovery</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758458v1">Determinants of cysteine coverage by chemoproteomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.12.758458">10.64898/2026.10.12.758458</a> · Score: <code>█████░░░░░</code> 0.465</p>
+<p><span class="label">Core Problem:</span> Covalent chemoproteomics has become a powerful route to expanding the druggable proteome, enabling proteome-wide screening of compounds that covalently modify nucleophilic residues, most commonly cysteine</p>
+<p><span class="label">Proposed Solution:</span> Yet typical experiments detect only 5-18% of the ~250,000 cysteines encoded by the human proteome, and the determinants of this limited coverage remain poorlydefined. Here we combine cysteine featurisation, explainable machine learning (ML) and robust statistical filtering to establish what governs cysteine detectability in iodoacetamide- desthiobiotin (IA-DTB) chemoproteomics</p>
+<p><span class="label">Key Impact:</span> More broadly, this work moves optimisation of chemoproteomics workflows from empirical trial-and-error towards rational, data-driven design</p>
 <p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2025.10.06.675352v2">Glycomics Profiling Reveals a Stromal Chondroitin-4-sulfate State that Shapes Platinum Response in Ovarian Cancer</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.10.06.675352">10.1101/2025.10.06.675352</a> · Score: <code>████░░░░░░</code> 0.427</p>
-<p><span class="label">Core Problem:</span> For women with advanced ovarian cancer (OC), remission is typically achieved through surgery and platinum-based combination chemotherapy, but the duration of response varies widely, and reliable biomarkers of platinum sensitivity remain limited</p>
-<p><span class="label">Proposed Solution:</span> Because tumor-associated glycosaminoglycans (GAGs) influence extracellular signaling and drug interactions, but are not directly resolved by conventional transcriptomic approaches, we investigated whether direct glycomics profiling could identify a functionally relevant determinant of platinum response. Glycan reductive isotope labeling-LC/MS of ovarian cancer patient-derived xenografts (PDXs) showed that carboplatin-resistant tumors were enriched for chondroitin-4-sulfate (C4S)</p>
-<p><span class="label">Key Impact:</span> These findings nominate a stromal-associated C4S-rich extracellular state as a non-genetic determinant of platinum response and tumor behavior, and support tissue-level C4S assessment for biomarker-guided evaluation of Triplatin</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.13.758170v1">DeepD enables efficient genome modeling and controllable long-context sequence generation across domains of life</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.13.758170">10.64898/2026.10.13.758170</a> · Score: <code>████░░░░░░</code> 0.432</p>
+<p><span class="label">Core Problem:</span> Genome foundation models hold great potential for advancing biological research, but modeling diverse complex genomes and generating controllable genome-scale sequences remain challenging</p>
+<p><span class="label">Proposed Solution:</span> We present DeepD, a phylogeny-informed sparse mixture-of-experts model operating at single-nucleotide resolution over a 1-million-token context while reducing active computation. Pretrained on unselected whole-genome sequences across all domains of life, DeepD learns genic and intergenic sequence features and supports broad sequence-to-function prediction across species</p>
+<p><span class="label">Key Impact:</span> Together, DeepD is an efficient genome foundation model that unifies accurate sequence-to-function prediction with controllable genome-scale generation, advancing predictive and generative design of complex genomes</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.13.758369v1">Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.13.758369">10.64898/2026.10.13.758369</a> · Score: <code>████░░░░░░</code> 0.424</p>
-<p><span class="label">Core Problem:</span> A common technical artifact in droplet-based single-cell RNA sequencing (scRNA-seq) is the capture of two cells in the same droplet, termed doublets</p>
-<p><span class="label">Proposed Solution:</span> Doublets may present as hybrid cell types, and their removal is a critical step during quality control. Another form of contamination is ambient RNA, which originates from free floating RNA released from other cells in suspension, likely during cell death</p>
-<p><span class="label">Key Impact:</span> We suggest a new workflow that implements doublet detection prior to ambient RNA correction unless using CellBender</p>
+<div class="article" id="core-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758563v1">Sustained antigenic engagement programs multidimensional CTL states with distinct cytotoxic capacities</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.12.758563">10.64898/2026.10.12.758563</a> · Score: <code>████░░░░░░</code> 0.423</p>
+<p><span class="label">Core Problem:</span> Cytotoxic T lymphocytes (CTLs) eliminate infected or malignant cells through repeated target-cell encounters, yet how they sustain cytotoxic activity during extended antigenic stimulation remains poorly understood</p>
+<p><span class="label">Proposed Solution:</span> In particular, it remains unclear whether preserved population-level killing reflects maintenance of a uniform effector phenotype or diversification into functionally distinct CTL populations. Here, we combined live-cell imaging, high-dimensional cytometry, single-cell RNA sequencing, phenotypic trajectory analysis, population sorting, and rechallenge killing assays to define how human clonal CTLs remodel during sustained antigenic engagement</p>
+<p><span class="label">Key Impact:</span> Our findings support a model in which population-level cytotoxic activity can be maintained while the CTLs composing that population progressively diversify into functionally distinct states during sustained antigenic engagement</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759405v1">Determining cellular phylogeny and migration at high resolution in spatial genomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759405">10.64898/2026.10.16.759405</a> · Score: <code>████░░░░░░</code> 0.382</p>
-<p><span class="label">Core Problem:</span> Cellular migration and tumor evolution are central to tissue homeostasis and cancer biology</p>
-<p><span class="label">Proposed Solution:</span> Rapid advances in spatial genomics have raised the possibility of using somatic mutations to track these processes in situ in human tissues. However, frequent data dropouts in spatial genomics measurements make this challenging to implement</p>
-<p><span class="label">Key Impact:</span> Overall, by integrating mutation calling with spatial context, StarTrak enables the inference of spatially resolved cellular migration and cellular phylogeny</p>
+<div class="article" id="core-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758456v1">Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.12.758456">10.64898/2026.10.12.758456</a> · Score: <code>████░░░░░░</code> 0.406</p>
+<p><span class="label">Core Problem:</span> T cells are at the centre of adaptive immunity, protecting the organism against infection and cancer</p>
+<p><span class="label">Proposed Solution:</span> T cell receptors (TCRs), expressed on the surface of T cells, enable the recognition of target cells through interactions with peptides presented by major histocompatibility complex (pMHC) molecules. Reliable, large-scale mapping of TCRs to their cognate pMHCs remains a holy grail of modern systems immunology, with far-reaching implications for cancer immunotherapy, vaccine development, and the understanding and treatment of autoimmune diseases</p>
+<p><span class="label">Key Impact:</span> Our investigation suggests that we, as a community, need more representative and better curated data, and a robust set of metrics and benchmarks to guide future model development towards generalisable TCR:pMHC specificity prediction</p>
 <p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.15.759509v1">Scalable Enzyme Reaction Retrieval Enables Metagenomic Biocatalyst Discovery</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.15.759509">10.64898/2026.10.15.759509</a> · Score: <code>████░░░░░░</code> 0.386</p>
+<p><span class="label">Core Problem:</span> Enzyme catalyzed reactions drive metabolism and enable diverse applications in biotechnology and sustainable synthesis, but assigning catalytic functions to uncharacterized enzymes and finding enzymes for target reactions remain major challenges</p>
+<p><span class="label">Proposed Solution:</span> Despite recent advances in machine learning, translating enzyme function prediction into systematic discovery across the vast space of uncharacterized proteins and biochemical reactions remains challenging. Here we present EzHit, a lightweight framework for bidirectional enzyme reaction retrieval</p>
+<p><span class="label">Key Impact:</span> Together, these results establish EzHit as a scalable framework for enzyme annotation, reaction-guided mining and biocatalyst discovery</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.10.06.675352">Glycomics Profiling Reveals a Stromal Chondroitin-4-sulfate State that Shapes Platinum Response in Ovarian Cancer</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.1101/2025.10.07.680851">Exploring the Upper Boundaries of Distance-Based Protein-Ligand Binding Affinity Prediction: Accuracy Improvements via Linear Regression and Artificial Neural Networks</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.13.758369">Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.13.758960">Multiplex programming of mappable, molecularly tagged genomic deletions</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759405">Determining cellular phylogeny and migration at high resolution in spatial genomics</a><span class="history-date">Oct 18, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.10.28.681564">Benchmarking large-scale single-cell RNA-seq analysis</a><span class="history-date">Oct 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.06.710001">What comes after de novo? Automated lead optimization of proteins with CRADLE-1</a><span class="history-date">Oct 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.09.758138">CucurbitAgent: An AI agent for exploring cucurbit multi-omics resources</a><span class="history-date">Oct 17, 2026</span></li>
@@ -815,57 +820,27 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Genetically modified primary airway-epithelial cell culture models to study virus-host interactions of emerging respiratory viruses</a></li>
-  <li><a href="#virology-article-2">Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds</a></li>
-  <li><a href="#virology-article-3">Cryo-EM Reveals VP1/VP2 N-Terminal Conformations in Adeno-Associated Virus 2 Capsids.</a></li>
-  <li><a href="#virology-article-4">Gut and nasal microbiome trajectories shape respiratory disease severity in calves exposed to antibiotic and pathogen challenge</a></li>
-  <li><a href="#virology-article-5">A prospective, comparative cohort analysis of influenza antibody waning in Michigan and Hong Kong during periods of low influenza circulation</a></li>
+  <li><a href="#virology-article-1">Pleiotropy links host axes of defense against a pathogen</a></li>
+  <li><a href="#virology-article-2">PlasmoRhythm: A comprehensive database for malaria-associated rhythmic transcripts, proteins, and metabolites</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.758770v1">Genetically modified primary airway-epithelial cell culture models to study virus-host interactions of emerging respiratory viruses</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.758770">10.64898/2026.10.16.758770</a> · Score: <code>████░░░░░░</code> 0.415</p>
-<p><span class="label">Core Problem:</span> Airway epithelial cell (AEC) cultures such as air-liquid interface cultures or airway organoids are widely used to study emerging respiratory virus infection in a physiologically representative model system of the human respiratory epithelium</p>
-<p><span class="label">Proposed Solution:</span> Loss-of-function studies in AEC culture systems offer a unique opportunity to better understand viral disease mechanisms of emerging viruses in the human host, may reveal biologically relevant host-factor dependencies that can be therapeutically targeted, or identify human host barriers of cross-species transmission of emerging viruses that can inform risk assessment. In this chapter, we describe the generation of knockout (KO) AECs using engineered virus-like particles (eVLPs)</p>
-<p><span class="label">Key Impact:</span> Together, these protocols provide a robust workflow for generating renewable KO AEC cultures in less than two months, facilitating the functional characterization of host factors that influence viral infection of the airway epithelium</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758686v1">Pleiotropy links host axes of defense against a pathogen</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.12.758686">10.64898/2026.10.12.758686</a> · Score: <code>███░░░░░░░</code> 0.325</p>
+<p><span class="label">Core Problem:</span> Organisms face ubiquitous threats from pathogens, and in response hosts have evolved a cascade of defenses to avoid, resist, or tolerate infection</p>
+<p><span class="label">Proposed Solution:</span> While these stepwise defenses may act independently, they can be pleiotropically linked via shared molecular mechanisms, regulation, and crosstalk. Here, we tested the extent to which pleiotropy shapes multiple axes of defense using knockouts of 16 single genes involved in innate immunity of Caenorhabditis elegans against the opportunistic bacterial pathogen Pseudomonas aeruginosa</p>
+<p><span class="label">Key Impact:</span> Our results show that pleiotropy between defenses can be common, highlighting the importance of moving beyond single phenotypes to understand multiple dimensions of host-pathogen interactions</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.14.759234v1">Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.14.759234">10.64898/2026.10.14.759234</a> · Score: <code>████░░░░░░</code> 0.400</p>
-<p><span class="label">Core Problem:</span> Meta-analysis is widely used in genome-wide association studies (GWAS) to combine evidence across studies without requiring individual-level data</p>
-<p><span class="label">Proposed Solution:</span> However, as both the number of studies included in meta-analyses and their sample sizes continue to grow, the same participant may be included in more than one study. Such sample overlap induces dependence across studies and violates the independence assumptions underlying standard meta-analysis methods</p>
-<p><span class="label">Key Impact:</span> We demonstrate these findings through extensive simulation studies and an application to overlapping cohorts within HostSeq</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759763v1">Cryo-EM Reveals VP1/VP2 N-Terminal Conformations in Adeno-Associated Virus 2 Capsids.</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759763">10.64898/2026.10.16.759763</a> · Score: <code>████░░░░░░</code> 0.363</p>
-<p><span class="label">Core Problem:</span> The AAV2 capsid assembles from three viral proteins, VP1, VP2, and VP3, expressed from a single cap gene</p>
-<p><span class="label">Proposed Solution:</span> In the assembled T=1 60-subunit icosahedral capsid, they have a canonical stoichiometry of 1:1:10. Relative to VP3, VP1 and VP2 have N-terminal extensions that are required for endosomal escape and nuclear trafficking; however, these regions remain poorly resolved due to low stoichiometry, symmetry mismatches, and conformational heterogeneity of their N-termini</p>
-<p><span class="label">Key Impact:</span> These findings link VP stoichiometry to distinct conformations of the VP1/VP2 N-termini and provide structural evidence for alternative organization of these regions within the AAV2 capsid, offering new insights into the conformational landscape of AAV capsid heterogeneity</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759607v1">Gut and nasal microbiome trajectories shape respiratory disease severity in calves exposed to antibiotic and pathogen challenge</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759607">10.64898/2026.10.16.759607</a> · Score: <code>███░░░░░░░</code> 0.343</p>
-<p><span class="label">Core Problem:</span> Bovine respiratory disease complex (BRDC) is a multifactorial syndrome resulting from interactions among pathogens, host responses, and environmental stressors</p>
-<p><span class="label">Proposed Solution:</span> However, substantial variation in disease severity persists among animals exposed to similar infectious challenges. To assess the contribution of the respiratory and gut microbiota to BRDC severity, we experimentally inoculated 28 calves with Mycoplasma bovis, bovine coronavirus (BCoV), and influenza D virus (IDV), with half receiving metaphylactic tilmicosin</p>
-<p><span class="label">Key Impact:</span> The stronger associations observed in the intestinal microbiota, along with links between gut bacteria, SCFAs, and disease outcomes, provide evidence for a functional gut-lung axis in calves and highlight microbial metabolism as a potential target for strategies to improve respiratory health and reduce antibiotic use</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.1101/2025.05.26.25328346v2">A prospective, comparative cohort analysis of influenza antibody waning in Michigan and Hong Kong during periods of low influenza circulation</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.05.26.25328346">10.1101/2025.05.26.25328346</a> · Score: <code>███░░░░░░░</code> 0.330</p>
-<p><span class="label">Core Problem:</span> Background: Reduced influenza transmission during the COVID-19 pandemic prompted concern about waning of population immunity that could lead to subsequent surges in circulation</p>
-<p><span class="label">Proposed Solution:</span> We compared longitudinal influenza antibody titers in Michigan and Hong Kong, two regions with reduced influenza transmission during the COVID-19 pandemic. Methods: In two prospective cohort studies (HIVE, Michigan; EPI-HK, Hong Kong), we analyzed longitudinal serum samples collected from 2020 through 2023 from participants without influenza infection or vaccination</p>
-<p><span class="label">Key Impact:</span> These findings suggest that population immunity was maintained for many strains despite reduced viral circulation, with waning occurring in particular strains and varying by population</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.11.758397v1">PlasmoRhythm: A comprehensive database for malaria-associated rhythmic transcripts, proteins, and metabolites</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.11.758397">10.64898/2026.10.11.758397</a> · Score: <code>███░░░░░░░</code> 0.273</p>
+<p><span class="label">Core Problem:</span> Abstract: Motivation: The malaria transmission cycle is temporally organized across three interacting biological systems: the parasite, vertebrate host, and mosquito vector</p>
+<p><span class="label">Proposed Solution:</span> Rhythms in parasite development, host physiology, and vector behavior govern infection dynamics, transmission, and the efficacy of stage-specific antimalarial interventions. However, the molecular architecture connecting these rhythms remains difficult to interrogate because time-resolved omics datasets are distributed across species, experimental paradigms, and analytical frameworks, with no unified resource for comparative analysis</p>
+<p><span class="label">Key Impact:</span> in/cgntlab/PlasmoRhythm/</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -873,6 +848,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.05.26.25328346">A prospective, comparative cohort analysis of influenza antibody waning in Michigan and Hong Kong during periods of low influenza circulation</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.14.759234">Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.758770">Genetically modified primary airway-epithelial cell culture models to study virus-host interactions of emerging respiratory viruses</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759607">Gut and nasal microbiome trajectories shape respiratory disease severity in calves exposed to antibiotic and pathogen challenge</a><span class="history-date">Oct 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759763">Cryo-EM Reveals VP1/VP2 N-Terminal Conformations in Adeno-Associated Virus 2 Capsids.</a><span class="history-date">Oct 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.15.26352859">DAMPA: compositionally optimised probe panel design for targeted metagenomics</a><span class="history-date">Oct 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.15.26365614">Municipality-level ecological analysis of COVID-19 mortality and infections in Austria, 2020 to 2023</a><span class="history-date">Oct 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.15.759028">A host enzyme pseudouridylates an RNA bacteriophage genome and accelerates virus production</a><span class="history-date">Oct 17, 2026</span></li>
@@ -1099,7 +1079,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-18T09:02:31 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-19T09:01:29 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

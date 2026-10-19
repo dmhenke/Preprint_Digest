@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-18T09:02:31.439365+00:00",
+  "generated_utc": "2026-10-19T09:01:29.077101+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Multiplex programming of mappable, molecularly tagged genomic deletions",
-          "doi": "10.64898/2026.10.13.758960",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758960v1",
+          "title": "Determinants of cysteine coverage by chemoproteomics",
+          "doi": "10.64898/2026.10.12.758458",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758458v1",
           "source": "biorxiv",
-          "score": 0.5227
+          "score": 0.4652
         },
         {
           "rank": 2,
-          "title": "Exploring the Upper Boundaries of Distance-Based Protein-Ligand Binding Affinity Prediction: Accuracy Improvements via Linear Regression and Artificial Neural Networks",
-          "doi": "10.1101/2025.10.07.680851",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680851v2",
+          "title": "DeepD enables efficient genome modeling and controllable long-context sequence generation across domains of life",
+          "doi": "10.64898/2026.10.13.758170",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758170v1",
           "source": "biorxiv",
-          "score": 0.482
+          "score": 0.4318
         },
         {
           "rank": 3,
-          "title": "Glycomics Profiling Reveals a Stromal Chondroitin-4-sulfate State that Shapes Platinum Response in Ovarian Cancer",
-          "doi": "10.1101/2025.10.06.675352",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.10.06.675352v2",
+          "title": "Sustained antigenic engagement programs multidimensional CTL states with distinct cytotoxic capacities",
+          "doi": "10.64898/2026.10.12.758563",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758563v1",
           "source": "biorxiv",
-          "score": 0.4272
+          "score": 0.4227
         },
         {
           "rank": 4,
-          "title": "Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing",
-          "doi": "10.64898/2026.10.13.758369",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758369v1",
+          "title": "Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction",
+          "doi": "10.64898/2026.10.12.758456",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758456v1",
           "source": "biorxiv",
-          "score": 0.4238
+          "score": 0.406
         },
         {
           "rank": 5,
-          "title": "Determining cellular phylogeny and migration at high resolution in spatial genomics",
-          "doi": "10.64898/2026.10.16.759405",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759405v1",
+          "title": "Scalable Enzyme Reaction Retrieval Enables Metagenomic Biocatalyst Discovery",
+          "doi": "10.64898/2026.10.15.759509",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759509v1",
           "source": "biorxiv",
-          "score": 0.3824
+          "score": 0.3862
         }
       ]
     },
@@ -51,43 +51,19 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Genetically modified primary airway-epithelial cell culture models to study virus-host interactions of emerging respiratory viruses",
-          "doi": "10.64898/2026.10.16.758770",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758770v1",
+          "title": "Pleiotropy links host axes of defense against a pathogen",
+          "doi": "10.64898/2026.10.12.758686",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758686v1",
           "source": "biorxiv",
-          "score": 0.4151
+          "score": 0.3248
         },
         {
           "rank": 2,
-          "title": "Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds",
-          "doi": "10.64898/2026.10.14.759234",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759234v1",
+          "title": "PlasmoRhythm: A comprehensive database for malaria-associated rhythmic transcripts, proteins, and metabolites",
+          "doi": "10.64898/2026.10.11.758397",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758397v1",
           "source": "biorxiv",
-          "score": 0.4002
-        },
-        {
-          "rank": 3,
-          "title": "Cryo-EM Reveals VP1/VP2 N-Terminal Conformations in Adeno-Associated Virus 2 Capsids.",
-          "doi": "10.64898/2026.10.16.759763",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759763v1",
-          "source": "biorxiv",
-          "score": 0.3631
-        },
-        {
-          "rank": 4,
-          "title": "Gut and nasal microbiome trajectories shape respiratory disease severity in calves exposed to antibiotic and pathogen challenge",
-          "doi": "10.64898/2026.10.16.759607",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759607v1",
-          "source": "biorxiv",
-          "score": 0.3429
-        },
-        {
-          "rank": 5,
-          "title": "A prospective, comparative cohort analysis of influenza antibody waning in Michigan and Hong Kong during periods of low influenza circulation",
-          "doi": "10.1101/2025.05.26.25328346",
-          "url": "https://www.medrxiv.org/content/10.1101/2025.05.26.25328346v2",
-          "source": "medrxiv",
-          "score": 0.3298
+          "score": 0.2732
         }
       ]
     }
