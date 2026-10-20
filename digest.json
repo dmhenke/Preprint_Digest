@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-19T09:01:29.077101+00:00",
+  "generated_utc": "2026-10-20T09:02:26.029537+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Determinants of cysteine coverage by chemoproteomics",
-          "doi": "10.64898/2026.10.12.758458",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758458v1",
+          "title": "Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation",
+          "doi": "10.64898/2026.10.16.759604",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759604v1",
           "source": "biorxiv",
-          "score": 0.4652
+          "score": 0.5362
         },
         {
           "rank": 2,
-          "title": "DeepD enables efficient genome modeling and controllable long-context sequence generation across domains of life",
-          "doi": "10.64898/2026.10.13.758170",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758170v1",
+          "title": "A synthetic MALDI-TOF MS atlas for microbial classification across hospitals",
+          "doi": "10.64898/2026.10.19.759651",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.759651v1",
           "source": "biorxiv",
-          "score": 0.4318
+          "score": 0.4935
         },
         {
           "rank": 3,
-          "title": "Sustained antigenic engagement programs multidimensional CTL states with distinct cytotoxic capacities",
-          "doi": "10.64898/2026.10.12.758563",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758563v1",
+          "title": "Survival-associated cellular communication networks in human solid cancers",
+          "doi": "10.64898/2026.10.16.759703",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759703v1",
           "source": "biorxiv",
-          "score": 0.4227
+          "score": 0.4646
         },
         {
           "rank": 4,
-          "title": "Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction",
-          "doi": "10.64898/2026.10.12.758456",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758456v1",
+          "title": "Cross-species transcriptomic atlas of X-linked Myotubular Myopathy identifies unique, treatment responsive myofiber populations",
+          "doi": "10.64898/2026.10.16.759495",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759495v1",
           "source": "biorxiv",
-          "score": 0.406
+          "score": 0.4614
         },
         {
           "rank": 5,
-          "title": "Scalable Enzyme Reaction Retrieval Enables Metagenomic Biocatalyst Discovery",
-          "doi": "10.64898/2026.10.15.759509",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759509v1",
-          "source": "biorxiv",
-          "score": 0.3862
+          "title": "Genetic determinants of protein phosphorylation in humans",
+          "doi": "10.64898/2026.10.17.26365814",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.17.26365814v1",
+          "source": "medrxiv",
+          "score": 0.4521
         }
       ]
     },
@@ -51,19 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Pleiotropy links host axes of defense against a pathogen",
-          "doi": "10.64898/2026.10.12.758686",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758686v1",
-          "source": "biorxiv",
-          "score": 0.3248
+          "title": "A nanopore-based amplicon-sequencing panel to determine the origin and zoonotic host species of Plasmodium knowlesi infections",
+          "doi": "10.64898/2026.10.16.26365752",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.16.26365752v1",
+          "source": "medrxiv",
+          "score": 0.5175
         },
         {
           "rank": 2,
-          "title": "PlasmoRhythm: A comprehensive database for malaria-associated rhythmic transcripts, proteins, and metabolites",
-          "doi": "10.64898/2026.10.11.758397",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758397v1",
+          "title": "Temporal dynamics of RNA phage infection reveal bacterial recovery despite ongoing viral replication",
+          "doi": "10.64898/2026.10.19.760031",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760031v1",
           "source": "biorxiv",
-          "score": 0.2732
+          "score": 0.4558
+        },
+        {
+          "rank": 3,
+          "title": "Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States",
+          "doi": "10.64898/2026.03.05.26345726",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.03.05.26345726v3",
+          "source": "medrxiv",
+          "score": 0.4046
+        },
+        {
+          "rank": 4,
+          "title": "Conserved patterns of mammal-microbe codiversification and interspecific bacterial sharing",
+          "doi": "10.64898/2026.10.16.759742",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759742v1",
+          "source": "biorxiv",
+          "score": 0.3959
+        },
+        {
+          "rank": 5,
+          "title": "Interactions between respiratory viruses in US adults and children: a prospective cohort study",
+          "doi": "10.64898/2026.10.15.26365672",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365672v1",
+          "source": "medrxiv",
+          "score": 0.391
         }
       ]
     }
