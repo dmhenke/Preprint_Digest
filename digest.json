@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-20T09:02:26.029537+00:00",
+  "generated_utc": "2026-10-21T09:02:46.580049+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation",
-          "doi": "10.64898/2026.10.16.759604",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759604v1",
+          "title": "A Multidimensional Arithmetical Ontology for High-Parameter Cytometry: Gaussian Primes and Cryptographic Hashing for Cell Population Standardization",
+          "doi": "10.64898/2026.10.14.758936",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758936v1",
           "source": "biorxiv",
-          "score": 0.5362
+          "score": 0.4742
         },
         {
           "rank": 2,
-          "title": "A synthetic MALDI-TOF MS atlas for microbial classification across hospitals",
-          "doi": "10.64898/2026.10.19.759651",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.759651v1",
+          "title": "Dawnn: single-cell differential abundance with neural networks for common and rare cell populations",
+          "doi": "10.1101/2023.05.05.539427",
+          "url": "https://www.biorxiv.org/content/10.1101/2023.05.05.539427v3",
           "source": "biorxiv",
-          "score": 0.4935
+          "score": 0.4608
         },
         {
           "rank": 3,
-          "title": "Survival-associated cellular communication networks in human solid cancers",
-          "doi": "10.64898/2026.10.16.759703",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759703v1",
+          "title": "MINT Block: multivariate integration across independent studies to identify multi-omics signatures",
+          "doi": "10.64898/2026.10.13.758954",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758954v1",
           "source": "biorxiv",
-          "score": 0.4646
+          "score": 0.4565
         },
         {
           "rank": 4,
-          "title": "Cross-species transcriptomic atlas of X-linked Myotubular Myopathy identifies unique, treatment responsive myofiber populations",
-          "doi": "10.64898/2026.10.16.759495",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759495v1",
+          "title": "X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement",
+          "doi": "10.64898/2026.10.13.756865",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.756865v1",
           "source": "biorxiv",
-          "score": 0.4614
+          "score": 0.4501
         },
         {
           "rank": 5,
-          "title": "Genetic determinants of protein phosphorylation in humans",
-          "doi": "10.64898/2026.10.17.26365814",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.17.26365814v1",
-          "source": "medrxiv",
-          "score": 0.4521
+          "title": "Evolution-Guided Engineering of Non-conserved N-Glycosylation Sites Improves Heterologous Production of Sulfotransferases",
+          "doi": "10.64898/2026.10.18.759982",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759982v1",
+          "source": "biorxiv",
+          "score": 0.4367
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "A nanopore-based amplicon-sequencing panel to determine the origin and zoonotic host species of Plasmodium knowlesi infections",
-          "doi": "10.64898/2026.10.16.26365752",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.16.26365752v1",
-          "source": "medrxiv",
-          "score": 0.5175
+          "title": "An ONT sequencing framework for hantavirus genome assembly, variant analysis, and defective viral genome characterization from whole-segment amplicons",
+          "doi": "10.64898/2026.10.19.760236",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760236v1",
+          "source": "biorxiv",
+          "score": 0.4128
         },
         {
           "rank": 2,
-          "title": "Temporal dynamics of RNA phage infection reveal bacterial recovery despite ongoing viral replication",
-          "doi": "10.64898/2026.10.19.760031",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760031v1",
+          "title": "Ursolic Acid Inhibits Rotavirus Replication Through Modulation Of Lipid Droplet Homeostasis",
+          "doi": "10.64898/2026.04.13.718265",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718265v2",
           "source": "biorxiv",
-          "score": 0.4558
+          "score": 0.3726
         },
         {
           "rank": 3,
-          "title": "Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States",
-          "doi": "10.64898/2026.03.05.26345726",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.03.05.26345726v3",
+          "title": "Relapse and delay-induced dynamics in human-to-human Nipah virus transmission: a mathematical modeling study",
+          "doi": "10.64898/2026.03.02.26347485",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.03.02.26347485v4",
           "source": "medrxiv",
-          "score": 0.4046
+          "score": 0.3685
         },
         {
           "rank": 4,
-          "title": "Conserved patterns of mammal-microbe codiversification and interspecific bacterial sharing",
-          "doi": "10.64898/2026.10.16.759742",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759742v1",
+          "title": "Trade-offs between eradication and containment for emerging plant disease outbreaks: insights from a model of citrus Huanglongbing in the European Union",
+          "doi": "10.64898/2026.10.19.760060",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760060v1",
           "source": "biorxiv",
-          "score": 0.3959
+          "score": 0.362
         },
         {
           "rank": 5,
-          "title": "Interactions between respiratory viruses in US adults and children: a prospective cohort study",
-          "doi": "10.64898/2026.10.15.26365672",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365672v1",
-          "source": "medrxiv",
-          "score": 0.391
+          "title": "The impact of strain heterogeneity on genomic profiling accuracy in mixed-strain Escherichia coli metagenomes",
+          "doi": "10.64898/2026.10.19.760091",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760091v1",
+          "source": "biorxiv",
+          "score": 0.3536
         }
       ]
     }

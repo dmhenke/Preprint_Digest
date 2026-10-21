@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 20, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 21, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation</a></li>
-  <li><a href="#core-article-2">A synthetic MALDI-TOF MS atlas for microbial classification across hospitals</a></li>
-  <li><a href="#core-article-3">Survival-associated cellular communication networks in human solid cancers</a></li>
-  <li><a href="#core-article-4">Cross-species transcriptomic atlas of X-linked Myotubular Myopathy identifies unique, treatment responsive myofiber populations</a></li>
-  <li><a href="#core-article-5">Genetic determinants of protein phosphorylation in humans</a></li>
+  <li><a href="#core-article-1">A Multidimensional Arithmetical Ontology for High-Parameter Cytometry: Gaussian Primes and Cryptographic Hashing for Cell Population Standardization</a></li>
+  <li><a href="#core-article-2">Dawnn: single-cell differential abundance with neural networks for common and rare cell populations</a></li>
+  <li><a href="#core-article-3">MINT Block: multivariate integration across independent studies to identify multi-omics signatures</a></li>
+  <li><a href="#core-article-4">X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement</a></li>
+  <li><a href="#core-article-5">Evolution-Guided Engineering of Non-conserved N-Glycosylation Sites Improves Heterologous Production of Sulfotransferases</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759604v1">Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759604">10.64898/2026.10.16.759604</a> · Score: <code>█████░░░░░</code> 0.536</p>
-<p><span class="label">Core Problem:</span> Perturbation prediction models - which forecast transcriptional responses to gene inactivation - are increasingly proposed as in silico surrogates for genome-scale drug discovery screens</p>
-<p><span class="label">Proposed Solution:</span> Yet, rigorous evaluation of whether these models genuinely generalize beyond their training distribution has been lacking. Existing benchmarks rely predominantly on random train-test splits, obscuring systematic failure modes that only emerge under realistic out-of-distribution (OOD) conditions</p>
-<p><span class="label">Key Impact:</span> EL-PERTURB establishes a rigorous benchmark for perturbation effect prediction across a gradient of generalization difficulty, providing a guide for building models that can genuinely serve as surrogates for wet-lab screening</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.14.758936v1">A Multidimensional Arithmetical Ontology for High-Parameter Cytometry: Gaussian Primes and Cryptographic Hashing for Cell Population Standardization</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.14.758936">10.64898/2026.10.14.758936</a> · Score: <code>█████░░░░░</code> 0.474</p>
+<p><span class="label">Core Problem:</span> Background</p>
+<p><span class="label">Proposed Solution:</span> The rapid expansion of high-dimensional single-cell technologies has outpaced the development of standardized metadata infrastructure. Current text-based nomenclature for cell populations and gating strategies lacks computational rigor, hindering cross-study reproducibility and automated machine learning</p>
+<p><span class="label">Key Impact:</span> The ontology eliminates nomenclature ambiguity and opens the way to machine learning interoperability and centralized global cytometry databases</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.759651v1">A synthetic MALDI-TOF MS atlas for microbial classification across hospitals</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.759651">10.64898/2026.10.19.759651</a> · Score: <code>█████░░░░░</code> 0.493</p>
-<p><span class="label">Core Problem:</span> Matrix-Assisted Laser Desorption/Ionization Time-of-Flight (MALDI-TOF) mass spectrometry (MS) is central to routine clinical microbiology for species identification</p>
-<p><span class="label">Proposed Solution:</span> Its combination with machine learning is constrained by fragmented public datasets, species imbalance and acquisition-related variability. Synthetic datasets could provide more training data, but they must preserve the spectral information needed to make predictions on real samples</p>
-<p><span class="label">Key Impact:</span> It can also be explored for pretraining representation-learning and foundation models in MALDI-TOF MS research</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2023.05.05.539427v3">Dawnn: single-cell differential abundance with neural networks for common and rare cell populations</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2023.05.05.539427">10.1101/2023.05.05.539427</a> · Score: <code>█████░░░░░</code> 0.461</p>
+<p><span class="label">Core Problem:</span> A common task in single-cell transcriptomics is the identification of cell populations, often defined by their cell state or type, that are more abundant in one sample or condition than another</p>
+<p><span class="label">Proposed Solution:</span> Existing methods, however, suffer from either low discovery rates or high rates of false positives, particularly when differences in abundance are confined to some cell states or types or stemming from rare cell populations. We introduce Dawnn, a pre-trained neural network able to find differential abundance with higher accuracy than current tools, both on simulated and biological datasets</p>
+<p><span class="label">Key Impact:</span> We thus advance the identification of abundance changes in cell populations, regardless of how prevalent the differences and populations are, promising novel biological insights at single-cell resolution</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759703v1">Survival-associated cellular communication networks in human solid cancers</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759703">10.64898/2026.10.16.759703</a> · Score: <code>█████░░░░░</code> 0.465</p>
-<p><span class="label">Core Problem:</span> Single-cell atlases have enabled the prediction of human cell-cell communication (CCC) networks in cancer, but whether predicted communication networks have clinical significance is not well understood</p>
-<p><span class="label">Proposed Solution:</span> Here, we integrated a pan-solid cancer scRNA-seq atlas comprising 78 cell types from 318,426 quality-controlled cells with bulk RNA-seq and clinical outcome data from The Cancer Genome Atlas (TCGA) to develop Single-cell-based Kaplan-Meier Analysis Network (SKyNet). SKyNet prioritizes ligand-receptor interactions associated with overall survival across 11 human solid cancers, predicting unique interactions not inferred by previous CCC algorithms</p>
-<p><span class="label">Key Impact:</span> Thus, SKyNet provides a hypothesis-generating framework for cell type-specific communication pathways associated with patient outcomes</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.13.758954v1">MINT Block: multivariate integration across independent studies to identify multi-omics signatures</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.13.758954">10.64898/2026.10.13.758954</a> · Score: <code>█████░░░░░</code> 0.456</p>
+<p><span class="label">Core Problem:</span> Integrative multi-omics analyses can identify molecular signatures spanning multiple layers of a biological system</p>
+<p><span class="label">Proposed Solution:</span> However, signatures derived from datasets with small sample sizes may not generalise. Combining data from multiple independent studies can increase the available sample size, but may also introduce unwanted variation arising from study-specific differences</p>
+<p><span class="label">Key Impact:</span> Across these applications, we showed that MINT Block identified stable, interpretable molecular signatures and improves prediction accuracy compared with existing sequential approaches</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759495v1">Cross-species transcriptomic atlas of X-linked Myotubular Myopathy identifies unique, treatment responsive myofiber populations</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759495">10.64898/2026.10.16.759495</a> · Score: <code>█████░░░░░</code> 0.461</p>
-<p><span class="label">Core Problem:</span> X-linked myotubular myopathy (XLMTM) is a congenital muscle disease caused by loss-of-function variants in MTM1, leading to profound skeletal muscle weakness and early mortality</p>
-<p><span class="label">Proposed Solution:</span> Centrally nucleated muscle fibers are the pathologic hallmark of the disease; however, the identity of these fibers and their contribution to the disease process are unknown. We sought to elucidate the unique cellular identity of XLMTM myofibers by creating a transcriptional atlas</p>
-<p><span class="label">Key Impact:</span> the molecular identity of the unusual appearing pathognomonic muscle fibers in XLMTM), provide a framework for understanding transcriptional reprogramming of the XLMTM myonuclear niche, and identify discrete, treatment responsive populations that drive disease pathology</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.13.756865v1">X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.13.756865">10.64898/2026.10.13.756865</a> · Score: <code>█████░░░░░</code> 0.450</p>
+<p><span class="label">Core Problem:</span> Targeted spatial transcriptomics platforms such as Xenium require a predefined gene panel, and the genes in that panel are detected less efficiently, and to gene-specific degrees, in the spatial assay than in the single-cell reference used to choose them</p>
+<p><span class="label">Proposed Solution:</span> We present X-SPEAR, a framework that couples DART marker selection with probe-level off-target assessment. DART learns short, interpretable Boolean gene rules and assembles several gene-disjoint rules per cell type</p>
+<p><span class="label">Key Impact:</span> X-SPEAR is available as an open-source Python package</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.10.17.26365814v1">Genetic determinants of protein phosphorylation in humans</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.17.26365814">10.64898/2026.10.17.26365814</a> · Score: <code>█████░░░░░</code> 0.452</p>
-<p><span class="label">Core Problem:</span> Genetic studies of protein abundances are a powerful approach for linking disease-associated genetic variants to potential drug targets</p>
-<p><span class="label">Proposed Solution:</span> However, these studies do not capture the functional state of the proteome and may therefore miss biological mechanisms. Post-translational modifications, particularly phosphorylation, often drive these mechanisms and control protein activity independently of protein abundance</p>
-<p><span class="label">Key Impact:</span> These findings establish protein phosphorylation as a distinct, informative molecular phenotype for GWAS, linking genetic variation, cellular signalling, and human disease risk</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.18.759982v1">Evolution-Guided Engineering of Non-conserved N-Glycosylation Sites Improves Heterologous Production of Sulfotransferases</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.18.759982">10.64898/2026.10.18.759982</a> · Score: <code>████░░░░░░</code> 0.437</p>
+<p><span class="label">Core Problem:</span> Escherichia coli features low cost, mature fermentation technology and high recombinant protein output, but the expression of glycosylation-dependent eukaryotic proteins therein is severely limited</p>
+<p><span class="label">Proposed Solution:</span> Many glycosylated proteins are key tool enzymes for the biosynthesis of various pharmaceutical molecules, such as glycosaminoglycan-related synthases, but there is a lack of universal protein engineering methods to enable the adaptive evolution of these enzymes in E. coli</p>
+<p><span class="label">Key Impact:</span> Collectively, these results establish EGO-NGly as a practical and potentially cost-effective engineering strategy for improving the prokaryotic expression and functional performance of selected glycosylation-dependent eukaryotic sulfotransferases</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.16.759495">Cross-species transcriptomic atlas of X-linked Myotubular Myopathy identifies unique, treatment responsive myofiber populations</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759604">Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759703">Survival-associated cellular communication networks in human solid cancers</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.17.26365814">Genetic determinants of protein phosphorylation in humans</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.759651">A synthetic MALDI-TOF MS atlas for microbial classification across hospitals</a><span class="history-date">Oct 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.12.758456">Beyond Better Models: Barriers and a Path Forward in Generalisable TCR Antigen Specificity Prediction</a><span class="history-date">Oct 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.12.758458">Determinants of cysteine coverage by chemoproteomics</a><span class="history-date">Oct 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.12.758563">Sustained antigenic engagement programs multidimensional CTL states with distinct cytotoxic capacities</a><span class="history-date">Oct 19, 2026</span></li>
@@ -825,64 +830,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">A nanopore-based amplicon-sequencing panel to determine the origin and zoonotic host species of Plasmodium knowlesi infections</a></li>
-  <li><a href="#virology-article-2">Temporal dynamics of RNA phage infection reveal bacterial recovery despite ongoing viral replication</a></li>
-  <li><a href="#virology-article-3">Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States</a></li>
-  <li><a href="#virology-article-4">Conserved patterns of mammal-microbe codiversification and interspecific bacterial sharing</a></li>
-  <li><a href="#virology-article-5">Interactions between respiratory viruses in US adults and children: a prospective cohort study</a></li>
+  <li><a href="#virology-article-1">An ONT sequencing framework for hantavirus genome assembly, variant analysis, and defective viral genome characterization from whole-segment amplicons</a></li>
+  <li><a href="#virology-article-2">Ursolic Acid Inhibits Rotavirus Replication Through Modulation Of Lipid Droplet Homeostasis</a></li>
+  <li><a href="#virology-article-3">Relapse and delay-induced dynamics in human-to-human Nipah virus transmission: a mathematical modeling study</a></li>
+  <li><a href="#virology-article-4">Trade-offs between eradication and containment for emerging plant disease outbreaks: insights from a model of citrus Huanglongbing in the European Union</a></li>
+  <li><a href="#virology-article-5">The impact of strain heterogeneity on genomic profiling accuracy in mixed-strain Escherichia coli metagenomes</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.16.26365752v1">A nanopore-based amplicon-sequencing panel to determine the origin and zoonotic host species of Plasmodium knowlesi infections</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.26365752">10.64898/2026.10.16.26365752</a> · Score: <code>█████░░░░░</code> 0.517</p>
-<p><span class="label">Core Problem:</span> Population genomic studies have revealed strong regional structure in Plasmodium knowlesi across Southeast Asia</p>
-<p><span class="label">Proposed Solution:</span> To facilitate routine genomic surveillance, we developed a targeted amplicon sequencing panel that preserves the large- and small-scale population genetic structure. We screened published genomes for short, highly polymorphic targets and a 30-SNP barcode</p>
-<p><span class="label">Key Impact:</span> In conclusion, targeted sequencing can reveal geographically informative population structure across scales and thus support surveillance</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760236v1">An ONT sequencing framework for hantavirus genome assembly, variant analysis, and defective viral genome characterization from whole-segment amplicons</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760236">10.64898/2026.10.19.760236</a> · Score: <code>████░░░░░░</code> 0.413</p>
+<p><span class="label">Core Problem:</span> Orthohantaviruses are zoonotic, tri-segmented negative-sense RNA viruses of rodents and other small mammals that can cause severe human disease</p>
+<p><span class="label">Proposed Solution:</span> Whole genome sequencing remains difficult because of low viral loads, high sequence diversity, and an inherent instability of the viral L segment. Current tiled amplicon and hybrid-capture approaches do not capture the heterogeneity of virus populations, including defective viral genomes (DVGs), which have never been described for hantaviruses</p>
+<p><span class="label">Key Impact:</span> Together, this work provides a low-cost, broadly applicable and easily customisable workflow for hantavirus genomics and reveals DVGs as a previously unrecognized feature of hantavirus populations</p>
 <p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760031v1">Temporal dynamics of RNA phage infection reveal bacterial recovery despite ongoing viral replication</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760031">10.64898/2026.10.19.760031</a> · Score: <code>█████░░░░░</code> 0.456</p>
-<p><span class="label">Core Problem:</span> Bacterial defenses against DNA phages are well documented, yet responses to RNA phages remain largely unexplored</p>
-<p><span class="label">Proposed Solution:</span> Here, we characterize the population dynamics and host responses of Escherichia coli infected by the lytic RNA phage MS2 across multiple timescales, using bulk and single-cell transcriptomics, fluorescence microscopy, whole-genome sequencing, and genetic perturbations. Despite rapid viral takeover and extensive cell death, the bacterial population subsequently rebounds, revealing an unusual state in which host proliferation persists under intense phage pressure</p>
-<p><span class="label">Key Impact:</span> Our results suggest that bacterial survival is determined by a dynamic race between viral lysis and host-cell division</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.04.13.718265v2">Ursolic Acid Inhibits Rotavirus Replication Through Modulation Of Lipid Droplet Homeostasis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.13.718265">10.64898/2026.04.13.718265</a> · Score: <code>████░░░░░░</code> 0.373</p>
+<p><span class="label">Core Problem:</span> Rotavirus (RV) replication occurs within viroplasms (VP), which are globular, membrane-less cytosolic inclusions primarily assembled by the viral NSP5 and NSP2 proteins</p>
+<p><span class="label">Proposed Solution:</span> Among host factors, lipid droplets (LD) are strictly required for VP biogenesis. LD are ubiquitous organelles consisting of a neutral lipid core surrounded by a phospholipid monolayer and associated proteins</p>
+<p><span class="label">Key Impact:</span> This dual effect leads to LD depletion, thereby impairing VP formation and ultimately inhibiting RV replication</p>
+<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.03.05.26345726v3">Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.03.05.26345726">10.64898/2026.03.05.26345726</a> · Score: <code>████░░░░░░</code> 0.405</p>
-<p><span class="label">Core Problem:</span> Wastewater monitoring enables non-invasive, population-scale tracking of community infections independent of healthcare-seeking behavior and clinical diagnosis</p>
-<p><span class="label">Proposed Solution:</span> Metagenomic sequencing extends this capability by enabling broad, pathogen-agnostic detection of hundreds of viral taxa, including emerging threats. Here, we present data from CASPER (the Coalition for Agnostic Sequencing of Pathogens from Environmental Reservoirs), a U</p>
-<p><span class="label">Key Impact:</span> As the largest publicly available untargeted wastewater sequencing dataset to date, CASPER provides a shared and growing resource for pathogen surveillance and microbial ecology</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.03.02.26347485v4">Relapse and delay-induced dynamics in human-to-human Nipah virus transmission: a mathematical modeling study</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.03.02.26347485">10.64898/2026.03.02.26347485</a> · Score: <code>████░░░░░░</code> 0.368</p>
+<p><span class="label">Core Problem:</span> Nipah virus (NiV) exhibits complex transmission dynamics shaped by infection-to-transmission delays, relapse, and delayed-onset neurological complications following recovery</p>
+<p><span class="label">Proposed Solution:</span> The epidemiological consequences of these temporal processes, particularly how they jointly shape NiV dynamics, remain poorly characterized. We develop a delay differential equation model for human-to-human NiV transmission incorporating an effective population-level infection-to-transmission delay, immediate relapse, and delayed encephalitis relapse</p>
+<p><span class="label">Key Impact:</span> Delays and relapse-mediated feedback can generate transient waves even when $\mathcal{R}_h &lt; 1$, underscoring the importance of monitoring recovered individuals</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759742v1">Conserved patterns of mammal-microbe codiversification and interspecific bacterial sharing</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759742">10.64898/2026.10.16.759742</a> · Score: <code>████░░░░░░</code> 0.396</p>
-<p><span class="label">Core Problem:</span> What determines whether a gut microbial lineage has fidelity to one host species or is shared freely across multiple species? Factors that predict microbial community composition, including host species, diet, and environmental variation, have been well documented in wild animals</p>
-<p><span class="label">Proposed Solution:</span> However, the eco-evolutionary processes maintaining host species- or population-specific microbial lineages remain unresolved. Here, we analyze 519 gut microbiome samples collected from 15 species of wild rodents across two mountains in the Madrean Sky Islands of southeastern Arizona using full-length 16S rRNA sequencing</p>
-<p><span class="label">Key Impact:</span> The cost-effectiveness of long-read amplicon sequencing for phylogenetic inference within bacterial species opens new opportunities for large-scale evolutionary and ecological studies of host-microbe interactions in wildlife</p>
-<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760060v1">Trade-offs between eradication and containment for emerging plant disease outbreaks: insights from a model of citrus Huanglongbing in the European Union</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760060">10.64898/2026.10.19.760060</a> · Score: <code>████░░░░░░</code> 0.362</p>
+<p><span class="label">Core Problem:</span> Invasive plant disease epidemics threaten both agricultural and natural ecosystems</p>
+<p><span class="label">Proposed Solution:</span> Managing emerging disease outbreaks requires balancing opportunities for eradication against negative externalities, such as agricultural losses, that aggressive control imposes on affected landscapes. Crucially, epidemiological uncertainty, stochastic epidemic dynamics and the intrinsic difficulty of eradication can result in failed campaigns</p>
+<p><span class="label">Key Impact:</span> Delaying the transition substantially affects these benefits, highlighting the importance of timely decisions to abandon unsuccessful eradication campaigns</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.10.15.26365672v1">Interactions between respiratory viruses in US adults and children: a prospective cohort study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.15.26365672">10.64898/2026.10.15.26365672</a> · Score: <code>████░░░░░░</code> 0.391</p>
-<p><span class="label">Core Problem:</span> Background: The relationship between recent viral infection and subsequent susceptibility to, or protection against, other viruses remains unclear, particularly across ages and symptom status</p>
-<p><span class="label">Proposed Solution:</span> Methods: A prospective cohort study enrolled participants aged 6 months to 49 years in Washington and Oregon, USA, 2022-2024. Weekly nasal swabs were tested for SARS-CoV-2, respiratory syncytial virus (RSV), and influenza A/B; additional swabs were collected during symptomatic illness and were also tested for parainfluenza (PIV) 1-4, endemic human coronaviruses (hCOV), adenovirus, human metapneumovirus, human rhinovirus (hRV), and enteroviruses</p>
-<p><span class="label">Key Impact:</span> Funding: US Centers for Disease Control and Prevention; Washington State Department of Health</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760091v1">The impact of strain heterogeneity on genomic profiling accuracy in mixed-strain Escherichia coli metagenomes</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760091">10.64898/2026.10.19.760091</a> · Score: <code>████░░░░░░</code> 0.354</p>
+<p><span class="label">Core Problem:</span> Metagenomic sequencing is increasingly used for surveillance of bacterial populations, enabling simultaneous characterisation of antimicrobial resistance, virulence, and epidemiologically relevant strain markers</p>
+<p><span class="label">Proposed Solution:</span> However, the ability of commonly used bioinformatic tools to recover these features from heterogeneous populations remains incompletely understood. Here, we developed a controlled benchmarking framework based on simulated single-species Escherichia coli metagenomes generated from genomes with PCR-determined annotations</p>
+<p><span class="label">Key Impact:</span> More broadly, the results highlight current limitations in resolving strain composition from metagenomic data and provide a framework for investigating the abundance thresholds and population structures required for reliable strain-resolved surveillance</p>
+<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.03.05.26345726">Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.15.26365672">Interactions between respiratory viruses in US adults and children: a prospective cohort study</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.26365752">A nanopore-based amplicon-sequencing panel to determine the origin and zoonotic host species of Plasmodium knowlesi infections</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759742">Conserved patterns of mammal-microbe codiversification and interspecific bacterial sharing</a><span class="history-date">Oct 20, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.760031">Temporal dynamics of RNA phage infection reveal bacterial recovery despite ongoing viral replication</a><span class="history-date">Oct 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.11.758397">PlasmoRhythm: A comprehensive database for malaria-associated rhythmic transcripts, proteins, and metabolites</a><span class="history-date">Oct 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.12.758686">Pleiotropy links host axes of defense against a pathogen</a><span class="history-date">Oct 19, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.05.26.25328346">A prospective, comparative cohort analysis of influenza antibody waning in Michigan and Hong Kong during periods of low influenza circulation</a><span class="history-date">Oct 18, 2026</span></li>
@@ -1116,7 +1126,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-20T09:02:25 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-21T09:02:46 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
