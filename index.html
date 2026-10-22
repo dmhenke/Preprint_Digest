@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 21, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 22, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">A Multidimensional Arithmetical Ontology for High-Parameter Cytometry: Gaussian Primes and Cryptographic Hashing for Cell Population Standardization</a></li>
-  <li><a href="#core-article-2">Dawnn: single-cell differential abundance with neural networks for common and rare cell populations</a></li>
-  <li><a href="#core-article-3">MINT Block: multivariate integration across independent studies to identify multi-omics signatures</a></li>
-  <li><a href="#core-article-4">X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement</a></li>
-  <li><a href="#core-article-5">Evolution-Guided Engineering of Non-conserved N-Glycosylation Sites Improves Heterologous Production of Sulfotransferases</a></li>
+  <li><a href="#core-article-1">Sequencing-Free Protospacer-Adjacent Motif Discovery for Uncharacterized CRISPR-Cas9 Orthologs via Active Learning</a></li>
+  <li><a href="#core-article-2">Metagenomic contextualization of proteins with state space models</a></li>
+  <li><a href="#core-article-3">Genome-scale base editing reveals the functional effects of variants in yeast</a></li>
+  <li><a href="#core-article-4">Combining RNA-seq and proteomics boosts sensitivity to detect differentially expressed genes by rpMeta</a></li>
+  <li><a href="#core-article-5">Robust Identification of Drug Mechanism of Action Associated Genes Across Heterogeneous Drug Treated Datasets</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.14.758936v1">A Multidimensional Arithmetical Ontology for High-Parameter Cytometry: Gaussian Primes and Cryptographic Hashing for Cell Population Standardization</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.14.758936">10.64898/2026.10.14.758936</a> · Score: <code>█████░░░░░</code> 0.474</p>
-<p><span class="label">Core Problem:</span> Background</p>
-<p><span class="label">Proposed Solution:</span> The rapid expansion of high-dimensional single-cell technologies has outpaced the development of standardized metadata infrastructure. Current text-based nomenclature for cell populations and gating strategies lacks computational rigor, hindering cross-study reproducibility and automated machine learning</p>
-<p><span class="label">Key Impact:</span> The ontology eliminates nomenclature ambiguity and opens the way to machine learning interoperability and centralized global cytometry databases</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760532v1">Sequencing-Free Protospacer-Adjacent Motif Discovery for Uncharacterized CRISPR-Cas9 Orthologs via Active Learning</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760532">10.64898/2026.10.20.760532</a> · Score: <code>█████░░░░░</code> 0.483</p>
+<p><span class="label">Core Problem:</span> Cas9 nucleases, essential components of gene editing, recognize target DNA through a Protospacer-Adjacent Motif (PAM) and cleave only if recognition succeeds</p>
+<p><span class="label">Proposed Solution:</span> Metagenomic searches and generative protein models currently produce novel CRISPR-Cas9 orthologs at scale, but their adoption in practice is limited by a laborious and data-intensive PAM characterization step which requires exhaustive in vitro and/or in vivo screens followed by sequencing. We present a workflow that reduces PAM discovery to a handful of iterative cleavage assays, guided by an active learning algorithm prioritizing the most informative candidate sequences</p>
+<p><span class="label">Key Impact:</span> The approach eliminates the need for sequencing during discovery and delivers accurate PAM maps, thus resolving the bottleneck limiting the practical use of data-mined or computationally designed variants of Cas9 - the most commonly used class of genome editing effectors</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2023.05.05.539427v3">Dawnn: single-cell differential abundance with neural networks for common and rare cell populations</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2023.05.05.539427">10.1101/2023.05.05.539427</a> · Score: <code>█████░░░░░</code> 0.461</p>
-<p><span class="label">Core Problem:</span> A common task in single-cell transcriptomics is the identification of cell populations, often defined by their cell state or type, that are more abundant in one sample or condition than another</p>
-<p><span class="label">Proposed Solution:</span> Existing methods, however, suffer from either low discovery rates or high rates of false positives, particularly when differences in abundance are confined to some cell states or types or stemming from rare cell populations. We introduce Dawnn, a pre-trained neural network able to find differential abundance with higher accuracy than current tools, both on simulated and biological datasets</p>
-<p><span class="label">Key Impact:</span> We thus advance the identification of abundance changes in cell populations, regardless of how prevalent the differences and populations are, promising novel biological insights at single-cell resolution</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.07.07.736993v2">Metagenomic contextualization of proteins with state space models</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.07.736993">10.64898/2026.07.07.736993</a> · Score: <code>█████░░░░░</code> 0.462</p>
+<p><span class="label">Core Problem:</span> Genomic foundation models have emerged as powerful tools for learning representations of biological sequences, but existing approaches predominantly rely on Transformer architectures, whose quadratic attention complexity limits their ability to capture long-range genomic context</p>
+<p><span class="label">Proposed Solution:</span> This limitation is particularly relevant for metagenomics, where sequencing data have increased more than 500-fold since 2011, generating increasingly large and diverse datasets. For example, gLM2, a Transformer-based mixed-modality genomic language model, was trained with a context window of 4,096 tokens, limiting its ability to capture extended genomic context within metagenomic contigs</p>
+<p><span class="label">Key Impact:</span> Together, these results demonstrate the potential of state-space architectures for scalable, multimodal genomic representation learning and highlight their ability to support accurate taxonomic and functional predictions from metagenomic sequences</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.13.758954v1">MINT Block: multivariate integration across independent studies to identify multi-omics signatures</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.13.758954">10.64898/2026.10.13.758954</a> · Score: <code>█████░░░░░</code> 0.456</p>
-<p><span class="label">Core Problem:</span> Integrative multi-omics analyses can identify molecular signatures spanning multiple layers of a biological system</p>
-<p><span class="label">Proposed Solution:</span> However, signatures derived from datasets with small sample sizes may not generalise. Combining data from multiple independent studies can increase the available sample size, but may also introduce unwanted variation arising from study-specific differences</p>
-<p><span class="label">Key Impact:</span> Across these applications, we showed that MINT Block identified stable, interpretable molecular signatures and improves prediction accuracy compared with existing sequential approaches</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760269v1">Genome-scale base editing reveals the functional effects of variants in yeast</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760269">10.64898/2026.10.19.760269</a> · Score: <code>█████░░░░░</code> 0.456</p>
+<p><span class="label">Core Problem:</span> Genome sequencing has catalogued vast genetic diversity, but the functional consequences of most variants remain unknown</p>
+<p><span class="label">Proposed Solution:</span> Here, we used genome-scale CRISPR base editing to measure the growth effects of 308,461 variants across coding and noncoding regions of the yeast genome. We identified 18,009 variants with significant effects, including 17,784 that reduce growth and 225 that increase it</p>
+<p><span class="label">Key Impact:</span> Our results establish genome-scale base editing as a systematic approach for linking genotype to phenotype at nucleotide resolution</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.13.756865v1">X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.13.756865">10.64898/2026.10.13.756865</a> · Score: <code>█████░░░░░</code> 0.450</p>
-<p><span class="label">Core Problem:</span> Targeted spatial transcriptomics platforms such as Xenium require a predefined gene panel, and the genes in that panel are detected less efficiently, and to gene-specific degrees, in the spatial assay than in the single-cell reference used to choose them</p>
-<p><span class="label">Proposed Solution:</span> We present X-SPEAR, a framework that couples DART marker selection with probe-level off-target assessment. DART learns short, interpretable Boolean gene rules and assembles several gene-disjoint rules per cell type</p>
-<p><span class="label">Key Impact:</span> X-SPEAR is available as an open-source Python package</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.15.758995v1">Combining RNA-seq and proteomics boosts sensitivity to detect differentially expressed genes by rpMeta</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.15.758995">10.64898/2026.10.15.758995</a> · Score: <code>█████░░░░░</code> 0.454</p>
+<p><span class="label">Core Problem:</span> Differential gene expression analysis is a powerful technique to characterize biological systems</p>
+<p><span class="label">Proposed Solution:</span> Differentially expressed genes (DEGs) are commonly identified by analysis of RNA sequencing datasets or mass spectrometry proteomics datasets. Increasingly, multi-omic studies include both RNA sequencing and proteomics from the same biospecimens</p>
+<p><span class="label">Key Impact:</span> com/zhangx8/rpMeta</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.18.759982v1">Evolution-Guided Engineering of Non-conserved N-Glycosylation Sites Improves Heterologous Production of Sulfotransferases</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.18.759982">10.64898/2026.10.18.759982</a> · Score: <code>████░░░░░░</code> 0.437</p>
-<p><span class="label">Core Problem:</span> Escherichia coli features low cost, mature fermentation technology and high recombinant protein output, but the expression of glycosylation-dependent eukaryotic proteins therein is severely limited</p>
-<p><span class="label">Proposed Solution:</span> Many glycosylated proteins are key tool enzymes for the biosynthesis of various pharmaceutical molecules, such as glycosaminoglycan-related synthases, but there is a lack of universal protein engineering methods to enable the adaptive evolution of these enzymes in E. coli</p>
-<p><span class="label">Key Impact:</span> Collectively, these results establish EGO-NGly as a practical and potentially cost-effective engineering strategy for improving the prokaryotic expression and functional performance of selected glycosylation-dependent eukaryotic sulfotransferases</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.15.759469v1">Robust Identification of Drug Mechanism of Action Associated Genes Across Heterogeneous Drug Treated Datasets</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.15.759469">10.64898/2026.10.15.759469</a> · Score: <code>█████░░░░░</code> 0.452</p>
+<p><span class="label">Core Problem:</span> Identifying genes associated with the mechanism of action (MOA) of anticancer therapies is essential for understanding drug response</p>
+<p><span class="label">Proposed Solution:</span> Functional genomics approaches, including genome-wide CRISPR knock out screens, enable systematic gene prioritization following treatment; however, findings from individual datasets are typically interpreted after identifying overlapping genes across datasets to confirm biological hypotheses. Integrating such heterogeneous datasets remains challenging due to variability across experimental conditions</p>
+<p><span class="label">Key Impact:</span> These findings demonstrate that modelling between-study variability improves identification and prioritization of MOA-associated genes and provides a robust strategy for integrating heterogeneous functional genomics data in precision oncology</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2023.05.05.539427">Dawnn: single-cell differential abundance with neural networks for common and rare cell populations</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.13.756865">X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.13.758954">MINT Block: multivariate integration across independent studies to identify multi-omics signatures</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.14.758936">A Multidimensional Arithmetical Ontology for High-Parameter Cytometry: Gaussian Primes and Cryptographic Hashing for Cell Population Standardization</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.18.759982">Evolution-Guided Engineering of Non-conserved N-Glycosylation Sites Improves Heterologous Production of Sulfotransferases</a><span class="history-date">Oct 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.16.759495">Cross-species transcriptomic atlas of X-linked Myotubular Myopathy identifies unique, treatment responsive myofiber populations</a><span class="history-date">Oct 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.16.759604">Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation</a><span class="history-date">Oct 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.16.759703">Survival-associated cellular communication networks in human solid cancers</a><span class="history-date">Oct 20, 2026</span></li>
@@ -830,64 +835,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">An ONT sequencing framework for hantavirus genome assembly, variant analysis, and defective viral genome characterization from whole-segment amplicons</a></li>
-  <li><a href="#virology-article-2">Ursolic Acid Inhibits Rotavirus Replication Through Modulation Of Lipid Droplet Homeostasis</a></li>
-  <li><a href="#virology-article-3">Relapse and delay-induced dynamics in human-to-human Nipah virus transmission: a mathematical modeling study</a></li>
-  <li><a href="#virology-article-4">Trade-offs between eradication and containment for emerging plant disease outbreaks: insights from a model of citrus Huanglongbing in the European Union</a></li>
-  <li><a href="#virology-article-5">The impact of strain heterogeneity on genomic profiling accuracy in mixed-strain Escherichia coli metagenomes</a></li>
+  <li><a href="#virology-article-1">Single-Amplicon Sequencing of Coding-Complete Enteroviruses and Rhinoviruses Genomes from Clinical Specimens</a></li>
+  <li><a href="#virology-article-2">LysM: a bacterial self-encoded peptidoglycan hydrolase as an antimicrobial and anti-biofilm agent for Gram-negative nosocomial pathogens</a></li>
+  <li><a href="#virology-article-3">Direct RNA sequencing of beet yellows virus replicative intermediates reveals diverse deletion containing RNAs and break point patterns</a></li>
+  <li><a href="#virology-article-4">Detection and Characterization of Human Bocavirus in Stool Samples from an Acute Gastroenteritis Outbreak in Salvador, Bahia, Brazil, in 2024.</a></li>
+  <li><a href="#virology-article-5">Differential sensitivity of k-mer based identification tools using closely related database sequences affects relative abundance estimation</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760236v1">An ONT sequencing framework for hantavirus genome assembly, variant analysis, and defective viral genome characterization from whole-segment amplicons</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760236">10.64898/2026.10.19.760236</a> · Score: <code>████░░░░░░</code> 0.413</p>
-<p><span class="label">Core Problem:</span> Orthohantaviruses are zoonotic, tri-segmented negative-sense RNA viruses of rodents and other small mammals that can cause severe human disease</p>
-<p><span class="label">Proposed Solution:</span> Whole genome sequencing remains difficult because of low viral loads, high sequence diversity, and an inherent instability of the viral L segment. Current tiled amplicon and hybrid-capture approaches do not capture the heterogeneity of virus populations, including defective viral genomes (DVGs), which have never been described for hantaviruses</p>
-<p><span class="label">Key Impact:</span> Together, this work provides a low-cost, broadly applicable and easily customisable workflow for hantavirus genomics and reveals DVGs as a previously unrecognized feature of hantavirus populations</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.04.13.718265v2">Ursolic Acid Inhibits Rotavirus Replication Through Modulation Of Lipid Droplet Homeostasis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.13.718265">10.64898/2026.04.13.718265</a> · Score: <code>████░░░░░░</code> 0.373</p>
-<p><span class="label">Core Problem:</span> Rotavirus (RV) replication occurs within viroplasms (VP), which are globular, membrane-less cytosolic inclusions primarily assembled by the viral NSP5 and NSP2 proteins</p>
-<p><span class="label">Proposed Solution:</span> Among host factors, lipid droplets (LD) are strictly required for VP biogenesis. LD are ubiquitous organelles consisting of a neutral lipid core surrounded by a phospholipid monolayer and associated proteins</p>
-<p><span class="label">Key Impact:</span> This dual effect leads to LD depletion, thereby impairing VP formation and ultimately inhibiting RV replication</p>
-<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.03.02.26347485v4">Relapse and delay-induced dynamics in human-to-human Nipah virus transmission: a mathematical modeling study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.03.02.26347485">10.64898/2026.03.02.26347485</a> · Score: <code>████░░░░░░</code> 0.368</p>
-<p><span class="label">Core Problem:</span> Nipah virus (NiV) exhibits complex transmission dynamics shaped by infection-to-transmission delays, relapse, and delayed-onset neurological complications following recovery</p>
-<p><span class="label">Proposed Solution:</span> The epidemiological consequences of these temporal processes, particularly how they jointly shape NiV dynamics, remain poorly characterized. We develop a delay differential equation model for human-to-human NiV transmission incorporating an effective population-level infection-to-transmission delay, immediate relapse, and delayed encephalitis relapse</p>
-<p><span class="label">Key Impact:</span> Delays and relapse-mediated feedback can generate transient waves even when $\mathcal{R}_h &lt; 1$, underscoring the importance of monitoring recovered individuals</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760066v1">Single-Amplicon Sequencing of Coding-Complete Enteroviruses and Rhinoviruses Genomes from Clinical Specimens</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760066">10.64898/2026.10.19.760066</a> · Score: <code>█████░░░░░</code> 0.469</p>
+<p><span class="label">Core Problem:</span> Rhinoviruses and enteroviruses are among the most frequently detected respiratory viruses, yet routine diagnostics do not report species or genotype, and standard VP1 genotyping cannot resolve transmission chains or recombination</p>
+<p><span class="label">Proposed Solution:</span> Recovering sequence beyond VP1 currently requires probe-based enrichment, deep metagenomic sequencing, or several overlapping amplicons. We developed a single-amplicon PCR and sequencing workflow that generates coding-complete genomes from both enteroviruses and rhinoviruses in a single reaction</p>
+<p><span class="label">Key Impact:</span> These findings support single-amplicon sequencing as a simple, cost-effective approach for genomic surveillance of enteroviruses and rhinoviruses from clinical specimens</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="virology-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760325v1">LysM: a bacterial self-encoded peptidoglycan hydrolase as an antimicrobial and anti-biofilm agent for Gram-negative nosocomial pathogens</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760325">10.64898/2026.10.20.760325</a> · Score: <code>████░░░░░░</code> 0.430</p>
+<p><span class="label">Core Problem:</span> Agents with both anti-biofilm property and broad-spectrum antimicrobial activity are urgently needed, especially for drug-resistant nosocomial pathogens</p>
+<p><span class="label">Proposed Solution:</span> Here, we report a bacterial genome-encoded glycoside hydrolase, named LysM, with lytic activity against multiple Gram-negative nosocomial pathogens and little toxicity to human cells. 3D structural modelling and site-directed mutagenesis indicates that LysM is a peptidoglycan-specific glycoside hydrolase</p>
+<p><span class="label">Key Impact:</span> Our findings not only provide a clinical candidate for the treatment of nosocomial infections but also open a new path for antimicrobial discovery and anti-biofilm strategies, as homologues of LysM are present in the genomes of many bacteria and phages</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760187v1">Direct RNA sequencing of beet yellows virus replicative intermediates reveals diverse deletion containing RNAs and break point patterns</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760187">10.64898/2026.10.19.760187</a> · Score: <code>████░░░░░░</code> 0.391</p>
+<p><span class="label">Core Problem:</span> Defective RNAs (dRNAs) are naturally occurring recombinant RNAs generated during replication of many positive-sense RNA viruses, yet their molecular architectures and the genomic features governing breakpoint selection remain incompletely understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we combine double-stranded RNA (dsRNA) enrichment, enzymatic polyadenylation and nanopore direct RNA sequencing (DRS) to resolve dRNAs of beet yellows virus (BYV), a large (~15. 5 kb), single-stranded positive-sense (+ssRNA) non-polyadenylated closterovirus with complex transcriptional organization, at the level of individual RNA molecules</p>
+<p><span class="label">Key Impact:</span> Together, these findings reveal reproducible dRNA diversity in BYV and provide a framework for molecule resolved analysis of heterogenous RNA populations in non-polyadenylated RNA viruses</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760060v1">Trade-offs between eradication and containment for emerging plant disease outbreaks: insights from a model of citrus Huanglongbing in the European Union</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760060">10.64898/2026.10.19.760060</a> · Score: <code>████░░░░░░</code> 0.362</p>
-<p><span class="label">Core Problem:</span> Invasive plant disease epidemics threaten both agricultural and natural ecosystems</p>
-<p><span class="label">Proposed Solution:</span> Managing emerging disease outbreaks requires balancing opportunities for eradication against negative externalities, such as agricultural losses, that aggressive control imposes on affected landscapes. Crucially, epidemiological uncertainty, stochastic epidemic dynamics and the intrinsic difficulty of eradication can result in failed campaigns</p>
-<p><span class="label">Key Impact:</span> Delaying the transition substantially affects these benefits, highlighting the importance of timely decisions to abandon unsuccessful eradication campaigns</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.10.19.26365916v1">Detection and Characterization of Human Bocavirus in Stool Samples from an Acute Gastroenteritis Outbreak in Salvador, Bahia, Brazil, in 2024.</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.26365916">10.64898/2026.10.19.26365916</a> · Score: <code>████░░░░░░</code> 0.365</p>
+<p><span class="label">Core Problem:</span> Introduction: Acute gastroenteritis (AGE) is a global public health problem and a major cause of mortality in low- and lower-middle-income countries</p>
+<p><span class="label">Proposed Solution:</span> Human bocavirus (HBoV) is among the viral agents associated with this condition. Therefore, investigating the presence of HBoV in cases of AGE in Salvador, Bahia, as well as its prevalence and circulating strains, is important</p>
+<p><span class="label">Key Impact:</span> These findings also highlight the need for broader diagnostic approaches and the importance of phylogenetic analysis for monitoring and controlling viral infections</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760091v1">The impact of strain heterogeneity on genomic profiling accuracy in mixed-strain Escherichia coli metagenomes</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760091">10.64898/2026.10.19.760091</a> · Score: <code>████░░░░░░</code> 0.354</p>
-<p><span class="label">Core Problem:</span> Metagenomic sequencing is increasingly used for surveillance of bacterial populations, enabling simultaneous characterisation of antimicrobial resistance, virulence, and epidemiologically relevant strain markers</p>
-<p><span class="label">Proposed Solution:</span> However, the ability of commonly used bioinformatic tools to recover these features from heterogeneous populations remains incompletely understood. Here, we developed a controlled benchmarking framework based on simulated single-species Escherichia coli metagenomes generated from genomes with PCR-determined annotations</p>
-<p><span class="label">Key Impact:</span> More broadly, the results highlight current limitations in resolving strain composition from metagenomic data and provide a framework for investigating the abundance thresholds and population structures required for reliable strain-resolved surveillance</p>
-<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.15.759282v1">Differential sensitivity of k-mer based identification tools using closely related database sequences affects relative abundance estimation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.15.759282">10.64898/2026.10.15.759282</a> · Score: <code>████░░░░░░</code> 0.361</p>
+<p><span class="label">Core Problem:</span> Deep metagenomic sequencing is increasingly used for lineage profiling of complex biological mixtures, including applications such as wastewater virus surveillance and microbiome profiling</p>
+<p><span class="label">Proposed Solution:</span> For profiling, sequence read sets are compared against a database of reference sequences to identify component genetic lineages, and estimate their relative abundance. However, there is currently a lack of clarity regarding the impact of two ubiquitous features of biological mixtures on compositional profiling: (1) population diversity, where reads contain genetic diversity not represented in the reference set, and (2) the presence of high sequence similarity between references, which causes ambiguity in read assignment</p>
+<p><span class="label">Key Impact:</span> Tool choice is therefore dependent on the degree of expected sample-reference distance and inter-reference distance within datasets</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.03.02.26347485">Relapse and delay-induced dynamics in human-to-human Nipah virus transmission: a mathematical modeling study</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.13.718265">Ursolic Acid Inhibits Rotavirus Replication Through Modulation Of Lipid Droplet Homeostasis</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.760060">Trade-offs between eradication and containment for emerging plant disease outbreaks: insights from a model of citrus Huanglongbing in the European Union</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.760091">The impact of strain heterogeneity on genomic profiling accuracy in mixed-strain Escherichia coli metagenomes</a><span class="history-date">Oct 21, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.760236">An ONT sequencing framework for hantavirus genome assembly, variant analysis, and defective viral genome characterization from whole-segment amplicons</a><span class="history-date">Oct 21, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.05.26345726">Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States</a><span class="history-date">Oct 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.15.26365672">Interactions between respiratory viruses in US adults and children: a prospective cohort study</a><span class="history-date">Oct 20, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.16.26365752">A nanopore-based amplicon-sequencing panel to determine the origin and zoonotic host species of Plasmodium knowlesi infections</a><span class="history-date">Oct 20, 2026</span></li>
@@ -1126,7 +1136,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-21T09:02:46 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-22T09:04:28 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
