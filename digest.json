@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-22T09:04:28.702115+00:00",
+  "generated_utc": "2026-10-23T09:05:18.523195+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Sequencing-Free Protospacer-Adjacent Motif Discovery for Uncharacterized CRISPR-Cas9 Orthologs via Active Learning",
-          "doi": "10.64898/2026.10.20.760532",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760532v1",
+          "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
+          "doi": "10.64898/2026.04.29.721692",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721692v2",
           "source": "biorxiv",
-          "score": 0.4827
+          "score": 0.5574
         },
         {
           "rank": 2,
-          "title": "Metagenomic contextualization of proteins with state space models",
-          "doi": "10.64898/2026.07.07.736993",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736993v2",
+          "title": "General Purpose AI for Public Data Analysis and Experimental Hypothesis Generation",
+          "doi": "10.64898/2026.10.16.759709",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759709v1",
           "source": "biorxiv",
-          "score": 0.4623
+          "score": 0.5088
         },
         {
           "rank": 3,
-          "title": "Genome-scale base editing reveals the functional effects of variants in yeast",
-          "doi": "10.64898/2026.10.19.760269",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760269v1",
+          "title": "Characterization of selective pressures acting on protein sites with Deep Learning",
+          "doi": "10.1101/2025.07.01.662578",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.07.01.662578v5",
           "source": "biorxiv",
-          "score": 0.4558
+          "score": 0.4751
         },
         {
           "rank": 4,
-          "title": "Combining RNA-seq and proteomics boosts sensitivity to detect differentially expressed genes by rpMeta",
-          "doi": "10.64898/2026.10.15.758995",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.758995v1",
+          "title": "Predicting Pre-treatment Resistance or Post-treatment Effect? A Systematic Benchmarking of Single-Cell Drug Response Models",
+          "doi": "10.64898/2026.04.10.717709",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717709v3",
           "source": "biorxiv",
-          "score": 0.4543
+          "score": 0.4591
         },
         {
           "rank": 5,
-          "title": "Robust Identification of Drug Mechanism of Action Associated Genes Across Heterogeneous Drug Treated Datasets",
-          "doi": "10.64898/2026.10.15.759469",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759469v1",
+          "title": "Computational Profiling and Pathogenicity Assessment of VHL Missense Mutations",
+          "doi": "10.64898/2026.10.17.759794",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759794v1",
           "source": "biorxiv",
-          "score": 0.4522
+          "score": 0.4478
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Single-Amplicon Sequencing of Coding-Complete Enteroviruses and Rhinoviruses Genomes from Clinical Specimens",
-          "doi": "10.64898/2026.10.19.760066",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760066v1",
+          "title": "Multiple bottlenecks constrain presentation of Mycobacterium tuberculosis antigens on MHC class I",
+          "doi": "10.64898/2026.10.16.759551",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759551v1",
           "source": "biorxiv",
-          "score": 0.4689
+          "score": 0.3826
         },
         {
           "rank": 2,
-          "title": "LysM: a bacterial self-encoded peptidoglycan hydrolase as an antimicrobial and anti-biofilm agent for Gram-negative nosocomial pathogens",
-          "doi": "10.64898/2026.10.20.760325",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760325v1",
-          "source": "biorxiv",
-          "score": 0.4299
+          "title": "A multiscale mathematical model integrating viral load improves reconstruction of transmission chains and epidemiological parameters in household studies",
+          "doi": "10.64898/2026.10.18.26364899",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.18.26364899v1",
+          "source": "medrxiv",
+          "score": 0.3561
         },
         {
           "rank": 3,
-          "title": "Direct RNA sequencing of beet yellows virus replicative intermediates reveals diverse deletion containing RNAs and break point patterns",
-          "doi": "10.64898/2026.10.19.760187",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760187v1",
+          "title": "Differential Gene Expression in the Tropical House Cricket and Its Iridovirus in Healthy versus Diseased Specimens",
+          "doi": "10.64898/2026.05.19.726264",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726264v2",
           "source": "biorxiv",
-          "score": 0.3914
+          "score": 0.3538
         },
         {
           "rank": 4,
-          "title": "Detection and Characterization of Human Bocavirus in Stool Samples from an Acute Gastroenteritis Outbreak in Salvador, Bahia, Brazil, in 2024.",
-          "doi": "10.64898/2026.10.19.26365916",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.19.26365916v1",
-          "source": "medrxiv",
-          "score": 0.3654
+          "title": "Development of a Synthetic Genomics-Based Venezuelan Equine Encephalitis Virus Expressing Secreted Gaussia Luciferase for High-Throughput Antiviral Screening",
+          "doi": "10.64898/2026.10.21.760855",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760855v1",
+          "source": "biorxiv",
+          "score": 0.3392
         },
         {
           "rank": 5,
-          "title": "Differential sensitivity of k-mer based identification tools using closely related database sequences affects relative abundance estimation",
-          "doi": "10.64898/2026.10.15.759282",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759282v1",
+          "title": "Kaposi sarcoma herpesvirus vFLIP induces lipid droplet formation in Tert-immortalized microvascular endothelial cells via NF-\u03baB activation",
+          "doi": "10.64898/2026.10.22.760464",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760464v1",
           "source": "biorxiv",
-          "score": 0.3612
+          "score": 0.3224
         }
       ]
     }
