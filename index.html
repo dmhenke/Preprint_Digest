@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 23, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 24, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory</a></li>
-  <li><a href="#core-article-2">General Purpose AI for Public Data Analysis and Experimental Hypothesis Generation</a></li>
-  <li><a href="#core-article-3">Characterization of selective pressures acting on protein sites with Deep Learning</a></li>
-  <li><a href="#core-article-4">Predicting Pre-treatment Resistance or Post-treatment Effect? A Systematic Benchmarking of Single-Cell Drug Response Models</a></li>
-  <li><a href="#core-article-5">Computational Profiling and Pathogenicity Assessment of VHL Missense Mutations</a></li>
+  <li><a href="#core-article-1">BUDDY: An interactive web platform to accelerate the functional modeling of human missense variants using Saccharomyces cerevisiae orthologs</a></li>
+  <li><a href="#core-article-2">A genetically informed atlas of transcriptomic programs from massive human RNA-seq compendia</a></li>
+  <li><a href="#core-article-3">Rapid Production and Cryo-EM Structure Determination of GPCR-Nanodisc Complexes via Cell-Free Synthesis</a></li>
+  <li><a href="#core-article-4">Micro-C-TALE: BAC-based targeted high-resolution measurement of 3D chromatin interactions</a></li>
+  <li><a href="#core-article-5">OmniRE-seq: A Dual-Method Framework for Decoding RNA Editing Dynamics in Disease and Therapy</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.04.29.721692v2">DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.29.721692">10.64898/2026.04.29.721692</a> · Score: <code>██████░░░░</code> 0.557</p>
-<p><span class="label">Core Problem:</span> Protein dynamics captures the interactions between residues and the conformational changes they undergo</p>
-<p><span class="label">Proposed Solution:</span> Encoding such information could enhance a deep learning model&#x27;s ability to predict protein properties. Here we introduce a dynamics-aware protein language model (DPLM) that encodes protein dynamics into a sequence-derived representation</p>
-<p><span class="label">Key Impact:</span> These results show that learning the geometry of molecular motion yields transferable dynamic information that complements the evolutionary and structural features of existing PLMs</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1">BUDDY: An interactive web platform to accelerate the functional modeling of human missense variants using Saccharomyces cerevisiae orthologs</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760001">10.64898/2026.10.19.760001</a> · Score: <code>████░░░░░░</code> 0.449</p>
+<p><span class="label">Core Problem:</span> The advent of next-generation sequencing has transformed clinical genetics, accelerating the identification of human genetic variants</p>
+<p><span class="label">Proposed Solution:</span> However, the labor-intensive process of functional validation of Variants of Uncertain Significance (VUS) remains a significant diagnostic barrier. While expressing humanized genes in Saccharomyces cerevisiae is a common approach for modeling missense variants with functional assays, using native yeast orthologs provides a more streamlined approach that preserves species-specific interactions within multisubunit complexes</p>
+<p><span class="label">Key Impact:</span> BUDDY is designed to accelerate the investigation of human variants in yeast and has a high potential utility for use in resource-constrained settings such as course-based undergraduate research experiences (CUREs)</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759709v1">General Purpose AI for Public Data Analysis and Experimental Hypothesis Generation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759709">10.64898/2026.10.16.759709</a> · Score: <code>█████░░░░░</code> 0.509</p>
-<p><span class="label">Core Problem:</span> Public molecular datasets can support biological questions beyond those addressed in the original studies</p>
-<p><span class="label">Proposed Solution:</span> We examined how general-purpose AI could help generate and investigate such questions through four complementary investigations. Interactive single-cell analysis identified Apelin signaling as a candidate for promoting mesendoderm differentiation of human pluripotent stem cells, although subsequent experiments did not establish an effect under the tested conditions</p>
-<p><span class="label">Key Impact:</span> They also show why completing an analysis and obtaining a reproducible expression pattern are distinct from establishing an experimental or therapeutic effect</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2025.06.05.658122v3">A genetically informed atlas of transcriptomic programs from massive human RNA-seq compendia</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.06.05.658122">10.1101/2025.06.05.658122</a> · Score: <code>████░░░░░░</code> 0.440</p>
+<p><span class="label">Core Problem:</span> Genetic risk for complex disease acts through coordinated gene programs in specic tissues and cellular contexts, which single-gene analyses cannot resolve</p>
+<p><span class="label">Proposed Solution:</span> Interpretable gene modules can capture these programs, but prior-informed methods have not scaled to large expression compendia, andgenetic associations have not been integrated with modules learned at this scale. Here we present CLAMP, a fast, memory-ecient prior-informed framework that learns interpretable gene modules from such compendia and integrates them with genetic associations and drug signatures</p>
+<p><span class="label">Key Impact:</span> CLAMP is available through Bioconductor, and its trained models provide a genetically informed atlas of gene programs for interpreting complex disease</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2025.07.01.662578v5">Characterization of selective pressures acting on protein sites with Deep Learning</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.07.01.662578">10.1101/2025.07.01.662578</a> · Score: <code>█████░░░░░</code> 0.475</p>
-<p><span class="label">Core Problem:</span> It is often useful, in the field of molecular evolution, to identify the selective pressures acting on a particular site of a protein to better understand its function</p>
-<p><span class="label">Proposed Solution:</span> This is typically done with likelihood-based approaches applied to codon sequences in a phylogenetic context. However, these approaches are computationally costly</p>
-<p><span class="label">Key Impact:</span> These results suggest that such a neural network architecture can compare very favorably to state-of-the-art approaches to characterize selection pressures acting on coding sequences, but that it must be trained on datasets representative of empirical data</p>
-<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760646v1">Rapid Production and Cryo-EM Structure Determination of GPCR-Nanodisc Complexes via Cell-Free Synthesis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.21.760646">10.64898/2026.10.21.760646</a> · Score: <code>████░░░░░░</code> 0.428</p>
+<p><span class="label">Core Problem:</span> G protein-coupled receptors (GPCRs) represent major therapeutic targets, yet cryo-EM structure determination of unliganded or antagonist-bound GPCRs remains severely bottlenecked by small receptor mass, detergent-induced instability, and multi-week cell-based production pipelines</p>
+<p><span class="label">Proposed Solution:</span> Here, we combine intracellular loop 3 (ICL3) rigid fiducial engineering with a high-throughput, cell-free protein synthesis workflow to rapidly generate cryo-EM-ready GPCR-nanodisc assemblies. Using the eProtein Discovery(TM) digital microfluidics system, we performed automated nanoliter-scale screening of construct fusions and nanodisc lipid compositions, establishing that co-translational insertion into nanodiscs is strictly required for receptor solubilization and affinity purification</p>
+<p><span class="label">Key Impact:</span> By removing the reliance on cellular expression or agonist/G-protein stabilization and compressing construct assembly, nanodisc screening, biophysical quality control, and grid vitrification into a four-day turnaround, this detergent-free cell-free pipeline provides a rapid Design-Build-Test-Learn (DBTL) engine to accelerate structure-based drug discovery for challenging and unliganded GPCR targets</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.04.10.717709v3">Predicting Pre-treatment Resistance or Post-treatment Effect? A Systematic Benchmarking of Single-Cell Drug Response Models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.10.717709">10.64898/2026.04.10.717709</a> · Score: <code>█████░░░░░</code> 0.459</p>
-<p><span class="label">Core Problem:</span> Intratumoral heterogeneity drives variable drug responses in cancer</p>
-<p><span class="label">Proposed Solution:</span> Single-cell RNA sequencing (scRNA-seq) enables characterization of such heterogeneity and prediction of drug response at single-cell resolution. Accordingly, various computational models have been developed to infer drug response from scRNA-seq data</p>
-<p><span class="label">Key Impact:</span> These results highlight the influence of dataset characteristics, class imbalance, training design, and the strength of resistance-associated signals on model performance, providing a reference for the evaluation and further development of single-cell drug response prediction methods</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760768v1">Micro-C-TALE: BAC-based targeted high-resolution measurement of 3D chromatin interactions</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.21.760768">10.64898/2026.10.21.760768</a> · Score: <code>████░░░░░░</code> 0.412</p>
+<p><span class="label">Core Problem:</span> Chromosome conformation capture methods have greatly advanced our understanding of genome organization, but obtaining high-resolution interaction maps of selected genomic regions remains costly due to the sequencing requirements</p>
+<p><span class="label">Proposed Solution:</span> Here, we introduce Micro-C-TALE, a new chromosome conformation capture method that combines Micro-C, which uses micrococcal nuclease to improve the resolution and sensitivity of chromatin interaction measurements, and C-TALE, which uses probes generated from bacterial artificial chromosomes (BACs) for targeted enrichment. This combination enables the generation of high-resolution interaction maps without requiring custom synthesis of capture oligonucleotides</p>
+<p><span class="label">Key Impact:</span> Our results demonstrate that Micro-C-TALE provides a flexible and cost-effective approach for targeted high-resolution measurement of chromatin interactions, facilitating the investigation of fine-scale genome organization and its response to genetic perturbations</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.17.759794v1">Computational Profiling and Pathogenicity Assessment of VHL Missense Mutations</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.17.759794">10.64898/2026.10.17.759794</a> · Score: <code>████░░░░░░</code> 0.448</p>
-<p><span class="label">Core Problem:</span> Mutations in the VHL tumor suppressor gene promote tumorigenesis by stabilizing HIF-1</p>
-<p><span class="label">Proposed Solution:</span> In this study, we investigated the functional impact of VHL missense mutations using AlphaMissense pathogenicity scores, protein stability simulations, and molecular dynamics. AlphaMissense identified high pathogenicity scores for residues 60-200, including the {beta}-domain and HIF-binding domain, suggesting these regions are critical for VHL&#x27;s tumor suppressor function</p>
-<p><span class="label">Key Impact:</span> These findings underscore the value of combining machine learning, structural simulations, and experimental data to predict and interpret the pathogenicity of VHL mutations</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760919v1">OmniRE-seq: A Dual-Method Framework for Decoding RNA Editing Dynamics in Disease and Therapy</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760919">10.64898/2026.10.22.760919</a> · Score: <code>████░░░░░░</code> 0.411</p>
+<p><span class="label">Core Problem:</span> RNA editing is a widespread post-transcriptional modification involved in transcriptome diversity and disease regulation</p>
+<p><span class="label">Proposed Solution:</span> However, its quantification remains technically challenging. We present OmniRE-seq, a dual-framework combining RE-seq for bulk and scRE-seq for single-cell RNA-seq data, enabling multi-level quantification, differential analysis, and functional annotation of RNA editing</p>
+<p><span class="label">Key Impact:</span> Together, OmniRE-seq offers a standardized and scalable toolkit for dissecting RNA editing landscapes across resolution levels, advancing both mechanistic discovery and translational application in precision medicine</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.07.01.662578">Characterization of selective pressures acting on protein sites with Deep Learning</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.10.717709">Predicting Pre-treatment Resistance or Post-treatment Effect? A Systematic Benchmarking of Single-Cell Drug Response Models</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.04.29.721692">DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759709">General Purpose AI for Public Data Analysis and Experimental Hypothesis Generation</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.17.759794">Computational Profiling and Pathogenicity Assessment of VHL Missense Mutations</a><span class="history-date">Oct 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.07.736993">Metagenomic contextualization of proteins with state space models</a><span class="history-date">Oct 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.15.758995">Combining RNA-seq and proteomics boosts sensitivity to detect differentially expressed genes by rpMeta</a><span class="history-date">Oct 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.15.759469">Robust Identification of Drug Mechanism of Action Associated Genes Across Heterogeneous Drug Treated Datasets</a><span class="history-date">Oct 22, 2026</span></li>
@@ -840,57 +845,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Multiple bottlenecks constrain presentation of Mycobacterium tuberculosis antigens on MHC class I</a></li>
-  <li><a href="#virology-article-2">A multiscale mathematical model integrating viral load improves reconstruction of transmission chains and epidemiological parameters in household studies</a></li>
-  <li><a href="#virology-article-3">Differential Gene Expression in the Tropical House Cricket and Its Iridovirus in Healthy versus Diseased Specimens</a></li>
-  <li><a href="#virology-article-4">Development of a Synthetic Genomics-Based Venezuelan Equine Encephalitis Virus Expressing Secreted Gaussia Luciferase for High-Throughput Antiviral Screening</a></li>
-  <li><a href="#virology-article-5">Kaposi sarcoma herpesvirus vFLIP induces lipid droplet formation in Tert-immortalized microvascular endothelial cells via NF-κB activation</a></li>
+  <li><a href="#virology-article-1">Functional and acid-stability constraints on the Junin virus glycoprotein complex</a></li>
+  <li><a href="#virology-article-2">Data mining of global sequence datasets markedly expands known diversity within the Tobamovirus genus</a></li>
+  <li><a href="#virology-article-3">Investigating the evolutionary plasticity of influenza virus splicing using influenza A virus segment 7 as a model system</a></li>
+  <li><a href="#virology-article-4">NI2+ AND ZN2+-BINDING DNA MOTIFS REVEALED IN DNA APTAMERS TO AFRICAN SWINE FEVER VIRUS</a></li>
+  <li><a href="#virology-article-5">Structure and antigenicity of the 2026 Bundibugyo virus glycoprotein</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759551v1">Multiple bottlenecks constrain presentation of Mycobacterium tuberculosis antigens on MHC class I</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.16.759551">10.64898/2026.10.16.759551</a> · Score: <code>████░░░░░░</code> 0.383</p>
-<p><span class="label">Core Problem:</span> CD8+ T cell recognition of pathogen-derived peptides presented on major histocompatibility complex class I (MHC-I) contributes to protective immunity against intracellular pathogens like Mycobacterium tuberculosis (Mtb)</p>
-<p><span class="label">Proposed Solution:</span> However, it is currently difficult to predict which microbial antigens will be presented on MHC-I by infected cells. Prior studies have shown that proteins exported by Mtb&#x27;s type VII secretion systems (T7SSs) are highly enriched among Mtb peptides presented on MHC-I by infected cells, providing a potential opportunity to identify additional MHC-I epitopes by focusing on this class of antigens in a targeted manner</p>
-<p><span class="label">Key Impact:</span> These results will inform approaches to model antigen presentation in microbial infections and design vaccines to prime T cell responses against intracellular microbial pathogens</p>
-<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1">Functional and acid-stability constraints on the Junin virus glycoprotein complex</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.761119">10.64898/2026.10.22.761119</a> · Score: <code>█████░░░░░</code> 0.479</p>
+<p><span class="label">Core Problem:</span> Junin virus is a New World arenavirus that naturally circulates in vesper mice, and causes occasional zoonotic infections of humans that lead to Argentine hemorrhagic fever</p>
+<p><span class="label">Proposed Solution:</span> The virus&#x27;s sole surface protein, the glycoprotein complex (GPC), mediates host receptor attachment and pH-triggered membrane fusion. Here, we use deep mutational scanning with non-replicative pseudoviruses expressing the Junin virus GPC to measure how nearly all amino-acid mutations affect GPC&#x27;s pH stability and entry into cells expressing vesper mouse transferrin receptor 1 (TfR1)</p>
+<p><span class="label">Key Impact:</span> Overall, our results provide mechanistic insight into the function of a New World arenavirus GPC, and mutation-level data that can directly inform development of vaccines and therapeutics against Junin and other related New World arenaviruses</p>
+<p><span class="label">Methodology:</span> Deep Mutational Scanning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.18.26364899v1">A multiscale mathematical model integrating viral load improves reconstruction of transmission chains and epidemiological parameters in household studies</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.18.26364899">10.64898/2026.10.18.26364899</a> · Score: <code>████░░░░░░</code> 0.356</p>
-<p><span class="label">Core Problem:</span> Household studies combined with mathematical modelling are central to inference of respiratory pathogen transmission, but they usually rely on symptom onset or follow-up, final infection status, or qualitative PCR results</p>
-<p><span class="label">Proposed Solution:</span> Quantitative viral-load measurements, although directly derived from PCR assays, are rarely used to reconstruct individual infection trajectories and transmission links. We developed a Bayesian modeling framework integrating within-host viral dynamics and household transmission processes</p>
-<p><span class="label">Key Impact:</span> These findings support integrating longitudinal viral-load measurements into household transmission studies to improve inference of transmission dynamics and individual infectiousness</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760918v1">Data mining of global sequence datasets markedly expands known diversity within the Tobamovirus genus</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760918">10.64898/2026.10.22.760918</a> · Score: <code>█████░░░░░</code> 0.477</p>
+<p><span class="label">Core Problem:</span> High-throughput sequencing has transformed RNA virus discovery, producing vast datasets that often contain unexplored sequences of known and novel viruses across diverse sample types</p>
+<p><span class="label">Proposed Solution:</span> Large-scale reconstruction of viral genomes within specific taxonomic groups remains a lengthy, labor-intensive process constrained by fragmented assemblies, heterogeneous workflows, and the limitations of percent identity cut-offs for taxonomic placement. Here, we focused on Tobamovirus (family Virgaviridae), a genus that contains important emerging plant pathogens</p>
+<p><span class="label">Key Impact:</span> The workflow is readily adaptable to other viral taxa and supports continuous discovery as public datasets grow</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.05.19.726264v2">Differential Gene Expression in the Tropical House Cricket and Its Iridovirus in Healthy versus Diseased Specimens</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.19.726264">10.64898/2026.05.19.726264</a> · Score: <code>████░░░░░░</code> 0.354</p>
-<p><span class="label">Core Problem:</span> The tropical house cricket, Gryllodes sigillatus, is a mass-produced insect that is used as a protein source for pets and livestock</p>
-<p><span class="label">Proposed Solution:</span> However, intensive mass-rearing conditions, coupled with high genetic relatedness, create an ideal environment for the spread of pathogenic microbes that severely impact production. Cricket iridovirus (CrIV) is a pathogen that impedes cricket growth and causes significant losses for cricket farmers</p>
-<p><span class="label">Key Impact:</span> These findings enhance our understanding of how CrIV interacts with its cricket host, providing essential insights for developing targeted strategies to manage CrIV outbreaks in cricket mass-rearing facilities</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760983v1">Investigating the evolutionary plasticity of influenza virus splicing using influenza A virus segment 7 as a model system</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760983">10.64898/2026.10.22.760983</a> · Score: <code>████░░░░░░</code> 0.392</p>
+<p><span class="label">Core Problem:</span> Influenza viruses A, C and D (IAV, ICV, IDV respectively) utilise mRNA splicing to produce two proteins from their matrix gene segment; the matrix (M1) protein and an ion channel (M2)</p>
+<p><span class="label">Proposed Solution:</span> In IAV, the M1 and M2 open reading frames (ORFs) partially overlap and splice donor (SD) and splice acceptor (SA) sites in the M1 gene are used to produce an M2 polypeptide with an N-terminal sequence shared with M1. In ICV and IDV, the M1 and M2 ORFs are concatenated and splice sites downstream of the M1 coding region are used to produce a matrix protein from the spliced mRNA</p>
+<p><span class="label">Key Impact:</span> These results suggest that IAV segment 7 splicing strategies are evolutionarily flexible and have implications for how IAV, ICV and IDV matrix segments might have diversified from a common ancestor</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760855v1">Development of a Synthetic Genomics-Based Venezuelan Equine Encephalitis Virus Expressing Secreted Gaussia Luciferase for High-Throughput Antiviral Screening</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.21.760855">10.64898/2026.10.21.760855</a> · Score: <code>███░░░░░░░</code> 0.339</p>
-<p><span class="label">Core Problem:</span> Venezuelan equine encephalitis virus (VEEV) is a mosquito-borne alphavirus that causes severe neurological disease in humans and animals</p>
-<p><span class="label">Proposed Solution:</span> Despite its public health importance, no approved antiviral therapy is currently available, and conventional methods for quantifying infectious virus are labor-intensive and poorly suited for high-throughput antiviral screening. Furthermore, research on VEEV is complicated by the restricted availability and international transport of infectious viral materials</p>
-<p><span class="label">Key Impact:</span> Together, these findings establish a versatile synthetic genomics-based reporter virus platform for quantitative studies of VEEV replication and scalable antiviral drug discovery</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.05.05.722837v2">NI2+ AND ZN2+-BINDING DNA MOTIFS REVEALED IN DNA APTAMERS TO AFRICAN SWINE FEVER VIRUS</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.05.722837">10.64898/2026.05.05.722837</a> · Score: <code>████░░░░░░</code> 0.352</p>
+<p><span class="label">Core Problem:</span> Rapid and accurate diagnosis of viral and bacterial infections is a significant challenge in medicine and veterinary science, especially in the case of epidemically dangerous pathogens</p>
+<p><span class="label">Proposed Solution:</span> The African swine fever virus (ASFV) causes annual outbreaks among livestock, causing in significant economic losses for farmers. Artificial recognition elements, DNA aptamers, have been identified as a suitable tool for point-of-care diagnostics due to their high affinity and specificity for the target, as well as stability at ambient temperatures during storage</p>
+<p><span class="label">Key Impact:</span> Cation-dependent regulation of aptamer activity is promising as it allows regeneration of affine carriers and biosensors with chelating agents, while addition of Ni2+ restores the high-affine aptamer conformation</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760464v1">Kaposi sarcoma herpesvirus vFLIP induces lipid droplet formation in Tert-immortalized microvascular endothelial cells via NF-κB activation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760464">10.64898/2026.10.22.760464</a> · Score: <code>███░░░░░░░</code> 0.322</p>
-<p><span class="label">Core Problem:</span> Kaposi sarcoma herpesvirus (KSHV) is the etiologic agent of Kaposi sarcoma (KS) and preferentially establishes a latent infection state in both the characteristic spindle cells of the KS tumor and cultured endothelial cells</p>
-<p><span class="label">Proposed Solution:</span> KSHV has been described to broadly alter cellular metabolism during latent infection of endothelial cells. In Tert-immortalized microvascular endothelial (TIME) cells, our lab has shown that latent infection increases the abundance of long chain fatty acids in the cell, as well as formation of lipid droplets, which is dependent on viral gene expression</p>
-<p><span class="label">Key Impact:</span> We conclude that vFLIP drives the increase in lipid droplet formation observed during latent KSHV infection, in an NF-{kappa}B signaling dependent fashion and that ACSL function is important for the survival of latently infected endothelial cells</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.761020v1">Structure and antigenicity of the 2026 Bundibugyo virus glycoprotein</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.761020">10.64898/2026.10.22.761020</a> · Score: <code>████░░░░░░</code> 0.352</p>
+<p><span class="label">Core Problem:</span> An outbreak of ebolavirus disease caused by a new zoonotic spillover of Bundibugyo virus (BDBV) is currently spreading at an unprecedented pace in the Democratic Republic of the Congo and Uganda</p>
+<p><span class="label">Proposed Solution:</span> The outbreak has resulted in 7,733 cases with a case-fatality ratio of 48%, yet no BDBV-specific vaccines or therapeutics are available. The ebolavirus glycoprotein (GP) promotes viral entry and is the target of neutralizing antibodies and vaccine development</p>
+<p><span class="label">Key Impact:</span> These findings define the antigenic properties of contemporary BDBV GP and delineate conserved epitopes as ideal targets for antibody therapeutics and for the development of pan-ebolavirus vaccines</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -898,6 +903,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.19.726264">Differential Gene Expression in the Tropical House Cricket and Its Iridovirus in Healthy versus Diseased Specimens</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.16.759551">Multiple bottlenecks constrain presentation of Mycobacterium tuberculosis antigens on MHC class I</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.18.26364899">A multiscale mathematical model integrating viral load improves reconstruction of transmission chains and epidemiological parameters in household studies</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.21.760855">Development of a Synthetic Genomics-Based Venezuelan Equine Encephalitis Virus Expressing Secreted Gaussia Luciferase for High-Throughput Antiviral Screening</a><span class="history-date">Oct 23, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.22.760464">Kaposi sarcoma herpesvirus vFLIP induces lipid droplet formation in Tert-immortalized microvascular endothelial cells via NF-κB activation</a><span class="history-date">Oct 23, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.15.759282">Differential sensitivity of k-mer based identification tools using closely related database sequences affects relative abundance estimation</a><span class="history-date">Oct 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.19.26365916">Detection and Characterization of Human Bocavirus in Stool Samples from an Acute Gastroenteritis Outbreak in Salvador, Bahia, Brazil, in 2024.</a><span class="history-date">Oct 22, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.19.760066">Single-Amplicon Sequencing of Coding-Complete Enteroviruses and Rhinoviruses Genomes from Clinical Specimens</a><span class="history-date">Oct 22, 2026</span></li>
@@ -1146,7 +1156,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-23T09:05:18 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-24T09:02:52 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-23T09:05:18.523195+00:00",
+  "generated_utc": "2026-10-24T09:02:52.390035+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
-          "doi": "10.64898/2026.04.29.721692",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721692v2",
+          "title": "BUDDY: An interactive web platform to accelerate the functional modeling of human missense variants using Saccharomyces cerevisiae orthologs",
+          "doi": "10.64898/2026.10.19.760001",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1",
           "source": "biorxiv",
-          "score": 0.5574
+          "score": 0.4491
         },
         {
           "rank": 2,
-          "title": "General Purpose AI for Public Data Analysis and Experimental Hypothesis Generation",
-          "doi": "10.64898/2026.10.16.759709",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759709v1",
+          "title": "A genetically informed atlas of transcriptomic programs from massive human RNA-seq compendia",
+          "doi": "10.1101/2025.06.05.658122",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.06.05.658122v3",
           "source": "biorxiv",
-          "score": 0.5088
+          "score": 0.4398
         },
         {
           "rank": 3,
-          "title": "Characterization of selective pressures acting on protein sites with Deep Learning",
-          "doi": "10.1101/2025.07.01.662578",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.07.01.662578v5",
+          "title": "Rapid Production and Cryo-EM Structure Determination of GPCR-Nanodisc Complexes via Cell-Free Synthesis",
+          "doi": "10.64898/2026.10.21.760646",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760646v1",
           "source": "biorxiv",
-          "score": 0.4751
+          "score": 0.4283
         },
         {
           "rank": 4,
-          "title": "Predicting Pre-treatment Resistance or Post-treatment Effect? A Systematic Benchmarking of Single-Cell Drug Response Models",
-          "doi": "10.64898/2026.04.10.717709",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717709v3",
+          "title": "Micro-C-TALE: BAC-based targeted high-resolution measurement of 3D chromatin interactions",
+          "doi": "10.64898/2026.10.21.760768",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760768v1",
           "source": "biorxiv",
-          "score": 0.4591
+          "score": 0.4122
         },
         {
           "rank": 5,
-          "title": "Computational Profiling and Pathogenicity Assessment of VHL Missense Mutations",
-          "doi": "10.64898/2026.10.17.759794",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759794v1",
+          "title": "OmniRE-seq: A Dual-Method Framework for Decoding RNA Editing Dynamics in Disease and Therapy",
+          "doi": "10.64898/2026.10.22.760919",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760919v1",
           "source": "biorxiv",
-          "score": 0.4478
+          "score": 0.4112
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Multiple bottlenecks constrain presentation of Mycobacterium tuberculosis antigens on MHC class I",
-          "doi": "10.64898/2026.10.16.759551",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759551v1",
+          "title": "Functional and acid-stability constraints on the Junin virus glycoprotein complex",
+          "doi": "10.64898/2026.10.22.761119",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1",
           "source": "biorxiv",
-          "score": 0.3826
+          "score": 0.4791
         },
         {
           "rank": 2,
-          "title": "A multiscale mathematical model integrating viral load improves reconstruction of transmission chains and epidemiological parameters in household studies",
-          "doi": "10.64898/2026.10.18.26364899",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.18.26364899v1",
-          "source": "medrxiv",
-          "score": 0.3561
+          "title": "Data mining of global sequence datasets markedly expands known diversity within the Tobamovirus genus",
+          "doi": "10.64898/2026.10.22.760918",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760918v1",
+          "source": "biorxiv",
+          "score": 0.4769
         },
         {
           "rank": 3,
-          "title": "Differential Gene Expression in the Tropical House Cricket and Its Iridovirus in Healthy versus Diseased Specimens",
-          "doi": "10.64898/2026.05.19.726264",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726264v2",
+          "title": "Investigating the evolutionary plasticity of influenza virus splicing using influenza A virus segment 7 as a model system",
+          "doi": "10.64898/2026.10.22.760983",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760983v1",
           "source": "biorxiv",
-          "score": 0.3538
+          "score": 0.3916
         },
         {
           "rank": 4,
-          "title": "Development of a Synthetic Genomics-Based Venezuelan Equine Encephalitis Virus Expressing Secreted Gaussia Luciferase for High-Throughput Antiviral Screening",
-          "doi": "10.64898/2026.10.21.760855",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760855v1",
+          "title": "NI2+ AND ZN2+-BINDING DNA MOTIFS REVEALED IN DNA APTAMERS TO AFRICAN SWINE FEVER VIRUS",
+          "doi": "10.64898/2026.05.05.722837",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.05.722837v2",
           "source": "biorxiv",
-          "score": 0.3392
+          "score": 0.3522
         },
         {
           "rank": 5,
-          "title": "Kaposi sarcoma herpesvirus vFLIP induces lipid droplet formation in Tert-immortalized microvascular endothelial cells via NF-\u03baB activation",
-          "doi": "10.64898/2026.10.22.760464",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760464v1",
+          "title": "Structure and antigenicity of the 2026 Bundibugyo virus glycoprotein",
+          "doi": "10.64898/2026.10.22.761020",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761020v1",
           "source": "biorxiv",
-          "score": 0.3224
+          "score": 0.3519
         }
       ]
     }
