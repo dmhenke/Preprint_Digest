@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-24T09:02:52.390035+00:00",
+  "generated_utc": "2026-10-25T09:02:28.084208+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "BUDDY: An interactive web platform to accelerate the functional modeling of human missense variants using Saccharomyces cerevisiae orthologs",
-          "doi": "10.64898/2026.10.19.760001",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1",
+          "title": "Targeting PRMT5 Across Cancers and AI-Driven Discovery of Candidate Compounds",
+          "doi": "10.64898/2026.10.19.760131",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760131v1",
           "source": "biorxiv",
-          "score": 0.4491
+          "score": 0.6131
         },
         {
           "rank": 2,
-          "title": "A genetically informed atlas of transcriptomic programs from massive human RNA-seq compendia",
-          "doi": "10.1101/2025.06.05.658122",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.06.05.658122v3",
+          "title": "Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale",
+          "doi": "10.64898/2026.10.22.761199",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761199v1",
           "source": "biorxiv",
-          "score": 0.4398
+          "score": 0.4722
         },
         {
           "rank": 3,
-          "title": "Rapid Production and Cryo-EM Structure Determination of GPCR-Nanodisc Complexes via Cell-Free Synthesis",
-          "doi": "10.64898/2026.10.21.760646",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760646v1",
+          "title": "Scalable subclonal reconstruction of cancer cells in DNA sequencing data using a penalized likelihood model",
+          "doi": "10.1101/2021.03.31.437383",
+          "url": "https://www.biorxiv.org/content/10.1101/2021.03.31.437383v3",
           "source": "biorxiv",
-          "score": 0.4283
+          "score": 0.4651
         },
         {
           "rank": 4,
-          "title": "Micro-C-TALE: BAC-based targeted high-resolution measurement of 3D chromatin interactions",
-          "doi": "10.64898/2026.10.21.760768",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760768v1",
+          "title": "Robust Chromosome Segmentation in Sparse Single-Cell Whole-Genome Sequencing Using a k-Segment Constrained Hidden Markov Model",
+          "doi": "10.64898/2026.10.19.760240",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760240v1",
           "source": "biorxiv",
-          "score": 0.4122
+          "score": 0.4611
         },
         {
           "rank": 5,
-          "title": "OmniRE-seq: A Dual-Method Framework for Decoding RNA Editing Dynamics in Disease and Therapy",
-          "doi": "10.64898/2026.10.22.760919",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760919v1",
+          "title": "Fine-Grained and Reliable Cell Classification from Pathology Images",
+          "doi": "10.64898/2026.10.20.760347",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1",
           "source": "biorxiv",
-          "score": 0.4112
+          "score": 0.4457
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Functional and acid-stability constraints on the Junin virus glycoprotein complex",
-          "doi": "10.64898/2026.10.22.761119",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1",
+          "title": "Single-cell analysis of West Nile virus infection in brain organoids identified a serine synthesis enzyme as a determinant of viral neural tropism and a druggable antiviral target",
+          "doi": "10.64898/2026.10.23.761475",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761475v1",
           "source": "biorxiv",
-          "score": 0.4791
+          "score": 0.4694
         },
         {
           "rank": 2,
-          "title": "Data mining of global sequence datasets markedly expands known diversity within the Tobamovirus genus",
-          "doi": "10.64898/2026.10.22.760918",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760918v1",
+          "title": "Viral host assignment across the tree of life with VHAMSTeR",
+          "doi": "10.64898/2026.10.23.761443",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761443v1",
           "source": "biorxiv",
-          "score": 0.4769
+          "score": 0.4356
         },
         {
           "rank": 3,
-          "title": "Investigating the evolutionary plasticity of influenza virus splicing using influenza A virus segment 7 as a model system",
-          "doi": "10.64898/2026.10.22.760983",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760983v1",
+          "title": "Integrative reanalysis of public intracellular and vaccine-challenge transcriptomes, informed by single-cell and metabolomic atlases, refines antigen prioritisation for next-generation veterinary Brucella vaccines",
+          "doi": "10.64898/2026.10.19.760311",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760311v1",
           "source": "biorxiv",
-          "score": 0.3916
+          "score": 0.3974
         },
         {
           "rank": 4,
-          "title": "NI2+ AND ZN2+-BINDING DNA MOTIFS REVEALED IN DNA APTAMERS TO AFRICAN SWINE FEVER VIRUS",
-          "doi": "10.64898/2026.05.05.722837",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.05.05.722837v2",
+          "title": "Comparative analysis identifies a shared topological organisation among divergent intergenic RNAs",
+          "doi": "10.64898/2026.10.22.760956",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760956v1",
           "source": "biorxiv",
-          "score": 0.3522
+          "score": 0.3274
         },
         {
           "rank": 5,
-          "title": "Structure and antigenicity of the 2026 Bundibugyo virus glycoprotein",
-          "doi": "10.64898/2026.10.22.761020",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761020v1",
+          "title": "Assessment of Q-PCR based vector copy numbers and viral titration in CAR T cell products, Probe vs SYBR Green.",
+          "doi": "10.64898/2026.10.19.760184",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760184v1",
           "source": "biorxiv",
-          "score": 0.3519
+          "score": 0.3274
         }
       ]
     }
