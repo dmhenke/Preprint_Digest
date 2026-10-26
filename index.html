@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 25, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 26, 2026 — 8 preprints selected (Comp Bio: 5 · Virology: 3)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -116,7 +116,7 @@ footer {
 
 <nav class="tabs" role="tablist">
   <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(3)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Targeting PRMT5 Across Cancers and AI-Driven Discovery of Candidate Compounds</a></li>
-  <li><a href="#core-article-2">Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale</a></li>
-  <li><a href="#core-article-3">Scalable subclonal reconstruction of cancer cells in DNA sequencing data using a penalized likelihood model</a></li>
-  <li><a href="#core-article-4">Robust Chromosome Segmentation in Sparse Single-Cell Whole-Genome Sequencing Using a k-Segment Constrained Hidden Markov Model</a></li>
-  <li><a href="#core-article-5">Fine-Grained and Reliable Cell Classification from Pathology Images</a></li>
+  <li><a href="#core-article-1">ALHENA, an H&amp;E encoder distilled from transcriptomic foundation models for multi-scale slide analysis</a></li>
+  <li><a href="#core-article-2">Building from the ground up: augmentation strategies to improve protein language model performance on protein sets</a></li>
+  <li><a href="#core-article-3">Conserved Brain-Associated CD8+ T Cell Programs and Their Regulation by the Brain Microenvironment</a></li>
+  <li><a href="#core-article-4">Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation</a></li>
+  <li><a href="#core-article-5">Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760131v1">Targeting PRMT5 Across Cancers and AI-Driven Discovery of Candidate Compounds</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760131">10.64898/2026.10.19.760131</a> · Score: <code>██████░░░░</code> 0.613</p>
-<p><span class="label">Core Problem:</span> Protein arginine methyltransferase 5 (PRMT5) is a promising anticancer target, yet existing inhibitors shown limited clinical efficacy</p>
-<p><span class="label">Proposed Solution:</span> Here, we paired multi-omics pan-cancer profiling with a machine learning virtual screening pipeline. Bioinformatics analyses with TIMER3, GEPIA2, UALCAN/CPTAC, the Human Protein Atlas, cBioPortal, STRING and Enrichr revealed widespread of PRMT5 mRNA expression, protein abundance, survival, genetic alteration, immune infiltration and co-expression networks with tumor-specific prognostic impact in GBM, LGG and KIRC</p>
-<p><span class="label">Key Impact:</span> These findings clarify the context-dependent roles of PRMT5 and further experiment validations are needed to establish CID 44345182 as a promising candidate</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760439v1">ALHENA, an H&amp;E encoder distilled from transcriptomic foundation models for multi-scale slide analysis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760439">10.64898/2026.10.20.760439</a> · Score: <code>████░░░░░░</code> 0.440</p>
+<p><span class="label">Core Problem:</span> Hematoxylin and eosin (H&amp;E) histology and spatial transcriptomics (ST) provide complementary tissue views, with H&amp;E capturing morphology and ST measuring spatial gene expression</p>
+<p><span class="label">Proposed Solution:</span> Together, they connect tissue architecture to molecular state. We present a multi-scale training framework for adapting pretrained H&amp;E encoders from paired H&amp;E and ST, producing ALHENA, which requires only H&amp;E at inference</p>
+<p><span class="label">Key Impact:</span> The released companion Python package provides a comprehensive tool for H&amp;E-derived tile and cell embeddings, atlas-based cell typing, and spatially aligned multi-scale H&amp;E analysis</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.761199v1">Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.761199">10.64898/2026.10.22.761199</a> · Score: <code>█████░░░░░</code> 0.472</p>
-<p><span class="label">Core Problem:</span> In spatial proteomics across large cohorts, downstream estimates from tens of thousands of images depend on accurate cell segmentation</p>
-<p><span class="label">Proposed Solution:</span> Yet pretrained segmentation models struggle with morphologically complex cell bodies in human brain tissue, and how domain adaptation affects downstream discovery remains unclear. Here, we introduce SPInfer, a workflow for spatial proteomic inference developed using 5,832 manually annotated cell bodies from 120 immunofluorescence images of the human prefrontal cortex</p>
-<p><span class="label">Key Impact:</span> This provides a pipeline for fine-tuning foundation models to segment complex tissues, enabling biological discovery in spatial proteomics at the population scale</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760553v1">Building from the ground up: augmentation strategies to improve protein language model performance on protein sets</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760553">10.64898/2026.10.20.760553</a> · Score: <code>████░░░░░░</code> 0.431</p>
+<p><span class="label">Core Problem:</span> An important underlying requirement for deep learning models is the availability of large datasets, however, in sciences such as chemistry and biology, generating experimental data of sufficient size represents a significant bottleneck</p>
+<p><span class="label">Proposed Solution:</span> In this work, we probed the extent and nature of limited input data, characterize how several protein language models (pLMs) learned on suboptimal datasets, and investigated augmentation approaches to improve predictive model performance. We found that narrowing the distribution of protein-protein complexes in a limited dataset permits an order-of-magnitude decrease in training dataset size, if a model is only expected to generalize to in-distribution data</p>
+<p><span class="label">Key Impact:</span> Similar results were found in active learning (AL), where both in- and out-of-distribution Matthews Correlation Coefficient (MCC) showed a small but consistent increase upon augmentation of the training set with complexes produced by ESM-3, a generative pLM</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.1101/2021.03.31.437383v3">Scalable subclonal reconstruction of cancer cells in DNA sequencing data using a penalized likelihood model</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2021.03.31.437383">10.1101/2021.03.31.437383</a> · Score: <code>█████░░░░░</code> 0.465</p>
-<p><span class="label">Core Problem:</span> Background Characterizing intratumor heterogeneity and subclonal architecture from bulk DNA sequencing provides important insights into cancer evolution</p>
-<p><span class="label">Proposed Solution:</span> However, existing subclonal reconstruction methods remain computationally demanding, hindering iterative quality control and reproducible application across large genomic cohorts. Methods Distinct from existing likelihood-based and Bayesian approaches, we developed CliPP (Clonal structure identification through Pairwise Penalization), utilizing machine learning to add pairwise fusion penalty to the full likelihood, in order to simultaneously estimate mutation cellular prevalence and fuse compatible estimates into clusters without prespecifying the number of clusters</p>
-<p><span class="label">Key Impact:</span> Its pan-cancer application characterizes context-dependent patterns of driver clonality, and its software web interface enables cancer evolution inquiries from the cancer research community</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.761115v1">Conserved Brain-Associated CD8+ T Cell Programs and Their Regulation by the Brain Microenvironment</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.761115">10.64898/2026.10.22.761115</a> · Score: <code>████░░░░░░</code> 0.430</p>
+<p><span class="label">Core Problem:</span> CD8+ T cells are increasingly recognized as components of the healthy brain, yet whether their specialized functional characteristics are conserved across species and how the brain microenvironment regulates their effector programs remain poorly understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we characterized brain-associated CD8+ T cells in the common marmoset and investigated their regulation by brain-derived signals. Flow cytometric analysis revealed a substantial population of CD8+ T cells in the healthy marmoset brain parenchyma that exhibited high IFN-{gamma} competence but minimal granzyme B (GzmB) expression, resembling the functional phenotype previously identified in mice</p>
+<p><span class="label">Key Impact:</span> Together, these findings identify shared functional characteristics of brain-associated CD8+ T cells across rodents and nonhuman primates and establish a framework for understanding how the neural microenvironment shapes adaptive immune function</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760240v1">Robust Chromosome Segmentation in Sparse Single-Cell Whole-Genome Sequencing Using a k-Segment Constrained Hidden Markov Model</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760240">10.64898/2026.10.19.760240</a> · Score: <code>█████░░░░░</code> 0.461</p>
-<p><span class="label">Core Problem:</span> Genome integrity is essential for cellular and organismal fitness</p>
-<p><span class="label">Proposed Solution:</span> Loss of heterozygosity (LOH), which eliminates the buffering effect of heterozygosity and can expose deleterious recessive alleles, is an important form of somatic genome alteration associated with aging and tumorigenesis. To characterize LOH across cell populations, we use sci-L3, a high-throughput combinatorial-indexing approach for single-cell whole-genome sequencing (WGS)</p>
-<p><span class="label">Key Impact:</span> The k-segment HMM thus enables sensitive detection of LOH heterogeneity from sparse single-cell WGS and is applicable to systems with available haplotype phasing</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.05.01.722166v2">Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.01.722166">10.64898/2026.05.01.722166</a> · Score: <code>████░░░░░░</code> 0.406</p>
+<p><span class="label">Core Problem:</span> Background: In the past few years, we have seen a veritable surge in single-cell (e</p>
+<p><span class="label">Proposed Solution:</span> g. , RNA-sequencing) techniques and datasets, enabling increasingly detailed characterization of cellular heterogeneity across tissues and conditions</p>
+<p><span class="label">Key Impact:</span> By unifying the process of benchmark construction, it can facilitate more consistent method comparisons and provides a foundation for broader, more flexible, and more sustainable benchmarking efforts</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1">Fine-Grained and Reliable Cell Classification from Pathology Images</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760347">10.64898/2026.10.20.760347</a> · Score: <code>████░░░░░░</code> 0.446</p>
-<p><span class="label">Core Problem:</span> Molecular assays such as spatial transcriptomics facilitate fine-grained identification of cell types for analyzing tumor microenvironments</p>
-<p><span class="label">Proposed Solution:</span> However, they are expensive to acquire in routine clinical practice compared to hematoxylin and eosin (H&amp;E) images. With molecular guidance, such images can distinguish cell lineages, yet often fail to resolve closely related subtypes</p>
-<p><span class="label">Key Impact:</span> com/Lotfollahi-lab/cellbridge</p>
-<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760417v1">Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760417">10.64898/2026.10.20.760417</a> · Score: <code>████░░░░░░</code> 0.404</p>
+<p><span class="label">Core Problem:</span> Sulforaphane (SFN), a natural isothiocyanate from cruciferous vegetables, exerts neuroprotective effects through mechanisms extending beyond canonical Nrf2/ARE activation</p>
+<p><span class="label">Proposed Solution:</span> Here, we developed a multi-dataset computational framework integrating transcriptomic analysis, multi-criteria target prioritization, and structural docking evaluation. R- and S-SFN were docked against 693 prioritized targets using AutoDock Vina, followed by cross-validation, brain expression profiling, and molecular dynamics simulations</p>
+<p><span class="label">Key Impact:</span> These findings generate testable hypotheses regarding previously underexplored molecular targets that may contribute to the neuroprotective actions of SFN</p>
+<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2021.03.31.437383">Scalable subclonal reconstruction of cancer cells in DNA sequencing data using a penalized likelihood model</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.760131">Targeting PRMT5 Across Cancers and AI-Driven Discovery of Candidate Compounds</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.760240">Robust Chromosome Segmentation in Sparse Single-Cell Whole-Genome Sequencing Using a k-Segment Constrained Hidden Markov Model</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.20.760347">Fine-Grained and Reliable Cell Classification from Pathology Images</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.22.761199">Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale</a><span class="history-date">Oct 25, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.06.05.658122">A genetically informed atlas of transcriptomic programs from massive human RNA-seq compendia</a><span class="history-date">Oct 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.19.760001">BUDDY: An interactive web platform to accelerate the functional modeling of human missense variants using Saccharomyces cerevisiae orthologs</a><span class="history-date">Oct 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.21.760646">Rapid Production and Cryo-EM Structure Determination of GPCR-Nanodisc Complexes via Cell-Free Synthesis</a><span class="history-date">Oct 24, 2026</span></li>
@@ -850,57 +855,37 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Single-cell analysis of West Nile virus infection in brain organoids identified a serine synthesis enzyme as a determinant of viral neural tropism and a druggable antiviral target</a></li>
-  <li><a href="#virology-article-2">Viral host assignment across the tree of life with VHAMSTeR</a></li>
-  <li><a href="#virology-article-3">Integrative reanalysis of public intracellular and vaccine-challenge transcriptomes, informed by single-cell and metabolomic atlases, refines antigen prioritisation for next-generation veterinary Brucella vaccines</a></li>
-  <li><a href="#virology-article-4">Comparative analysis identifies a shared topological organisation among divergent intergenic RNAs</a></li>
-  <li><a href="#virology-article-5">Assessment of Q-PCR based vector copy numbers and viral titration in CAR T cell products, Probe vs SYBR Green.</a></li>
+  <li><a href="#virology-article-1">Modeling and Detecting Downward Causation in Disease Transmission</a></li>
+  <li><a href="#virology-article-2">Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition</a></li>
+  <li><a href="#virology-article-3">Developmental and molecular features shaping broad and synergistic actions of human autoantibodies targeting interferon-α</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.23.761475v1">Single-cell analysis of West Nile virus infection in brain organoids identified a serine synthesis enzyme as a determinant of viral neural tropism and a druggable antiviral target</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.761475">10.64898/2026.10.23.761475</a> · Score: <code>█████░░░░░</code> 0.469</p>
-<p><span class="label">Core Problem:</span> The cellular and molecular determinants of human neuroinvasive West Nile virus (WNV) disease are currently poorly defined</p>
-<p><span class="label">Proposed Solution:</span> Previous studies of WNV neural infection relied on rodent models and immortalised cell lines that diverge from human brain tissue. Herein, we established a reproducible human cerebral organoid model of WNV infection and profiled it by virus-inclusive single-cell RNA sequencing (scRNA-Seq) to obtain an understanding of WNV-host interactions in the context of human neural tissue</p>
-<p><span class="label">Key Impact:</span> They identify de novo serine synthesis as a metabolic dependency of WNV in human neural cells that can be targeted as a host-directed antiviral therapy</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.23.761443v1">Viral host assignment across the tree of life with VHAMSTeR</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.761443">10.64898/2026.10.23.761443</a> · Score: <code>████░░░░░░</code> 0.436</p>
-<p><span class="label">Core Problem:</span> Viruses infect organisms across the tree of life, but many are not associated with a specific host</p>
-<p><span class="label">Proposed Solution:</span> Here we present VHAMSTeR (Virus Host Assignment Model using Sequence Transformers and Reading-frames), a classification framework that predicts the host of viral sequences across five categories: prokaryote, animal, plant, fungi and protist. By integrating fine-tuned genomic language model embeddings with explicit biological features for genome architecture and protein homology, VHAMSTeR substantially outperforms existing host prediction methods for DNA (MCC &gt; 0</p>
-<p><span class="label">Key Impact:</span> com/susiegriggo/VHAMSTeR</p>
-<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760311v1">Integrative reanalysis of public intracellular and vaccine-challenge transcriptomes, informed by single-cell and metabolomic atlases, refines antigen prioritisation for next-generation veterinary Brucella vaccines</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760311">10.64898/2026.10.19.760311</a> · Score: <code>████░░░░░░</code> 0.397</p>
-<p><span class="label">Core Problem:</span> Brucellosis is the most widespread bacterial zoonosis and a leading cause of abortion and infertility in cattle, sheep, goats and pigs</p>
-<p><span class="label">Proposed Solution:</span> The live vaccines licensed for livestock (B. abortus S19 and RB51, B</p>
-<p><span class="label">Key Impact:</span> A composite score combining abundance, induction and surface exposure reorders the candidate panel, placing Omp28/BP26 and omp2b above current candidates and defining concrete priorities for veterinary vaccine development</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760956v1">Comparative analysis identifies a shared topological organisation among divergent intergenic RNAs</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760956">10.64898/2026.10.22.760956</a> · Score: <code>███░░░░░░░</code> 0.327</p>
-<p><span class="label">Core Problem:</span> Biological function is often inferred from sequence conservation or structural similarity</p>
-<p><span class="label">Proposed Solution:</span> However, many viral RNAs maintain regulatory functions despite extensive diversification of both sequence and structures. Using arenavirus intergenic regions (IGRs) as a model system, we investigated what level of RNA organization remains conserved when these conventional sequence-structure-function relationships break down</p>
-<p><span class="label">Key Impact:</span> The data are consistent with a model in which a topologically central helical organisation may be associated with conserved regulatory capacity, whereas structurally variable peripheral elements may contribute to lineage- or segment-specific host-factor interaction profiles</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760281v1">Modeling and Detecting Downward Causation in Disease Transmission</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760281">10.64898/2026.10.20.760281</a> · Score: <code>███░░░░░░░</code> 0.341</p>
+<p><span class="label">Core Problem:</span> We compare two epidemic models: the deterministic SIR (Susceptible-Infected-Recovered) model and the maximum-entropy-based DyMES (Dynamic Maxent across Entwined Scales) framework</p>
+<p><span class="label">Proposed Solution:</span> In contrast to the widely used SIR model, the recently proposed DyMES model incorporates both top-down and bottom-up mechanisms and thus can capture local responses to global behavior. We simulate both models in three disease scenarios using parameter values drawn from the literature and analyze trends in the epidemic trajectories</p>
+<p><span class="label">Key Impact:</span> By combining the Maxent inference procedure and top-down causation, the DyMES model predicts the probability distribution of disease incidence across population sub-aggregates</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.19.760184v1">Assessment of Q-PCR based vector copy numbers and viral titration in CAR T cell products, Probe vs SYBR Green.</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.19.760184">10.64898/2026.10.19.760184</a> · Score: <code>███░░░░░░░</code> 0.327</p>
-<p><span class="label">Core Problem:</span> Assessment of vector copy numbers (VCNs) in comprised of the chimeric antigen receptor (CAR (T cells as a safety parameter and viral titration in the vector bank (VB) as an efficacy parameter are essential in the CAR T cell production procedure</p>
-<p><span class="label">Proposed Solution:</span> Here, we developed a quantitative-PCR (Q-PCR) based VCN and viral titration analysis using both Probe and SYBR Green methods. Cellular viral titration was also applied for comparison of viral titration results</p>
-<p><span class="label">Key Impact:</span> However, no significant difference was reported in both methods for VCNs</p>
+<div class="article" id="virology-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760588v1">Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760588">10.64898/2026.10.20.760588</a> · Score: <code>███░░░░░░░</code> 0.327</p>
+<p><span class="label">Core Problem:</span> Effective T cell vaccines for human immunodeficiency virus (HIV) will require induction of durable antiviral CD8+ T cell responses, but the cellular states associated with protection from viral acquisition remain poorly defined</p>
+<p><span class="label">Proposed Solution:</span> Here, we developed a networked simian immunodeficiency virus (SIV) epitope vaccine targeting structurally constrained viral regions and evaluated a heterologous ChAd68-mRNA prime-boost regimen in non-human primates exposed to repeated low-dose SHIV BG505 challenge. Vaccination induced proliferative SIV epitope-specific CD8+ T cell responses in a subset of animals, with the magnitude of proliferation strongly associated with delayed viral acquisition and reduced peak viral load</p>
+<p><span class="label">Key Impact:</span> These findings identify a specific effector-primed TCF1+ CD8+ T cell state associated with proliferative capacity, delayed viral acquisition, and reduced peak viral load, providing a cellular benchmark for evaluating preventive T cell vaccines designed to protect against HIV acquisition</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760426v1">Developmental and molecular features shaping broad and synergistic actions of human autoantibodies targeting interferon-α</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760426">10.64898/2026.10.20.760426</a> · Score: <code>███░░░░░░░</code> 0.283</p>
+<p><span class="label">Core Problem:</span> Neutralizing autoantibodies against interferon- (IFN) are associated with severe viral infections but may improve outcomes in IFN-driven autoimmunity</p>
+<p><span class="label">Proposed Solution:</span> How these antibodies emerge, mature, and function at the molecular level remains unclear. Here, we tracked development of plasma neutralizing activity against all 12 IFNs in multiple human donors over years</p>
+<p><span class="label">Key Impact:</span> Our findings reveal features shaping anti-IFN autoantibody repertoires and unappreciated synergistic mechanisms that amplify their potency and pathogenic potential</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -908,6 +893,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.19.760184">Assessment of Q-PCR based vector copy numbers and viral titration in CAR T cell products, Probe vs SYBR Green.</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.19.760311">Integrative reanalysis of public intracellular and vaccine-challenge transcriptomes, informed by single-cell and metabolomic atlases, refines antigen prioritisation for next-generation veterinary Brucella vaccines</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.22.760956">Comparative analysis identifies a shared topological organisation among divergent intergenic RNAs</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.23.761443">Viral host assignment across the tree of life with VHAMSTeR</a><span class="history-date">Oct 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.23.761475">Single-cell analysis of West Nile virus infection in brain organoids identified a serine synthesis enzyme as a determinant of viral neural tropism and a druggable antiviral target</a><span class="history-date">Oct 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.05.722837">NI2+ AND ZN2+-BINDING DNA MOTIFS REVEALED IN DNA APTAMERS TO AFRICAN SWINE FEVER VIRUS</a><span class="history-date">Oct 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.22.760918">Data mining of global sequence datasets markedly expands known diversity within the Tobamovirus genus</a><span class="history-date">Oct 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.22.760983">Investigating the evolutionary plasticity of influenza virus splicing using influenza A virus segment 7 as a model system</a><span class="history-date">Oct 24, 2026</span></li>
@@ -1166,7 +1156,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-25T09:02:28 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-26T09:01:58 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

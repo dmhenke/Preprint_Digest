@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-25T09:02:28.084208+00:00",
+  "generated_utc": "2026-10-26T09:01:58.637497+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Targeting PRMT5 Across Cancers and AI-Driven Discovery of Candidate Compounds",
-          "doi": "10.64898/2026.10.19.760131",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760131v1",
+          "title": "ALHENA, an H&E encoder distilled from transcriptomic foundation models for multi-scale slide analysis",
+          "doi": "10.64898/2026.10.20.760439",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760439v1",
           "source": "biorxiv",
-          "score": 0.6131
+          "score": 0.4399
         },
         {
           "rank": 2,
-          "title": "Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale",
-          "doi": "10.64898/2026.10.22.761199",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761199v1",
+          "title": "Building from the ground up: augmentation strategies to improve protein language model performance on protein sets",
+          "doi": "10.64898/2026.10.20.760553",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760553v1",
           "source": "biorxiv",
-          "score": 0.4722
+          "score": 0.4309
         },
         {
           "rank": 3,
-          "title": "Scalable subclonal reconstruction of cancer cells in DNA sequencing data using a penalized likelihood model",
-          "doi": "10.1101/2021.03.31.437383",
-          "url": "https://www.biorxiv.org/content/10.1101/2021.03.31.437383v3",
+          "title": "Conserved Brain-Associated CD8+ T Cell Programs and Their Regulation by the Brain Microenvironment",
+          "doi": "10.64898/2026.10.22.761115",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761115v1",
           "source": "biorxiv",
-          "score": 0.4651
+          "score": 0.4296
         },
         {
           "rank": 4,
-          "title": "Robust Chromosome Segmentation in Sparse Single-Cell Whole-Genome Sequencing Using a k-Segment Constrained Hidden Markov Model",
-          "doi": "10.64898/2026.10.19.760240",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760240v1",
+          "title": "Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation",
+          "doi": "10.64898/2026.05.01.722166",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.01.722166v2",
           "source": "biorxiv",
-          "score": 0.4611
+          "score": 0.4063
         },
         {
           "rank": 5,
-          "title": "Fine-Grained and Reliable Cell Classification from Pathology Images",
-          "doi": "10.64898/2026.10.20.760347",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1",
+          "title": "Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study",
+          "doi": "10.64898/2026.10.20.760417",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760417v1",
           "source": "biorxiv",
-          "score": 0.4457
+          "score": 0.4044
         }
       ]
     },
@@ -51,43 +51,27 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Single-cell analysis of West Nile virus infection in brain organoids identified a serine synthesis enzyme as a determinant of viral neural tropism and a druggable antiviral target",
-          "doi": "10.64898/2026.10.23.761475",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761475v1",
+          "title": "Modeling and Detecting Downward Causation in Disease Transmission",
+          "doi": "10.64898/2026.10.20.760281",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760281v1",
           "source": "biorxiv",
-          "score": 0.4694
+          "score": 0.3408
         },
         {
           "rank": 2,
-          "title": "Viral host assignment across the tree of life with VHAMSTeR",
-          "doi": "10.64898/2026.10.23.761443",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761443v1",
+          "title": "Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition",
+          "doi": "10.64898/2026.10.20.760588",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760588v1",
           "source": "biorxiv",
-          "score": 0.4356
+          "score": 0.327
         },
         {
           "rank": 3,
-          "title": "Integrative reanalysis of public intracellular and vaccine-challenge transcriptomes, informed by single-cell and metabolomic atlases, refines antigen prioritisation for next-generation veterinary Brucella vaccines",
-          "doi": "10.64898/2026.10.19.760311",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760311v1",
+          "title": "Developmental and molecular features shaping broad and synergistic actions of human autoantibodies targeting interferon-\u03b1",
+          "doi": "10.64898/2026.10.20.760426",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760426v1",
           "source": "biorxiv",
-          "score": 0.3974
-        },
-        {
-          "rank": 4,
-          "title": "Comparative analysis identifies a shared topological organisation among divergent intergenic RNAs",
-          "doi": "10.64898/2026.10.22.760956",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760956v1",
-          "source": "biorxiv",
-          "score": 0.3274
-        },
-        {
-          "rank": 5,
-          "title": "Assessment of Q-PCR based vector copy numbers and viral titration in CAR T cell products, Probe vs SYBR Green.",
-          "doi": "10.64898/2026.10.19.760184",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760184v1",
-          "source": "biorxiv",
-          "score": 0.3274
+          "score": 0.2831
         }
       ]
     }
