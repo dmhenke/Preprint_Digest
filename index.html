@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 26, 2026 — 8 preprints selected (Comp Bio: 5 · Virology: 3)</h2>
+  <h2>October 27, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -116,7 +116,7 @@ footer {
 
 <nav class="tabs" role="tablist">
   <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(3)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">ALHENA, an H&amp;E encoder distilled from transcriptomic foundation models for multi-scale slide analysis</a></li>
-  <li><a href="#core-article-2">Building from the ground up: augmentation strategies to improve protein language model performance on protein sets</a></li>
-  <li><a href="#core-article-3">Conserved Brain-Associated CD8+ T Cell Programs and Their Regulation by the Brain Microenvironment</a></li>
-  <li><a href="#core-article-4">Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation</a></li>
-  <li><a href="#core-article-5">Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study</a></li>
+  <li><a href="#core-article-1">scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data</a></li>
+  <li><a href="#core-article-2">flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</a></li>
+  <li><a href="#core-article-3">Prediction transfer does not imply reliability transfer in single-cell foundation models</a></li>
+  <li><a href="#core-article-4">Decoding &amp; manipulating human intercellular signaling via scalable cell-free protein synthesis</a></li>
+  <li><a href="#core-article-5">SC-MAPS: Image-based deep learning for bacterial identification and antibiotic-susceptibility testing</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760439v1">ALHENA, an H&amp;E encoder distilled from transcriptomic foundation models for multi-scale slide analysis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760439">10.64898/2026.10.20.760439</a> · Score: <code>████░░░░░░</code> 0.440</p>
-<p><span class="label">Core Problem:</span> Hematoxylin and eosin (H&amp;E) histology and spatial transcriptomics (ST) provide complementary tissue views, with H&amp;E capturing morphology and ST measuring spatial gene expression</p>
-<p><span class="label">Proposed Solution:</span> Together, they connect tissue architecture to molecular state. We present a multi-scale training framework for adapting pretrained H&amp;E encoders from paired H&amp;E and ST, producing ALHENA, which requires only H&amp;E at inference</p>
-<p><span class="label">Key Impact:</span> The released companion Python package provides a comprehensive tool for H&amp;E-derived tile and cell embeddings, atlas-based cell typing, and spatially aligned multi-scale H&amp;E analysis</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.03.28.714542v2">scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.28.714542">10.64898/2026.03.28.714542</a> · Score: <code>█████░░░░░</code> 0.475</p>
+<p><span class="label">Core Problem:</span> Motivation: Single-cell RNA sequencing (scRNA-seq) enables characterization of cellular heterogeneity at unprecedented resolution</p>
+<p><span class="label">Proposed Solution:</span> However, accurate clustering of scRNA-seq data remains challenging due to high dimensionality, dropout-induced sparsity, and technical noise. Existing contrastive learning methods usually create augmented views by perturbing gene expression values, so the uncertainty in cell-cell relationships caused by dropout events is not properly modeled</p>
+<p><span class="label">Key Impact:</span> com/ShoaibAbdullahKhan/scTGCL)</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760553v1">Building from the ground up: augmentation strategies to improve protein language model performance on protein sets</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760553">10.64898/2026.10.20.760553</a> · Score: <code>████░░░░░░</code> 0.431</p>
-<p><span class="label">Core Problem:</span> An important underlying requirement for deep learning models is the availability of large datasets, however, in sciences such as chemistry and biology, generating experimental data of sufficient size represents a significant bottleneck</p>
-<p><span class="label">Proposed Solution:</span> In this work, we probed the extent and nature of limited input data, characterize how several protein language models (pLMs) learned on suboptimal datasets, and investigated augmentation approaches to improve predictive model performance. We found that narrowing the distribution of protein-protein complexes in a limited dataset permits an order-of-magnitude decrease in training dataset size, if a model is only expected to generalize to in-distribution data</p>
-<p><span class="label">Key Impact:</span> Similar results were found in active learning (AL), where both in- and out-of-distribution Matthews Correlation Coefficient (MCC) showed a small but consistent increase upon augmentation of the training set with complexes produced by ESM-3, a generative pLM</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1">flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.21.760383">10.64898/2026.10.21.760383</a> · Score: <code>█████░░░░░</code> 0.463</p>
+<p><span class="label">Core Problem:</span> Python ecosystem dominates the deep learning framework</p>
+<p><span class="label">Proposed Solution:</span> flodl-bio is a Rust crate that extends flodl, a libtorch-backed deep-learning framework, with deep learning on biological sequences. To our knowledge, flodl-bio is the first Rust crate that provides a comprehensive and practical deep learning for the biological applications, which includes the alphabet-aware sequence encoding, including one-hot and k-mer representations, padded sequences, and channels-first batches</p>
+<p><span class="label">Key Impact:</span> 23321850</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.761115v1">Conserved Brain-Associated CD8+ T Cell Programs and Their Regulation by the Brain Microenvironment</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.761115">10.64898/2026.10.22.761115</a> · Score: <code>████░░░░░░</code> 0.430</p>
-<p><span class="label">Core Problem:</span> CD8+ T cells are increasingly recognized as components of the healthy brain, yet whether their specialized functional characteristics are conserved across species and how the brain microenvironment regulates their effector programs remain poorly understood</p>
-<p><span class="label">Proposed Solution:</span> Here, we characterized brain-associated CD8+ T cells in the common marmoset and investigated their regulation by brain-derived signals. Flow cytometric analysis revealed a substantial population of CD8+ T cells in the healthy marmoset brain parenchyma that exhibited high IFN-{gamma} competence but minimal granzyme B (GzmB) expression, resembling the functional phenotype previously identified in mice</p>
-<p><span class="label">Key Impact:</span> Together, these findings identify shared functional characteristics of brain-associated CD8+ T cells across rodents and nonhuman primates and establish a framework for understanding how the neural microenvironment shapes adaptive immune function</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760716v1">Prediction transfer does not imply reliability transfer in single-cell foundation models</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.21.760716">10.64898/2026.10.21.760716</a> · Score: <code>█████░░░░░</code> 0.451</p>
+<p><span class="label">Core Problem:</span> Single-cell foundation models are increasingly transferred across tissues, diseases, perturbation screens, and experimental platforms</p>
+<p><span class="label">Proposed Solution:</span> Although substantial effort has focused on prediction transfer, it remains unclear whether a model&#x27;s assessment of its own reliability transfers similarly across biological contexts. Here we define reliability transfer as the ability to transfer an accurate assessment of when model predictions are likely to be correct or incorrect and investigate its behavior across ten perturbation-prediction systems spanning multiple datasets, models, and evaluation settings</p>
+<p><span class="label">Key Impact:</span> Together, these results establish reliability transfer as a distinct aspect of foundation-model generalization and introduce reliability-attribution fingerprints as a framework for characterizing transferable reliability structure across biological contexts</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.05.01.722166v2">Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.01.722166">10.64898/2026.05.01.722166</a> · Score: <code>████░░░░░░</code> 0.406</p>
-<p><span class="label">Core Problem:</span> Background: In the past few years, we have seen a veritable surge in single-cell (e</p>
-<p><span class="label">Proposed Solution:</span> g. , RNA-sequencing) techniques and datasets, enabling increasingly detailed characterization of cellular heterogeneity across tissues and conditions</p>
-<p><span class="label">Key Impact:</span> By unifying the process of benchmark construction, it can facilitate more consistent method comparisons and provides a foundation for broader, more flexible, and more sustainable benchmarking efforts</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.24.761585v1">Decoding &amp; manipulating human intercellular signaling via scalable cell-free protein synthesis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.24.761585">10.64898/2026.10.24.761585</a> · Score: <code>████░░░░░░</code> 0.442</p>
+<p><span class="label">Core Problem:</span> Intercellular protein signals underpin human health and influence disease outcomes</p>
+<p><span class="label">Proposed Solution:</span> Millions of patients are treated annually with signaling inhibitors and activators, generating billions in sales. However, our knowledge on the hundreds of signals encoded by our genomes is surprisingly sparse: 90% of data centers on just 10% of protein signals, driven by factors including technological, physical, and financial limitations</p>
+<p><span class="label">Key Impact:</span> Ultimately, our frameworks power wide-ranging functional discoveries and therapeutic targeting of intercellular communication</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760417v1">Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760417">10.64898/2026.10.20.760417</a> · Score: <code>████░░░░░░</code> 0.404</p>
-<p><span class="label">Core Problem:</span> Sulforaphane (SFN), a natural isothiocyanate from cruciferous vegetables, exerts neuroprotective effects through mechanisms extending beyond canonical Nrf2/ARE activation</p>
-<p><span class="label">Proposed Solution:</span> Here, we developed a multi-dataset computational framework integrating transcriptomic analysis, multi-criteria target prioritization, and structural docking evaluation. R- and S-SFN were docked against 693 prioritized targets using AutoDock Vina, followed by cross-validation, brain expression profiling, and molecular dynamics simulations</p>
-<p><span class="label">Key Impact:</span> These findings generate testable hypotheses regarding previously underexplored molecular targets that may contribute to the neuroprotective actions of SFN</p>
-<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.10.23.26366325v1">SC-MAPS: Image-based deep learning for bacterial identification and antibiotic-susceptibility testing</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.26366325">10.64898/2026.10.23.26366325</a> · Score: <code>████░░░░░░</code> 0.437</p>
+<p><span class="label">Core Problem:</span> Rapid bacterial identification could help guide antimicrobial susceptibility testing (AST), but image-based classification must generalise across bacterial strains</p>
+<p><span class="label">Proposed Solution:</span> We developed SC-MAPS, a multichannel microscopy dataset comprising 916,435 single cells from 13 bacterial species, with independent strains reserved for evaluation. Combining phase-contrast and fluorescence information using deep learning achieved 65</p>
+<p><span class="label">Key Impact:</span> SC-MAPS provides a framework for investigating transferable bacterial phenotypes and developing image-based identification and AST-routing strategies</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.01.722166">Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation</a><span class="history-date">Oct 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.20.760417">Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study</a><span class="history-date">Oct 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.20.760439">ALHENA, an H&amp;E encoder distilled from transcriptomic foundation models for multi-scale slide analysis</a><span class="history-date">Oct 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.20.760553">Building from the ground up: augmentation strategies to improve protein language model performance on protein sets</a><span class="history-date">Oct 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.22.761115">Conserved Brain-Associated CD8+ T Cell Programs and Their Regulation by the Brain Microenvironment</a><span class="history-date">Oct 26, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2021.03.31.437383">Scalable subclonal reconstruction of cancer cells in DNA sequencing data using a penalized likelihood model</a><span class="history-date">Oct 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.19.760131">Targeting PRMT5 Across Cancers and AI-Driven Discovery of Candidate Compounds</a><span class="history-date">Oct 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.19.760240">Robust Chromosome Segmentation in Sparse Single-Cell Whole-Genome Sequencing Using a k-Segment Constrained Hidden Markov Model</a><span class="history-date">Oct 25, 2026</span></li>
@@ -855,37 +860,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Modeling and Detecting Downward Causation in Disease Transmission</a></li>
-  <li><a href="#virology-article-2">Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition</a></li>
-  <li><a href="#virology-article-3">Developmental and molecular features shaping broad and synergistic actions of human autoantibodies targeting interferon-α</a></li>
+  <li><a href="#virology-article-1">Enterovirus D68 in Europe, 2025: continent-wide predominance of subclade A2/D and shift from pediatric to adult cases</a></li>
+  <li><a href="#virology-article-2">Field Evaluation of a Low-cost, Simplified Method to Detect and Characterize Toxigenic V. cholerae O1 from Environmental Water in Lagos, Nigeria</a></li>
+  <li><a href="#virology-article-3">Beyond the Axenic Culture Filtrate Secretome: BONCAT and conventional proteomics together reveal the Infection-associated secreted protein repertoire of Acinetobacter baumannii in the human lung Epithelial cell line A549</a></li>
+  <li><a href="#virology-article-4">Ecological and metabolic signatures of biofilm viromes across a national river surveillance network</a></li>
+  <li><a href="#virology-article-5">Lymphatic dissemination is a major route of systemic invasion by diverse extracellular bacteria in soft tissue infection</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760281v1">Modeling and Detecting Downward Causation in Disease Transmission</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760281">10.64898/2026.10.20.760281</a> · Score: <code>███░░░░░░░</code> 0.341</p>
-<p><span class="label">Core Problem:</span> We compare two epidemic models: the deterministic SIR (Susceptible-Infected-Recovered) model and the maximum-entropy-based DyMES (Dynamic Maxent across Entwined Scales) framework</p>
-<p><span class="label">Proposed Solution:</span> In contrast to the widely used SIR model, the recently proposed DyMES model incorporates both top-down and bottom-up mechanisms and thus can capture local responses to global behavior. We simulate both models in three disease scenarios using parameter values drawn from the literature and analyze trends in the epidemic trajectories</p>
-<p><span class="label">Key Impact:</span> By combining the Maxent inference procedure and top-down causation, the DyMES model predicts the probability distribution of disease incidence across population sub-aggregates</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.23.26366309v1">Enterovirus D68 in Europe, 2025: continent-wide predominance of subclade A2/D and shift from pediatric to adult cases</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.26366309">10.64898/2026.10.23.26366309</a> · Score: <code>█████░░░░░</code> 0.495</p>
+<p><span class="label">Core Problem:</span> Background Enterovirus D68 (EV-D68) has predominantly caused infections in children, and detected cases have mainly been infected by subclade B3</p>
+<p><span class="label">Proposed Solution:</span> In 2025, however, a substantial number of infections in adults was noted. Aim To detail the molecular epidemiology of the 2025 season in Europe</p>
+<p><span class="label">Key Impact:</span> The detection of interclade recombinant variants highlights a need to supplement regular VP1-based genotyping with whole-genome sequencing</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760588v1">Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760588">10.64898/2026.10.20.760588</a> · Score: <code>███░░░░░░░</code> 0.327</p>
-<p><span class="label">Core Problem:</span> Effective T cell vaccines for human immunodeficiency virus (HIV) will require induction of durable antiviral CD8+ T cell responses, but the cellular states associated with protection from viral acquisition remain poorly defined</p>
-<p><span class="label">Proposed Solution:</span> Here, we developed a networked simian immunodeficiency virus (SIV) epitope vaccine targeting structurally constrained viral regions and evaluated a heterologous ChAd68-mRNA prime-boost regimen in non-human primates exposed to repeated low-dose SHIV BG505 challenge. Vaccination induced proliferative SIV epitope-specific CD8+ T cell responses in a subset of animals, with the magnitude of proliferation strongly associated with delayed viral acquisition and reduced peak viral load</p>
-<p><span class="label">Key Impact:</span> These findings identify a specific effector-primed TCF1+ CD8+ T cell state associated with proliferative capacity, delayed viral acquisition, and reduced peak viral load, providing a cellular benchmark for evaluating preventive T cell vaccines designed to protect against HIV acquisition</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.23.26366021v1">Field Evaluation of a Low-cost, Simplified Method to Detect and Characterize Toxigenic V. cholerae O1 from Environmental Water in Lagos, Nigeria</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.26366021">10.64898/2026.10.23.26366021</a> · Score: <code>████░░░░░░</code> 0.395</p>
+<p><span class="label">Core Problem:</span> Cholera is caused by toxigenic Vibrio cholerae serogroups O1 or O139 and is transmitted through contaminated water or food</p>
+<p><span class="label">Proposed Solution:</span> Conventional detection methods for V. cholerae in environmental water samples, including membrane filtration and culture, typically require about three days, specialized equipment, and technical expertise</p>
+<p><span class="label">Key Impact:</span> cholerae O1 within 24 hours and enables the collection of samples useful for further bacterial molecular characterization</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.20.760426v1">Developmental and molecular features shaping broad and synergistic actions of human autoantibodies targeting interferon-α</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.20.760426">10.64898/2026.10.20.760426</a> · Score: <code>███░░░░░░░</code> 0.283</p>
-<p><span class="label">Core Problem:</span> Neutralizing autoantibodies against interferon- (IFN) are associated with severe viral infections but may improve outcomes in IFN-driven autoimmunity</p>
-<p><span class="label">Proposed Solution:</span> How these antibodies emerge, mature, and function at the molecular level remains unclear. Here, we tracked development of plasma neutralizing activity against all 12 IFNs in multiple human donors over years</p>
-<p><span class="label">Key Impact:</span> Our findings reveal features shaping anti-IFN autoantibody repertoires and unappreciated synergistic mechanisms that amplify their potency and pathogenic potential</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.25.761628v1">Beyond the Axenic Culture Filtrate Secretome: BONCAT and conventional proteomics together reveal the Infection-associated secreted protein repertoire of Acinetobacter baumannii in the human lung Epithelial cell line A549</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.25.761628">10.64898/2026.10.25.761628</a> · Score: <code>████░░░░░░</code> 0.383</p>
+<p><span class="label">Core Problem:</span> Acinetobacter baumannii (Ab) is an important opportunistic pathogen responsible for pneumonia, bloodstream infections, and sepsis</p>
+<p><span class="label">Proposed Solution:</span> Although several virulence determinants have been characterized, the bacterial secreted protein repertoire associated with host cell infection remains incompletely understood. Conventional proteomic analyses of axenic cultures provide valuable information but cannot distinguish proteins synthesized before infection from those produced during host pathogen interactions</p>
+<p><span class="label">Key Impact:</span> The study establishes a methodological foundation for investigating infection-associated protein synthesis and release in complex host pathogen environments</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761785v1">Ecological and metabolic signatures of biofilm viromes across a national river surveillance network</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761785">10.64898/2026.10.26.761785</a> · Score: <code>████░░░░░░</code> 0.362</p>
+<p><span class="label">Core Problem:</span> Benthic biofilms are biogeochemical hotspots in rivers, yet their endogenous viral communities remain poorly resolved at national scales</p>
+<p><span class="label">Proposed Solution:</span> We analysed 447 biofilm metagenomes from 146 sites within England&#x27;s River Surveillance Network (RSN), sampled in spring and autumn from 2021 to 2023, integrating viral operational taxonomic units (vOTUs), water-quality gradients, predicted host associations and auxiliary metabolic genes (AMGs). We recovered 38,534 vOTUs, revealing extensive viral novelty, where 93% of the vOTUs could not be assigned to a known family</p>
+<p><span class="label">Key Impact:</span> We propose that biofilm viromes provide a complementary layer of information for understanding river health, microbial ecology and the propagation of anthropogenic pressures in freshwater systems</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.04.21.649860v3">Lymphatic dissemination is a major route of systemic invasion by diverse extracellular bacteria in soft tissue infection</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.04.21.649860">10.1101/2025.04.21.649860</a> · Score: <code>████░░░░░░</code> 0.358</p>
+<p><span class="label">Core Problem:</span> Extracellular bacterial pathogens cause substantial global mortality, yet how they disseminate from peripheral tissues into the bloodstream remains poorly understood</p>
+<p><span class="label">Proposed Solution:</span> Systemic infection is typically attributed to direct vascular invasion, with draining lymph nodes considered terminal sites of containment. Here, using a murine soft-tissue infection model, we show that onward lymphatic dissemination from a distant tissue site through sequential draining lymph nodes is a major route of systemic invasion across diverse extracellular bacterial pathogens</p>
+<p><span class="label">Key Impact:</span> These findings establish lymphatic dissemination through sequential lymph nodes as a major invasion route across key extracellular bacterial pathogens, with important implications for systemic disease and immunity</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -893,6 +918,9 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.20.760281">Modeling and Detecting Downward Causation in Disease Transmission</a><span class="history-date">Oct 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.20.760426">Developmental and molecular features shaping broad and synergistic actions of human autoantibodies targeting interferon-α</a><span class="history-date">Oct 26, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.20.760588">Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition</a><span class="history-date">Oct 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.19.760184">Assessment of Q-PCR based vector copy numbers and viral titration in CAR T cell products, Probe vs SYBR Green.</a><span class="history-date">Oct 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.19.760311">Integrative reanalysis of public intracellular and vaccine-challenge transcriptomes, informed by single-cell and metabolomic atlases, refines antigen prioritisation for next-generation veterinary Brucella vaccines</a><span class="history-date">Oct 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.22.760956">Comparative analysis identifies a shared topological organisation among divergent intergenic RNAs</a><span class="history-date">Oct 25, 2026</span></li>
@@ -1156,7 +1184,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-26T09:01:58 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-27T09:02:13 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
