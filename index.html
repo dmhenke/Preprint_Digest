@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 27, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 28, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data</a></li>
-  <li><a href="#core-article-2">flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</a></li>
-  <li><a href="#core-article-3">Prediction transfer does not imply reliability transfer in single-cell foundation models</a></li>
-  <li><a href="#core-article-4">Decoding &amp; manipulating human intercellular signaling via scalable cell-free protein synthesis</a></li>
-  <li><a href="#core-article-5">SC-MAPS: Image-based deep learning for bacterial identification and antibiotic-susceptibility testing</a></li>
+  <li><a href="#core-article-1">ProtCell: a foundation model for single-cell proteomics</a></li>
+  <li><a href="#core-article-2">Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo</a></li>
+  <li><a href="#core-article-3">CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification</a></li>
+  <li><a href="#core-article-4">Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type</a></li>
+  <li><a href="#core-article-5">In Silico Design and Evaluation of CRISPR Cytosine Base Editing Strategy for Potential Correction of the ASPA Variant Associated with Canavan Disease</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.03.28.714542v2">scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.28.714542">10.64898/2026.03.28.714542</a> · Score: <code>█████░░░░░</code> 0.475</p>
-<p><span class="label">Core Problem:</span> Motivation: Single-cell RNA sequencing (scRNA-seq) enables characterization of cellular heterogeneity at unprecedented resolution</p>
-<p><span class="label">Proposed Solution:</span> However, accurate clustering of scRNA-seq data remains challenging due to high dimensionality, dropout-induced sparsity, and technical noise. Existing contrastive learning methods usually create augmented views by perturbing gene expression values, so the uncertainty in cell-cell relationships caused by dropout events is not properly modeled</p>
-<p><span class="label">Key Impact:</span> com/ShoaibAbdullahKhan/scTGCL)</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760932v1">ProtCell: a foundation model for single-cell proteomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760932">10.64898/2026.10.22.760932</a> · Score: <code>██████░░░░</code> 0.579</p>
+<p><span class="label">Core Problem:</span> Single-cell proteomics provides a direct functional readout of cellular states, but targeted assays measure limited and non-identical protein panels, fragmenting information across experiments</p>
+<p><span class="label">Proposed Solution:</span> Here, we present ProtCell, a foundation model developed using approximately 380 million cells from 98 datasets for pretraining and evaluation. ProtCell combines protein-identity and continuous-abundance embeddings in a transformer encoder and learns cell- and protein-level representations through masked abundance modeling</p>
+<p><span class="label">Key Impact:</span> ProtCell thus provides a framework for connecting fragmented proteomic profiles, extending information beyond measured panels and guiding more informative measurements</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1">flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.21.760383">10.64898/2026.10.21.760383</a> · Score: <code>█████░░░░░</code> 0.463</p>
-<p><span class="label">Core Problem:</span> Python ecosystem dominates the deep learning framework</p>
-<p><span class="label">Proposed Solution:</span> flodl-bio is a Rust crate that extends flodl, a libtorch-backed deep-learning framework, with deep learning on biological sequences. To our knowledge, flodl-bio is the first Rust crate that provides a comprehensive and practical deep learning for the biological applications, which includes the alphabet-aware sequence encoding, including one-hot and k-mer representations, padded sequences, and channels-first batches</p>
-<p><span class="label">Key Impact:</span> 23321850</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1">Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.24.761531">10.64898/2026.10.24.761531</a> · Score: <code>█████░░░░░</code> 0.520</p>
+<p><span class="label">Core Problem:</span> Single-cell RNA velocity has transformed our capacity to predict future cell states from sequencing snapshots, but existing methods rely on constant or binary kinetic assumptions that fail to capture the heterogeneous splicing dynamics of cellular differentiation</p>
+<p><span class="label">Proposed Solution:</span> Here we present JuloVelo, a deep learning framework that demonstrates that identifying gene kinetics patterns to initialize neural network training dramatically improves RNA velocity model performance. By pre-determining whether each gene follows a Circle, Complete induction, or Complete repression pattern across cellular differentiation, JuloVelo initializes training with pattern-matched, pre-trained network weights, effectively guiding the cell-specific kinetics optimization away from biologically implausible parameter regimes</p>
+<p><span class="label">Key Impact:</span> jl</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760716v1">Prediction transfer does not imply reliability transfer in single-cell foundation models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.21.760716">10.64898/2026.10.21.760716</a> · Score: <code>█████░░░░░</code> 0.451</p>
-<p><span class="label">Core Problem:</span> Single-cell foundation models are increasingly transferred across tissues, diseases, perturbation screens, and experimental platforms</p>
-<p><span class="label">Proposed Solution:</span> Although substantial effort has focused on prediction transfer, it remains unclear whether a model&#x27;s assessment of its own reliability transfers similarly across biological contexts. Here we define reliability transfer as the ability to transfer an accurate assessment of when model predictions are likely to be correct or incorrect and investigate its behavior across ten perturbation-prediction systems spanning multiple datasets, models, and evaluation settings</p>
-<p><span class="label">Key Impact:</span> Together, these results establish reliability transfer as a distinct aspect of foundation-model generalization and introduce reliability-attribution fingerprints as a framework for characterizing transferable reliability structure across biological contexts</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760906v1">CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760906">10.64898/2026.10.22.760906</a> · Score: <code>█████░░░░░</code> 0.517</p>
+<p><span class="label">Core Problem:</span> Malignant cell identification in single-cell RNA sequencing (scRNA-seq) remains challenging because transcriptomic cell typing, somatic variant detection and inferred copy-number approaches each have modality-specific limitations</p>
+<p><span class="label">Proposed Solution:</span> Rare or ambiguous malignant populations are especially vulnerable to misclassification or exclusion, despite their relevance to treatment resistance, minimal residual disease, and metastasis. We developed CATFISHR, a semi-automated workflow that integrates RNA-expression similarity, inferred copy-number variation (CNV) profiles, and consensus cell typing to classify malignant cells relative to high-confidence references</p>
+<p><span class="label">Key Impact:</span> CATFISHR reduces missed malignant calls while preserving rare, transitional and benchmark-discordant populations for downstream investigation</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.24.761585v1">Decoding &amp; manipulating human intercellular signaling via scalable cell-free protein synthesis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.24.761585">10.64898/2026.10.24.761585</a> · Score: <code>████░░░░░░</code> 0.442</p>
-<p><span class="label">Core Problem:</span> Intercellular protein signals underpin human health and influence disease outcomes</p>
-<p><span class="label">Proposed Solution:</span> Millions of patients are treated annually with signaling inhibitors and activators, generating billions in sales. However, our knowledge on the hundreds of signals encoded by our genomes is surprisingly sparse: 90% of data centers on just 10% of protein signals, driven by factors including technological, physical, and financial limitations</p>
-<p><span class="label">Key Impact:</span> Ultimately, our frameworks power wide-ranging functional discoveries and therapeutic targeting of intercellular communication</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1">Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761949">10.64898/2026.10.26.761949</a> · Score: <code>█████░░░░░</code> 0.491</p>
+<p><span class="label">Core Problem:</span> Motivation: Single-cell cell-type classifiers are often evaluated using random cell-level splits, although cells from the same donor are not independent</p>
+<p><span class="label">Proposed Solution:</span> We asked how evaluation design affects estimates of cross-donor generalization. Results: Across PBMC and lung datasets, random cell-level splitting consistently yielded higher macro F1 than donor-held-out evaluation across multiple expression representations</p>
+<p><span class="label">Key Impact:</span> All data are publicly available and cited</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.10.23.26366325v1">SC-MAPS: Image-based deep learning for bacterial identification and antibiotic-susceptibility testing</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.26366325">10.64898/2026.10.23.26366325</a> · Score: <code>████░░░░░░</code> 0.437</p>
-<p><span class="label">Core Problem:</span> Rapid bacterial identification could help guide antimicrobial susceptibility testing (AST), but image-based classification must generalise across bacterial strains</p>
-<p><span class="label">Proposed Solution:</span> We developed SC-MAPS, a multichannel microscopy dataset comprising 916,435 single cells from 13 bacterial species, with independent strains reserved for evaluation. Combining phase-contrast and fluorescence information using deep learning achieved 65</p>
-<p><span class="label">Key Impact:</span> SC-MAPS provides a framework for investigating transferable bacterial phenotypes and developing image-based identification and AST-routing strategies</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.24.761534v1">In Silico Design and Evaluation of CRISPR Cytosine Base Editing Strategy for Potential Correction of the ASPA Variant Associated with Canavan Disease</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.24.761534">10.64898/2026.10.24.761534</a> · Score: <code>█████░░░░░</code> 0.466</p>
+<p><span class="label">Core Problem:</span> **Background** Canavan disease is a rare autosomal recessive neurodegenerative leukodystrophy caused by pathogenic variants in the ASPA gene, for which effective molecularly targeted therapies remain limited</p>
+<p><span class="label">Proposed Solution:</span> The NM_000049. 4:c</p>
+<p><span class="label">Key Impact:</span> Further cell-based and in vivo studies are required to establish editing efficiency, editing purity, bystander activity, off-target effects, and restoration of ASPA function before therapeutic applicability can be assessed</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.03.28.714542">scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.21.760383">flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.21.760716">Prediction transfer does not imply reliability transfer in single-cell foundation models</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.23.26366325">SC-MAPS: Image-based deep learning for bacterial identification and antibiotic-susceptibility testing</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.24.761585">Decoding &amp; manipulating human intercellular signaling via scalable cell-free protein synthesis</a><span class="history-date">Oct 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.01.722166">Building computational benchmarks: an Omnibenchmark reimplementation of a single-cell preprocessing pipeline evaluation</a><span class="history-date">Oct 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.20.760417">Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study</a><span class="history-date">Oct 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.20.760439">ALHENA, an H&amp;E encoder distilled from transcriptomic foundation models for multi-scale slide analysis</a><span class="history-date">Oct 26, 2026</span></li>
@@ -860,64 +865,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Enterovirus D68 in Europe, 2025: continent-wide predominance of subclade A2/D and shift from pediatric to adult cases</a></li>
-  <li><a href="#virology-article-2">Field Evaluation of a Low-cost, Simplified Method to Detect and Characterize Toxigenic V. cholerae O1 from Environmental Water in Lagos, Nigeria</a></li>
-  <li><a href="#virology-article-3">Beyond the Axenic Culture Filtrate Secretome: BONCAT and conventional proteomics together reveal the Infection-associated secreted protein repertoire of Acinetobacter baumannii in the human lung Epithelial cell line A549</a></li>
-  <li><a href="#virology-article-4">Ecological and metabolic signatures of biofilm viromes across a national river surveillance network</a></li>
-  <li><a href="#virology-article-5">Lymphatic dissemination is a major route of systemic invasion by diverse extracellular bacteria in soft tissue infection</a></li>
+  <li><a href="#virology-article-1">Dual phage sensing activates an RNA-targeting reverse transcriptase for anti-phage defense</a></li>
+  <li><a href="#virology-article-2">Rotavirus NSP1 activates human NLRP1 inflammasome</a></li>
+  <li><a href="#virology-article-3">Long-term experimental evolution of seasonal influenza A/H3N2 virus reveals diverse evolutionary potential</a></li>
+  <li><a href="#virology-article-4">A bivalent Lassa virus mRNA vaccine protects guinea pigs from lethal infection with Lassa virus</a></li>
+  <li><a href="#virology-article-5">Pervasive short hairpin folding in non-encapsidated RNA viruses</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.23.26366309v1">Enterovirus D68 in Europe, 2025: continent-wide predominance of subclade A2/D and shift from pediatric to adult cases</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.26366309">10.64898/2026.10.23.26366309</a> · Score: <code>█████░░░░░</code> 0.495</p>
-<p><span class="label">Core Problem:</span> Background Enterovirus D68 (EV-D68) has predominantly caused infections in children, and detected cases have mainly been infected by subclade B3</p>
-<p><span class="label">Proposed Solution:</span> In 2025, however, a substantial number of infections in adults was noted. Aim To detail the molecular epidemiology of the 2025 season in Europe</p>
-<p><span class="label">Key Impact:</span> The detection of interclade recombinant variants highlights a need to supplement regular VP1-based genotyping with whole-genome sequencing</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.27.754916v1">Dual phage sensing activates an RNA-targeting reverse transcriptase for anti-phage defense</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.754916">10.64898/2026.10.27.754916</a> · Score: <code>████░░░░░░</code> 0.393</p>
+<p><span class="label">Core Problem:</span> Defense-associated reverse transcriptases (DRTs) mediate diverse antiphage responses, yet how they sense phage infection and couple unconventional DNA synthesis to antiviral effector activation remains poorly understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we characterize DRT4 as a dual-sensor immune system that integrates two distinct phage-derived signals. Cryo-EM analysis reveals that DRT4 assembles into a dimer-of-trimers hexamer, with each protomer catalyzing protein-primed, template-independent synthesis of a covalently linked ssDNA product</p>
+<p><span class="label">Key Impact:</span> Together, our findings show DRT4-generated ssDNA as a signaling intermediate that integrates phage-induced metabolic changes with direct recognition of viral replication proteins, revealing how protein-primed DNA synthesis can be repurposed for infection sensing and antiviral effector activation</p>
+<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.23.26366021v1">Field Evaluation of a Low-cost, Simplified Method to Detect and Characterize Toxigenic V. cholerae O1 from Environmental Water in Lagos, Nigeria</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.26366021">10.64898/2026.10.23.26366021</a> · Score: <code>████░░░░░░</code> 0.395</p>
-<p><span class="label">Core Problem:</span> Cholera is caused by toxigenic Vibrio cholerae serogroups O1 or O139 and is transmitted through contaminated water or food</p>
-<p><span class="label">Proposed Solution:</span> Conventional detection methods for V. cholerae in environmental water samples, including membrane filtration and culture, typically require about three days, specialized equipment, and technical expertise</p>
-<p><span class="label">Key Impact:</span> cholerae O1 within 24 hours and enables the collection of samples useful for further bacterial molecular characterization</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761966v1">Rotavirus NSP1 activates human NLRP1 inflammasome</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761966">10.64898/2026.10.26.761966</a> · Score: <code>████░░░░░░</code> 0.368</p>
+<p><span class="label">Core Problem:</span> While inflammasomes detect and defend against pathogens, the precise mechanisms by which enteric viruses trigger these complexes, and the specific viral components involved remain incompletely understood</p>
+<p><span class="label">Proposed Solution:</span> In this study, we demonstrate that rotavirus infection robustly induced human NLRP1 inflammasome activation via p38 mitogen-activated protein kinase (MAPK)-dependent and -independent pathways. Utilizing cell lines reconstituted with NLRP1 signaling and reverse genetics-rescued recombinant rotaviruses, we identified non-structural protein 1 (NSP1), a well-characterized viral antagonist of host interferon signaling, as an activator of the NLRP1 inflammasome in the absence of double-stranded RNA</p>
+<p><span class="label">Key Impact:</span> Together, these findings suggest that RV engages parallel NLRP1 surveillance pathways, including a p38-dependent response to infection, and a novel NSP1-dependent pathway involving the ubiquitin-proteosome system, where a viral strategy aimed at host protein degradation inadvertently trips the human NLRP1 inflammasome wire</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.25.761628v1">Beyond the Axenic Culture Filtrate Secretome: BONCAT and conventional proteomics together reveal the Infection-associated secreted protein repertoire of Acinetobacter baumannii in the human lung Epithelial cell line A549</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.25.761628">10.64898/2026.10.25.761628</a> · Score: <code>████░░░░░░</code> 0.383</p>
-<p><span class="label">Core Problem:</span> Acinetobacter baumannii (Ab) is an important opportunistic pathogen responsible for pneumonia, bloodstream infections, and sepsis</p>
-<p><span class="label">Proposed Solution:</span> Although several virulence determinants have been characterized, the bacterial secreted protein repertoire associated with host cell infection remains incompletely understood. Conventional proteomic analyses of axenic cultures provide valuable information but cannot distinguish proteins synthesized before infection from those produced during host pathogen interactions</p>
-<p><span class="label">Key Impact:</span> The study establishes a methodological foundation for investigating infection-associated protein synthesis and release in complex host pathogen environments</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761891v1">Long-term experimental evolution of seasonal influenza A/H3N2 virus reveals diverse evolutionary potential</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761891">10.64898/2026.10.26.761891</a> · Score: <code>███░░░░░░░</code> 0.332</p>
+<p><span class="label">Core Problem:</span> The repeatability of evolutionary outcomes is a fundamental question with implications for predicting the evolution pathogens like influenza viruses</p>
+<p><span class="label">Proposed Solution:</span> Here, we tested whether seasonal A/H3N2 influenza virus evolution follows reproducible paths in a simplified setting where the natural cellular environment is maintained but adaptive immune selection is removed. We serially passaged replicate populations of an A/H3N2 virus for 1,200 generations across 12 independent differentiated human airway epithelium culture lines (three replicates of four donors) and performed deep sequencing to reconstruct the evolutionary dynamics</p>
+<p><span class="label">Key Impact:</span> These findings suggest A/H3N2 evolutionary trajectories are shaped less by intrinsic functional constraint than by selective context and help explain why predicting influenza virus evolution remains difficult</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761785v1">Ecological and metabolic signatures of biofilm viromes across a national river surveillance network</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761785">10.64898/2026.10.26.761785</a> · Score: <code>████░░░░░░</code> 0.362</p>
-<p><span class="label">Core Problem:</span> Benthic biofilms are biogeochemical hotspots in rivers, yet their endogenous viral communities remain poorly resolved at national scales</p>
-<p><span class="label">Proposed Solution:</span> We analysed 447 biofilm metagenomes from 146 sites within England&#x27;s River Surveillance Network (RSN), sampled in spring and autumn from 2021 to 2023, integrating viral operational taxonomic units (vOTUs), water-quality gradients, predicted host associations and auxiliary metabolic genes (AMGs). We recovered 38,534 vOTUs, revealing extensive viral novelty, where 93% of the vOTUs could not be assigned to a known family</p>
-<p><span class="label">Key Impact:</span> We propose that biofilm viromes provide a complementary layer of information for understanding river health, microbial ecology and the propagation of anthropogenic pressures in freshwater systems</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.25.761704v1">A bivalent Lassa virus mRNA vaccine protects guinea pigs from lethal infection with Lassa virus</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.25.761704">10.64898/2026.10.25.761704</a> · Score: <code>███░░░░░░░</code> 0.322</p>
+<p><span class="label">Core Problem:</span> Lassa virus (LASV), the causative agent of the life-threatening febrile disease, Lassa fever, remains a major public health concern in West Africa, where hundreds of thousands of infections occur annually</p>
+<p><span class="label">Proposed Solution:</span> However, no licensed vaccine is currently available, highlighting the urgent need for effective preventive measures. We previously demonstrated that an mRNA-lipid nanoparticle (LNP) vaccine expressing LASV glycoprotein precursor (GPC; LASgpc-mRNA-LNP) conferred protection against lethal infection with a recombinant lymphocytic choriomeningitis virus expressing LASV GPC in mice</p>
+<p><span class="label">Key Impact:</span> Together, these findings establish LASV NP, in addition to GPC, as a protective antigen in the mRNA vaccine platform and provide a rationale for developing bivalent mRNA-LNP vaccines to improve protection against Lassa fever</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.04.21.649860v3">Lymphatic dissemination is a major route of systemic invasion by diverse extracellular bacteria in soft tissue infection</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.04.21.649860">10.1101/2025.04.21.649860</a> · Score: <code>████░░░░░░</code> 0.358</p>
-<p><span class="label">Core Problem:</span> Extracellular bacterial pathogens cause substantial global mortality, yet how they disseminate from peripheral tissues into the bloodstream remains poorly understood</p>
-<p><span class="label">Proposed Solution:</span> Systemic infection is typically attributed to direct vascular invasion, with draining lymph nodes considered terminal sites of containment. Here, using a murine soft-tissue infection model, we show that onward lymphatic dissemination from a distant tissue site through sequential draining lymph nodes is a major route of systemic invasion across diverse extracellular bacterial pathogens</p>
-<p><span class="label">Key Impact:</span> These findings establish lymphatic dissemination through sequential lymph nodes as a major invasion route across key extracellular bacterial pathogens, with important implications for systemic disease and immunity</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.23.761338v1">Pervasive short hairpin folding in non-encapsidated RNA viruses</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.761338">10.64898/2026.10.23.761338</a> · Score: <code>███░░░░░░░</code> 0.320</p>
+<p><span class="label">Core Problem:</span> Genome-wide RNA secondary structure can influence viral replication, stability, translation, and interactions with host defenses, yet its distribution and significance across RNA viruses remain poorly understood</p>
+<p><span class="label">Proposed Solution:</span> We developed the pervasive hairpin (peHaPi) metric to quantify densely distributed stem-loop structures and applied it to 817,234 GenBank virus sequences. This revealed a distinctive RNA architecture characterized by numerous short, highly uniform hairpins spanning most of the genome</p>
+<p><span class="label">Key Impact:</span> These findings reveal pervasive short-hairpin organization as a novel feature of predominantly capsidless viruses and establish genome-wide RNA structure as a complementary signature for discovering highly divergent ormyco- and narnaviruses</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.04.21.649860">Lymphatic dissemination is a major route of systemic invasion by diverse extracellular bacteria in soft tissue infection</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.23.26366021">Field Evaluation of a Low-cost, Simplified Method to Detect and Characterize Toxigenic V. cholerae O1 from Environmental Water in Lagos, Nigeria</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.23.26366309">Enterovirus D68 in Europe, 2025: continent-wide predominance of subclade A2/D and shift from pediatric to adult cases</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.25.761628">Beyond the Axenic Culture Filtrate Secretome: BONCAT and conventional proteomics together reveal the Infection-associated secreted protein repertoire of Acinetobacter baumannii in the human lung Epithelial cell line A549</a><span class="history-date">Oct 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.26.761785">Ecological and metabolic signatures of biofilm viromes across a national river surveillance network</a><span class="history-date">Oct 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.20.760281">Modeling and Detecting Downward Causation in Disease Transmission</a><span class="history-date">Oct 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.20.760426">Developmental and molecular features shaping broad and synergistic actions of human autoantibodies targeting interferon-α</a><span class="history-date">Oct 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.20.760588">Effector-primed TCF1+ CD8+ T cells elicited by a networked epitope vaccine stratify protection against SHIV acquisition</a><span class="history-date">Oct 26, 2026</span></li>
@@ -1184,7 +1194,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-27T09:02:13 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-28T09:03:26 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

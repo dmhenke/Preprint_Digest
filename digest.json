@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-27T09:02:13.500389+00:00",
+  "generated_utc": "2026-10-28T09:03:26.846482+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data",
-          "doi": "10.64898/2026.03.28.714542",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.28.714542v2",
+          "title": "ProtCell: a foundation model for single-cell proteomics",
+          "doi": "10.64898/2026.10.22.760932",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760932v1",
           "source": "biorxiv",
-          "score": 0.4752
+          "score": 0.579
         },
         {
           "rank": 2,
-          "title": "flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences",
-          "doi": "10.64898/2026.10.21.760383",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1",
+          "title": "Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo",
+          "doi": "10.64898/2026.10.24.761531",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1",
           "source": "biorxiv",
-          "score": 0.4625
+          "score": 0.5201
         },
         {
           "rank": 3,
-          "title": "Prediction transfer does not imply reliability transfer in single-cell foundation models",
-          "doi": "10.64898/2026.10.21.760716",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760716v1",
+          "title": "CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification",
+          "doi": "10.64898/2026.10.22.760906",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760906v1",
           "source": "biorxiv",
-          "score": 0.4505
+          "score": 0.517
         },
         {
           "rank": 4,
-          "title": "Decoding & manipulating human intercellular signaling via scalable cell-free protein synthesis",
-          "doi": "10.64898/2026.10.24.761585",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761585v1",
+          "title": "Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type",
+          "doi": "10.64898/2026.10.26.761949",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1",
           "source": "biorxiv",
-          "score": 0.4419
+          "score": 0.4911
         },
         {
           "rank": 5,
-          "title": "SC-MAPS: Image-based deep learning for bacterial identification and antibiotic-susceptibility testing",
-          "doi": "10.64898/2026.10.23.26366325",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.23.26366325v1",
-          "source": "medrxiv",
-          "score": 0.4367
+          "title": "In Silico Design and Evaluation of CRISPR Cytosine Base Editing Strategy for Potential Correction of the ASPA Variant Associated with Canavan Disease",
+          "doi": "10.64898/2026.10.24.761534",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761534v1",
+          "source": "biorxiv",
+          "score": 0.4664
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Enterovirus D68 in Europe, 2025: continent-wide predominance of subclade A2/D and shift from pediatric to adult cases",
-          "doi": "10.64898/2026.10.23.26366309",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.23.26366309v1",
-          "source": "medrxiv",
-          "score": 0.4954
+          "title": "Dual phage sensing activates an RNA-targeting reverse transcriptase for anti-phage defense",
+          "doi": "10.64898/2026.10.27.754916",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.754916v1",
+          "source": "biorxiv",
+          "score": 0.3934
         },
         {
           "rank": 2,
-          "title": "Field Evaluation of a Low-cost, Simplified Method to Detect and Characterize Toxigenic V. cholerae O1 from Environmental Water in Lagos, Nigeria",
-          "doi": "10.64898/2026.10.23.26366021",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.23.26366021v1",
-          "source": "medrxiv",
-          "score": 0.395
+          "title": "Rotavirus NSP1 activates human NLRP1 inflammasome",
+          "doi": "10.64898/2026.10.26.761966",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761966v1",
+          "source": "biorxiv",
+          "score": 0.3683
         },
         {
           "rank": 3,
-          "title": "Beyond the Axenic Culture Filtrate Secretome: BONCAT and conventional proteomics together reveal the Infection-associated secreted protein repertoire of Acinetobacter baumannii in the human lung Epithelial cell line A549",
-          "doi": "10.64898/2026.10.25.761628",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.25.761628v1",
+          "title": "Long-term experimental evolution of seasonal influenza A/H3N2 virus reveals diverse evolutionary potential",
+          "doi": "10.64898/2026.10.26.761891",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761891v1",
           "source": "biorxiv",
-          "score": 0.3832
+          "score": 0.3325
         },
         {
           "rank": 4,
-          "title": "Ecological and metabolic signatures of biofilm viromes across a national river surveillance network",
-          "doi": "10.64898/2026.10.26.761785",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761785v1",
+          "title": "A bivalent Lassa virus mRNA vaccine protects guinea pigs from lethal infection with Lassa virus",
+          "doi": "10.64898/2026.10.25.761704",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.25.761704v1",
           "source": "biorxiv",
-          "score": 0.362
+          "score": 0.3222
         },
         {
           "rank": 5,
-          "title": "Lymphatic dissemination is a major route of systemic invasion by diverse extracellular bacteria in soft tissue infection",
-          "doi": "10.1101/2025.04.21.649860",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649860v3",
+          "title": "Pervasive short hairpin folding in non-encapsidated RNA viruses",
+          "doi": "10.64898/2026.10.23.761338",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761338v1",
           "source": "biorxiv",
-          "score": 0.3577
+          "score": 0.3197
         }
       ]
     }
