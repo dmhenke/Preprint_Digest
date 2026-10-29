@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-28T09:03:26.846482+00:00",
+  "generated_utc": "2026-10-29T09:02:53.714677+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "ProtCell: a foundation model for single-cell proteomics",
-          "doi": "10.64898/2026.10.22.760932",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760932v1",
+          "title": "Isolation of structural constraints by ensemble-conditioned protein sequence design",
+          "doi": "10.1101/2025.09.30.679633",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679633v5",
           "source": "biorxiv",
-          "score": 0.579
+          "score": 0.4709
         },
         {
           "rank": 2,
-          "title": "Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo",
-          "doi": "10.64898/2026.10.24.761531",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1",
+          "title": "Predicting clonal mutations from tumour spatial transcriptomics data using a graph convolutional neural network",
+          "doi": "10.64898/2026.07.08.737173",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737173v2",
           "source": "biorxiv",
-          "score": 0.5201
+          "score": 0.464
         },
         {
           "rank": 3,
-          "title": "CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification",
-          "doi": "10.64898/2026.10.22.760906",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760906v1",
+          "title": "Integrating Green Revolution Rht-1 Alleles in Diverse Wheat Landraces Using CRISPR/Cas9, Cytosine Base Editing and Prime Editing",
+          "doi": "10.64898/2026.03.16.712109",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712109v2",
           "source": "biorxiv",
-          "score": 0.517
+          "score": 0.4603
         },
         {
           "rank": 4,
-          "title": "Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type",
-          "doi": "10.64898/2026.10.26.761949",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1",
+          "title": "A multiscale pharmacokinetic-Boolean modelling framework for ibrutinib resistance in a Chronic Lymphocytic Leukaemia case study",
+          "doi": "10.64898/2026.10.26.759125",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.759125v1",
           "source": "biorxiv",
-          "score": 0.4911
+          "score": 0.4558
         },
         {
           "rank": 5,
-          "title": "In Silico Design and Evaluation of CRISPR Cytosine Base Editing Strategy for Potential Correction of the ASPA Variant Associated with Canavan Disease",
-          "doi": "10.64898/2026.10.24.761534",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761534v1",
-          "source": "biorxiv",
-          "score": 0.4664
+          "title": "Single-cell transcriptome-wide Mendelian randomization and colocalization analyses reveal immune-cell-specific mechanisms and actionable drug targets in prostate cancer",
+          "doi": "10.64898/2026.03.10.26348013",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.03.10.26348013v2",
+          "source": "medrxiv",
+          "score": 0.4549
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Dual phage sensing activates an RNA-targeting reverse transcriptase for anti-phage defense",
-          "doi": "10.64898/2026.10.27.754916",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.754916v1",
-          "source": "biorxiv",
-          "score": 0.3934
+          "title": "Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy",
+          "doi": "10.64898/2026.10.24.26366392",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.24.26366392v1",
+          "source": "medrxiv",
+          "score": 0.4558
         },
         {
           "rank": 2,
-          "title": "Rotavirus NSP1 activates human NLRP1 inflammasome",
-          "doi": "10.64898/2026.10.26.761966",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761966v1",
+          "title": "Community needs for FAIR pathogen data: a cross-sectional survey of infectious-disease researchers and educators",
+          "doi": "10.64898/2026.04.14.718420",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718420v2",
           "source": "biorxiv",
-          "score": 0.3683
+          "score": 0.4162
         },
         {
           "rank": 3,
-          "title": "Long-term experimental evolution of seasonal influenza A/H3N2 virus reveals diverse evolutionary potential",
-          "doi": "10.64898/2026.10.26.761891",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761891v1",
-          "source": "biorxiv",
-          "score": 0.3325
+          "title": "Infectious disease outbreaks among hospitalised neonates in low- and middle-income countries: a systematic review.",
+          "doi": "10.64898/2026.10.27.26366573",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366573v1",
+          "source": "medrxiv",
+          "score": 0.4069
         },
         {
           "rank": 4,
-          "title": "A bivalent Lassa virus mRNA vaccine protects guinea pigs from lethal infection with Lassa virus",
-          "doi": "10.64898/2026.10.25.761704",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.25.761704v1",
+          "title": "Isoform-Resolved Temporal Remodeling of Transcriptome Architecture in Monkeypox Virus",
+          "doi": "10.64898/2026.10.26.761922",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761922v1",
           "source": "biorxiv",
-          "score": 0.3222
+          "score": 0.4029
         },
         {
           "rank": 5,
-          "title": "Pervasive short hairpin folding in non-encapsidated RNA viruses",
-          "doi": "10.64898/2026.10.23.761338",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761338v1",
+          "title": "The pangenome of the human fungal pathogen Cryptococcus neoformans reveals that subtelomeres are hotspots for gene content variation",
+          "doi": "10.64898/2026.10.27.762246",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762246v1",
           "source": "biorxiv",
-          "score": 0.3197
+          "score": 0.3966
         }
       ]
     }

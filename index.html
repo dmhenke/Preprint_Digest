@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 28, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 29, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">ProtCell: a foundation model for single-cell proteomics</a></li>
-  <li><a href="#core-article-2">Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo</a></li>
-  <li><a href="#core-article-3">CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification</a></li>
-  <li><a href="#core-article-4">Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type</a></li>
-  <li><a href="#core-article-5">In Silico Design and Evaluation of CRISPR Cytosine Base Editing Strategy for Potential Correction of the ASPA Variant Associated with Canavan Disease</a></li>
+  <li><a href="#core-article-1">Isolation of structural constraints by ensemble-conditioned protein sequence design</a></li>
+  <li><a href="#core-article-2">Predicting clonal mutations from tumour spatial transcriptomics data using a graph convolutional neural network</a></li>
+  <li><a href="#core-article-3">Integrating Green Revolution Rht-1 Alleles in Diverse Wheat Landraces Using CRISPR/Cas9, Cytosine Base Editing and Prime Editing</a></li>
+  <li><a href="#core-article-4">A multiscale pharmacokinetic-Boolean modelling framework for ibrutinib resistance in a Chronic Lymphocytic Leukaemia case study</a></li>
+  <li><a href="#core-article-5">Single-cell transcriptome-wide Mendelian randomization and colocalization analyses reveal immune-cell-specific mechanisms and actionable drug targets in prostate cancer</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760932v1">ProtCell: a foundation model for single-cell proteomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760932">10.64898/2026.10.22.760932</a> · Score: <code>██████░░░░</code> 0.579</p>
-<p><span class="label">Core Problem:</span> Single-cell proteomics provides a direct functional readout of cellular states, but targeted assays measure limited and non-identical protein panels, fragmenting information across experiments</p>
-<p><span class="label">Proposed Solution:</span> Here, we present ProtCell, a foundation model developed using approximately 380 million cells from 98 datasets for pretraining and evaluation. ProtCell combines protein-identity and continuous-abundance embeddings in a transformer encoder and learns cell- and protein-level representations through masked abundance modeling</p>
-<p><span class="label">Key Impact:</span> ProtCell thus provides a framework for connecting fragmented proteomic profiles, extending information beyond measured panels and guiding more informative measurements</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1">Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.24.761531">10.64898/2026.10.24.761531</a> · Score: <code>█████░░░░░</code> 0.520</p>
-<p><span class="label">Core Problem:</span> Single-cell RNA velocity has transformed our capacity to predict future cell states from sequencing snapshots, but existing methods rely on constant or binary kinetic assumptions that fail to capture the heterogeneous splicing dynamics of cellular differentiation</p>
-<p><span class="label">Proposed Solution:</span> Here we present JuloVelo, a deep learning framework that demonstrates that identifying gene kinetics patterns to initialize neural network training dramatically improves RNA velocity model performance. By pre-determining whether each gene follows a Circle, Complete induction, or Complete repression pattern across cellular differentiation, JuloVelo initializes training with pattern-matched, pre-trained network weights, effectively guiding the cell-specific kinetics optimization away from biologically implausible parameter regimes</p>
-<p><span class="label">Key Impact:</span> jl</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.1101/2025.09.30.679633v5">Isolation of structural constraints by ensemble-conditioned protein sequence design</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.09.30.679633">10.1101/2025.09.30.679633</a> · Score: <code>█████░░░░░</code> 0.471</p>
+<p><span class="label">Core Problem:</span> Natural sequences have long been the assumed ground truth for protein sequence design methods</p>
+<p><span class="label">Proposed Solution:</span> But natural sequences encode more than the structural fold, carrying evolutionary history that reflects ancestry, drift, and function. Deep learning models for protein sequence design inherit this signal, achieving higher native sequence recovery but lower predicted foldability</p>
+<p><span class="label">Key Impact:</span> We demonstrate experimental applicability by designing thermostable proteins, functional lanthanide binders, and soluble membrane protein variants, including a pentameric assembly confirmed by cryo-EM</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.07.08.737173v2">Predicting clonal mutations from tumour spatial transcriptomics data using a graph convolutional neural network</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.08.737173">10.64898/2026.07.08.737173</a> · Score: <code>█████░░░░░</code> 0.464</p>
+<p><span class="label">Core Problem:</span> Spatial transcriptomics (ST) has revolutionized our understanding of tumour biology but inherently lacks information on the upstream somatic driver mutations</p>
+<p><span class="label">Proposed Solution:</span> We developed a spatially-aware graph convolutional neural network approach (SPOT-Mut) that infers mutated (sub)clones directly from ST data. SPOT-Mut was trained on virtual ST slides with clones simulated from a large collection of existing RNA and matched DNA sequencing data</p>
+<p><span class="label">Key Impact:</span> With the increasing availability of ST data and upcoming atlases, SPOT-Mut potentiates the localization of (sub)clonal alterations in TP53 and other common driver mutations</p>
+<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.760906v1">CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.22.760906">10.64898/2026.10.22.760906</a> · Score: <code>█████░░░░░</code> 0.517</p>
-<p><span class="label">Core Problem:</span> Malignant cell identification in single-cell RNA sequencing (scRNA-seq) remains challenging because transcriptomic cell typing, somatic variant detection and inferred copy-number approaches each have modality-specific limitations</p>
-<p><span class="label">Proposed Solution:</span> Rare or ambiguous malignant populations are especially vulnerable to misclassification or exclusion, despite their relevance to treatment resistance, minimal residual disease, and metastasis. We developed CATFISHR, a semi-automated workflow that integrates RNA-expression similarity, inferred copy-number variation (CNV) profiles, and consensus cell typing to classify malignant cells relative to high-confidence references</p>
-<p><span class="label">Key Impact:</span> CATFISHR reduces missed malignant calls while preserving rare, transitional and benchmark-discordant populations for downstream investigation</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.03.16.712109v2">Integrating Green Revolution Rht-1 Alleles in Diverse Wheat Landraces Using CRISPR/Cas9, Cytosine Base Editing and Prime Editing</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.16.712109">10.64898/2026.03.16.712109</a> · Score: <code>█████░░░░░</code> 0.460</p>
+<p><span class="label">Core Problem:</span> The genetic diversity preserved in wheat landraces provides an important resource for broadening the genetic basis of modern wheat breeding, but its utilisation is constrained by the limited availability of effective genome-editing technologies for diverse genetic backgrounds</p>
+<p><span class="label">Proposed Solution:</span> Here, we developed an integrated genome-engineering framework to modify Rht-1, a major regulator of plant height, in genetically diverse bread wheat landraces from the A. E</p>
+<p><span class="label">Key Impact:</span> The resulting founder lines provide valuable resources for functional analysis of DELLA-mediated growth regulation and a foundation for precision pre-breeding, composite cross populations, and the development of resilient wheat</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1">Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761949">10.64898/2026.10.26.761949</a> · Score: <code>█████░░░░░</code> 0.491</p>
-<p><span class="label">Core Problem:</span> Motivation: Single-cell cell-type classifiers are often evaluated using random cell-level splits, although cells from the same donor are not independent</p>
-<p><span class="label">Proposed Solution:</span> We asked how evaluation design affects estimates of cross-donor generalization. Results: Across PBMC and lung datasets, random cell-level splitting consistently yielded higher macro F1 than donor-held-out evaluation across multiple expression representations</p>
-<p><span class="label">Key Impact:</span> All data are publicly available and cited</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.759125v1">A multiscale pharmacokinetic-Boolean modelling framework for ibrutinib resistance in a Chronic Lymphocytic Leukaemia case study</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.759125">10.64898/2026.10.26.759125</a> · Score: <code>█████░░░░░</code> 0.456</p>
+<p><span class="label">Core Problem:</span> Ibrutinib, a covalent Bruton&#x27;s tyrosine kinase (BTK) inhibitor, achieves durable remissions in chronic lymphocytic leukaemia (CLL), and yet a substantial proportion of patients relapse</p>
+<p><span class="label">Proposed Solution:</span> A fundamental question is how the quantitative dynamics of drug exposure relate to the regulatory programmes and cell fate decisions that characterise response and relapse. Addressing it requires a multiscale framework that bridges the quantitative pharmacology of drug exposure with the molecular mechanisms encoded in the gene regulatory network, a coupling that has remained largely unexplored in the context of targeted therapy resistance</p>
+<p><span class="label">Key Impact:</span> These results show how the framework turns single-patient data into mechanistic, testable hypotheses on resistance and combination therapy, which can be evaluated in larger cohorts and in experimental models</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.24.761534v1">In Silico Design and Evaluation of CRISPR Cytosine Base Editing Strategy for Potential Correction of the ASPA Variant Associated with Canavan Disease</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.24.761534">10.64898/2026.10.24.761534</a> · Score: <code>█████░░░░░</code> 0.466</p>
-<p><span class="label">Core Problem:</span> **Background** Canavan disease is a rare autosomal recessive neurodegenerative leukodystrophy caused by pathogenic variants in the ASPA gene, for which effective molecularly targeted therapies remain limited</p>
-<p><span class="label">Proposed Solution:</span> The NM_000049. 4:c</p>
-<p><span class="label">Key Impact:</span> Further cell-based and in vivo studies are required to establish editing efficiency, editing purity, bystander activity, off-target effects, and restoration of ASPA function before therapeutic applicability can be assessed</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.03.10.26348013v2">Single-cell transcriptome-wide Mendelian randomization and colocalization analyses reveal immune-cell-specific mechanisms and actionable drug targets in prostate cancer</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.03.10.26348013">10.64898/2026.03.10.26348013</a> · Score: <code>█████░░░░░</code> 0.455</p>
+<p><span class="label">Core Problem:</span> Prostate cancer remains a major health burden with limited success in immune-targeted therapies</p>
+<p><span class="label">Proposed Solution:</span> To identify immune-cell-resolved genetically prioritized targets, we integrated single-cell cis-eQTL data across 14 immune cell types, bulk eQTLs, GWAS summary statistics from PRACTICAL and FinnGen, and single-cell RNA-seq data from prostate tumors. Using Mendelian randomization and Bayesian colocalization, we prioritized 80 eGene-cell-type associations supported by both genetic association and shared-signal evidence, with prominent representation in CD4+ and CD8+ T-cell subsets</p>
+<p><span class="label">Key Impact:</span> These findings provide a high-resolution resource for studying genetically informed tumor-immune mechanisms and therapeutic hypotheses in prostate cancer</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.22.760906">CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.22.760932">ProtCell: a foundation model for single-cell proteomics</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.24.761531">Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.24.761534">In Silico Design and Evaluation of CRISPR Cytosine Base Editing Strategy for Potential Correction of the ASPA Variant Associated with Canavan Disease</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.26.761949">Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type</a><span class="history-date">Oct 28, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.28.714542">scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data</a><span class="history-date">Oct 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.21.760383">flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</a><span class="history-date">Oct 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.21.760716">Prediction transfer does not imply reliability transfer in single-cell foundation models</a><span class="history-date">Oct 27, 2026</span></li>
@@ -865,64 +870,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Dual phage sensing activates an RNA-targeting reverse transcriptase for anti-phage defense</a></li>
-  <li><a href="#virology-article-2">Rotavirus NSP1 activates human NLRP1 inflammasome</a></li>
-  <li><a href="#virology-article-3">Long-term experimental evolution of seasonal influenza A/H3N2 virus reveals diverse evolutionary potential</a></li>
-  <li><a href="#virology-article-4">A bivalent Lassa virus mRNA vaccine protects guinea pigs from lethal infection with Lassa virus</a></li>
-  <li><a href="#virology-article-5">Pervasive short hairpin folding in non-encapsidated RNA viruses</a></li>
+  <li><a href="#virology-article-1">Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy</a></li>
+  <li><a href="#virology-article-2">Community needs for FAIR pathogen data: a cross-sectional survey of infectious-disease researchers and educators</a></li>
+  <li><a href="#virology-article-3">Infectious disease outbreaks among hospitalised neonates in low- and middle-income countries: a systematic review.</a></li>
+  <li><a href="#virology-article-4">Isoform-Resolved Temporal Remodeling of Transcriptome Architecture in Monkeypox Virus</a></li>
+  <li><a href="#virology-article-5">The pangenome of the human fungal pathogen Cryptococcus neoformans reveals that subtelomeres are hotspots for gene content variation</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.27.754916v1">Dual phage sensing activates an RNA-targeting reverse transcriptase for anti-phage defense</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.754916">10.64898/2026.10.27.754916</a> · Score: <code>████░░░░░░</code> 0.393</p>
-<p><span class="label">Core Problem:</span> Defense-associated reverse transcriptases (DRTs) mediate diverse antiphage responses, yet how they sense phage infection and couple unconventional DNA synthesis to antiviral effector activation remains poorly understood</p>
-<p><span class="label">Proposed Solution:</span> Here, we characterize DRT4 as a dual-sensor immune system that integrates two distinct phage-derived signals. Cryo-EM analysis reveals that DRT4 assembles into a dimer-of-trimers hexamer, with each protomer catalyzing protein-primed, template-independent synthesis of a covalently linked ssDNA product</p>
-<p><span class="label">Key Impact:</span> Together, our findings show DRT4-generated ssDNA as a signaling intermediate that integrates phage-induced metabolic changes with direct recognition of viral replication proteins, revealing how protein-primed DNA synthesis can be repurposed for infection sensing and antiviral effector activation</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.24.26366392v1">Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.24.26366392">10.64898/2026.10.24.26366392</a> · Score: <code>█████░░░░░</code> 0.456</p>
+<p><span class="label">Core Problem:</span> Immune checkpoint inhibitors (ICIs) can induce durable clinical responses, yet relationships among the gut microbiome, microbial function, intestinal metabolism, and host immunity remain incompletely resolved</p>
+<p><span class="label">Proposed Solution:</span> We performed dense longitudinal multi-omics profiling of a single patient with colorectal cancer metastatic to the liver during ICI therapy and sustained tumor regression. Eleven serial stool samples spanning approximately 7</p>
+<p><span class="label">Key Impact:</span> Although this N of 1 design cannot establish population generalizability, dense within-person multi omics resolves transient functional states obscured by cross-sectional analyses and generates testable hypotheses for larger prospective cohorts and personalized studies of ICI response</p>
+<p><span class="label">Methodology:</span> Metatranscriptomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761966v1">Rotavirus NSP1 activates human NLRP1 inflammasome</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761966">10.64898/2026.10.26.761966</a> · Score: <code>████░░░░░░</code> 0.368</p>
-<p><span class="label">Core Problem:</span> While inflammasomes detect and defend against pathogens, the precise mechanisms by which enteric viruses trigger these complexes, and the specific viral components involved remain incompletely understood</p>
-<p><span class="label">Proposed Solution:</span> In this study, we demonstrate that rotavirus infection robustly induced human NLRP1 inflammasome activation via p38 mitogen-activated protein kinase (MAPK)-dependent and -independent pathways. Utilizing cell lines reconstituted with NLRP1 signaling and reverse genetics-rescued recombinant rotaviruses, we identified non-structural protein 1 (NSP1), a well-characterized viral antagonist of host interferon signaling, as an activator of the NLRP1 inflammasome in the absence of double-stranded RNA</p>
-<p><span class="label">Key Impact:</span> Together, these findings suggest that RV engages parallel NLRP1 surveillance pathways, including a p38-dependent response to infection, and a novel NSP1-dependent pathway involving the ubiquitin-proteosome system, where a viral strategy aimed at host protein degradation inadvertently trips the human NLRP1 inflammasome wire</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.04.14.718420v2">Community needs for FAIR pathogen data: a cross-sectional survey of infectious-disease researchers and educators</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.04.14.718420">10.64898/2026.04.14.718420</a> · Score: <code>████░░░░░░</code> 0.416</p>
+<p><span class="label">Core Problem:</span> Background: Datasets related to infectious diseases are essential for public health decision-making, yet their reuse remains limited by persistent barriers to data sharing and integration</p>
+<p><span class="label">Proposed Solution:</span> Achieving data that are Findable, Accessible, Interoperable, and Reusable (FAIR) is widely recognized as essential for accelerating scientific discovery and enabling coordinated responses to emerging threats, but the needs of the global pathogen data community have not been systematically characterized. Aim: This study, conducted by the Pathogen Data Network (PDN), aims to identify infrastructural and educational priorities among stakeholders working with infectious disease-related data, namely researchers, educators, healthcare professionals, bioinformaticians, and policymakers who generate, curate, or use pathogen data, in order to guide community-responsive support for data sharing and interoperability</p>
+<p><span class="label">Key Impact:</span> By aligning training, infrastructure development, and outreach with empirically identified priorities, organizations supporting infectious disease research can strengthen the interoperability and reuse of data and establish a benchmark for future community-driven improvements</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761891v1">Long-term experimental evolution of seasonal influenza A/H3N2 virus reveals diverse evolutionary potential</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761891">10.64898/2026.10.26.761891</a> · Score: <code>███░░░░░░░</code> 0.332</p>
-<p><span class="label">Core Problem:</span> The repeatability of evolutionary outcomes is a fundamental question with implications for predicting the evolution pathogens like influenza viruses</p>
-<p><span class="label">Proposed Solution:</span> Here, we tested whether seasonal A/H3N2 influenza virus evolution follows reproducible paths in a simplified setting where the natural cellular environment is maintained but adaptive immune selection is removed. We serially passaged replicate populations of an A/H3N2 virus for 1,200 generations across 12 independent differentiated human airway epithelium culture lines (three replicates of four donors) and performed deep sequencing to reconstruct the evolutionary dynamics</p>
-<p><span class="label">Key Impact:</span> These findings suggest A/H3N2 evolutionary trajectories are shaped less by intrinsic functional constraint than by selective context and help explain why predicting influenza virus evolution remains difficult</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.10.27.26366573v1">Infectious disease outbreaks among hospitalised neonates in low- and middle-income countries: a systematic review.</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.26366573">10.64898/2026.10.27.26366573</a> · Score: <code>████░░░░░░</code> 0.407</p>
+<p><span class="label">Core Problem:</span> Neonatal unit outbreaks are frequent in low- and middle-income country (LMIC) hospitals, but consolidated data to guide outbreak investigation, infection prevention and control, and treatment strategies remain limited</p>
+<p><span class="label">Proposed Solution:</span> We conducted a systematic review describing pathogen profiles, antimicrobial resistance (AMR) patterns, outbreak sources, and the application of whole-genome sequencing (WGS) in neonatal outbreak investigation. Reports of bacterial or fungal outbreaks in LMIC neonatal units published between 1 January 2015 and 31 July 2025 were identified from EMBASE, Global Health, PubMed, Scopus, Web of Science, ProQuest, CINAHL, and WHO Global Index Medicus (PROSPERO: CRD420251054148)</p>
+<p><span class="label">Key Impact:</span> Strengthening neonatal outbreak prevention, detection and management in LMICs requires coordinated investment and harmonised data reporting standards across multiple areas, including routine microbiology and WGS capacity</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.25.761704v1">A bivalent Lassa virus mRNA vaccine protects guinea pigs from lethal infection with Lassa virus</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.25.761704">10.64898/2026.10.25.761704</a> · Score: <code>███░░░░░░░</code> 0.322</p>
-<p><span class="label">Core Problem:</span> Lassa virus (LASV), the causative agent of the life-threatening febrile disease, Lassa fever, remains a major public health concern in West Africa, where hundreds of thousands of infections occur annually</p>
-<p><span class="label">Proposed Solution:</span> However, no licensed vaccine is currently available, highlighting the urgent need for effective preventive measures. We previously demonstrated that an mRNA-lipid nanoparticle (LNP) vaccine expressing LASV glycoprotein precursor (GPC; LASgpc-mRNA-LNP) conferred protection against lethal infection with a recombinant lymphocytic choriomeningitis virus expressing LASV GPC in mice</p>
-<p><span class="label">Key Impact:</span> Together, these findings establish LASV NP, in addition to GPC, as a protective antigen in the mRNA vaccine platform and provide a rationale for developing bivalent mRNA-LNP vaccines to improve protection against Lassa fever</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.26.761922v1">Isoform-Resolved Temporal Remodeling of Transcriptome Architecture in Monkeypox Virus</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.26.761922">10.64898/2026.10.26.761922</a> · Score: <code>████░░░░░░</code> 0.403</p>
+<p><span class="label">Core Problem:</span> We reanalyzed previously generated replicated Oxford Nanopore direct cDNA sequencing data from six infection time points, together with cap analysis of gene expression and native direct RNA sequencing, to reconstruct full-length monkeypox virus transcripts and characterize their temporal regulation</p>
+<p><span class="label">Proposed Solution:</span> A broad catalogue of candidate transcript models, including candidate 5&#x27; poly(A)-associated structures, was filtered with independent 5&#x27;- and 3&#x27;-end evidence to define conservative analysis sets. Transcript-resolved profiles revealed a structured temporal program extending beyond gene-level abundance</p>
+<p><span class="label">Key Impact:</span> Together, these results show that Monkeypox virus gene regulation involves coordinated remodeling of gene output, transcript boundaries, and full-length transcriptome architecture</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.23.761338v1">Pervasive short hairpin folding in non-encapsidated RNA viruses</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.761338">10.64898/2026.10.23.761338</a> · Score: <code>███░░░░░░░</code> 0.320</p>
-<p><span class="label">Core Problem:</span> Genome-wide RNA secondary structure can influence viral replication, stability, translation, and interactions with host defenses, yet its distribution and significance across RNA viruses remain poorly understood</p>
-<p><span class="label">Proposed Solution:</span> We developed the pervasive hairpin (peHaPi) metric to quantify densely distributed stem-loop structures and applied it to 817,234 GenBank virus sequences. This revealed a distinctive RNA architecture characterized by numerous short, highly uniform hairpins spanning most of the genome</p>
-<p><span class="label">Key Impact:</span> These findings reveal pervasive short-hairpin organization as a novel feature of predominantly capsidless viruses and establish genome-wide RNA structure as a complementary signature for discovering highly divergent ormyco- and narnaviruses</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.27.762246v1">The pangenome of the human fungal pathogen Cryptococcus neoformans reveals that subtelomeres are hotspots for gene content variation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.762246">10.64898/2026.10.27.762246</a> · Score: <code>████░░░░░░</code> 0.397</p>
+<p><span class="label">Core Problem:</span> Cryptococcus neoformans is a human fungal pathogen that causes cryptococcal meningitis, primarily in individuals with advanced HIV disease</p>
+<p><span class="label">Proposed Solution:</span> The C. neoformans species is composed of four unique molecular types: VNI, VNII, VNBI, and VNBII, with thousands of global isolates within these groups</p>
+<p><span class="label">Key Impact:</span> neoformans gives species-level insights into its biology, potentially illuminating genetic contributions to pathogenesis</p>
+<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.23.761338">Pervasive short hairpin folding in non-encapsidated RNA viruses</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.25.761704">A bivalent Lassa virus mRNA vaccine protects guinea pigs from lethal infection with Lassa virus</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.26.761891">Long-term experimental evolution of seasonal influenza A/H3N2 virus reveals diverse evolutionary potential</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.26.761966">Rotavirus NSP1 activates human NLRP1 inflammasome</a><span class="history-date">Oct 28, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.27.754916">Dual phage sensing activates an RNA-targeting reverse transcriptase for anti-phage defense</a><span class="history-date">Oct 28, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.04.21.649860">Lymphatic dissemination is a major route of systemic invasion by diverse extracellular bacteria in soft tissue infection</a><span class="history-date">Oct 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.23.26366021">Field Evaluation of a Low-cost, Simplified Method to Detect and Characterize Toxigenic V. cholerae O1 from Environmental Water in Lagos, Nigeria</a><span class="history-date">Oct 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.23.26366309">Enterovirus D68 in Europe, 2025: continent-wide predominance of subclade A2/D and shift from pediatric to adult cases</a><span class="history-date">Oct 27, 2026</span></li>
@@ -1194,7 +1204,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-28T09:03:26 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-29T09:02:53 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
