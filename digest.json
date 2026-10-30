@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-10-29T09:02:53.714677+00:00",
+  "generated_utc": "2026-10-30T09:04:40.844649+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Isolation of structural constraints by ensemble-conditioned protein sequence design",
-          "doi": "10.1101/2025.09.30.679633",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679633v5",
+          "title": "Ground-truth evaluation of sparse autoencoder features on spatial, single-cell and language-model embeddings",
+          "doi": "10.64898/2026.10.27.762296",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762296v1",
           "source": "biorxiv",
-          "score": 0.4709
+          "score": 0.5171
         },
         {
           "rank": 2,
-          "title": "Predicting clonal mutations from tumour spatial transcriptomics data using a graph convolutional neural network",
-          "doi": "10.64898/2026.07.08.737173",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737173v2",
+          "title": "IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length cDNA datasets",
+          "doi": "10.64898/2026.10.23.761370",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761370v1",
           "source": "biorxiv",
-          "score": 0.464
+          "score": 0.4703
         },
         {
           "rank": 3,
-          "title": "Integrating Green Revolution Rht-1 Alleles in Diverse Wheat Landraces Using CRISPR/Cas9, Cytosine Base Editing and Prime Editing",
-          "doi": "10.64898/2026.03.16.712109",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712109v2",
+          "title": "Illuminating phage dark matter beyond the reach of structural alignments with PhageFlare",
+          "doi": "10.64898/2026.10.28.762509",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762509v1",
           "source": "biorxiv",
-          "score": 0.4603
+          "score": 0.4701
         },
         {
           "rank": 4,
-          "title": "A multiscale pharmacokinetic-Boolean modelling framework for ibrutinib resistance in a Chronic Lymphocytic Leukaemia case study",
-          "doi": "10.64898/2026.10.26.759125",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.759125v1",
+          "title": "Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer",
+          "doi": "10.64898/2026.10.27.761882",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761882v1",
           "source": "biorxiv",
-          "score": 0.4558
+          "score": 0.4676
         },
         {
           "rank": 5,
-          "title": "Single-cell transcriptome-wide Mendelian randomization and colocalization analyses reveal immune-cell-specific mechanisms and actionable drug targets in prostate cancer",
-          "doi": "10.64898/2026.03.10.26348013",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.03.10.26348013v2",
-          "source": "medrxiv",
-          "score": 0.4549
+          "title": "Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale",
+          "doi": "10.64898/2026.10.28.762506",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v1",
+          "source": "biorxiv",
+          "score": 0.4588
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy",
-          "doi": "10.64898/2026.10.24.26366392",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.24.26366392v1",
-          "source": "medrxiv",
-          "score": 0.4558
+          "title": "Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species",
+          "doi": "10.64898/2026.05.09.724037",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.09.724037v2",
+          "source": "biorxiv",
+          "score": 0.5693
         },
         {
           "rank": 2,
-          "title": "Community needs for FAIR pathogen data: a cross-sectional survey of infectious-disease researchers and educators",
-          "doi": "10.64898/2026.04.14.718420",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718420v2",
-          "source": "biorxiv",
-          "score": 0.4162
+          "title": "Short- and long-read hybrid-capture viral metagenomics reach high sensitivity and specificity with data-driven cut-offs compared with routine diagnostics in CSF and BAL specimens",
+          "doi": "10.64898/2026.10.27.26366582",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366582v1",
+          "source": "medrxiv",
+          "score": 0.5199
         },
         {
           "rank": 3,
-          "title": "Infectious disease outbreaks among hospitalised neonates in low- and middle-income countries: a systematic review.",
-          "doi": "10.64898/2026.10.27.26366573",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366573v1",
-          "source": "medrxiv",
-          "score": 0.4069
+          "title": "Viral diversity and activity in Arctic tundra soils in wintertime",
+          "doi": "10.64898/2026.10.28.762433",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762433v1",
+          "source": "biorxiv",
+          "score": 0.4227
         },
         {
           "rank": 4,
-          "title": "Isoform-Resolved Temporal Remodeling of Transcriptome Architecture in Monkeypox Virus",
-          "doi": "10.64898/2026.10.26.761922",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761922v1",
+          "title": "Human infection with an ape Plasmodium vivax-like parasite",
+          "doi": "10.64898/2026.10.23.757543",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1",
           "source": "biorxiv",
-          "score": 0.4029
+          "score": 0.375
         },
         {
           "rank": 5,
-          "title": "The pangenome of the human fungal pathogen Cryptococcus neoformans reveals that subtelomeres are hotspots for gene content variation",
-          "doi": "10.64898/2026.10.27.762246",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762246v1",
-          "source": "biorxiv",
-          "score": 0.3966
+          "title": "Using iterative agentic retrieval-augmented generation to refine the risk of infection from social contexts during the COVID-19 pandemic: Development and Evaluation Study",
+          "doi": "10.64898/2026.10.28.26366693",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366693v1",
+          "source": "medrxiv",
+          "score": 0.3646
         }
       ]
     }
