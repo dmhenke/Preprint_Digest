@@ -1,48 +1,40 @@
 {
-  "generated_utc": "2026-10-30T09:04:40.844649+00:00",
+  "generated_utc": "2026-10-31T09:24:24.989987+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Ground-truth evaluation of sparse autoencoder features on spatial, single-cell and language-model embeddings",
-          "doi": "10.64898/2026.10.27.762296",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762296v1",
-          "source": "biorxiv",
-          "score": 0.5171
+          "title": "Long-range chromatin interactions nominate candidate susceptibility genes at non-coding PDAC risk loci",
+          "doi": "10.64898/2026.10.28.26366656",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366656v1",
+          "source": "medrxiv",
+          "score": 0.4546
         },
         {
           "rank": 2,
-          "title": "IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length cDNA datasets",
-          "doi": "10.64898/2026.10.23.761370",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761370v1",
-          "source": "biorxiv",
-          "score": 0.4703
+          "title": "Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study",
+          "doi": "10.64898/2026.10.29.26366599",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366599v1",
+          "source": "medrxiv",
+          "score": 0.3412
         },
         {
           "rank": 3,
-          "title": "Illuminating phage dark matter beyond the reach of structural alignments with PhageFlare",
-          "doi": "10.64898/2026.10.28.762509",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762509v1",
-          "source": "biorxiv",
-          "score": 0.4701
+          "title": "Decoding personal and population variability in the human multiome",
+          "doi": "10.64898/2026.10.28.26366658",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366658v1",
+          "source": "medrxiv",
+          "score": 0.2868
         },
         {
           "rank": 4,
-          "title": "Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer",
-          "doi": "10.64898/2026.10.27.761882",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761882v1",
-          "source": "biorxiv",
-          "score": 0.4676
-        },
-        {
-          "rank": 5,
-          "title": "Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale",
-          "doi": "10.64898/2026.10.28.762506",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762506v1",
-          "source": "biorxiv",
-          "score": 0.4588
+          "title": "Anatomical comparison populations and threshold transport in vascular transcriptomic classification",
+          "doi": "10.64898/2026.10.29.26366564",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366564v1",
+          "source": "medrxiv",
+          "score": 0.2752
         }
       ]
     },
@@ -51,43 +43,35 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species",
-          "doi": "10.64898/2026.05.09.724037",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.05.09.724037v2",
-          "source": "biorxiv",
-          "score": 0.5693
+          "title": "Design and evaluation of probe-capture sequencing for clinical Neisseria gonorrhoeae specimens",
+          "doi": "10.64898/2026.10.27.26366443",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366443v1",
+          "source": "medrxiv",
+          "score": 0.406
         },
         {
           "rank": 2,
-          "title": "Short- and long-read hybrid-capture viral metagenomics reach high sensitivity and specificity with data-driven cut-offs compared with routine diagnostics in CSF and BAL specimens",
-          "doi": "10.64898/2026.10.27.26366582",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366582v1",
+          "title": "Immune trajectories enable detection of asymptomatic parasitemia and predict future malaria outcomes",
+          "doi": "10.64898/2026.10.29.26366609",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366609v1",
           "source": "medrxiv",
-          "score": 0.5199
+          "score": 0.3525
         },
         {
           "rank": 3,
-          "title": "Viral diversity and activity in Arctic tundra soils in wintertime",
-          "doi": "10.64898/2026.10.28.762433",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762433v1",
-          "source": "biorxiv",
-          "score": 0.4227
+          "title": "Integrating 16S and 18S sequencing reveals coupled prokaryotic and eukaryotic relationships in drinking water biofilms",
+          "doi": "10.64898/2026.10.29.26366860",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366860v1",
+          "source": "medrxiv",
+          "score": 0.3245
         },
         {
           "rank": 4,
-          "title": "Human infection with an ape Plasmodium vivax-like parasite",
-          "doi": "10.64898/2026.10.23.757543",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1",
-          "source": "biorxiv",
-          "score": 0.375
-        },
-        {
-          "rank": 5,
-          "title": "Using iterative agentic retrieval-augmented generation to refine the risk of infection from social contexts during the COVID-19 pandemic: Development and Evaluation Study",
-          "doi": "10.64898/2026.10.28.26366693",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366693v1",
+          "title": "Classifying and Differentiating Clinical Coding of Respiratory Syncytial Virus, Influenza, and COVID-19 in OpenSAFELY Between 2016 and 2024",
+          "doi": "10.64898/2026.04.09.26350495",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.04.09.26350495v5",
           "source": "medrxiv",
-          "score": 0.3646
+          "score": 0.3061
         }
       ]
     }

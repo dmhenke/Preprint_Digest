@@ -108,15 +108,15 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 30, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>October 31, 2026 — 8 preprints selected (Comp Bio: 4 · Virology: 4)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
 </div>
 
 <nav class="tabs" role="tablist">
-  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(4)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(4)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,64 +124,59 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Ground-truth evaluation of sparse autoencoder features on spatial, single-cell and language-model embeddings</a></li>
-  <li><a href="#core-article-2">IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length cDNA datasets</a></li>
-  <li><a href="#core-article-3">Illuminating phage dark matter beyond the reach of structural alignments with PhageFlare</a></li>
-  <li><a href="#core-article-4">Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer</a></li>
-  <li><a href="#core-article-5">Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale</a></li>
+  <li><a href="#core-article-1">Long-range chromatin interactions nominate candidate susceptibility genes at non-coding PDAC risk loci</a></li>
+  <li><a href="#core-article-2">Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study</a></li>
+  <li><a href="#core-article-3">Decoding personal and population variability in the human multiome</a></li>
+  <li><a href="#core-article-4">Anatomical comparison populations and threshold transport in vascular transcriptomic classification</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.27.762296v1">Ground-truth evaluation of sparse autoencoder features on spatial, single-cell and language-model embeddings</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.762296">10.64898/2026.10.27.762296</a> · Score: <code>█████░░░░░</code> 0.517</p>
-<p><span class="label">Core Problem:</span> Sparse autoencoders (SAEs) are increasingly used to extract interpretable features from the embeddings of biological foundation models</p>
-<p><span class="label">Proposed Solution:</span> Because SAEs trained with different random seeds learn different features, reproducibility across seeds has become a common test of whether these features can be trusted. We asked whether reproducible features are also meaningful, using embeddings whose concepts are known: five spatial transcriptomics embeddings of two colorectal cancer sections and Geneformer embeddings of single-cell RNA profiles, with cell lineages as concepts; synthetic data with planted cell states; and the residual stream of a small language model, with token classes as concepts</p>
-<p><span class="label">Key Impact:</span> Reproducibility alone therefore ranks features poorly: SAE features should be reported with the number of known concepts they cover and the purity of their gene programs, against a rotation of the same embedding sparsified to the SAE&#x27;s sparsity</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.23.761370v1">IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length cDNA datasets</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.761370">10.64898/2026.10.23.761370</a> · Score: <code>█████░░░░░</code> 0.470</p>
-<p><span class="label">Core Problem:</span> The technology to sequence full-length transcriptomes from bulk and single-cell samples has rapidly advanced</p>
-<p><span class="label">Proposed Solution:</span> As a result, full-length cDNA datasets now reach billions of reads in size which is beyond the capability of most established isoform identification tools. Here, we introduce IG-28 which addresses this challenge with its capability to process and analyze large fl-cDNA datasets fast and using minimal computational resources</p>
-<p><span class="label">Key Impact:</span> We benchmarked IG-28 against a variety of established and new isoform identification tools using several bulk and a complex single-cell fl-cDNA dataset and found that IG-28 consistently outperformed the other tools by identifying high-confidence public isoforms</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762509v1">Illuminating phage dark matter beyond the reach of structural alignments with PhageFlare</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.762509">10.64898/2026.10.28.762509</a> · Score: <code>█████░░░░░</code> 0.470</p>
-<p><span class="label">Core Problem:</span> Many phage proteins remain functionally uncharacterized despite advances in structural-similarity-based annotation</p>
-<p><span class="label">Proposed Solution:</span> We introduce PhageFlare, a deep learning framework for predicting phage protein functions lacking significant structural matches to annotated references. Across three structure-disjoint benchmarks, where no significant Foldseek match was detected between training and test proteins (E-value thresholds of 10-3, 10-4, and 10-2), PhageFlare achieved macro-averaged F1 scores of 0</p>
-<p><span class="label">Key Impact:</span> These results show that PhageFlare complements structural-similarity-based annotation and expands functional discovery across viral dark matter</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.27.761882v1">Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.761882">10.64898/2026.10.27.761882</a> · Score: <code>█████░░░░░</code> 0.468</p>
-<p><span class="label">Core Problem:</span> Tumour architecture profoundly influences cancer cell behaviour, yet functional genomic studies predominantly rely on two-dimensional (2D) cultures</p>
-<p><span class="label">Proposed Solution:</span> Here, we performed parallel chromosome 1q focused CRISPR screens in matched 2D monolayers and three-dimensional (3D) spheroid cultures of luminal breast cancer cells, which revealed ARNT as a prominent architecture-dependent fitness regulator. ARNT depletion reduced proliferation in 2D but enhanced spheroid growth in 3D</p>
-<p><span class="label">Key Impact:</span> Together, these findings demonstrate that the growth regulatory function of ARNT depends on tumour architecture and that a functional ARNT CPE axis controls luminal breast cancer spheroid growth, underscoring the importance of incorporating 3D context into functional genomic approaches</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.28.26366656v1">Long-range chromatin interactions nominate candidate susceptibility genes at non-coding PDAC risk loci</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.26366656">10.64898/2026.10.28.26366656</a> · Score: <code>█████░░░░░</code> 0.455</p>
+<p><span class="label">Core Problem:</span> Genome-wide association studies (GWAS) for pancreatic ductal adenocarcinoma (PDAC) have identified 31 significant or suggestive risk signals across 26 loci</p>
+<p><span class="label">Proposed Solution:</span> Despite efforts to mechanistically characterize these loci, functional variants and target genes remain mostly elusive. Here, we fine-mapped 1,414 variants across these 31 signals and implemented a chromatin conformation capture method, GWAS Capture-C, to nominate candidate target genes</p>
+<p><span class="label">Key Impact:</span> Gene expression analysis in immortalized pancreas duct epithelial cells revealed an enrichment of numerous inflammation-related pathways associated with lower INHBA levels indicating inflammatory signaling may underlie the mechanism of risk at this locus</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762506v1">Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.762506">10.64898/2026.10.28.762506</a> · Score: <code>█████░░░░░</code> 0.459</p>
-<p><span class="label">Core Problem:</span> Cancer research generates tens of thousands of studies each year, yet whether a published finding holds in another cancer type or patient population is rarely tested, because doing so is labor-intensive and difficult to scale</p>
-<p><span class="label">Proposed Solution:</span> We define this task as discovery transfer and present SMART, a multi-agent large language model framework for discovery transfer in single-cell RNA-sequencing (scRNA-seq) studies. Given a source manuscript and a target scRNA-seq dataset, SMART extracts major clinical and mechanistic findings, generates and executes analyses for the testable findings, and reports which findings transfer and suggests follow-up</p>
-<p><span class="label">Key Impact:</span> SMART also generated new mechanistic hypotheses, demonstrating how agentic discovery transfer can extend published findings beyond their original setting</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366599v1">Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366599">10.64898/2026.10.29.26366599</a> · Score: <code>███░░░░░░░</code> 0.341</p>
+<p><span class="label">Core Problem:</span> Of all melanoma patients who develop distant metastasis over time, 41% were initially diagnosed with stage I/II</p>
+<p><span class="label">Proposed Solution:</span> More accurate prognostic models are needed to select patients for potential (neo)adjuvant therapy. We hypothesise that histopathological features in whole slide images (WSIs) from primary early-stage melanomas provide additional information beyond American Joint Committee on Cancer (AJCC) stage</p>
+<p><span class="label">Key Impact:</span> Further investigations of the underlying biological features could improve clinical decision making and patient outcomes</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-3">
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.10.28.26366658v1">Decoding personal and population variability in the human multiome</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.26366658">10.64898/2026.10.28.26366658</a> · Score: <code>███░░░░░░░</code> 0.287</p>
+<p><span class="label">Core Problem:</span> Background: With recent advances in technology, multiomic data have proliferated rapidly</p>
+<p><span class="label">Proposed Solution:</span> Biobanks are now developing genomic, proteomic, lipidomic, and metabolomic data sets on the order of hundreds of thousands of people. However, bridging the gap between population-level data and the individual--a major challenge in precision medicine--remains a novel and challenging task</p>
+<p><span class="label">Key Impact:</span> Based on these findings, we conclude with six key considerations for the next generation of population omics as the field advances toward the goals of precision medicine</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-4">
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366564v1">Anatomical comparison populations and threshold transport in vascular transcriptomic classification</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366564">10.64898/2026.10.29.26366564</a> · Score: <code>███░░░░░░░</code> 0.275</p>
+<p><span class="label">Core Problem:</span> Background: High vascular transcriptomic discrimination may obscure dependence on comparison populations, gene selection, and score scale</p>
+<p><span class="label">Proposed Solution:</span> We examined these properties separately. Methods: GSE100927 compared surgical atherosclerotic tissue with lesion-free deceased-donor arteries: 104 arrays formed 95 complete-label groups, versus 96 arteries reported originally; independent donor identities remained unresolved</p>
+<p><span class="label">Key Impact:</span> This is a comparison-population audit, not a clinically calibrated risk model</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.23.761370">IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length cDNA datasets</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.27.761882">Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.27.762296">Ground-truth evaluation of sparse autoencoder features on spatial, single-cell and language-model embeddings</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.28.762506">Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.28.762509">Illuminating phage dark matter beyond the reach of structural alignments with PhageFlare</a><span class="history-date">Oct 30, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.09.30.679633">Isolation of structural constraints by ensemble-conditioned protein sequence design</a><span class="history-date">Oct 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.10.26348013">Single-cell transcriptome-wide Mendelian randomization and colocalization analyses reveal immune-cell-specific mechanisms and actionable drug targets in prostate cancer</a><span class="history-date">Oct 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.16.712109">Integrating Green Revolution Rht-1 Alleles in Diverse Wheat Landraces Using CRISPR/Cas9, Cytosine Base Editing and Prime Editing</a><span class="history-date">Oct 29, 2026</span></li>
@@ -875,64 +870,59 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species</a></li>
-  <li><a href="#virology-article-2">Short- and long-read hybrid-capture viral metagenomics reach high sensitivity and specificity with data-driven cut-offs compared with routine diagnostics in CSF and BAL specimens</a></li>
-  <li><a href="#virology-article-3">Viral diversity and activity in Arctic tundra soils in wintertime</a></li>
-  <li><a href="#virology-article-4">Human infection with an ape Plasmodium vivax-like parasite</a></li>
-  <li><a href="#virology-article-5">Using iterative agentic retrieval-augmented generation to refine the risk of infection from social contexts during the COVID-19 pandemic: Development and Evaluation Study</a></li>
+  <li><a href="#virology-article-1">Design and evaluation of probe-capture sequencing for clinical Neisseria gonorrhoeae specimens</a></li>
+  <li><a href="#virology-article-2">Immune trajectories enable detection of asymptomatic parasitemia and predict future malaria outcomes</a></li>
+  <li><a href="#virology-article-3">Integrating 16S and 18S sequencing reveals coupled prokaryotic and eukaryotic relationships in drinking water biofilms</a></li>
+  <li><a href="#virology-article-4">Classifying and Differentiating Clinical Coding of Respiratory Syncytial Virus, Influenza, and COVID-19 in OpenSAFELY Between 2016 and 2024</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.05.09.724037v2">Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.05.09.724037">10.64898/2026.05.09.724037</a> · Score: <code>██████░░░░</code> 0.569</p>
-<p><span class="label">Core Problem:</span> Background: The vaginal microbiome is a key determinant of women&#x27;s health, with Lactobacillus-dominant communities protecting against bacterial vaginosis (BV) and related adverse outcomes</p>
-<p><span class="label">Proposed Solution:</span> Dysbiosis involves a decline in lactobacilli and overgrowth of anaerobes, with Gardnerella species central to initiating polymicrobial aggregates. However, the genetic determinants of community assembly, biofilm formation, and interspecies interactions remain poorly understood</p>
-<p><span class="label">Key Impact:</span> The findings support a model in which biofilm capacity is genetically encoded within an accessory genome, deployed through tailored proteomic responses, and modulated by an interaction-specific metabolic landscape, providing a foundation for identifying bioactive molecules and developing diagnostics and targeted therapeutics to restore and maintain vaginal health</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.27.26366582v1">Short- and long-read hybrid-capture viral metagenomics reach high sensitivity and specificity with data-driven cut-offs compared with routine diagnostics in CSF and BAL specimens</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.26366582">10.64898/2026.10.27.26366582</a> · Score: <code>█████░░░░░</code> 0.520</p>
-<p><span class="label">Core Problem:</span> Background Hybrid-capture viral metagenomics improves sensitivity over untargeted metagenomics, but its performance across sequencing platforms and the definition of data-driven analysis cut-offs using real clinical samples have not been systematically evaluated</p>
-<p><span class="label">Proposed Solution:</span> This study benchmarks the hybrid-capture workflow on mock and clinical specimens across short- and long-read platforms while introducing a new, reproducible approach for setting pathogen-calling cut-offs. Methods The Twist Comprehensive Viral Research Panel was used with both AVITI short-read and Oxford Nanopore Technologies (ONT) long-read sequencing on 12 mock cerebrospinal fluid (CSF) external quality assessment (EQA) panel samples and on 14 CSF and 21 bronchoalveolar lavage (BAL) clinical specimens</p>
-<p><span class="label">Key Impact:</span> In addition, the newly developed data-driven cut-off selection strategy offers a practical, reproducible method other laboratories can apply to their own workflows</p>
-<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762433v1">Viral diversity and activity in Arctic tundra soils in wintertime</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.762433">10.64898/2026.10.28.762433</a> · Score: <code>████░░░░░░</code> 0.423</p>
-<p><span class="label">Core Problem:</span> Arctic soils store vast amounts of carbon and are warming faster than the rest of the globe</p>
-<p><span class="label">Proposed Solution:</span> Still, little is known about microbe-mediated feedback responses to the ongoing environmental changes in the warming Arctic. Specifically, viral diversity, functions, and virus-host interactions remain largely unknown in northern soils outside the growing season</p>
-<p><span class="label">Key Impact:</span> The study contributes to uncovering diverse RNA viruses and viroid-like elements in Arctic tundra soils and highlights that soil viruses remain active in wintertime</p>
-<p><span class="label">Methodology:</span> Metatranscriptomics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1">Human infection with an ape Plasmodium vivax-like parasite</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.23.757543">10.64898/2026.10.23.757543</a> · Score: <code>████░░░░░░</code> 0.375</p>
-<p><span class="label">Core Problem:</span> An unusually divergent Plasmodium vivax parasite was reported in a Swedish patient with recent travel</p>
-<p><span class="label">Proposed Solution:</span> Using whole-genome sequencing, we show that the infection was caused by a strain of ape P. vivax-like, providing evidence of the zoonotic potential of these parasites that infect wild gorillas and chimpanzees in central Africa</p>
-<p><span class="label">Key Impact:</span> vivax-like, providing evidence of the zoonotic potential of these parasites that infect wild gorillas and chimpanzees in central Africa</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.27.26366443v1">Design and evaluation of probe-capture sequencing for clinical Neisseria gonorrhoeae specimens</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.26366443">10.64898/2026.10.27.26366443</a> · Score: <code>████░░░░░░</code> 0.406</p>
+<p><span class="label">Core Problem:</span> Characterizing the molecular epidemiology of Neisseria gonorrhoeae is essential for understanding disease burden, elucidating transmission dynamics, and informing clinical decision-making and public health interventions</p>
+<p><span class="label">Proposed Solution:</span> Given that routine, culture-independent diagnostics rapidly and sensitively detect this difficult-to-cultivate pathogen, aligning genomic surveillance with these workflows is necessary to understand its epidemiology and evolutionary dynamics. To address this challenge, we investigated the utility of probe-capture sequencing to selectively enrich for pathogen-specific DNA during next-generation sequencing</p>
+<p><span class="label">Key Impact:</span> gonorrhoeae genetic material from clinical samples, enabling culture-independent genomic investigations into the epidemiology of hard-to-culture pathogens and providing actionable insights to inform clinical and public health interventions</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.10.28.26366693v1">Using iterative agentic retrieval-augmented generation to refine the risk of infection from social contexts during the COVID-19 pandemic: Development and Evaluation Study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.26366693">10.64898/2026.10.28.26366693</a> · Score: <code>████░░░░░░</code> 0.365</p>
-<p><span class="label">Core Problem:</span> Background: Contact tracing is crucial to limit pathogen transmission and to gather epidemiological data</p>
-<p><span class="label">Proposed Solution:</span> However, despite machine learning optimizations, it remains time-consuming. Large language models have been used for infection risk prediction, but no existing application converses with a user to adapt its risk estimates</p>
-<p><span class="label">Key Impact:</span> Our conversational framework may help optimize contact tracing by highlighting social contexts with a high risk of infection</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<div class="article" id="virology-article-2">
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366609v1">Immune trajectories enable detection of asymptomatic parasitemia and predict future malaria outcomes</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366609">10.64898/2026.10.29.26366609</a> · Score: <code>████░░░░░░</code> 0.353</p>
+<p><span class="label">Core Problem:</span> Asymptomatic parasitemia is a hallmark of naturally acquired immunity to malaria, yet the immune state that permits parasite carriage without fever remains unclear</p>
+<p><span class="label">Proposed Solution:</span> We hypothesized that integrating population-diverse transcriptomic data would reveal conserved immune trajectories underlying symptom status during Plasmodium infection. We integrated 30 transcriptomic datasets spanning 2,578 samples and 18 countries and validated our findings in three single-cell datasets and 927 new samples from children and adults</p>
+<p><span class="label">Key Impact:</span> These findings indicate that asymptomatic parasitemia is a distinct immune state rather than an intermediate along a parasite-driven trajectory toward symptomatic malaria</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-3">
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366860v1">Integrating 16S and 18S sequencing reveals coupled prokaryotic and eukaryotic relationships in drinking water biofilms</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366860">10.64898/2026.10.29.26366860</a> · Score: <code>███░░░░░░░</code> 0.324</p>
+<p><span class="label">Core Problem:</span> Drinking water biofilms host diverse communities spanning all realms of life</p>
+<p><span class="label">Proposed Solution:</span> However, despite the known interactions between opportunistic pathogens and microbial eukaryotes such as amoebae, most studies focus only on the prokaryotic populations in these systems. As a result, the degree to which microbial eukaryotes shape biofilm communities and the persistence of opportunistic waterborne pathogens, such as Legionella spp</p>
+<p><span class="label">Key Impact:</span> These findings highlight the importance of integrating the eukaryotic communities to understand the microbial ecology in drinking water biofilms and recognize the conditions which allow opportunistic waterborne pathogens such as Legionella to persist</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.04.09.26350495v5">Classifying and Differentiating Clinical Coding of Respiratory Syncytial Virus, Influenza, and COVID-19 in OpenSAFELY Between 2016 and 2024</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.04.09.26350495">10.64898/2026.04.09.26350495</a> · Score: <code>███░░░░░░░</code> 0.306</p>
+<p><span class="label">Core Problem:</span> Electronic health records (EHRs) are a rich source of data which can be used to analyse health outcomes using computable phenotypes</p>
+<p><span class="label">Proposed Solution:</span> With the approval of NHS England we used the OpenSAFELY secure analytics platform to design and assess phenotypes to classify three key respiratory viruses - respiratory syncytial virus (RSV), influenza, and COVID-19 - in English coded health data between September 2016 and August 2024. We compared narrow and broad phenotypes to one another and to publicly available surveillance data</p>
+<p><span class="label">Key Impact:</span> The phenotypes presented here offer a solution to classifying respiratory viruses from coded health records in the absence of testing information</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.05.09.724037">Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.23.757543">Human infection with an ape Plasmodium vivax-like parasite</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.27.26366582">Short- and long-read hybrid-capture viral metagenomics reach high sensitivity and specificity with data-driven cut-offs compared with routine diagnostics in CSF and BAL specimens</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.28.26366693">Using iterative agentic retrieval-augmented generation to refine the risk of infection from social contexts during the COVID-19 pandemic: Development and Evaluation Study</a><span class="history-date">Oct 30, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.28.762433">Viral diversity and activity in Arctic tundra soils in wintertime</a><span class="history-date">Oct 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.14.718420">Community needs for FAIR pathogen data: a cross-sectional survey of infectious-disease researchers and educators</a><span class="history-date">Oct 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.24.26366392">Dense Longitudinal Multi Omics Reveals Microbial Metabolic Immune Succession During Immune Checkpoint Therapy</a><span class="history-date">Oct 29, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.26.761922">Isoform-Resolved Temporal Remodeling of Transcriptome Architecture in Monkeypox Virus</a><span class="history-date">Oct 29, 2026</span></li>
@@ -1214,7 +1204,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-30T09:04:40 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-10-31T09:24:24 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
