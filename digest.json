@@ -1,40 +1,48 @@
 {
-  "generated_utc": "2026-10-31T09:24:24.989987+00:00",
+  "generated_utc": "2026-11-01T10:21:53.774706+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Long-range chromatin interactions nominate candidate susceptibility genes at non-coding PDAC risk loci",
-          "doi": "10.64898/2026.10.28.26366656",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366656v1",
-          "source": "medrxiv",
-          "score": 0.4546
+          "title": "Multi-scale haplotype signatures distinguish among evolutionary processes",
+          "doi": "10.64898/2026.10.30.763096",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763096v1",
+          "source": "biorxiv",
+          "score": 0.5105
         },
         {
           "rank": 2,
-          "title": "Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study",
-          "doi": "10.64898/2026.10.29.26366599",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366599v1",
-          "source": "medrxiv",
-          "score": 0.3412
+          "title": "Single-cell foundation models transfer across deep evolutionary distances",
+          "doi": "10.64898/2026.10.28.762457",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762457v1",
+          "source": "biorxiv",
+          "score": 0.465
         },
         {
           "rank": 3,
-          "title": "Decoding personal and population variability in the human multiome",
-          "doi": "10.64898/2026.10.28.26366658",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366658v1",
-          "source": "medrxiv",
-          "score": 0.2868
+          "title": "Somatic variant detection using an individual-specific pangenome reference: a case study of a pediatric acute myeloid leukemia patient",
+          "doi": "10.64898/2026.10.27.756267",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.756267v1",
+          "source": "biorxiv",
+          "score": 0.4572
         },
         {
           "rank": 4,
-          "title": "Anatomical comparison populations and threshold transport in vascular transcriptomic classification",
-          "doi": "10.64898/2026.10.29.26366564",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366564v1",
-          "source": "medrxiv",
-          "score": 0.2752
+          "title": "Fox: Predicting rates of host-symbiont co-evolution events with association-aware attention",
+          "doi": "10.64898/2026.10.29.762770",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762770v1",
+          "source": "biorxiv",
+          "score": 0.4529
+        },
+        {
+          "rank": 5,
+          "title": "Kidzoi Enables Cell-Type-Specific Regulatory Activity and Variant Effect Prediction in Kidney",
+          "doi": "10.64898/2026.09.28.746288",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.746288v2",
+          "source": "biorxiv",
+          "score": 0.4464
         }
       ]
     },
@@ -43,35 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Design and evaluation of probe-capture sequencing for clinical Neisseria gonorrhoeae specimens",
-          "doi": "10.64898/2026.10.27.26366443",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366443v1",
-          "source": "medrxiv",
-          "score": 0.406
+          "title": "Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme",
+          "doi": "10.64898/2026.10.29.762801",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762801v1",
+          "source": "biorxiv",
+          "score": 0.4983
         },
         {
           "rank": 2,
-          "title": "Immune trajectories enable detection of asymptomatic parasitemia and predict future malaria outcomes",
-          "doi": "10.64898/2026.10.29.26366609",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366609v1",
-          "source": "medrxiv",
-          "score": 0.3525
+          "title": "Integrative multi-omics re-analysis of public sequencing and metabolomics repositories defines the mucosal immune and metabolic landscape of Helicobacter pylori infection and supports CagW as a rational mRNA-LNP vaccine antigen",
+          "doi": "10.64898/2026.10.30.763066",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763066v1",
+          "source": "biorxiv",
+          "score": 0.4803
         },
         {
           "rank": 3,
-          "title": "Integrating 16S and 18S sequencing reveals coupled prokaryotic and eukaryotic relationships in drinking water biofilms",
-          "doi": "10.64898/2026.10.29.26366860",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366860v1",
-          "source": "medrxiv",
-          "score": 0.3245
+          "title": "Molecular characterization of thermo-adapted Novirhabdovirus variants and virulence in vivo in rainbow trout and zebrafish at different temperatures.",
+          "doi": "10.64898/2026.10.29.762795",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762795v1",
+          "source": "biorxiv",
+          "score": 0.4455
         },
         {
           "rank": 4,
-          "title": "Classifying and Differentiating Clinical Coding of Respiratory Syncytial Virus, Influenza, and COVID-19 in OpenSAFELY Between 2016 and 2024",
-          "doi": "10.64898/2026.04.09.26350495",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.04.09.26350495v5",
-          "source": "medrxiv",
-          "score": 0.3061
+          "title": "Degree bias predicts, outperforms and improves machine learning phage-host interaction predictions",
+          "doi": "10.64898/2026.10.29.762857",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762857v1",
+          "source": "biorxiv",
+          "score": 0.4373
+        },
+        {
+          "rank": 5,
+          "title": "Dengue Virus Serotype 2 Infection Transcriptionally Reprograms Host Neutrophils to Establish an Immunosuppressive Microenvironment in Mice",
+          "doi": "10.64898/2026.10.29.762704",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762704v1",
+          "source": "biorxiv",
+          "score": 0.3843
         }
       ]
     }

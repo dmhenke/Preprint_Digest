@@ -108,15 +108,15 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>October 31, 2026 — 8 preprints selected (Comp Bio: 4 · Virology: 4)</h2>
+  <h2>November 01, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
 </div>
 
 <nav class="tabs" role="tablist">
-  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(4)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(4)</span></a>
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,54 +124,68 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Long-range chromatin interactions nominate candidate susceptibility genes at non-coding PDAC risk loci</a></li>
-  <li><a href="#core-article-2">Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study</a></li>
-  <li><a href="#core-article-3">Decoding personal and population variability in the human multiome</a></li>
-  <li><a href="#core-article-4">Anatomical comparison populations and threshold transport in vascular transcriptomic classification</a></li>
+  <li><a href="#core-article-1">Multi-scale haplotype signatures distinguish among evolutionary processes</a></li>
+  <li><a href="#core-article-2">Single-cell foundation models transfer across deep evolutionary distances</a></li>
+  <li><a href="#core-article-3">Somatic variant detection using an individual-specific pangenome reference: a case study of a pediatric acute myeloid leukemia patient</a></li>
+  <li><a href="#core-article-4">Fox: Predicting rates of host-symbiont co-evolution events with association-aware attention</a></li>
+  <li><a href="#core-article-5">Kidzoi Enables Cell-Type-Specific Regulatory Activity and Variant Effect Prediction in Kidney</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.28.26366656v1">Long-range chromatin interactions nominate candidate susceptibility genes at non-coding PDAC risk loci</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.26366656">10.64898/2026.10.28.26366656</a> · Score: <code>█████░░░░░</code> 0.455</p>
-<p><span class="label">Core Problem:</span> Genome-wide association studies (GWAS) for pancreatic ductal adenocarcinoma (PDAC) have identified 31 significant or suggestive risk signals across 26 loci</p>
-<p><span class="label">Proposed Solution:</span> Despite efforts to mechanistically characterize these loci, functional variants and target genes remain mostly elusive. Here, we fine-mapped 1,414 variants across these 31 signals and implemented a chromatin conformation capture method, GWAS Capture-C, to nominate candidate target genes</p>
-<p><span class="label">Key Impact:</span> Gene expression analysis in immortalized pancreas duct epithelial cells revealed an enrichment of numerous inflammation-related pathways associated with lower INHBA levels indicating inflammatory signaling may underlie the mechanism of risk at this locus</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366599v1">Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366599">10.64898/2026.10.29.26366599</a> · Score: <code>███░░░░░░░</code> 0.341</p>
-<p><span class="label">Core Problem:</span> Of all melanoma patients who develop distant metastasis over time, 41% were initially diagnosed with stage I/II</p>
-<p><span class="label">Proposed Solution:</span> More accurate prognostic models are needed to select patients for potential (neo)adjuvant therapy. We hypothesise that histopathological features in whole slide images (WSIs) from primary early-stage melanomas provide additional information beyond American Joint Committee on Cancer (AJCC) stage</p>
-<p><span class="label">Key Impact:</span> Further investigations of the underlying biological features could improve clinical decision making and patient outcomes</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.30.763096v1">Multi-scale haplotype signatures distinguish among evolutionary processes</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.30.763096">10.64898/2026.10.30.763096</a> · Score: <code>█████░░░░░</code> 0.510</p>
+<p><span class="label">Core Problem:</span> Natural selection embeds distinct genomic signatures as populations adapt to environmental pressures</p>
+<p><span class="label">Proposed Solution:</span> Machine learning approaches, particularly deep neural networks, have emerged as powerful tools to detect adaptive signatures from genomic data. While machine learning has dramatically improved our ability to extract these signals from sequence variation, distinguishing among multiple evolutionary processes remains challenging</p>
+<p><span class="label">Key Impact:</span> Furthermore, application of SHADES to empirical haplotypic variation from European humans recovered previously reported signals for selective sweeps, balancing selection, and adaptive introgression, while also identifying novel genes broadly involved in immune defense, inflammatory regulation, and epithelial barrier biology</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="core-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762457v1">Single-cell foundation models transfer across deep evolutionary distances</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.762457">10.64898/2026.10.28.762457</a> · Score: <code>█████░░░░░</code> 0.465</p>
+<p><span class="label">Core Problem:</span> Single-cell foundation models are trained mostly on human and other vertebrate cells, yet are proposed as general-purpose models</p>
+<p><span class="label">Proposed Solution:</span> Whether they transfer far beyond their training species is unknown. We evaluated zero-shot embeddings from Geneformer, scGPT and UCE against PCA and scVI in developmental atlases of Dictyostelium discoideum and Caenorhabditis elegans, separated from humans by 1</p>
+<p><span class="label">Key Impact:</span> Foundation models can thus yield informative cell embeddings across more than a billion years of evolution, and protein-sequence gene representations make these embeddings more complete and often more accurate</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.10.28.26366658v1">Decoding personal and population variability in the human multiome</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.26366658">10.64898/2026.10.28.26366658</a> · Score: <code>███░░░░░░░</code> 0.287</p>
-<p><span class="label">Core Problem:</span> Background: With recent advances in technology, multiomic data have proliferated rapidly</p>
-<p><span class="label">Proposed Solution:</span> Biobanks are now developing genomic, proteomic, lipidomic, and metabolomic data sets on the order of hundreds of thousands of people. However, bridging the gap between population-level data and the individual--a major challenge in precision medicine--remains a novel and challenging task</p>
-<p><span class="label">Key Impact:</span> Based on these findings, we conclude with six key considerations for the next generation of population omics as the field advances toward the goals of precision medicine</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.27.756267v1">Somatic variant detection using an individual-specific pangenome reference: a case study of a pediatric acute myeloid leukemia patient</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.756267">10.64898/2026.10.27.756267</a> · Score: <code>█████░░░░░</code> 0.457</p>
+<p><span class="label">Core Problem:</span> Background: Reference bias can cause false or missed somatic variant calls, also in clinically relevant genes</p>
+<p><span class="label">Proposed Solution:</span> Pangenomes aim to reduce this bias, but evidence of their diagnostic benefit is lacking. We tested how an individual-specific pangenome affects somatic variant calling in bulk samples and single cells</p>
+<p><span class="label">Key Impact:</span> However, surjection artifacts and false-positive somatic structural variants show that pangenome-based results need read-level inspection and validation before clinical use</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366564v1">Anatomical comparison populations and threshold transport in vascular transcriptomic classification</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366564">10.64898/2026.10.29.26366564</a> · Score: <code>███░░░░░░░</code> 0.275</p>
-<p><span class="label">Core Problem:</span> Background: High vascular transcriptomic discrimination may obscure dependence on comparison populations, gene selection, and score scale</p>
-<p><span class="label">Proposed Solution:</span> We examined these properties separately. Methods: GSE100927 compared surgical atherosclerotic tissue with lesion-free deceased-donor arteries: 104 arrays formed 95 complete-label groups, versus 96 arteries reported originally; independent donor identities remained unresolved</p>
-<p><span class="label">Key Impact:</span> This is a comparison-population audit, not a clinically calibrated risk model</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.762770v1">Fox: Predicting rates of host-symbiont co-evolution events with association-aware attention</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.762770">10.64898/2026.10.29.762770</a> · Score: <code>█████░░░░░</code> 0.453</p>
+<p><span class="label">Core Problem:</span> Motivation: Hosts and their symbionts share a history of associations in which lineages cospeciate, switch hosts, duplicate, or are lost</p>
+<p><span class="label">Proposed Solution:</span> Quantifying the relative frequencies of these four events is a central goal of cophylogenetics, but existing tools typically require a fully resolved, correctly rooted host tree, often alongside a symbiont tree, propagating tree-inference errors into the reconciliation and scaling poorly to large systems. Results: We introduce Fox, a transformer neural network architecture that infers the relative frequencies of the four cophylogenetic events directly from a pair of host and symbiont multiple sequence alignments (MSAs) and their sequence mapping, with no tree-reconstruction or reconciliation step</p>
+<p><span class="label">Key Impact:</span> These results confirm that the coevolutionary signal usually extracted from trees can be read directly, accurately, and fast in the alignments themselves</p>
+<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.09.28.746288v2">Kidzoi Enables Cell-Type-Specific Regulatory Activity and Variant Effect Prediction in Kidney</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.09.28.746288">10.64898/2026.09.28.746288</a> · Score: <code>████░░░░░░</code> 0.446</p>
+<p><span class="label">Core Problem:</span> Sequence-to-function (S2F) deep learning models predict genome-wide functional profiles directly from DNA sequences and have significantly advanced our understanding of gene regulation</p>
+<p><span class="label">Proposed Solution:</span> However, existing S2F models are fundamentally constrained by their initial training datasets, and no single model encompasses the full spectrum of cell types, clinical conditions, and cellular states, while training new models de novo is nontrivial. Here, we develop Kidzoi, a kidney cell-type-specific S2F model obtained by transfer learning from the pretrained model Borzoi using single-nucleus chromatin accessibility data from human kidney tissue</p>
+<p><span class="label">Key Impact:</span> Finally, we show that a multi-task model achieves comparable performance to single-task models at a substantially reduced computational cost</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.28.26366656">Long-range chromatin interactions nominate candidate susceptibility genes at non-coding PDAC risk loci</a><span class="history-date">Oct 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.28.26366658">Decoding personal and population variability in the human multiome</a><span class="history-date">Oct 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.29.26366564">Anatomical comparison populations and threshold transport in vascular transcriptomic classification</a><span class="history-date">Oct 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.29.26366599">Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study</a><span class="history-date">Oct 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.23.761370">IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length cDNA datasets</a><span class="history-date">Oct 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.27.761882">Tumour architecture inverts ARNT-dependent growth regulation and reveals CPE-mediated spheroid expansion in luminal breast cancer</a><span class="history-date">Oct 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.27.762296">Ground-truth evaluation of sparse autoencoder features on spatial, single-cell and language-model embeddings</a><span class="history-date">Oct 30, 2026</span></li>
@@ -870,47 +884,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Design and evaluation of probe-capture sequencing for clinical Neisseria gonorrhoeae specimens</a></li>
-  <li><a href="#virology-article-2">Immune trajectories enable detection of asymptomatic parasitemia and predict future malaria outcomes</a></li>
-  <li><a href="#virology-article-3">Integrating 16S and 18S sequencing reveals coupled prokaryotic and eukaryotic relationships in drinking water biofilms</a></li>
-  <li><a href="#virology-article-4">Classifying and Differentiating Clinical Coding of Respiratory Syncytial Virus, Influenza, and COVID-19 in OpenSAFELY Between 2016 and 2024</a></li>
+  <li><a href="#virology-article-1">Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme</a></li>
+  <li><a href="#virology-article-2">Integrative multi-omics re-analysis of public sequencing and metabolomics repositories defines the mucosal immune and metabolic landscape of Helicobacter pylori infection and supports CagW as a rational mRNA-LNP vaccine antigen</a></li>
+  <li><a href="#virology-article-3">Molecular characterization of thermo-adapted Novirhabdovirus variants and virulence in vivo in rainbow trout and zebrafish at different temperatures.</a></li>
+  <li><a href="#virology-article-4">Degree bias predicts, outperforms and improves machine learning phage-host interaction predictions</a></li>
+  <li><a href="#virology-article-5">Dengue Virus Serotype 2 Infection Transcriptionally Reprograms Host Neutrophils to Establish an Immunosuppressive Microenvironment in Mice</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.10.27.26366443v1">Design and evaluation of probe-capture sequencing for clinical Neisseria gonorrhoeae specimens</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.26366443">10.64898/2026.10.27.26366443</a> · Score: <code>████░░░░░░</code> 0.406</p>
-<p><span class="label">Core Problem:</span> Characterizing the molecular epidemiology of Neisseria gonorrhoeae is essential for understanding disease burden, elucidating transmission dynamics, and informing clinical decision-making and public health interventions</p>
-<p><span class="label">Proposed Solution:</span> Given that routine, culture-independent diagnostics rapidly and sensitively detect this difficult-to-cultivate pathogen, aligning genomic surveillance with these workflows is necessary to understand its epidemiology and evolutionary dynamics. To address this challenge, we investigated the utility of probe-capture sequencing to selectively enrich for pathogen-specific DNA during next-generation sequencing</p>
-<p><span class="label">Key Impact:</span> gonorrhoeae genetic material from clinical samples, enabling culture-independent genomic investigations into the epidemiology of hard-to-culture pathogens and providing actionable insights to inform clinical and public health interventions</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.762801v1">Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.762801">10.64898/2026.10.29.762801</a> · Score: <code>█████░░░░░</code> 0.498</p>
+<p><span class="label">Core Problem:</span> Background: Klebsiella pneumoniae (Kp) is a leading cause of hospital and community acquired pneumonia and bacteraemia, and hypervirulent and carbapenem resistant lineages continue to expand worldwide</p>
+<p><span class="label">Proposed Solution:</span> Although individual omics layers of Kp infection have been profiled, the host-level molecular logic that connects transcriptional, cellular, metabolic and spatial programmes has not been systematically integrated. Methods: We curated 16 public datasets spanning four modalities-bulk and dual host pathogen RNA-seq (six datasets; 118 libraries), single-cell RNA-seq (four datasets; {approx}164,000 cells), untargeted/targeted metabolomics (four datasets; 1,842 molecular features) and Visium spatial transcriptomics (two datasets; {approx}11,400 spots) covering murine lung infection models, hypervirulent and classical Kp strains, carbapenem-resistant isolates and human clinical specimens</p>
+<p><span class="label">Key Impact:</span> Conclusions: By vertically integrating public multi-omics data, we define an itaconate-centred metabolic-immune axis that couples inflammatory myeloid expansion to spatially segregated metabolic niches, and we deliver a validated host-side molecular signature that discriminates Kp infection from non-infected states</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366609v1">Immune trajectories enable detection of asymptomatic parasitemia and predict future malaria outcomes</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366609">10.64898/2026.10.29.26366609</a> · Score: <code>████░░░░░░</code> 0.353</p>
-<p><span class="label">Core Problem:</span> Asymptomatic parasitemia is a hallmark of naturally acquired immunity to malaria, yet the immune state that permits parasite carriage without fever remains unclear</p>
-<p><span class="label">Proposed Solution:</span> We hypothesized that integrating population-diverse transcriptomic data would reveal conserved immune trajectories underlying symptom status during Plasmodium infection. We integrated 30 transcriptomic datasets spanning 2,578 samples and 18 countries and validated our findings in three single-cell datasets and 927 new samples from children and adults</p>
-<p><span class="label">Key Impact:</span> These findings indicate that asymptomatic parasitemia is a distinct immune state rather than an intermediate along a parasite-driven trajectory toward symptomatic malaria</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.30.763066v1">Integrative multi-omics re-analysis of public sequencing and metabolomics repositories defines the mucosal immune and metabolic landscape of Helicobacter pylori infection and supports CagW as a rational mRNA-LNP vaccine antigen</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.30.763066">10.64898/2026.10.30.763066</a> · Score: <code>█████░░░░░</code> 0.480</p>
+<p><span class="label">Core Problem:</span> Background</p>
+<p><span class="label">Proposed Solution:</span> Helicobacter pylori colonises 40-45% of the global population, is a WHO Group I carcinogen, and is increasingly hard to eradicate amid rising resistance; no vaccine is licensed. CagW, a VirB6-family cagPAI component, has been advanced as a DNA-vaccine antigen that protects mice; a codon-optimised CagW-Fc mRNA in lipid nanoparticles (mRNA-LNP) is a candidate antigen design intended to engage humoral and cellular immunity</p>
+<p><span class="label">Key Impact:</span> These findings provide a systems-level rationale for prioritising CagW as a conserved, epitope-accessible vaccine antigen and inform next-generation multi-antigen designs</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.10.29.26366860v1">Integrating 16S and 18S sequencing reveals coupled prokaryotic and eukaryotic relationships in drinking water biofilms</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.26366860">10.64898/2026.10.29.26366860</a> · Score: <code>███░░░░░░░</code> 0.324</p>
-<p><span class="label">Core Problem:</span> Drinking water biofilms host diverse communities spanning all realms of life</p>
-<p><span class="label">Proposed Solution:</span> However, despite the known interactions between opportunistic pathogens and microbial eukaryotes such as amoebae, most studies focus only on the prokaryotic populations in these systems. As a result, the degree to which microbial eukaryotes shape biofilm communities and the persistence of opportunistic waterborne pathogens, such as Legionella spp</p>
-<p><span class="label">Key Impact:</span> These findings highlight the importance of integrating the eukaryotic communities to understand the microbial ecology in drinking water biofilms and recognize the conditions which allow opportunistic waterborne pathogens such as Legionella to persist</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.762795v1">Molecular characterization of thermo-adapted Novirhabdovirus variants and virulence in vivo in rainbow trout and zebrafish at different temperatures.</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.762795">10.64898/2026.10.29.762795</a> · Score: <code>████░░░░░░</code> 0.445</p>
+<p><span class="label">Core Problem:</span> Controlling viral diseases in fish is a challenge for the sustainable development of aquaculture and improving the health of fish farms</p>
+<p><span class="label">Proposed Solution:</span> Infectious hematopoietic necrosis virus (IHNV) is a major pathogen in aquaculture. It infects cold-water fish, but loses its infectivity at temperatures above 20{degrees}C</p>
+<p><span class="label">Key Impact:</span> The identification of viral markers of thermo-adaptation will therefore be of great interest for the epidemiological surveillance of field isolates</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.04.09.26350495v5">Classifying and Differentiating Clinical Coding of Respiratory Syncytial Virus, Influenza, and COVID-19 in OpenSAFELY Between 2016 and 2024</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.04.09.26350495">10.64898/2026.04.09.26350495</a> · Score: <code>███░░░░░░░</code> 0.306</p>
-<p><span class="label">Core Problem:</span> Electronic health records (EHRs) are a rich source of data which can be used to analyse health outcomes using computable phenotypes</p>
-<p><span class="label">Proposed Solution:</span> With the approval of NHS England we used the OpenSAFELY secure analytics platform to design and assess phenotypes to classify three key respiratory viruses - respiratory syncytial virus (RSV), influenza, and COVID-19 - in English coded health data between September 2016 and August 2024. We compared narrow and broad phenotypes to one another and to publicly available surveillance data</p>
-<p><span class="label">Key Impact:</span> The phenotypes presented here offer a solution to classifying respiratory viruses from coded health records in the absence of testing information</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.762857v1">Degree bias predicts, outperforms and improves machine learning phage-host interaction predictions</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.762857">10.64898/2026.10.29.762857</a> · Score: <code>████░░░░░░</code> 0.437</p>
+<p><span class="label">Core Problem:</span> Machine learning (ML) models predicting phage-host interactions are widely used to prioritize phages for phage therapy</p>
+<p><span class="label">Proposed Solution:</span> The Area Under the Receiver Operating Characteristic (AUROC) metric is standard for model evaluation, with reported high scores (0. 7 - 0</p>
+<p><span class="label">Key Impact:</span> Our work provides a critical framework for model evaluation and a straightforward route to improve ML-guided phage selection</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-5">
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.762704v1">Dengue Virus Serotype 2 Infection Transcriptionally Reprograms Host Neutrophils to Establish an Immunosuppressive Microenvironment in Mice</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.762704">10.64898/2026.10.29.762704</a> · Score: <code>████░░░░░░</code> 0.384</p>
+<p><span class="label">Core Problem:</span> Dengue virus (DV) infection triggers profound alterations in host immune responses, yet the transcriptomic reprogramming of innate immune cells during disease progression remains incompletely understood</p>
+<p><span class="label">Proposed Solution:</span> Here, we demonstrated that Dengue virus serotype 2 (DV-2) infection transcriptionally reprograms host neutrophils, establishing an immunosuppressive microenvironment that facilitates pathogenesis. Through scRNA transcriptomic profiling of bone marrow and spleen cells from the DV-2-infected AG129 mouse model, we delineated a distinct neutrophil signature that shows dynamic shifts in immature and activated populations over the course of dengue infection</p>
+<p><span class="label">Key Impact:</span> Together, these findings reveal how DV-2-driven neutrophil reprogramming shapes an immunosuppressive network, highlighting the importance of studying FGL2-expressing neutrophil subsets to understand dengue immunopathogenesis</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -918,6 +942,10 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.04.09.26350495">Classifying and Differentiating Clinical Coding of Respiratory Syncytial Virus, Influenza, and COVID-19 in OpenSAFELY Between 2016 and 2024</a><span class="history-date">Oct 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.27.26366443">Design and evaluation of probe-capture sequencing for clinical Neisseria gonorrhoeae specimens</a><span class="history-date">Oct 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.29.26366609">Immune trajectories enable detection of asymptomatic parasitemia and predict future malaria outcomes</a><span class="history-date">Oct 31, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.29.26366860">Integrating 16S and 18S sequencing reveals coupled prokaryotic and eukaryotic relationships in drinking water biofilms</a><span class="history-date">Oct 31, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.09.724037">Multi-omics uncover interactions in the vaginal microbiome and a type II secretion/Tad pilus system in Gardnerella species</a><span class="history-date">Oct 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.23.757543">Human infection with an ape Plasmodium vivax-like parasite</a><span class="history-date">Oct 30, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.27.26366582">Short- and long-read hybrid-capture viral metagenomics reach high sensitivity and specificity with data-driven cut-offs compared with routine diagnostics in CSF and BAL specimens</a><span class="history-date">Oct 30, 2026</span></li>
@@ -1204,7 +1232,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-10-31T09:24:24 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-01T10:21:53 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
