@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-01T10:21:53.774706+00:00",
+  "generated_utc": "2026-11-02T10:01:52.583399+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Multi-scale haplotype signatures distinguish among evolutionary processes",
-          "doi": "10.64898/2026.10.30.763096",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763096v1",
+          "title": "FateDriver: Weakly supervised dual-view graph learning for transition-specific prioritization of candidate regulators in cellular reprogramming",
+          "doi": "10.64898/2026.10.27.762150",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762150v1",
           "source": "biorxiv",
-          "score": 0.5105
+          "score": 0.4745
         },
         {
           "rank": 2,
-          "title": "Single-cell foundation models transfer across deep evolutionary distances",
-          "doi": "10.64898/2026.10.28.762457",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762457v1",
-          "source": "biorxiv",
-          "score": 0.465
+          "title": "Single-cell transcriptome-wide association analysis reveals epithelial cell-specific genetic susceptibility to colorectal cancer",
+          "doi": "10.64898/2026.10.29.26366877",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366877v1",
+          "source": "medrxiv",
+          "score": 0.4544
         },
         {
           "rank": 3,
-          "title": "Somatic variant detection using an individual-specific pangenome reference: a case study of a pediatric acute myeloid leukemia patient",
-          "doi": "10.64898/2026.10.27.756267",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.756267v1",
+          "title": "Single-cell perturbation prediction near experimental reproducibility with GENESIS",
+          "doi": "10.64898/2026.10.30.763081",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763081v1",
           "source": "biorxiv",
-          "score": 0.4572
+          "score": 0.4455
         },
         {
           "rank": 4,
-          "title": "Fox: Predicting rates of host-symbiont co-evolution events with association-aware attention",
-          "doi": "10.64898/2026.10.29.762770",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762770v1",
+          "title": "BRIDGE: Biological Antimicrobial Resistance Inference via Domain-Knowledge Graph Embeddings",
+          "doi": "10.64898/2026.02.09.704676",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.09.704676v2",
           "source": "biorxiv",
-          "score": 0.4529
+          "score": 0.431
         },
         {
           "rank": 5,
-          "title": "Kidzoi Enables Cell-Type-Specific Regulatory Activity and Variant Effect Prediction in Kidney",
-          "doi": "10.64898/2026.09.28.746288",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.746288v2",
+          "title": "LIMBER: A Hybrid RNA Foundation Model for Predicting and Understanding RNA Structure and Function",
+          "doi": "10.64898/2026.10.28.762670",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762670v1",
           "source": "biorxiv",
-          "score": 0.4464
+          "score": 0.4132
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Integrative multi-omics decoding of the host response to Klebsiella pneumoniae infection reveals an itaconate-centred metabolic-immune axis and a spatially organised inflammatory programme",
-          "doi": "10.64898/2026.10.29.762801",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762801v1",
+          "title": "Interpreting graph neural networks reveals microbial association patterns in inflammatory bowel diseases",
+          "doi": "10.64898/2026.10.27.762128",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762128v1",
           "source": "biorxiv",
-          "score": 0.4983
+          "score": 0.4501
         },
         {
           "rank": 2,
-          "title": "Integrative multi-omics re-analysis of public sequencing and metabolomics repositories defines the mucosal immune and metabolic landscape of Helicobacter pylori infection and supports CagW as a rational mRNA-LNP vaccine antigen",
-          "doi": "10.64898/2026.10.30.763066",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763066v1",
-          "source": "biorxiv",
-          "score": 0.4803
+          "title": "Effects of water quality, sanitation, handwashing and nutritional interventions on enteric pathogen seroconversion in rural Bangladesh: a cluster randomised trial",
+          "doi": "10.64898/2026.10.30.26366885",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366885v1",
+          "source": "medrxiv",
+          "score": 0.4029
         },
         {
           "rank": 3,
-          "title": "Molecular characterization of thermo-adapted Novirhabdovirus variants and virulence in vivo in rainbow trout and zebrafish at different temperatures.",
-          "doi": "10.64898/2026.10.29.762795",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762795v1",
+          "title": "Twenty-five new microsporidian genomes: Insights into ploidy, reproduction, and the group's pangenome",
+          "doi": "10.64898/2026.10.30.762710",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.762710v1",
           "source": "biorxiv",
-          "score": 0.4455
+          "score": 0.3646
         },
         {
           "rank": 4,
-          "title": "Degree bias predicts, outperforms and improves machine learning phage-host interaction predictions",
-          "doi": "10.64898/2026.10.29.762857",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762857v1",
+          "title": "A synthetic phageome reveals widespread and diverse human antibody responses to bacteriophages",
+          "doi": "10.64898/2026.10.29.762592",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762592v1",
           "source": "biorxiv",
-          "score": 0.4373
+          "score": 0.3417
         },
         {
           "rank": 5,
-          "title": "Dengue Virus Serotype 2 Infection Transcriptionally Reprograms Host Neutrophils to Establish an Immunosuppressive Microenvironment in Mice",
-          "doi": "10.64898/2026.10.29.762704",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762704v1",
-          "source": "biorxiv",
-          "score": 0.3843
+          "title": "Clinical Evaluation of the PANDAA Lassa Virus RT-PCR Assay in Sierra Leone",
+          "doi": "10.64898/2026.10.30.26366846",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366846v1",
+          "source": "medrxiv",
+          "score": 0.3254
         }
       ]
     }
