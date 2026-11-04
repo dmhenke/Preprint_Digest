@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-03T10:02:28.658127+00:00",
+  "generated_utc": "2026-11-04T10:02:58.820660+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Engineering and characterisation of AAVS1 FRT cell lines for inducible and dose-dependent gene expression",
-          "doi": "10.64898/2026.10.29.762215",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762215v1",
+          "title": "Learning inhibitor interactions from protein deep mutational scanning data and deep learning models",
+          "doi": "10.64898/2026.11.01.763444",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763444v1",
           "source": "biorxiv",
-          "score": 0.5283
+          "score": 0.5115
         },
         {
           "rank": 2,
-          "title": "scRM: A single-cell foundation model trained on scRNA-seq reads",
-          "doi": "10.64898/2026.10.24.761590",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761590v1",
+          "title": "scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus",
+          "doi": "10.64898/2026.10.28.762654",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1",
           "source": "biorxiv",
-          "score": 0.5012
+          "score": 0.4795
         },
         {
           "rank": 3,
-          "title": "Integrative Multi-Omics Analysis of Molecular Associations and Biological Pathways Underlying Neurodevelopmental Conditions in a Twin Cohort",
-          "doi": "10.64898/2026.01.16.26344104",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.01.16.26344104v2",
-          "source": "medrxiv",
-          "score": 0.4924
+          "title": "ExPert infers causal perturbations from cell states across biological and clinical contexts",
+          "doi": "10.64898/2026.11.02.762549",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.762549v1",
+          "source": "biorxiv",
+          "score": 0.4709
         },
         {
           "rank": 4,
-          "title": "Therapeutic vulnerabilities of the drug-resistant fungal meningitis pathogen Cryptococcus neoformans",
-          "doi": "10.64898/2026.10.31.763343",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763343v1",
+          "title": "AdaGeneBudget: Cell-Adaptive Gene-Token Allocation for Efficient Single-Cell Foundation Models",
+          "doi": "10.64898/2026.08.06.743174",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743174v2",
           "source": "biorxiv",
-          "score": 0.4897
+          "score": 0.4628
         },
         {
           "rank": 5,
-          "title": "Machine learning guided design of strong transcriptional activation domains",
-          "doi": "10.64898/2026.10.30.763198",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763198v1",
+          "title": "irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events",
+          "doi": "10.64898/2026.11.01.763453",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763453v1",
           "source": "biorxiv",
-          "score": 0.4769
+          "score": 0.4502
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "A rational design strategy and validation for protease-resistant fusion-inhibitor antiviral peptides",
-          "doi": "10.64898/2026.09.12.750390",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.09.12.750390v2",
+          "title": "GENOME ASSEMBLIES FOR 28 PHAEOSPHAERIACEAE ISOLATES FROM CANADA",
+          "doi": "10.64898/2026.11.02.763635",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763635v1",
           "source": "biorxiv",
-          "score": 0.4272
+          "score": 0.4306
         },
         {
           "rank": 2,
-          "title": "Serotype-structured force of infection for optimizing dengue vaccine trial design",
-          "doi": "10.64898/2026.11.01.26367012",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.01.26367012v1",
-          "source": "medrxiv",
-          "score": 0.3787
+          "title": "Comparative cryo-EM structures of CGMMV and ToMMV reveal divergent coat protein packing and electrostatics indicating Tobamovirus host specificity",
+          "doi": "10.64898/2026.11.02.763805",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763805v1",
+          "source": "biorxiv",
+          "score": 0.4246
         },
         {
           "rank": 3,
-          "title": "Who infected the reported cases? Evidence from 678,482 COVID-19 cases with identified infector collected in routine surveillance in the Netherlands, 2020-2022.",
-          "doi": "10.64898/2026.05.15.26347859",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.05.15.26347859v2",
-          "source": "medrxiv",
-          "score": 0.367
+          "title": "NPlasmid-seq: Cas9-encoded terminal signatures enable molecule-level nanopore quality control of vector and IVT-template plasmids",
+          "doi": "10.64898/2026.11.02.763549",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763549v1",
+          "source": "biorxiv",
+          "score": 0.3772
         },
         {
           "rank": 4,
-          "title": "Molecular and Structural Characterisation of the MERS-Coronavirus Polymerase",
-          "doi": "10.64898/2026.11.01.763422",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763422v1",
+          "title": "Knockdown of fibrillarin reveals cell- and virus- dependent restriction of henipavirus replication and enhanced antiviral immune signalling",
+          "doi": "10.64898/2026.11.02.763686",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763686v1",
           "source": "biorxiv",
-          "score": 0.3459
+          "score": 0.3754
         },
         {
           "rank": 5,
-          "title": "Endothelial protein C receptor is an entry receptor for Langya and related parahenipaviruses",
-          "doi": "10.64898/2026.11.01.763137",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763137v1",
+          "title": "Multimodal characterization of putative pan-inhibitory viral constructs in macaque monkeys",
+          "doi": "10.64898/2026.10.27.761178",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761178v1",
           "source": "biorxiv",
-          "score": 0.3427
+          "score": 0.3699
         }
       ]
     }
