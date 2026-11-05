@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-04T10:02:58.820660+00:00",
+  "generated_utc": "2026-11-05T10:03:10.023293+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Learning inhibitor interactions from protein deep mutational scanning data and deep learning models",
-          "doi": "10.64898/2026.11.01.763444",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763444v1",
+          "title": "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines",
+          "doi": "10.64898/2026.11.03.763968",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v1",
           "source": "biorxiv",
-          "score": 0.5115
+          "score": 0.5468
         },
         {
           "rank": 2,
-          "title": "scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus",
-          "doi": "10.64898/2026.10.28.762654",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1",
-          "source": "biorxiv",
-          "score": 0.4795
+          "title": "AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions",
+          "doi": "10.64898/2026.11.03.26367106",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.03.26367106v1",
+          "source": "medrxiv",
+          "score": 0.5165
         },
         {
           "rank": 3,
-          "title": "ExPert infers causal perturbations from cell states across biological and clinical contexts",
-          "doi": "10.64898/2026.11.02.762549",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.762549v1",
+          "title": "Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases",
+          "doi": "10.64898/2026.11.03.762080",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1",
           "source": "biorxiv",
-          "score": 0.4709
+          "score": 0.4746
         },
         {
           "rank": 4,
-          "title": "AdaGeneBudget: Cell-Adaptive Gene-Token Allocation for Efficient Single-Cell Foundation Models",
-          "doi": "10.64898/2026.08.06.743174",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743174v2",
-          "source": "biorxiv",
-          "score": 0.4628
+          "title": "Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci",
+          "doi": "10.64898/2026.11.04.26366951",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26366951v1",
+          "source": "medrxiv",
+          "score": 0.4732
         },
         {
           "rank": 5,
-          "title": "irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events",
-          "doi": "10.64898/2026.11.01.763453",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763453v1",
+          "title": "A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs",
+          "doi": "10.64898/2026.10.30.763199",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763199v1",
           "source": "biorxiv",
-          "score": 0.4502
+          "score": 0.4693
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "GENOME ASSEMBLIES FOR 28 PHAEOSPHAERIACEAE ISOLATES FROM CANADA",
-          "doi": "10.64898/2026.11.02.763635",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763635v1",
+          "title": "MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences",
+          "doi": "10.64898/2026.11.03.763945",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763945v1",
           "source": "biorxiv",
-          "score": 0.4306
+          "score": 0.4487
         },
         {
           "rank": 2,
-          "title": "Comparative cryo-EM structures of CGMMV and ToMMV reveal divergent coat protein packing and electrostatics indicating Tobamovirus host specificity",
-          "doi": "10.64898/2026.11.02.763805",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763805v1",
-          "source": "biorxiv",
-          "score": 0.4246
+          "title": "Pandemic-Driven Shifts in RSV Diversity, Evolution, and Global Spread",
+          "doi": "10.64898/2026.11.02.26367099",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.02.26367099v1",
+          "source": "medrxiv",
+          "score": 0.4357
         },
         {
           "rank": 3,
-          "title": "NPlasmid-seq: Cas9-encoded terminal signatures enable molecule-level nanopore quality control of vector and IVT-template plasmids",
-          "doi": "10.64898/2026.11.02.763549",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763549v1",
+          "title": "COSMOS: integrated vector-pathogen metagenomics for mosquito-borne disease",
+          "doi": "10.64898/2026.11.03.763828",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763828v1",
           "source": "biorxiv",
-          "score": 0.3772
+          "score": 0.4295
         },
         {
           "rank": 4,
-          "title": "Knockdown of fibrillarin reveals cell- and virus- dependent restriction of henipavirus replication and enhanced antiviral immune signalling",
-          "doi": "10.64898/2026.11.02.763686",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763686v1",
+          "title": "PLATE: a global atlas of food metaplasmidomes",
+          "doi": "10.64898/2026.11.03.763617",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763617v1",
           "source": "biorxiv",
-          "score": 0.3754
+          "score": 0.4263
         },
         {
           "rank": 5,
-          "title": "Multimodal characterization of putative pan-inhibitory viral constructs in macaque monkeys",
-          "doi": "10.64898/2026.10.27.761178",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761178v1",
+          "title": "Unprecedented urban freshwater microviral survey highlights shift from sewage to river water communities",
+          "doi": "10.64898/2026.11.03.763685",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763685v1",
           "source": "biorxiv",
-          "score": 0.3699
+          "score": 0.414
         }
       ]
     }

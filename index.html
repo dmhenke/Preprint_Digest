@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 04, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 05, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,57 +124,57 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Learning inhibitor interactions from protein deep mutational scanning data and deep learning models</a></li>
-  <li><a href="#core-article-2">scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus</a></li>
-  <li><a href="#core-article-3">ExPert infers causal perturbations from cell states across biological and clinical contexts</a></li>
-  <li><a href="#core-article-4">AdaGeneBudget: Cell-Adaptive Gene-Token Allocation for Efficient Single-Cell Foundation Models</a></li>
-  <li><a href="#core-article-5">irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events</a></li>
+  <li><a href="#core-article-1">Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines</a></li>
+  <li><a href="#core-article-2">AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions</a></li>
+  <li><a href="#core-article-3">Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases</a></li>
+  <li><a href="#core-article-4">Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer&#x27;s Disease Susceptibility Loci</a></li>
+  <li><a href="#core-article-5">A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.01.763444v1">Learning inhibitor interactions from protein deep mutational scanning data and deep learning models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.01.763444">10.64898/2026.11.01.763444</a> · Score: <code>█████░░░░░</code> 0.512</p>
-<p><span class="label">Core Problem:</span> Recent advances in protein language models, geometric deep learning, and structure prediction frameworks have the potential to accelerate computational drug discovery</p>
-<p><span class="label">Proposed Solution:</span> However, it remains unclear how well these methods generalize beyond their training sets. Mutation-dependent drug responses present a challenge to these methods because there are often large effects from relatively small perturbations</p>
-<p><span class="label">Key Impact:</span> Our findings suggest that a primary limitation in improving performance on this task lies in the scarcity of mutation-conditioned protein-ligand training data rather than model architecture alone</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763968v1">Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763968">10.64898/2026.11.03.763968</a> · Score: <code>█████░░░░░</code> 0.547</p>
+<p><span class="label">Core Problem:</span> Single-cell foundation models (FMs) are proposed as general tools for cell-type annotation, in silico perturbation and gene-regulatory-network (GRN) inference</p>
+<p><span class="label">Proposed Solution:</span> To identify where they add value, we benchmarked five FMs (scGPT, Geneformer V1 and V2, Nicheformer, scFoundation), CellOracle, supervised perturbation models including STATE, and task-matched simple baselines on the same data, from K562 Perturb-seq screens and primary cells to healthy-donor and isogenic leukodystrophy brain organoids, a public organoid CRISPR screen and lung cancer biopsies. FMs were most useful when labels had to be transferred across species: from human to mouse lung, Nicheformer reached 0</p>
+<p><span class="label">Key Impact:</span> We release the benchmark, baselines, pipeline checks and the isogenic reference task as the fmaudit package, so that new models can be evaluated on the tasks where FMs already help</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1">scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.762654">10.64898/2026.10.28.762654</a> · Score: <code>█████░░░░░</code> 0.480</p>
-<p><span class="label">Core Problem:</span> \textbf{Motivation: }Single-cell Hi-C (scHi-C) technologies enable the study of three-dimensional (3D) genome organization at individual-cell resolution</p>
-<p><span class="label">Proposed Solution:</span> Many computational methods have been developed to infer hierarchical structures from scHi-C data. However, annotating chromatin subcompartments from sparse scHi-C data remains a challenge</p>
-<p><span class="label">Key Impact:</span> com/Ge-lab-pku/scSTEC}</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.03.26367106v1">AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.26367106">10.64898/2026.11.03.26367106</a> · Score: <code>█████░░░░░</code> 0.517</p>
+<p><span class="label">Core Problem:</span> ABSTRACT Background: Malignant effusions are clinically accessible yet underutilized sources of metastatic tumor cells</p>
+<p><span class="label">Proposed Solution:</span> However, abundant background immune cells complicate tumor cell isolation and molecular characterization. We integrate AI-powered single-cell imaging and morphology-guided label-free tumor cell enrichment with genomic profiling to characterize phenotypic and genomic heterogeneity in malignant effusions</p>
+<p><span class="label">Key Impact:</span> This approach expands the potential of malignant effusions for liquid biopsy applications and biomarker development and discovery</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.02.762549v1">ExPert infers causal perturbations from cell states across biological and clinical contexts</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.02.762549">10.64898/2026.11.02.762549</a> · Score: <code>█████░░░░░</code> 0.471</p>
-<p><span class="label">Core Problem:</span> Pooled single-cell CRISPR screens have driven substantial effort toward models predicting the response to a perturbation</p>
-<p><span class="label">Proposed Solution:</span> We posed the inverse question: which perturbation produced an observed cell state? Here we developed ExPert (Extracting Perturbations), which learns one prototype per perturbation in a latent space shared by 12 cellular contexts, trained on 8,964 perturbations and 19. 5 million cells, and ranks 19,895 candidate genes per query, over half absent from training</p>
-<p><span class="label">Key Impact:</span> Perturbation atlases can thus be queried in reverse, from state to likely driver</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1">Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.762080">10.64898/2026.11.03.762080</a> · Score: <code>█████░░░░░</code> 0.475</p>
+<p><span class="label">Core Problem:</span> Steady-state molecular profiles incompletely capture the regulatory programs through which genetic variation influences complex disease, particularly programs that emerge only when cells are perturbed</p>
+<p><span class="label">Proposed Solution:</span> Here, we introduce Perturbscape, a computational framework that learns multiscale gene programs for individual perturbations in a CRISPR Perturb-seq screen using linear and nonlinear contrastive approaches alongside complementary program-learning methods, and integrates them with human genetics to prioritize disease-relevant genes, perturbations and downstream regulatory pathways. Across 15,859 perturbation-by-context profiles from 7 Perturb-seq systems and 53 complex diseases and traits (mean GWAS N=291K), perturbation-induced programs showed up to 4</p>
+<p><span class="label">Key Impact:</span> Together, these findings establish perturbation-induced gene programs as a complementary layer of disease-relevant regulatory information, revealing genetically informative pathways and context-specific regulatory relationships incompletely represented by steady-state molecular atlases</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.08.06.743174v2">AdaGeneBudget: Cell-Adaptive Gene-Token Allocation for Efficient Single-Cell Foundation Models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.06.743174">10.64898/2026.08.06.743174</a> · Score: <code>█████░░░░░</code> 0.463</p>
-<p><span class="label">Core Problem:</span> Single-cell foundation models (scFMs) represent each cell using sequences of gene-associated tokens, making embedding extraction increasingly costly as the number of cells and expressed genes grows</p>
-<p><span class="label">Proposed Solution:</span> Existing input policies typically rely on fixed input budgets, with retained genes determined by random subsampling, model-native ranking, or a dataset-level highly variable gene (HVG) panel. However, they do not jointly determine, for each cell, which genes to retain and how many tokens to allocate</p>
-<p><span class="label">Key Impact:</span> They also suggest that cell-adaptive input allocation may be a useful design principle for future models operating under finite token budgets</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.11.04.26366951v1">Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer&#x27;s Disease Susceptibility Loci</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.26366951">10.64898/2026.11.04.26366951</a> · Score: <code>█████░░░░░</code> 0.473</p>
+<p><span class="label">Core Problem:</span> Background: The landmark genome-wide association meta-analysis of Alzheimer&#x27;s disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann et al</p>
+<p><span class="label">Proposed Solution:</span> , Nature, 2026) expanded the known susceptibility landscape to 127 independent genomic risk loci (160 association signals) and established an autosomal common-variant SNP heritability of h2_SNP = 16. 0% on the liability scale</p>
+<p><span class="label">Key Impact:</span> If prospectively validated in genotype-stratified clinical cohorts, these empirical summary-statistics findings suggest that therapeutic efficacy in sporadic AD may depend on matching pathway-selective drugs to a patient&#x27;s individual Functional Pathway Burden Score rather than administering uniform monotherapies to genetically unstratified populations</p>
+<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.01.763453v1">irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.01.763453">10.64898/2026.11.01.763453</a> · Score: <code>█████░░░░░</code> 0.450</p>
-<p><span class="label">Core Problem:</span> Immune-related adverse events (irAEs) are major complications of immune checkpoint inhibitor (ICI) therapy and remain difficult to predict prior to treatment initiation</p>
-<p><span class="label">Proposed Solution:</span> Single-cell RNA sequencing (scRNA-seq) provides a unique opportunity to characterize immune states associated with future irAE development. However, translating single-cell measurements into accurate and biologically interpretable patient-level risk predictions remains challenging</p>
-<p><span class="label">Key Impact:</span> More broadly, irAEGIS establishes a general strategy for interpretable phenotype prediction and biological discovery from single-cell transcriptomic data</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.30.763199v1">A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.30.763199">10.64898/2026.10.30.763199</a> · Score: <code>█████░░░░░</code> 0.469</p>
+<p><span class="label">Core Problem:</span> Genome-wide association and other genetic studies have identified genes involved in disease pathogenesis, and their encoded proteins have provided therapeutic targets</p>
+<p><span class="label">Proposed Solution:</span> However, little is known about which cells are the functional home of these disease-associated genes and proteins. Single-cell technologies are enabling high-resolution profiling of cell phenotypes and revealing cellular contexts of disease, yet much of the resulting knowledge remains embedded in individual datasets and scientific literature</p>
+<p><span class="label">Key Impact:</span> Finally, topological analyses generate insights into cellular contributions to disease pathogenesis, cellular contexts for therapeutic intervention, and drug-repurposing hypotheses</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
@@ -182,6 +182,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.08.06.743174">AdaGeneBudget: Cell-Adaptive Gene-Token Allocation for Efficient Single-Cell Foundation Models</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.10.28.762654">scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.01.763444">Learning inhibitor interactions from protein deep mutational scanning data and deep learning models</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.01.763453">irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.02.762549">ExPert infers causal perturbations from cell states across biological and clinical contexts</a><span class="history-date">Nov 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.01.16.26344104">Integrative Multi-Omics Analysis of Molecular Associations and Biological Pathways Underlying Neurodevelopmental Conditions in a Twin Cohort</a><span class="history-date">Nov 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.24.761590">scRM: A single-cell foundation model trained on scRNA-seq reads</a><span class="history-date">Nov 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.29.762215">Engineering and characterisation of AAVS1 FRT cell lines for inducible and dose-dependent gene expression</a><span class="history-date">Nov 03, 2026</span></li>
@@ -899,64 +904,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">GENOME ASSEMBLIES FOR 28 PHAEOSPHAERIACEAE ISOLATES FROM CANADA</a></li>
-  <li><a href="#virology-article-2">Comparative cryo-EM structures of CGMMV and ToMMV reveal divergent coat protein packing and electrostatics indicating Tobamovirus host specificity</a></li>
-  <li><a href="#virology-article-3">NPlasmid-seq: Cas9-encoded terminal signatures enable molecule-level nanopore quality control of vector and IVT-template plasmids</a></li>
-  <li><a href="#virology-article-4">Knockdown of fibrillarin reveals cell- and virus- dependent restriction of henipavirus replication and enhanced antiviral immune signalling</a></li>
-  <li><a href="#virology-article-5">Multimodal characterization of putative pan-inhibitory viral constructs in macaque monkeys</a></li>
+  <li><a href="#virology-article-1">MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences</a></li>
+  <li><a href="#virology-article-2">Pandemic-Driven Shifts in RSV Diversity, Evolution, and Global Spread</a></li>
+  <li><a href="#virology-article-3">COSMOS: integrated vector-pathogen metagenomics for mosquito-borne disease</a></li>
+  <li><a href="#virology-article-4">PLATE: a global atlas of food metaplasmidomes</a></li>
+  <li><a href="#virology-article-5">Unprecedented urban freshwater microviral survey highlights shift from sewage to river water communities</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.02.763635v1">GENOME ASSEMBLIES FOR 28 PHAEOSPHAERIACEAE ISOLATES FROM CANADA</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.02.763635">10.64898/2026.11.02.763635</a> · Score: <code>████░░░░░░</code> 0.431</p>
-<p><span class="label">Core Problem:</span> Glume blotch and Septoria Tritici Blotch (STB) are destructive crop diseases caused by fungal pathogens formerly classified under the genus Septoria</p>
-<p><span class="label">Proposed Solution:</span> Recent taxonomical revisions have led to the reclassification and renaming of these fungi, some of which are now under the genus Parastagonospora, family Phaeosphaeriaceae, order Pleosporales, and class Dothideomycetes. In this study, we performed whole genome sequencing and assembly for 28 Phaeosphaeriaceae isolates from Canada</p>
-<p><span class="label">Key Impact:</span> from Canada and the genomes add to our foundational knowledge of these plant pathogens and efforts to better understand their diversity</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763945v1">MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763945">10.64898/2026.11.03.763945</a> · Score: <code>████░░░░░░</code> 0.449</p>
+<p><span class="label">Core Problem:</span> Accurate and reproducible metagenomic analysis is essential for effective infectious disease surveillance</p>
+<p><span class="label">Proposed Solution:</span> Targeted diagnostics such as culturing, antigen assays, and multiplex PCR panels identify only predefined organisms and can fail to identify atypical or novel infections. Shotgun metagenomics offers hypothesis-free detection, but adoption is limited by workflow complexity, dependence on mutable reference databases, and high computational cost</p>
+<p><span class="label">Key Impact:</span> MicrobeRT demonstrates the feasibility of three clinically relevant multi-label analyses, offering a practical path to scalable, reproducible metagenomic diagnostics and enabling broader deployment of AI/ML-enhanced infectious disease testing</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.02.763805v1">Comparative cryo-EM structures of CGMMV and ToMMV reveal divergent coat protein packing and electrostatics indicating Tobamovirus host specificity</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.02.763805">10.64898/2026.11.02.763805</a> · Score: <code>████░░░░░░</code> 0.425</p>
-<p><span class="label">Core Problem:</span> Tobamoviruses are a group of economically important plant viruses exhibiting extreme stability and persistence</p>
-<p><span class="label">Proposed Solution:</span> Despite high morphological similarity, they show extensive host-family specificity, cause a range of symptoms, and cause significant global yield loss in fruit and vegetable plants. Composed of a rod-shaped helical assembly of identical coat proteins encasing a single-stranded RNA, Tobamoviruses have long served as fundamental models for understanding helical assemblies</p>
-<p><span class="label">Key Impact:</span> These findings reveal how subtle electrostatic tuning and divergent packing strategies drive viral stability and host adaptation within a strictly conserved quaternary scaffold</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.02.26367099v1">Pandemic-Driven Shifts in RSV Diversity, Evolution, and Global Spread</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.02.26367099">10.64898/2026.11.02.26367099</a> · Score: <code>████░░░░░░</code> 0.436</p>
+<p><span class="label">Core Problem:</span> The COVID-19 pandemic dramatically disrupted the seasonal circulation of RSV, with subsequent heterogeneous global resurgence</p>
+<p><span class="label">Proposed Solution:</span> We aimed to characterize how pandemic-era disruptions restructured global RSV transmission dynamics, evolutionary patterns, and drivers of reemergence. We show that RSV-A and RSV-B genetic diversity underwent profound pandemic-associated suppression followed by heterogeneous resurgence</p>
+<p><span class="label">Key Impact:</span> These findings underscore the need for robust genomic surveillance to track the global circulation of lineages, and to monitor effectiveness of pharmaceutical interventions given the emergence of new genotypes</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.02.763549v1">NPlasmid-seq: Cas9-encoded terminal signatures enable molecule-level nanopore quality control of vector and IVT-template plasmids</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.02.763549">10.64898/2026.11.02.763549</a> · Score: <code>████░░░░░░</code> 0.377</p>
-<p><span class="label">Core Problem:</span> Consensus-based plasmid quality control can overlook structural heterogeneity within a preparation</p>
-<p><span class="label">Proposed Solution:</span> We developed NPlasmid-seq, a Cas9-guided nanopore workflow that encodes sample identity through paired terminal signatures generated at predefined backbone positions, without sample-specific oligonucleotide barcodes. We cleavage-validated 24 sgRNAs</p>
-<p><span class="label">Key Impact:</span> NPlasmid-seq therefore complements consensus validation by revealing sequence and structural heterogeneity within a preparation and by identifying a culture condition associated with a lower multimeric-read fraction</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763828v1">COSMOS: integrated vector-pathogen metagenomics for mosquito-borne disease</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763828">10.64898/2026.11.03.763828</a> · Score: <code>████░░░░░░</code> 0.430</p>
+<p><span class="label">Core Problem:</span> By 2050, almost half of the global population will be at risk of mosquito-borne disease</p>
+<p><span class="label">Proposed Solution:</span> Effective response requires monitoring both pathogen transmission and vector abundance, yet these are typically assessed using separate assays with limited taxonomic breadth. Here we present COSMOS (COmprehensive Sequencing for MOSquito-borne disease), a targeted metagenomics workflow designed to reconstruct pathogen genomes and mosquito community composition directly from mixed field-collected samples</p>
+<p><span class="label">Key Impact:</span> Integrated vector-pathogen metagenomics provides ecological and evolutionary context for arbovirus activity within a single scalable workflow for surveillance and outbreak response</p>
+<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.02.763686v1">Knockdown of fibrillarin reveals cell- and virus- dependent restriction of henipavirus replication and enhanced antiviral immune signalling</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.02.763686">10.64898/2026.11.02.763686</a> · Score: <code>████░░░░░░</code> 0.375</p>
-<p><span class="label">Core Problem:</span> The henipavirus genus includes several highly pathogenic zoonotic viruses that lack medical countermeasures</p>
-<p><span class="label">Proposed Solution:</span> The 2-O-methyltransferase fibrillarin (FBL) has been identified by genome-wide functional genomics studies as a henipavirus pro-viral factor. While FBL is a potential target for host-directed antiviral therapeutics, its impact on henipavirus replication in cell types relevant to henipavirus disease has not been explored</p>
-<p><span class="label">Key Impact:</span> Together, these findings demonstrate a virus- and cell-type dependent impact of FBL on henipavirus replication and support a role for FBL in modulation of the antiviral innate immune response</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763617v1">PLATE: a global atlas of food metaplasmidomes</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763617">10.64898/2026.11.03.763617</a> · Score: <code>████░░░░░░</code> 0.426</p>
+<p><span class="label">Core Problem:</span> Plasmids play a central role in the acquisition and spread of genes underlying important traits in food-associated microorganisms</p>
+<p><span class="label">Proposed Solution:</span> Although shotgun metagenomics has greatly expanded opportunities to study food microbiomes, their plasmid diversity remains largely uncharacterized. Here, we present the Plasmid Atlas of Food Ecosystems (PLATE), a curated global resource of food metaplasmidomes</p>
+<p><span class="label">Key Impact:</span> By organizing plasmid-associated sequence diversity and functional potential across food ecosystems, PLATE provides a foundation for analyses of food metaplasmidomes</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.27.761178v1">Multimodal characterization of putative pan-inhibitory viral constructs in macaque monkeys</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.27.761178">10.64898/2026.10.27.761178</a> · Score: <code>████░░░░░░</code> 0.370</p>
-<p><span class="label">Core Problem:</span> Transgenic approaches and validated viral vector toolboxes have advanced our understanding of how inhibitory neurons shape cognition and motor control in mice and other rodents</p>
-<p><span class="label">Proposed Solution:</span> However, such advances have been elusive in non-human primates (NHPs). While many studies demonstrate expression of reporter proteins, few studies have provided clear quantitative evidence of whether these viral constructs can be reliably used for assessment of in vivo and in vitro function in primates, which, in turn, has hindered widespread adoption by NHP researchers</p>
-<p><span class="label">Key Impact:</span> Collectively, the results provide rigorous functional characterization, and quantitative guidance for NHP researchers seeking to deploy GABAergic cell-type-specific tools in their experiments</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763685v1">Unprecedented urban freshwater microviral survey highlights shift from sewage to river water communities</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763685">10.64898/2026.11.03.763685</a> · Score: <code>████░░░░░░</code> 0.414</p>
+<p><span class="label">Core Problem:</span> Microviruses are abundant yet still poorly resolved components of virosphere, particularly across urban freshwater continua</p>
+<p><span class="label">Proposed Solution:</span> Here, we investigated complete microvirus genomes recovered from sewage water (SW), treated wastewater (TW), and river water (RW) along an urban SW TW RW continuum, providing an extensive genomic dataset of 18,449 complete genomes grouped into 825 genera. This catalog enabled a high-resolution assessment of microvirus diversity, taxonomy, and ecological distribution across anthropized aquatic compartments</p>
+<p><span class="label">Key Impact:</span> Finally, the pronounced and reproducible shifts observed across the continuum suggest that selected microvirus groups may serve as promising bioindicators of anthropogenic influence in freshwater systems</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.27.761178">Multimodal characterization of putative pan-inhibitory viral constructs in macaque monkeys</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.02.763549">NPlasmid-seq: Cas9-encoded terminal signatures enable molecule-level nanopore quality control of vector and IVT-template plasmids</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.02.763635">GENOME ASSEMBLIES FOR 28 PHAEOSPHAERIACEAE ISOLATES FROM CANADA</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.02.763686">Knockdown of fibrillarin reveals cell- and virus- dependent restriction of henipavirus replication and enhanced antiviral immune signalling</a><span class="history-date">Nov 04, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.02.763805">Comparative cryo-EM structures of CGMMV and ToMMV reveal divergent coat protein packing and electrostatics indicating Tobamovirus host specificity</a><span class="history-date">Nov 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.15.26347859">Who infected the reported cases? Evidence from 678,482 COVID-19 cases with identified infector collected in routine surveillance in the Netherlands, 2020-2022.</a><span class="history-date">Nov 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.09.12.750390">A rational design strategy and validation for protease-resistant fusion-inhibitor antiviral peptides</a><span class="history-date">Nov 03, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.01.26367012">Serotype-structured force of infection for optimizing dengue vaccine trial design</a><span class="history-date">Nov 03, 2026</span></li>
@@ -1262,7 +1272,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-04T10:02:58 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-05T10:03:09 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
