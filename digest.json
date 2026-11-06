@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-05T10:03:10.023293+00:00",
+  "generated_utc": "2026-11-06T10:02:34.421800+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines",
-          "doi": "10.64898/2026.11.03.763968",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v1",
+          "title": "RNA-X: Modeling RNA interactions to design binder RNA and simultaneously target multiple molecules of different types",
+          "doi": "10.1101/2025.11.24.690191",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690191v2",
           "source": "biorxiv",
-          "score": 0.5468
+          "score": 0.503
         },
         {
           "rank": 2,
-          "title": "AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions",
-          "doi": "10.64898/2026.11.03.26367106",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.03.26367106v1",
+          "title": "Cross-ancestry proteome-wide Mendelian randomization of plasma proteins and breast cancer susceptibility",
+          "doi": "10.64898/2026.05.04.26352055",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.05.04.26352055v2",
           "source": "medrxiv",
-          "score": 0.5165
+          "score": 0.4658
         },
         {
           "rank": 3,
-          "title": "Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases",
-          "doi": "10.64898/2026.11.03.762080",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1",
+          "title": "Multi-objective domain adaptation for pan-cancer transfer of pharmacogenomic drug response to patient tumours",
+          "doi": "10.64898/2026.11.04.764164",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764164v1",
           "source": "biorxiv",
-          "score": 0.4746
+          "score": 0.4644
         },
         {
           "rank": 4,
-          "title": "Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci",
-          "doi": "10.64898/2026.11.04.26366951",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26366951v1",
-          "source": "medrxiv",
-          "score": 0.4732
+          "title": "HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in Mycobacterium tuberculosis complex",
+          "doi": "10.64898/2026.11.04.764218",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764218v1",
+          "source": "biorxiv",
+          "score": 0.4641
         },
         {
           "rank": 5,
-          "title": "A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs",
-          "doi": "10.64898/2026.10.30.763199",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763199v1",
+          "title": "Mapping the regulatory wiring of endothelial cell differentiation reveals a critical role for Hippo mechanosignaling",
+          "doi": "10.64898/2026.11.04.763740",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763740v1",
           "source": "biorxiv",
-          "score": 0.4693
+          "score": 0.4565
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences",
-          "doi": "10.64898/2026.11.03.763945",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763945v1",
+          "title": "NanoPAMDA enables rapid PAM characterization of metagenome-derived Cas9 effectors",
+          "doi": "10.64898/2026.11.04.764188",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764188v1",
           "source": "biorxiv",
-          "score": 0.4487
+          "score": 0.4506
         },
         {
           "rank": 2,
-          "title": "Pandemic-Driven Shifts in RSV Diversity, Evolution, and Global Spread",
-          "doi": "10.64898/2026.11.02.26367099",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.02.26367099v1",
-          "source": "medrxiv",
-          "score": 0.4357
+          "title": "Cytomegalovirus Infection in Human Cortical Organoids Induces Unique Developmental and Viral Substates",
+          "doi": "10.64898/2026.11.04.764258",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764258v1",
+          "source": "biorxiv",
+          "score": 0.3974
         },
         {
           "rank": 3,
-          "title": "COSMOS: integrated vector-pathogen metagenomics for mosquito-borne disease",
-          "doi": "10.64898/2026.11.03.763828",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763828v1",
-          "source": "biorxiv",
-          "score": 0.4295
+          "title": "Wastewater pathogen composition in Atlanta, GA prior to and during the 2026 FIFA World Cup",
+          "doi": "10.64898/2026.11.03.26366867",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.03.26366867v1",
+          "source": "medrxiv",
+          "score": 0.3931
         },
         {
           "rank": 4,
-          "title": "PLATE: a global atlas of food metaplasmidomes",
-          "doi": "10.64898/2026.11.03.763617",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763617v1",
+          "title": "Long-read shotgun metagenomics identifies distinct urogenital microbial community states associated with functional potential and urinary tract infection during pregnancy",
+          "doi": "10.64898/2026.11.04.762207",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.762207v1",
           "source": "biorxiv",
-          "score": 0.4263
+          "score": 0.3768
         },
         {
           "rank": 5,
-          "title": "Unprecedented urban freshwater microviral survey highlights shift from sewage to river water communities",
-          "doi": "10.64898/2026.11.03.763685",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763685v1",
-          "source": "biorxiv",
-          "score": 0.414
+          "title": "Quantifying the contribution of policy measures to COVID-19 dynamics across 126 countries",
+          "doi": "10.64898/2026.11.05.26367213",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367213v1",
+          "source": "medrxiv",
+          "score": 0.3541
         }
       ]
     }

@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 05, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 06, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines</a></li>
-  <li><a href="#core-article-2">AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions</a></li>
-  <li><a href="#core-article-3">Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases</a></li>
-  <li><a href="#core-article-4">Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer&#x27;s Disease Susceptibility Loci</a></li>
-  <li><a href="#core-article-5">A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs</a></li>
+  <li><a href="#core-article-1">RNA-X: Modeling RNA interactions to design binder RNA and simultaneously target multiple molecules of different types</a></li>
+  <li><a href="#core-article-2">Cross-ancestry proteome-wide Mendelian randomization of plasma proteins and breast cancer susceptibility</a></li>
+  <li><a href="#core-article-3">Multi-objective domain adaptation for pan-cancer transfer of pharmacogenomic drug response to patient tumours</a></li>
+  <li><a href="#core-article-4">HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in Mycobacterium tuberculosis complex</a></li>
+  <li><a href="#core-article-5">Mapping the regulatory wiring of endothelial cell differentiation reveals a critical role for Hippo mechanosignaling</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763968v1">Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763968">10.64898/2026.11.03.763968</a> · Score: <code>█████░░░░░</code> 0.547</p>
-<p><span class="label">Core Problem:</span> Single-cell foundation models (FMs) are proposed as general tools for cell-type annotation, in silico perturbation and gene-regulatory-network (GRN) inference</p>
-<p><span class="label">Proposed Solution:</span> To identify where they add value, we benchmarked five FMs (scGPT, Geneformer V1 and V2, Nicheformer, scFoundation), CellOracle, supervised perturbation models including STATE, and task-matched simple baselines on the same data, from K562 Perturb-seq screens and primary cells to healthy-donor and isogenic leukodystrophy brain organoids, a public organoid CRISPR screen and lung cancer biopsies. FMs were most useful when labels had to be transferred across species: from human to mouse lung, Nicheformer reached 0</p>
-<p><span class="label">Key Impact:</span> We release the benchmark, baselines, pipeline checks and the isogenic reference task as the fmaudit package, so that new models can be evaluated on the tasks where FMs already help</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.1101/2025.11.24.690191v2">RNA-X: Modeling RNA interactions to design binder RNA and simultaneously target multiple molecules of different types</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.11.24.690191">10.1101/2025.11.24.690191</a> · Score: <code>█████░░░░░</code> 0.503</p>
+<p><span class="label">Core Problem:</span> RNA interactions with proteins, other RNA molecules, and DNA play essential roles in numerous cellular processes and underpin a wide range of therapeutic mechanisms</p>
+<p><span class="label">Proposed Solution:</span> Consequently, modeling these interactions is critical for understanding biological systems and designing novel RNA-based therapeutics. However, designing RNA sequences that selectively and strongly bind to a specific target remains a major challenge due to the vast sequence space and the current limitations of experimental and computational methods</p>
+<p><span class="label">Key Impact:</span> The code and pretrained model are publicly available on GitHub</p>
+<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.03.26367106v1">AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.26367106">10.64898/2026.11.03.26367106</a> · Score: <code>█████░░░░░</code> 0.517</p>
-<p><span class="label">Core Problem:</span> ABSTRACT Background: Malignant effusions are clinically accessible yet underutilized sources of metastatic tumor cells</p>
-<p><span class="label">Proposed Solution:</span> However, abundant background immune cells complicate tumor cell isolation and molecular characterization. We integrate AI-powered single-cell imaging and morphology-guided label-free tumor cell enrichment with genomic profiling to characterize phenotypic and genomic heterogeneity in malignant effusions</p>
-<p><span class="label">Key Impact:</span> This approach expands the potential of malignant effusions for liquid biopsy applications and biomarker development and discovery</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1">Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.762080">10.64898/2026.11.03.762080</a> · Score: <code>█████░░░░░</code> 0.475</p>
-<p><span class="label">Core Problem:</span> Steady-state molecular profiles incompletely capture the regulatory programs through which genetic variation influences complex disease, particularly programs that emerge only when cells are perturbed</p>
-<p><span class="label">Proposed Solution:</span> Here, we introduce Perturbscape, a computational framework that learns multiscale gene programs for individual perturbations in a CRISPR Perturb-seq screen using linear and nonlinear contrastive approaches alongside complementary program-learning methods, and integrates them with human genetics to prioritize disease-relevant genes, perturbations and downstream regulatory pathways. Across 15,859 perturbation-by-context profiles from 7 Perturb-seq systems and 53 complex diseases and traits (mean GWAS N=291K), perturbation-induced programs showed up to 4</p>
-<p><span class="label">Key Impact:</span> Together, these findings establish perturbation-induced gene programs as a complementary layer of disease-relevant regulatory information, revealing genetically informative pathways and context-specific regulatory relationships incompletely represented by steady-state molecular atlases</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.11.04.26366951v1">Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer&#x27;s Disease Susceptibility Loci</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.26366951">10.64898/2026.11.04.26366951</a> · Score: <code>█████░░░░░</code> 0.473</p>
-<p><span class="label">Core Problem:</span> Background: The landmark genome-wide association meta-analysis of Alzheimer&#x27;s disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann et al</p>
-<p><span class="label">Proposed Solution:</span> , Nature, 2026) expanded the known susceptibility landscape to 127 independent genomic risk loci (160 association signals) and established an autosomal common-variant SNP heritability of h2_SNP = 16. 0% on the liability scale</p>
-<p><span class="label">Key Impact:</span> If prospectively validated in genotype-stratified clinical cohorts, these empirical summary-statistics findings suggest that therapeutic efficacy in sporadic AD may depend on matching pathway-selective drugs to a patient&#x27;s individual Functional Pathway Burden Score rather than administering uniform monotherapies to genetically unstratified populations</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.05.04.26352055v2">Cross-ancestry proteome-wide Mendelian randomization of plasma proteins and breast cancer susceptibility</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.05.04.26352055">10.64898/2026.05.04.26352055</a> · Score: <code>█████░░░░░</code> 0.466</p>
+<p><span class="label">Core Problem:</span> Background: The plasma proteome may help connect inherited breast cancer susceptibility to biologically interpretable and potentially actionable pathways, but proteome-wide evidence across ancestries remains limited</p>
+<p><span class="label">Proposed Solution:</span> Methods: We conducted proteome-wide Mendelian randomization (MR) analyses of breast cancer risk using cis-protein quantitative trait loci for 1,962 distinct plasma proteins from 34,557 European-ancestry participants in the UK Biobank Pharma Proteomics Project. Breast cancer genome-wide association studies included 156,901 cases and 204,634 controls of European, East Asian, and African ancestries</p>
+<p><span class="label">Key Impact:</span> Conclusions: These findings prioritize circulating protein candidates for mechanistic, prevention-oriented, and translational follow-up in breast cancer, while underscoring the need for larger ancestrally diverse proteomic resources to support equitable target and biomarker discovery</p>
 <p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
 </div>
 
+<div class="article" id="core-article-3">
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.764164v1">Multi-objective domain adaptation for pan-cancer transfer of pharmacogenomic drug response to patient tumours</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.764164">10.64898/2026.11.04.764164</a> · Score: <code>█████░░░░░</code> 0.464</p>
+<p><span class="label">Core Problem:</span> Large-scale pharmacogenomic screens provide rich drug-sensitivity measurements in cancer cell lines, but transferring these measurements to patient tumours remains limited by biological heterogeneity and cross-domain distribution shift</p>
+<p><span class="label">Proposed Solution:</span> Existing machine learning approaches, including adversarial autoencoder and domain adaptation, address this gap by learning shared latent representations between preclinical models and patient samples. However, alignment without explicit biological constraints can produce unreliable representations when cancer lineage structure and clinically relevant patient heterogeneity are not preserved</p>
+<p><span class="label">Key Impact:</span> Together, these complementary analyses provide supporting evidence for the clinical relevance and biological consistency of MODAE+ predictions, suggesting their potential to identify drug-sensitive tumour subgroups and generate hypotheses about mechanisms of drug resistance</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="core-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.764218v1">HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in Mycobacterium tuberculosis complex</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.764218">10.64898/2026.11.04.764218</a> · Score: <code>█████░░░░░</code> 0.464</p>
+<p><span class="label">Core Problem:</span> Tuberculosis remains one of the leading infectious causes of death globally, making rapid, accurate, and affordable strain typing essential for effective outbreak tracking and epidemiological surveillance</p>
+<p><span class="label">Proposed Solution:</span> To address the limitations and high costs of current typing methods, we developed a novel one-tube, dual-barcode PCR method for preparing targeted next-generation sequencing (NGS) amplicon libraries for spoligotyping of Mycobacterium tuberculosis complex (MTBC), which we termed HiSpoT (High-throughput Spoligotyping by Targeted next generation sequencing). The assay targets 43 conserved spacer oligonucleotides in the CRISPR direct repeat (DR) region and is presented here together with the previously unpublished, difficult-to-design dual-barcode primer set needed to multiplex 96 samples in a single tube</p>
+<p><span class="label">Key Impact:</span> We also present two open-source Google Colab Python tools, Spoligotyping_MTBC_gcl and its condensed HiSpoT_Spoligotyping_v8_ready VIBE variant, freely available on GitHub, which automatically process Illumina paired-end fastq output from HiSpoT or WGS and report binary and octal spoligotypes, spoligo international types (SIT), and MTBC family assignments with accompanying quality-control reports</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+</div>
+
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.30.763199v1">A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.30.763199">10.64898/2026.10.30.763199</a> · Score: <code>█████░░░░░</code> 0.469</p>
-<p><span class="label">Core Problem:</span> Genome-wide association and other genetic studies have identified genes involved in disease pathogenesis, and their encoded proteins have provided therapeutic targets</p>
-<p><span class="label">Proposed Solution:</span> However, little is known about which cells are the functional home of these disease-associated genes and proteins. Single-cell technologies are enabling high-resolution profiling of cell phenotypes and revealing cellular contexts of disease, yet much of the resulting knowledge remains embedded in individual datasets and scientific literature</p>
-<p><span class="label">Key Impact:</span> Finally, topological analyses generate insights into cellular contributions to disease pathogenesis, cellular contexts for therapeutic intervention, and drug-repurposing hypotheses</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.763740v1">Mapping the regulatory wiring of endothelial cell differentiation reveals a critical role for Hippo mechanosignaling</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.763740">10.64898/2026.11.04.763740</a> · Score: <code>█████░░░░░</code> 0.457</p>
+<p><span class="label">Core Problem:</span> At each step of development, stem cells encounter a branching decision to differentiate into one type of cell or another</p>
+<p><span class="label">Proposed Solution:</span> This decision is executed through the action of competing gene programs that specify different cellular identities. Consequently, creating a comprehensive map of the gene programs that drive each branching step of human cell differentiation remains a long-sought goal of developmental and stem cell biology</p>
+<p><span class="label">Key Impact:</span> Our framework thus identifies novel regulators of endothelial cell differentiation, improves stem-cell differentiation protocols via manipulation of mechanosignaling, and provides a generalizable platform for mapping the regulatory wiring of human development</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.10.30.763199">A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.03.26367106">AI-powered single-cell imaging and morphology-guided label-free enrichment reveal tumor heterogeneity, genomic relatedness, and divergence in malignant effusions</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.03.762080">Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.03.763968">Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.04.26366951">Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer&#x27;s Disease Susceptibility Loci</a><span class="history-date">Nov 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.06.743174">AdaGeneBudget: Cell-Adaptive Gene-Token Allocation for Efficient Single-Cell Foundation Models</a><span class="history-date">Nov 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.28.762654">scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus</a><span class="history-date">Nov 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.01.763444">Learning inhibitor interactions from protein deep mutational scanning data and deep learning models</a><span class="history-date">Nov 04, 2026</span></li>
@@ -904,64 +909,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences</a></li>
-  <li><a href="#virology-article-2">Pandemic-Driven Shifts in RSV Diversity, Evolution, and Global Spread</a></li>
-  <li><a href="#virology-article-3">COSMOS: integrated vector-pathogen metagenomics for mosquito-borne disease</a></li>
-  <li><a href="#virology-article-4">PLATE: a global atlas of food metaplasmidomes</a></li>
-  <li><a href="#virology-article-5">Unprecedented urban freshwater microviral survey highlights shift from sewage to river water communities</a></li>
+  <li><a href="#virology-article-1">NanoPAMDA enables rapid PAM characterization of metagenome-derived Cas9 effectors</a></li>
+  <li><a href="#virology-article-2">Cytomegalovirus Infection in Human Cortical Organoids Induces Unique Developmental and Viral Substates</a></li>
+  <li><a href="#virology-article-3">Wastewater pathogen composition in Atlanta, GA prior to and during the 2026 FIFA World Cup</a></li>
+  <li><a href="#virology-article-4">Long-read shotgun metagenomics identifies distinct urogenital microbial community states associated with functional potential and urinary tract infection during pregnancy</a></li>
+  <li><a href="#virology-article-5">Quantifying the contribution of policy measures to COVID-19 dynamics across 126 countries</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763945v1">MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763945">10.64898/2026.11.03.763945</a> · Score: <code>████░░░░░░</code> 0.449</p>
-<p><span class="label">Core Problem:</span> Accurate and reproducible metagenomic analysis is essential for effective infectious disease surveillance</p>
-<p><span class="label">Proposed Solution:</span> Targeted diagnostics such as culturing, antigen assays, and multiplex PCR panels identify only predefined organisms and can fail to identify atypical or novel infections. Shotgun metagenomics offers hypothesis-free detection, but adoption is limited by workflow complexity, dependence on mutable reference databases, and high computational cost</p>
-<p><span class="label">Key Impact:</span> MicrobeRT demonstrates the feasibility of three clinically relevant multi-label analyses, offering a practical path to scalable, reproducible metagenomic diagnostics and enabling broader deployment of AI/ML-enhanced infectious disease testing</p>
-<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.02.26367099v1">Pandemic-Driven Shifts in RSV Diversity, Evolution, and Global Spread</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.02.26367099">10.64898/2026.11.02.26367099</a> · Score: <code>████░░░░░░</code> 0.436</p>
-<p><span class="label">Core Problem:</span> The COVID-19 pandemic dramatically disrupted the seasonal circulation of RSV, with subsequent heterogeneous global resurgence</p>
-<p><span class="label">Proposed Solution:</span> We aimed to characterize how pandemic-era disruptions restructured global RSV transmission dynamics, evolutionary patterns, and drivers of reemergence. We show that RSV-A and RSV-B genetic diversity underwent profound pandemic-associated suppression followed by heterogeneous resurgence</p>
-<p><span class="label">Key Impact:</span> These findings underscore the need for robust genomic surveillance to track the global circulation of lineages, and to monitor effectiveness of pharmaceutical interventions given the emergence of new genotypes</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763828v1">COSMOS: integrated vector-pathogen metagenomics for mosquito-borne disease</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763828">10.64898/2026.11.03.763828</a> · Score: <code>████░░░░░░</code> 0.430</p>
-<p><span class="label">Core Problem:</span> By 2050, almost half of the global population will be at risk of mosquito-borne disease</p>
-<p><span class="label">Proposed Solution:</span> Effective response requires monitoring both pathogen transmission and vector abundance, yet these are typically assessed using separate assays with limited taxonomic breadth. Here we present COSMOS (COmprehensive Sequencing for MOSquito-borne disease), a targeted metagenomics workflow designed to reconstruct pathogen genomes and mosquito community composition directly from mixed field-collected samples</p>
-<p><span class="label">Key Impact:</span> Integrated vector-pathogen metagenomics provides ecological and evolutionary context for arbovirus activity within a single scalable workflow for surveillance and outbreak response</p>
-<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763617v1">PLATE: a global atlas of food metaplasmidomes</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763617">10.64898/2026.11.03.763617</a> · Score: <code>████░░░░░░</code> 0.426</p>
-<p><span class="label">Core Problem:</span> Plasmids play a central role in the acquisition and spread of genes underlying important traits in food-associated microorganisms</p>
-<p><span class="label">Proposed Solution:</span> Although shotgun metagenomics has greatly expanded opportunities to study food microbiomes, their plasmid diversity remains largely uncharacterized. Here, we present the Plasmid Atlas of Food Ecosystems (PLATE), a curated global resource of food metaplasmidomes</p>
-<p><span class="label">Key Impact:</span> By organizing plasmid-associated sequence diversity and functional potential across food ecosystems, PLATE provides a foundation for analyses of food metaplasmidomes</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.764188v1">NanoPAMDA enables rapid PAM characterization of metagenome-derived Cas9 effectors</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.764188">10.64898/2026.11.04.764188</a> · Score: <code>█████░░░░░</code> 0.451</p>
+<p><span class="label">Core Problem:</span> CRISPR-Cas9 orthologs remain functionally underexplored despite the rapidly growing scale of publicly available metagenomic sequencing data</p>
+<p><span class="label">Proposed Solution:</span> Here, we applied a multi-stage computational discovery pipeline to two independent sources of metagenomic sequence data, a multi-biome collection of 660,185 metagenome-assembled genomes spanning 17 public catalogs, and raw sequencing reads from human microbiome studies assembled de novo, to identify novel Cas9 orthologs. Candidates were filtered for guide RNA architectural plausibility, sequence novelty, conservation of catalytic residues, and structural integrity, yielding 14 candidates spanning both data sources for experimental characterization</p>
+<p><span class="label">Key Impact:</span> Together, these findings demonstrate a scalable, long-read sequencing-based framework for discovering and biochemically characterizing novel Cas9 orthologs from metagenomic data</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
-<div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.03.763685v1">Unprecedented urban freshwater microviral survey highlights shift from sewage to river water communities</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.763685">10.64898/2026.11.03.763685</a> · Score: <code>████░░░░░░</code> 0.414</p>
-<p><span class="label">Core Problem:</span> Microviruses are abundant yet still poorly resolved components of virosphere, particularly across urban freshwater continua</p>
-<p><span class="label">Proposed Solution:</span> Here, we investigated complete microvirus genomes recovered from sewage water (SW), treated wastewater (TW), and river water (RW) along an urban SW TW RW continuum, providing an extensive genomic dataset of 18,449 complete genomes grouped into 825 genera. This catalog enabled a high-resolution assessment of microvirus diversity, taxonomy, and ecological distribution across anthropized aquatic compartments</p>
-<p><span class="label">Key Impact:</span> Finally, the pronounced and reproducible shifts observed across the continuum suggest that selected microvirus groups may serve as promising bioindicators of anthropogenic influence in freshwater systems</p>
+<div class="article" id="virology-article-2">
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.764258v1">Cytomegalovirus Infection in Human Cortical Organoids Induces Unique Developmental and Viral Substates</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.764258">10.64898/2026.11.04.764258</a> · Score: <code>████░░░░░░</code> 0.397</p>
+<p><span class="label">Core Problem:</span> Human Cytomegalovirus (HCMV) is a ubiquitous {beta}-herpesvirus with exposure resulting in a life-long infection</p>
+<p><span class="label">Proposed Solution:</span> Severe HCMV disease can occur in conditions of insufficient immunity, and this includes congenital infection. Infection of the developing brain can cause severe birth defects including microcephaly and sensorineural hearing loss</p>
+<p><span class="label">Key Impact:</span> In summary, our studies reveal unique features of HCMV infection of cortical organoid tissues, including varying viral sub-states and tropisms, and introduced new approaches to analyze these multi-dimensional complex data sets</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-3">
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.11.03.26366867v1">Wastewater pathogen composition in Atlanta, GA prior to and during the 2026 FIFA World Cup</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.03.26366867">10.64898/2026.11.03.26366867</a> · Score: <code>████░░░░░░</code> 0.393</p>
+<p><span class="label">Core Problem:</span> Mass gatherings can have many impacts on public health, including facilitating the spread of infectious diseases</p>
+<p><span class="label">Proposed Solution:</span> Alternative surveillance modalities, such as wastewater-based surveillance (WBS), can complement traditional clinical surveillance. We utilized WBS to examine the influence of the 2026 FIFA World Cup (FWC&#x27;26) on the range of infectious pathogens in Atlanta, GA surrounding matches held in the city</p>
+<p><span class="label">Key Impact:</span> This study demonstrates the use of qualitative, multiplexed PCR assays for WBS during a mass gathering sporting event</p>
 <p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-4">
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.762207v1">Long-read shotgun metagenomics identifies distinct urogenital microbial community states associated with functional potential and urinary tract infection during pregnancy</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.762207">10.64898/2026.11.04.762207</a> · Score: <code>████░░░░░░</code> 0.377</p>
+<p><span class="label">Core Problem:</span> Urinary tract infections (UTIs) are among the most common bacterial infections during pregnancy and are associated with adverse maternal and neonatal outcomes</p>
+<p><span class="label">Proposed Solution:</span> Although previous studies used enhanced culture, 16S rRNA gene sequencing, and/or short-read shotgun metagenomic sequencing to characterize the urogenital microbiome of adult females, few have assessed the urogenital microbiome during pregnancy and thus this microbiome remains poorly understood. Here, we applied Oxford Nanopore long-read shotgun metagenomic sequencing to characterize urogenital microbial composition, functional potential, metagenome-assembled genomes (MAGs), and the urogenital virome of pregnant females</p>
+<p><span class="label">Key Impact:</span> These findings demonstrate that pregnant females possess distinct urogenital microbial community states and show that they differ not only in taxonomic composition but also in their functional potential</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+</div>
+
+<div class="article" id="virology-article-5">
+<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.11.05.26367213v1">Quantifying the contribution of policy measures to COVID-19 dynamics across 126 countries</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.26367213">10.64898/2026.11.05.26367213</a> · Score: <code>████░░░░░░</code> 0.354</p>
+<p><span class="label">Core Problem:</span> COVID-19 provides an unprecedented opportunity to evaluate the contribution of public health and social measures (PHSMs) to controlling transmission and inform responses to future emerging respiratory pathogens</p>
+<p><span class="label">Proposed Solution:</span> We analysed SARS-CoV-2 transmission across 126 countries spanning multiple epidemic waves and diverse policy environments during periods when PHSMs were the primary interventions available to influence the epidemic. By explicitly representing key epidemiological drivers of transmission and measuring reductions in residual transmission scaling after incorporating OxCGRT policy time-series data, we isolated the effect of PHSMs on transmission</p>
+<p><span class="label">Key Impact:</span> Harmonised analyses considering the effect of community mobility showed comparably strong effects in a similar subset of countries</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.02.26367099">Pandemic-Driven Shifts in RSV Diversity, Evolution, and Global Spread</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.03.763617">PLATE: a global atlas of food metaplasmidomes</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.03.763685">Unprecedented urban freshwater microviral survey highlights shift from sewage to river water communities</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.03.763828">COSMOS: integrated vector-pathogen metagenomics for mosquito-borne disease</a><span class="history-date">Nov 05, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.03.763945">MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences</a><span class="history-date">Nov 05, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.10.27.761178">Multimodal characterization of putative pan-inhibitory viral constructs in macaque monkeys</a><span class="history-date">Nov 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.02.763549">NPlasmid-seq: Cas9-encoded terminal signatures enable molecule-level nanopore quality control of vector and IVT-template plasmids</a><span class="history-date">Nov 04, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.02.763635">GENOME ASSEMBLIES FOR 28 PHAEOSPHAERIACEAE ISOLATES FROM CANADA</a><span class="history-date">Nov 04, 2026</span></li>
@@ -1272,7 +1282,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-05T10:03:09 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-06T10:02:34 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
