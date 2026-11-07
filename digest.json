@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-06T10:02:34.421800+00:00",
+  "generated_utc": "2026-11-07T11:32:09.845785+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "RNA-X: Modeling RNA interactions to design binder RNA and simultaneously target multiple molecules of different types",
-          "doi": "10.1101/2025.11.24.690191",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690191v2",
+          "title": "scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions",
+          "doi": "10.64898/2026.11.05.764599",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764599v1",
           "source": "biorxiv",
-          "score": 0.503
+          "score": 0.5592
         },
         {
           "rank": 2,
-          "title": "Cross-ancestry proteome-wide Mendelian randomization of plasma proteins and breast cancer susceptibility",
-          "doi": "10.64898/2026.05.04.26352055",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.05.04.26352055v2",
-          "source": "medrxiv",
-          "score": 0.4658
+          "title": "Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset",
+          "doi": "10.64898/2026.11.04.763508",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763508v1",
+          "source": "biorxiv",
+          "score": 0.5062
         },
         {
           "rank": 3,
-          "title": "Multi-objective domain adaptation for pan-cancer transfer of pharmacogenomic drug response to patient tumours",
-          "doi": "10.64898/2026.11.04.764164",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764164v1",
+          "title": "stem.MAP: Identification of cell-type-specific protein complexes in mammalian embryonic stem cells.",
+          "doi": "10.64898/2026.11.04.764359",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764359v1",
           "source": "biorxiv",
-          "score": 0.4644
+          "score": 0.4749
         },
         {
           "rank": 4,
-          "title": "HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in Mycobacterium tuberculosis complex",
-          "doi": "10.64898/2026.11.04.764218",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764218v1",
+          "title": "Towards a foundation model for raw nanopore signal through discrete tokenization",
+          "doi": "10.64898/2026.11.05.764536",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764536v1",
           "source": "biorxiv",
-          "score": 0.4641
+          "score": 0.4716
         },
         {
           "rank": 5,
-          "title": "Mapping the regulatory wiring of endothelial cell differentiation reveals a critical role for Hippo mechanosignaling",
-          "doi": "10.64898/2026.11.04.763740",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763740v1",
+          "title": "Zero-Shot Protein-Ligand Binding Site Prediction from Protein Sequence and SMILES",
+          "doi": "10.1101/2025.09.28.679103",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.28.679103v2",
           "source": "biorxiv",
-          "score": 0.4565
+          "score": 0.456
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "NanoPAMDA enables rapid PAM characterization of metagenome-derived Cas9 effectors",
-          "doi": "10.64898/2026.11.04.764188",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764188v1",
-          "source": "biorxiv",
-          "score": 0.4506
+          "title": "Molecular characterisation of a Klebsiella pneumoniae neonatal sepsis outbreak in a rural Gambian hospital: a retrospective genomic epidemiology investigation",
+          "doi": "10.64898/2026.03.03.26347025",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.03.03.26347025v2",
+          "source": "medrxiv",
+          "score": 0.4323
         },
         {
           "rank": 2,
-          "title": "Cytomegalovirus Infection in Human Cortical Organoids Induces Unique Developmental and Viral Substates",
-          "doi": "10.64898/2026.11.04.764258",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764258v1",
-          "source": "biorxiv",
-          "score": 0.3974
+          "title": "Genomic epidemiology reconstructs the pre-detection transmission and establishment of chikungunya virus in Guangdong, China",
+          "doi": "10.64898/2026.11.04.26367289",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26367289v1",
+          "source": "medrxiv",
+          "score": 0.4273
         },
         {
           "rank": 3,
-          "title": "Wastewater pathogen composition in Atlanta, GA prior to and during the 2026 FIFA World Cup",
-          "doi": "10.64898/2026.11.03.26366867",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.03.26366867v1",
-          "source": "medrxiv",
-          "score": 0.3931
+          "title": "Genomic analysis of the Streptococcus anginosus group; taxonomic implications, evolutionary insights and clinical considerations",
+          "doi": "10.64898/2026.11.04.764143",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764143v1",
+          "source": "biorxiv",
+          "score": 0.4242
         },
         {
           "rank": 4,
-          "title": "Long-read shotgun metagenomics identifies distinct urogenital microbial community states associated with functional potential and urinary tract infection during pregnancy",
-          "doi": "10.64898/2026.11.04.762207",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.762207v1",
+          "title": "Metatranscriptomic Profiling of Viral Diversity in Aquatic Environments with a Focus on Microalgal Viruses",
+          "doi": "10.64898/2026.11.05.764614",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764614v1",
           "source": "biorxiv",
-          "score": 0.3768
+          "score": 0.3963
         },
         {
           "rank": 5,
-          "title": "Quantifying the contribution of policy measures to COVID-19 dynamics across 126 countries",
-          "doi": "10.64898/2026.11.05.26367213",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367213v1",
-          "source": "medrxiv",
-          "score": 0.3541
+          "title": "Endothelial protein C receptor is an entry receptor for Langya virus",
+          "doi": "10.64898/2026.11.04.763901",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763901v1",
+          "source": "biorxiv",
+          "score": 0.3616
         }
       ]
     }
