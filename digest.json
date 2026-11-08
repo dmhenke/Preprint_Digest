@@ -1,48 +1,40 @@
 {
-  "generated_utc": "2026-11-07T11:32:09.845785+00:00",
+  "generated_utc": "2026-11-08T11:49:43.306711+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions",
-          "doi": "10.64898/2026.11.05.764599",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764599v1",
+          "title": "Identification of Kinome Biomarkers and Therapeutic Rescue in cGMP-Linked Retinal Degeneration",
+          "doi": "10.64898/2026.11.06.763903",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.763903v1",
           "source": "biorxiv",
-          "score": 0.5592
+          "score": 0.3664
         },
         {
           "rank": 2,
-          "title": "Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset",
-          "doi": "10.64898/2026.11.04.763508",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763508v1",
+          "title": "Fatty Acid Synthase Binds Cellular mRNAs and its Depletion Reduces Translational Efficiency",
+          "doi": "10.64898/2026.11.05.764384",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764384v1",
           "source": "biorxiv",
-          "score": 0.5062
+          "score": 0.327
         },
         {
           "rank": 3,
-          "title": "stem.MAP: Identification of cell-type-specific protein complexes in mammalian embryonic stem cells.",
-          "doi": "10.64898/2026.11.04.764359",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764359v1",
-          "source": "biorxiv",
-          "score": 0.4749
+          "title": "ShortKit-ML: an open toolkit for measuring shortcut potential in medical imaging embeddings",
+          "doi": "10.64898/2026.04.29.26352053",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.04.29.26352053v2",
+          "source": "medrxiv",
+          "score": 0.3103
         },
         {
           "rank": 4,
-          "title": "Towards a foundation model for raw nanopore signal through discrete tokenization",
-          "doi": "10.64898/2026.11.05.764536",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764536v1",
+          "title": "SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag",
+          "doi": "10.64898/2026.11.06.764689",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764689v1",
           "source": "biorxiv",
-          "score": 0.4716
-        },
-        {
-          "rank": 5,
-          "title": "Zero-Shot Protein-Ligand Binding Site Prediction from Protein Sequence and SMILES",
-          "doi": "10.1101/2025.09.28.679103",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.09.28.679103v2",
-          "source": "biorxiv",
-          "score": 0.456
+          "score": 0.2558
         }
       ]
     },
@@ -51,43 +43,11 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Molecular characterisation of a Klebsiella pneumoniae neonatal sepsis outbreak in a rural Gambian hospital: a retrospective genomic epidemiology investigation",
-          "doi": "10.64898/2026.03.03.26347025",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.03.03.26347025v2",
-          "source": "medrxiv",
-          "score": 0.4323
-        },
-        {
-          "rank": 2,
-          "title": "Genomic epidemiology reconstructs the pre-detection transmission and establishment of chikungunya virus in Guangdong, China",
-          "doi": "10.64898/2026.11.04.26367289",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26367289v1",
-          "source": "medrxiv",
-          "score": 0.4273
-        },
-        {
-          "rank": 3,
-          "title": "Genomic analysis of the Streptococcus anginosus group; taxonomic implications, evolutionary insights and clinical considerations",
-          "doi": "10.64898/2026.11.04.764143",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764143v1",
+          "title": "Identification and characterization of new P. aeruginosa phages using a surface receptor platform",
+          "doi": "10.64898/2026.11.06.764861",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764861v1",
           "source": "biorxiv",
-          "score": 0.4242
-        },
-        {
-          "rank": 4,
-          "title": "Metatranscriptomic Profiling of Viral Diversity in Aquatic Environments with a Focus on Microalgal Viruses",
-          "doi": "10.64898/2026.11.05.764614",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764614v1",
-          "source": "biorxiv",
-          "score": 0.3963
-        },
-        {
-          "rank": 5,
-          "title": "Endothelial protein C receptor is an entry receptor for Langya virus",
-          "doi": "10.64898/2026.11.04.763901",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763901v1",
-          "source": "biorxiv",
-          "score": 0.3616
+          "score": 0.3791
         }
       ]
     }

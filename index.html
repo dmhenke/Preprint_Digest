@@ -108,15 +108,15 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 07, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 08, 2026 — 5 preprints selected (Comp Bio: 4 · Virology: 1)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
 </div>
 
 <nav class="tabs" role="tablist">
-  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(4)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(1)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,57 +124,47 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions</a></li>
-  <li><a href="#core-article-2">Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset</a></li>
-  <li><a href="#core-article-3">stem.MAP: Identification of cell-type-specific protein complexes in mammalian embryonic stem cells.</a></li>
-  <li><a href="#core-article-4">Towards a foundation model for raw nanopore signal through discrete tokenization</a></li>
-  <li><a href="#core-article-5">Zero-Shot Protein-Ligand Binding Site Prediction from Protein Sequence and SMILES</a></li>
+  <li><a href="#core-article-1">Identification of Kinome Biomarkers and Therapeutic Rescue in cGMP-Linked Retinal Degeneration</a></li>
+  <li><a href="#core-article-2">Fatty Acid Synthase Binds Cellular mRNAs and its Depletion Reduces Translational Efficiency</a></li>
+  <li><a href="#core-article-3">ShortKit-ML: an open toolkit for measuring shortcut potential in medical imaging embeddings</a></li>
+  <li><a href="#core-article-4">SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&amp;Tag</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.05.764599v1">scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.764599">10.64898/2026.11.05.764599</a> · Score: <code>██████░░░░</code> 0.559</p>
-<p><span class="label">Core Problem:</span> Timecourse single-cell RNA (scRNA) datasets have become indispensable biological tools for studying and uncovering the underlying regulatory processes driving continuous cell-state transitions such as the epithelial-to-mesenchymal transition</p>
-<p><span class="label">Proposed Solution:</span> However, these highly fluid, non-linear gene program dynamics remain difficult to disentangle. While deep neural network models can effectively map complex topologies, they are biological black boxes, lacking the gene-level interpretability required by experimental practitioners</p>
-<p><span class="label">Key Impact:</span> com/nramani611/scCont)</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.06.763903v1">Identification of Kinome Biomarkers and Therapeutic Rescue in cGMP-Linked Retinal Degeneration</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.763903">10.64898/2026.11.06.763903</a> · Score: <code>████░░░░░░</code> 0.366</p>
+<p><span class="label">Core Problem:</span> Inherited retinal degenerations, such as Retinitis Pigmentosa (RP) and Leber&#x27;s congenital amaurosis (LCA), are major causes of progressive and irreversible vision loss</p>
+<p><span class="label">Proposed Solution:</span> The large number of genes associated with these disorders makes their clinical and molecular characterization difficult, while systemic biomarkers for disease progression or treatment response remain limited. These challenges were addressed by targeting cGMP-associated mechanisms shared by RP and LCA and integrating systemic biomarker profiling with retinal outcomes</p>
+<p><span class="label">Key Impact:</span> Together, these findings provide independent in vivo evidence for the neuroprotective effect of LP-CN03 in both cGMP-related RP and LCA, also highlighting the translational value of kinome profiling</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.763508v1">Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.763508">10.64898/2026.11.04.763508</a> · Score: <code>█████░░░░░</code> 0.506</p>
-<p><span class="label">Core Problem:</span> Olfaction-based biosensors stand to have profound impacts in fields such as medical diagnostics, national security, and drug discovery</p>
-<p><span class="label">Proposed Solution:</span> A promising mode of vapor phase biodetection mimics volatile organic compound-olfactory receptor (VOC-OR) interactions with target-specific protein or peptide probes; however, lack of experimental coverage remains a core bottleneck. Current computational approaches aim to improve prediction of VOC-OR binding to reduce experimental burden, and current machine learning approaches fail to demonstrate a level of generalization that addresses current engineering challenges</p>
-<p><span class="label">Key Impact:</span> Furthermore, we show contrastive regularization mitigates dataset degeneracy through enforcement of compatibility in the models latent geometry that may extend to other binder target-datasets where identity leakage confounds evaluation</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.05.764384v1">Fatty Acid Synthase Binds Cellular mRNAs and its Depletion Reduces Translational Efficiency</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.764384">10.64898/2026.11.05.764384</a> · Score: <code>███░░░░░░░</code> 0.327</p>
+<p><span class="label">Core Problem:</span> Metabolic enzymes with non-canonical RNA binding activity have drawn a growing interest, due to their implications for basic biology and disease</p>
+<p><span class="label">Proposed Solution:</span> Here we present the first endogenous RNA interactome of fatty acid synthase (FASN), an emerging oncological and virological target. Utilizing crosslinking-based approaches, we characterize the direct RNA association of FASN in two human cell lines, identifying over 6000 binding sites across over 3500 protein-coding genes, with a striking preference for the 5&#x27; UTR</p>
+<p><span class="label">Key Impact:</span> This correlative work primes further investigation of FASN as a regulator of translation of its target mRNAs</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.764359v1">stem.MAP: Identification of cell-type-specific protein complexes in mammalian embryonic stem cells.</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.764359">10.64898/2026.11.04.764359</a> · Score: <code>█████░░░░░</code> 0.475</p>
-<p><span class="label">Core Problem:</span> Protein complexes carry out critical functions during development</p>
-<p><span class="label">Proposed Solution:</span> Mapping cell-type-specific protein complexes in early embryogenesis is essential for uncovering the molecular mechanisms of embryonic development. We unfortunately currently lack a catalog of protein complexes specific for embryogenesis including embryonic stem cells</p>
-<p><span class="label">Key Impact:</span> MAP will be beneficial to the study of early development and we expect our proteomics-based machine learning workflow to be applicable to the creation of any context-specific protein interaction network</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.04.29.26352053v2">ShortKit-ML: an open toolkit for measuring shortcut potential in medical imaging embeddings</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.04.29.26352053">10.64898/2026.04.29.26352053</a> · Score: <code>███░░░░░░░</code> 0.310</p>
+<p><span class="label">Core Problem:</span> Background and Objective: A classifier trained on frozen embeddings can take a shortcut through a sensitive attribute only if the embedding carries information about it beyond what the task label explains: its shortcut potential</p>
+<p><span class="label">Proposed Solution:</span> We asked whether this can be measured on the embedding alone with a known false positive rate, and whether it predicts how strongly a classifier trained on confounded data relies on the attribute. Methods: ShortKit-ML tests whether an embedding E and a sensitive attribute A are dependent given a task label Y</p>
+<p><span class="label">Key Impact:</span> com/criticaldata/ShortKit-ML</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.05.764536v1">Towards a foundation model for raw nanopore signal through discrete tokenization</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.764536">10.64898/2026.11.05.764536</a> · Score: <code>█████░░░░░</code> 0.472</p>
-<p><span class="label">Core Problem:</span> Nanopore sequencing reads nucleic acids as changes in ionic current that carry information beyond the base sequence</p>
-<p><span class="label">Proposed Solution:</span> Self-supervised pretrained models have advanced genomic sequence modeling and single-cell analysis, but remain underexplored for raw nanopore signals, which are continuous and lack a native token vocabulary. Here we present Brieno, an approach combining reconstruction-based tokenization through residual vector quantization with a Transformer for contextual representation learning</p>
-<p><span class="label">Key Impact:</span> Together, these findings support self-supervised pretraining as a basis for transferable representations of raw nanopore signals</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.09.28.679103v2">Zero-Shot Protein-Ligand Binding Site Prediction from Protein Sequence and SMILES</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.09.28.679103">10.1101/2025.09.28.679103</a> · Score: <code>█████░░░░░</code> 0.456</p>
-<p><span class="label">Core Problem:</span> Accurate identification of protein-ligand binding sites is critical for mechanistic biology and drug discovery, yet predictive performance varies substantially across ligand families and data-availability regimes</p>
-<p><span class="label">Proposed Solution:</span> We present a systematic ligand-aware benchmark and evaluation framework for residue-level binding-site prediction across three settings: overrepresented ligands with abundant examples, underrepresented ligands with limited examples, and zero-shot ligands unseen during training. Using a BioLiP2-derived dataset with ligand-specific sequence clustering, we evaluate a progressive three-stage sequence-based modeling suite designed to study these regimes</p>
-<p><span class="label">Key Impact:</span> Overall, this study provides a systematic benchmark for quantifying the effect of ligand data availability on residue-level binding-site prediction and for evaluating generalization to previously unseen ligands</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.06.764689v1">SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&amp;Tag</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.764689">10.64898/2026.11.06.764689</a> · Score: <code>███░░░░░░░</code> 0.256</p>
+<p><span class="label">Core Problem:</span> Spatial epigenomics maps chromatin states within intact tissues, yet current methods remain limited by accessibility and scale</p>
+<p><span class="label">Proposed Solution:</span> We developed SPACE-Tag, a spatial CUT&amp;Tag framework that converts epigenetic marks-associated DNA into polyadenylated RNA through T7 based linear amplification, enabling direct integration with standard spatial transcriptomic workflows. Applied to the mouse brain, SPACETag resolved activating and repressive chromatin landscapes, recovered region-specific gene regulatory programs across anatomical domains, and showed strong correlation with existing bulk and single cell reference data</p>
+<p><span class="label">Key Impact:</span> These findings highlight the power of multimodal and high throughput spatial genomics in uncovering the divergent regulatory logic that governs tissue-specific vulnerability and resilience in the aging brain</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -182,6 +172,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.09.28.679103">Zero-Shot Protein-Ligand Binding Site Prediction from Protein Sequence and SMILES</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.04.763508">Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.04.764359">stem.MAP: Identification of cell-type-specific protein complexes in mammalian embryonic stem cells.</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.05.764536">Towards a foundation model for raw nanopore signal through discrete tokenization</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.05.764599">scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions</a><span class="history-date">Nov 07, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.11.24.690191">RNA-X: Modeling RNA interactions to design binder RNA and simultaneously target multiple molecules of different types</a><span class="history-date">Nov 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.05.04.26352055">Cross-ancestry proteome-wide Mendelian randomization of plasma proteins and breast cancer susceptibility</a><span class="history-date">Nov 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.04.763740">Mapping the regulatory wiring of endothelial cell differentiation reveals a critical role for Hippo mechanosignaling</a><span class="history-date">Nov 06, 2026</span></li>
@@ -914,64 +909,29 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Molecular characterisation of a Klebsiella pneumoniae neonatal sepsis outbreak in a rural Gambian hospital: a retrospective genomic epidemiology investigation</a></li>
-  <li><a href="#virology-article-2">Genomic epidemiology reconstructs the pre-detection transmission and establishment of chikungunya virus in Guangdong, China</a></li>
-  <li><a href="#virology-article-3">Genomic analysis of the Streptococcus anginosus group; taxonomic implications, evolutionary insights and clinical considerations</a></li>
-  <li><a href="#virology-article-4">Metatranscriptomic Profiling of Viral Diversity in Aquatic Environments with a Focus on Microalgal Viruses</a></li>
-  <li><a href="#virology-article-5">Endothelial protein C receptor is an entry receptor for Langya virus</a></li>
+  <li><a href="#virology-article-1">Identification and characterization of new P. aeruginosa phages using a surface receptor platform</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.03.03.26347025v2">Molecular characterisation of a Klebsiella pneumoniae neonatal sepsis outbreak in a rural Gambian hospital: a retrospective genomic epidemiology investigation</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.03.03.26347025">10.64898/2026.03.03.26347025</a> · Score: <code>████░░░░░░</code> 0.432</p>
-<p><span class="label">Core Problem:</span> Background Klebsiella pneumoniae is a common cause of neonatal sepsis in Africa, and is frequently hospital acquired</p>
-<p><span class="label">Proposed Solution:</span> We recently reported an outbreak of multidrug-resistant K. pneumoniae sepsis amongst neonates at a rural hospital in The Gambia, West Africa, involving 57 cases and case fatality of 60%</p>
-<p><span class="label">Key Impact:</span> pneumoniae, capable of sustained transmission and high fatality</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.04.26367289v1">Genomic epidemiology reconstructs the pre-detection transmission and establishment of chikungunya virus in Guangdong, China</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.26367289">10.64898/2026.11.04.26367289</a> · Score: <code>████░░░░░░</code> 0.427</p>
-<p><span class="label">Core Problem:</span> In 2025, a chikungunya outbreak in southern China resulted in more than 25,000 confirmed cases, but its origins and transmission history remain unresolved</p>
-<p><span class="label">Proposed Solution:</span> As part of the public health investigation, we generated 1,264 near-complete chikungunya virus (CHIKV) genomes from Guangdong Province and integrated genomic, epidemiological, entomological, and human mobility data to reconstruct the emergence and spread of this outbreak. Our analyses traced the outbreak to a single dominant introduction of a Reunion-associated East/Central/South African (ECSA) virus lineage and dated the origin of the sampled Guangdong outbreak lineage from late April to early May 2025</p>
-<p><span class="label">Key Impact:</span> Together, these findings reconstruct the early establishment and spatially heterogeneous spread of the largest documented CHIKV epidemic in southern China to date and demonstrate the necessity of expanding active genomic surveillance in areas at the fringe of CHIKV endemic transmission for timely detecting and characterizing emerging epidemics</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.764143v1">Genomic analysis of the Streptococcus anginosus group; taxonomic implications, evolutionary insights and clinical considerations</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.764143">10.64898/2026.11.04.764143</a> · Score: <code>████░░░░░░</code> 0.424</p>
-<p><span class="label">Core Problem:</span> Background: The Streptococcus anginosus group (SAG) (S</p>
-<p><span class="label">Proposed Solution:</span> anginosus, S. intermedius, and S</p>
-<p><span class="label">Key Impact:</span> Invasive capacity appears to be an emergent system-level property rather than from individual features</p>
-<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.05.764614v1">Metatranscriptomic Profiling of Viral Diversity in Aquatic Environments with a Focus on Microalgal Viruses</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.764614">10.64898/2026.11.05.764614</a> · Score: <code>████░░░░░░</code> 0.396</p>
-<p><span class="label">Core Problem:</span> Freshwater microeukaryotes contribute to aquatic productivity, yet the RNA viruses associated with these communities remain incompletely characterized compared with their marine counterparts</p>
-<p><span class="label">Proposed Solution:</span> Here, we used metatranscriptomics to profile viral diversity across five Finnish freshwater sites (one river and four lakes) and one coastal marine sample from Hiroshima Bay in the Seto Inland Sea, Japan. We recovered 399 viral operational taxonomic units (vOTUs), of which 285 (71</p>
-<p><span class="label">Key Impact:</span> These findings expand the known ecological range of marnavirus-like RNA viruses and identify freshwater habitats as under-sampled reservoirs of microalgae-associated viral sequences</p>
-<p><span class="label">Methodology:</span> Metatranscriptomics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.763901v1">Endothelial protein C receptor is an entry receptor for Langya virus</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.763901">10.64898/2026.11.04.763901</a> · Score: <code>████░░░░░░</code> 0.362</p>
-<p><span class="label">Core Problem:</span> Langya virus (LayV) was recently discovered in infected individuals with febrile illness and classified as a Parahenipavirus, a group of poorly understood pathogens</p>
-<p><span class="label">Proposed Solution:</span> LayV is distantly related to Nipah henipavirus which causes recurring outbreaks with case fatality rates reaching up to 90%. No vaccines or therapeutics are approved for use in humans for any parahenipavirus or henipavirus despite their broad geographic distribution and pandemic potential</p>
-<p><span class="label">Key Impact:</span> Our data support future surveillance efforts, by enabling prediction of EPCR utilization among newly discovered Parahenipaviruses, and the development and evaluation of countermeasures targeting this emerging group of human pathogens</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.06.764861v1">Identification and characterization of new P. aeruginosa phages using a surface receptor platform</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.764861">10.64898/2026.11.06.764861</a> · Score: <code>████░░░░░░</code> 0.379</p>
+<p><span class="label">Core Problem:</span> Bacteriophages are of increasing interest for their potential use as alternatives to antibiotics for treating drug-resistant infections</p>
+<p><span class="label">Proposed Solution:</span> Phage steering, specifically receptor-based steering, involves use of phages that bias the development of resistance in bacteria towards phenotypes such as reduced fitness. Phage therapy typically involves administering cocktails of phages with different targets to reduce the likelihood of resistance emerging</p>
+<p><span class="label">Key Impact:</span> aeruginosa phage receptors and phages</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.03.03.26347025">Molecular characterisation of a Klebsiella pneumoniae neonatal sepsis outbreak in a rural Gambian hospital: a retrospective genomic epidemiology investigation</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.04.26367289">Genomic epidemiology reconstructs the pre-detection transmission and establishment of chikungunya virus in Guangdong, China</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.04.763901">Endothelial protein C receptor is an entry receptor for Langya virus</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.04.764143">Genomic analysis of the Streptococcus anginosus group; taxonomic implications, evolutionary insights and clinical considerations</a><span class="history-date">Nov 07, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.05.764614">Metatranscriptomic Profiling of Viral Diversity in Aquatic Environments with a Focus on Microalgal Viruses</a><span class="history-date">Nov 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.03.26366867">Wastewater pathogen composition in Atlanta, GA prior to and during the 2026 FIFA World Cup</a><span class="history-date">Nov 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.04.762207">Long-read shotgun metagenomics identifies distinct urogenital microbial community states associated with functional potential and urinary tract infection during pregnancy</a><span class="history-date">Nov 06, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.04.764188">NanoPAMDA enables rapid PAM characterization of metagenome-derived Cas9 effectors</a><span class="history-date">Nov 06, 2026</span></li>
@@ -1292,7 +1252,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-07T11:32:09 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-08T11:49:43 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
