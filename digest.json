@@ -1,40 +1,48 @@
 {
-  "generated_utc": "2026-11-08T11:49:43.306711+00:00",
+  "generated_utc": "2026-11-09T10:01:18.464455+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Identification of Kinome Biomarkers and Therapeutic Rescue in cGMP-Linked Retinal Degeneration",
-          "doi": "10.64898/2026.11.06.763903",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.763903v1",
-          "source": "biorxiv",
-          "score": 0.3664
+          "title": "Single-cell profiling of human plaques reveals cellular and molecular signatures of symptomatic atherosclerosis",
+          "doi": "10.64898/2026.11.07.26367408",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.07.26367408v1",
+          "source": "medrxiv",
+          "score": 0.5023
         },
         {
           "rank": 2,
-          "title": "Fatty Acid Synthase Binds Cellular mRNAs and its Depletion Reduces Translational Efficiency",
-          "doi": "10.64898/2026.11.05.764384",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764384v1",
-          "source": "biorxiv",
-          "score": 0.327
+          "title": "A multi-scale cell-type resolved map of trans-regulatory architecture in the aging human brain",
+          "doi": "10.64898/2026.11.05.26367384",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367384v1",
+          "source": "medrxiv",
+          "score": 0.3951
         },
         {
           "rank": 3,
-          "title": "ShortKit-ML: an open toolkit for measuring shortcut potential in medical imaging embeddings",
-          "doi": "10.64898/2026.04.29.26352053",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.04.29.26352053v2",
+          "title": "Investigating the potential effect of topiramate on anorexia nervosa and binge eating behaviour using drug-target Mendelian randomization",
+          "doi": "10.64898/2026.11.05.26367397",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367397v1",
           "source": "medrxiv",
-          "score": 0.3103
+          "score": 0.313
         },
         {
           "rank": 4,
-          "title": "SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag",
-          "doi": "10.64898/2026.11.06.764689",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764689v1",
+          "title": "StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction",
+          "doi": "10.64898/2026.11.06.764833",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764833v1",
           "source": "biorxiv",
-          "score": 0.2558
+          "score": 0.3128
+        },
+        {
+          "rank": 5,
+          "title": "Identification of co-segregating RUBCN and KANK1 mutations in a UK amyotrophic lateral sclerosis kindred",
+          "doi": "10.1101/2025.07.23.25331426",
+          "url": "https://www.medrxiv.org/content/10.1101/2025.07.23.25331426v2",
+          "source": "medrxiv",
+          "score": 0.2655
         }
       ]
     },
@@ -43,11 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Identification and characterization of new P. aeruginosa phages using a surface receptor platform",
-          "doi": "10.64898/2026.11.06.764861",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764861v1",
+          "title": "Inferring viral variants and fitness advantages from longitudinal wastewater sequencing data",
+          "doi": "10.64898/2026.11.06.26367358",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367358v1",
+          "source": "medrxiv",
+          "score": 0.3784
+        },
+        {
+          "rank": 2,
+          "title": "The impact of climate variability on dengue virus case incidence in Sindh, Pakistan: Post-2022 flooding.",
+          "doi": "10.64898/2026.11.05.26367382",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367382v1",
+          "source": "medrxiv",
+          "score": 0.3208
+        },
+        {
+          "rank": 3,
+          "title": "Proliferation and mutation as humoral immune response",
+          "doi": "10.64898/2026.11.06.764896",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764896v1",
           "source": "biorxiv",
-          "score": 0.3791
+          "score": 0.307
+        },
+        {
+          "rank": 4,
+          "title": "On conducting diary-based social contact surveys to inform transmission models of close-contact infections: a systematic review and expert-informed questionnaire",
+          "doi": "10.64898/2026.11.06.26367418",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367418v1",
+          "source": "medrxiv",
+          "score": 0.2989
+        },
+        {
+          "rank": 5,
+          "title": "Investigating Climate-Driven Disruption of Malaria Transmission Following the 2022 Sindh, Pakistan Floods: An Interrupted Time Series Study",
+          "doi": "10.64898/2026.11.05.26367402",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367402v1",
+          "source": "medrxiv",
+          "score": 0.2809
         }
       ]
     }
