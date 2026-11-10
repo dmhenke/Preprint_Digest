@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 09, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 10, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Single-cell profiling of human plaques reveals cellular and molecular signatures of symptomatic atherosclerosis</a></li>
-  <li><a href="#core-article-2">A multi-scale cell-type resolved map of trans-regulatory architecture in the aging human brain</a></li>
-  <li><a href="#core-article-3">Investigating the potential effect of topiramate on anorexia nervosa and binge eating behaviour using drug-target Mendelian randomization</a></li>
-  <li><a href="#core-article-4">StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction</a></li>
-  <li><a href="#core-article-5">Identification of co-segregating RUBCN and KANK1 mutations in a UK amyotrophic lateral sclerosis kindred</a></li>
+  <li><a href="#core-article-1">Simple models outperform single-cell foundation models on downstream benchmarks</a></li>
+  <li><a href="#core-article-2">SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation</a></li>
+  <li><a href="#core-article-3">MELD: Mutation Effect Learning through Differential embeddings</a></li>
+  <li><a href="#core-article-4">A Proteome-Wide Gain-of-Function Atlas Mapping the Landscape of Chemotherapy Response</a></li>
+  <li><a href="#core-article-5">mFrag: Integrating External DNA Methylation References Improves Lung Cancer Early Detection by Fragmentomics</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.11.07.26367408v1">Single-cell profiling of human plaques reveals cellular and molecular signatures of symptomatic atherosclerosis</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.07.26367408">10.64898/2026.11.07.26367408</a> · Score: <code>█████░░░░░</code> 0.502</p>
-<p><span class="label">Core Problem:</span> Atherosclerotic plaque vulnerability drives ischemic cardiovascular events, yet the cellular and molecular signatures distinguishing symptomatic from asymptomatic human plaques remain poorly defined</p>
-<p><span class="label">Proposed Solution:</span> Here, we compared 53 symptomatic and asymptomatic human carotid plaques using single-nucleus (snRNA-seq; 17 samples, 19,100 nuclei; AtherOMICS biobank) and single-cell RNA sequencing (scRNA-seq; 36 samples, 68,983 cells; four public datasets), analyzed independently and combined by meta-analysis. Across sequencing approaches, symptomatic plaques showed cell-state shifts toward later or terminal states in osteochondrogenic smooth muscle cells (SMCs) and CD4 T cells, as well as transcriptional changes toward inflammatory and epithelial-to-mesenchymal transition (EMT) in endothelial cells (ECs), T cells, and fibroblasts</p>
-<p><span class="label">Key Impact:</span> These findings provide novel insights into cellular and molecular phenotypes associated with plaque vulnerability and identify potential driver mechanisms of symptomatic plaque transformation that could inform therapeutic development</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.02.11.705358v2">Simple models outperform single-cell foundation models on downstream benchmarks</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.02.11.705358">10.64898/2026.02.11.705358</a> · Score: <code>██████░░░░</code> 0.578</p>
+<p><span class="label">Core Problem:</span> Single-cell RNA sequencing (scRNA-seq) data exhibit strong and reproducible statistical structure</p>
+<p><span class="label">Proposed Solution:</span> This has motivated the development of large-scale foundation models, such as TranscriptFormer, that use transformer-based architectures to learn a generative model for gene expression by embedding genes into a latent vector space. These embeddings have been used to obtain state-of-the-art (SOTA) performance on downstream tasks such as cell-type classification, disease-state prediction, and cross-species learning</p>
+<p><span class="label">Key Impact:</span> Our findings highlight the need for rigorous benchmarking and suggest that the biology of cell identity can be captured by simple linear representations of single cell gene expression data</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.05.26367384v1">A multi-scale cell-type resolved map of trans-regulatory architecture in the aging human brain</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.26367384">10.64898/2026.11.05.26367384</a> · Score: <code>████░░░░░░</code> 0.395</p>
-<p><span class="label">Core Problem:</span> Mapping genetic effects on distal genes and regulatory programs is essential for understanding how genetic variation influences complex diseases; yet trans-QTL discovery remains limited by weak effect sizes, extensive multiple testing and poor reproducibility</p>
-<p><span class="label">Proposed Solution:</span> Here, we introduce TransMap, a generalizable computational framework that combines multi-scale trans-QTL mapping with multi-phenotype genetic colocalization to improve the discovery and interpretation of distal regulatory variants. Beyond individual trans-eGenes, TransMap constructs local co-regulatory program phenotypes that account for background expression variation to improve the detection of weak, coordinated distal genetic effects</p>
-<p><span class="label">Key Impact:</span> TransMap provides a multi-scale, cell-type-resolved atlas of trans-regulatory variation and a generalizable framework for elucidating the regulatory architecture of complex diseases</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.1101/2025.09.26.676459v2">SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.09.26.676459">10.1101/2025.09.26.676459</a> · Score: <code>█████░░░░░</code> 0.529</p>
+<p><span class="label">Core Problem:</span> Protein solubility is an attractive engineering target because it is a critical property influencing the scalability of protein production and the success of therapeutic proteins in biomedical applications</p>
+<p><span class="label">Proposed Solution:</span> However, predicting in silico solubility changes upon mutation is challenging due to data heterogeneity and protein bias. Here, we explore how different sources of solubility data can be used for machine learning and present SoluProtMut, a Siamese deep geometric neural network trained to predict the impact of mutations on protein solubility</p>
+<p><span class="label">Key Impact:</span> Integrating high-throughput assays with deep learning nonetheless offers a route to improving the accuracy and scope of solubility prediction</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.11.05.26367397v1">Investigating the potential effect of topiramate on anorexia nervosa and binge eating behaviour using drug-target Mendelian randomization</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.26367397">10.64898/2026.11.05.26367397</a> · Score: <code>███░░░░░░░</code> 0.313</p>
-<p><span class="label">Core Problem:</span> Topiramate is an antiseizure medication used to treat epilepsy and migraine and is commonly prescribed for appetite suppression and weight loss</p>
-<p><span class="label">Proposed Solution:</span> However, whether its pharmacological actions influence eating disorder risk remains unclear. We applied drug-target Mendelian randomization (MR) to investigate potential causal effects of topiramate on the risk of anorexia nervosa (AN; 24,223 cases and 1,243,971 controls) and binge-eating behaviour (BE; 39,279 cases and 1,227,436 controls) and, exploratorily, eight other psychiatric disorders: attention-deficit/hyperactivity disorder, anxiety disorders, alcohol use disorder, bipolar disorder, major depressive disorder, panic disorder, post-traumatic stress disorder, and schizophrenia</p>
-<p><span class="label">Key Impact:</span> Overall, our findings warrant further clinical and functional investigations into mechanisms underlying topiramate-associated appetite suppression and weight loss and their relevance to eating-disorder risk</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.762727v1">MELD: Mutation Effect Learning through Differential embeddings</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.29.762727">10.64898/2026.10.29.762727</a> · Score: <code>█████░░░░░</code> 0.501</p>
+<p><span class="label">Core Problem:</span> We introduce MELD (Mutation Effect Learning through Differential Embeddings), a compact model for predicting the functional consequences of single nucleotide variants (SNVs) by training directly on the wild-type (WT) versus mutant differential</p>
+<p><span class="label">Proposed Solution:</span> Interpreting SNVs is central to clinical genomics, yet experimental characterization cannot scale to millions of observed variants. Leading sequence-to-function models (Enformer, Borzoi, AlphaGenome) are trained on absolute genomic tracks and score variants post hoc through in-silico mutagenesis (ISM), so the WT-mutant difference never enters the training loss</p>
+<p><span class="label">Key Impact:</span> These results demonstrate that direct differential supervision is a compact, data-efficient alternative to post-hoc ISM scoring with substantially larger pretrained models</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.06.764833v1">StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.764833">10.64898/2026.11.06.764833</a> · Score: <code>███░░░░░░░</code> 0.313</p>
-<p><span class="label">Core Problem:</span> Predicting protein melting temperature (Tm) and organismal optimal growth temperature (OGT) is essential for enzyme engineering, biocatalyst design, and metagenomic bioprospecting, yet computational prediction faces several fundamental bottlenecks: sequence-only representations miss tertiary packing; dual-task coupling induces destructive gradient conflict; natural database skew (&gt;87% mesophiles) drives mesophilic collapse; and existing tools produce uncalibrated point predictions</p>
-<p><span class="label">Proposed Solution:</span> To address these challenges, we present StableProt, a structure-aware framework that couples amino acid sequences with Foldseek 3Di structural tokens via a frozen SaProt backbone to capture 3D contacts. Disjoint heads condition thermodynamic stability on ecological context without gradient conflict, while targeted 14% mesophilic subsampling expands thermophile representation to eliminate mesophilic collapse</p>
-<p><span class="label">Key Impact:</span> org/</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.1101/2025.09.02.673780v3">A Proteome-Wide Gain-of-Function Atlas Mapping the Landscape of Chemotherapy Response</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.09.02.673780">10.1101/2025.09.02.673780</a> · Score: <code>█████░░░░░</code> 0.497</p>
+<p><span class="label">Core Problem:</span> Background: Conventional chemotherapies remain the core therapeutic backbone of cancer treatment, yet the rapid emergence of chemoresistance often compromises their clinical efficacy</p>
+<p><span class="label">Proposed Solution:</span> Although large-scale functional genomics has transformed precision oncology, existing reference maps rely predominantly on loss-of-function paradigms and lack systematic data on gain-of-function (GOF) events that commonly drive clinical resistance. Methods: To address this gap, we engineered a site-specific Bxb1 integrase landing-pad system in HeLa cells, enabling single-copy integration of a human proteome-wide library [18,388 open reading frames (ORFs)] at the AAVS1 locus under a uniform EF1 promoter</p>
+<p><span class="label">Key Impact:</span> This systems-genomics resource bridges massive-scale perturbation mapping with actionable target discovery, providing a translational framework to overcome therapeutic resistance and reprogram cancer drug responses</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.1101/2025.07.23.25331426v2">Identification of co-segregating RUBCN and KANK1 mutations in a UK amyotrophic lateral sclerosis kindred</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.1101/2025.07.23.25331426">10.1101/2025.07.23.25331426</a> · Score: <code>███░░░░░░░</code> 0.266</p>
-<p><span class="label">Core Problem:</span> Bioinformatic analysis of next-generation sequencing data identified novel missense variants in RUBCN (p</p>
-<p><span class="label">Proposed Solution:</span> Cys517Phe) and KANK1 (p. Pro1332Ala) that co-segregated with amyotrophic lateral sclerosis (ALS) in a United Kingdom kindred and were ultra-rare in European control populations (allele frequency &lt; 0</p>
-<p><span class="label">Key Impact:</span> Collectively, these findings implicate RUBCN and KANK1 as candidate ALS genes and suggest that disruption of vesicular trafficking, autophagy-related pathways, and cytoskeletal homeostasis may contribute to disease pathogenesis of ALS</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762499v1">mFrag: Integrating External DNA Methylation References Improves Lung Cancer Early Detection by Fragmentomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.10.28.762499">10.64898/2026.10.28.762499</a> · Score: <code>█████░░░░░</code> 0.458</p>
+<p><span class="label">Core Problem:</span> Fragmentomics analyzes features of circulating cell-free DNA fragments (e</p>
+<p><span class="label">Proposed Solution:</span> g. , fragment length or end motifs) derived from whole-genome sequencing of liquid biopsy samples (blood or other body fluids), enabling non-invasive early cancer detection</p>
+<p><span class="label">Key Impact:</span> In summary, mFrag improves the accuracy of fragmentomics-based lung cancer detection through integrating external DNA methylation data and the complementarity of its two component models, without incurring any additional data-generating cost</p>
+<p><span class="label">Methodology:</span> Neural Network techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.07.23.25331426">Identification of co-segregating RUBCN and KANK1 mutations in a UK amyotrophic lateral sclerosis kindred</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.05.26367384">A multi-scale cell-type resolved map of trans-regulatory architecture in the aging human brain</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.05.26367397">Investigating the potential effect of topiramate on anorexia nervosa and binge eating behaviour using drug-target Mendelian randomization</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.06.764833">StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.07.26367408">Single-cell profiling of human plaques reveals cellular and molecular signatures of symptomatic atherosclerosis</a><span class="history-date">Nov 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.04.29.26352053">ShortKit-ML: an open toolkit for measuring shortcut potential in medical imaging embeddings</a><span class="history-date">Nov 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.05.764384">Fatty Acid Synthase Binds Cellular mRNAs and its Depletion Reduces Translational Efficiency</a><span class="history-date">Nov 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.06.763903">Identification of Kinome Biomarkers and Therapeutic Rescue in cGMP-Linked Retinal Degeneration</a><span class="history-date">Nov 08, 2026</span></li>
@@ -923,64 +928,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Inferring viral variants and fitness advantages from longitudinal wastewater sequencing data</a></li>
-  <li><a href="#virology-article-2">The impact of climate variability on dengue virus case incidence in Sindh, Pakistan: Post-2022 flooding.</a></li>
-  <li><a href="#virology-article-3">Proliferation and mutation as humoral immune response</a></li>
-  <li><a href="#virology-article-4">On conducting diary-based social contact surveys to inform transmission models of close-contact infections: a systematic review and expert-informed questionnaire</a></li>
-  <li><a href="#virology-article-5">Investigating Climate-Driven Disruption of Malaria Transmission Following the 2022 Sindh, Pakistan Floods: An Interrupted Time Series Study</a></li>
+  <li><a href="#virology-article-1">Host control and regulation of human anellovirus persistence</a></li>
+  <li><a href="#virology-article-2">Interconnected reservoirs of multidrug-resistant bacteria and plasmids within hospital plumbing infrastructure</a></li>
+  <li><a href="#virology-article-3">Segment-dependent phylogenetic resolution reveals geographic and host sampling gaps in Oropouche virus genomes</a></li>
+  <li><a href="#virology-article-4">Integrating bacterial genomics and host transcriptomics links Burkholderia pseudomallei variation to melioidosis mortality and neutrophil responses</a></li>
+  <li><a href="#virology-article-5">Seasonal H1N1 influenza A virus preferentially infects a pre-existing ciliogenesis-primed secretory cell state</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.11.06.26367358v1">Inferring viral variants and fitness advantages from longitudinal wastewater sequencing data</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.26367358">10.64898/2026.11.06.26367358</a> · Score: <code>████░░░░░░</code> 0.378</p>
-<p><span class="label">Core Problem:</span> During the SARS-CoV-2 pandemic, wastewater-based epidemiology emerged as an effective tool for monitoring infection dynamics</p>
-<p><span class="label">Proposed Solution:</span> However, wastewater represents a pooled sample of incomplete viral genomic fragments originating from multiple individuals in the catchment area of a wastewater treatment plant, preventing the assembly of complete viral genomes. Existing computational pipelines are therefore limited in detecting new variants that are absent from clinical sequencing data</p>
-<p><span class="label">Key Impact:</span> Using simulated data as well as wastewater time-series data collected between 2021 and 2024 across six Swiss wastewater treatment plants, we demonstrate FitNMF&#x27;s ability to identify and quantify emerging variants de novo, offering a powerful tool for real-time variant surveillance in settings with limited clinical sequencing</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1">Host control and regulation of human anellovirus persistence</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.764726">10.64898/2026.11.05.764726</a> · Score: <code>█████░░░░░</code> 0.457</p>
+<p><span class="label">Core Problem:</span> Anelloviruses are the most abundant and diverse eukaryotic viruses known to infect humans and can persist throughout our lifetimes</p>
+<p><span class="label">Proposed Solution:</span> Despite their ubiquity, the host factors governing their physiologic distribution and abundance remain poorly understood. Here, we construct a viral pangenome of 2,023 strains to quantify anellovirus DNA in &gt;1</p>
+<p><span class="label">Key Impact:</span> Finally, Perturb-seq of anellovirus proteins reveals that anellovirus ORF2, particularly from Alphatorquevirus, attenuates TNF-a-induced NF-kB signaling, connecting host genetic variation, cellular context, and viral immunomodulation to characterize the persistence of the eukaryotic human virome&#x27;s most abundant component</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.05.26367382v1">The impact of climate variability on dengue virus case incidence in Sindh, Pakistan: Post-2022 flooding.</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.26367382">10.64898/2026.11.05.26367382</a> · Score: <code>███░░░░░░░</code> 0.321</p>
-<p><span class="label">Core Problem:</span> Dengue virus is spread primarily by the Aedes aegypti and Ae</p>
-<p><span class="label">Proposed Solution:</span> albopictus mosquitoes is a self-limiting viral disease primarily present in the tropical and subtropical regions of the world. Temperature and rainfall impact vector development, virus replication, and habitat suitability for Ae</p>
-<p><span class="label">Key Impact:</span> In contrast, neither lagged temperature term reached statistical significance</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.07.20.739580v2">Interconnected reservoirs of multidrug-resistant bacteria and plasmids within hospital plumbing infrastructure</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.20.739580">10.64898/2026.07.20.739580</a> · Score: <code>████░░░░░░</code> 0.443</p>
+<p><span class="label">Core Problem:</span> Hospital sinks and wastewater streams are hotspots for contamination and colonization with multidrug-resistant Gram-negative bacteria (MDR-GNB)</p>
+<p><span class="label">Proposed Solution:</span> While hospital water systems may facilitate MDR-GNB transmission during outbreaks, longitudinal population dynamics of environmental MDR-GNB and their long-term relationship with patient isolates remain unclear. Here we aimed to characterize the diversity and abundance of MDR-GNB within the hospital built environment and evaluate their relationship with clinical isolates</p>
+<p><span class="label">Key Impact:</span> This study supports the role of hospital plumbing as an important reservoir for clinically relevant MDR-GNB, but highlights differences across environmental sources, which may impact surveillance approaches</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.06.764896v1">Proliferation and mutation as humoral immune response</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.764896">10.64898/2026.11.06.764896</a> · Score: <code>███░░░░░░░</code> 0.307</p>
-<p><span class="label">Core Problem:</span> The affinity maturation process, through which antibodies acquire relatively high affinity for an invading pathogen, involves complex mechanisms whose relative importance is not yet fully understood</p>
-<p><span class="label">Proposed Solution:</span> This study proposes an analytical model of this process, to investigate the main factors governing proliferation and mutation and assess their respective roles. The model suggests that the immune system should not be expected to follow a single, rigid evolutionary pattern, as a wide range of proliferation and mutation strategies can yield nearly optimal outcomes</p>
-<p><span class="label">Key Impact:</span> Keywords: Antibody, antigen, affinity, B-cell, mutation, proliferation</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.05.764562v1">Segment-dependent phylogenetic resolution reveals geographic and host sampling gaps in Oropouche virus genomes</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.764562">10.64898/2026.11.05.764562</a> · Score: <code>████░░░░░░</code> 0.412</p>
+<p><span class="label">Core Problem:</span> Background</p>
+<p><span class="label">Proposed Solution:</span> Oropouche virus (OROV) has been reported in areas beyond its historical Amazonian range since 2023, accompanied by rapid growth in publicly available genomic data. However, the extent to which these data provide reliable phylogenetic and epidemiological resolution, and whether that resolution differs among genome segments, has not been systematically examined</p>
+<p><span class="label">Key Impact:</span> Broader and more balanced genomic surveillance would improve the ability to resolve OROV evolutionary and transmission patterns</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.11.06.26367418v1">On conducting diary-based social contact surveys to inform transmission models of close-contact infections: a systematic review and expert-informed questionnaire</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.26367418">10.64898/2026.11.06.26367418</a> · Score: <code>███░░░░░░░</code> 0.299</p>
-<p><span class="label">Core Problem:</span> Background: Diary-based social contact surveys are widely used to parameterise transmission models of close-contact infections</p>
-<p><span class="label">Proposed Solution:</span> However, variation in study design, contact definitions, and questionnaire content limits comparability across studies. These challenges became particularly evident during the COVID-19 pandemic, when rapid and repeated data collection was urgently needed, often without harmonised instruments</p>
-<p><span class="label">Key Impact:</span> Conclusions: This study provides an expert-informed questionnaire and updated recommendations to support harmonised social contact data collection, improve comparability across studies, and strengthen preparedness for future public health emergencies</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.06.764829v1">Integrating bacterial genomics and host transcriptomics links Burkholderia pseudomallei variation to melioidosis mortality and neutrophil responses</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.06.764829">10.64898/2026.11.06.764829</a> · Score: <code>████░░░░░░</code> 0.393</p>
+<p><span class="label">Core Problem:</span> Bacterial genetic variation contributes to the outcome of infection, but its relationship with host immune responses is rarely investigated in the same patients, limiting the biological interpretation of pathogen-associated disease severity</p>
+<p><span class="label">Proposed Solution:</span> Here, we integrated pathogen genomics, clinical outcomes and host transcriptomics to investigate host-pathogen interactions in melioidosis, a frequently fatal infection caused by Burkholderia pseudomallei. We analysed prospective clinical data from 2,142 patients, whole-genome sequences from 2,101 infecting isolates and 646 paired host blood transcriptomes across five cohorts collected between 2012 and 2023</p>
+<p><span class="label">Key Impact:</span> pseudomallei genomic variation associated with mortality to distinct host immune signatures, providing insight into pathogen-host interactions underlying severe melioidosis and a framework for investigating the contribution of pathogen genetic diversity to clinical outcomes</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.11.05.26367402v1">Investigating Climate-Driven Disruption of Malaria Transmission Following the 2022 Sindh, Pakistan Floods: An Interrupted Time Series Study</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.05.26367402">10.64898/2026.11.05.26367402</a> · Score: <code>███░░░░░░░</code> 0.281</p>
-<p><span class="label">Core Problem:</span> Malaria remains a major global public health challenge in developing countries, with climate change intensifying its impact, particularly in vulnerable populations</p>
-<p><span class="label">Proposed Solution:</span> Rising temperatures can expand the geographic range and local abundance of malaria vectors, Anopheles mosquitoes, which thrive in warm climates, with 25C representing the optimal temperature for malaria transmission. In Pakistan, malaria is primarily spread through P</p>
-<p><span class="label">Key Impact:</span> These findings suggest that post-flooding malaria surveillance and response in flood-affected settings should anticipate not only an acute environmentally driven surge in cases but also a subsequent period of elevated, self-sustaining transmission that may persist well beyond the resolution of the initiating environmental disruption, in this case the flooding</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.04.764425v1">Seasonal H1N1 influenza A virus preferentially infects a pre-existing ciliogenesis-primed secretory cell state</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.04.764425">10.64898/2026.11.04.764425</a> · Score: <code>████░░░░░░</code> 0.382</p>
+<p><span class="label">Core Problem:</span> Influenza A viruses (IAV) infect secretory and ciliated cells of the human airway epithelium , but whether all cells within one cell type are equally susceptible to infection remains unresolved</p>
+<p><span class="label">Proposed Solution:</span> Here, single-cell RNA sequencing analysis of primary human bronchial epithelial cultures from three donors identified preferential infection of a transcriptionally distinct subpopulation of secretory cells by seasonal H1N1 IAV A/Hawaii/70/2019. Genes upregulated in this subpopulation showed enrichment for cilium-related gene ontology terms</p>
+<p><span class="label">Key Impact:</span> Collectively, these results support preferential infection of ciliogenesis-primed secretory cells and refine IAV tropism beyond cell type to encompass epithelial differentiation state</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.05.26367382">The impact of climate variability on dengue virus case incidence in Sindh, Pakistan: Post-2022 flooding.</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.05.26367402">Investigating Climate-Driven Disruption of Malaria Transmission Following the 2022 Sindh, Pakistan Floods: An Interrupted Time Series Study</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.06.26367358">Inferring viral variants and fitness advantages from longitudinal wastewater sequencing data</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.06.26367418">On conducting diary-based social contact surveys to inform transmission models of close-contact infections: a systematic review and expert-informed questionnaire</a><span class="history-date">Nov 09, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.06.764896">Proliferation and mutation as humoral immune response</a><span class="history-date">Nov 09, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.06.764861">Identification and characterization of new P. aeruginosa phages using a surface receptor platform</a><span class="history-date">Nov 08, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.03.26347025">Molecular characterisation of a Klebsiella pneumoniae neonatal sepsis outbreak in a rural Gambian hospital: a retrospective genomic epidemiology investigation</a><span class="history-date">Nov 07, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.04.26367289">Genomic epidemiology reconstructs the pre-detection transmission and establishment of chikungunya virus in Guangdong, China</a><span class="history-date">Nov 07, 2026</span></li>
@@ -1307,7 +1317,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-09T10:01:18 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-10T10:03:04 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

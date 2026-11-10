@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-09T10:01:18.464455+00:00",
+  "generated_utc": "2026-11-10T10:03:04.368483+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Single-cell profiling of human plaques reveals cellular and molecular signatures of symptomatic atherosclerosis",
-          "doi": "10.64898/2026.11.07.26367408",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.07.26367408v1",
-          "source": "medrxiv",
-          "score": 0.5023
+          "title": "Simple models outperform single-cell foundation models on downstream benchmarks",
+          "doi": "10.64898/2026.02.11.705358",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.11.705358v2",
+          "source": "biorxiv",
+          "score": 0.5777
         },
         {
           "rank": 2,
-          "title": "A multi-scale cell-type resolved map of trans-regulatory architecture in the aging human brain",
-          "doi": "10.64898/2026.11.05.26367384",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367384v1",
-          "source": "medrxiv",
-          "score": 0.3951
+          "title": "SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation",
+          "doi": "10.1101/2025.09.26.676459",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.26.676459v2",
+          "source": "biorxiv",
+          "score": 0.5292
         },
         {
           "rank": 3,
-          "title": "Investigating the potential effect of topiramate on anorexia nervosa and binge eating behaviour using drug-target Mendelian randomization",
-          "doi": "10.64898/2026.11.05.26367397",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367397v1",
-          "source": "medrxiv",
-          "score": 0.313
+          "title": "MELD: Mutation Effect Learning through Differential embeddings",
+          "doi": "10.64898/2026.10.29.762727",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762727v1",
+          "source": "biorxiv",
+          "score": 0.5012
         },
         {
           "rank": 4,
-          "title": "StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction",
-          "doi": "10.64898/2026.11.06.764833",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764833v1",
+          "title": "A Proteome-Wide Gain-of-Function Atlas Mapping the Landscape of Chemotherapy Response",
+          "doi": "10.1101/2025.09.02.673780",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673780v3",
           "source": "biorxiv",
-          "score": 0.3128
+          "score": 0.4974
         },
         {
           "rank": 5,
-          "title": "Identification of co-segregating RUBCN and KANK1 mutations in a UK amyotrophic lateral sclerosis kindred",
-          "doi": "10.1101/2025.07.23.25331426",
-          "url": "https://www.medrxiv.org/content/10.1101/2025.07.23.25331426v2",
-          "source": "medrxiv",
-          "score": 0.2655
+          "title": "mFrag: Integrating External DNA Methylation References Improves Lung Cancer Early Detection by Fragmentomics",
+          "doi": "10.64898/2026.10.28.762499",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762499v1",
+          "source": "biorxiv",
+          "score": 0.4582
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Inferring viral variants and fitness advantages from longitudinal wastewater sequencing data",
-          "doi": "10.64898/2026.11.06.26367358",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367358v1",
-          "source": "medrxiv",
-          "score": 0.3784
+          "title": "Host control and regulation of human anellovirus persistence",
+          "doi": "10.64898/2026.11.05.764726",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1",
+          "source": "biorxiv",
+          "score": 0.4568
         },
         {
           "rank": 2,
-          "title": "The impact of climate variability on dengue virus case incidence in Sindh, Pakistan: Post-2022 flooding.",
-          "doi": "10.64898/2026.11.05.26367382",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367382v1",
-          "source": "medrxiv",
-          "score": 0.3208
+          "title": "Interconnected reservoirs of multidrug-resistant bacteria and plasmids within hospital plumbing infrastructure",
+          "doi": "10.64898/2026.07.20.739580",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739580v2",
+          "source": "biorxiv",
+          "score": 0.4428
         },
         {
           "rank": 3,
-          "title": "Proliferation and mutation as humoral immune response",
-          "doi": "10.64898/2026.11.06.764896",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764896v1",
+          "title": "Segment-dependent phylogenetic resolution reveals geographic and host sampling gaps in Oropouche virus genomes",
+          "doi": "10.64898/2026.11.05.764562",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764562v1",
           "source": "biorxiv",
-          "score": 0.307
+          "score": 0.4118
         },
         {
           "rank": 4,
-          "title": "On conducting diary-based social contact surveys to inform transmission models of close-contact infections: a systematic review and expert-informed questionnaire",
-          "doi": "10.64898/2026.11.06.26367418",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367418v1",
-          "source": "medrxiv",
-          "score": 0.2989
+          "title": "Integrating bacterial genomics and host transcriptomics links Burkholderia pseudomallei variation to melioidosis mortality and neutrophil responses",
+          "doi": "10.64898/2026.11.06.764829",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764829v1",
+          "source": "biorxiv",
+          "score": 0.3931
         },
         {
           "rank": 5,
-          "title": "Investigating Climate-Driven Disruption of Malaria Transmission Following the 2022 Sindh, Pakistan Floods: An Interrupted Time Series Study",
-          "doi": "10.64898/2026.11.05.26367402",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367402v1",
-          "source": "medrxiv",
-          "score": 0.2809
+          "title": "Seasonal H1N1 influenza A virus preferentially infects a pre-existing ciliogenesis-primed secretory cell state",
+          "doi": "10.64898/2026.11.04.764425",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764425v1",
+          "source": "biorxiv",
+          "score": 0.3816
         }
       ]
     }
