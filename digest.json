@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-10T10:03:04.368483+00:00",
+  "generated_utc": "2026-11-11T10:06:34.189452+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Simple models outperform single-cell foundation models on downstream benchmarks",
-          "doi": "10.64898/2026.02.11.705358",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.02.11.705358v2",
+          "title": "CRISPR screens of noncanonical coding sequences and integrative multiomics uncover novel retrovirus-derived proteins",
+          "doi": "10.64898/2026.02.23.707583",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707583v2",
           "source": "biorxiv",
-          "score": 0.5777
+          "score": 0.5771
         },
         {
           "rank": 2,
-          "title": "SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation",
-          "doi": "10.1101/2025.09.26.676459",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.09.26.676459v2",
+          "title": "LingoCell interprets gene perturbations through natural language and tissue niches",
+          "doi": "10.64898/2026.11.08.765157",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765157v1",
           "source": "biorxiv",
-          "score": 0.5292
+          "score": 0.5296
         },
         {
           "rank": 3,
-          "title": "MELD: Mutation Effect Learning through Differential embeddings",
-          "doi": "10.64898/2026.10.29.762727",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762727v1",
+          "title": "Cross-state representation learning enables prospective discovery of dynamic protein allosteric sites",
+          "doi": "10.64898/2026.11.09.765238",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765238v1",
           "source": "biorxiv",
-          "score": 0.5012
+          "score": 0.5178
         },
         {
           "rank": 4,
-          "title": "A Proteome-Wide Gain-of-Function Atlas Mapping the Landscape of Chemotherapy Response",
-          "doi": "10.1101/2025.09.02.673780",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673780v3",
+          "title": "Time-resolved single-cell screening reveals the dynamic regulatory architecture of human cardiogenesis",
+          "doi": "10.64898/2026.11.03.764059",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764059v1",
           "source": "biorxiv",
-          "score": 0.4974
+          "score": 0.5099
         },
         {
           "rank": 5,
-          "title": "mFrag: Integrating External DNA Methylation References Improves Lung Cancer Early Detection by Fragmentomics",
-          "doi": "10.64898/2026.10.28.762499",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762499v1",
-          "source": "biorxiv",
-          "score": 0.4582
+          "title": "Unraveling the genetic architecture of the human mammillary bodies",
+          "doi": "10.64898/2026.11.09.26367603",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.09.26367603v1",
+          "source": "medrxiv",
+          "score": 0.4904
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Host control and regulation of human anellovirus persistence",
-          "doi": "10.64898/2026.11.05.764726",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1",
+          "title": "EMtrace: offline nanopore metagenomics on a laptop for rapid viral diagnostics, genome recovery and 16S profiling",
+          "doi": "10.64898/2026.11.09.765303",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765303v1",
           "source": "biorxiv",
-          "score": 0.4568
+          "score": 0.412
         },
         {
           "rank": 2,
-          "title": "Interconnected reservoirs of multidrug-resistant bacteria and plasmids within hospital plumbing infrastructure",
-          "doi": "10.64898/2026.07.20.739580",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739580v2",
+          "title": "One Health genomic epidemiology reveals cryptic transmission and surveillance gaps in a decade-long urban rabies epidemic in Arequipa, Peru",
+          "doi": "10.64898/2026.07.07.736726",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736726v2",
           "source": "biorxiv",
-          "score": 0.4428
+          "score": 0.3891
         },
         {
           "rank": 3,
-          "title": "Segment-dependent phylogenetic resolution reveals geographic and host sampling gaps in Oropouche virus genomes",
-          "doi": "10.64898/2026.11.05.764562",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764562v1",
+          "title": "Women's health outreach using a rapid and fieldable Nanopore-based microbiome profiling workflow.",
+          "doi": "10.64898/2026.11.09.765251",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765251v1",
           "source": "biorxiv",
-          "score": 0.4118
+          "score": 0.3584
         },
         {
           "rank": 4,
-          "title": "Integrating bacterial genomics and host transcriptomics links Burkholderia pseudomallei variation to melioidosis mortality and neutrophil responses",
-          "doi": "10.64898/2026.11.06.764829",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764829v1",
+          "title": "Structural basis of virion assembly in the Mycobacterium tuberculosis-infecting mycobacteriophage SWU1",
+          "doi": "10.64898/2026.11.08.765204",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765204v1",
           "source": "biorxiv",
-          "score": 0.3931
+          "score": 0.3474
         },
         {
           "rank": 5,
-          "title": "Seasonal H1N1 influenza A virus preferentially infects a pre-existing ciliogenesis-primed secretory cell state",
-          "doi": "10.64898/2026.11.04.764425",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764425v1",
+          "title": "Novel viral diversity and geographic structuring in the New Zealand West Coast blackfly (Austrosimulium ungulatum)",
+          "doi": "10.64898/2026.11.08.765125",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765125v1",
           "source": "biorxiv",
-          "score": 0.3816
+          "score": 0.3286
         }
       ]
     }
