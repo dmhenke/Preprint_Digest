@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-11T10:06:34.189452+00:00",
+  "generated_utc": "2026-11-12T10:06:21.494379+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "CRISPR screens of noncanonical coding sequences and integrative multiomics uncover novel retrovirus-derived proteins",
-          "doi": "10.64898/2026.02.23.707583",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707583v2",
+          "title": "Uncovering Features of ProteinMPNN with Sparse Autoencoders",
+          "doi": "10.64898/2026.11.09.765161",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765161v1",
           "source": "biorxiv",
-          "score": 0.5771
+          "score": 0.5102
         },
         {
           "rank": 2,
-          "title": "LingoCell interprets gene perturbations through natural language and tissue niches",
-          "doi": "10.64898/2026.11.08.765157",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765157v1",
+          "title": "RNA Small-Molecule Binding-Site Prediction by Integrating RNA Language Models and Structural Geometry",
+          "doi": "10.64898/2026.11.10.765632",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1",
           "source": "biorxiv",
-          "score": 0.5296
+          "score": 0.505
         },
         {
           "rank": 3,
-          "title": "Cross-state representation learning enables prospective discovery of dynamic protein allosteric sites",
-          "doi": "10.64898/2026.11.09.765238",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765238v1",
+          "title": "Pocket similarity guided selection of protein targets for systematic protein ligand dataset generation",
+          "doi": "10.64898/2026.11.10.765562",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765562v1",
           "source": "biorxiv",
-          "score": 0.5178
+          "score": 0.4824
         },
         {
           "rank": 4,
-          "title": "Time-resolved single-cell screening reveals the dynamic regulatory architecture of human cardiogenesis",
-          "doi": "10.64898/2026.11.03.764059",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764059v1",
+          "title": "RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups",
+          "doi": "10.64898/2026.11.10.765445",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1",
           "source": "biorxiv",
-          "score": 0.5099
+          "score": 0.4728
         },
         {
           "rank": 5,
-          "title": "Unraveling the genetic architecture of the human mammillary bodies",
-          "doi": "10.64898/2026.11.09.26367603",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.09.26367603v1",
-          "source": "medrxiv",
-          "score": 0.4904
+          "title": "Comparative functional genomics reveals distributed SERPINE1 like characteristics among Drosophila serpins",
+          "doi": "10.64898/2026.11.02.763793",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763793v1",
+          "source": "biorxiv",
+          "score": 0.4707
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "EMtrace: offline nanopore metagenomics on a laptop for rapid viral diagnostics, genome recovery and 16S profiling",
-          "doi": "10.64898/2026.11.09.765303",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765303v1",
+          "title": "Hepadnavirus tropism determined by diversified NTCP functionality in Feline species",
+          "doi": "10.64898/2026.11.10.765656",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765656v1",
           "source": "biorxiv",
-          "score": 0.412
+          "score": 0.3863
         },
         {
           "rank": 2,
-          "title": "One Health genomic epidemiology reveals cryptic transmission and surveillance gaps in a decade-long urban rabies epidemic in Arequipa, Peru",
-          "doi": "10.64898/2026.07.07.736726",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736726v2",
+          "title": "Desiccation stress enhances virulence potential of group B Streptococcus",
+          "doi": "10.64898/2026.11.10.765798",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765798v1",
           "source": "biorxiv",
-          "score": 0.3891
+          "score": 0.3527
         },
         {
           "rank": 3,
-          "title": "Women's health outreach using a rapid and fieldable Nanopore-based microbiome profiling workflow.",
-          "doi": "10.64898/2026.11.09.765251",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765251v1",
+          "title": "Evolutionarily distinct dengue virus type 2 with a unique type-specific neutralization determinant",
+          "doi": "10.64898/2026.11.10.765652",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765652v1",
           "source": "biorxiv",
-          "score": 0.3584
+          "score": 0.3491
         },
         {
           "rank": 4,
-          "title": "Structural basis of virion assembly in the Mycobacterium tuberculosis-infecting mycobacteriophage SWU1",
-          "doi": "10.64898/2026.11.08.765204",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765204v1",
-          "source": "biorxiv",
-          "score": 0.3474
+          "title": "The LAMp-LC Study: Unveiling the lung microbiome in Australians with early- and late-stage lung cancer using shotgun metagenomics",
+          "doi": "10.64898/2026.11.10.26367577",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367577v1",
+          "source": "medrxiv",
+          "score": 0.3199
         },
         {
           "rank": 5,
-          "title": "Novel viral diversity and geographic structuring in the New Zealand West Coast blackfly (Austrosimulium ungulatum)",
-          "doi": "10.64898/2026.11.08.765125",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765125v1",
+          "title": "Assessing the Capacity of Genomic Language Models to Generate Informative Embeddings of Viral Genome Fragments",
+          "doi": "10.64898/2026.11.09.765411",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765411v1",
           "source": "biorxiv",
-          "score": 0.3286
+          "score": 0.3168
         }
       ]
     }
