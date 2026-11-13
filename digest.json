@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-12T10:06:21.494379+00:00",
+  "generated_utc": "2026-11-13T10:04:03.192764+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Uncovering Features of ProteinMPNN with Sparse Autoencoders",
-          "doi": "10.64898/2026.11.09.765161",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765161v1",
-          "source": "biorxiv",
-          "score": 0.5102
+          "title": "Genetic architecture and polygenic prediction of self-reported response to selective serotonin reuptake inhibitors in individuals with depression: a genome-wide meta-analysis",
+          "doi": "10.64898/2026.11.11.26367161",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367161v1",
+          "source": "medrxiv",
+          "score": 0.4354
         },
         {
           "rank": 2,
-          "title": "RNA Small-Molecule Binding-Site Prediction by Integrating RNA Language Models and Structural Geometry",
-          "doi": "10.64898/2026.11.10.765632",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1",
-          "source": "biorxiv",
-          "score": 0.505
+          "title": "Trait-Level Rather Than Individual-Level Resolution in Fitness Genomics: A Population-Calibrated Variant Prioritization Framework in a South Asian Cohort",
+          "doi": "10.64898/2026.11.10.26367795",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367795v1",
+          "source": "medrxiv",
+          "score": 0.3411
         },
         {
           "rank": 3,
-          "title": "Pocket similarity guided selection of protein targets for systematic protein ligand dataset generation",
-          "doi": "10.64898/2026.11.10.765562",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765562v1",
-          "source": "biorxiv",
-          "score": 0.4824
+          "title": "Cancer risk and survival outcomes in germline POT1 variant carriers",
+          "doi": "10.64898/2026.11.10.26367070",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367070v1",
+          "source": "medrxiv",
+          "score": 0.3093
         },
         {
           "rank": 4,
-          "title": "RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups",
-          "doi": "10.64898/2026.11.10.765445",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1",
-          "source": "biorxiv",
-          "score": 0.4728
+          "title": "Nationwide Functional Profiling Enables Clinical Reclassification of KCNH2 Variants in the French LQT2 Population",
+          "doi": "10.64898/2026.11.10.26367605",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367605v1",
+          "source": "medrxiv",
+          "score": 0.3073
         },
         {
           "rank": 5,
-          "title": "Comparative functional genomics reveals distributed SERPINE1 like characteristics among Drosophila serpins",
-          "doi": "10.64898/2026.11.02.763793",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763793v1",
-          "source": "biorxiv",
-          "score": 0.4707
+          "title": "Enrichment of Rare Exonic Variants in Cognitive Superagers from Centenarian Families",
+          "doi": "10.64898/2026.11.10.26365445",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26365445v1",
+          "source": "medrxiv",
+          "score": 0.2849
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Hepadnavirus tropism determined by diversified NTCP functionality in Feline species",
-          "doi": "10.64898/2026.11.10.765656",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765656v1",
-          "source": "biorxiv",
-          "score": 0.3863
+          "title": "Phylogeography and transmission dynamics of the 2025-2026 Utah-Arizona measles outbreak: a retrospective genomic epidemiology study",
+          "doi": "10.64898/2026.11.10.26367744",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367744v1",
+          "source": "medrxiv",
+          "score": 0.3485
         },
         {
           "rank": 2,
-          "title": "Desiccation stress enhances virulence potential of group B Streptococcus",
-          "doi": "10.64898/2026.11.10.765798",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765798v1",
-          "source": "biorxiv",
-          "score": 0.3527
+          "title": "Discrete dynamic survival analysis of epidemic case line lists",
+          "doi": "10.64898/2026.11.10.26367756",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367756v1",
+          "source": "medrxiv",
+          "score": 0.3157
         },
         {
           "rank": 3,
-          "title": "Evolutionarily distinct dengue virus type 2 with a unique type-specific neutralization determinant",
-          "doi": "10.64898/2026.11.10.765652",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765652v1",
-          "source": "biorxiv",
-          "score": 0.3491
+          "title": "A multi-region discrete time chain binomial model for infectious disease transmission",
+          "doi": "10.1101/2025.05.26.25328280",
+          "url": "https://www.medrxiv.org/content/10.1101/2025.05.26.25328280v5",
+          "source": "medrxiv",
+          "score": 0.3141
         },
         {
           "rank": 4,
-          "title": "The LAMp-LC Study: Unveiling the lung microbiome in Australians with early- and late-stage lung cancer using shotgun metagenomics",
-          "doi": "10.64898/2026.11.10.26367577",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367577v1",
+          "title": "El Nino Southern Oscillation shapes cholera in Africa",
+          "doi": "10.64898/2026.11.11.26367838",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367838v1",
           "source": "medrxiv",
-          "score": 0.3199
+          "score": 0.3106
         },
         {
           "rank": 5,
-          "title": "Assessing the Capacity of Genomic Language Models to Generate Informative Embeddings of Viral Genome Fragments",
-          "doi": "10.64898/2026.11.09.765411",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765411v1",
-          "source": "biorxiv",
-          "score": 0.3168
+          "title": "Impact of vaccination coverage and timing on recent yellow fever outbreaks in Africa: a modeling study",
+          "doi": "10.64898/2026.11.11.26367845",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367845v1",
+          "source": "medrxiv",
+          "score": 0.3085
         }
       ]
     }
