@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-13T10:04:03.192764+00:00",
+  "generated_utc": "2026-11-16T10:01:55.546722+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Genetic architecture and polygenic prediction of self-reported response to selective serotonin reuptake inhibitors in individuals with depression: a genome-wide meta-analysis",
-          "doi": "10.64898/2026.11.11.26367161",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367161v1",
-          "source": "medrxiv",
-          "score": 0.4354
+          "title": "Kymograph classifiers predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons",
+          "doi": "10.64898/2026.03.16.712192",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712192v2",
+          "source": "biorxiv",
+          "score": 0.4904
         },
         {
           "rank": 2,
-          "title": "Trait-Level Rather Than Individual-Level Resolution in Fitness Genomics: A Population-Calibrated Variant Prioritization Framework in a South Asian Cohort",
-          "doi": "10.64898/2026.11.10.26367795",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367795v1",
-          "source": "medrxiv",
-          "score": 0.3411
+          "title": "Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc",
+          "doi": "10.64898/2026.11.10.765653",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765653v1",
+          "source": "biorxiv",
+          "score": 0.4708
         },
         {
           "rank": 3,
-          "title": "Cancer risk and survival outcomes in germline POT1 variant carriers",
-          "doi": "10.64898/2026.11.10.26367070",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367070v1",
+          "title": "Single-cell lung eQTL colocalization implicates alveolar epithelial regulatory effects at COPD lung-function loci",
+          "doi": "10.64898/2026.11.12.26367877",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367877v1",
           "source": "medrxiv",
-          "score": 0.3093
+          "score": 0.3975
         },
         {
           "rank": 4,
-          "title": "Nationwide Functional Profiling Enables Clinical Reclassification of KCNH2 Variants in the French LQT2 Population",
-          "doi": "10.64898/2026.11.10.26367605",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367605v1",
-          "source": "medrxiv",
-          "score": 0.3073
+          "title": "Point mutations in the FimH lectin domain: predicted folding stability versus conformational dynamics for R60P, Q133K and Y137A",
+          "doi": "10.64898/2026.11.10.765513",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765513v1",
+          "source": "biorxiv",
+          "score": 0.3905
         },
         {
           "rank": 5,
-          "title": "Enrichment of Rare Exonic Variants in Cognitive Superagers from Centenarian Families",
-          "doi": "10.64898/2026.11.10.26365445",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26365445v1",
-          "source": "medrxiv",
-          "score": 0.2849
+          "title": "Biomolecular design through latent reasoning with RFD4-Proteina",
+          "doi": "10.64898/2026.11.12.766037",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766037v1",
+          "source": "biorxiv",
+          "score": 0.3903
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Phylogeography and transmission dynamics of the 2025-2026 Utah-Arizona measles outbreak: a retrospective genomic epidemiology study",
-          "doi": "10.64898/2026.11.10.26367744",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367744v1",
-          "source": "medrxiv",
-          "score": 0.3485
+          "title": "DNA methylation assigns sequencing reads to closely related bacterial strains when their sequence cannot",
+          "doi": "10.64898/2026.11.09.765334",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765334v1",
+          "source": "biorxiv",
+          "score": 0.356
         },
         {
           "rank": 2,
-          "title": "Discrete dynamic survival analysis of epidemic case line lists",
-          "doi": "10.64898/2026.11.10.26367756",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367756v1",
-          "source": "medrxiv",
-          "score": 0.3157
+          "title": "Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates",
+          "doi": "10.64898/2026.11.13.766388",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766388v1",
+          "source": "biorxiv",
+          "score": 0.3406
         },
         {
           "rank": 3,
-          "title": "A multi-region discrete time chain binomial model for infectious disease transmission",
-          "doi": "10.1101/2025.05.26.25328280",
-          "url": "https://www.medrxiv.org/content/10.1101/2025.05.26.25328280v5",
-          "source": "medrxiv",
-          "score": 0.3141
+          "title": "Optimizing Avian Influenza Viral RNA Enrichment from Water: A Comparison of Concentration Methods for Low-Volume Samples",
+          "doi": "10.64898/2026.11.13.766378",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766378v1",
+          "source": "biorxiv",
+          "score": 0.3361
         },
         {
           "rank": 4,
-          "title": "El Nino Southern Oscillation shapes cholera in Africa",
-          "doi": "10.64898/2026.11.11.26367838",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367838v1",
+          "title": "In-country cerebrospinal fluid metagenomic next generation sequencing for pathogen detection in Lima, Peru",
+          "doi": "10.64898/2026.11.13.26367457",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.13.26367457v1",
           "source": "medrxiv",
-          "score": 0.3106
+          "score": 0.3348
         },
         {
           "rank": 5,
-          "title": "Impact of vaccination coverage and timing on recent yellow fever outbreaks in Africa: a modeling study",
-          "doi": "10.64898/2026.11.11.26367845",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367845v1",
+          "title": "Shifting source hubs and the factors associated with cross-country Zika virus transmission: a phylogeographic network analysis, 2012-2025",
+          "doi": "10.64898/2026.11.12.26367925",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367925v1",
           "source": "medrxiv",
-          "score": 0.3085
+          "score": 0.3226
         }
       ]
     }
