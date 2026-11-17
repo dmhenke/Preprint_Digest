@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-16T10:01:55.546722+00:00",
+  "generated_utc": "2026-11-17T10:02:59.501692+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Kymograph classifiers predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons",
-          "doi": "10.64898/2026.03.16.712192",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712192v2",
+          "title": "Learning gene co-regulation across cells with Multicellular Transformer",
+          "doi": "10.64898/2026.11.14.766251",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766251v1",
           "source": "biorxiv",
-          "score": 0.4904
+          "score": 0.5089
         },
         {
           "rank": 2,
-          "title": "Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc",
-          "doi": "10.64898/2026.11.10.765653",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765653v1",
+          "title": "Integrating Unsupervised Clustering with Transformer-Based Models for De Novo Cell Population Identification",
+          "doi": "10.64898/2026.11.12.766182",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766182v1",
           "source": "biorxiv",
-          "score": 0.4708
+          "score": 0.5047
         },
         {
           "rank": 3,
-          "title": "Single-cell lung eQTL colocalization implicates alveolar epithelial regulatory effects at COPD lung-function loci",
-          "doi": "10.64898/2026.11.12.26367877",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367877v1",
-          "source": "medrxiv",
-          "score": 0.3975
+          "title": "Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation",
+          "doi": "10.64898/2026.08.01.742217",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.01.742217v2",
+          "source": "biorxiv",
+          "score": 0.4782
         },
         {
           "rank": 4,
-          "title": "Point mutations in the FimH lectin domain: predicted folding stability versus conformational dynamics for R60P, Q133K and Y137A",
-          "doi": "10.64898/2026.11.10.765513",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765513v1",
+          "title": "Midkine and the immunosuppressive tumor microenvironment in pancreatic ductal adenocarcinoma: evidence from Mendelian randomization, multi-omics factor analysis, and single-cell transcriptomics",
+          "doi": "10.64898/2026.11.12.766325",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766325v1",
           "source": "biorxiv",
-          "score": 0.3905
+          "score": 0.474
         },
         {
           "rank": 5,
-          "title": "Biomolecular design through latent reasoning with RFD4-Proteina",
-          "doi": "10.64898/2026.11.12.766037",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766037v1",
+          "title": "Spatial causal discovery reveals novel mechanisms of cellular senescence in human liver",
+          "doi": "10.64898/2026.11.13.766422",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766422v1",
           "source": "biorxiv",
-          "score": 0.3903
+          "score": 0.4551
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "DNA methylation assigns sequencing reads to closely related bacterial strains when their sequence cannot",
-          "doi": "10.64898/2026.11.09.765334",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765334v1",
-          "source": "biorxiv",
-          "score": 0.356
+          "title": "An integrative eco-entomovirological study of Culicoides species associated with Oropouche virus in Colombia",
+          "doi": "10.64898/2026.11.12.26367924",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367924v1",
+          "source": "medrxiv",
+          "score": 0.4841
         },
         {
           "rank": 2,
-          "title": "Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates",
-          "doi": "10.64898/2026.11.13.766388",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766388v1",
+          "title": "Extensive SARS-CoV-2 spike sequence diversification converges on a bounded, low-dimensional physicochemical space",
+          "doi": "10.64898/2026.11.12.766201",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766201v1",
           "source": "biorxiv",
-          "score": 0.3406
+          "score": 0.432
         },
         {
           "rank": 3,
-          "title": "Optimizing Avian Influenza Viral RNA Enrichment from Water: A Comparison of Concentration Methods for Low-Volume Samples",
-          "doi": "10.64898/2026.11.13.766378",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766378v1",
+          "title": "Genomic tessellations",
+          "doi": "10.64898/2026.11.13.766490",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766490v1",
           "source": "biorxiv",
-          "score": 0.3361
+          "score": 0.4199
         },
         {
           "rank": 4,
-          "title": "In-country cerebrospinal fluid metagenomic next generation sequencing for pathogen detection in Lima, Peru",
-          "doi": "10.64898/2026.11.13.26367457",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.13.26367457v1",
+          "title": "Wastewater metagenomic sequencing quantitatively tracks transmission dynamics for human pathogenic viruses",
+          "doi": "10.64898/2026.11.13.26368067",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.13.26368067v1",
           "source": "medrxiv",
-          "score": 0.3348
+          "score": 0.4183
         },
         {
           "rank": 5,
-          "title": "Shifting source hubs and the factors associated with cross-country Zika virus transmission: a phylogeographic network analysis, 2012-2025",
-          "doi": "10.64898/2026.11.12.26367925",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367925v1",
-          "source": "medrxiv",
-          "score": 0.3226
+          "title": "De novo design of antiviral monobody binders",
+          "doi": "10.64898/2026.11.12.760042",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.760042v1",
+          "source": "biorxiv",
+          "score": 0.3925
         }
       ]
     }

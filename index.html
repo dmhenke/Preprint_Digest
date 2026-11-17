@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 16, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 17, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Kymograph classifiers predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons</a></li>
-  <li><a href="#core-article-2">Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc</a></li>
-  <li><a href="#core-article-3">Single-cell lung eQTL colocalization implicates alveolar epithelial regulatory effects at COPD lung-function loci</a></li>
-  <li><a href="#core-article-4">Point mutations in the FimH lectin domain: predicted folding stability versus conformational dynamics for R60P, Q133K and Y137A</a></li>
-  <li><a href="#core-article-5">Biomolecular design through latent reasoning with RFD4-Proteina</a></li>
+  <li><a href="#core-article-1">Learning gene co-regulation across cells with Multicellular Transformer</a></li>
+  <li><a href="#core-article-2">Integrating Unsupervised Clustering with Transformer-Based Models for De Novo Cell Population Identification</a></li>
+  <li><a href="#core-article-3">Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation</a></li>
+  <li><a href="#core-article-4">Midkine and the immunosuppressive tumor microenvironment in pancreatic ductal adenocarcinoma: evidence from Mendelian randomization, multi-omics factor analysis, and single-cell transcriptomics</a></li>
+  <li><a href="#core-article-5">Spatial causal discovery reveals novel mechanisms of cellular senescence in human liver</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.03.16.712192v2">Kymograph classifiers predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.03.16.712192">10.64898/2026.03.16.712192</a> · Score: <code>█████░░░░░</code> 0.490</p>
-<p><span class="label">Core Problem:</span> Charcot-Marie-Tooth disease type 2A (CMT2A) is a genetic disease characterized by autosomal dominant MFN2 mutations and dysregulated mitochondrial trafficking</p>
-<p><span class="label">Proposed Solution:</span> While there is currently no FDA-approved CMT2A therapy, the recent development of iPSC motor neuron model systems, high-throughput imaging platforms, and CRISPR-based gene editing technologies holds promise for screening new therapies at scale in vitro. A critical roadblock for therapeutic screening is the development of scalable and robust computational methods to assess the mitochondrial trafficking phenotypes, healthy or diseased, of each iPSC motor neuron sample</p>
-<p><span class="label">Key Impact:</span> The computational approach demonstrated in this paper has broad applicability for future high-throughput screens where organelle trafficking along axons plays a key role in disease pathogenesis</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.14.766251v1">Learning gene co-regulation across cells with Multicellular Transformer</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.14.766251">10.64898/2026.11.14.766251</a> · Score: <code>█████░░░░░</code> 0.509</p>
+<p><span class="label">Core Problem:</span> Understanding how genes coordinate across cells is central to explaining tissue function and disease, yet most existing models still take a single cell as input and therefore emphasize cell-intrinsic regulation</p>
+<p><span class="label">Proposed Solution:</span> We present the Multicellular Transformer (MCT), a foundation model built around a different assumption: cells function together within tissues, so the appropriate unit of input is not one cell in isolation but a set of cells from the same sample. By jointly modeling multiple cells, MCT learns context-aware gene embeddings that capture gene-gene interactions across the tissue environment</p>
+<p><span class="label">Key Impact:</span> By linking gene-level regulation to tissue-scale organization, MCT provides a scalable framework for modeling multicellular biology and enables in silico discovery of therapeutic targets and tissue-specific dependencies</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.10.765653v1">Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.10.765653">10.64898/2026.11.10.765653</a> · Score: <code>█████░░░░░</code> 0.471</p>
-<p><span class="label">Core Problem:</span> Spatial transcriptomics (ST) enables the quantitative measurement of gene expression within tissue sections but is currently limited in spatial resolution, as each spot aggregates signals from multiple cells</p>
-<p><span class="label">Proposed Solution:</span> Recovering single-cell gene expression profiles from these multicellular measurements requires two steps: explicit identification of individual cells and accurate estimation of per-gene expression. While existing methods have demonstrated the feasibility of recovering single-cell expression profiles, accurately estimating gene-level expression for individual cells remains an important challenge</p>
-<p><span class="label">Key Impact:</span> This advancement further improves single-cell resolution analysis in spatial transcriptomics, facilitating more accurate downstream biological analyses</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.12.766182v1">Integrating Unsupervised Clustering with Transformer-Based Models for De Novo Cell Population Identification</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.766182">10.64898/2026.11.12.766182</a> · Score: <code>█████░░░░░</code> 0.505</p>
+<p><span class="label">Core Problem:</span> Single-cell transcriptome sequencing has been widely applied across the life sciences</p>
+<p><span class="label">Proposed Solution:</span> It enables accurate and robust identification of cell types in heterogeneous biological tissues through unsupervised clustering, shallow learning, and deep learning. While deep learning does not outperform shallow learning in classification performance, it streamlines cell type identification by eliminating cumbersome preprocessing procedures</p>
+<p><span class="label">Key Impact:</span> Applied to a public colorectal cancer dataset, the new method, named SCPM-based clustering, resolved cell populations that cannot be unambiguously identified by classical methods alone and led to the discovery of novel candidate markers of colorectal cancer stem cells, demonstrating its utility</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.11.12.26367877v1">Single-cell lung eQTL colocalization implicates alveolar epithelial regulatory effects at COPD lung-function loci</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.26367877">10.64898/2026.11.12.26367877</a> · Score: <code>████░░░░░░</code> 0.397</p>
-<p><span class="label">Core Problem:</span> Background: Chronic obstructive pulmonary disease (COPD) and lung function are highly heritable, but for most genome-wide association study (GWAS) loci, the effector gene and the lung cell type in which it acts are unknown</p>
-<p><span class="label">Proposed Solution:</span> Single-cell expression quantitative trait loci (eQTLs) offer a way to resolve the cell types in which regulatory variants act. Results: We integrated a multi-ancestry GWAS of the ratio of forced expiratory volume in one second to forced vital capacity (FEV1/FVC; Shrine et al</p>
-<p><span class="label">Key Impact:</span> The remaining candidate colocalizations warrant replication</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.08.01.742217v2">Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.08.01.742217">10.64898/2026.08.01.742217</a> · Score: <code>█████░░░░░</code> 0.478</p>
+<p><span class="label">Core Problem:</span> Spatial gene expression results from the superposition of multiple sources of variation in gene expression across different spatial scales, including local microenvironment-associated variation and global spatial gradients</p>
+<p><span class="label">Proposed Solution:</span> Spatial foundation models (SFMs) are large-scale machine learning models trained on cohorts of spatial transcriptomics (ST) data that, in principle, learn the different sources of spatial variation in gene expression. However, the embeddings learned by SFMs are difficult to interpret, and it remains unclear whether they fully capture such spatial variation</p>
+<p><span class="label">Key Impact:</span> &lt;/a&gt;</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.10.765513v1">Point mutations in the FimH lectin domain: predicted folding stability versus conformational dynamics for R60P, Q133K and Y137A</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.10.765513">10.64898/2026.11.10.765513</a> · Score: <code>████░░░░░░</code> 0.391</p>
-<p><span class="label">Core Problem:</span> Background</p>
-<p><span class="label">Proposed Solution:</span> The adhesin FimH attaches uropathogenic Escherichia coli to the urinary epithelium through a force-regulated catch-bond that single lectin-domain substitutions can modulate. How such substitutions reshape the dynamics of the isolated lectin domain, and whether stability predictors anticipate them, is unclear</p>
-<p><span class="label">Key Impact:</span> Keywords: FimH; lectin domain; point mutations; molecular dynamics; folding stability ({Delta}{Delta}G); protein stability prediction; principal component analysis; urinary tract infection</p>
-<p><span class="label">Methodology:</span> Molecular Dynamics techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.12.766325v1">Midkine and the immunosuppressive tumor microenvironment in pancreatic ductal adenocarcinoma: evidence from Mendelian randomization, multi-omics factor analysis, and single-cell transcriptomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.766325">10.64898/2026.11.12.766325</a> · Score: <code>█████░░░░░</code> 0.474</p>
+<p><span class="label">Core Problem:</span> Pancreatic ductal adenocarcinoma (PDAC) remains one of the most lethal malignancies, in part because its tumor microenvironment actively suppresses antitumor immunity</p>
+<p><span class="label">Proposed Solution:</span> Midkine (MDK) is a secreted heparin-binding growth factor that is overexpressed in a majority of PDAC tumors, but whether it contributes causally to disease risk and through which cell types it acts have not been firmly established. We combined cis-eQTL Mendelian randomization (GTEx pancreas, n = 328 donors; FinnGen PDAC, 1,252 cases) with multi-omics factor analysis (MOFA) of TCGA-PAAD tumors (n = 149), single-sample gene set enrichment analysis (ssGSEA), cross-species single-cell RNA sequencing, and DepMap CRISPR dependency screening</p>
+<p><span class="label">Key Impact:</span> Collectively, these results support a model in which MDK acts through the stromal-immune compartment rather than through tumor cell-intrinsic mechanisms, and raise the possibility that MDK blockade could restore antitumor immunity in PDAC</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.12.766037v1">Biomolecular design through latent reasoning with RFD4-Proteina</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.766037">10.64898/2026.11.12.766037</a> · Score: <code>████░░░░░░</code> 0.390</p>
-<p><span class="label">Core Problem:</span> Biomolecular design requires finding chemically and geometrically compatible arrangements of interacting atoms and molecules</p>
-<p><span class="label">Proposed Solution:</span> The complexity of problems which can be tackled by deep learning design models is limited by both the molecular landscape they encompass and their ability to explore that landscape effectively. Here we introduce RFD4-Proteina, which addresses these limitations through intrinsic and extrinsic reasoning within a shared chemical and conformational latent space</p>
-<p><span class="label">Key Impact:</span> By unifying diverse chemistry, conformational flexibility, and scalable reasoning in a single physically grounded latent space, RFD4-Proteina expands the frontier of biomolecular design</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.13.766422v1">Spatial causal discovery reveals novel mechanisms of cellular senescence in human liver</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.766422">10.64898/2026.11.13.766422</a> · Score: <code>█████░░░░░</code> 0.455</p>
+<p><span class="label">Core Problem:</span> The complex network of mechanisms that surround cellular senescence, such as its precise causes and effects, are not entirely understood at present</p>
+<p><span class="label">Proposed Solution:</span> Senescence occurs when a cell permanently ceases dividing, halts apoptosis, stops performing its normal functions, and begins secreting chemicals that can induce other cells in its environment to also become senescent. Senescent cells are present in both healthy and unhealthy tissue, but their abundance is positively correlated with disease and age</p>
+<p><span class="label">Key Impact:</span> This report includes an assessment of whether the data meet key requirements for causal analysis, the transcripts identified by causal analyses as causes and effects of senescence marker genes, and pathway analyses of those gene sets</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.03.16.712192">Kymograph classifiers predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.10.765513">Point mutations in the FimH lectin domain: predicted folding stability versus conformational dynamics for R60P, Q133K and Y137A</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.10.765653">Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.12.26367877">Single-cell lung eQTL colocalization implicates alveolar epithelial regulatory effects at COPD lung-function loci</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.12.766037">Biomolecular design through latent reasoning with RFD4-Proteina</a><span class="history-date">Nov 16, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.10.26365445">Enrichment of Rare Exonic Variants in Cognitive Superagers from Centenarian Families</a><span class="history-date">Nov 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.10.26367070">Cancer risk and survival outcomes in germline POT1 variant carriers</a><span class="history-date">Nov 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.10.26367605">Nationwide Functional Profiling Enables Clinical Reclassification of KCNH2 Variants in the French LQT2 Population</a><span class="history-date">Nov 13, 2026</span></li>
@@ -948,57 +953,57 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">DNA methylation assigns sequencing reads to closely related bacterial strains when their sequence cannot</a></li>
-  <li><a href="#virology-article-2">Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates</a></li>
-  <li><a href="#virology-article-3">Optimizing Avian Influenza Viral RNA Enrichment from Water: A Comparison of Concentration Methods for Low-Volume Samples</a></li>
-  <li><a href="#virology-article-4">In-country cerebrospinal fluid metagenomic next generation sequencing for pathogen detection in Lima, Peru</a></li>
-  <li><a href="#virology-article-5">Shifting source hubs and the factors associated with cross-country Zika virus transmission: a phylogeographic network analysis, 2012-2025</a></li>
+  <li><a href="#virology-article-1">An integrative eco-entomovirological study of Culicoides species associated with Oropouche virus in Colombia</a></li>
+  <li><a href="#virology-article-2">Extensive SARS-CoV-2 spike sequence diversification converges on a bounded, low-dimensional physicochemical space</a></li>
+  <li><a href="#virology-article-3">Genomic tessellations</a></li>
+  <li><a href="#virology-article-4">Wastewater metagenomic sequencing quantitatively tracks transmission dynamics for human pathogenic viruses</a></li>
+  <li><a href="#virology-article-5">De novo design of antiviral monobody binders</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.09.765334v1">DNA methylation assigns sequencing reads to closely related bacterial strains when their sequence cannot</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.09.765334">10.64898/2026.11.09.765334</a> · Score: <code>████░░░░░░</code> 0.356</p>
-<p><span class="label">Core Problem:</span> Clinical and public-health questions often concern strains rather than species, yet co-resident strains of one species can be so closely related that a single long read carries no sequence difference between them</p>
-<p><span class="label">Proposed Solution:</span> We measured how often this happens in 639 pairs of isolates of Enterococcus faecium, Klebsiella pneumoniae, Listeria monocytogenes and Staphylococcus aureus sequenced on one nanopore platform. Among the 297 pairs above 99% average nucleotide identity (ANI), 40</p>
-<p><span class="label">Key Impact:</span> DNA methylation therefore supplies strain evidence on reads whose sequence carries none, and whether it will do so for a given pair of strains can be estimated before sequencing</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.11.12.26367924v1">An integrative eco-entomovirological study of Culicoides species associated with Oropouche virus in Colombia</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.26367924">10.64898/2026.11.12.26367924</a> · Score: <code>█████░░░░░</code> 0.484</p>
+<p><span class="label">Core Problem:</span> Background Oropouche virus (OROV) causes recurrent outbreaks in South America, including Colombia</p>
+<p><span class="label">Proposed Solution:</span> Although Culicoides paraensis is the principal recognized urban vector, the potential involvement of other Culicoides species remains incompletely understood. In Colombia, studies combining viral detection, host-feeding behavior, and ecological suitability are scarce</p>
+<p><span class="label">Key Impact:</span> These findings expand current knowledge of OROV-associated Culicoides diversity and provide a basis for targeted entomological surveillance and experimental studies to clarify their potential roles in virus transmission</p>
 <p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.13.766388v1">Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.766388">10.64898/2026.11.13.766388</a> · Score: <code>███░░░░░░░</code> 0.341</p>
-<p><span class="label">Core Problem:</span> Understanding genome plasticity in malaria parasites and the diversity of their repetitive gene families requires high-quality reference genomes derived from parasites recently isolated from patients</p>
-<p><span class="label">Proposed Solution:</span> However, generating such genomes in Plasmodium falciparum remains challenging owing to the parasite&#x27;s extreme AT content, extensive repetitive regions, and the frequent occurrence of multiclonal infections in endemic settings. As a result, most available reference genomes are derived from laboratory-adapted strains, that have experienced prolonged in vitro maintenance, and that incompletely represent natural parasite diversity</p>
-<p><span class="label">Key Impact:</span> falciparum, supporting the development of geographically-diverse, field-relevant malaria parasite reference genomes</p>
-<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.12.766201v1">Extensive SARS-CoV-2 spike sequence diversification converges on a bounded, low-dimensional physicochemical space</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.766201">10.64898/2026.11.12.766201</a> · Score: <code>████░░░░░░</code> 0.432</p>
+<p><span class="label">Core Problem:</span> During the COVID-19 pandemic, SARS-CoV-2 accumulated extensive amino acid variation in its spike protein</p>
+<p><span class="label">Proposed Solution:</span> However, the extent to which sequence diversification translates into physicochemical diversity remains unclear. Here, we analyzed 271,769 unique spike protein sequences from 12 geographical regions using three physicochemical descriptors: net charge at pH 7</p>
+<p><span class="label">Key Impact:</span> This framework provides a quantitative approach for investigating physicochemical constraints on viral protein evolution and may inform future machine learning approaches to epitope prediction and vaccine antigen design</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.13.766378v1">Optimizing Avian Influenza Viral RNA Enrichment from Water: A Comparison of Concentration Methods for Low-Volume Samples</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.766378">10.64898/2026.11.13.766378</a> · Score: <code>███░░░░░░░</code> 0.336</p>
-<p><span class="label">Core Problem:</span> Feed-baited water bins may provide a complementary approach for avian influenza virus (AIV) surveillance in wild waterbird populations</p>
-<p><span class="label">Proposed Solution:</span> In a previous study, water from these bins was sampled using swabs after exposure to visiting birds, but the low sample volume limited the detection and subsequent characterization of AIV RNA (F. I</p>
-<p><span class="label">Key Impact:</span> Regarding storage, minus 20 degrees Celsius provided the best conditions for maintaining AIV RNA detection, with relatively stable results for up to four weeks</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.13.766490v1">Genomic tessellations</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.766490">10.64898/2026.11.13.766490</a> · Score: <code>████░░░░░░</code> 0.420</p>
+<p><span class="label">Core Problem:</span> Periodicity is ubiquitous in genomic data</p>
+<p><span class="label">Proposed Solution:</span> Assembled sequences are dense with homopolymers, microsatellites, and large satellite arrays, which contribute to phenotype, variation, and disease. Third-generation sequencing technologies, such as Oxford Nanopore (ONT) and PacBio HiFi, has enabled longer and increasingly accurate reads, but have brought with them systematic error biases in repetitive regions, where insertions and deletions can distort array lengths and mimic or obscure biological variation</p>
+<p><span class="label">Key Impact:</span> Genomic tessellations provide a canonical representation of repetitive and non-repetitive DNA and enable efficient sequence analyses while preserving homology</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.11.13.26367457v1">In-country cerebrospinal fluid metagenomic next generation sequencing for pathogen detection in Lima, Peru</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.26367457">10.64898/2026.11.13.26367457</a> · Score: <code>███░░░░░░░</code> 0.335</p>
-<p><span class="label">Core Problem:</span> Background: Central nervous system (CNS) infections are a major cause of morbidity and mortality in low- and middle-income countries such as Peru</p>
-<p><span class="label">Proposed Solution:</span> However, their epidemiology is poorly characterized due to a wide range of endemic and opportunistic pathogens involved and limited access to specialized neurodiagnostic testing. Cerebrospinal fluid (CSF) metagenomic next-generation sequencing (mNGS) can detect any pathogen in a single hypothesis-free assay but has largely been confined to reference laboratories in high-income countries due to high cost and infrastructure requirements</p>
-<p><span class="label">Key Impact:</span> By utilizing available, lower-output sequencers, we overcame a principal barrier to deploying this technology where the burden of undiagnosed CNS infection is greatest</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.11.13.26368067v1">Wastewater metagenomic sequencing quantitatively tracks transmission dynamics for human pathogenic viruses</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.26368067">10.64898/2026.11.13.26368067</a> · Score: <code>████░░░░░░</code> 0.418</p>
+<p><span class="label">Core Problem:</span> Wastewater metagenomic sequencing theoretically characterizes all nucleic acids in a sample, but whether sequencing reads reflect transmission dynamics of circulating viruses in the contributing community is unknown</p>
+<p><span class="label">Proposed Solution:</span> We evaluated if wastewater metagenomic sequencing data can be used to reconstruct transmission dynamics of endemic, routinely circulating viruses. Using deep, untargeted wastewater metagenomic sequencing data from four locations in the United States, we generated quantitative estimates of transmission dynamics (time-varying growth rate and effective reproduction number) within a Bayesian framework for widely monitored viruses</p>
+<p><span class="label">Key Impact:</span> Wastewater metagenomic sequencing can support both novel pathogen detection and routine surveillance of endemic pathogens</p>
+<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.medrxiv.org/content/10.64898/2026.11.12.26367925v1">Shifting source hubs and the factors associated with cross-country Zika virus transmission: a phylogeographic network analysis, 2012-2025</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.26367925">10.64898/2026.11.12.26367925</a> · Score: <code>███░░░░░░░</code> 0.323</p>
-<p><span class="label">Core Problem:</span> Background Zika virus local transmission has been reported in at least 97 countries and territories, but the sources, routes, and determinants of cross-country spread remain incompletely understood</p>
-<p><span class="label">Proposed Solution:</span> We reconstructed a phylogeographic network, characterized source activity across epidemic phases, and examined factors associated with identified cross-country transmission events. Methodology/Principal Findings We analyzed a time-scaled Nextstrain phylogeny of 1,043 Zika virus genomes collected between February 2013 and March 2026</p>
-<p><span class="label">Key Impact:</span> High source-country incidence, greater air travel, and shorter distance can help identify country pairs requiring closer surveillance, alongside established routes in the Americas and persistent or emerging Asian sources, particularly as El Nino may increase vector-borne transmission potential in 2026-2027</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.12.760042v1">De novo design of antiviral monobody binders</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.12.760042">10.64898/2026.11.12.760042</a> · Score: <code>████░░░░░░</code> 0.392</p>
+<p><span class="label">Core Problem:</span> Monobodies (Mobs) are a class of immunoglobulin (Ig)-like proteins that have emerged as promising therapeutic scaffolds for applications ranging from antiviral therapy to cancer treatment</p>
+<p><span class="label">Proposed Solution:</span> Unlike conventional monoclonal antibodies (mAbs), Mobs can be readily expressed in Escherichia coli at high yields, offering important advantages in overall developability. However, discovering antigen-specific Mobs with high binding affinity traditionally requires screening large, randomized in vitro libraries</p>
+<p><span class="label">Key Impact:</span> These findings highlight MobGen&#x27;s potential for de novo design of Mobs against emerging viruses with pandemic potential</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -1006,6 +1011,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.09.765334">DNA methylation assigns sequencing reads to closely related bacterial strains when their sequence cannot</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.12.26367925">Shifting source hubs and the factors associated with cross-country Zika virus transmission: a phylogeographic network analysis, 2012-2025</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.13.26367457">In-country cerebrospinal fluid metagenomic next generation sequencing for pathogen detection in Lima, Peru</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.13.766378">Optimizing Avian Influenza Viral RNA Enrichment from Water: A Comparison of Concentration Methods for Low-Volume Samples</a><span class="history-date">Nov 16, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.13.766388">Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates</a><span class="history-date">Nov 16, 2026</span></li>
   <li><a href="https://doi.org/10.1101/2025.05.26.25328280">A multi-region discrete time chain binomial model for infectious disease transmission</a><span class="history-date">Nov 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.10.26367744">Phylogeography and transmission dynamics of the 2025-2026 Utah-Arizona measles outbreak: a retrospective genomic epidemiology study</a><span class="history-date">Nov 13, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.10.26367756">Discrete dynamic survival analysis of epidemic case line lists</a><span class="history-date">Nov 13, 2026</span></li>
@@ -1357,7 +1367,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-16T10:01:55 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-17T10:02:59 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
