@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-17T10:02:59.501692+00:00",
+  "generated_utc": "2026-11-18T10:03:12.666761+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Learning gene co-regulation across cells with Multicellular Transformer",
-          "doi": "10.64898/2026.11.14.766251",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766251v1",
+          "title": "CADD-SV v2.0: An Extended Framework for Structural Variant Deleteriousness Prediction Using Coordinate- and Sequence-Based Features",
+          "doi": "10.64898/2026.07.08.736040",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.736040v2",
           "source": "biorxiv",
-          "score": 0.5089
+          "score": 0.4862
         },
         {
           "rank": 2,
-          "title": "Integrating Unsupervised Clustering with Transformer-Based Models for De Novo Cell Population Identification",
-          "doi": "10.64898/2026.11.12.766182",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766182v1",
+          "title": "AlphaGenome 2 predicts regulatory activity and variant effects across cell states",
+          "doi": "10.64898/2026.11.11.765857",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765857v1",
           "source": "biorxiv",
-          "score": 0.5047
+          "score": 0.4701
         },
         {
           "rank": 3,
-          "title": "Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation",
-          "doi": "10.64898/2026.08.01.742217",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.08.01.742217v2",
-          "source": "biorxiv",
-          "score": 0.4782
+          "title": "Integrated Genomic and Transcriptomic Profiling Reveals Distinct Biological Programs and Therapeutic Opportunities in Cancer of Unknown Primary",
+          "doi": "10.64898/2026.11.14.26368097",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.14.26368097v1",
+          "source": "medrxiv",
+          "score": 0.4626
         },
         {
           "rank": 4,
-          "title": "Midkine and the immunosuppressive tumor microenvironment in pancreatic ductal adenocarcinoma: evidence from Mendelian randomization, multi-omics factor analysis, and single-cell transcriptomics",
-          "doi": "10.64898/2026.11.12.766325",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766325v1",
+          "title": "HyperGenie: A method for predicting enzymatic gene essentiality using hypergraph neural networks and genome-scale metabolic models",
+          "doi": "10.64898/2026.11.15.766798",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766798v1",
           "source": "biorxiv",
-          "score": 0.474
+          "score": 0.4621
         },
         {
           "rank": 5,
-          "title": "Spatial causal discovery reveals novel mechanisms of cellular senescence in human liver",
-          "doi": "10.64898/2026.11.13.766422",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766422v1",
+          "title": "SpaceMACE: Spatially-Aware Tumour Cell Annotation for Spatial Transcriptomics",
+          "doi": "10.64898/2026.11.16.763092",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.763092v1",
           "source": "biorxiv",
-          "score": 0.4551
+          "score": 0.4617
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "An integrative eco-entomovirological study of Culicoides species associated with Oropouche virus in Colombia",
-          "doi": "10.64898/2026.11.12.26367924",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367924v1",
+          "title": "Practical evaluation of AI models to forecast a respiratory seasonal epidemic in Canada",
+          "doi": "10.64898/2026.11.14.26368122",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.14.26368122v1",
           "source": "medrxiv",
-          "score": 0.4841
+          "score": 0.5303
         },
         {
           "rank": 2,
-          "title": "Extensive SARS-CoV-2 spike sequence diversification converges on a bounded, low-dimensional physicochemical space",
-          "doi": "10.64898/2026.11.12.766201",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766201v1",
-          "source": "biorxiv",
-          "score": 0.432
+          "title": "CRISPR-Cas3-Based Detection of Cryptosporidium and Pepper Mild Mottle Virus in Environmental Waters Using a Test-Strip Readout",
+          "doi": "10.64898/2026.11.13.26368066",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.13.26368066v1",
+          "source": "medrxiv",
+          "score": 0.4359
         },
         {
           "rank": 3,
-          "title": "Genomic tessellations",
-          "doi": "10.64898/2026.11.13.766490",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766490v1",
+          "title": "Air and environmental sampling expand metagenomic viral surveillance in Cambodian pig slaughterhouses",
+          "doi": "10.64898/2026.11.16.765117",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.765117v1",
           "source": "biorxiv",
-          "score": 0.4199
+          "score": 0.4277
         },
         {
           "rank": 4,
-          "title": "Wastewater metagenomic sequencing quantitatively tracks transmission dynamics for human pathogenic viruses",
-          "doi": "10.64898/2026.11.13.26368067",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.13.26368067v1",
-          "source": "medrxiv",
-          "score": 0.4183
+          "title": "TRIM5\u03b1, TRIM56 and TRIM69 differentially regulate dengue virus 2 infection through selective NS2B3-mediated antagonism",
+          "doi": "10.64898/2026.11.16.767120",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767120v1",
+          "source": "biorxiv",
+          "score": 0.3828
         },
         {
           "rank": 5,
-          "title": "De novo design of antiviral monobody binders",
-          "doi": "10.64898/2026.11.12.760042",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.760042v1",
+          "title": "Emergence of a Novel Bacteriophage of Toxigenic Vibrio cholerae in Haiti",
+          "doi": "10.64898/2026.11.15.766889",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766889v1",
           "source": "biorxiv",
-          "score": 0.3925
+          "score": 0.3706
         }
       ]
     }
