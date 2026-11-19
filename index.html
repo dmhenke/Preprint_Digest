@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 18, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 19, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">CADD-SV v2.0: An Extended Framework for Structural Variant Deleteriousness Prediction Using Coordinate- and Sequence-Based Features</a></li>
-  <li><a href="#core-article-2">AlphaGenome 2 predicts regulatory activity and variant effects across cell states</a></li>
-  <li><a href="#core-article-3">Integrated Genomic and Transcriptomic Profiling Reveals Distinct Biological Programs and Therapeutic Opportunities in Cancer of Unknown Primary</a></li>
-  <li><a href="#core-article-4">HyperGenie: A method for predicting enzymatic gene essentiality using hypergraph neural networks and genome-scale metabolic models</a></li>
-  <li><a href="#core-article-5">SpaceMACE: Spatially-Aware Tumour Cell Annotation for Spatial Transcriptomics</a></li>
+  <li><a href="#core-article-1">Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes</a></li>
+  <li><a href="#core-article-2">GenVinci reconstructs 3D molecular tissue scenes from histology to map senescence across aging and disease</a></li>
+  <li><a href="#core-article-3">DRAFT: graph-recurrent learning of dynamic gene regulatory networks along single-cell multi-omics trajectories</a></li>
+  <li><a href="#core-article-4">Computable Genomes: A Layered Computational Framework for Non-Coding DNA and Cellular Behavior</a></li>
+  <li><a href="#core-article-5">scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.07.08.736040v2">CADD-SV v2.0: An Extended Framework for Structural Variant Deleteriousness Prediction Using Coordinate- and Sequence-Based Features</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.07.08.736040">10.64898/2026.07.08.736040</a> · Score: <code>█████░░░░░</code> 0.486</p>
-<p><span class="label">Core Problem:</span> Structural variants are a major source of genomic variation and contribute to human disease and evolution through diverse mechanisms, yet their functional interpretation remains challenging</p>
-<p><span class="label">Proposed Solution:</span> We present CADD-SV v2. 0, an improved machine learning framework for scoring SV deleteriousness that expands on the original CADD-SV implementation</p>
-<p><span class="label">Key Impact:</span> 0 outperforms its previous version and other tools in prioritizing deleterious variants across major SV types, including some previously unsupported, and substantially improves the computational workflow, increasing predictive power for genome-wide SV interpretation</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767431v1">Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767431">10.64898/2026.11.17.767431</a> · Score: <code>██████░░░░</code> 0.552</p>
+<p><span class="label">Core Problem:</span> Antimicrobial peptides (AMPs) offer a promising alternative to conventional antibiotics amid the growing global threat of antimicrobial resistance</p>
+<p><span class="label">Proposed Solution:</span> Expanding AMP discovery requires both effective computational tools to accurately identify candidate peptides and access to underexplored biological resources that may harbor novel AMPs. However, the comparative performance of existing computational methods remains poorly understood, while ancient microbiomes have received limited attention as potential reservoirs of AMPs</p>
+<p><span class="label">Key Impact:</span> By integrating supervised machine learning with reinforcement learning, this study expands AMP discovery beyond modern microbiome catalogs and provides new opportunities to identify potentially novel AMPs</p>
 <p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.11.765857v1">AlphaGenome 2 predicts regulatory activity and variant effects across cell states</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.11.765857">10.64898/2026.11.11.765857</a> · Score: <code>█████░░░░░</code> 0.470</p>
-<p><span class="label">Core Problem:</span> Most genetic variants associated with human traits and diseases lie in non-coding DNA, where they can alter gene regulation in specific cell types and states</p>
-<p><span class="label">Proposed Solution:</span> Single-cell atlases chart these states across tissues and development, but rarely profile enough donors to associate variants with expression directly. Deep learning models could bridge this gap by predicting variant effects from DNA sequence, yet they poorly distinguish related cell states and require fine-tuning for new datasets</p>
-<p><span class="label">Key Impact:</span> As single-cell profiling expands across development, tissues, and disease cohorts, AG2 provides a blueprint for turning observational atlases into variant effect maps</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767412v1">GenVinci reconstructs 3D molecular tissue scenes from histology to map senescence across aging and disease</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767412">10.64898/2026.11.17.767412</a> · Score: <code>█████░░░░░</code> 0.519</p>
+<p><span class="label">Core Problem:</span> Spatial omics has generated measurements at unprecedented scale, yet computational approaches remain largely confined to individual modalities and 2D representations</p>
+<p><span class="label">Proposed Solution:</span> Here we assemble ImageOmicsNet-300M, a corpus of 300 million single-cell and spatial transcriptomic profiles, including 24. 9 million H&amp;E-predicted virtual spatial transcriptomics profiles, and 4,623 H&amp;E sections</p>
+<p><span class="label">Key Impact:</span> These findings establish GenVinci as a framework mapping senescence in 3D across scales</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.11.14.26368097v1">Integrated Genomic and Transcriptomic Profiling Reveals Distinct Biological Programs and Therapeutic Opportunities in Cancer of Unknown Primary</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.14.26368097">10.64898/2026.11.14.26368097</a> · Score: <code>█████░░░░░</code> 0.463</p>
-<p><span class="label">Core Problem:</span> Background: Cancer of unknown primary (CUP) is a metastatic, heterogeneous malignancy accounting for 2-5% of cancer diagnoses globally</p>
-<p><span class="label">Proposed Solution:</span> Failure to identify the primary site precludes tumor-type-specific therapy and, together with an aggressive clinical course, contributes to poor survival. The biological mechanisms driving these behaviors remain poorly understood</p>
-<p><span class="label">Key Impact:</span> Together, these findings provide a molecular framework for understanding CUP heterogeneity and support therapeutic stratification by both ToO predictions and tumor-specific molecular alterations</p>
-<p><span class="label">Methodology:</span> Multi-Omics techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767145v1">DRAFT: graph-recurrent learning of dynamic gene regulatory networks along single-cell multi-omics trajectories</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767145">10.64898/2026.11.17.767145</a> · Score: <code>█████░░░░░</code> 0.508</p>
+<p><span class="label">Core Problem:</span> Single-cell multi-omics data offer an opportunity to resolve how gene regulatory networks (GRNs) are rewired during cell-fate transitions, but most existing methods infer static snapshots, ignore temporal dependencies or assume linear regulation</p>
+<p><span class="label">Proposed Solution:</span> Here we present DRAFT, a deep learning framework that combines graph attention with recurrent temporal memory to infer dynamic GRNs from time-resolved single-cell multi-omics data. On simulated data, DRAFT outperforms existing methods in accuracy and temporal smoothness</p>
+<p><span class="label">Key Impact:</span> DRAFT also enables nonlinear alignment of co-developing lineages and reveals stage-specific cell-cell communication</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.15.766798v1">HyperGenie: A method for predicting enzymatic gene essentiality using hypergraph neural networks and genome-scale metabolic models</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.15.766798">10.64898/2026.11.15.766798</a> · Score: <code>█████░░░░░</code> 0.462</p>
-<p><span class="label">Core Problem:</span> Identifying essential genes in bacteria is crucial for drug discovery and synthetic biology</p>
-<p><span class="label">Proposed Solution:</span> Genome-scale metabolic models (GEMs) evaluated via flux balance analysis remain standard, yet they rely on the often-invalid premise that mutant strains optimize for maximum growth. Recent machine learning approaches circumvent this limitation using random forests or graph neural networks on mass flow graphs (MFGs)</p>
-<p><span class="label">Key Impact:</span> Finally, coupling hypergraph representations with SHAP attribution provides actionable mechanistic insights into metabolic rewiring, establishing a data-efficient, interpretable platform for discovering novel antibiotic targets</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.10.765552v1">Computable Genomes: A Layered Computational Framework for Non-Coding DNA and Cellular Behavior</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.10.765552">10.64898/2026.11.10.765552</a> · Score: <code>█████░░░░░</code> 0.505</p>
+<p><span class="label">Core Problem:</span> Genome-wide association studies have catalogued tens of thousands of trait-associated loci, most of them in non-coding DNA, yet for most loci the path from nucleotide to phenotype remains correlational</p>
+<p><span class="label">Proposed Solution:</span> We propose a layered computational decomposition of the genome as a complement to data-driven approaches: sequence as formal language, sequence as information-bearing signal, mobile elements as runtime, compilation to interaction networks through thermodynamic and rule-based models, and execution as cellular and multicellular dynamics. Each layer is defined by its inputs, outputs and formalisms, and we set out where the frame breaks down, including the looseness of algorithmic-information estimates, the triviality of universality results and the failure of string grammars at the chromatin level</p>
+<p><span class="label">Key Impact:</span> The argument is not that the genome &quot;is&quot; a program, but that treating it as one supplies formal tools whose predictions can be checked</p>
+<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.16.763092v1">SpaceMACE: Spatially-Aware Tumour Cell Annotation for Spatial Transcriptomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.16.763092">10.64898/2026.11.16.763092</a> · Score: <code>█████░░░░░</code> 0.462</p>
-<p><span class="label">Core Problem:</span> Accurate discrimination between tumour and non-tumour cells is essential for interpreting spatial transcriptomics data and identifying spatially resolved therapeutic targets</p>
-<p><span class="label">Proposed Solution:</span> Existing tumour-cell annotation approaches were primarily developed for single-cell RNA sequencing and do not explicitly incorporate the spatial organization of cells. Here, we introduce SpaceMACE, an extension of the MACE tumour-cell annotation framework for sequencing-based and imaging-based spatial transcriptomics</p>
-<p><span class="label">Key Impact:</span> Together, these results demonstrate that SpaceMACE provides a scalable and platform-independent framework for tumour-cell annotation in spatial transcriptomics and supports the spatial investigation of tumour-specific molecular targets</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767296v1">scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767296">10.64898/2026.11.17.767296</a> · Score: <code>█████░░░░░</code> 0.487</p>
+<p><span class="label">Core Problem:</span> Large-scale pretraining can improve scRNA-seq representations through measurement enrichment: estimating what the same measurement would reveal at greater UMI depth under the same measurement process</p>
+<p><span class="label">Proposed Solution:</span> We introduce scUNVEIL, a self-supervised model trained through next-UMI prediction. We show that the Bayes-optimal next-UMI predictor is the posterior mean of the transcriptome composition that arbitrarily deep sequencing would reveal</p>
+<p><span class="label">Key Impact:</span> Further evaluations show that these representations improve prediction of tumor reactivity, mitochondrial membrane potential, cell morphology, and lineage-associated treatment outcomes</p>
+<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.07.08.736040">CADD-SV v2.0: An Extended Framework for Structural Variant Deleteriousness Prediction Using Coordinate- and Sequence-Based Features</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.11.765857">AlphaGenome 2 predicts regulatory activity and variant effects across cell states</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.14.26368097">Integrated Genomic and Transcriptomic Profiling Reveals Distinct Biological Programs and Therapeutic Opportunities in Cancer of Unknown Primary</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.15.766798">HyperGenie: A method for predicting enzymatic gene essentiality using hypergraph neural networks and genome-scale metabolic models</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.16.763092">SpaceMACE: Spatially-Aware Tumour Cell Annotation for Spatial Transcriptomics</a><span class="history-date">Nov 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.08.01.742217">Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation</a><span class="history-date">Nov 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.12.766182">Integrating Unsupervised Clustering with Transformer-Based Models for De Novo Cell Population Identification</a><span class="history-date">Nov 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.12.766325">Midkine and the immunosuppressive tumor microenvironment in pancreatic ductal adenocarcinoma: evidence from Mendelian randomization, multi-omics factor analysis, and single-cell transcriptomics</a><span class="history-date">Nov 17, 2026</span></li>
@@ -958,64 +963,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Practical evaluation of AI models to forecast a respiratory seasonal epidemic in Canada</a></li>
-  <li><a href="#virology-article-2">CRISPR-Cas3-Based Detection of Cryptosporidium and Pepper Mild Mottle Virus in Environmental Waters Using a Test-Strip Readout</a></li>
-  <li><a href="#virology-article-3">Air and environmental sampling expand metagenomic viral surveillance in Cambodian pig slaughterhouses</a></li>
-  <li><a href="#virology-article-4">TRIM5α, TRIM56 and TRIM69 differentially regulate dengue virus 2 infection through selective NS2B3-mediated antagonism</a></li>
-  <li><a href="#virology-article-5">Emergence of a Novel Bacteriophage of Toxigenic Vibrio cholerae in Haiti</a></li>
+  <li><a href="#virology-article-1">Target-enrichment sequencing reveals intergenotypic reassortment of infectious salmon anaemia virus in Atlantic Canada</a></li>
+  <li><a href="#virology-article-2">Tracking the trajectory of individual conjugative plasmids in bacterial communities using CRISPR acquisition-based recording</a></li>
+  <li><a href="#virology-article-3">Identifying disease-associated dysbiosis in image-based spatial microbiome via MiSA</a></li>
+  <li><a href="#virology-article-4">Tissue-specific genomic and transcriptomic dynamics of the OsHV-1 lytic cycle in the Pacific oyster Magallana gigas revealed by long-read sequencing</a></li>
+  <li><a href="#virology-article-5">A metacommunity of complex microbial communities shows high spatial synchrony, ecological memory, gradual succession and invasion resistance</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.11.14.26368122v1">Practical evaluation of AI models to forecast a respiratory seasonal epidemic in Canada</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.14.26368122">10.64898/2026.11.14.26368122</a> · Score: <code>█████░░░░░</code> 0.530</p>
-<p><span class="label">Core Problem:</span> Public health organizations can benefit greatly from infectious disease epidemic forecasting to guide and support interventions and policies that reduce morbidity</p>
-<p><span class="label">Proposed Solution:</span> However, accurate and reliable epidemic forecasting remains notoriously challenging and is an evolving field in which new scientific advances continue to support forecasting efforts. Computational models that underpin artificial intelligence (AI) models are promising developments that may improve seasonal epidemic forecasting</p>
-<p><span class="label">Key Impact:</span> We therefore conclude that AI models are best as a complement, rather than a replacement, to CEMs, which remain crucial for interpretability and informing decision-making</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.11.765878v1">Target-enrichment sequencing reveals intergenotypic reassortment of infectious salmon anaemia virus in Atlantic Canada</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.11.765878">10.64898/2026.11.11.765878</a> · Score: <code>█████░░░░░</code> 0.489</p>
+<p><span class="label">Core Problem:</span> Infectious salmon anaemia virus (ISAV) causes severe disease and substantial economic losses in farmed Atlantic salmon (Salmo salar)</p>
+<p><span class="label">Proposed Solution:</span> The virus has an eight-segment, negative-sense single-stranded RNA (ssRNA) genome and is divided into European and North American genotypes. Despite their co-circulation in locations such as the Atlantic coast of Canada, reassortment between these genotypes has never been observed</p>
+<p><span class="label">Key Impact:</span> These findings identify an intergenotypic reassortant lineage detected across multiple farms in the Bay of Fundy and demonstrate the value of whole-genome sequencing for detecting reassortment, mixed infections and epidemiologically relevant viral diversity</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.13.26368066v1">CRISPR-Cas3-Based Detection of Cryptosporidium and Pepper Mild Mottle Virus in Environmental Waters Using a Test-Strip Readout</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.26368066">10.64898/2026.11.13.26368066</a> · Score: <code>████░░░░░░</code> 0.436</p>
-<p><span class="label">Core Problem:</span> Test-strip-based CRISPR diagnostics could enable decentralized nucleic acid monitoring, but their application to environmental waters has been constrained by insufficient sensitivity and complex environmental matrices</p>
-<p><span class="label">Proposed Solution:</span> Here, we developed a highly sensitive and specific assay combining reverse transcription-nested recombinase polymerase amplification (RT-nRPA) with Cas3-Operated Nucleic Acid detectioN (CONAN) for test-strip-based detection of Cryptosporidium 18S rRNA and pepper mild mottle virus (PMMoV). Introducing a second, nRPA step reduced the 50% limit of detection (LOD50) to 2</p>
-<p><span class="label">Key Impact:</span> Consequently, nRPA-CONAN can overcome sensitivity and specificity constraints and offer a practical route toward instrument-light nucleic acid monitoring in environmental waters</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767295v1">Tracking the trajectory of individual conjugative plasmids in bacterial communities using CRISPR acquisition-based recording</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767295">10.64898/2026.11.17.767295</a> · Score: <code>████░░░░░░</code> 0.420</p>
+<p><span class="label">Core Problem:</span> Horizontal gene transfer mediated by conjugative plasmids is a primary driver of bacterial evolution and the spread of adaptive traits, including antibiotic resistance determinants</p>
+<p><span class="label">Proposed Solution:</span> Tracking how these plasmids disseminate through complex microbial communities remains a major challenge. Current methodologies often yield static, endpoint snapshots of host identity, overlooking transient transfer events and plasmid encounters with the co-resident mobilome</p>
+<p><span class="label">Key Impact:</span> Because spacers are integrated chronologically, it further offers the potential to reconstruct multi-step transfer trajectories across natural microbial networks</p>
 <p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.16.765117v1">Air and environmental sampling expand metagenomic viral surveillance in Cambodian pig slaughterhouses</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.16.765117">10.64898/2026.11.16.765117</a> · Score: <code>████░░░░░░</code> 0.428</p>
-<p><span class="label">Core Problem:</span> Surveillance of viruses in swine depends largely on the sampling of individual animals chosen at random, often limiting detection breadth</p>
-<p><span class="label">Proposed Solution:</span> Environmental sampling has emerged as an alternative strategy, enabling faster, safer and more cost-effective pathogen monitoring at the human-animal interfaces. Across nine visits to two Cambodian slaughterhouses, we applied metagenomic sequencing to air samples (n = 25), faeces (n = 156), wastewater (n = 15), carcass wash water (n = 18), holding-pen swabs (n = 124), slaughter-box swabs (n = 73) and ropes (n = 16), comparing virus composition to pig snout swabs (n = 193)</p>
-<p><span class="label">Key Impact:</span> However, pairing air with additional environmental sample types provides the broadest virus coverage and represents the optimal surveillance strategy in swine slaughterhouses</p>
-<p><span class="label">Methodology:</span> Wastewater techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.16.767125v1">Identifying disease-associated dysbiosis in image-based spatial microbiome via MiSA</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.16.767125">10.64898/2026.11.16.767125</a> · Score: <code>████░░░░░░</code> 0.419</p>
+<p><span class="label">Core Problem:</span> Background: Extensive studies have revealed the associations of microbiome dysbiosis with disease through compositional analysis of 16S rRNA amplicon or shotgun metagenomic sequencing data</p>
+<p><span class="label">Proposed Solution:</span> However, dysbiosis in spatial organization of microbiome inhabiting the body sites and its implication for diseases remain understudied. Recently developed high phylogenetic resolution fluorescence in situ hybridization (HiPR-FISH) is an image-based mapping technology that provides spatial microbiome data at single-cell resolution, which allows for visualizing and quantifying spatial arrangement of microbial cells</p>
+<p><span class="label">Key Impact:</span> Conclusions: MiSA is a powerful and robust framework for identifying spatial dysbiosis and the contributing taxa in image-based microbiome data, offering new insights into the spatial organization of microbial communities in disease</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.16.767120v1">TRIM5α, TRIM56 and TRIM69 differentially regulate dengue virus 2 infection through selective NS2B3-mediated antagonism</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.16.767120">10.64898/2026.11.16.767120</a> · Score: <code>████░░░░░░</code> 0.383</p>
-<p><span class="label">Core Problem:</span> Dengue virus (DENV) is a major mosquito-borne human pathogen</p>
-<p><span class="label">Proposed Solution:</span> Understanding the mechanisms of cellular resistance to the infection is vital to develop novel therapeutic tools. Tripartite motif (TRIM) proteins contribute to antiviral innate immunity through direct restriction of viral replication and regulation of antiviral signaling, but current knowledge on DENV targeting by TRIM proteins remains preliminary</p>
-<p><span class="label">Key Impact:</span> Together, these findings establish TRIM5 as a DENV2 restriction factor, reveal TRIM69 as a positive factor in DENV2 infection, suggest that TRIM5? and TRIM56 inhibit DENV2 through distinct mechanisms, and hint at proteasome-independent TRIM56-NS2B3 reciprocal downmodulation</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.15.766776v1">Tissue-specific genomic and transcriptomic dynamics of the OsHV-1 lytic cycle in the Pacific oyster Magallana gigas revealed by long-read sequencing</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.15.766776">10.64898/2026.11.15.766776</a> · Score: <code>████░░░░░░</code> 0.399</p>
+<p><span class="label">Core Problem:</span> Ostreid herpesvirus 1 (OsHV-1) causes recurrent mass mortality of juvenile Pacific oysters (Magallana gigas) worldwide, yet its lytic cycle remains poorly characterized in vivo</p>
+<p><span class="label">Proposed Solution:</span> In the absence of a permissive cell line, most studies have relied on intramuscular injection, which bypasses the natural route of infection, or on primary haemocyte cultures, which cannot capture tissue-level host-virus interactions. In addition, gene expression studies have relied on short-read sequencing, which fragments transcription units and cannot resolve complex transcriptional architectures</p>
+<p><span class="label">Key Impact:</span> Together, these results provide the first long-read view of the OsHV-1 lytic cycle in its natural host</p>
+<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.15.766889v1">Emergence of a Novel Bacteriophage of Toxigenic Vibrio cholerae in Haiti</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.15.766889">10.64898/2026.11.15.766889</a> · Score: <code>████░░░░░░</code> 0.371</p>
-<p><span class="label">Core Problem:</span> Toxigenic strains of Vibrio cholerae O1 are facultative pathogens that persist in estuaries and cause the secretory diarrheal disease cholera</p>
-<p><span class="label">Proposed Solution:</span> Virulent bacteriophages (phages) can modulate pathogen density in both humans and aquatic reservoirs, thereby reducing cholera transmission. We report a novel phage, MAA01, isolated from cholera stool and environmental water samples collected in Haiti</p>
-<p><span class="label">Key Impact:</span> cholerae load by 4-fold, indicating it can prey on its host in the small intestine</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767327v1">A metacommunity of complex microbial communities shows high spatial synchrony, ecological memory, gradual succession and invasion resistance</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767327">10.64898/2026.11.17.767327</a> · Score: <code>████░░░░░░</code> 0.393</p>
+<p><span class="label">Core Problem:</span> Complex microbial communities are increasingly applied in biotechnological and health-related environments, yet maintaining their diversity and relative community composition over extended periods remains challenging</p>
+<p><span class="label">Proposed Solution:</span> While dispersal can counteract the divergence of spatially separated communities, it remains unclear whether controlled mass transfer can sustain compositional synchrony in highly diverse communities over extended periods, whether this synchrony persist after dispersal is interrupted, and how robust such communities are to invasion. Here, we investigate these questions using a loop-design reactor (LDR) comprising five local wastewater microbial communities connected by controlled mass transfer</p>
+<p><span class="label">Key Impact:</span> Repeated connectivity promoted compositional similarity beyond periods of active dispersal while maintaining invasion resistance and functional stability, highlighting controlled dispersal as a promising community-level strategy for managing complex microbial communities</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.13.26368066">CRISPR-Cas3-Based Detection of Cryptosporidium and Pepper Mild Mottle Virus in Environmental Waters Using a Test-Strip Readout</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.14.26368122">Practical evaluation of AI models to forecast a respiratory seasonal epidemic in Canada</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.15.766889">Emergence of a Novel Bacteriophage of Toxigenic Vibrio cholerae in Haiti</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.16.765117">Air and environmental sampling expand metagenomic viral surveillance in Cambodian pig slaughterhouses</a><span class="history-date">Nov 18, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.16.767120">TRIM5α, TRIM56 and TRIM69 differentially regulate dengue virus 2 infection through selective NS2B3-mediated antagonism</a><span class="history-date">Nov 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.12.26367924">An integrative eco-entomovirological study of Culicoides species associated with Oropouche virus in Colombia</a><span class="history-date">Nov 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.12.760042">De novo design of antiviral monobody binders</a><span class="history-date">Nov 17, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.12.766201">Extensive SARS-CoV-2 spike sequence diversification converges on a bounded, low-dimensional physicochemical space</a><span class="history-date">Nov 17, 2026</span></li>
@@ -1377,7 +1387,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-18T10:03:12 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-19T10:47:22 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
