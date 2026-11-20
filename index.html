@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 19, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 20, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes</a></li>
-  <li><a href="#core-article-2">GenVinci reconstructs 3D molecular tissue scenes from histology to map senescence across aging and disease</a></li>
-  <li><a href="#core-article-3">DRAFT: graph-recurrent learning of dynamic gene regulatory networks along single-cell multi-omics trajectories</a></li>
-  <li><a href="#core-article-4">Computable Genomes: A Layered Computational Framework for Non-Coding DNA and Cellular Behavior</a></li>
-  <li><a href="#core-article-5">scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment</a></li>
+  <li><a href="#core-article-1">RapidGLM: genome-scale differential expression, CRISPR screen and eQTL analysis</a></li>
+  <li><a href="#core-article-2">Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs</a></li>
+  <li><a href="#core-article-3">ARC-Impute: robust reference-guided spatial gene imputation through regularised cell-to-spot mapping</a></li>
+  <li><a href="#core-article-4">Transcriptomic and Genomic Sequencing of South African Colorectal Cancer Patients Reveal Population-Specific Insights and Variants</a></li>
+  <li><a href="#core-article-5">Prediction and Dissection of Nitrogenase Activity Based on Protein Sequences using Dual Descriptor</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767431v1">Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767431">10.64898/2026.11.17.767431</a> · Score: <code>██████░░░░</code> 0.552</p>
-<p><span class="label">Core Problem:</span> Antimicrobial peptides (AMPs) offer a promising alternative to conventional antibiotics amid the growing global threat of antimicrobial resistance</p>
-<p><span class="label">Proposed Solution:</span> Expanding AMP discovery requires both effective computational tools to accurately identify candidate peptides and access to underexplored biological resources that may harbor novel AMPs. However, the comparative performance of existing computational methods remains poorly understood, while ancient microbiomes have received limited attention as potential reservoirs of AMPs</p>
-<p><span class="label">Key Impact:</span> By integrating supervised machine learning with reinforcement learning, this study expands AMP discovery beyond modern microbiome catalogs and provides new opportunities to identify potentially novel AMPs</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.18.767389v1">RapidGLM: genome-scale differential expression, CRISPR screen and eQTL analysis</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.18.767389">10.64898/2026.11.18.767389</a> · Score: <code>████░░░░░░</code> 0.433</p>
+<p><span class="label">Core Problem:</span> Genome-scale differential expression, CRISPR screen and expression QTL analyses fit millions of count regressions and estimate p-values from billions of random draws</p>
+<p><span class="label">Proposed Solution:</span> RapidGLM, a C++ library, makes both steps fast, with Newton fits specialized to count models and draws made in batches. Its DESeq2, edgeR, SCEPTRE and cis-QTL analyses agree with the reference tools and run 2</p>
+<p><span class="label">Key Impact:</span> RapidGLM is MIT-licensed, with C, Python, R and command-line interfaces</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767412v1">GenVinci reconstructs 3D molecular tissue scenes from histology to map senescence across aging and disease</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767412">10.64898/2026.11.17.767412</a> · Score: <code>█████░░░░░</code> 0.519</p>
-<p><span class="label">Core Problem:</span> Spatial omics has generated measurements at unprecedented scale, yet computational approaches remain largely confined to individual modalities and 2D representations</p>
-<p><span class="label">Proposed Solution:</span> Here we assemble ImageOmicsNet-300M, a corpus of 300 million single-cell and spatial transcriptomic profiles, including 24. 9 million H&amp;E-predicted virtual spatial transcriptomics profiles, and 4,623 H&amp;E sections</p>
-<p><span class="label">Key Impact:</span> These findings establish GenVinci as a framework mapping senescence in 3D across scales</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1">Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.26368273">10.64898/2026.11.17.26368273</a> · Score: <code>████░░░░░░</code> 0.430</p>
+<p><span class="label">Core Problem:</span> Introduction: Spatial transcriptomics can resolve compartment-specific molecular programs in kidney disease, but its cost and technical requirements limit its use in clinical diagnostics and in large biopsy archives</p>
+<p><span class="label">Proposed Solution:</span> Predicting spatial gene expression from routine histology with artificial intelligence could extend molecular characterization to existing clinically annotated kidney tissue collections. Methods: We adapted DeepSpot-M, a pretrained multimodal foundation model that predicts spatial gene expression from histology, using paired hematoxylin and eosin images and Visium spatial transcriptomics from 209 Kidney Precision Medicine Project (KPMP) participants</p>
+<p><span class="label">Key Impact:</span> Our approach enables spatial molecular analyses in routine biopsy histology, which could help decipher disease-associated pathways in existing biopsy archives</p>
+<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767145v1">DRAFT: graph-recurrent learning of dynamic gene regulatory networks along single-cell multi-omics trajectories</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767145">10.64898/2026.11.17.767145</a> · Score: <code>█████░░░░░</code> 0.508</p>
-<p><span class="label">Core Problem:</span> Single-cell multi-omics data offer an opportunity to resolve how gene regulatory networks (GRNs) are rewired during cell-fate transitions, but most existing methods infer static snapshots, ignore temporal dependencies or assume linear regulation</p>
-<p><span class="label">Proposed Solution:</span> Here we present DRAFT, a deep learning framework that combines graph attention with recurrent temporal memory to infer dynamic GRNs from time-resolved single-cell multi-omics data. On simulated data, DRAFT outperforms existing methods in accuracy and temporal smoothness</p>
-<p><span class="label">Key Impact:</span> DRAFT also enables nonlinear alignment of co-developing lineages and reveals stage-specific cell-cell communication</p>
-<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767312v1">ARC-Impute: robust reference-guided spatial gene imputation through regularised cell-to-spot mapping</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767312">10.64898/2026.11.17.767312</a> · Score: <code>████░░░░░░</code> 0.416</p>
+<p><span class="label">Core Problem:</span> Motivation: Reference-guided spatial imputation uses single-cell RNA sequencing references to predict genes that are unmeasured in spatial transcriptomics data</p>
+<p><span class="label">Proposed Solution:</span> Limited shared-gene overlap can leave the mapping of reference cells to spatial locations ambiguous: different assignments may reconstruct observed genes similarly yet yield different imputed expression and cell-type estimates. This gives rise to local assignment ambiguity, source-target mismatch and reference-transfer instability</p>
+<p><span class="label">Key Impact:</span> com/ethanhaan/arc-impute</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.10.765552v1">Computable Genomes: A Layered Computational Framework for Non-Coding DNA and Cellular Behavior</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.10.765552">10.64898/2026.11.10.765552</a> · Score: <code>█████░░░░░</code> 0.505</p>
-<p><span class="label">Core Problem:</span> Genome-wide association studies have catalogued tens of thousands of trait-associated loci, most of them in non-coding DNA, yet for most loci the path from nucleotide to phenotype remains correlational</p>
-<p><span class="label">Proposed Solution:</span> We propose a layered computational decomposition of the genome as a complement to data-driven approaches: sequence as formal language, sequence as information-bearing signal, mobile elements as runtime, compilation to interaction networks through thermodynamic and rule-based models, and execution as cellular and multicellular dynamics. Each layer is defined by its inputs, outputs and formalisms, and we set out where the frame breaks down, including the looseness of algorithmic-information estimates, the triviality of universality results and the failure of string grammars at the chromatin level</p>
-<p><span class="label">Key Impact:</span> The argument is not that the genome &quot;is&quot; a program, but that treating it as one supplies formal tools whose predictions can be checked</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>4. <a href="https://www.medrxiv.org/content/10.64898/2026.11.19.26368287v1">Transcriptomic and Genomic Sequencing of South African Colorectal Cancer Patients Reveal Population-Specific Insights and Variants</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.19.26368287">10.64898/2026.11.19.26368287</a> · Score: <code>████░░░░░░</code> 0.407</p>
+<p><span class="label">Core Problem:</span> Colorectal cancer (CRC) genomic studies have largely underrepresented African populations, limiting understanding of disease biology in these groups</p>
+<p><span class="label">Proposed Solution:</span> This study addressed this gap by generating integrated genomic and transcriptomic data from South African (SA) CRC patients, establishing a foundation for future cancer studies. Bulk RNA sequencing of 32 samples identified several differentially expressed genes between tumour and normal samples, with AGAP3, AMPD2, ANKRD10, and SALL4 showing strong diagnostic performance (average sensitivity 99</p>
+<p><span class="label">Key Impact:</span> These findings expand genomic resources for African cancer research and provide new insights into the molecular landscape and tumourigenesis mechanisms of CRC in SA patients, supporting the development of population-specific precision oncology approaches</p>
+<p><span class="label">Methodology:</span> Multi-Omics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767296v1">scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767296">10.64898/2026.11.17.767296</a> · Score: <code>█████░░░░░</code> 0.487</p>
-<p><span class="label">Core Problem:</span> Large-scale pretraining can improve scRNA-seq representations through measurement enrichment: estimating what the same measurement would reveal at greater UMI depth under the same measurement process</p>
-<p><span class="label">Proposed Solution:</span> We introduce scUNVEIL, a self-supervised model trained through next-UMI prediction. We show that the Bayes-optimal next-UMI predictor is the posterior mean of the transcriptome composition that arbitrarily deep sequencing would reveal</p>
-<p><span class="label">Key Impact:</span> Further evaluations show that these representations improve prediction of tumor reactivity, mitochondrial membrane potential, cell morphology, and lineage-associated treatment outcomes</p>
-<p><span class="label">Methodology:</span> Transformer techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.18.767551v1">Prediction and Dissection of Nitrogenase Activity Based on Protein Sequences using Dual Descriptor</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.18.767551">10.64898/2026.11.18.767551</a> · Score: <code>████░░░░░░</code> 0.404</p>
+<p><span class="label">Core Problem:</span> Nitrogenase reduces N2 to ammonia at ambient temperature and pressure, but its activity differs markedly among natural sequences, and conventional wet-laboratory screening suffers from low throughput and long turnaround times</p>
+<p><span class="label">Proposed Solution:</span> Existing computational methods have partially alleviated this bottleneck, yet most of them rely on protein embeddings obtained from protein language models together with features such as gene expression, and their interpretability analyses mostly stop at the level of feature contribution. Here we present CarmnaDD, a purely sequence-driven framework built on the dual descriptor (DD): two learnable components, the composition weight map (CWM) and the position weight function (PWF), jointly generate a position-resolved description N(k), so that activity can be predicted without any prior knowledge beyond the sequence</p>
+<p><span class="label">Key Impact:</span> These results provide a purely sequence-based framework for nitrogenase activity prediction that balances performance and interpretability</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.10.765552">Computable Genomes: A Layered Computational Framework for Non-Coding DNA and Cellular Behavior</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.17.767145">DRAFT: graph-recurrent learning of dynamic gene regulatory networks along single-cell multi-omics trajectories</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.17.767296">scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.17.767412">GenVinci reconstructs 3D molecular tissue scenes from histology to map senescence across aging and disease</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.17.767431">Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes</a><span class="history-date">Nov 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.07.08.736040">CADD-SV v2.0: An Extended Framework for Structural Variant Deleteriousness Prediction Using Coordinate- and Sequence-Based Features</a><span class="history-date">Nov 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.11.765857">AlphaGenome 2 predicts regulatory activity and variant effects across cell states</a><span class="history-date">Nov 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.14.26368097">Integrated Genomic and Transcriptomic Profiling Reveals Distinct Biological Programs and Therapeutic Opportunities in Cancer of Unknown Primary</a><span class="history-date">Nov 18, 2026</span></li>
@@ -963,64 +968,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Target-enrichment sequencing reveals intergenotypic reassortment of infectious salmon anaemia virus in Atlantic Canada</a></li>
-  <li><a href="#virology-article-2">Tracking the trajectory of individual conjugative plasmids in bacterial communities using CRISPR acquisition-based recording</a></li>
-  <li><a href="#virology-article-3">Identifying disease-associated dysbiosis in image-based spatial microbiome via MiSA</a></li>
-  <li><a href="#virology-article-4">Tissue-specific genomic and transcriptomic dynamics of the OsHV-1 lytic cycle in the Pacific oyster Magallana gigas revealed by long-read sequencing</a></li>
-  <li><a href="#virology-article-5">A metacommunity of complex microbial communities shows high spatial synchrony, ecological memory, gradual succession and invasion resistance</a></li>
+  <li><a href="#virology-article-1">Long-read metagenomics reveals unexplored viral diversity andgenomic novelty in the mesopelagic Andaman Sea</a></li>
+  <li><a href="#virology-article-2">Single-cell transcriptomics of human astrovirus VA1-infected intestinal organoids reveals cell-type-specific responses and a requirement for cholesterol biosynthesis during infection</a></li>
+  <li><a href="#virology-article-3">Pyrenophora teres f. teres uses specialized infection structures to facilitate effector-driven promotion of in planta colonization on barley</a></li>
+  <li><a href="#virology-article-4">Modular Assembly of an Infectious Clone of the Akata strain of EBV using Synthetic Genomics Methods in Yeast</a></li>
+  <li><a href="#virology-article-5">Localizing Unsampled Regions in Partially Sampled Pathogen Phylogenies Using Machine Learning</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.11.765878v1">Target-enrichment sequencing reveals intergenotypic reassortment of infectious salmon anaemia virus in Atlantic Canada</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.11.765878">10.64898/2026.11.11.765878</a> · Score: <code>█████░░░░░</code> 0.489</p>
-<p><span class="label">Core Problem:</span> Infectious salmon anaemia virus (ISAV) causes severe disease and substantial economic losses in farmed Atlantic salmon (Salmo salar)</p>
-<p><span class="label">Proposed Solution:</span> The virus has an eight-segment, negative-sense single-stranded RNA (ssRNA) genome and is divided into European and North American genotypes. Despite their co-circulation in locations such as the Atlantic coast of Canada, reassortment between these genotypes has never been observed</p>
-<p><span class="label">Key Impact:</span> These findings identify an intergenotypic reassortant lineage detected across multiple farms in the Bay of Fundy and demonstrate the value of whole-genome sequencing for detecting reassortment, mixed infections and epidemiologically relevant viral diversity</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.18.764573v1">Long-read metagenomics reveals unexplored viral diversity andgenomic novelty in the mesopelagic Andaman Sea</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.18.764573">10.64898/2026.11.18.764573</a> · Score: <code>████░░░░░░</code> 0.444</p>
+<p><span class="label">Core Problem:</span> The mesopelagic zone (200 to 1000 m) of the ocean represents Earth&#x27;s largest yet most underexplored biome, particularly with respect to viral diversity and function</p>
+<p><span class="label">Proposed Solution:</span> The deep-sea virome of the Indian Ocean remains largely unexplored despite the ecological significance of marine viruses in regulating microbial mortality, biogeochemical cycling and carbon flux via the viral shunt. In this study, we explored the diversity of DNA viruses across mesopelagic depths in the Andaman Sea</p>
+<p><span class="label">Key Impact:</span> Collectively, these findings reveal previously under-explored viral diversity in the mesopelagic Andaman Sea study and provide the first comprehensive insight into the deep-ocean virome of this region</p>
 <p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767295v1">Tracking the trajectory of individual conjugative plasmids in bacterial communities using CRISPR acquisition-based recording</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767295">10.64898/2026.11.17.767295</a> · Score: <code>████░░░░░░</code> 0.420</p>
-<p><span class="label">Core Problem:</span> Horizontal gene transfer mediated by conjugative plasmids is a primary driver of bacterial evolution and the spread of adaptive traits, including antibiotic resistance determinants</p>
-<p><span class="label">Proposed Solution:</span> Tracking how these plasmids disseminate through complex microbial communities remains a major challenge. Current methodologies often yield static, endpoint snapshots of host identity, overlooking transient transfer events and plasmid encounters with the co-resident mobilome</p>
-<p><span class="label">Key Impact:</span> Because spacers are integrated chronologically, it further offers the potential to reconstruct multi-step transfer trajectories across natural microbial networks</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767333v1">Single-cell transcriptomics of human astrovirus VA1-infected intestinal organoids reveals cell-type-specific responses and a requirement for cholesterol biosynthesis during infection</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767333">10.64898/2026.11.17.767333</a> · Score: <code>████░░░░░░</code> 0.420</p>
+<p><span class="label">Core Problem:</span> Human astroviruses are prevalent but understudied enteric viruses that cause gastroenteritis and neurological disease, particularly in children and immunocompromised individuals</p>
+<p><span class="label">Proposed Solution:</span> No vaccines or antivirals are available, partly because their biology and pathogenesis remain poorly understood. Here, we used single-cell RNA sequencing to characterize transcriptional responses to VA1, a non-classical human astrovirus associated with the majority of extraintestinal disease cases, in fetal ileum-derived human intestinal organoids</p>
+<p><span class="label">Key Impact:</span> Together, these findings expand our knowledge on HAstV biology by defining shared and cell-type-specific epithelial responses to VA1 infection and identifying cholesterol biosynthesis as an important host pathway for successful VA1 replication</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.16.767125v1">Identifying disease-associated dysbiosis in image-based spatial microbiome via MiSA</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.16.767125">10.64898/2026.11.16.767125</a> · Score: <code>████░░░░░░</code> 0.419</p>
-<p><span class="label">Core Problem:</span> Background: Extensive studies have revealed the associations of microbiome dysbiosis with disease through compositional analysis of 16S rRNA amplicon or shotgun metagenomic sequencing data</p>
-<p><span class="label">Proposed Solution:</span> However, dysbiosis in spatial organization of microbiome inhabiting the body sites and its implication for diseases remain understudied. Recently developed high phylogenetic resolution fluorescence in situ hybridization (HiPR-FISH) is an image-based mapping technology that provides spatial microbiome data at single-cell resolution, which allows for visualizing and quantifying spatial arrangement of microbial cells</p>
-<p><span class="label">Key Impact:</span> Conclusions: MiSA is a powerful and robust framework for identifying spatial dysbiosis and the contributing taxa in image-based microbiome data, offering new insights into the spatial organization of microbial communities in disease</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.18.767561v1">Pyrenophora teres f. teres uses specialized infection structures to facilitate effector-driven promotion of in planta colonization on barley</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.18.767561">10.64898/2026.11.18.767561</a> · Score: <code>████░░░░░░</code> 0.394</p>
+<p><span class="label">Core Problem:</span> Pyrenophora teres f</p>
+<p><span class="label">Proposed Solution:</span> teres is a necrotrophic fungal pathogen that causes net form net blotch (NFNB) of barley. Infection of susceptible barley leaves initially causes dot-like lesions that progress to transverse and longitudinal striations, that form the net-like pattern of necrosis for which the disease was named</p>
+<p><span class="label">Key Impact:</span> teres uses specialized infection structures alongside effectors to maximize fungal colonization and hyphal positioning to optimize nutrient uptake, perpetuating its polycyclic life cycle</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.15.766776v1">Tissue-specific genomic and transcriptomic dynamics of the OsHV-1 lytic cycle in the Pacific oyster Magallana gigas revealed by long-read sequencing</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.15.766776">10.64898/2026.11.15.766776</a> · Score: <code>████░░░░░░</code> 0.399</p>
-<p><span class="label">Core Problem:</span> Ostreid herpesvirus 1 (OsHV-1) causes recurrent mass mortality of juvenile Pacific oysters (Magallana gigas) worldwide, yet its lytic cycle remains poorly characterized in vivo</p>
-<p><span class="label">Proposed Solution:</span> In the absence of a permissive cell line, most studies have relied on intramuscular injection, which bypasses the natural route of infection, or on primary haemocyte cultures, which cannot capture tissue-level host-virus interactions. In addition, gene expression studies have relied on short-read sequencing, which fragments transcription units and cannot resolve complex transcriptional architectures</p>
-<p><span class="label">Key Impact:</span> Together, these results provide the first long-read view of the OsHV-1 lytic cycle in its natural host</p>
-<p><span class="label">Methodology:</span> Long-Read techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.06.16.732627v2">Modular Assembly of an Infectious Clone of the Akata strain of EBV using Synthetic Genomics Methods in Yeast</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.06.16.732627">10.64898/2026.06.16.732627</a> · Score: <code>████░░░░░░</code> 0.387</p>
+<p><span class="label">Core Problem:</span> We have used synthetic biology recombination methods in yeast to build herpes simplex virus type-1 (HSV-1) and human cytomegalovirus (HCMV) genomes from multiple fragments</p>
+<p><span class="label">Proposed Solution:</span> The genomes were built using transformation-associated recombination (TAR) in yeast, by virtue of overlapping sequences between the different fragments. This study demonstrates the successful assembly of the Epstein-Barr virus (EBV) genome</p>
+<p><span class="label">Key Impact:</span> This provides the first report of the essential role of the small capsid protein in EBV-infected cells</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767327v1">A metacommunity of complex microbial communities shows high spatial synchrony, ecological memory, gradual succession and invasion resistance</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767327">10.64898/2026.11.17.767327</a> · Score: <code>████░░░░░░</code> 0.393</p>
-<p><span class="label">Core Problem:</span> Complex microbial communities are increasingly applied in biotechnological and health-related environments, yet maintaining their diversity and relative community composition over extended periods remains challenging</p>
-<p><span class="label">Proposed Solution:</span> While dispersal can counteract the divergence of spatially separated communities, it remains unclear whether controlled mass transfer can sustain compositional synchrony in highly diverse communities over extended periods, whether this synchrony persist after dispersal is interrupted, and how robust such communities are to invasion. Here, we investigate these questions using a loop-design reactor (LDR) comprising five local wastewater microbial communities connected by controlled mass transfer</p>
-<p><span class="label">Key Impact:</span> Repeated connectivity promoted compositional similarity beyond periods of active dispersal while maintaining invasion resistance and functional stability, highlighting controlled dispersal as a promising community-level strategy for managing complex microbial communities</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.18.767590v1">Localizing Unsampled Regions in Partially Sampled Pathogen Phylogenies Using Machine Learning</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.18.767590">10.64898/2026.11.18.767590</a> · Score: <code>████░░░░░░</code> 0.385</p>
+<p><span class="label">Core Problem:</span> Motivation: Pathogen phylogenies are useful for monitoring the evolution of pathogens and for detecting new variants, as it provides information that can aid public health decisions and outbreak response</p>
+<p><span class="label">Proposed Solution:</span> Since not all infections are sequenced, certain pathogen lineages may be missing or only poorly represented in reconstructed phylogenies. Identifying these gaps could help to determine where additional data collection is required</p>
+<p><span class="label">Key Impact:</span> By identifying potentially underrepresented lineages, this framework could help real-time identification of missing infections and improve outbreak response</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.11.765878">Target-enrichment sequencing reveals intergenotypic reassortment of infectious salmon anaemia virus in Atlantic Canada</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.15.766776">Tissue-specific genomic and transcriptomic dynamics of the OsHV-1 lytic cycle in the Pacific oyster Magallana gigas revealed by long-read sequencing</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.16.767125">Identifying disease-associated dysbiosis in image-based spatial microbiome via MiSA</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.17.767295">Tracking the trajectory of individual conjugative plasmids in bacterial communities using CRISPR acquisition-based recording</a><span class="history-date">Nov 19, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.17.767327">A metacommunity of complex microbial communities shows high spatial synchrony, ecological memory, gradual succession and invasion resistance</a><span class="history-date">Nov 19, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.13.26368066">CRISPR-Cas3-Based Detection of Cryptosporidium and Pepper Mild Mottle Virus in Environmental Waters Using a Test-Strip Readout</a><span class="history-date">Nov 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.14.26368122">Practical evaluation of AI models to forecast a respiratory seasonal epidemic in Canada</a><span class="history-date">Nov 18, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.15.766889">Emergence of a Novel Bacteriophage of Toxigenic Vibrio cholerae in Haiti</a><span class="history-date">Nov 18, 2026</span></li>
@@ -1387,7 +1397,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-19T10:47:22 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-20T10:03:01 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

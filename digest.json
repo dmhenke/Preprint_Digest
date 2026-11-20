@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-19T10:47:22.523267+00:00",
+  "generated_utc": "2026-11-20T10:03:01.507429+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes",
-          "doi": "10.64898/2026.11.17.767431",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767431v1",
+          "title": "RapidGLM: genome-scale differential expression, CRISPR screen and eQTL analysis",
+          "doi": "10.64898/2026.11.18.767389",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767389v1",
           "source": "biorxiv",
-          "score": 0.5521
+          "score": 0.4325
         },
         {
           "rank": 2,
-          "title": "GenVinci reconstructs 3D molecular tissue scenes from histology to map senescence across aging and disease",
-          "doi": "10.64898/2026.11.17.767412",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767412v1",
-          "source": "biorxiv",
-          "score": 0.5188
+          "title": "Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs",
+          "doi": "10.64898/2026.11.17.26368273",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1",
+          "source": "medrxiv",
+          "score": 0.4295
         },
         {
           "rank": 3,
-          "title": "DRAFT: graph-recurrent learning of dynamic gene regulatory networks along single-cell multi-omics trajectories",
-          "doi": "10.64898/2026.11.17.767145",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767145v1",
+          "title": "ARC-Impute: robust reference-guided spatial gene imputation through regularised cell-to-spot mapping",
+          "doi": "10.64898/2026.11.17.767312",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767312v1",
           "source": "biorxiv",
-          "score": 0.5081
+          "score": 0.4161
         },
         {
           "rank": 4,
-          "title": "Computable Genomes: A Layered Computational Framework for Non-Coding DNA and Cellular Behavior",
-          "doi": "10.64898/2026.11.10.765552",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765552v1",
-          "source": "biorxiv",
-          "score": 0.5049
+          "title": "Transcriptomic and Genomic Sequencing of South African Colorectal Cancer Patients Reveal Population-Specific Insights and Variants",
+          "doi": "10.64898/2026.11.19.26368287",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.19.26368287v1",
+          "source": "medrxiv",
+          "score": 0.4069
         },
         {
           "rank": 5,
-          "title": "scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment",
-          "doi": "10.64898/2026.11.17.767296",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767296v1",
+          "title": "Prediction and Dissection of Nitrogenase Activity Based on Protein Sequences using Dual Descriptor",
+          "doi": "10.64898/2026.11.18.767551",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767551v1",
           "source": "biorxiv",
-          "score": 0.487
+          "score": 0.4043
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Target-enrichment sequencing reveals intergenotypic reassortment of infectious salmon anaemia virus in Atlantic Canada",
-          "doi": "10.64898/2026.11.11.765878",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765878v1",
+          "title": "Long-read metagenomics reveals unexplored viral diversity andgenomic novelty in the mesopelagic Andaman Sea",
+          "doi": "10.64898/2026.11.18.764573",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.764573v1",
           "source": "biorxiv",
-          "score": 0.4886
+          "score": 0.4442
         },
         {
           "rank": 2,
-          "title": "Tracking the trajectory of individual conjugative plasmids in bacterial communities using CRISPR acquisition-based recording",
-          "doi": "10.64898/2026.11.17.767295",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767295v1",
+          "title": "Single-cell transcriptomics of human astrovirus VA1-infected intestinal organoids reveals cell-type-specific responses and a requirement for cholesterol biosynthesis during infection",
+          "doi": "10.64898/2026.11.17.767333",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767333v1",
           "source": "biorxiv",
-          "score": 0.4202
+          "score": 0.4203
         },
         {
           "rank": 3,
-          "title": "Identifying disease-associated dysbiosis in image-based spatial microbiome via MiSA",
-          "doi": "10.64898/2026.11.16.767125",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767125v1",
+          "title": "Pyrenophora teres f. teres uses specialized infection structures to facilitate effector-driven promotion of in planta colonization on barley",
+          "doi": "10.64898/2026.11.18.767561",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767561v1",
           "source": "biorxiv",
-          "score": 0.4195
+          "score": 0.394
         },
         {
           "rank": 4,
-          "title": "Tissue-specific genomic and transcriptomic dynamics of the OsHV-1 lytic cycle in the Pacific oyster Magallana gigas revealed by long-read sequencing",
-          "doi": "10.64898/2026.11.15.766776",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766776v1",
+          "title": "Modular Assembly of an Infectious Clone of the Akata strain of EBV using Synthetic Genomics Methods in Yeast",
+          "doi": "10.64898/2026.06.16.732627",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732627v2",
           "source": "biorxiv",
-          "score": 0.3986
+          "score": 0.3874
         },
         {
           "rank": 5,
-          "title": "A metacommunity of complex microbial communities shows high spatial synchrony, ecological memory, gradual succession and invasion resistance",
-          "doi": "10.64898/2026.11.17.767327",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767327v1",
+          "title": "Localizing Unsampled Regions in Partially Sampled Pathogen Phylogenies Using Machine Learning",
+          "doi": "10.64898/2026.11.18.767590",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767590v1",
           "source": "biorxiv",
-          "score": 0.3925
+          "score": 0.3848
         }
       ]
     }
