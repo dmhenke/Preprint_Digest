@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-20T10:03:01.507429+00:00",
+  "generated_utc": "2026-11-21T10:02:51.872411+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "RapidGLM: genome-scale differential expression, CRISPR screen and eQTL analysis",
-          "doi": "10.64898/2026.11.18.767389",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767389v1",
+          "title": "A deep-learning predictive model for Cas12a activity in wheat",
+          "doi": "10.64898/2026.11.18.767513",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767513v1",
           "source": "biorxiv",
-          "score": 0.4325
+          "score": 0.5126
         },
         {
           "rank": 2,
-          "title": "Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs",
-          "doi": "10.64898/2026.11.17.26368273",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1",
-          "source": "medrxiv",
-          "score": 0.4295
+          "title": "Mapping whole-tissue spatial multi-omics at single-cell resolution with STEP",
+          "doi": "10.1101/2024.11.22.624797",
+          "url": "https://www.biorxiv.org/content/10.1101/2024.11.22.624797v2",
+          "source": "biorxiv",
+          "score": 0.5016
         },
         {
           "rank": 3,
-          "title": "ARC-Impute: robust reference-guided spatial gene imputation through regularised cell-to-spot mapping",
-          "doi": "10.64898/2026.11.17.767312",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767312v1",
+          "title": "Biologically Guided Deep Learning for Personalized PSA Forecasting in Intermittent Prostate Cancer Therapy",
+          "doi": "10.64898/2026.11.19.767900",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767900v1",
           "source": "biorxiv",
-          "score": 0.4161
+          "score": 0.4907
         },
         {
           "rank": 4,
-          "title": "Transcriptomic and Genomic Sequencing of South African Colorectal Cancer Patients Reveal Population-Specific Insights and Variants",
-          "doi": "10.64898/2026.11.19.26368287",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.19.26368287v1",
-          "source": "medrxiv",
-          "score": 0.4069
+          "title": "Generative design of antibody Fc interactions by deep mutational learning",
+          "doi": "10.1101/2025.10.10.681689",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.10.10.681689v2",
+          "source": "biorxiv",
+          "score": 0.4742
         },
         {
           "rank": 5,
-          "title": "Prediction and Dissection of Nitrogenase Activity Based on Protein Sequences using Dual Descriptor",
-          "doi": "10.64898/2026.11.18.767551",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767551v1",
+          "title": "A Three-Axis Framework for Therapy Prioritization in MBD4-Deficient Tumors: De-confounded Synthetic Lethality Modeling, Replication-Stress Pharmacology, and PARP1 Trapping Decoupling",
+          "doi": "10.64898/2026.11.10.765519",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765519v2",
           "source": "biorxiv",
-          "score": 0.4043
+          "score": 0.467
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Long-read metagenomics reveals unexplored viral diversity andgenomic novelty in the mesopelagic Andaman Sea",
-          "doi": "10.64898/2026.11.18.764573",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.764573v1",
+          "title": "Genomic Characterization of a Typical Enteropathogenic Escherichia coli Isolate from an Egyptian Fruit Bat, Rousettus aegyptiacus from Coastal Kenya",
+          "doi": "10.64898/2026.11.19.767828",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767828v1",
           "source": "biorxiv",
-          "score": 0.4442
+          "score": 0.4491
         },
         {
           "rank": 2,
-          "title": "Single-cell transcriptomics of human astrovirus VA1-infected intestinal organoids reveals cell-type-specific responses and a requirement for cholesterol biosynthesis during infection",
-          "doi": "10.64898/2026.11.17.767333",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767333v1",
+          "title": "MetaEntropy: quantifying protein variability in complex viral mixtures via entropy",
+          "doi": "10.64898/2026.11.17.767350",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767350v1",
           "source": "biorxiv",
-          "score": 0.4203
+          "score": 0.4057
         },
         {
           "rank": 3,
-          "title": "Pyrenophora teres f. teres uses specialized infection structures to facilitate effector-driven promotion of in planta colonization on barley",
-          "doi": "10.64898/2026.11.18.767561",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767561v1",
+          "title": "SNP2Cluster-Py: A pathogen-agnostic, context-aware framework for Core SNP and transmission-cluster analysis",
+          "doi": "10.64898/2026.11.19.767809",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767809v1",
           "source": "biorxiv",
-          "score": 0.394
+          "score": 0.3911
         },
         {
           "rank": 4,
-          "title": "Modular Assembly of an Infectious Clone of the Akata strain of EBV using Synthetic Genomics Methods in Yeast",
-          "doi": "10.64898/2026.06.16.732627",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732627v2",
+          "title": "Deletion of Furin Facilitates Efficient and Versatile Coronavirus Pseudotyped Particle Generation",
+          "doi": "10.64898/2026.11.19.767861",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767861v1",
           "source": "biorxiv",
-          "score": 0.3874
+          "score": 0.3875
         },
         {
           "rank": 5,
-          "title": "Localizing Unsampled Regions in Partially Sampled Pathogen Phylogenies Using Machine Learning",
-          "doi": "10.64898/2026.11.18.767590",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767590v1",
+          "title": "Widespread SARS-CoV-2 brain infection after intranasal challenge leads to innate and anti-viral immune response and interference with neuronal function in K18-hACE2 mice",
+          "doi": "10.64898/2026.11.19.767910",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767910v1",
           "source": "biorxiv",
-          "score": 0.3848
+          "score": 0.3626
         }
       ]
     }
