@@ -1,48 +1,40 @@
 {
-  "generated_utc": "2026-11-21T10:02:51.872411+00:00",
+  "generated_utc": "2026-11-22T10:01:50.107876+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "A deep-learning predictive model for Cas12a activity in wheat",
-          "doi": "10.64898/2026.11.18.767513",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767513v1",
+          "title": "Deciphering the role of adenosine-related genes in regulating smooth muscle cell phenotypic switch in coronary heart disease via single-cell RNA sequencing",
+          "doi": "10.64898/2026.11.12.766320",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766320v1",
           "source": "biorxiv",
-          "score": 0.5126
+          "score": 0.3834
         },
         {
           "rank": 2,
-          "title": "Mapping whole-tissue spatial multi-omics at single-cell resolution with STEP",
-          "doi": "10.1101/2024.11.22.624797",
-          "url": "https://www.biorxiv.org/content/10.1101/2024.11.22.624797v2",
+          "title": "Structural correlates of disease-associated CTSC variants in Papillon-Lefevre syndrome",
+          "doi": "10.64898/2026.11.18.767647",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767647v1",
           "source": "biorxiv",
-          "score": 0.5016
+          "score": 0.3041
         },
         {
           "rank": 3,
-          "title": "Biologically Guided Deep Learning for Personalized PSA Forecasting in Intermittent Prostate Cancer Therapy",
-          "doi": "10.64898/2026.11.19.767900",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767900v1",
+          "title": "Single-base 5mC and 5hmC profiling identifies a dynamic 5hmC-to-5mC transition at gene bodies and transcription end sites during neuronal differentiation of mouse embryonic stem cells.",
+          "doi": "10.64898/2026.11.20.768104",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768104v1",
           "source": "biorxiv",
-          "score": 0.4907
+          "score": 0.303
         },
         {
           "rank": 4,
-          "title": "Generative design of antibody Fc interactions by deep mutational learning",
-          "doi": "10.1101/2025.10.10.681689",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.10.10.681689v2",
-          "source": "biorxiv",
-          "score": 0.4742
-        },
-        {
-          "rank": 5,
-          "title": "A Three-Axis Framework for Therapy Prioritization in MBD4-Deficient Tumors: De-confounded Synthetic Lethality Modeling, Replication-Stress Pharmacology, and PARP1 Trapping Decoupling",
-          "doi": "10.64898/2026.11.10.765519",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765519v2",
-          "source": "biorxiv",
-          "score": 0.467
+          "title": "Exon Proteogenomic Abundance Predicts Advanced Heart Failure in Titin Cardiomyopathy",
+          "doi": "10.1101/2025.11.02.25338804",
+          "url": "https://www.medrxiv.org/content/10.1101/2025.11.02.25338804v3",
+          "source": "medrxiv",
+          "score": 0.2885
         }
       ]
     },
@@ -51,43 +43,35 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Genomic Characterization of a Typical Enteropathogenic Escherichia coli Isolate from an Egyptian Fruit Bat, Rousettus aegyptiacus from Coastal Kenya",
-          "doi": "10.64898/2026.11.19.767828",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767828v1",
+          "title": "Defining the molecular interaction between influenza hemagglutinin and MHC-II",
+          "doi": "10.64898/2026.07.17.738765",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.738765v2",
           "source": "biorxiv",
-          "score": 0.4491
+          "score": 0.4669
         },
         {
           "rank": 2,
-          "title": "MetaEntropy: quantifying protein variability in complex viral mixtures via entropy",
-          "doi": "10.64898/2026.11.17.767350",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767350v1",
+          "title": "RADSuite: Improving Species-Level Identification in Microbiome Research",
+          "doi": "10.64898/2026.11.18.767742",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767742v1",
           "source": "biorxiv",
-          "score": 0.4057
+          "score": 0.3485
         },
         {
           "rank": 3,
-          "title": "SNP2Cluster-Py: A pathogen-agnostic, context-aware framework for Core SNP and transmission-cluster analysis",
-          "doi": "10.64898/2026.11.19.767809",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767809v1",
+          "title": "Unexpected Long Range Actions of AAV8",
+          "doi": "10.64898/2026.11.20.767967",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767967v1",
           "source": "biorxiv",
-          "score": 0.3911
+          "score": 0.3335
         },
         {
           "rank": 4,
-          "title": "Deletion of Furin Facilitates Efficient and Versatile Coronavirus Pseudotyped Particle Generation",
-          "doi": "10.64898/2026.11.19.767861",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767861v1",
+          "title": "MicroBioAgent: an AI agent for automated microbiome analysis",
+          "doi": "10.64898/2026.11.17.767465",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767465v1",
           "source": "biorxiv",
-          "score": 0.3875
-        },
-        {
-          "rank": 5,
-          "title": "Widespread SARS-CoV-2 brain infection after intranasal challenge leads to innate and anti-viral immune response and interference with neuronal function in K18-hACE2 mice",
-          "doi": "10.64898/2026.11.19.767910",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767910v1",
-          "source": "biorxiv",
-          "score": 0.3626
+          "score": 0.3033
         }
       ]
     }
