@@ -1,40 +1,48 @@
 {
-  "generated_utc": "2026-11-22T10:01:50.107876+00:00",
+  "generated_utc": "2026-11-23T10:01:27.957787+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Deciphering the role of adenosine-related genes in regulating smooth muscle cell phenotypic switch in coronary heart disease via single-cell RNA sequencing",
-          "doi": "10.64898/2026.11.12.766320",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766320v1",
+          "title": "EPIC2: integrating single-cell chromatin accessibility with human genetics to identify trait-relevant cell types",
+          "doi": "10.64898/2026.11.12.766196",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766196v1",
           "source": "biorxiv",
-          "score": 0.3834
+          "score": 0.4236
         },
         {
           "rank": 2,
-          "title": "Structural correlates of disease-associated CTSC variants in Papillon-Lefevre syndrome",
-          "doi": "10.64898/2026.11.18.767647",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767647v1",
+          "title": "Machine Learning-based Transcriptomic Data Analysis of Long COVID Patients: Generating Hypotheses for Molecular Signatures",
+          "doi": "10.64898/2026.11.20.768015",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768015v1",
           "source": "biorxiv",
-          "score": 0.3041
+          "score": 0.4053
         },
         {
           "rank": 3,
-          "title": "Single-base 5mC and 5hmC profiling identifies a dynamic 5hmC-to-5mC transition at gene bodies and transcription end sites during neuronal differentiation of mouse embryonic stem cells.",
-          "doi": "10.64898/2026.11.20.768104",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768104v1",
+          "title": "High-Resolution Spatial Transcriptomics Reveals Millimeter-Scale Malignant Territories and Immune Exclusion patterns in Human Salivary Gland Adenoid Cystic Carcinoma",
+          "doi": "10.64898/2026.11.10.765744",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765744v1",
           "source": "biorxiv",
-          "score": 0.303
+          "score": 0.4018
         },
         {
           "rank": 4,
-          "title": "Exon Proteogenomic Abundance Predicts Advanced Heart Failure in Titin Cardiomyopathy",
-          "doi": "10.1101/2025.11.02.25338804",
-          "url": "https://www.medrxiv.org/content/10.1101/2025.11.02.25338804v3",
-          "source": "medrxiv",
-          "score": 0.2885
+          "title": "Leveraging the largest harmonized epigenomic data collection for metadata prediction validated and augmented over 350,000 public epigenomic datasets",
+          "doi": "10.1101/2025.09.04.670545",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.04.670545v2",
+          "source": "biorxiv",
+          "score": 0.3849
+        },
+        {
+          "rank": 5,
+          "title": "Myhre syndrome variants form long-lived SMAD heterotrimers through a rewired polar interface at the variant site",
+          "doi": "10.64898/2026.11.20.768049",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768049v1",
+          "source": "biorxiv",
+          "score": 0.3849
         }
       ]
     },
@@ -43,35 +51,35 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Defining the molecular interaction between influenza hemagglutinin and MHC-II",
-          "doi": "10.64898/2026.07.17.738765",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.738765v2",
+          "title": "Machine learning prediction of antimicrobial resistance in respiratory metagenomes",
+          "doi": "10.64898/2026.11.20.768127",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768127v1",
           "source": "biorxiv",
-          "score": 0.4669
+          "score": 0.5525
         },
         {
           "rank": 2,
-          "title": "RADSuite: Improving Species-Level Identification in Microbiome Research",
-          "doi": "10.64898/2026.11.18.767742",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767742v1",
+          "title": "NanoHIV-DR: a Nextflow workflow for consensus and read level HIV-1 drug resistance profiling from Oxford Nanopore sequencing",
+          "doi": "10.64898/2026.11.20.768148",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768148v1",
           "source": "biorxiv",
-          "score": 0.3485
+          "score": 0.4565
         },
         {
           "rank": 3,
-          "title": "Unexpected Long Range Actions of AAV8",
-          "doi": "10.64898/2026.11.20.767967",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767967v1",
+          "title": "Genomic Epidemiology of Dengue Virus in Ivory Coast Reveals Five Decades of Viral Circulation with Repeated Introductions from Burkina Faso",
+          "doi": "10.64898/2026.11.18.767690",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767690v1",
           "source": "biorxiv",
-          "score": 0.3335
+          "score": 0.3566
         },
         {
           "rank": 4,
-          "title": "MicroBioAgent: an AI agent for automated microbiome analysis",
-          "doi": "10.64898/2026.11.17.767465",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767465v1",
+          "title": "Syngeneic human iPSC Macrophages and Microglia possess distinct neuroinflammatory profiles, responses to HIV infection, and ART treatment",
+          "doi": "10.64898/2026.11.17.767399",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767399v1",
           "source": "biorxiv",
-          "score": 0.3033
+          "score": 0.295
         }
       ]
     }
