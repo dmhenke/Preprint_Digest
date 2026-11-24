@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-23T10:01:27.957787+00:00",
+  "generated_utc": "2026-11-24T10:02:01.087856+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "EPIC2: integrating single-cell chromatin accessibility with human genetics to identify trait-relevant cell types",
-          "doi": "10.64898/2026.11.12.766196",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766196v1",
+          "title": "Deciphering state bridges via a single-cell large language model",
+          "doi": "10.64898/2026.11.21.768275",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.21.768275v1",
           "source": "biorxiv",
-          "score": 0.4236
+          "score": 0.5585
         },
         {
           "rank": 2,
-          "title": "Machine Learning-based Transcriptomic Data Analysis of Long COVID Patients: Generating Hypotheses for Molecular Signatures",
-          "doi": "10.64898/2026.11.20.768015",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768015v1",
+          "title": "Population-level learning of non-additive effects enables accurate and efficient prediction of combinatorial perturbation responses",
+          "doi": "10.64898/2026.11.20.768136",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768136v1",
           "source": "biorxiv",
-          "score": 0.4053
+          "score": 0.5395
         },
         {
           "rank": 3,
-          "title": "High-Resolution Spatial Transcriptomics Reveals Millimeter-Scale Malignant Territories and Immune Exclusion patterns in Human Salivary Gland Adenoid Cystic Carcinoma",
-          "doi": "10.64898/2026.11.10.765744",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765744v1",
+          "title": "Integrating CRISPRi perturbation responses and transcription-factor binding priors for regulatory network inference in triple-negative breast cancer",
+          "doi": "10.64898/2026.11.20.768082",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768082v1",
           "source": "biorxiv",
-          "score": 0.4018
+          "score": 0.5003
         },
         {
           "rank": 4,
-          "title": "Leveraging the largest harmonized epigenomic data collection for metadata prediction validated and augmented over 350,000 public epigenomic datasets",
-          "doi": "10.1101/2025.09.04.670545",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.09.04.670545v2",
+          "title": "New Insights into the Expression Landscape of the Genetic Hearing Loss Protein Whirlin Across Human Tissues and Cell Types",
+          "doi": "10.64898/2026.03.23.713511",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.03.23.713511v2",
           "source": "biorxiv",
-          "score": 0.3849
+          "score": 0.4757
         },
         {
           "rank": 5,
-          "title": "Myhre syndrome variants form long-lived SMAD heterotrimers through a rewired polar interface at the variant site",
-          "doi": "10.64898/2026.11.20.768049",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768049v1",
-          "source": "biorxiv",
-          "score": 0.3849
+          "title": "Mapping the Spatial and Single-Cell Architecture of Cutaneous Squamous Cell Carcinoma Progression",
+          "doi": "10.64898/2026.11.21.26368487",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.21.26368487v1",
+          "source": "medrxiv",
+          "score": 0.4652
         }
       ]
     },
@@ -51,35 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Machine learning prediction of antimicrobial resistance in respiratory metagenomes",
-          "doi": "10.64898/2026.11.20.768127",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768127v1",
+          "title": "Modeling Host-Virus Interactions of Avian Corona Virus Reveals Cytokine Feedback as a driver of Strain-Specific Immune Response",
+          "doi": "10.64898/2026.11.20.768156",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768156v1",
           "source": "biorxiv",
-          "score": 0.5525
+          "score": 0.4219
         },
         {
           "rank": 2,
-          "title": "NanoHIV-DR: a Nextflow workflow for consensus and read level HIV-1 drug resistance profiling from Oxford Nanopore sequencing",
-          "doi": "10.64898/2026.11.20.768148",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768148v1",
-          "source": "biorxiv",
-          "score": 0.4565
+          "title": "Does altering antiretroviral therapy impact an individual's gut microbiome?",
+          "doi": "10.64898/2026.11.21.26368656",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.21.26368656v1",
+          "source": "medrxiv",
+          "score": 0.3637
         },
         {
           "rank": 3,
-          "title": "Genomic Epidemiology of Dengue Virus in Ivory Coast Reveals Five Decades of Viral Circulation with Repeated Introductions from Burkina Faso",
-          "doi": "10.64898/2026.11.18.767690",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767690v1",
+          "title": "Oral microbiome and DNA virome profiling in pigs reveals age-associated dynamics and extracellular recovery of Streptococcus suis-associated phage lineages",
+          "doi": "10.64898/2026.11.21.768310",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.21.768310v1",
           "source": "biorxiv",
-          "score": 0.3566
+          "score": 0.3556
         },
         {
           "rank": 4,
-          "title": "Syngeneic human iPSC Macrophages and Microglia possess distinct neuroinflammatory profiles, responses to HIV infection, and ART treatment",
-          "doi": "10.64898/2026.11.17.767399",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767399v1",
+          "title": "Integrative structural biology of a giant marine virus reveals architectural and functional complexity beyond icosahedral symmetry",
+          "doi": "10.64898/2026.11.16.766480",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766480v1",
           "source": "biorxiv",
-          "score": 0.295
+          "score": 0.3548
+        },
+        {
+          "rank": 5,
+          "title": "Viral discovery using untargeted metagenomics and complementary proteomics in plasma cell-rich virus-like tubulointerstitial nephritis after kidney transplantation",
+          "doi": "10.64898/2026.11.20.26368586",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.20.26368586v1",
+          "source": "medrxiv",
+          "score": 0.3478
         }
       ]
     }
