@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-24T10:02:01.087856+00:00",
+  "generated_utc": "2026-11-25T10:02:43.427257+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Deciphering state bridges via a single-cell large language model",
-          "doi": "10.64898/2026.11.21.768275",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.21.768275v1",
+          "title": "Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions",
+          "doi": "10.64898/2026.11.22.768440",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1",
           "source": "biorxiv",
-          "score": 0.5585
+          "score": 0.4373
         },
         {
           "rank": 2,
-          "title": "Population-level learning of non-additive effects enables accurate and efficient prediction of combinatorial perturbation responses",
-          "doi": "10.64898/2026.11.20.768136",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768136v1",
+          "title": "Disentangling within-cell-type heterogeneity from transcript contamination in imaging-based spatial transcriptomics",
+          "doi": "10.64898/2026.11.22.768448",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768448v1",
           "source": "biorxiv",
-          "score": 0.5395
+          "score": 0.4248
         },
         {
           "rank": 3,
-          "title": "Integrating CRISPRi perturbation responses and transcription-factor binding priors for regulatory network inference in triple-negative breast cancer",
-          "doi": "10.64898/2026.11.20.768082",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768082v1",
+          "title": "FiberTron enables regulatory variant effect prediction and testing from multi-omic long reads of a single sample",
+          "doi": "10.64898/2026.11.13.762587",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.762587v1",
           "source": "biorxiv",
-          "score": 0.5003
+          "score": 0.4158
         },
         {
           "rank": 4,
-          "title": "New Insights into the Expression Landscape of the Genetic Hearing Loss Protein Whirlin Across Human Tissues and Cell Types",
-          "doi": "10.64898/2026.03.23.713511",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.23.713511v2",
+          "title": "A refined InDel taxonomy broadens the repertoire of mutational processes shaping multiple myeloma",
+          "doi": "10.64898/2026.11.23.768572",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768572v1",
           "source": "biorxiv",
-          "score": 0.4757
+          "score": 0.4097
         },
         {
           "rank": 5,
-          "title": "Mapping the Spatial and Single-Cell Architecture of Cutaneous Squamous Cell Carcinoma Progression",
-          "doi": "10.64898/2026.11.21.26368487",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.21.26368487v1",
-          "source": "medrxiv",
-          "score": 0.4652
+          "title": "Benchmarking sample mispairing detection tools in complex cancer datasets",
+          "doi": "10.64898/2026.11.23.768692",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768692v1",
+          "source": "biorxiv",
+          "score": 0.3957
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Modeling Host-Virus Interactions of Avian Corona Virus Reveals Cytokine Feedback as a driver of Strain-Specific Immune Response",
-          "doi": "10.64898/2026.11.20.768156",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768156v1",
+          "title": "Characterizing the Effects of Filtration on Microbial Diversity, Reproducibility, and Genome Recovery from Wastewater",
+          "doi": "10.64898/2026.11.17.767414",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767414v1",
           "source": "biorxiv",
-          "score": 0.4219
+          "score": 0.5399
         },
         {
           "rank": 2,
-          "title": "Does altering antiretroviral therapy impact an individual's gut microbiome?",
-          "doi": "10.64898/2026.11.21.26368656",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.21.26368656v1",
-          "source": "medrxiv",
-          "score": 0.3637
+          "title": "Evaluating WGS-based methods as an in silico replacement of phage typing for historical continuity and host association in  Salmonella Typhimurium",
+          "doi": "10.64898/2026.11.23.768569",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768569v1",
+          "source": "biorxiv",
+          "score": 0.4581
         },
         {
           "rank": 3,
-          "title": "Oral microbiome and DNA virome profiling in pigs reveals age-associated dynamics and extracellular recovery of Streptococcus suis-associated phage lineages",
-          "doi": "10.64898/2026.11.21.768310",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.21.768310v1",
+          "title": "Rapid development of E. coli resistance to Bdellovibrio predation during short-term co-culture",
+          "doi": "10.64898/2026.11.23.768573",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768573v1",
           "source": "biorxiv",
-          "score": 0.3556
+          "score": 0.4554
         },
         {
           "rank": 4,
-          "title": "Integrative structural biology of a giant marine virus reveals architectural and functional complexity beyond icosahedral symmetry",
-          "doi": "10.64898/2026.11.16.766480",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766480v1",
+          "title": "Cryo-EM-based examinations of honey bee colony losses reveal structural insights into acute bee paralysis virus maturation and mechanical carriage",
+          "doi": "10.64898/2026.11.22.768463",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768463v1",
           "source": "biorxiv",
-          "score": 0.3548
+          "score": 0.3916
         },
         {
           "rank": 5,
-          "title": "Viral discovery using untargeted metagenomics and complementary proteomics in plasma cell-rich virus-like tubulointerstitial nephritis after kidney transplantation",
-          "doi": "10.64898/2026.11.20.26368586",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.20.26368586v1",
-          "source": "medrxiv",
-          "score": 0.3478
+          "title": "Protease shaving resolves the surface proteome of infection-derived extracellular vesicles and unmasks their inflammatory activity",
+          "doi": "10.64898/2026.11.22.768461",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768461v1",
+          "source": "biorxiv",
+          "score": 0.3556
         }
       ]
     }
