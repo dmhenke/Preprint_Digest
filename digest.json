@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-25T10:02:43.427257+00:00",
+  "generated_utc": "2026-11-26T11:53:58.174902+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions",
-          "doi": "10.64898/2026.11.22.768440",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1",
+          "title": "Single-cell Morphological Mechanisms-of-Action Profiling using Nanowell Imaging Plates",
+          "doi": "10.64898/2026.11.23.768734",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768734v1",
           "source": "biorxiv",
-          "score": 0.4373
+          "score": 0.5611
         },
         {
           "rank": 2,
-          "title": "Disentangling within-cell-type heterogeneity from transcript contamination in imaging-based spatial transcriptomics",
-          "doi": "10.64898/2026.11.22.768448",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768448v1",
+          "title": "SYNDRI: Context-aware removal of transcript spillover in imaging-based spatial transcriptomics",
+          "doi": "10.64898/2026.11.24.751906",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.751906v1",
           "source": "biorxiv",
-          "score": 0.4248
+          "score": 0.5397
         },
         {
           "rank": 3,
-          "title": "FiberTron enables regulatory variant effect prediction and testing from multi-omic long reads of a single sample",
-          "doi": "10.64898/2026.11.13.762587",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.762587v1",
+          "title": "A method to disentangle enhancer-gene interactions from latent factors in single-cell multi-omics data",
+          "doi": "10.64898/2026.11.24.768923",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768923v1",
           "source": "biorxiv",
-          "score": 0.4158
+          "score": 0.4994
         },
         {
           "rank": 4,
-          "title": "A refined InDel taxonomy broadens the repertoire of mutational processes shaping multiple myeloma",
-          "doi": "10.64898/2026.11.23.768572",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768572v1",
+          "title": "SingloCell: an open and accessible web platform for multimodal single-cell data exploration",
+          "doi": "10.64898/2026.11.23.767908",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.767908v1",
           "source": "biorxiv",
-          "score": 0.4097
+          "score": 0.4966
         },
         {
           "rank": 5,
-          "title": "Benchmarking sample mispairing detection tools in complex cancer datasets",
-          "doi": "10.64898/2026.11.23.768692",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768692v1",
+          "title": "XenoType: Decoding cellular identity in breast cancer histology through molecular supervision",
+          "doi": "10.64898/2026.11.24.768971",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768971v1",
           "source": "biorxiv",
-          "score": 0.3957
+          "score": 0.488
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Characterizing the Effects of Filtration on Microbial Diversity, Reproducibility, and Genome Recovery from Wastewater",
-          "doi": "10.64898/2026.11.17.767414",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767414v1",
+          "title": "Live vibratome sectioning of human lung and cerebral organoids for infection studies with respiratory and neurotropic viruses",
+          "doi": "10.64898/2026.11.23.768492",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768492v1",
           "source": "biorxiv",
-          "score": 0.5399
+          "score": 0.4452
         },
         {
           "rank": 2,
-          "title": "Evaluating WGS-based methods as an in silico replacement of phage typing for historical continuity and host association in  Salmonella Typhimurium",
-          "doi": "10.64898/2026.11.23.768569",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768569v1",
-          "source": "biorxiv",
-          "score": 0.4581
+          "title": "Deep Learning-based Phylodynamic Inference of Oropouche Virus Transmission Dynamics in Brazil Between 2023 and 2025",
+          "doi": "10.64898/2026.11.24.26368826",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.24.26368826v1",
+          "source": "medrxiv",
+          "score": 0.4377
         },
         {
           "rank": 3,
-          "title": "Rapid development of E. coli resistance to Bdellovibrio predation during short-term co-culture",
-          "doi": "10.64898/2026.11.23.768573",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768573v1",
+          "title": "Come together: Coordinate deconvolution of viral recombination, reassortment, and epistatic survival",
+          "doi": "10.64898/2026.11.20.768181",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768181v1",
           "source": "biorxiv",
-          "score": 0.4554
+          "score": 0.3933
         },
         {
           "rank": 4,
-          "title": "Cryo-EM-based examinations of honey bee colony losses reveal structural insights into acute bee paralysis virus maturation and mechanical carriage",
-          "doi": "10.64898/2026.11.22.768463",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768463v1",
+          "title": "Ruthenium Coordination Architecture Redirects Imiquimod Antiviral Activity",
+          "doi": "10.64898/2026.11.16.765078",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.765078v1",
           "source": "biorxiv",
-          "score": 0.3916
+          "score": 0.3816
         },
         {
           "rank": 5,
-          "title": "Protease shaving resolves the surface proteome of infection-derived extracellular vesicles and unmasks their inflammatory activity",
-          "doi": "10.64898/2026.11.22.768461",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768461v1",
+          "title": "Bulk RNA-seq data of an Adherent-Invasive Escherichia coli Strain ZVL and Its exuR-Knockout Mutant",
+          "doi": "10.64898/2026.11.24.768809",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768809v1",
           "source": "biorxiv",
-          "score": 0.3556
+          "score": 0.378
         }
       ]
     }

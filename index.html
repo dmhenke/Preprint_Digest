@@ -108,7 +108,7 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 25, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 26, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
@@ -124,64 +124,69 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions</a></li>
-  <li><a href="#core-article-2">Disentangling within-cell-type heterogeneity from transcript contamination in imaging-based spatial transcriptomics</a></li>
-  <li><a href="#core-article-3">FiberTron enables regulatory variant effect prediction and testing from multi-omic long reads of a single sample</a></li>
-  <li><a href="#core-article-4">A refined InDel taxonomy broadens the repertoire of mutational processes shaping multiple myeloma</a></li>
-  <li><a href="#core-article-5">Benchmarking sample mispairing detection tools in complex cancer datasets</a></li>
+  <li><a href="#core-article-1">Single-cell Morphological Mechanisms-of-Action Profiling using Nanowell Imaging Plates</a></li>
+  <li><a href="#core-article-2">SYNDRI: Context-aware removal of transcript spillover in imaging-based spatial transcriptomics</a></li>
+  <li><a href="#core-article-3">A method to disentangle enhancer-gene interactions from latent factors in single-cell multi-omics data</a></li>
+  <li><a href="#core-article-4">SingloCell: an open and accessible web platform for multimodal single-cell data exploration</a></li>
+  <li><a href="#core-article-5">XenoType: Decoding cellular identity in breast cancer histology through molecular supervision</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1">Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.22.768440">10.64898/2026.11.22.768440</a> · Score: <code>████░░░░░░</code> 0.437</p>
-<p><span class="label">Core Problem:</span> Inferring gene regulation from single-cell data is difficult because observational measurements cannot distinguish correlation from causation and access to perturbational data, especially with multiple modalities, remains limited</p>
-<p><span class="label">Proposed Solution:</span> Here we present the Cross-Modal Causal Variational Autoencoder (CMC-VAE), which learns a network linking genes and proteins (gene-gene, protein-protein and gene-protein) in the latent space and maps each connection back onto measured features. Trained on 809,130 observational CITE-seq profiles, CMC-VAE recovers co-expression, transcription factor regulons and immune signalling programs, and learns a sparse cross-modal map enriched for transcript-protein cognate pairs</p>
-<p><span class="label">Key Impact:</span> On larger Perturb-seq screens, with about 1,000 training perturbations, fine-tuning the latent network learns gene-specific effects that transfer to held-out genes, more so than a gene-level causal model fine-tuned on the same cells, and in simulation, such interventions also restore edge orientations that observational training leaves unresolved</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.23.768734v1">Single-cell Morphological Mechanisms-of-Action Profiling using Nanowell Imaging Plates</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.768734">10.64898/2026.11.23.768734</a> · Score: <code>██████░░░░</code> 0.561</p>
+<p><span class="label">Core Problem:</span> Mechanism-of-action (MoA) analysis is used in drug discovery to prioritize compounds that act through desired pathways while eliminating compounds associated with nonspecific or undesirable activity</p>
+<p><span class="label">Proposed Solution:</span> Image cytometry provides a promising route for MoA inference by capturing high-dimensional cellular phenotypes at single-cell resolution, but conventional workflows remain limited by unreliable cell segmentation and dependence on human-engineered feature extraction. Here, we present a deep learning-based image cytometry workflow that confines single cells in nanowells to obtain uniformly framed, regularized single-cell images, enabling MoA inference directly from raw images without segmentation or human-engineered features</p>
+<p><span class="label">Key Impact:</span> Together, these results establish regularized single-cell imaging in nanowells as a scalable and interpretable approach to image-based MoA classification that overcomes key limitations of segmentation-dependent feature analysis</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.22.768448v1">Disentangling within-cell-type heterogeneity from transcript contamination in imaging-based spatial transcriptomics</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.22.768448">10.64898/2026.11.22.768448</a> · Score: <code>████░░░░░░</code> 0.425</p>
-<p><span class="label">Core Problem:</span> Recent advances in imaging-based spatial transcriptomics have enabled high-resolution characterization of gene expression and cellular organization in situ</p>
-<p><span class="label">Proposed Solution:</span> Resolving within-cell-type heterogeneity is essential for understanding how cellular states relate to tissue function and disease. However, imperfect cell segmentation and RNA spillover can contaminate cell-level expression profiles, obscuring intrinsic expression patterns and generating spurious variation</p>
-<p><span class="label">Key Impact:</span> Together, Dancer supports accurate transcript decontamination and more faithful interpretation of cellular heterogeneity within its native tissue context</p>
+<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.24.751906v1">SYNDRI: Context-aware removal of transcript spillover in imaging-based spatial transcriptomics</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.751906">10.64898/2026.11.24.751906</a> · Score: <code>█████░░░░░</code> 0.540</p>
+<p><span class="label">Core Problem:</span> Imaging-based spatial transcriptomics (ST) measures gene expression at single-cell resolution, but imperfect segmentation often misassigns transcripts between neighboring cells, a problem known as transcript spillover</p>
+<p><span class="label">Proposed Solution:</span> This spillover is niche-dependent and can therefore confound downstream analyses that rely on niche-specific differential expression. True spillover cannot be directly quantified in experimental ST data, so existing correction methods infer contamination indirectly from transcript positions or expression structure</p>
+<p><span class="label">Key Impact:</span> These results demonstrate the utility of learning from simulated spillover to improve the interpretation of spatial gene expression</p>
 <p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.13.762587v1">FiberTron enables regulatory variant effect prediction and testing from multi-omic long reads of a single sample</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.13.762587">10.64898/2026.11.13.762587</a> · Score: <code>████░░░░░░</code> 0.416</p>
-<p><span class="label">Core Problem:</span> State-of-the-art sequence-to-function models are trained on large compendia of public data to predict regulatory activity across hundreds of cell types</p>
-<p><span class="label">Proposed Solution:</span> However, they are not designed to interpret individual genomes, effects in under-sampled cell types, or provide a comprehensive view of how genetic variation influences complex diseases. Here we show that a single sample profiled with Fiber-seq and Nanopore direct RNA-seq contains enough information to train such a model from scratch</p>
-<p><span class="label">Key Impact:</span> Lightweight single-sample training brings base-resolution interpretation of non-coding variation within reach of individual laboratories</p>
-<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.24.768923v1">A method to disentangle enhancer-gene interactions from latent factors in single-cell multi-omics data</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.768923">10.64898/2026.11.24.768923</a> · Score: <code>█████░░░░░</code> 0.499</p>
+<p><span class="label">Core Problem:</span> Mapping regulatory elements to their target genes in the cell types relevant to disease is essential for interpreting non-coding variants identified by genome-wide association studies</p>
+<p><span class="label">Proposed Solution:</span> Single-cell multiome data, which simultaneously measure accessible chromatin and gene expression per cell, allow such peak-gene links to be inferred within individual cell types. However, shared technical and biological variation across genes and peaks, such as cell cycle, cell quality, and inter-sample differences, creates spurious links, while including sample covariates to control for this variation inadvertently removes true genotype-driven links</p>
+<p><span class="label">Key Impact:</span> CREMAP thus enables accurate cell-type-specific peak-gene mapping from single-cell multiome data while preserving genuine genetic regulatory effects</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.23.768572v1">A refined InDel taxonomy broadens the repertoire of mutational processes shaping multiple myeloma</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.768572">10.64898/2026.11.23.768572</a> · Score: <code>████░░░░░░</code> 0.410</p>
-<p><span class="label">Core Problem:</span> Somatic aberrations have been extensively characterized in multiple myeloma (MM)</p>
-<p><span class="label">Proposed Solution:</span> However, the mutational processes underlying small insertions and deletions (InDels) remain poorly understood. Here, we used a recently developed 89-channel InDel classification schema which allows differentiating mutational processes</p>
-<p><span class="label">Key Impact:</span> Together, these findings provide a comprehensive characterization of InDel mutagenesis in MM, revealing previously underexplored relationships and demonstrating potential to refine comprehensive genomic classifications of MM</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.23.767908v1">SingloCell: an open and accessible web platform for multimodal single-cell data exploration</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.767908">10.64898/2026.11.23.767908</a> · Score: <code>█████░░░░░</code> 0.497</p>
+<p><span class="label">Core Problem:</span> Single-cell research is transforming biology and medicine, offering unprecedented insight into health and disease</p>
+<p><span class="label">Proposed Solution:</span> Yet, the true potential of single-cell data can only be realized when datasets are open, easy to interact with, and accessible to all. We introduce SingloCell (https://singlocell</p>
+<p><span class="label">Key Impact:</span> Datasets can be shared publicly or via unlisted links, and analytical workflows are documented through downloadable receipts</p>
+<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.23.768692v1">Benchmarking sample mispairing detection tools in complex cancer datasets</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.768692">10.64898/2026.11.23.768692</a> · Score: <code>████░░░░░░</code> 0.396</p>
-<p><span class="label">Core Problem:</span> Sample mispairs are common and potentially costly mistakes, and therefore checking for sample mispairing is a crucial quality-control step in multimodal genomic studies</p>
-<p><span class="label">Proposed Solution:</span> This study presents an independent benchmark of sample mispairing detection tools in multimodal transcriptomic cancer datasets. In pseudobulk experiments with known sample pairings, four tools achieved near-perfect F1 scores across datasets</p>
-<p><span class="label">Key Impact:</span> Finally, a high-grade serous ovarian carcinoma dataset is reconstructed: resolving mispairs between two bulk RNA-sequencing modalities, resolving mispairs between pooled single-cell and bulk RNA-seq data, and reestablishing the connection between the transcriptomic data and patient metadata using genetic ancestry inference</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.24.768971v1">XenoType: Decoding cellular identity in breast cancer histology through molecular supervision</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.768971">10.64898/2026.11.24.768971</a> · Score: <code>█████░░░░░</code> 0.488</p>
+<p><span class="label">Core Problem:</span> Characterizing the cellular composition of the tumor microenvironment from histological images is fundamental to understanding cancer biology and informing treatment decisions</p>
+<p><span class="label">Proposed Solution:</span> Deep learning has enabled automated nuclear detection and classification from hematoxylin and eosin (H&amp;E) images, yet cell classifiers remain largely confined to broad morphological categories owing to a reliance on manual annotations. Recent efforts have used spatial molecular measurements to supervise histological classification, but these approaches often require separate tissue sections or produce altered H&amp;E staining, and the resulting cell-type annotations depend on subjective choices such as marker selection and clustering parameters</p>
+<p><span class="label">Key Impact:</span> Model-reference agreement increased consistently with annotation confidence, and XenoType generalized to an independently profiled breast tissue section from a different spatial transcriptomics platform, supporting scalable cell-type mapping from routine histology without per-specimen molecular profiling</p>
+<p><span class="label">Methodology:</span> Deep Learning techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.13.762587">FiberTron enables regulatory variant effect prediction and testing from multi-omic long reads of a single sample</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.22.768440">Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.22.768448">Disentangling within-cell-type heterogeneity from transcript contamination in imaging-based spatial transcriptomics</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.23.768572">A refined InDel taxonomy broadens the repertoire of mutational processes shaping multiple myeloma</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.23.768692">Benchmarking sample mispairing detection tools in complex cancer datasets</a><span class="history-date">Nov 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.03.23.713511">New Insights into the Expression Landscape of the Genetic Hearing Loss Protein Whirlin Across Human Tissues and Cell Types</a><span class="history-date">Nov 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.20.768082">Integrating CRISPRi perturbation responses and transcription-factor binding priors for regulatory network inference in triple-negative breast cancer</a><span class="history-date">Nov 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.20.768136">Population-level learning of non-additive effects enables accurate and efficient prediction of combinatorial perturbation responses</a><span class="history-date">Nov 24, 2026</span></li>
@@ -992,64 +997,69 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">Characterizing the Effects of Filtration on Microbial Diversity, Reproducibility, and Genome Recovery from Wastewater</a></li>
-  <li><a href="#virology-article-2">Evaluating WGS-based methods as an in silico replacement of phage typing for historical continuity and host association in  Salmonella Typhimurium</a></li>
-  <li><a href="#virology-article-3">Rapid development of E. coli resistance to Bdellovibrio predation during short-term co-culture</a></li>
-  <li><a href="#virology-article-4">Cryo-EM-based examinations of honey bee colony losses reveal structural insights into acute bee paralysis virus maturation and mechanical carriage</a></li>
-  <li><a href="#virology-article-5">Protease shaving resolves the surface proteome of infection-derived extracellular vesicles and unmasks their inflammatory activity</a></li>
+  <li><a href="#virology-article-1">Live vibratome sectioning of human lung and cerebral organoids for infection studies with respiratory and neurotropic viruses</a></li>
+  <li><a href="#virology-article-2">Deep Learning-based Phylodynamic Inference of Oropouche Virus Transmission Dynamics in Brazil Between 2023 and 2025</a></li>
+  <li><a href="#virology-article-3">Come together: Coordinate deconvolution of viral recombination, reassortment, and epistatic survival</a></li>
+  <li><a href="#virology-article-4">Ruthenium Coordination Architecture Redirects Imiquimod Antiviral Activity</a></li>
+  <li><a href="#virology-article-5">Bulk RNA-seq data of an Adherent-Invasive Escherichia coli Strain ZVL and Its exuR-Knockout Mutant</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.17.767414v1">Characterizing the Effects of Filtration on Microbial Diversity, Reproducibility, and Genome Recovery from Wastewater</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.17.767414">10.64898/2026.11.17.767414</a> · Score: <code>█████░░░░░</code> 0.540</p>
-<p><span class="label">Core Problem:</span> Filtration is widely used in wastewater microbiome workflows, but how pore size, filtration tactics, and sampled fraction shape microbial profiles across sequencing approaches remains unclear</p>
-<p><span class="label">Proposed Solution:</span> We compared direct and sequential filtration of wastewater through 3-, 0. 45-, and 0</p>
-<p><span class="label">Key Impact:</span> Together, these results suggest that wastewater processing workflow should therefore be selected according to the intended use case</p>
-<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
+<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.23.768492v1">Live vibratome sectioning of human lung and cerebral organoids for infection studies with respiratory and neurotropic viruses</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.768492">10.64898/2026.11.23.768492</a> · Score: <code>████░░░░░░</code> 0.445</p>
+<p><span class="label">Core Problem:</span> We present a robust, reproducible protocol for generating live, thin (300 micrometer) vibratome sections from human lung organoids and human cerebral organoids</p>
+<p><span class="label">Proposed Solution:</span> The method preserves the native three-dimensional tissue architecture, cellular heterogeneity, and viability for at least 7 days in culture, providing a physiologically relevant platform for investigating respiratory and neurotropic virus infection. Following infection, samples can be fixed, cryoprotected, and embedded for downstream cryosectioning</p>
+<p><span class="label">Key Impact:</span> The protocol provides a versatile and high-resolution framework for studying respiratory and neurotropic viral pathogenesis, host-pathogen interactions, and therapeutic interventions in human lung as well as brain tissue</p>
+<p><span class="label">Methodology:</span> Spatial Transcriptomics techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.23.768569v1">Evaluating WGS-based methods as an in silico replacement of phage typing for historical continuity and host association in  Salmonella Typhimurium</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.768569">10.64898/2026.11.23.768569</a> · Score: <code>█████░░░░░</code> 0.458</p>
-<p><span class="label">Core Problem:</span> Salmonella enterica serovar Typhimurium (STm) poses a significant burden on public health worldwide</p>
-<p><span class="label">Proposed Solution:</span> The Anderson phage typing scheme has historically supported surveillance, outbreak investigations and source attribution through associations between phage types and animal hosts. However, limitations inherent to the scheme have led to the gradual replacement of phage typing by whole-genome sequencing (WGS)-based methods</p>
-<p><span class="label">Key Impact:</span> Finally, our findings suggest HierCC and SNP address methods can capture the host-association information historically derived from phage typing</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.24.26368826v1">Deep Learning-based Phylodynamic Inference of Oropouche Virus Transmission Dynamics in Brazil Between 2023 and 2025</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.26368826">10.64898/2026.11.24.26368826</a> · Score: <code>████░░░░░░</code> 0.438</p>
+<p><span class="label">Core Problem:</span> Oropouche virus caused an unprecedented epidemic across the Americas during 2023-2025, associated with the expansion of the reassortant M1L2S2 lineage</p>
+<p><span class="label">Proposed Solution:</span> To investigate its dissemination, we develop the Birth-Death Exposed-Infectious Vector-Human (BDEIVH) model within a deep-learning framework that explicitly represents alternating human-vector transmission and incubation periods. The model defines two directional reproduction numbers, RVH and RHV, whose product, RHH, quantifies the expected number of secondary human infections generated by a single infectious human through one complete transmission cycle</p>
+<p><span class="label">Key Impact:</span> These findings show that explicitly modelling vector-mediated transmission improves phylodynamic inference and reveals substantial OROV transmission in both endemic and non-endemic regions</p>
+<p><span class="label">Methodology:</span> Phylodynamic techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.23.768573v1">Rapid development of E. coli resistance to Bdellovibrio predation during short-term co-culture</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.768573">10.64898/2026.11.23.768573</a> · Score: <code>█████░░░░░</code> 0.455</p>
-<p><span class="label">Core Problem:</span> When E</p>
-<p><span class="label">Proposed Solution:</span> coli ML35 is co-cultured with Bdellovibrio sp. NC01 over 72 hours, prey populations initially experience a 3-log reduction, but then partially recover to ~20% of starting density</p>
-<p><span class="label">Key Impact:</span> Further work, such as phenotypic testing of ML35-circular lines and reverse genetics experiments, are needed to clarify how rfbG affects prey susceptibility to Bdellovibrio predation</p>
+<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.20.768181v1">Come together: Coordinate deconvolution of viral recombination, reassortment, and epistatic survival</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.20.768181">10.64898/2026.11.20.768181</a> · Score: <code>████░░░░░░</code> 0.393</p>
+<p><span class="label">Core Problem:</span> Viral subtyping and recombination detection underpin taxonomic curation, clinical resistance tracking, and real-time outbreak surveillance</p>
+<p><span class="label">Proposed Solution:</span> Community nomenclature systems--such as HIV-1 circulating recombinant forms (CRFs), SARS-CoV-2 Pango lineages, and Influenza A genotype catalogs--have created indispensable shared vocabularies, yet rapid archive growth and frequent cross-lineage chimerism now invite a complementary layer that unites speed, provenance, and statistical rigor across viral families. Here, we present EGGMAN (Exact Genomic Genealogy and Mosaic Ancestry Nomenclature), a unified framework that separates mapping physical parental coordinates against a principled, non-mosaic founder basis (Tier 1) from statistically guarded assignment to established epidemic clones (Tier 2)</p>
+<p><span class="label">Key Impact:</span> Finally, census-level mapping across 761 HIV-1 mosaic lineages reveals a two-stage selective sieve separating within-host protein-folding viability (gp120 and Gag-CA cores) from between-host preservation of an intact 3&#x27; regulatory and envelope cassette</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.22.768463v1">Cryo-EM-based examinations of honey bee colony losses reveal structural insights into acute bee paralysis virus maturation and mechanical carriage</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.22.768463">10.64898/2026.11.22.768463</a> · Score: <code>████░░░░░░</code> 0.392</p>
-<p><span class="label">Core Problem:</span> Honey bee colony losses pose a complex and significant agricultural problem in the United States and Europe, which has also been linked to viruses</p>
-<p><span class="label">Proposed Solution:</span> As opposed to a purely sequence-based approach, we used cryogenic electron microscopy (cryo-EM) as an alternative sequencing- and culture-independent diagnostic tool to investigate viral pathogens associated with colony losses in the state of Texas. By purifying a limited number of viral particles directly from degraded hive remains, we could establish the identity of acute bee paralysis virus (ABPV) at the species level without prior sequencing data at 3</p>
-<p><span class="label">Key Impact:</span> Together, our findings establish cryo-EM as a complementary diagnostic approach that simultaneously enables viral identification, replication-state assessment, and structural characterization, providing unprecedented insights into the maturation process of aparaviruses, a lineage of honey bee-infecting picorna-like viruses at the forefront of colony losses</p>
-<p><span class="label">Methodology:</span> Cryo-Em techniques were central to the study design.</p>
+<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.16.765078v1">Ruthenium Coordination Architecture Redirects Imiquimod Antiviral Activity</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.16.765078">10.64898/2026.11.16.765078</a> · Score: <code>████░░░░░░</code> 0.382</p>
+<p><span class="label">Core Problem:</span> Immune agonists can reinforce antiviral defence, but therapeutic efficacy requires control over the magnitude and quality of the host response</p>
+<p><span class="label">Proposed Solution:</span> Here we show that metal coordination can reprogramme the pharmacology of imiquimod, a clinically used TLR7 agonist. A series of Ru(II)-arene-imiquimod complexes identified the trinuclear compound 7 as a lead with activity against Herpes simplex virus types 1 and 2 (HSV-1 and HSV-2), including clinical isolates and antiviral-resistant strains</p>
+<p><span class="label">Key Impact:</span> These findings establish a broader principle: coordination chemistry can engineer the response profile of immune-active anti-infective agents and expand the design space of host-directed antiviral therapeutics</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.22.768461v1">Protease shaving resolves the surface proteome of infection-derived extracellular vesicles and unmasks their inflammatory activity</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.22.768461">10.64898/2026.11.22.768461</a> · Score: <code>████░░░░░░</code> 0.356</p>
-<p><span class="label">Core Problem:</span> Small extracellular vesicles (sEVs) produced and released by infected macrophages carry both host proteins and bacterial antigens, but whether these components face outward, are enclosed within vesicles, or are associated with co-isolated material remains unclear, limiting our understanding of their accessibility to recipient cells</p>
-<p><span class="label">Proposed Solution:</span> We combined proteinase K shaving with quantitative proteomics to characterize the protease-accessible proteome of sEVs released by Salmonella-infected RAW264. 7 macrophages</p>
-<p><span class="label">Key Impact:</span> Our findings together suggest that the protease-accessible protein fraction influences the immunostimulatory activity of infection-derived sEV preparations, with removal of the externally available coat of EVs being associated with enhanced inflammatory signaling</p>
-<p><span class="label">Methodology:</span> Proteomics techniques were central to the study design.</p>
+<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.24.768809v1">Bulk RNA-seq data of an Adherent-Invasive Escherichia coli Strain ZVL and Its exuR-Knockout Mutant</a></h3>
+<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.768809">10.64898/2026.11.24.768809</a> · Score: <code>████░░░░░░</code> 0.378</p>
+<p><span class="label">Core Problem:</span> Adherent-invasive Escherichia coli (AIEC) is a subtype of pathogenic E</p>
+<p><span class="label">Proposed Solution:</span> coli associated with Crohn&#x27;s disease. AIEC strains are characterized by the ability to adhere to and invade epithelial cells, survive and replicate within macrophages</p>
+<p><span class="label">Key Impact:</span> Our results suggest that deletion of exuR affects the invasion phenotype following growth in propionate-supplemented medium</p>
+<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.11.17.767414">Characterizing the Effects of Filtration on Microbial Diversity, Reproducibility, and Genome Recovery from Wastewater</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.22.768461">Protease shaving resolves the surface proteome of infection-derived extracellular vesicles and unmasks their inflammatory activity</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.22.768463">Cryo-EM-based examinations of honey bee colony losses reveal structural insights into acute bee paralysis virus maturation and mechanical carriage</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.23.768569">Evaluating WGS-based methods as an in silico replacement of phage typing for historical continuity and host association in  Salmonella Typhimurium</a><span class="history-date">Nov 25, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.23.768573">Rapid development of E. coli resistance to Bdellovibrio predation during short-term co-culture</a><span class="history-date">Nov 25, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.16.766480">Integrative structural biology of a giant marine virus reveals architectural and functional complexity beyond icosahedral symmetry</a><span class="history-date">Nov 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.20.26368586">Viral discovery using untargeted metagenomics and complementary proteomics in plasma cell-rich virus-like tubulointerstitial nephritis after kidney transplantation</a><span class="history-date">Nov 24, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.20.768156">Modeling Host-Virus Interactions of Avian Corona Virus Reveals Cytokine Feedback as a driver of Strain-Specific Immune Response</a><span class="history-date">Nov 24, 2026</span></li>
@@ -1444,7 +1454,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-25T10:02:43 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-26T11:53:58 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;
