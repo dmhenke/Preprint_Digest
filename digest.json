@@ -1,48 +1,48 @@
 {
-  "generated_utc": "2026-11-26T11:53:58.174902+00:00",
+  "generated_utc": "2026-11-27T14:33:36.137277+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Single-cell Morphological Mechanisms-of-Action Profiling using Nanowell Imaging Plates",
-          "doi": "10.64898/2026.11.23.768734",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768734v1",
+          "title": "Do single-cell foundation models need 512 dimensions for one number?",
+          "doi": "10.64898/2026.11.24.768376",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768376v1",
           "source": "biorxiv",
-          "score": 0.5611
+          "score": 0.5087
         },
         {
           "rank": 2,
-          "title": "SYNDRI: Context-aware removal of transcript spillover in imaging-based spatial transcriptomics",
-          "doi": "10.64898/2026.11.24.751906",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.751906v1",
+          "title": "Discovery of novel drug combinations for oral squamous cell carcinoma through integrated analysis of single-cell RNA-sequencing datasets",
+          "doi": "10.64898/2026.11.24.768808",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768808v1",
           "source": "biorxiv",
-          "score": 0.5397
+          "score": 0.4609
         },
         {
           "rank": 3,
-          "title": "A method to disentangle enhancer-gene interactions from latent factors in single-cell multi-omics data",
-          "doi": "10.64898/2026.11.24.768923",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768923v1",
+          "title": "scRefine: hierarchical and contrastive learning for biologically faithful single-cell atlas integration and annotation",
+          "doi": "10.64898/2026.11.25.769099",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769099v1",
           "source": "biorxiv",
-          "score": 0.4994
+          "score": 0.4405
         },
         {
           "rank": 4,
-          "title": "SingloCell: an open and accessible web platform for multimodal single-cell data exploration",
-          "doi": "10.64898/2026.11.23.767908",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.767908v1",
+          "title": "A dynamic proteomic HECT E3 ligase screen reveals substrate exclusivity and redundancies.",
+          "doi": "10.64898/2026.11.24.768805",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768805v1",
           "source": "biorxiv",
-          "score": 0.4966
+          "score": 0.4309
         },
         {
           "rank": 5,
-          "title": "XenoType: Decoding cellular identity in breast cancer histology through molecular supervision",
-          "doi": "10.64898/2026.11.24.768971",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768971v1",
+          "title": "High-resolution, high-throughput screening reveals potent target sites for RNAi and Cas13 systems",
+          "doi": "10.1101/2025.11.17.688664",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688664v3",
           "source": "biorxiv",
-          "score": 0.488
+          "score": 0.4171
         }
       ]
     },
@@ -51,43 +51,43 @@
       "articles": [
         {
           "rank": 1,
-          "title": "Live vibratome sectioning of human lung and cerebral organoids for infection studies with respiratory and neurotropic viruses",
-          "doi": "10.64898/2026.11.23.768492",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768492v1",
-          "source": "biorxiv",
-          "score": 0.4452
+          "title": "DNA capture and amplicon enrichment approaches for next-generation sequencing of Mycoplasma genitalium directly from clinical samples",
+          "doi": "10.64898/2026.04.29.26351683",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.04.29.26351683v2",
+          "source": "medrxiv",
+          "score": 0.4332
         },
         {
           "rank": 2,
-          "title": "Deep Learning-based Phylodynamic Inference of Oropouche Virus Transmission Dynamics in Brazil Between 2023 and 2025",
-          "doi": "10.64898/2026.11.24.26368826",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.24.26368826v1",
-          "source": "medrxiv",
-          "score": 0.4377
+          "title": "Global evolutionary and spatiotemporal transmission dynamics of human respiroviruses and orthorubulaviruses",
+          "doi": "10.64898/2026.11.26.769081",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769081v1",
+          "source": "biorxiv",
+          "score": 0.4171
         },
         {
           "rank": 3,
-          "title": "Come together: Coordinate deconvolution of viral recombination, reassortment, and epistatic survival",
-          "doi": "10.64898/2026.11.20.768181",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768181v1",
-          "source": "biorxiv",
-          "score": 0.3933
+          "title": "Genetic variants associated with 90-day survival in sepsis patients",
+          "doi": "10.64898/2026.11.23.26368566",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.23.26368566v1",
+          "source": "medrxiv",
+          "score": 0.3903
         },
         {
           "rank": 4,
-          "title": "Ruthenium Coordination Architecture Redirects Imiquimod Antiviral Activity",
-          "doi": "10.64898/2026.11.16.765078",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.765078v1",
+          "title": "Strain-resolved metagenomics shows gut microbiome signatures in a case-control study of Malawian children with zoonotic schistosomiasis",
+          "doi": "10.64898/2026.11.25.769124",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769124v1",
           "source": "biorxiv",
-          "score": 0.3816
+          "score": 0.3714
         },
         {
           "rank": 5,
-          "title": "Bulk RNA-seq data of an Adherent-Invasive Escherichia coli Strain ZVL and Its exuR-Knockout Mutant",
-          "doi": "10.64898/2026.11.24.768809",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768809v1",
+          "title": "Olfactory epithelium local proteomic during SARS-CoV-2 infection in hamsters",
+          "doi": "10.64898/2026.11.25.769107",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769107v1",
           "source": "biorxiv",
-          "score": 0.378
+          "score": 0.3595
         }
       ]
     }
