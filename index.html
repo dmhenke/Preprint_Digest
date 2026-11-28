@@ -108,15 +108,15 @@ footer {
 <body>
 <div id="header">
   <h1>Bio-Preprint Impact Digest</h1>
-  <h2>November 27, 2026 — 10 preprints selected (Comp Bio: 5 · Virology: 5)</h2>
+  <h2>November 28, 2026 — 5 preprints selected (Comp Bio: 2 · Virology: 3)</h2>
   <p>Parallel daily digests of high-impact recent preprints, each ranked by
      semantic relevance to its topic, novelty against previously featured work,
      and methodological sophistication.</p>
 </div>
 
 <nav class="tabs" role="tablist">
-  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(5)</span></a>
-  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(5)</span></a>
+  <a class="tab" id="tab-core" role="tab" href="#core" data-track="core" aria-controls="panel-core" aria-selected="false">Comp Bio <span class="count">(2)</span></a>
+  <a class="tab" id="tab-virology" role="tab" href="#virology" data-track="virology" aria-controls="panel-virology" aria-selected="false">Virology <span class="count">(3)</span></a>
 </nav>
 
 <section class="panel" id="panel-core" role="tabpanel" aria-labelledby="tab-core">
@@ -124,64 +124,39 @@ footer {
 <p class="track-blurb">Highest-impact recent preprints in computational and molecular biology, ranked by semantic relevance, novelty, and methodological sophistication.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#core-article-1">Do single-cell foundation models need 512 dimensions for one number?</a></li>
-  <li><a href="#core-article-2">Discovery of novel drug combinations for oral squamous cell carcinoma through integrated analysis of single-cell RNA-sequencing datasets</a></li>
-  <li><a href="#core-article-3">scRefine: hierarchical and contrastive learning for biologically faithful single-cell atlas integration and annotation</a></li>
-  <li><a href="#core-article-4">A dynamic proteomic HECT E3 ligase screen reveals substrate exclusivity and redundancies.</a></li>
-  <li><a href="#core-article-5">High-resolution, high-throughput screening reveals potent target sites for RNAi and Cas13 systems</a></li>
+  <li><a href="#core-article-1">Cross-cohort reproducibility of AI-assisted nanopore methylation profiling establishes diagnostic equivalence to WHO-integrated diagnoses in adult CNS tumors</a></li>
+  <li><a href="#core-article-2">Performance Characteristics of Reasoning Large Language Models for Evidence Extraction from Clinical Genomics Literature</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="core-article-1">
-<h3>1. <a href="https://www.biorxiv.org/content/10.64898/2026.11.24.768376v1">Do single-cell foundation models need 512 dimensions for one number?</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.768376">10.64898/2026.11.24.768376</a> · Score: <code>█████░░░░░</code> 0.509</p>
-<p><span class="label">Core Problem:</span> Single-cell foundation models represent counts through high-dimensional value embeddings or ranked feature tokens</p>
-<p><span class="label">Proposed Solution:</span> We asked how many dimensions counts need and what network computes. In a controlled Transformer, a four-dimensional value track separated from a wide gene-identity backbone retains nearly all masked-prediction net gain; a straight line replaces pretrained value curves with little transfer loss</p>
-<p><span class="label">Key Impact:</span> Matched controls show that attribution, attention, dictionary and probe readouts can reflect depth, gene frequency, hub degree or directions that transfer little output</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.11.26.26368828v1">Cross-cohort reproducibility of AI-assisted nanopore methylation profiling establishes diagnostic equivalence to WHO-integrated diagnoses in adult CNS tumors</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.26.26368828">10.64898/2026.11.26.26368828</a> · Score: <code>███░░░░░░░</code> 0.326</p>
+<p><span class="label">Core Problem:</span> Background: Array-based methylation profiling with the Heidelberg classifier supports WHO-CNS5 classification of CNS tumors, but its substantial hands-on time, cost, centralized infrastructure and dependence on externally-hosted software limit broad implementation</p>
+<p><span class="label">Proposed Solution:</span> Nanopore methylation sequencing combined with AI-based classification is a viable alternative, yet performance evidence required for implementation in adult CNS tumor diagnostics is limited. We test the equivalence of nanopore methylation profiling using the Sturgeon-v2 classifier against a WHO-CNS5-compliant integrated reference diagnosis incorporating array-based classification</p>
+<p><span class="label">Key Impact:</span> Conclusion: Diagnostic equivalence and reproducibility across independent cohorts, together with the publicly available, locally-executable NEURON workflow, provide evidence and tools to support laboratory validation, accreditation and routine implementation of nanopore methylation profiling for adult CNS tumor classification</p>
+<p><span class="label">Methodology:</span> Nanopore techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="core-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.24.768808v1">Discovery of novel drug combinations for oral squamous cell carcinoma through integrated analysis of single-cell RNA-sequencing datasets</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.768808">10.64898/2026.11.24.768808</a> · Score: <code>█████░░░░░</code> 0.461</p>
-<p><span class="label">Core Problem:</span> Oral squamous cell carcinoma (OSCC) is associated with high morbidity and mortality, yet treatment options remain limited and resistance driven by intratumoral heterogeneity (ITH) is frequent</p>
-<p><span class="label">Proposed Solution:</span> To characterize ITH and identify strategies to overcome it, we integrated twelve public single-cell RNA-sequencing datasets into an unprecedentedly large dataset and combined it with spatial transcriptomics. A novel, pathway-based clustering approach revealed seven highly recurrent and distinct tumor cell clusters, each defined by divergent cell-cell interactions, distinct positions along the cell trajectory tree, and spatially defined localization within tumors</p>
-<p><span class="label">Key Impact:</span> Our work characterizes ITH in OSCC and reveals strategies to overcome it by broadly targeting malignant and microenvironmental drivers of OSCC, providing a basis for the rational design of novel combination therapies</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-3">
-<h3>3. <a href="https://www.biorxiv.org/content/10.64898/2026.11.25.769099v1">scRefine: hierarchical and contrastive learning for biologically faithful single-cell atlas integration and annotation</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.25.769099">10.64898/2026.11.25.769099</a> · Score: <code>████░░░░░░</code> 0.440</p>
-<p><span class="label">Core Problem:</span> Single-cell RNA sequencing (scRNAseq) studies increasingly encompass diverse tissues, donors, disease contexts, and sequencing platforms, resulting in large-scale datasets characterized by substantial technical heterogeneity and inconsistent cell-type annotations</p>
-<p><span class="label">Proposed Solution:</span> These datasets offer unprecedented opportunities to resolve fine-grained cellular diversity and identify tissue-specific, developmental, and disease-associated cell states. However, existing integration and annotation approaches often struggle to preserve rare or transcriptionally subtle subpopulations, depend heavily on extensively labelled reference datasets or predefined cell-type taxonomies, and can generate latent representations that obscure biologically meaningful lineage relationships and fine-scale cellular structure</p>
-<p><span class="label">Key Impact:</span> scRefine is available as an open-source package and offers a robust foundation for constructing coherent, high resolution cell-type reference atlases across studies and technologies</p>
-<p><span class="label">Methodology:</span> Single-Cell techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.24.768805v1">A dynamic proteomic HECT E3 ligase screen reveals substrate exclusivity and redundancies.</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.24.768805">10.64898/2026.11.24.768805</a> · Score: <code>████░░░░░░</code> 0.431</p>
-<p><span class="label">Core Problem:</span> Cells maintain proteostasis through constant purge of proteins, complexes and large assemblies via the ubiquitin proteasome system (UPS)</p>
-<p><span class="label">Proposed Solution:</span> As a catalyst of ubiquitin transfer, E3 ligases determine the fate of their substrates, and to an extent, of the cell. Current approaches in identifying E3-substrate pairs largely overlook the dynamic nature of their interaction and the functional implications on cellular proteostasis</p>
-<p><span class="label">Key Impact:</span> Our analysis framework is adaptable to larger protease screens and may positively inform the targeted protein degradation field towards precise therapeutic targets</p>
-<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="core-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.1101/2025.11.17.688664v3">High-resolution, high-throughput screening reveals potent target sites for RNAi and Cas13 systems</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.1101/2025.11.17.688664">10.1101/2025.11.17.688664</a> · Score: <code>████░░░░░░</code> 0.417</p>
-<p><span class="label">Core Problem:</span> RNA interference (RNAi) and CRISPR-Cas13 are widely used for targeted RNA degradation, yet identifying optimal target sites remains a major bottleneck</p>
-<p><span class="label">Proposed Solution:</span> Furthermore, it remains unclear whether these mechanistically distinct platforms share target sites because high-resolution comparative RNA knockdown data are lacking. To address this, we developed a high-throughput screening platform utilizing shRNAone, an engineered scaffold that generates highly homogeneous small RNAs</p>
-<p><span class="label">Key Impact:</span> Together, this work reveals the existence of shared potent target sites between RNAi and Cas13 and provides a screening platform that can reduce the time and cost of developing RNA therapeutics</p>
-<p><span class="label">Methodology:</span> Crispr techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.02.18.26346543v2">Performance Characteristics of Reasoning Large Language Models for Evidence Extraction from Clinical Genomics Literature</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.02.18.26346543">10.64898/2026.02.18.26346543</a> · Score: <code>███░░░░░░░</code> 0.296</p>
+<p><span class="label">Core Problem:</span> BACKGROUND Genetic variant curation requires literature-guided comparison of variant prevalence in affected individuals versus healthy controls</p>
+<p><span class="label">Proposed Solution:</span> This evidence is categorized as the PS4 evidence code by the AMP/ACMG variant interpretation guidelines and its manual extraction is a major bottleneck in clinical variant curation. We evaluated whether reasoning-capable large language models (LLMs) can support guideline-constrained PS4 evidence extraction from literature</p>
+<p><span class="label">Key Impact:</span> Residual phenotype and case-independence errors support a hybrid workflow with expert review, while statistically comparable performance among five newer models suggests that cost, latency, and availability may be relevant considerations when selecting among similarly performing models</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <hr>
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.1101/2025.11.17.688664">High-resolution, high-throughput screening reveals potent target sites for RNAi and Cas13 systems</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.24.768376">Do single-cell foundation models need 512 dimensions for one number?</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.24.768805">A dynamic proteomic HECT E3 ligase screen reveals substrate exclusivity and redundancies.</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.24.768808">Discovery of novel drug combinations for oral squamous cell carcinoma through integrated analysis of single-cell RNA-sequencing datasets</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.25.769099">scRefine: hierarchical and contrastive learning for biologically faithful single-cell atlas integration and annotation</a><span class="history-date">Nov 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.23.767908">SingloCell: an open and accessible web platform for multimodal single-cell data exploration</a><span class="history-date">Nov 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.23.768734">Single-cell Morphological Mechanisms-of-Action Profiling using Nanowell Imaging Plates</a><span class="history-date">Nov 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.24.751906">SYNDRI: Context-aware removal of transcript spillover in imaging-based spatial transcriptomics</a><span class="history-date">Nov 26, 2026</span></li>
@@ -1002,57 +977,37 @@ footer {
 <p class="track-blurb">Emerging methods for discovering, surveilling, and characterising viruses and pandemic threats — metagenomic sequencing, wastewater and environmental surveillance, phylodynamics, host–pathogen interaction screens, and outbreak forecasting.</p>
 <p class="section-title">Today's Papers</p>
 <ul class="toc-list">
-  <li><a href="#virology-article-1">DNA capture and amplicon enrichment approaches for next-generation sequencing of Mycoplasma genitalium directly from clinical samples</a></li>
-  <li><a href="#virology-article-2">Global evolutionary and spatiotemporal transmission dynamics of human respiroviruses and orthorubulaviruses</a></li>
-  <li><a href="#virology-article-3">Genetic variants associated with 90-day survival in sepsis patients</a></li>
-  <li><a href="#virology-article-4">Strain-resolved metagenomics shows gut microbiome signatures in a case-control study of Malawian children with zoonotic schistosomiasis</a></li>
-  <li><a href="#virology-article-5">Olfactory epithelium local proteomic during SARS-CoV-2 infection in hamsters</a></li>
+  <li><a href="#virology-article-1">ViDAS: Timely and Granular Estimation of Respiratory Virus Distributions in SARI Surveillance in Brazil</a></li>
+  <li><a href="#virology-article-2">Seroincidence of typhoidal Salmonella infection in eastern Democratic Republic of the Congo: a population-based cross-sectional serosurvey</a></li>
+  <li><a href="#virology-article-3">Potential public health and economic impact of influenza and COVID-19 multicomponent vaccination (mRNA-1083) for adults aged 65 years and older in France</a></li>
 </ul>
 
 <hr>
 
 <div class="article" id="virology-article-1">
-<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.04.29.26351683v2">DNA capture and amplicon enrichment approaches for next-generation sequencing of Mycoplasma genitalium directly from clinical samples</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.04.29.26351683">10.64898/2026.04.29.26351683</a> · Score: <code>████░░░░░░</code> 0.433</p>
-<p><span class="label">Core Problem:</span> Direct genome sequencing of Mycoplasma genitalium from clinical specimens is challenging due to the organism&#x27;s low bacterial load</p>
-<p><span class="label">Proposed Solution:</span> We developed and compared two DNA enrichment strategies - amplicon-based and hybridisation capture-based - coupled with next-generation sequencing, and assessed the suitability of DNA capture for whole-genome sequencing and high-resolution molecular typing. The enrichment approaches, RNA bait hybridisation and targeted sequence amplification, were combined with paired-end sequencing on the Illumina iSeq 100</p>
-<p><span class="label">Key Impact:</span> genitalium-positive specimens</p>
-<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
+<h3>1. <a href="https://www.medrxiv.org/content/10.64898/2026.11.25.26368960v1">ViDAS: Timely and Granular Estimation of Respiratory Virus Distributions in SARI Surveillance in Brazil</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.25.26368960">10.64898/2026.11.25.26368960</a> · Score: <code>████░░░░░░</code> 0.377</p>
+<p><span class="label">Core Problem:</span> Effective monitoring of Severe Acute Respiratory Infections (SARI) is critical for public health but faces challenges such as reporting delays, incomplete information on negative test results, and data sparsity in specific regions and age groups</p>
+<p><span class="label">Proposed Solution:</span> This study proposes a novel statistical framework to estimate the granular distribution of respiratory viruses among hospitalized SARI patients in Brazil. We employ Gradient Boosting Decision Trees (GBDT) to model viral proportions as conditional probabilities based on patient age, location, and time</p>
+<p><span class="label">Key Impact:</span> This approach provides a computationally efficient, high-resolution framework for timely surveillance of respiratory-virus distributions, including in municipalities with limited immediate data availability</p>
+<p><span class="label">Methodology:</span> Machine Learning techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-2">
-<h3>2. <a href="https://www.biorxiv.org/content/10.64898/2026.11.26.769081v1">Global evolutionary and spatiotemporal transmission dynamics of human respiroviruses and orthorubulaviruses</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.26.769081">10.64898/2026.11.26.769081</a> · Score: <code>████░░░░░░</code> 0.417</p>
-<p><span class="label">Core Problem:</span> Human parainfluenza viruses (HPIVs) cause recurrent epidemics and are a major cause of hospitalization worldwide</p>
-<p><span class="label">Proposed Solution:</span> However, the evolutionary and transmission dynamics driving HPIV persistence remain unclear. We analysed 1,161 archived samples representing four HPIV types from seven countries using genomic sequencing and Bayesian phylodynamic inference</p>
-<p><span class="label">Key Impact:</span> These findings identify distinct evolutionary and transmission dynamics underlying HPIV persistence and inform the development of broadly protective vaccines and therapeutics</p>
-<p><span class="label">Methodology:</span> Phylodynamic techniques were central to the study design.</p>
+<h3>2. <a href="https://www.medrxiv.org/content/10.64898/2026.11.25.26368987v1">Seroincidence of typhoidal Salmonella infection in eastern Democratic Republic of the Congo: a population-based cross-sectional serosurvey</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.25.26368987">10.64898/2026.11.25.26368987</a> · Score: <code>███░░░░░░░</code> 0.296</p>
+<p><span class="label">Core Problem:</span> Background: The Democratic Republic of the Congo (DRC) lacks population-based estimates of the incidence of typhoidal Salmonella infection, despite clinical and mortality evidence of a high burden, and has yet to introduce typhoid conjugate vaccine (TCV)</p>
+<p><span class="label">Proposed Solution:</span> We estimated seroincidence in conflict-affected Angumu Health Zone, Ituri Province. Methods: We conducted a cross-sectional serosurvey across 14 health areas within an operational malaria intervention survey in April-May 2024</p>
+<p><span class="label">Key Impact:</span> Funding: Medecins Sans Frontieres, Operational Centre Geneva</p>
+<p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
 <div class="article" id="virology-article-3">
-<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.11.23.26368566v1">Genetic variants associated with 90-day survival in sepsis patients</a></h3>
-<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.23.26368566">10.64898/2026.11.23.26368566</a> · Score: <code>████░░░░░░</code> 0.390</p>
-<p><span class="label">Core Problem:</span> Sepsis is a highly prevalent and life-threatening syndrome resulting from an exaggerated inflammatory response to an infection</p>
-<p><span class="label">Proposed Solution:</span> Its etiology is multifactorial and involves both environmental and genetic factors that are presently poorly understood. We conducted a genome-wide association study (GWAS) on sepsis patients survival at 90-day following admission in the ICU</p>
-<p><span class="label">Key Impact:</span> However, further investigation in an independent cohort will be necessary for validation of the associations</p>
-<p><span class="label">Methodology:</span> Genome-Wide techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-4">
-<h3>4. <a href="https://www.biorxiv.org/content/10.64898/2026.11.25.769124v1">Strain-resolved metagenomics shows gut microbiome signatures in a case-control study of Malawian children with zoonotic schistosomiasis</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.25.769124">10.64898/2026.11.25.769124</a> · Score: <code>████░░░░░░</code> 0.371</p>
-<p><span class="label">Core Problem:</span> In 2024, Mangochi District, Malawi, we identified unexpected cases of zoonotic schistosomiasis associated with faecal egg excretion of Schistosoma haematobium, Schistosoma mattheei and hybrids thereof (S</p>
-<p><span class="label">Proposed Solution:</span> haematobium x S. mattheei)</p>
-<p><span class="label">Key Impact:</span> Future inclusion of livestock and environmental samples could be used to better identify where transmission pathways overlap, providing evidence to inform integrated disease surveillance and control</p>
-<p><span class="label">Methodology:</span> Metagenomics techniques were central to the study design.</p>
-</div>
-
-<div class="article" id="virology-article-5">
-<h3>5. <a href="https://www.biorxiv.org/content/10.64898/2026.11.25.769107v1">Olfactory epithelium local proteomic during SARS-CoV-2 infection in hamsters</a></h3>
-<p class="meta">BIORXIV · DOI: <a href="https://doi.org/10.64898/2026.11.25.769107">10.64898/2026.11.25.769107</a> · Score: <code>████░░░░░░</code> 0.360</p>
-<p><span class="label">Core Problem:</span> SARS-CoV-2 has been extensively studied since its recent emergence</p>
-<p><span class="label">Proposed Solution:</span> It has proven to be an excellent model of respiratory virus impact on nasal epithelium for its massive impact notably on the olfactory epithelium using the hamster animal model. We and others have previously observed that following infection, the nasal epithelium is massively infiltrated by innate immune cells followed by desquamation leading to release of cellular debris in the lumen of the nasal cavity</p>
-<p><span class="label">Key Impact:</span> Our approach offers an alternative to study host-virus interactions using spatially restricted proteomic</p>
+<h3>3. <a href="https://www.medrxiv.org/content/10.64898/2026.11.25.26368982v1">Potential public health and economic impact of influenza and COVID-19 multicomponent vaccination (mRNA-1083) for adults aged 65 years and older in France</a></h3>
+<p class="meta">MEDRXIV · DOI: <a href="https://doi.org/10.64898/2026.11.25.26368982">10.64898/2026.11.25.26368982</a> · Score: <code>██░░░░░░░░</code> 0.244</p>
+<p><span class="label">Core Problem:</span> Seasonal influenza and SARS-CoV-2 continue to cause substantial disease burden, particularly among older adults</p>
+<p><span class="label">Proposed Solution:</span> The potential public health and economic impact of introducing combined enhanced influenza/COVID-19 vaccine, mRNA-1083, was assessed, for adults [&amp;ge;]65 years, versus separate high-dose inactivated influenza vaccine (HD-IIV) and BNT162b2 COVID-19 vaccination. A static decision-tree health economic model for France evaluated five value dimensions with mRNA-1083, in a stepwise approach, during an average post-pandemic season</p>
+<p><span class="label">Key Impact:</span> Results support that mRNA-1083 may improve seasonal respiratory vaccination by combining convenience, health system efficiency and potential for improved protection, higher coverage, and better influenza strain matching in a single injection</p>
 <p><span class="label">Methodology:</span> Standard experimental and analytical methods techniques were central to the study design.</p>
 </div>
 
@@ -1060,6 +1015,11 @@ footer {
 
 <p class="section-title">All Featured Articles</p>
 <ul class="history-list">
+  <li><a href="https://doi.org/10.64898/2026.04.29.26351683">DNA capture and amplicon enrichment approaches for next-generation sequencing of Mycoplasma genitalium directly from clinical samples</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.23.26368566">Genetic variants associated with 90-day survival in sepsis patients</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.25.769107">Olfactory epithelium local proteomic during SARS-CoV-2 infection in hamsters</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.25.769124">Strain-resolved metagenomics shows gut microbiome signatures in a case-control study of Malawian children with zoonotic schistosomiasis</a><span class="history-date">Nov 27, 2026</span></li>
+  <li><a href="https://doi.org/10.64898/2026.11.26.769081">Global evolutionary and spatiotemporal transmission dynamics of human respiroviruses and orthorubulaviruses</a><span class="history-date">Nov 27, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.16.765078">Ruthenium Coordination Architecture Redirects Imiquimod Antiviral Activity</a><span class="history-date">Nov 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.20.768181">Come together: Coordinate deconvolution of viral recombination, reassortment, and epistatic survival</a><span class="history-date">Nov 26, 2026</span></li>
   <li><a href="https://doi.org/10.64898/2026.11.23.768492">Live vibratome sectioning of human lung and cerebral organoids for infection studies with respiratory and neurotropic viruses</a><span class="history-date">Nov 26, 2026</span></li>
@@ -1464,7 +1424,7 @@ footer {
 </ul>
 </section>
 
-<footer>Generated 2026-11-27T14:33:36 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
+<footer>Generated 2026-11-28T11:29:17 UTC · Powered by Bio-Preprint Impact Digest pipeline</footer>
 <script>
 (function () {
   var body = document.body;

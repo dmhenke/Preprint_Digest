@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-11-27T14:33:36.137277+00:00",
+  "generated_utc": "2026-11-28T11:29:17.084962+00:00",
   "tracks": {
     "core": {
       "name": "Computational & Molecular Biology",
       "articles": [
         {
           "rank": 1,
-          "title": "Do single-cell foundation models need 512 dimensions for one number?",
-          "doi": "10.64898/2026.11.24.768376",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768376v1",
-          "source": "biorxiv",
-          "score": 0.5087
+          "title": "Cross-cohort reproducibility of AI-assisted nanopore methylation profiling establishes diagnostic equivalence to WHO-integrated diagnoses in adult CNS tumors",
+          "doi": "10.64898/2026.11.26.26368828",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.26.26368828v1",
+          "source": "medrxiv",
+          "score": 0.3265
         },
         {
           "rank": 2,
-          "title": "Discovery of novel drug combinations for oral squamous cell carcinoma through integrated analysis of single-cell RNA-sequencing datasets",
-          "doi": "10.64898/2026.11.24.768808",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768808v1",
-          "source": "biorxiv",
-          "score": 0.4609
-        },
-        {
-          "rank": 3,
-          "title": "scRefine: hierarchical and contrastive learning for biologically faithful single-cell atlas integration and annotation",
-          "doi": "10.64898/2026.11.25.769099",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769099v1",
-          "source": "biorxiv",
-          "score": 0.4405
-        },
-        {
-          "rank": 4,
-          "title": "A dynamic proteomic HECT E3 ligase screen reveals substrate exclusivity and redundancies.",
-          "doi": "10.64898/2026.11.24.768805",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768805v1",
-          "source": "biorxiv",
-          "score": 0.4309
-        },
-        {
-          "rank": 5,
-          "title": "High-resolution, high-throughput screening reveals potent target sites for RNAi and Cas13 systems",
-          "doi": "10.1101/2025.11.17.688664",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688664v3",
-          "source": "biorxiv",
-          "score": 0.4171
+          "title": "Performance Characteristics of Reasoning Large Language Models for Evidence Extraction from Clinical Genomics Literature",
+          "doi": "10.64898/2026.02.18.26346543",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.02.18.26346543v2",
+          "source": "medrxiv",
+          "score": 0.2959
         }
       ]
     },
@@ -51,43 +27,27 @@
       "articles": [
         {
           "rank": 1,
-          "title": "DNA capture and amplicon enrichment approaches for next-generation sequencing of Mycoplasma genitalium directly from clinical samples",
-          "doi": "10.64898/2026.04.29.26351683",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.04.29.26351683v2",
+          "title": "ViDAS: Timely and Granular Estimation of Respiratory Virus Distributions in SARI Surveillance in Brazil",
+          "doi": "10.64898/2026.11.25.26368960",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.25.26368960v1",
           "source": "medrxiv",
-          "score": 0.4332
+          "score": 0.3767
         },
         {
           "rank": 2,
-          "title": "Global evolutionary and spatiotemporal transmission dynamics of human respiroviruses and orthorubulaviruses",
-          "doi": "10.64898/2026.11.26.769081",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769081v1",
-          "source": "biorxiv",
-          "score": 0.4171
+          "title": "Seroincidence of typhoidal Salmonella infection in eastern Democratic Republic of the Congo: a population-based cross-sectional serosurvey",
+          "doi": "10.64898/2026.11.25.26368987",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.25.26368987v1",
+          "source": "medrxiv",
+          "score": 0.2958
         },
         {
           "rank": 3,
-          "title": "Genetic variants associated with 90-day survival in sepsis patients",
-          "doi": "10.64898/2026.11.23.26368566",
-          "url": "https://www.medrxiv.org/content/10.64898/2026.11.23.26368566v1",
+          "title": "Potential public health and economic impact of influenza and COVID-19 multicomponent vaccination (mRNA-1083) for adults aged 65 years and older in France",
+          "doi": "10.64898/2026.11.25.26368982",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.11.25.26368982v1",
           "source": "medrxiv",
-          "score": 0.3903
-        },
-        {
-          "rank": 4,
-          "title": "Strain-resolved metagenomics shows gut microbiome signatures in a case-control study of Malawian children with zoonotic schistosomiasis",
-          "doi": "10.64898/2026.11.25.769124",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769124v1",
-          "source": "biorxiv",
-          "score": 0.3714
-        },
-        {
-          "rank": 5,
-          "title": "Olfactory epithelium local proteomic during SARS-CoV-2 infection in hamsters",
-          "doi": "10.64898/2026.11.25.769107",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769107v1",
-          "source": "biorxiv",
-          "score": 0.3595
+          "score": 0.2444
         }
       ]
     }
